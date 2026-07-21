@@ -89,7 +89,10 @@ export default function SymbolPage({ params }: Props) {
       <AdSlot type="adsense" slotId="CONTENT_TOP_SLOT_ID" className="mb-10" />
 
       <div className="prose prose-invert prose-night max-w-none">
-        <SymbolContentTabs symbol={symbol} />
+        <SymbolContentTabs 
+          symbol={symbol} 
+          allSymbolsLight={allSymbols.map(s => ({ title: s.title, slug: s.slug }))}
+        />
 
         <AdSlot type="yandex" yandexId="R-A-XXXXXX-2" className="my-10" />
 

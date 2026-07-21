@@ -6,10 +6,17 @@ import { Sparkles, BookOpen, Brain, ChevronRight } from 'lucide-react';
 import AdSlot from '@/components/AdSlot';
 import PartnerAd from '@/components/PartnerAd';
 import TextToSpeech from '@/components/TextToSpeech';
+import RichTextWithLinks from '@/components/RichTextWithLinks';
 
 type Tab = 'general' | 'religious' | 'psychological';
 
-export default function SymbolContentTabs({ symbol }: { symbol: DreamSymbol }) {
+export default function SymbolContentTabs({ 
+  symbol, 
+  allSymbolsLight 
+}: { 
+  symbol: DreamSymbol;
+  allSymbolsLight?: { title: string; slug: string }[];
+}) {
   const [activeTab, setActiveTab] = useState<Tab>('general');
 
   return (
@@ -60,11 +67,11 @@ export default function SymbolContentTabs({ symbol }: { symbol: DreamSymbol }) {
         {activeTab === 'general' && (
           <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
             <h2 className="text-2xl font-serif font-bold text-mystic-100 mb-4 border-b border-night-700 pb-2 flex items-center justify-between">
-              Genel Yorum
+              Rüyada {symbol.title} Görmek - Genel Yorum
             </h2>
             <TextToSpeech text={symbol.content.generalMeaning} />
             <div className="text-night-200 leading-relaxed bg-night-800/30 p-6 rounded-2xl border-l-4 border-mystic-500 mb-8 whitespace-pre-wrap">
-              {symbol.content.generalMeaning}
+              <RichTextWithLinks text={symbol.content.generalMeaning} symbols={allSymbolsLight} currentSlug={symbol.slug} />
             </div>
 
             <PartnerAd slug={symbol.slug} className="my-8" />
@@ -97,11 +104,11 @@ export default function SymbolContentTabs({ symbol }: { symbol: DreamSymbol }) {
         {activeTab === 'religious' && (
           <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
             <h2 className="text-2xl font-serif font-bold text-gold-400 mb-4 border-b border-night-700 pb-2 flex items-center gap-2">
-              <BookOpen className="w-6 h-6" /> Kadim Kaynaklara Göre...
+              <BookOpen className="w-6 h-6" /> Rüyada {symbol.title} Görmek - İslami ve Diyanet Tabiri
             </h2>
             <TextToSpeech text={symbol.content.religiousMeaning} />
             <div className="text-night-200 leading-relaxed bg-night-800/30 p-6 rounded-2xl border-l-4 border-gold-500 text-lg whitespace-pre-wrap">
-              {symbol.content.religiousMeaning}
+              <RichTextWithLinks text={symbol.content.religiousMeaning} symbols={allSymbolsLight} currentSlug={symbol.slug} />
             </div>
             
             <div className="mt-6 p-4 rounded-xl border border-night-700 bg-night-800/40 text-night-200 text-sm flex items-center gap-3">
@@ -121,11 +128,11 @@ export default function SymbolContentTabs({ symbol }: { symbol: DreamSymbol }) {
         {activeTab === 'psychological' && (
           <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
             <h2 className="text-2xl font-serif font-bold text-blue-400 mb-4 border-b border-night-700 pb-2 flex items-center gap-2">
-              <Brain className="w-6 h-6" /> Bilinçaltınız Aslında Ne Diyor?
+              <Brain className="w-6 h-6" /> Rüyada {symbol.title} Görmek - Psikolojik Analiz
             </h2>
             <TextToSpeech text={symbol.content.psychologicalMeaning} />
             <div className="text-night-200 leading-relaxed bg-night-800/30 p-6 rounded-2xl border-l-4 border-blue-500 text-lg whitespace-pre-wrap">
-              {symbol.content.psychologicalMeaning}
+              <RichTextWithLinks text={symbol.content.psychologicalMeaning} symbols={allSymbolsLight} currentSlug={symbol.slug} />
             </div>
             
             <div className="mt-6 p-4 rounded-xl border border-night-700 bg-night-800/40 text-night-200 text-sm flex items-center gap-3">
