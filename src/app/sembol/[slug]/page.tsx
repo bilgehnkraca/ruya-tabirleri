@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 import Link from 'next/link';
 import AdSlot from '@/components/AdSlot';
+import SymbolContentTabs from '@/components/SymbolContentTabs';
 
 interface Props {
   params: { slug: string };
@@ -88,37 +89,7 @@ export default function SymbolPage({ params }: Props) {
       <AdSlot type="adsense" slotId="CONTENT_TOP_SLOT_ID" className="mb-10" />
 
       <div className="prose prose-invert prose-night max-w-none">
-        <h2 className="text-2xl font-serif font-bold text-mystic-100 mt-8 mb-4 border-b border-night-700 pb-2">Peki bu rüyanın asıl şifresi nedir?</h2>
-        <p className="text-night-200 leading-relaxed mb-8">{symbol.content.generalMeaning}</p>
-
-        <AdSlot type="yandex" yandexId="R-A-19625893-1" className="my-10" />
-
-        <h2 className="text-2xl font-serif font-bold text-mystic-100 mt-10 mb-6 border-b border-night-700 pb-2">Rüyadaki detaylar tabiri tamamen değiştirir...</h2>
-        <div className="space-y-8">
-          {symbol.content.variations.map((variation, index) => (
-            <div key={index} className="bg-night-800/30 rounded-xl p-6 border border-night-800">
-              <h3 className="text-xl font-semibold text-mystic-300 mt-0 mb-3">{variation.title}</h3>
-              <p className="text-night-200 m-0">{variation.content}</p>
-            </div>
-          ))}
-        </div>
-
-        <AdSlot type="adsense" slotId="CONTENT_MIDDLE_1" className="my-10" />
-
-        <div className="grid md:grid-cols-2 gap-8 mt-12 mb-10">
-          <div>
-            <h2 className="text-2xl font-serif font-bold text-mystic-100 mb-4 border-b border-night-700 pb-2">Kadim Kaynaklara Göre...</h2>
-            <p className="text-night-200 leading-relaxed bg-night-800/20 p-5 rounded-xl border-l-4 border-mystic-500">
-              {symbol.content.religiousMeaning}
-            </p>
-          </div>
-          <div>
-            <h2 className="text-2xl font-serif font-bold text-mystic-100 mb-4 border-b border-night-700 pb-2">Bilinçaltınız Aslında Ne Diyor?</h2>
-            <p className="text-night-200 leading-relaxed bg-night-800/20 p-5 rounded-xl border-l-4 border-accent-500">
-              {symbol.content.psychologicalMeaning}
-            </p>
-          </div>
-        </div>
+        <SymbolContentTabs symbol={symbol} />
 
         <AdSlot type="yandex" yandexId="R-A-XXXXXX-2" className="my-10" />
 
