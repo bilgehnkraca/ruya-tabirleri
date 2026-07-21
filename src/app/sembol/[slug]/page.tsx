@@ -91,7 +91,7 @@ export default function SymbolPage({ params }: Props) {
         <h2 className="text-2xl font-serif font-bold text-mystic-100 mt-8 mb-4 border-b border-night-700 pb-2">Peki bu rüyanın asıl şifresi nedir?</h2>
         <p className="text-night-200 leading-relaxed mb-8">{symbol.content.generalMeaning}</p>
 
-        <AdSlot type="yandex" yandexId="R-A-XXXXXX-1" className="my-10" />
+        <AdSlot type="yandex" yandexId="R-A-19625893-1" className="my-10" />
 
         <h2 className="text-2xl font-serif font-bold text-mystic-100 mt-10 mb-6 border-b border-night-700 pb-2">Rüyadaki detaylar tabiri tamamen değiştirir...</h2>
         <div className="space-y-8">
