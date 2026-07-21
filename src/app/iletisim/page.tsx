@@ -62,7 +62,7 @@ export default function ContactPage() {
 
         <div className="bg-night-800/50 p-8 rounded-2xl border border-night-700/50">
           <h3 className="text-xl font-bold text-white mb-6">İletişim Formu</h3>
-          <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
+          <form className="space-y-4">
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-night-300 mb-1">Adınız Soyadınız</label>
               <input 

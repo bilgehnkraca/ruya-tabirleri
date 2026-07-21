@@ -55,10 +55,10 @@ export default function AboutPage() {
 
         <h2 className="text-2xl font-serif font-bold text-white mb-4">İçerik Kalitesi ve Güvenilirlik</h2>
         <p className="text-night-200 leading-relaxed mb-6">
-          Sitemizdeki tüm içerikler, kapsamlı araştırmalar sonucu özenle hazırlanır. Hiçbir yoruma "kesin böyledir" veya "geleceği gösterir" iddiasıyla yaklaşmıyoruz; çünkü rüyalar son derece kişiseldir ve ancak rüyayı gören kişinin mevcut yaşam bağlamı içinde gerçek anlamını bulur. Bizim sunduğumuz içerikler, rüyanızı kendi içsel yolculuğunuzda yorumlayabilmeniz için bir anahtar niteliği taşır.
+          Sitemizdeki tüm içerikler, kapsamlı araştırmalar sonucu özenle hazırlanır. Hiçbir yoruma &quot;kesin böyledir&quot; veya &quot;geleceği gösterir&quot; iddiasıyla yaklaşmıyoruz; çünkü rüyalar son derece kişiseldir ve ancak rüyayı gören kişinin mevcut yaşam bağlamı içinde gerçek anlamını bulur. Bizim sunduğumuz içerikler, rüyanızı kendi içsel yolculuğunuzda yorumlayabilmeniz için bir anahtar niteliği taşır.
         </p>
         <p className="text-night-200 leading-relaxed">
-          Rüya Sözlüğü'nü tercih ettiğiniz için teşekkür ederiz. İyi uykular ve güzel rüyalar dileriz.
+          Rüya Sözlüğü&apos;nü tercih ettiğiniz için teşekkür ederiz. İyi uykular ve güzel rüyalar dileriz.
         </p>
       </div>
     </article>
