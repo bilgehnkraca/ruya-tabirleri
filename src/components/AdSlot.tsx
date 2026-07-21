@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useId } from 'react';
 
 type AdSlotProps = {
   type: 'adsense' | 'yandex';
@@ -13,6 +13,7 @@ type AdSlotProps = {
 
 export default function AdSlot({ type, slotId, yandexId, className = '', format = 'auto', responsive = true }: AdSlotProps) {
   const adRef = useRef<HTMLDivElement>(null);
+  const reactId = useId();
 
   useEffect(() => {
     // Only run in production and if consent is granted (assumed logic)
@@ -46,7 +47,7 @@ export default function AdSlot({ type, slotId, yandexId, className = '', format 
     );
   }
 
-  const uniqueId = `yandex_rtb_${yandexId}_${Math.random().toString(36).substring(7)}`;
+  const uniqueId = `yandex_rtb_${yandexId}_${reactId.replace(/:/g, '')}`;
 
   if (type === 'yandex') {
     return <div id={uniqueId} ref={adRef} className={`w-full min-h-[90px] ${className}`}></div>;
