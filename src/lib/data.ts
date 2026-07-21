@@ -2,14 +2,27 @@ import fs from 'fs';
 import path from 'path';
 import { DreamSymbol } from './types';
 
-const dataFile = path.join(process.cwd(), 'content', 'symbols', 'symbols.json');
+const symbolsDir = path.join(process.cwd(), 'content', 'symbols', 'items');
 
 export function getAllSymbols(): DreamSymbol[] {
-  if (!fs.existsSync(dataFile)) {
+  if (!fs.existsSync(symbolsDir)) {
     return [];
   }
-  const fileContent = fs.readFileSync(dataFile, 'utf-8');
-  return JSON.parse(fileContent) as DreamSymbol[];
+  
+  const files = fs.readdirSync(symbolsDir).filter(file => file.endsWith('.json'));
+  const symbols: DreamSymbol[] = [];
+  
+  for (const file of files) {
+    const filePath = path.join(symbolsDir, file);
+    const fileContent = fs.readFileSync(filePath, 'utf-8');
+    try {
+      symbols.push(JSON.parse(fileContent) as DreamSymbol);
+    } catch (e) {
+      console.error(`Error parsing JSON for file ${file}`, e);
+    }
+  }
+  
+  return symbols;
 }
 
 export function getSymbolBySlug(slug: string): DreamSymbol | undefined {
