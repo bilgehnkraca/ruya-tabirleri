@@ -14,6 +14,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.ruyasozlugunuz.com'),
   title: {
     template: "%s | Rüya Tabirleri Sözlüğü",
     default: "Rüya Tabirleri Sözlüğü - En Kapsamlı Rüya Yorumları",

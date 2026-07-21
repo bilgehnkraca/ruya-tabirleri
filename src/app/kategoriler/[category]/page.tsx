@@ -16,6 +16,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${categoryName} Kategorisindeki Rüya Tabirleri`,
     description: `${categoryName} ile ilgili tüm rüya sembolleri ve detaylı yorumları.`,
+    alternates: {
+      canonical: `/kategoriler/${params.category}`,
+    }
   };
 }
 
@@ -29,8 +32,38 @@ export default function CategoryPage({ params }: Props) {
   if (symbols.length === 0) notFound();
   const categoryName = params.category.replace('-', ' ');
 
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Anasayfa', item: 'https://www.ruyasozlugunuz.com' },
+      { '@type': 'ListItem', position: 2, name: 'Kategoriler', item: 'https://www.ruyasozlugunuz.com/kategoriler' },
+      { '@type': 'ListItem', position: 3, name: categoryName, item: `https://www.ruyasozlugunuz.com/kategoriler/${params.category}` }
+    ]
+  };
+
+  const collectionSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: `${categoryName} Kategorisindeki Rüya Tabirleri`,
+    description: `${categoryName} ile ilgili tüm rüya sembolleri ve detaylı yorumları.`,
+    url: `https://www.ruyasozlugunuz.com/kategoriler/${params.category}`,
+    mainEntity: {
+      '@type': 'ItemList',
+      itemListElement: symbols.map((symbol, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        url: `https://www.ruyasozlugunuz.com/ruyada-${symbol.slug}-gormek`,
+        name: symbol.title
+      }))
+    }
+  };
+
   return (
     <div className="max-w-5xl mx-auto pb-12">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }} />
+
       <nav className="text-sm text-night-400 mb-8 flex items-center gap-2">
         <Link href="/" className="hover:text-mystic-400 transition-colors">Anasayfa</Link>
         <span>/</span>

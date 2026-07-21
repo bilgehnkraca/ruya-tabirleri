@@ -48,9 +48,9 @@ export default function SymbolPage({ params }: Props) {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Anasayfa', item: 'https://ruyatabirleri.com' },
-      { '@type': 'ListItem', position: 2, name: 'Kategoriler', item: 'https://ruyatabirleri.com/kategoriler' },
-      { '@type': 'ListItem', position: 3, name: symbol.title, item: `https://ruyatabirleri.com/ruyada-${symbol.slug}-gormek` }
+      { '@type': 'ListItem', position: 1, name: 'Anasayfa', item: 'https://www.ruyasozlugunuz.com' },
+      { '@type': 'ListItem', position: 2, name: 'Kategoriler', item: 'https://www.ruyasozlugunuz.com/kategoriler' },
+      { '@type': 'ListItem', position: 3, name: symbol.title, item: `https://www.ruyasozlugunuz.com/ruyada-${symbol.slug}-gormek` }
     ]
   };
 
