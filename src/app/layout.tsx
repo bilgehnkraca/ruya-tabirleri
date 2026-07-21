@@ -79,6 +79,9 @@ export default function RootLayout({
               Rüya<span className="text-mystic-500">Sözlüğü</span>
             </a>
             <nav className="flex space-x-4 md:space-x-6 text-sm md:text-base">
+              <a href="/detayli-arama" className="hover:text-mystic-200 text-mystic-300 font-medium transition-colors flex items-center gap-1">
+                <span className="hidden sm:inline">🔍</span> Detaylı Arama
+              </a>
               <a href="/kategoriler" className="hover:text-mystic-400 transition-colors">Kategoriler</a>
               <a href="/a-z" className="hover:text-mystic-400 transition-colors">A-Z İndeks</a>
             </nav>
