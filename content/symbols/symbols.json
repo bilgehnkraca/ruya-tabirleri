@@ -1721,13 +1721,13 @@
           "question": "Rüyada Kabe örtüsünün değiştiğini görmek nedir?",
           "answer": "Toplumda veya iş hayatınızda yaşanacak yeni bir döneme, yenilenmeye ve itibarın tazelenmesine yorulur."
         }
-      ],
-      "relatedSymbols": [
-        "su",
-        "aglamak",
-        "dugun"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "su",
+      "aglamak",
+      "dugun"
+    ]
   },
   {
     "slug": "yagmur",
@@ -1774,13 +1774,13 @@
           "question": "Rüyada çamurlu yağmur yağması ne anlama gelir?",
           "answer": "Çevrenizde dolaşan iftiralara, itibar zedeleyici sözlere ve haksızlığa uğrama ihtimaline karşı uyarıdır."
         }
-      ],
-      "relatedSymbols": [
-        "su",
-        "deniz",
-        "kar"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "su",
+      "deniz",
+      "kar"
+    ]
   },
   {
     "slug": "bocek",
@@ -1827,13 +1827,13 @@
           "question": "Rüyada karınca sürüsü görmek de aynı mıdır?",
           "answer": "Hayır, karınca genellikle eve girecek berekete, çok çalışarak elde edilecek büyük bir zenginliğe veya kalabalık bir cemaate işaret eder."
         }
-      ],
-      "relatedSymbols": [
-        "yilan",
-        "kedi",
-        "karinca"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "yilan",
+      "kedi",
+      "karinca"
+    ]
   },
   {
     "slug": "yuzuk",
@@ -1880,13 +1880,13 @@
           "question": "Rüyada yüzüğün taşının düşmesi kötü müdür?",
           "answer": "Evet, genellikle maddi veya manevi bir \"değer\" kaybına, itibar zedelenmesine veya çok sevilen bir eşyanın hasar görmesine yorumlanır."
         }
-      ],
-      "relatedSymbols": [
-        "altin",
-        "dugun",
-        "gelinlik"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "altin",
+      "dugun",
+      "gelinlik"
+    ]
   },
   {
     "slug": "karinca",
@@ -1933,13 +1933,13 @@
           "question": "Rüyada kanatlı karınca sürüsü görmek nedir?",
           "answer": "Kolektif bir değişime, iş yerinizde toplu bir taşınmaya, terfi veya görev değişikliğine (uçarak yer değiştirme) yorulur."
         }
-      ],
-      "relatedSymbols": [
-        "bocek",
-        "ev",
-        "para"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "bocek",
+      "ev",
+      "para"
+    ]
   },
   {
     "slug": "aslan",
@@ -1986,13 +1986,13 @@
           "question": "Rüyada aslandan saklanmak kötü müdür?",
           "answer": "Sorumluluk almaktan veya size yüklenen liderlik rolünden korktuğunuzu, potansiyelinizi kullanmaktan kaçındığınızı gösterir."
         }
-      ],
-      "relatedSymbols": [
-        "kopek",
-        "ev",
-        "kabe"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "kopek",
+      "ev",
+      "kabe"
+    ]
   },
   {
     "slug": "kus",
@@ -2039,13 +2039,13 @@
           "question": "Rüyada yaralı bir kuş görmek kötü müdür?",
           "answer": "Kalp kırıklığına, incinmiş bir umuda veya yardıma muhtaç bir yakınınızın (özellikle masum birinin) sizden destek beklediğine işaret eder."
         }
-      ],
-      "relatedSymbols": [
-        "ucmak",
-        "bebek",
-        "altin"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "ucmak",
+      "bebek",
+      "altin"
+    ]
   },
   {
     "slug": "ayna",
@@ -2092,13 +2092,13 @@
           "question": "Rüyada süslü (antika) ayna görmek ne demektir?",
           "answer": "Geçmişe duyulan özleme, eski ve köklü ilişkilere veya yüzeysel güzelliğe gereğinden fazla önem verildiğine işarettir."
         }
-      ],
-      "relatedSymbols": [
-        "su",
-        "kadin",
-        "yuzuk"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "su",
+      "kadin",
+      "yuzuk"
+    ]
   },
   {
     "slug": "kirmizi-renk",
@@ -2145,13 +2145,13 @@
           "question": "Rüyada evini kırmızıya boyamak ne anlama gelir?",
           "answer": "Ev içindeki tartışmaların (ateşin) artacağına veya tam tersine eve çok neşeli, coşkulu ve kutlama havası hakim olacak bir olayın yaşanacağına işaret eder."
         }
-      ],
-      "relatedSymbols": [
-        "ates",
-        "kan",
-        "dugun"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "ates",
+      "kan",
+      "dugun"
+    ]
   },
   {
     "slug": "sinav",
@@ -2198,13 +2198,13 @@
           "question": "Rüyada sınavgözetmeni olmak nedir?",
           "answer": "Çevrenizdeki insanları çok fazla yargıladığınıza, onların hatalarını aradığınıza veya yönetici konumuna (otoriteye) yükseldiğinize işarettir."
         }
-      ],
-      "relatedSymbols": [
-        "okul",
-        "kalem",
-        "kitap"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "okul",
+      "kalem",
+      "kitap"
+    ]
   },
   {
     "slug": "saat",
@@ -2251,13 +2251,13 @@
           "question": "Rüyada dijital saat görmek fark eder mi?",
           "answer": "Dijital saat genellikle modern hayata, aceleciliğe, netliğe (rakamlar kesindir) ve çok daha hızlı gelişecek, teknolojik veya rasyonel konulara işaret eder."
         }
-      ],
-      "relatedSymbols": [
-        "altin",
-        "ayna",
-        "yuzuk"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "altin",
+      "ayna",
+      "yuzuk"
+    ]
   },
   {
     "slug": "ayi",
@@ -2304,13 +2304,13 @@
           "question": "Rüyada ayı öldürmek her zaman iyi midir?",
           "answer": "Evet, kaba kuvvet ve cehaletle sizi alt etmeye çalışan büyük bir beladan veya düşmandan tamamen kurtulmaya yorulur."
         }
-      ],
-      "relatedSymbols": [
-        "aslan",
-        "kopek",
-        "kedi"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "aslan",
+      "kopek",
+      "kedi"
+    ]
   },
   {
     "slug": "domuz",
@@ -2357,13 +2357,13 @@
           "question": "Rüyada domuz eti ikram edilmesi kötü müdür?",
           "answer": "Evet, birinin sizi çok cazip ama tamamen etik dışı (veya haram) bir işe sürüklemeye çalışacağına dair çok net bir uyarıdır."
         }
-      ],
-      "relatedSymbols": [
-        "ayi",
-        "kopek",
-        "yilan"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "ayi",
+      "kopek",
+      "yilan"
+    ]
   },
   {
     "slug": "kavga-etmek",
@@ -2410,13 +2410,13 @@
           "question": "Rüyada kavga edip ağlamak kötü müdür?",
           "answer": "Hayır, ağlamak ferahlıktır. Tartışmanın ardından ağlamak, içinizdeki zehri attığınıza ve sorunun çözülerek büyük bir rahatlama yaşanacağına yorulur."
         }
-      ],
-      "relatedSymbols": [
-        "aglamak",
-        "kan",
-        "kopek"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "aglamak",
+      "kan",
+      "kopek"
+    ]
   },
   {
     "slug": "okul",
@@ -2463,13 +2463,13 @@
           "question": "Rüyada okulun yıkıldığını görmek kötü müdür?",
           "answer": "Mevcut inançlarınızın, bildiğinizi sandığınız doğruların veya eski düzeninizin radikal bir şekilde değişeceğine (yıkılacağına) işarettir."
         }
-      ],
-      "relatedSymbols": [
-        "sinav",
-        "kalem",
-        "kitap"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "sinav",
+      "kalem",
+      "kitap"
+    ]
   },
   {
     "slug": "hastane",
@@ -2516,13 +2516,13 @@
           "question": "Rüyada sedyede taşınmak kötü müdür?",
           "answer": "Kötü değildir ancak pasif bir duruma düştüğünüzü, kontrolü başkalarına (örneğin ailenize) bıraktığınızı gösterir. Geçici bir güçsüzlük dönemidir."
         }
-      ],
-      "relatedSymbols": [
-        "kan",
-        "olum",
-        "doktor"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "kan",
+      "olum",
+      "doktor"
+    ]
   },
   {
     "slug": "tabut",
@@ -2569,13 +2569,13 @@
           "question": "Rüyada eski ve kırık bir tabut görmek kötü müdür?",
           "answer": "Elbette, eski düşmanlıkların tekrar gün yüzüne çıkmasına veya uzun süredir saklanan bir sırrın artık gizlenemeyeceğine (kırılıp döküleceğine) delalet eder."
         }
-      ],
-      "relatedSymbols": [
-        "olum",
-        "mezarlik",
-        "altin"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "olum",
+      "mezarlik",
+      "altin"
+    ]
   },
   {
     "slug": "yuzmek",
@@ -2622,13 +2622,13 @@
           "question": "Rüyada kışın soğuk suda yüzmek ne anlama gelir?",
           "answer": "Zorlu şartlara göğüs germeye, nefsi terbiye etmeye veya sağlığınıza dikkat etmeniz gereken riskli bir döneme işaret eder."
         }
-      ],
-      "relatedSymbols": [
-        "su",
-        "deniz",
-        "balik"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "su",
+      "deniz",
+      "balik"
+    ]
   },
   {
     "slug": "anahtar",
@@ -2675,13 +2675,13 @@
           "question": "Rüyada anahtarı bilerek suya (denize) atmak kötü müdür?",
           "answer": "Bir sırrı sonsuza dek saklamaya, geçmişe tamamen sünger çekmeye ve bir konuyu (ilişkiyi) bir daha asla açılmamak üzere geri dönülmez şekilde bitirmeye işaret eder."
         }
-      ],
-      "relatedSymbols": [
-        "ev",
-        "araba-kullanmak",
-        "altin"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "ev",
+      "araba-kullanmak",
+      "altin"
+    ]
   },
   {
     "slug": "yemek-yemek",
@@ -2728,13 +2728,13 @@
           "question": "Rüyada yemek masasının devrilmesi kötü müdür?",
           "answer": "Maddi bir kaybı, israfı, rızkın tepilmesini veya ev içinde çıkacak çok büyük bir anlaşmazlığı (nimetin kadrini bilmemeyi) temsil eder."
         }
-      ],
-      "relatedSymbols": [
-        "su",
-        "ekmek",
-        "et"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "su",
+      "ekmek",
+      "et"
+    ]
   },
   {
     "slug": "ekmek",
@@ -2781,13 +2781,13 @@
           "question": "Rüyada ekmek arası bir şeyler yemek nedir?",
           "answer": "Küçük tasarruflarla büyük birikimler yapmaya, pratik zekaya ve sorunları hızlıca çözerek yoluna devam etmeye yorulur."
         }
-      ],
-      "relatedSymbols": [
-        "yemek-yemek",
-        "su",
-        "hamile-olmak"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "yemek-yemek",
+      "su",
+      "hamile-olmak"
+    ]
   },
   {
     "slug": "et",
@@ -2834,13 +2834,13 @@
           "question": "Rüyada et yemeği (etli yemek) yapmak nedir?",
           "answer": "Ailenizin refahı için gösterdiğiniz çabaya, misafir ağırlayacağınıza ve hanenize girecek berekete delalet eder."
         }
-      ],
-      "relatedSymbols": [
-        "yemek-yemek",
-        "kan",
-        "koyun"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "yemek-yemek",
+      "kan",
+      "koyun"
+    ]
   },
   {
     "slug": "yumurta",
@@ -2887,13 +2887,13 @@
           "question": "Rüyada yüzüne yumurta fırlatıldığını görmek ne anlama gelir?",
           "answer": "Toplum önünde küçük düşürülme korkusuna, haksız bir eleştiriye veya birilerinin sizi kasıtlı olarak kışkırtmaya çalıştığına delalet eder."
         }
-      ],
-      "relatedSymbols": [
-        "tavuk",
-        "bebek",
-        "yemek-yemek"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "tavuk",
+      "bebek",
+      "yemek-yemek"
+    ]
   },
   {
     "slug": "tavuk",
@@ -2940,13 +2940,13 @@
           "question": "Rüyada hastalıklı (kel) tavuk görmek kötü müdür?",
           "answer": "Evet, maddi darlığa, bereketsizliğe veya hanedeki bir kadının geçireceği geçici, hafif bir rahatsızlığa delalet eder."
         }
-      ],
-      "relatedSymbols": [
-        "yumurta",
-        "kus",
-        "yemek-yemek"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "yumurta",
+      "kus",
+      "yemek-yemek"
+    ]
   },
   {
     "slug": "koyun",
@@ -2993,13 +2993,13 @@
           "question": "Rüyada kaybolmuş bir kuzu bulmak ne demek?",
           "answer": "Yardıma muhtaç birine el uzatmaya, yetim veya öksüz sevindirmeye ve bunun karşılığında çok büyük dua (sevap) almaya delalet eder."
         }
-      ],
-      "relatedSymbols": [
-        "et",
-        "ayi",
-        "kus"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "et",
+      "ayi",
+      "kus"
+    ]
   },
   {
     "slug": "inek",
@@ -3046,13 +3046,13 @@
           "question": "Rüyada ineğin ısırması veya çifte atması nedir?",
           "answer": "Çok güvendiğiniz, size hep faydası dokunan birinden yiyeceğiniz büyük bir darbeye veya yaptığınız büyük bir hatanın (israfın) cezasını çekeceğinize delalet eder."
         }
-      ],
-      "relatedSymbols": [
-        "koyun",
-        "su",
-        "sari-yilan"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "koyun",
+      "su",
+      "sari-yilan"
+    ]
   },
   {
     "slug": "silah",
@@ -3099,13 +3099,13 @@
           "question": "Rüyada kurşun (mermi) görmek nedir?",
           "answer": "Ağızdan çıkacak sözlere, habere veya ufak tefek dedikodulara yorulur. Kurşun yemek, ağır bir laf işitmektir."
         }
-      ],
-      "relatedSymbols": [
-        "kan",
-        "asker",
-        "kavga-etmek"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "kan",
+      "asker",
+      "kavga-etmek"
+    ]
   },
   {
     "slug": "namaz-kilmak",
@@ -3152,13 +3152,13 @@
           "question": "Kadın birinin rüyada cemaate imamlık yaptığını görmesi kötü müdür?",
           "answer": "Geleneksel tabirlere göre olağandışı bir durum olduğu için, o bölgede çıkacak bir kargaşaya, yeniliğe (bidate) veya toplum yapısını değiştirecek bir olaya işaret eder."
         }
-      ],
-      "relatedSymbols": [
-        "kabe",
-        "aglamak",
-        "su"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "kabe",
+      "aglamak",
+      "su"
+    ]
   },
   {
     "slug": "kurt",
@@ -3205,13 +3205,13 @@
           "question": "Rüyada kurdun yüzünüze doğru hırlaması ne anlama gelir?",
           "answer": "Çok açık ve net bir tehdit alacağınıza, yüzleşmeniz gereken tehlikeli ve kaba bir insanın (veya rakibin) size meydan okuduğuna işarettir."
         }
-      ],
-      "relatedSymbols": [
-        "kopek",
-        "ayi",
-        "aslan"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "kopek",
+      "ayi",
+      "aslan"
+    ]
   },
   {
     "slug": "uzum",
@@ -3258,13 +3258,13 @@
           "question": "Rüyada üzüm yaprağı (asma yaprağı) görmek iyi midir?",
           "answer": "Evet, genellikle sır saklayan, evi derleyip toplayan hamarat bir kadına veya aile sırlarının güzelce muhafaza edildiğine delalet eder."
         }
-      ],
-      "relatedSymbols": [
-        "agac",
-        "su",
-        "yemek-yemek"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "agac",
+      "su",
+      "yemek-yemek"
+    ]
   },
   {
     "slug": "umreye-gitmek",
@@ -3311,13 +3311,13 @@
           "question": "Rüyada umreden döndüğünü (geldiğini) görmek ne demek?",
           "answer": "Çok başarılı ve tertemiz bir şekilde işlerinizi halledip \"zaferle\" yuvanıza (veya eski yaşamınıza yeni bir karakterle) döneceğinize yorulur."
         }
-      ],
-      "relatedSymbols": [
-        "kabe",
-        "namaz-kilmak",
-        "ucmak"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "kabe",
+      "namaz-kilmak",
+      "ucmak"
+    ]
   },
   {
     "slug": "birini-oldurmek",
@@ -3364,13 +3364,13 @@
           "question": "Rüyada yılan veya zehirli hayvan öldürmek cinayetle aynı mıdır?",
           "answer": "Hayır, o çok hayırlıdır. Yılan öldürmek, sinsi bir düşmanı tamamen zararsız hale getirmeye ve büyük bir tehlikeden kurtulmaya yorulur."
         }
-      ],
-      "relatedSymbols": [
-        "olum",
-        "kavga-etmek",
-        "kan"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "olum",
+      "kavga-etmek",
+      "kan"
+    ]
   },
   {
     "slug": "kiraz",
@@ -3417,13 +3417,13 @@
           "question": "Rüyada ölüye kiraz ikram etmek kötü müdür?",
           "answer": "Hayır, ölen kişinin ahirette (cennet bahçelerinde) olduğuna ve sizin ona okuduğunuz duaların çok tatlı bir hediye gibi ulaştığına delalet eder."
         }
-      ],
-      "relatedSymbols": [
-        "kirmizi-renk",
-        "uzum",
-        "agac"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "kirmizi-renk",
+      "uzum",
+      "agac"
+    ]
   },
   {
     "slug": "sel",
@@ -3470,13 +3470,13 @@
           "question": "Rüyada yolda giderken aniden sel çıkması kötü müdür?",
           "answer": "Planladığınız bir işte (veya seyahatte) karşınıza çıkacak çok ani, öngörülemez ve mecburen ertelemenize sebep olacak büyük bir engele delalet eder."
         }
-      ],
-      "relatedSymbols": [
-        "su",
-        "yagmur",
-        "deniz"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "su",
+      "yagmur",
+      "deniz"
+    ]
   },
   {
     "slug": "nisanlanmak",
@@ -3523,13 +3523,13 @@
           "question": "Rüyada arkadaşının nişanına gitmek ne demektir?",
           "answer": "O arkadaşınızdan (veya o çevreden) çok müjdeli, güzel bir haber alacağınıza ve onların mutluluğuna (başarısına) ortak olacağınıza delalet eder."
         }
-      ],
-      "relatedSymbols": [
-        "yuzuk",
-        "dugun",
-        "gelinlik"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "yuzuk",
+      "dugun",
+      "gelinlik"
+    ]
   },
   {
     "slug": "cig-et",
@@ -3576,13 +3576,13 @@
           "question": "Rüyada çiğ eti çöpe atmak kötü müdür?",
           "answer": "Aksine, bu çok hayırlıdır. Hayatınızdaki haramdan, dedikodudan ve beladan tamamen kurtulduğunuza, o pisliği hayatınızdan temizlediğinize delalet eder."
         }
-      ],
-      "relatedSymbols": [
-        "et",
-        "kan",
-        "domuz"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "et",
+      "kan",
+      "domuz"
+    ]
   },
   {
     "slug": "cilek",
@@ -3629,13 +3629,13 @@
           "question": "Kışın ortasında kar üstünde çilek görmek ne demektir?",
           "answer": "En umutsuz, en zor anınızda (kış gibi soğuk bir dönemde) bile içinizi ısıtacak, adeta mucize gibi bir gelişme yaşanacağına yorulur."
         }
-      ],
-      "relatedSymbols": [
-        "kirmizi-renk",
-        "kiraz",
-        "dugun"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "kirmizi-renk",
+      "kiraz",
+      "dugun"
+    ]
   },
   {
     "slug": "anne",
@@ -3682,13 +3682,13 @@
           "question": "Rüyada annemin beni evden kovduğunu görmem ne demek?",
           "answer": "Kendi ailenizden bağımsızlaşarak artık kendi hayatınızı (yuvanızı) kurma vaktinizin geldiğine, kendi kanatlarınızla uçmanız gerektiğine yorulur."
         }
-      ],
-      "relatedSymbols": [
-        "bebek",
-        "kavga-etmek",
-        "ev"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "bebek",
+      "kavga-etmek",
+      "ev"
+    ]
   },
   {
     "slug": "hamam-bocegi",
@@ -3735,12 +3735,12 @@
           "question": "Rüyada beyaz hamam böceği olur mu, ne anlama gelir?",
           "answer": "Nadirdir; size çok masum ve zararsız (beyaz) görünen bir insanın, aslında içten içe sizin enerjinizi ve malınızı sömüren bir \"asalak\" olduğuna yorulur."
         }
-      ],
-      "relatedSymbols": [
-        "bocek",
-        "karinca",
-        "ev"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "bocek",
+      "karinca",
+      "ev"
+    ]
   }
 ]
