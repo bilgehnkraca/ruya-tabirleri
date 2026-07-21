@@ -66,6 +66,7 @@ export default function RootLayout({
                 accurateTrackBounce:true
             });
           `}
+        </Script>
         {/* Google Analytics 4 */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
