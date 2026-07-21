@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { DreamSymbol } from '@/lib/types';
 import { Sparkles, BookOpen, Brain, ChevronRight } from 'lucide-react';
 import AdSlot from '@/components/AdSlot';
+import PartnerAd from '@/components/PartnerAd';
 
 type Tab = 'general' | 'religious' | 'psychological';
 
@@ -83,6 +84,8 @@ export default function SymbolContentTabs({ symbol }: { symbol: DreamSymbol }) {
             <div className="my-10">
                <AdSlot type="adsense" slotId="CONTENT_MIDDLE_1" className="my-10" />
             </div>
+
+            <PartnerAd slug={symbol.slug} />
           </div>
         )}
 

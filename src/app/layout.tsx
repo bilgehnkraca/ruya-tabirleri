@@ -78,7 +78,10 @@ export default function RootLayout({
             <a href="/" className="text-2xl font-serif font-bold text-mystic-300">
               Rüya<span className="text-mystic-500">Sözlüğü</span>
             </a>
-            <nav className="flex space-x-4 md:space-x-6 text-sm md:text-base">
+            <nav className="flex space-x-4 md:space-x-6 text-sm md:text-base items-center">
+              <a href="https://turkiyehesaplama.com" target="_blank" rel="noopener noreferrer" className="hover:text-mystic-200 text-mystic-400 font-medium transition-colors flex items-center gap-1.5 border border-mystic-500/30 px-3 py-1.5 rounded-full bg-mystic-900/30">
+                <span className="hidden sm:inline">🧮</span> Hesaplama
+              </a>
               <a href="/kategoriler" className="hover:text-mystic-400 transition-colors">Kategoriler</a>
               <a href="/a-z" className="hover:text-mystic-400 transition-colors">A-Z İndeks</a>
             </nav>
@@ -88,23 +91,37 @@ export default function RootLayout({
             {children}
           </main>
 
-          <footer className="bg-night-900 border-t border-night-800 py-8 mt-12">
-            <div className="container mx-auto px-4 text-center text-sm text-night-400">
-              <p>&copy; {new Date().getFullYear()} Rüya Sözlüğü. Tüm hakları saklıdır. Rüya Sözlüğü bir turtle arge projesidir.</p>
-              <div className="mt-3 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-xs">
-                <a href="/hakkimizda" className="hover:text-mystic-400 transition-colors">Hakkımızda</a>
-                <span>•</span>
-                <a href="/iletisim" className="hover:text-mystic-400 transition-colors">İletişim</a>
-                <span>•</span>
-                <a href="/gizlilik-politikasi" className="hover:text-mystic-400 transition-colors">Gizlilik</a>
-                <span>•</span>
-                <a href="/cerez-politikasi" className="hover:text-mystic-400 transition-colors">Çerezler</a>
-                <span>•</span>
-                <a href="/kullanim-kosullari" className="hover:text-mystic-400 transition-colors">Şartlar</a>
-                <span>•</span>
-                <a href="/kvkk" className="hover:text-mystic-400 transition-colors">KVKK</a>
+          <footer className="bg-night-900 border-t border-night-800 py-12 mt-12">
+            <div className="container mx-auto px-4">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm text-night-400 mb-8">
+                <div>
+                  <h4 className="text-white font-serif font-bold mb-4 text-lg">Rüya Sözlüğü</h4>
+                  <p className="mb-4">Türkiye&apos;nin en kapsamlı, özgün ve güvenilir rüya tabirleri sözlüğü. Bilinçaltınızın size anlattıklarını keşfedin.</p>
+                  <p>Bir turtle arge projesidir.</p>
+                </div>
+                <div>
+                  <h4 className="text-white font-serif font-bold mb-4 text-lg">Hızlı Bağlantılar</h4>
+                  <ul className="space-y-2">
+                    <li><a href="/hakkimizda" className="hover:text-mystic-400 transition-colors">Hakkımızda</a></li>
+                    <li><a href="/iletisim" className="hover:text-mystic-400 transition-colors">İletişim</a></li>
+                    <li><a href="/gizlilik-politikasi" className="hover:text-mystic-400 transition-colors">Gizlilik Politikası</a></li>
+                    <li><a href="/kvkk" className="hover:text-mystic-400 transition-colors">KVKK Aydınlatma Metni</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="text-white font-serif font-bold mb-4 text-lg">Partner Ağımız</h4>
+                  <ul className="space-y-2">
+                    <li><a href="https://turkiyehesaplama.com" target="_blank" rel="noopener noreferrer" className="hover:text-mystic-400 transition-colors flex items-center gap-2"><span>🧮</span> Türkiye Hesaplama</a></li>
+                    <li><a href="https://turkiyehesaplama.com/gebelik-hesaplama" target="_blank" rel="noopener noreferrer" className="hover:text-mystic-400 transition-colors flex items-center gap-2"><span>👶</span> Gebelik Hesaplama</a></li>
+                    <li><a href="https://turkiyehesaplama.com/kredi-hesaplama" target="_blank" rel="noopener noreferrer" className="hover:text-mystic-400 transition-colors flex items-center gap-2"><span>💰</span> Kredi Hesaplama</a></li>
+                    <li><a href="https://turkiyehesaplama.com/yas-hesaplama" target="_blank" rel="noopener noreferrer" className="hover:text-mystic-400 transition-colors flex items-center gap-2"><span>🎂</span> Yaş Hesaplama</a></li>
+                  </ul>
+                </div>
               </div>
-              <p className="mt-3">Bu sitedeki tabirler bilgilendirme amaçlıdır.</p>
+              <div className="text-center pt-8 border-t border-night-800">
+                <p>&copy; {new Date().getFullYear()} Rüya Sözlüğü. Tüm hakları saklıdır.</p>
+                <p className="mt-2 text-xs text-night-500">Bu sitedeki tabirler bilgilendirme amaçlıdır.</p>
+              </div>
             </div>
           </footer>
         </div>
