@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/', '/_next/'],
     },
-    sitemap: 'https://ruya-tabirleri-indol.vercel.app/sitemap.xml',
+    sitemap: 'https://www.ruyasozlugunuz.com/sitemap.xml',
   };
 }
