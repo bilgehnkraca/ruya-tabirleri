@@ -26,6 +26,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/a-z`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.7 },
     { url: `${BASE_URL}/hakkimizda`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.5 },
     { url: `${BASE_URL}/iletisim`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.5 },
+    { url: `${BASE_URL}/gizlilik-politikasi`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.3 },
+    { url: `${BASE_URL}/cerez-politikasi`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.3 },
+    { url: `${BASE_URL}/kullanim-kosullari`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.3 },
     ...categoryUrls,
     ...symbolUrls,
   ];

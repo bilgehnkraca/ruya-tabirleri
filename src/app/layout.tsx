@@ -125,6 +125,12 @@ export default function RootLayout({
                 <a href="/hakkimizda" className="hover:text-mystic-400 transition-colors">Hakkımızda</a>
                 <span>•</span>
                 <a href="/iletisim" className="hover:text-mystic-400 transition-colors">İletişim</a>
+                <span>•</span>
+                <a href="/gizlilik-politikasi" className="hover:text-mystic-400 transition-colors">Gizlilik</a>
+                <span>•</span>
+                <a href="/cerez-politikasi" className="hover:text-mystic-400 transition-colors">Çerezler</a>
+                <span>•</span>
+                <a href="/kullanim-kosullari" className="hover:text-mystic-400 transition-colors">Şartlar</a>
               </div>
               <p className="mt-3">Bu sitedeki tabirler bilgilendirme amaçlıdır.</p>
             </div>
