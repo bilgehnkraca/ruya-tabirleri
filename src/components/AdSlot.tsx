@@ -58,7 +58,7 @@ export default function AdSlot({ type, slotId, yandexId, className = '', format 
       <ins
         className="adsbygoogle"
         style={{ display: 'block' }}
-        data-ad-client={process.env.NEXT_PUBLIC_ADSENSE_PUB_ID || "ca-pub-XXXXXXXXXXXXXXXX"}
+        data-ad-client={process.env.NEXT_PUBLIC_ADSENSE_PUB_ID || "ca-pub-3922046877246889"}
         data-ad-slot={slotId}
         data-ad-format={format}
         data-full-width-responsive={responsive ? "true" : "false"}

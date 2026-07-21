@@ -54,10 +54,10 @@ export default function RootLayout({
   return (
     <html lang="tr">
       <head>
-        {/* Google AdSense Script - Replace with actual client ID later */}
+        {/* Google AdSense Script */}
         <Script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3922046877246889"
           crossOrigin="anonymous"
           strategy="lazyOnload"
         />
