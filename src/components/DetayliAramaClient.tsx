@@ -3,7 +3,8 @@
 import { useState, useMemo, KeyboardEvent } from 'react';
 import { DreamSymbol } from '@/lib/types';
 import Link from 'next/link';
-import { Search, X, Sparkles, ChevronRight } from 'lucide-react';
+import { useRouter } from 'next/navigation';
+import { Search, X, Sparkles, ChevronRight, CornerDownLeft } from 'lucide-react';
 import AdSlot from '@/components/AdSlot';
 
 interface SearchableItem {
@@ -18,15 +19,32 @@ interface SearchableItem {
 export default function DetayliAramaClient({ symbols }: { symbols: DreamSymbol[] }) {
   const [inputValue, setInputValue] = useState('');
   const [tags, setTags] = useState<string[]>([]);
+  const router = useRouter();
+
+  // Autocomplete logic
+  const autocompleteSuggestions = useMemo(() => {
+    if (inputValue.trim().length < 2) return [];
+    const lowerInput = inputValue.trim().toLowerCase();
+    
+    return symbols
+      .filter(s => s.title.toLowerCase().includes(lowerInput))
+      .slice(0, 5);
+  }, [inputValue, symbols]);
 
   const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
-    if ((e.key === 'Enter' || e.key === ' ') && inputValue.trim() !== '') {
+    if (e.key === 'Enter') {
       e.preventDefault();
-      const newTag = inputValue.trim().toLowerCase();
-      if (!tags.includes(newTag)) {
-        setTags([...tags, newTag]);
+      
+      // If there are autocomplete suggestions and user presses enter, 
+      // we might want to just add the input as a tag, or navigate.
+      // We will stick to combination logic: add as tag.
+      if (inputValue.trim() !== '') {
+        const newTag = inputValue.trim().toLowerCase();
+        if (!tags.includes(newTag)) {
+          setTags([...tags, newTag]);
+        }
+        setInputValue('');
       }
-      setInputValue('');
     } else if (e.key === 'Backspace' && inputValue === '' && tags.length > 0) {
       setTags(tags.slice(0, -1));
     }
@@ -129,9 +147,33 @@ export default function DetayliAramaClient({ symbols }: { symbols: DreamSymbol[]
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
             onKeyDown={handleKeyDown}
-            placeholder={tags.length === 0 ? "Bir kelime yazın ve boşluk tuşuna basın..." : "Başka bir detay ekleyin..."}
-            className="w-full bg-night-900/50 border border-night-700 text-night-100 rounded-xl py-4 pl-14 pr-6 focus:outline-none focus:border-mystic-500 focus:ring-1 focus:ring-mystic-500 transition-all placeholder:text-night-500 text-lg"
+            placeholder={tags.length === 0 ? "Bir rüya sembolü yazın (Örn: Yılan)..." : "Başka bir detay ekleyin..."}
+            className="w-full bg-night-900/80 border border-night-700 text-night-100 rounded-xl py-4 pl-14 pr-6 focus:outline-none focus:border-mystic-500 focus:ring-1 focus:ring-mystic-500 transition-all placeholder:text-night-500 text-lg shadow-inner"
           />
+          
+          {/* Autocomplete Dropdown */}
+          {autocompleteSuggestions.length > 0 && (
+            <div className="absolute top-full left-0 right-0 mt-2 bg-night-800 border border-night-600 rounded-xl shadow-2xl overflow-hidden z-50 animate-in fade-in slide-in-from-top-2">
+              <ul className="py-2">
+                {autocompleteSuggestions.map((suggestion) => (
+                  <li key={suggestion.slug}>
+                    <button
+                      onClick={() => router.push(`/ruyada-${suggestion.slug}-gormek`)}
+                      className="w-full text-left px-5 py-3 hover:bg-night-700/80 flex items-center justify-between group transition-colors"
+                    >
+                      <span className="text-night-100 font-medium group-hover:text-mystic-300 transition-colors">
+                        Rüyada {suggestion.title} Görmek
+                      </span>
+                      <CornerDownLeft className="w-4 h-4 text-night-500 group-hover:text-mystic-400 opacity-0 group-hover:opacity-100 transition-all" />
+                    </button>
+                  </li>
+                ))}
+              </ul>
+              <div className="bg-night-900/50 px-5 py-2 text-xs text-night-400 border-t border-night-700/50 flex items-center justify-between">
+                <span>Veya kombinasyon yapmak için <strong className="text-mystic-400 text-[10px] bg-mystic-900/50 px-1.5 py-0.5 rounded border border-mystic-700">Enter</strong> tuşuna basın</span>
+              </div>
+            </div>
+          )}
         </div>
         
         {tags.length === 0 && (
