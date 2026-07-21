@@ -59,10 +59,10 @@ export default function RootLayout({
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3922046877246889"
           crossOrigin="anonymous"
-          strategy="lazyOnload"
+          strategy="afterInteractive"
         />
         {/* Yandex Reklam Script */}
-        <Script id="yandex-rtb-init" strategy="lazyOnload">
+        <Script id="yandex-rtb-init" strategy="afterInteractive">
           {`
             window.yaContextCb = window.yaContextCb || []
             window.yaContextCb.push(()=>{
@@ -70,7 +70,7 @@ export default function RootLayout({
             })
           `}
         </Script>
-        <Script src="https://yandex.ru/ads/system/context.js" async strategy="lazyOnload" />
+        <Script src="https://yandex.ru/ads/system/context.js" async strategy="afterInteractive" />
         
         {/* Yandex Metrica */}
         <Script id="yandex-metrica" strategy="afterInteractive">
