@@ -131,6 +131,8 @@ export default function RootLayout({
                 <a href="/cerez-politikasi" className="hover:text-mystic-400 transition-colors">Çerezler</a>
                 <span>•</span>
                 <a href="/kullanim-kosullari" className="hover:text-mystic-400 transition-colors">Şartlar</a>
+                <span>•</span>
+                <a href="/kvkk-aydinlatma-metni" className="hover:text-mystic-400 transition-colors">KVKK</a>
               </div>
               <p className="mt-3">Bu sitedeki tabirler bilgilendirme amaçlıdır.</p>
             </div>
