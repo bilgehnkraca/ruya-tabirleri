@@ -1,5 +1,5 @@
 import { getAllSymbols, getAllCategories } from '@/lib/data';
-import SearchBox from '@/components/SearchBox';
+import DetayliAramaClient from '@/components/DetayliAramaClient';
 import Link from 'next/link';
 import { Book, Compass, Moon, Sparkles } from 'lucide-react';
 import AdSlot from '@/components/AdSlot';
@@ -44,7 +44,7 @@ export default function Home() {
           Türkiye&apos;nin en kapsamlı, özgün ve güvenilir rüya tabirleri sözlüğü. Bilinçaltınızın size anlattıklarını keşfedin.
         </p>
         
-        <SearchBox />
+        <DetayliAramaClient symbols={symbols} />
       </section>
 
       <AdSlot type="adsense" slotId="HOMEPAGE_SLOT_ID" />
