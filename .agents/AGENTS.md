@@ -2,6 +2,13 @@
 
 Bu dosya, Rüya Tabirleri projesinin bundan sonraki tüm geliştirme, kodlama ve tasarım aşamalarında yapay zeka asistanı tarafından uyulması ZORUNLU olan katı kuralları (best-practices) içerir. 
 
+## 0. Veri Odaklı Karar Alma (22 Yıllık Google Trends Stratejisi)
+Tüm geliştirmeler, "Rüya Tabirleri" anahtar kelimesinin 2004-2026 yılları arasındaki 22 yıllık arama motoru niyet (search intent) analizlerine dayanmak zorundadır:
+* **Niyet Ayrışması (Sekmeler):** Kullanıcılar artık sadece "yılan" diye değil; "diyanet tabiri", "psikolojik anlamı" gibi uzun kuyruklu hedeflerle arama yapıyor. Bu sebeple tüm metinler mutlaka Dini, Psikolojik ve Genel olarak sekmelere bölünmüş olmalıdır.
+* **Kombinasyonlu Arama İhtiyacı:** "Siyah yılan ısırması" gibi kompleks senaryolar için detaylı/etiketli rüya arama motoru her daim aktif ve fonksiyonel tutulmalıdır.
+* **Mevsimsel Dalgalanmalar (Ramazan Zirvesi):** Dini günlerde ve Ramazan aylarında rüya tabiri aramaları %40-%60 oranında devasa zirveler (peak) yapar. Dinamik ana sayfa temaları (İslami mod) bu dönemlere duyarlı olmalıdır.
+* **Tüketim Alışkanlığı (TTS):** Yatakta telefon kullanan kitlenin uzun rüyaları okumak yerine "dinlemeyi" tercih etmesi verisi doğrultusunda, Text-to-Speech (Sesli Okuma) özelliği tüm içeriklerde kusursuz çalışmalıdır.
+
 ## 1. Tasarım ve Kullanıcı Deneyimi (UI/UX)
 * **Karanlık Tema ve Cam Tasarım (Dark Glassmorphism):** Site tasarımında her zaman Night (gece/koyu) ve Mystic (mor/gizemli) renk paleti kullanılacaktır. Tasarımlar sıradan değil; gradyanlar, bulanıklık efektleri (backdrop-blur) ve mikro-animasyonlarla zenginleştirilmiş "Premium" hissettiren bir yapıda olmalıdır.
 * **İçerik Bölümlendirmesi:** Uzun rüya tabirleri asla tek bir blok halinde sunulmaz. Ziyaretçiyi sıkmamak için mutlaka mantıksal sekmelere (Örn: Genel Yorum, İslami Tabir, Psikolojik Analiz) bölünmelidir.
