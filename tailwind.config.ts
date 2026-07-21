@@ -8,13 +8,40 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        night: {
+          900: "#080B14",
+          800: "#0F1423",
+          700: "#1A2235",
+          600: "#27334C",
+          500: "#364665",
+          400: "#4D6286",
+          300: "#6B82A6",
+          200: "#8FA3C1",
+          100: "#BBC6DA",
+        },
+        mystic: {
+          900: "#2A185C",
+          800: "#3B217D",
+          700: "#4B289A",
+          600: "#5D31B6",
+          500: "#703CD3",
+          400: "#8859DC",
+          300: "#A179E4",
+        },
+        gold: {
+          500: "#D4AF37",
+          400: "#DFBF5B",
+        }
       },
+      fontFamily: {
+        sans: ['var(--font-inter)', 'sans-serif'],
+        serif: ['var(--font-playfair)', 'serif'],
+      }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 };
 export default config;

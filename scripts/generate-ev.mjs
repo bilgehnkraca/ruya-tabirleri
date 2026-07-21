@@ -1,0 +1,66 @@
+import fs from 'fs';
+import path from 'path';
+
+const contentDir = path.join(process.cwd(), 'content', 'symbols');
+const symbolsPath = path.join(contentDir, 'symbols.json');
+let symbols = JSON.parse(fs.readFileSync(symbolsPath, 'utf-8'));
+
+const updatedSymbol = {
+  slug: 'ev',
+  title: 'Rüyada Ev Görmek',
+  category: 'nesneler',
+  shortDescription: 'Rüyada ev görmek; kişinin kendi iç dünyasını, ruh halini, aile yaşantısını, güvende hissetme ihtiyacını ve hayattaki statüsünü sembolize eden en temel arketiplerden biridir.',
+  content: {
+    introduction: 'Bilinçaltımızın dili çok zengindir ancak en temel sembollerden biri şüphesiz ki "ev"dir. Rüyada ev görmek, doğrudan kişinin kendi ruhsal mimarisini, bedenini ve zihnini temsil eder. Evin odaları zihninizin farklı bölümlerini, evin durumu ise mevcut psikolojik ve fiziksel sağlığınızı yansıtır. Aynı zamanda ev, aileyi, yuvayı, sığınağı ve mahremiyeti simgeler. Rüyada yeni, aydınlık ve ferah bir ev görmek iç huzurunu müjdelerken; eski, yıkık veya karanlık bir ev, kişinin ruhsal olarak çöktüğüne, hastalandığına veya uyanık hayatta ciddi güvenlik endişeleri taşıdığına işaret eder. Rüyanızdaki evin kime ait olduğu ve içinde ne yaptığınız, bu rüyanın sırrını çözen anahtardır.',
+    generalMeaning: 'Genel rüya tabirlerine göre ev, dünya hayatının ta kendisidir. Rüyada geniş, güzel ve yeni bir ev görmek; rüya sahibinin rızkının genişleyeceğine, işlerinin yoluna gireceğine, varsa hastalığından şifa bulacağına ve ailesiyle huzurlu bir yaşam süreceğine yorulur. Ev aynı zamanda sığınılan, korunulan yer olduğu için, kişinin hayatındaki sorunlardan uzaklaşıp güvenli bir liman bulduğuna işaret eder. Rüyasında ev satın aldığını gören bekar biri için evliliğe, evli biri için ise mal ve mülk artışına delalet eder. Rüyada kendi evini temizlemek, dertlerden arınmaya, hanedeki küslüklerin bitmesine ve ruhsal bir yenilenmeye yorulurken; evin çatısının çöktüğünü veya duvarlarının yıkıldığını görmek hanedeki büyük bir kayba (maddi veya manevi), hastalığa veya çok büyük bir aile içi kavgaya işaret eder.',
+    variations: [
+      {
+        title: 'Rüyada Yeni ve Geniş Ev Görmek',
+        content: 'Rüya sahibinin hayatında yepyeni ve çok güzel bir dönemin başlayacağına işarettir. Rızkın artması, borçların ödenmesi ve ferahlığa çıkılması anlamına gelir. Psikolojik olarak zihninizin genişlediğini, yeni fikirlere açık olduğunuzu ve kendinizi güvende hissettiğinizi gösterir.'
+      },
+      {
+        title: 'Rüyada Eski, Harabe Ev Görmek',
+        content: 'Bilinçaltınızın bir alarmıdır. Kendi bedeninizi veya ruhunuzu ihmal ettiğinizi, geçmişte kalmış ve çözülmemiş meselelerin (harabelerin) gün yüzüne çıktığını gösterir. Bazen de fiziksel bir hastalığın veya yaşanacak maddi sıkıntıların habercisidir.'
+      },
+      {
+        title: 'Rüyada Ev Taşıdığını (Taşınmak) Görmek',
+        content: 'Hayatınızda radikal bir değişiklik yapma arzusunu veya zaten başlayan bir değişimi simgeler. Taşınılan ev eskisinden daha iyiyse olumlu gelişmelere, eskisinden daha kötüyse statü veya maddi kayıplara işaret eder. Bazen de sadece halet-i ruhiyenin (psikolojinin) değişmesini yansıtır.'
+      },
+      {
+        title: 'Rüyada Yabancı (Tanımadığı) Bir Ev Görmek',
+        content: 'Rüyasında hiç bilmediği, yabancı bir eve girdiğini gören kişi, ahiret hayatını hatırlatan bir mesaj alıyor olabilir. Klasik tabirlerde bu ev, kişinin ahiretteki makamı veya gireceği mezar olarak da yorumlanır; evin güzelliği veya çirkinliği amellerin durumuna bağlanır. Daha dünyevi bir yorumda ise, yakında girilecek yeni bir ortama, yeni bir işe veya farklı bir kültüre işarettir.'
+      },
+      {
+        title: 'Rüyada Evin İçinde Kaybolmak',
+        content: 'Büyük ve çok odalı bir evin içinde kendi yolunuzu bulamamak, uyanık hayatta kendi duygu ve düşünceleriniz arasında kaybolduğunuzu, karar vermekte zorlandığınızı veya çok fazla seçenek arasında bocaladığınızı gösterir. Karışık zihnin tam bir yansımasıdır.'
+      }
+    ],
+    religiousMeaning: 'Klasik İslami rüya tabiri geleneğini takip eden Nablusi ve Kirmani gibi kaynaklara göre, rüyada ev bazen kişinin eşine, dünya nimetlerine veya ahiret yurduna yorulur. Yeni bir ev dünya zinetine, eski ev ise fakirliğe delalet eder. Rüyada kendi evini demirden görmek, ömrün uzun olacağına; topraktan yapılmış görmek ise mütevazı ve bereketli bir hayata işarettir. Bir kimse evinin yandığını görürse, bu onun malına gelecek bir belaya veya ailesiyle yaşayacağı büyük bir imtihana yorumlanır. Evin kapısı evin erkeğine, odaları ise kadınına nispet edilir; bu sebeple evin herhangi bir bölümünde görülen hasar veya güzellik, aile üyelerinden birinin durumunu simgeler.',
+    psychologicalMeaning: 'Carl Jung\'un analizlerinde ev, bireyin psişesini (ruhsal yapısını) temsil eden en güçlü arketiptir. Evin bodrumu bilinçdışını, bastırılmış korkuları ve unutulan anıları; çatı katı ise yüksek bilinci, idealleri ve maneviyatı simgeler. Rüyada evinizde keşfetmediğiniz yeni bir oda bulmanız, kendi içinizde yeni bir yeteneği veya kişiliğinizin farklı bir yönünü keşfettiğinize işaret eder. Evin dış cephesi (fasat) toplum içindeki imajınızı (persona), iç odalar ise mahrem benliğinizi yansıtır. Rüyada evinize izinsiz giren biri varsa, bu kişisel sınırlarınızın uyanık hayatta ihlal edildiğinin psikolojik bir dışavurumudur.',
+    faqs: [
+      {
+        question: 'Rüyada çocukluğumun geçtiği evi (babaevini) görmek ne demek?',
+        answer: 'Güvenlik ihtiyacınızın arttığına, şu anki hayatınızdaki sorumluluklardan yorulup çocukluğun o korunaklı, dertsiz günlerine duyduğunuz derin özleme (nostaljiye) işaret eder. Bazen de ailenizle ilgili yarım kalmış meseleleri yansıtır.'
+      },
+      {
+        question: 'Rüyada evin su basması (sel) nasıl yorumlanır?',
+        answer: 'Su duyguları temsil ettiğinden, evinizi su basması; uyanık hayatta çok yoğun ve kontrol edilemez duygular (keder, stres veya öfke) tarafından boğulduğunuzu, hislerinizin haneye zarar verdiğini gösterir.'
+      },
+      {
+        question: 'Bomboş, eşyasız bir ev görmek nedir?',
+        answer: 'Maddi bir beklentinin boş çıkacağına işaret edebileceği gibi; ruhsal olarak tükenmişliğe, hayattan zevk alamamaya ve içinizdeki büyük boşluğa yorulan psikolojik bir semboldür. Yeni bir başlangıç yapmak için alan açıldığını da ifade edebilir.'
+      }
+    ]
+  },
+  relatedSymbols: ['su', 'ates', 'altin']
+};
+
+const index = symbols.findIndex(s => s.slug === 'ev');
+if (index !== -1) {
+  symbols[index] = updatedSymbol;
+} else {
+  symbols.push(updatedSymbol);
+}
+
+fs.writeFileSync(symbolsPath, JSON.stringify(symbols, null, 2));
+console.log('Successfully created ev');

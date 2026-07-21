@@ -1,0 +1,66 @@
+import fs from 'fs';
+import path from 'path';
+
+const contentDir = path.join(process.cwd(), 'content', 'symbols');
+const symbolsPath = path.join(contentDir, 'symbols.json');
+let symbols = JSON.parse(fs.readFileSync(symbolsPath, 'utf-8'));
+
+const updatedSymbol = {
+  slug: 'ucmak',
+  title: 'Rüyada Uçmak',
+  category: 'eylemler',
+  shortDescription: 'Rüyada uçmak; kişinin üzerindeki maddi ve manevi ağırlıklardan kurtulup tam bir özgürlüğe kavuşmasını, kariyerinde hızla yükselmesini ve içsel prangalarından kurtulmasını temsil eder.',
+  content: {
+    introduction: 'Rüyada uçtuğunu görmek, insanlığın var olduğu ilk günden bu yana en çok arzulanan, en heyecan verici ve uyandıktan sonra bile insanda büyük bir coşku bırakan rüyaların başında gelir. Yerçekiminin kısıtlayıcı sınırlarından kurtulmak, uyanık hayatımızda bizi aşağı çeken sorunlardan, stresten, korkulardan ve toplumsal baskılardan zihinsel veya ruhsal olarak azade olmak anlamına gelir. Rüyada uçmak, kişinin potansiyelinin farkına vardığı, kontrolü tamamen eline aldığı ve adeta bir kuş gibi özgürleştiği çok güçlü bir semboldür. Uçuşun şekli—kanatlarla mı, bir araçla mı yoksa sadece zihin gücüyle mi uçtuğunuz—bu harika vizyonun alt metnini deşifre etmek için kritik ipuçları barındırır.',
+    generalMeaning: 'Rüya tabircilerinin ortak görüşüne göre, rüyada havada uçmak her şeyden önce büyük bir sevince, başarıya ve ferahlığa işarettir. Mevcut hayatınızdaki engelleri aşacağınız, kariyer basamaklarını hızla tırmanacağınız ve çevrenizdeki insanların takdirini toplayacağınız bir döneme girdiğinizi müjdeler. Yerden yükselmek, statü atlamak ve rakiplerinize karşı büyük bir üstünlük kurmak demektir. Maddi sıkıntılar çeken biri rüyasında özgürce uçtuğunu görürse, bu dertlerin çok yakında hafifleyeceğine ve rızkının genişleyeceğine yorulur. Ayrıca uçmak, kişinin geniş bir perspektife sahip olması, sorunlara "yukarıdan" ve daha objektif bir açıyla bakabilmesi anlamına da gelir. Hayatınızdaki karmaşanın içinden çıkıp büyük resmi görebilecek bir olgunluğa eriştiğinizin en net göstergesidir. Ancak uçarken sürekli yere düşme korkusu yaşamak veya kontrolü kaybetmek, ulaştığınız yüksek konumda kalıcı olamayacağınız korkusunu veya uyanık hayattaki özgüven eksikliğinizi yansıtabilir.',
+    variations: [
+      {
+        title: 'Rüyada Kanatsız Uçmak',
+        content: 'Kişinin hiçbir dış yardıma, torpile veya desteğe ihtiyaç duymadan, tamamen kendi zekası, emeği ve inancıyla çok yüksek mevkilere geleceğine işarettir. Kendi içsel gücünüzü keşfettiğinizin, sınırlarınızı aştığınızın ve mucizeler yaratabilecek bir iradeye sahip olduğunuzun göstergesidir.'
+      },
+      {
+        title: 'Rüyada Kanatlarla Uçmak',
+        content: 'Bir kuş gibi kanat çırparak uçtuğunu görmek, alınacak çok büyük ve sevindirici bir habere, yeni bir iş fırsatına veya uzak diyarlara yapılacak hayırlı bir yolculuğa delalet eder. Kanatlar, size sunulan ilahi yardımı ve şansı sembolize eder; bu fırsatları değerlendirmek sizin elinizdedir.'
+      },
+      {
+        title: 'Rüyada Uçarken Düşmek',
+        content: 'Gökyüzünde özgürce süzülürken aniden kontrolü kaybedip hızla yere çakılmak veya düşmek, gerçek hayatta çok yüksek hedefler koyduğunuzu ancak bu hedeflere ulaşmak için alt yapınızın henüz hazır olmadığını gösterir. Elde edilen başarının veya paranın kibire yol açtığına, bir anlık hatayla her şeyin kaybedilebileceğine dair ciddi bir uyarıdır.'
+      },
+      {
+        title: 'Rüyada Uzaya Çıkmak veya Göğe Yükselmek',
+        content: 'Bulutların üzerine çıkmak, uzay boşluğuna doğru süzülmek; rüya sahibinin maneviyatının çok güçlü olduğuna, dünyevi dertleri tamamen arkasında bıraktığına ve ruhsal olarak derin bir aydınlanma (nirvana) yaşadığına yorulur. Hac veya umre yolculuğu gibi manevi değeri yüksek seyahatlere de işaret edebilir.'
+      },
+      {
+        title: 'Rüyada Alçaktan (Yere Yakın) Uçmak',
+        content: 'Yerin hemen bir-iki karış üzerinden süzülerek uçmak, temkinli davranmaya, küçük ama emin adımlarla ilerlemeye ve risk almaktan kaçınmaya işarettir. Büyük hayaller kurmaktan korktuğunuzu ancak yine de ilerleme kaydettiğinizi gösterir.'
+      }
+    ],
+    religiousMeaning: 'Klasik İslami rüya tabiri geleneğini takip eden kaynaklara göre, rüyada uçmak genellikle hac yolculuğuna, makam ve mevkide yükselmeye, ibadetlerin kabulüne ve manevi dereceye (velayet makamına) işaret eder. Düz bir çizgi halinde uçmak, kişinin dininde dosdoğru ve dürüst bir hayat sürdüğüne delalet ederken; uçarken yönünü kaybetmek veya karanlık yerlere uçmak, nefsinin isteklerine yenik düşmeye ve haktan sapmaya yorulur. Gökyüzüne uçup oradan geri dönmediğini görmek, ecelin yaklaşmış olabileceğine yorulsa da, göğe yükselip tekrar güvenle yere inmek, çok büyük bir hastalığı atlatmaya veya büyük bir günahın ardından samimi bir tövbe etmeye işarettir.',
+    psychologicalMeaning: 'Psikanalitik açıdan uçmak, doğrudan "egonun özgürleşmesi" ve üstünlük arzusudur. Sigmund Freud, uçma rüyalarını bastırılmış arzuların ve cinsel enerjinin serbest kalmasıyla ilişkilendirirken; Alfred Adler, uçmayı aşağılık kompleksini aşma ve mükemmelliğe ulaşma güdüsü (üstünlük çabası) olarak yorumlar. Carl Jung ise uçma rüyalarını, bilincin maddi dünyanın sınırlayıcı ağırlığından (yerçekiminden) kurtularak kolektif bilinçdışının enginliğine doğru genişlemesi, kişinin ilahi olanla veya yüksek benliğiyle bağlantı kurması (transandans) olarak açıklar. Aynı zamanda lüsid rüya (lucid dreaming) deneyimlerinde en sık rastlanan eylemdir ve kişinin kendi zihnine hükmedebilme yeteneğinin zirvesidir.',
+    faqs: [
+      {
+        question: 'Rüyada uçmak gerçekte boy uzaması demek midir?',
+        answer: 'Çocukluk ve ergenlik döneminde görülen sık uçma veya düşme rüyalarının fiziksel büyüme sancılarıyla (kemik gelişimi) bağlantılı olabileceğine dair psikolojik teoriler vardır. Ancak yetişkinlerde tamamen zihinsel, ruhsal ve kariyer bazlı yükselişleri temsil eder.'
+      },
+      {
+        question: 'Rüyamda uçmak istiyorum ama bir türlü havalanamıyorum, bu ne demek?',
+        answer: 'Zihniniz özgürleşmek istiyor ancak sizi geride tutan çok ağır sorumluluklarınız, bitmemiş meseleleriniz veya yoğun bir korkunuz var demektir. Özgüven eksikliğini veya uyanık hayattaki "çakılıp kalmışlık" hissini yansıtır.'
+      },
+      {
+        question: 'Uçarken korkmak nasıl yorumlanır?',
+        answer: 'Elde ettiğiniz başarıların sorumluluklarından korktuğunuzu, yüksek makamlarda bulunmanın getirdiği stresi yönetmekte zorlandığınızı veya hayatınızda ani gelişen olumlu olaylara adapte olamadığınızı gösterir.'
+      }
+    ]
+  },
+  relatedSymbols: ['su', 'kedi', 'olum']
+};
+
+const index = symbols.findIndex(s => s.slug === 'ucmak');
+if (index !== -1) {
+  symbols[index] = updatedSymbol;
+} else {
+  symbols.push(updatedSymbol);
+}
+
+fs.writeFileSync(symbolsPath, JSON.stringify(symbols, null, 2));
+console.log('Successfully updated ucmak');

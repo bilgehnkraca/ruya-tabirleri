@@ -1,0 +1,66 @@
+import fs from 'fs';
+import path from 'path';
+
+const contentDir = path.join(process.cwd(), 'content', 'symbols');
+const symbolsPath = path.join(contentDir, 'symbols.json');
+let symbols = JSON.parse(fs.readFileSync(symbolsPath, 'utf-8'));
+
+const updatedSymbol = {
+  slug: 'at',
+  title: 'Rüyada At Görmek',
+  category: 'hayvanlar',
+  shortDescription: 'Rüyada at görmek; gücü, asaleti, özgürlük arzusunu, başarıyı ve murada ermeyi temsil eden, rüya tabirleri dünyasının en hayırlı ve en güzel sembollerinden biridir.',
+  content: {
+    introduction: 'At, insanlık tarihi boyunca asaletin, hızın, fetihlerin ve gücün sembolü olmuştur. Rüyalar aleminde de bu görkemli hayvan, hemen hemen tüm tabirciler tarafından istisnasız en hayırlı, en güçlü ve pozitif enerjisi en yüksek sembollerden biri olarak kabul edilir. "At murattır" şeklindeki o meşhur Türk atasözü, aslında rüya tabirleri geleneğinin özünü yansıtır. Rüyada at görmek; uzun zamandır beklenen bir dileğin gerçekleşmesine, rütbe ve makam sahibi olmaya, asaletli ve soylu bir insanla tanışmaya ve kişinin hayatındaki tüm engelleri büyük bir güçle aşıp zafere ulaşmasına işaret eder. Atın rengi, durumu (koşması, şahlanması) ve sizin atla olan ilişkiniz, bu muradın size ne şekilde ve ne zaman ulaşacağını gösteren ince detaylardır.',
+    generalMeaning: 'Rüyasında at gören kişinin hayatında son derece hızlı ve olumlu gelişmeler yaşanır. Rüyada ata binmek, kişinin kendi hayatının dizginlerini eline aldığına, hedeflerine doğru kararlı bir şekilde ilerlediğine ve kısa sürede çok yüksek bir makama veya büyük bir başarıya ulaşacağına delalet eder. At, şeref ve itibardır; dolayısıyla rüyada at sahibi olmak, toplum içinde büyük bir saygınlık kazanmaya, maddi sıkıntılardan kurtulup zenginleşmeye yorulur. Atın şahlanması, rüya sahibinin karşısına çıkacak muazzam büyüklükteki bir fırsata, coşkuya ve hırsa işaret ederken; atın koşması ise beklenen haberin veya başarının çok hızlı bir şekilde geleceğini müjdeler. Bekar kişiler için at, asaleti ve güzelliğiyle dikkat çeken, varlıklı ve çok hayırlı bir kısmettir. Ancak rüyada atın huysuzlanması, sizi üzerinden atması veya zayıf/hasta bir at görmek; hedeflerinize ulaşırken karşılaşacağınız pürüzlere, elinizden kaçacak bir fırsata veya geçici bir makam kaybına işaret edebilir.',
+    variations: [
+      {
+        title: 'Rüyada Beyaz At Görmek',
+        content: 'Bütün at rüyaları içinde en hayırlı, en aydınlık olanıdır. Beyaz at; saflığın, temiz niyetlerin, ruhsal aydınlanmanın ve kesin zaferin sembolüdür. Rüya sahibinin çok saf ve temiz bir aşka yelken açacağına, girdiği her işte Allah\'ın yardımıyla başarılı olacağına ve düşmanlarına karşı kesin bir üstünlük kuracağına müjdedir. Prens/prenses arketipinin en net yansımasıdır.'
+      },
+      {
+        title: 'Rüyada Siyah (Yağız) At Görmek',
+        content: 'Siyah at, gizemi, karizmayı, asil ama sert bir gücü temsil eder. Rüyada siyah at görmek, kişinin elde edeceği makamın çok büyük ve otoriter olacağına, rakiplerine büyük bir korku salacağına işarettir. Ayrıca zenginliğin, asaletin ve dünyevi gücün zirvesine yorulur.'
+      },
+      {
+        title: 'Rüyada Kahverengi veya Doru At Görmek',
+        content: 'Toprak renginden ötürü istikrarlı, sağlam ve kalıcı bir başarıya işaret eder. Kahverengi at görmek, hayalperestlikten ziyade ayakları yere sağlam basan, çalışarak ve emek vererek elde edilecek çok büyük bir kazanca, güvenilir bir dosta veya eşe delalet eder.'
+      },
+      {
+        title: 'Rüyada Attan Düşmek',
+        content: 'Ulaşılan yüksek bir makamdan veya mevkiden ani bir şekilde düşmeye, çok güvenilen bir işin son anda ters gitmesine veya kibre kapılarak eldeki nimetleri kaybetmeye dair ciddi bir uyarıdır. İtibar kaybına ve geçici bir başarısızlığa yorulur.'
+      },
+      {
+        title: 'Rüyada At Sürüsü (Yılkı) Görmek',
+        content: 'Özgürce koşan bir at sürüsü görmek, rüya sahibinin içindeki muazzam özgürlük ateşine, prangalarından kurtulma arzusuna işaret eder. Aynı zamanda bir bölgeye yağacak olan yağmura, berekete, bolluğa veya ardı ardına gelecek çok büyük müjdelere delalet eder.'
+      }
+    ],
+    religiousMeaning: 'Klasik İslami rüya tabiri kaynaklarında (İbn Şirin ve Kirmani gibi), at doğrudan "devlet, izzet, şeref, makam ve rızık" olarak geçer. Rüyasında bir ata sahip olduğunu veya ona bindiğini gören kişi, eğer layıksa devlet kademesinde yüksek bir makama gelir. Rüyada atın kendisine doğru geldiğini görmek, şansın ve bereketin kişinin ayağına geleceğine işarettir. Atın kuyruğunun uzun olması rüya sahibinin etrafındaki destekçilerin (ona tabi olanların) çokluğuna, atın kanatlı olması (Pegasus gibi) ise hem dünya hem de ahiret saadetine, mucizevi bir ilahi yardıma ve dinde yüksek bir dereceye (velayet makamına) yorulmuştur. Huysuz at ise nefsin taşkınlığına karşı bir uyarı olarak kabul edilir.',
+    psychologicalMeaning: 'Psikoanalitik açıdan at, Carl Jung\'un kuramında "içgüdüsel yaşam enerjisi (libido)" ve beden gücünün en soylu temsilcisidir. At, bizim evcilleştirdiğimiz, kontrol altına aldığımız ama kendi başına muazzam bir vahşi güce sahip olan hayvani doğamızdır. Rüyada ata başarıyla binmek, kişinin kendi içgüdülerini, duygularını ve cinsel enerjisini ustalıkla yönlendirdiğini, ego ile alt benlik (id) arasında mükemmel bir uyum sağladığını gösterir. Vahşi ve kontrol edilemeyen bir at ise, içinizde bastırdığınız öfkenin, hırsların veya tutkuların artık kontrolünüzden çıktığını ve bilinçaltınızda bir ayaklanma başlattığını simgeler.',
+    faqs: [
+      {
+        question: 'Rüyada at arabası görmek ne anlama gelir?',
+        answer: 'Hayat yükünü tek başınıza çekmediğinize, işlerinizi kolaylaştıran yardımcılarınızın veya ortaklarınızın olduğuna işaret eder. Aynı zamanda yavaş ama çok sağlam ve garantili ilerleyen bir süreci gösterir.'
+      },
+      {
+        question: 'Ölü bir at görmek nasıl tabir edilir?',
+        answer: 'Çok büyük bir fırsatın ebediyen kaçtığına, büyük bir hevesten (murattan) vazgeçildiğine veya itibar sahibi, güvendiğiniz, sizi koruyan asil bir kişinin vefatına / hayatınızdan çıkışına yorulur.'
+      },
+      {
+        question: 'Atın beni ısırması veya çifte atması nedir?',
+        answer: 'Size çok büyük faydası dokunan, itibar ve güç sahibi birinden göreceğiniz ani bir zarara veya nankörlüğe işarettir. Kendi hırslarınızın sizi yaralayabileceğine dair psikolojik bir ikazdır.'
+      }
+    ]
+  },
+  relatedSymbols: ['kopek', 'kedi']
+};
+
+const index = symbols.findIndex(s => s.slug === 'at');
+if (index !== -1) {
+  symbols[index] = updatedSymbol;
+} else {
+  symbols.push(updatedSymbol);
+}
+
+fs.writeFileSync(symbolsPath, JSON.stringify(symbols, null, 2));
+console.log('Successfully created at');
