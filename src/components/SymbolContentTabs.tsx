@@ -67,6 +67,8 @@ export default function SymbolContentTabs({ symbol }: { symbol: DreamSymbol }) {
               {symbol.content.generalMeaning}
             </div>
 
+            <PartnerAd slug={symbol.slug} className="my-8" />
+
             {symbol.content.variations && symbol.content.variations.length > 0 && (
               <div className="mt-8">
                 <h2 className="text-2xl font-serif font-bold text-mystic-100 mb-6 border-b border-night-700 pb-2">Sık Görülen Senaryolar</h2>
@@ -88,8 +90,6 @@ export default function SymbolContentTabs({ symbol }: { symbol: DreamSymbol }) {
             <div className="my-10">
                <AdSlot type="adsense" slotId="CONTENT_MIDDLE_1" className="my-10" />
             </div>
-
-            <PartnerAd slug={symbol.slug} />
           </div>
         )}
 
@@ -103,7 +103,15 @@ export default function SymbolContentTabs({ symbol }: { symbol: DreamSymbol }) {
             <div className="text-night-200 leading-relaxed bg-night-800/30 p-6 rounded-2xl border-l-4 border-gold-500 text-lg whitespace-pre-wrap">
               {symbol.content.religiousMeaning}
             </div>
-            <div className="mt-6 text-sm text-night-400 italic bg-night-800/20 p-4 rounded-xl">
+            
+            <div className="mt-6 p-4 rounded-xl border border-night-700 bg-night-800/40 text-night-200 text-sm flex items-center gap-3">
+              <span className="text-xl">🧮</span> 
+              <p>
+                Günlük hayatınızdaki hesaplamalar için <a href="https://turkiyehesaplama.com" target="_blank" rel="noopener noreferrer" className="text-mystic-400 hover:text-mystic-300 font-semibold underline decoration-mystic-500/50 underline-offset-4">Türkiye Hesaplama</a> araçlarını ücretsiz kullanabilirsiniz.
+              </p>
+            </div>
+
+            <div className="mt-4 text-sm text-night-400 italic bg-night-800/20 p-4 rounded-xl">
               Not: İslami rüya tabirleri İbn Şirin, Nablusi, İmam Cafer-i Sadık gibi kadim alimlerin yorumlarına dayanmaktadır. Rüyaların kesin bir hükmü yoktur, her rüya kişinin kendi yaşantısına göre şekillenir.
             </div>
           </div>
@@ -119,7 +127,15 @@ export default function SymbolContentTabs({ symbol }: { symbol: DreamSymbol }) {
             <div className="text-night-200 leading-relaxed bg-night-800/30 p-6 rounded-2xl border-l-4 border-blue-500 text-lg whitespace-pre-wrap">
               {symbol.content.psychologicalMeaning}
             </div>
-            <div className="mt-6 text-sm text-night-400 italic bg-night-800/20 p-4 rounded-xl">
+            
+            <div className="mt-6 p-4 rounded-xl border border-night-700 bg-night-800/40 text-night-200 text-sm flex items-center gap-3">
+              <span className="text-xl">🧮</span> 
+              <p>
+                Rüya analizinden sonra zihninizi dağıtmak için <a href="https://turkiyehesaplama.com" target="_blank" rel="noopener noreferrer" className="text-mystic-400 hover:text-mystic-300 font-semibold underline decoration-mystic-500/50 underline-offset-4">Türkiye Hesaplama</a> üzerindeki yüzlerce aracı keşfedin.
+              </p>
+            </div>
+
+            <div className="mt-4 text-sm text-night-400 italic bg-night-800/20 p-4 rounded-xl">
               Not: Psikolojik analizler, rüyaların bilinçaltı yansımaları olduğunu savunan Jung ve Freud gibi analitik psikologların genel yaklaşımları baz alınarak derlenmiştir.
             </div>
           </div>

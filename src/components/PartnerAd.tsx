@@ -12,8 +12,9 @@ export default function PartnerAd({ slug = '', className = '' }: PartnerAdProps)
   
   if (isBabyRelated) {
     return (
-      <div className={`bg-mystic-900/40 border border-mystic-500/30 rounded-xl p-5 my-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 ${className}`}>
-        <div>
+      <div className={`relative overflow-hidden bg-gradient-to-r from-mystic-900/60 to-night-900 border border-mystic-500/50 rounded-xl p-6 my-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 shadow-[0_0_20px_rgba(112,60,211,0.15)] group ${className}`}>
+        <div className="absolute top-0 right-0 w-32 h-32 bg-mystic-500/10 rounded-full blur-3xl group-hover:bg-mystic-500/20 transition-all duration-500"></div>
+        <div className="relative z-10">
           <h4 className="text-mystic-300 font-semibold mb-1 flex items-center gap-2">
             <span>👶</span> Anne Adayları İçin
           </h4>
@@ -25,9 +26,9 @@ export default function PartnerAd({ slug = '', className = '' }: PartnerAdProps)
           href="https://turkiyehesaplama.com/gebelik-hesaplama" 
           target="_blank" 
           rel="noopener noreferrer"
-          className="whitespace-nowrap bg-mystic-600 hover:bg-mystic-500 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors"
+          className="relative z-10 whitespace-nowrap bg-gradient-to-r from-mystic-600 to-mystic-500 hover:from-mystic-500 hover:to-mystic-400 text-white px-5 py-2.5 rounded-lg text-sm font-bold shadow-lg shadow-mystic-900/50 transition-all transform hover:scale-105"
         >
-          Gebelik Hesaplama
+          Gebelik Hesaplama &rarr;
         </a>
       </div>
     );
@@ -35,8 +36,9 @@ export default function PartnerAd({ slug = '', className = '' }: PartnerAdProps)
 
   if (isFinanceRelated) {
     return (
-      <div className={`bg-emerald-900/30 border border-emerald-500/30 rounded-xl p-5 my-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 ${className}`}>
-        <div>
+      <div className={`relative overflow-hidden bg-gradient-to-r from-emerald-900/40 to-night-900 border border-emerald-500/50 rounded-xl p-6 my-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 shadow-[0_0_20px_rgba(16,185,129,0.15)] group ${className}`}>
+        <div className="absolute top-0 right-0 w-32 h-32 bg-emerald-500/10 rounded-full blur-3xl group-hover:bg-emerald-500/20 transition-all duration-500"></div>
+        <div className="relative z-10">
           <h4 className="text-emerald-400 font-semibold mb-1 flex items-center gap-2">
             <span>💰</span> Finansal Planlama
           </h4>
@@ -48,9 +50,9 @@ export default function PartnerAd({ slug = '', className = '' }: PartnerAdProps)
           href="https://turkiyehesaplama.com/kredi-hesaplama" 
           target="_blank" 
           rel="noopener noreferrer"
-          className="whitespace-nowrap bg-emerald-600 hover:bg-emerald-500 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors"
+          className="relative z-10 whitespace-nowrap bg-gradient-to-r from-emerald-600 to-emerald-500 hover:from-emerald-500 hover:to-emerald-400 text-white px-5 py-2.5 rounded-lg text-sm font-bold shadow-lg shadow-emerald-900/50 transition-all transform hover:scale-105"
         >
-          Kredi Hesaplama
+          Kredi Hesaplama &rarr;
         </a>
       </div>
     );
@@ -58,8 +60,9 @@ export default function PartnerAd({ slug = '', className = '' }: PartnerAdProps)
 
   // Default ad
   return (
-    <div className={`bg-night-800/60 border border-night-700 rounded-xl p-5 my-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 hover:border-mystic-500/30 transition-colors ${className}`}>
-      <div>
+    <div className={`relative overflow-hidden bg-gradient-to-r from-night-800 to-night-900 border border-night-600 hover:border-mystic-500/50 rounded-xl p-6 my-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 shadow-lg group transition-all duration-300 ${className}`}>
+      <div className="absolute top-0 right-0 w-32 h-32 bg-mystic-500/5 rounded-full blur-3xl group-hover:bg-mystic-500/15 transition-all duration-500"></div>
+      <div className="relative z-10">
         <h4 className="text-mystic-400 font-semibold mb-1 flex items-center gap-2">
           <span>🧮</span> Günlük Hayatınızı Kolaylaştırın
         </h4>
@@ -71,9 +74,9 @@ export default function PartnerAd({ slug = '', className = '' }: PartnerAdProps)
         href="https://turkiyehesaplama.com" 
         target="_blank" 
         rel="noopener noreferrer"
-        className="whitespace-nowrap bg-night-700 hover:bg-mystic-600 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors"
+        className="relative z-10 whitespace-nowrap bg-night-700 hover:bg-mystic-600 text-white px-5 py-2.5 rounded-lg text-sm font-bold shadow-md transition-all transform hover:scale-105"
       >
-        Tüm Araçları Keşfet
+        Tüm Araçları Keşfet &rarr;
       </a>
     </div>
   );
