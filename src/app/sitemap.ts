@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 import { getAllSymbols, getAllCategories } from '@/lib/data';
 
-const BASE_URL = 'https://ruyatabirleri.com';
+const BASE_URL = 'https://ruya-tabirleri-indol.vercel.app';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const symbols = getAllSymbols();
