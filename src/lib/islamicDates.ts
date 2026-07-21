@@ -2,7 +2,7 @@
 // For demonstration, we'll keep it simple and set a manual toggle or check some fixed dates.
 
 // SET TO TRUE FOR DEMONSTRATION PURPOSES (Since we are testing outside of Ramadan)
-export const FORCE_RAMADAN_MODE = true;
+export const FORCE_RAMADAN_MODE = false;
 
 export function checkIsIslamicSpecialDay(date = new Date()) {
   if (FORCE_RAMADAN_MODE) {
