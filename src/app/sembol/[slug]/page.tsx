@@ -70,7 +70,7 @@ export default function SymbolPage({ params }: Props) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
 
-      <nav className="text-sm text-night-400 mb-8 flex items-center gap-2">
+      <nav className="text-sm text-night-400 mb-8 flex flex-wrap items-center gap-2">
         <Link href="/" className="hover:text-mystic-400 transition-colors">Anasayfa</Link>
         <span>/</span>
         <Link href={`/kategoriler/${symbol.category}`} className="hover:text-mystic-400 transition-colors capitalize">

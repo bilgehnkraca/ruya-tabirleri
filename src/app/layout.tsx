@@ -104,11 +104,11 @@ export default function RootLayout({
       </head>
       <body className={`${inter.variable} ${playfair.variable} font-sans bg-night-900 text-night-100 antialiased`}>
         <div className="flex flex-col min-h-screen">
-          <header className="glass-header py-4 px-6 flex items-center justify-between">
+          <header className="glass-header py-4 px-4 md:px-6 flex items-center justify-between flex-wrap gap-4">
             <a href="/" className="text-2xl font-serif font-bold text-mystic-300">
               Rüya<span className="text-mystic-500">Sözlüğü</span>
             </a>
-            <nav className="hidden md:flex space-x-6">
+            <nav className="flex space-x-4 md:space-x-6 text-sm md:text-base">
               <a href="/kategoriler" className="hover:text-mystic-400 transition-colors">Kategoriler</a>
               <a href="/a-z" className="hover:text-mystic-400 transition-colors">A-Z İndeks</a>
             </nav>
@@ -121,7 +121,7 @@ export default function RootLayout({
           <footer className="bg-night-900 border-t border-night-800 py-8 mt-12">
             <div className="container mx-auto px-4 text-center text-sm text-night-400">
               <p>&copy; {new Date().getFullYear()} Rüya Sözlüğü. Tüm hakları saklıdır. Rüya Sözlüğü bir turtle arge projesidir.</p>
-              <div className="mt-3 flex items-center justify-center gap-4 text-xs">
+              <div className="mt-3 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-xs">
                 <a href="/hakkimizda" className="hover:text-mystic-400 transition-colors">Hakkımızda</a>
                 <span>•</span>
                 <a href="/iletisim" className="hover:text-mystic-400 transition-colors">İletişim</a>

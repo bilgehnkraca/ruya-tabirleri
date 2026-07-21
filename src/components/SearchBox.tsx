@@ -51,7 +51,7 @@ export default function SearchBox() {
       <div className="relative">
         <input
           type="text"
-          className="w-full bg-night-800/80 border border-night-700 text-night-100 rounded-full py-4 pl-12 pr-12 focus:outline-none focus:border-mystic-500 focus:ring-1 focus:ring-mystic-500 transition-all placeholder:text-night-400"
+          className="w-full bg-night-800/80 border border-night-700 text-night-100 rounded-full py-3 md:py-4 pl-12 pr-12 focus:outline-none focus:border-mystic-500 focus:ring-1 focus:ring-mystic-500 transition-all placeholder:text-night-400 text-base"
           placeholder="Rüyanızda ne gördünüz? (Örn: yılan, ev, para...)"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
