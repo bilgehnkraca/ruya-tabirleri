@@ -19,6 +19,27 @@ export const metadata: Metadata = {
     default: "Rüya Tabirleri Sözlüğü - En Kapsamlı Rüya Yorumları",
   },
   description: "Türkiye'nin en kapsamlı, özgün ve güvenilir rüya tabirleri sözlüğü. Dini, psikolojik ve genel rüya yorumları.",
+  openGraph: {
+    title: "Rüya Tabirleri Sözlüğü",
+    description: "Türkiye'nin en kapsamlı, özgün ve güvenilir rüya tabirleri sözlüğü. Dini, psikolojik ve genel rüya yorumları.",
+    url: 'https://ruyatabirleri.com',
+    siteName: 'Rüya Tabirleri Sözlüğü',
+    images: [
+      {
+        url: 'https://ruyatabirleri.com/og-image.jpg',
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: 'tr_TR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Rüya Tabirleri Sözlüğü',
+    description: "Türkiye'nin en kapsamlı, özgün ve güvenilir rüya tabirleri sözlüğü.",
+    images: ['https://ruyatabirleri.com/og-image.jpg'],
+  },
   robots: {
     index: true,
     follow: true,

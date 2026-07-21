@@ -10,8 +10,30 @@ export default function Home() {
   
   const popularSymbols = symbols.slice(0, 12);
 
+  const websiteSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Rüya Tabirleri',
+    url: 'https://ruyatabirleri.com',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: 'https://ruyatabirleri.com/ara?q={search_term_string}',
+      'query-input': 'required name=search_term_string'
+    }
+  };
+
+  const organizationSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Rüya Tabirleri',
+    url: 'https://ruyatabirleri.com',
+    description: "Türkiye'nin kapsamlı rüya tabirleri sözlüğü"
+  };
+
   return (
     <div className="flex flex-col gap-16 pb-12">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
       <section className="text-center pt-12 pb-8 px-4 flex flex-col items-center justify-center min-h-[50vh] relative">
         <div className="absolute inset-0 bg-mystic-900/20 rounded-3xl blur-3xl -z-10" />
         <Moon className="text-mystic-400 w-16 h-16 mb-6 opacity-80" />

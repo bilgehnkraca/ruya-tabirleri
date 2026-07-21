@@ -7,12 +7,24 @@ export const metadata: Metadata = {
 };
 
 export default function AboutPage() {
+  const organizationSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'Rüya Tabirleri',
+    url: 'https://ruyatabirleri.com',
+    description: "Türkiye'nin kapsamlı rüya tabirleri sözlüğü"
+  };
+
   return (
     <article className="max-w-4xl mx-auto pb-12">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
       <header className="mb-12 text-center pt-8">
         <h1 className="text-4xl md:text-5xl font-serif font-bold text-white mb-6">Hakkımızda</h1>
-        <p className="text-xl text-night-300 max-w-2xl mx-auto">
+        <p className="text-xl text-night-300 max-w-2xl mx-auto mb-4">
           Bilinçaltınızın sembolik dilini çözmenize yardımcı olan rehberiniz.
+        </p>
+        <p className="text-md text-night-400 max-w-2xl mx-auto italic">
+          Bu site, İslami rüya tabiri geleneği ve modern psikoloji literatürü temel alınarak hazırlanmıştır. İçerikler 2026 yılından itibaren düzenli olarak güncellenmektedir.
         </p>
       </header>
 

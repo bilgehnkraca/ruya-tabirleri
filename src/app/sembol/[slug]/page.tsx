@@ -53,10 +53,22 @@ export default function SymbolPage({ params }: Props) {
     ]
   };
 
+  const articleSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: symbol.title,
+    description: symbol.shortDescription,
+    author: {
+      '@type': 'Organization',
+      name: 'Rüya Tabirleri Sözlüğü'
+    }
+  };
+
   return (
     <article className="max-w-4xl mx-auto pb-12">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
 
       <nav className="text-sm text-night-400 mb-8 flex items-center gap-2">
         <Link href="/" className="hover:text-mystic-400 transition-colors">Anasayfa</Link>
@@ -76,10 +88,12 @@ export default function SymbolPage({ params }: Props) {
       <AdSlot type="adsense" slotId="CONTENT_TOP_SLOT_ID" className="mb-10" />
 
       <div className="prose prose-invert prose-night max-w-none">
-        <h2 className="text-2xl font-serif font-bold text-mystic-100 mt-8 mb-4 border-b border-night-700 pb-2">Genel Yorum</h2>
+        <h2 className="text-2xl font-serif font-bold text-mystic-100 mt-8 mb-4 border-b border-night-700 pb-2">Peki bu rüyanın asıl şifresi nedir?</h2>
         <p className="text-night-200 leading-relaxed mb-8">{symbol.content.generalMeaning}</p>
 
-        <h2 className="text-2xl font-serif font-bold text-mystic-100 mt-10 mb-6 border-b border-night-700 pb-2">Farklı Bağlamlara Göre Alt Yorumlar</h2>
+        <AdSlot type="yandex" yandexId="R-A-XXXXXX-1" className="my-10" />
+
+        <h2 className="text-2xl font-serif font-bold text-mystic-100 mt-10 mb-6 border-b border-night-700 pb-2">Rüyadaki detaylar tabiri tamamen değiştirir...</h2>
         <div className="space-y-8">
           {symbol.content.variations.map((variation, index) => (
             <div key={index} className="bg-night-800/30 rounded-xl p-6 border border-night-800">
@@ -89,24 +103,26 @@ export default function SymbolPage({ params }: Props) {
           ))}
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 mt-12">
+        <AdSlot type="adsense" slotId="CONTENT_MIDDLE_1" className="my-10" />
+
+        <div className="grid md:grid-cols-2 gap-8 mt-12 mb-10">
           <div>
-            <h2 className="text-2xl font-serif font-bold text-mystic-100 mb-4 border-b border-night-700 pb-2">Dini ve Geleneksel Yorum</h2>
+            <h2 className="text-2xl font-serif font-bold text-mystic-100 mb-4 border-b border-night-700 pb-2">Kadim Kaynaklara Göre...</h2>
             <p className="text-night-200 leading-relaxed bg-night-800/20 p-5 rounded-xl border-l-4 border-mystic-500">
               {symbol.content.religiousMeaning}
             </p>
           </div>
           <div>
-            <h2 className="text-2xl font-serif font-bold text-mystic-100 mb-4 border-b border-night-700 pb-2">Psikolojik Yaklaşım</h2>
+            <h2 className="text-2xl font-serif font-bold text-mystic-100 mb-4 border-b border-night-700 pb-2">Bilinçaltınız Aslında Ne Diyor?</h2>
             <p className="text-night-200 leading-relaxed bg-night-800/20 p-5 rounded-xl border-l-4 border-accent-500">
               {symbol.content.psychologicalMeaning}
             </p>
           </div>
         </div>
 
-        <AdSlot type="yandex" yandexId="R-A-XXXXXX-1" className="my-12" />
+        <AdSlot type="yandex" yandexId="R-A-XXXXXX-2" className="my-10" />
 
-        <h2 className="text-2xl font-serif font-bold text-mystic-100 mt-12 mb-6 border-b border-night-700 pb-2">Sık Sorulan Sorular</h2>
+        <h2 className="text-2xl font-serif font-bold text-mystic-100 mt-12 mb-6 border-b border-night-700 pb-2">Merak Edilen Diğer Detaylar</h2>
         <div className="space-y-6">
           {symbol.content.faqs.map((faq, index) => (
             <div key={index}>
