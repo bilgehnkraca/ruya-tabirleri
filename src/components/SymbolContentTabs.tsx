@@ -5,6 +5,7 @@ import { DreamSymbol } from '@/lib/types';
 import { Sparkles, BookOpen, Brain, ChevronRight } from 'lucide-react';
 import AdSlot from '@/components/AdSlot';
 import PartnerAd from '@/components/PartnerAd';
+import TextToSpeech from '@/components/TextToSpeech';
 
 type Tab = 'general' | 'religious' | 'psychological';
 
@@ -58,7 +59,10 @@ export default function SymbolContentTabs({ symbol }: { symbol: DreamSymbol }) {
         {/* General Tab */}
         {activeTab === 'general' && (
           <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
-            <h2 className="text-2xl font-serif font-bold text-mystic-100 mb-4 border-b border-night-700 pb-2">Genel Yorum</h2>
+            <h2 className="text-2xl font-serif font-bold text-mystic-100 mb-4 border-b border-night-700 pb-2 flex items-center justify-between">
+              Genel Yorum
+            </h2>
+            <TextToSpeech text={symbol.content.generalMeaning} />
             <div className="text-night-200 leading-relaxed bg-night-800/30 p-6 rounded-2xl border-l-4 border-mystic-500 mb-8 whitespace-pre-wrap">
               {symbol.content.generalMeaning}
             </div>
@@ -95,6 +99,7 @@ export default function SymbolContentTabs({ symbol }: { symbol: DreamSymbol }) {
             <h2 className="text-2xl font-serif font-bold text-gold-400 mb-4 border-b border-night-700 pb-2 flex items-center gap-2">
               <BookOpen className="w-6 h-6" /> Kadim Kaynaklara Göre...
             </h2>
+            <TextToSpeech text={symbol.content.religiousMeaning} />
             <div className="text-night-200 leading-relaxed bg-night-800/30 p-6 rounded-2xl border-l-4 border-gold-500 text-lg whitespace-pre-wrap">
               {symbol.content.religiousMeaning}
             </div>
@@ -110,6 +115,7 @@ export default function SymbolContentTabs({ symbol }: { symbol: DreamSymbol }) {
             <h2 className="text-2xl font-serif font-bold text-blue-400 mb-4 border-b border-night-700 pb-2 flex items-center gap-2">
               <Brain className="w-6 h-6" /> Bilinçaltınız Aslında Ne Diyor?
             </h2>
+            <TextToSpeech text={symbol.content.psychologicalMeaning} />
             <div className="text-night-200 leading-relaxed bg-night-800/30 p-6 rounded-2xl border-l-4 border-blue-500 text-lg whitespace-pre-wrap">
               {symbol.content.psychologicalMeaning}
             </div>
