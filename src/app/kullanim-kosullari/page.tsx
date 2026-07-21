@@ -34,7 +34,7 @@ export default function TermsOfUsePage() {
           <h2 className="text-xl font-bold text-mystic-400 mt-8 mb-4">Telif Hakkı</h2>
           <p>
             Web sitemizde yer alan tasarım, metin, grafik ve diğer tüm materyallerin telif hakları aksi belirtilmedikçe 
-            Rüya Sözlüğü'ne aittir. İzinsiz kopyalanması, çoğaltılması veya başka mecralarda yayınlanması yasaktır.
+            Rüya Sözlüğü&apos;ne aittir. İzinsiz kopyalanması, çoğaltılması veya başka mecralarda yayınlanması yasaktır.
           </p>
         </section>
 
