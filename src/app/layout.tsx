@@ -99,8 +99,13 @@ export default function RootLayout({
 
           <footer className="bg-night-900 border-t border-night-800 py-8 mt-12">
             <div className="container mx-auto px-4 text-center text-sm text-night-400">
-              <p>&copy; {new Date().getFullYear()} Rüya Sözlüğü. Tüm hakları saklıdır.</p>
-              <p className="mt-2">Bu sitedeki tabirler bilgilendirme amaçlıdır.</p>
+              <p>&copy; {new Date().getFullYear()} Rüya Sözlüğü. Tüm hakları saklıdır. Rüya Sözlüğü bir turtle arge projesidir.</p>
+              <div className="mt-3 flex items-center justify-center gap-4 text-xs">
+                <a href="/hakkimizda" className="hover:text-mystic-400 transition-colors">Hakkımızda</a>
+                <span>•</span>
+                <a href="/iletisim" className="hover:text-mystic-400 transition-colors">İletişim</a>
+              </div>
+              <p className="mt-3">Bu sitedeki tabirler bilgilendirme amaçlıdır.</p>
             </div>
           </footer>
         </div>
