@@ -184,7 +184,7 @@ export default function DetayliAramaClient({ symbols }: { symbols: DreamSymbol[]
         )}
       </div>
 
-      <AdSlot type="yandex" yandexId="R-A-19625893-1" className="mb-10" />
+      <AdSlot type="yandex" yandexId="" className="mb-10" />
 
       {/* Results Area */}
       {tags.length > 0 && (

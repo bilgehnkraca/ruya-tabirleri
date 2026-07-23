@@ -2,23 +2,30 @@ import fs from 'fs';
 import path from 'path';
 import { DreamSymbol } from './types';
 
-const symbolsDir = path.join(process.cwd(), 'content', 'symbols', 'items');
+const symbolsBaseDir = path.join(process.cwd(), 'content', 'symbols');
 
 export function getAllSymbols(): DreamSymbol[] {
-  if (!fs.existsSync(symbolsDir)) {
+  if (!fs.existsSync(symbolsBaseDir)) {
     return [];
   }
   
-  const files = fs.readdirSync(symbolsDir).filter(file => file.endsWith('.json'));
+  const categories = ['animals', 'items', 'nature', 'places'];
   const symbols: DreamSymbol[] = [];
   
-  for (const file of files) {
-    const filePath = path.join(symbolsDir, file);
-    const fileContent = fs.readFileSync(filePath, 'utf-8');
-    try {
-      symbols.push(JSON.parse(fileContent) as DreamSymbol);
-    } catch (e) {
-      console.error(`Error parsing JSON for file ${file}`, e);
+  for (const category of categories) {
+    const categoryDir = path.join(symbolsBaseDir, category);
+    if (!fs.existsSync(categoryDir)) continue;
+    
+    const files = fs.readdirSync(categoryDir).filter(file => file.endsWith('.json'));
+    
+    for (const file of files) {
+      const filePath = path.join(categoryDir, file);
+      const fileContent = fs.readFileSync(filePath, 'utf-8');
+      try {
+        symbols.push(JSON.parse(fileContent) as DreamSymbol);
+      } catch (e) {
+        console.error(`Error parsing JSON for file ${file}`, e);
+      }
     }
   }
   

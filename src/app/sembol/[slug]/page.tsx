@@ -13,10 +13,33 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const symbol = getSymbolBySlug(params.slug);
   if (!symbol) return { title: 'Bulunamadı' };
 
+  const url = `https://www.ruyasozlugunuz.com/ruyada-${symbol.slug}-gormek`;
+
   return {
     title: symbol.title,
     description: symbol.shortDescription,
-    alternates: { canonical: `/ruyada-${symbol.slug}-gormek` }
+    alternates: { canonical: `/ruyada-${symbol.slug}-gormek` },
+    openGraph: {
+      title: `${symbol.title} | Rüya Tabirleri Sözlüğü`,
+      description: symbol.shortDescription,
+      url,
+      type: 'article',
+      siteName: 'Rüya Tabirleri Sözlüğü',
+      images: [
+        {
+          url: 'https://www.ruyasozlugunuz.com/og-image.jpg',
+          width: 1200,
+          height: 630,
+          alt: symbol.title,
+        }
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${symbol.title} | Rüya Tabirleri Sözlüğü`,
+      description: symbol.shortDescription,
+      images: ['https://www.ruyasozlugunuz.com/og-image.jpg'],
+    }
   };
 }
 
@@ -59,9 +82,25 @@ export default function SymbolPage({ params }: Props) {
     '@type': 'Article',
     headline: symbol.title,
     description: symbol.shortDescription,
+    image: 'https://www.ruyasozlugunuz.com/og-image.jpg',
+    datePublished: '2024-01-01T08:00:00+03:00',
+    dateModified: new Date().toISOString(),
     author: {
       '@type': 'Organization',
-      name: 'Rüya Tabirleri Sözlüğü'
+      name: 'Rüya Tabirleri Sözlüğü',
+      url: 'https://www.ruyasozlugunuz.com'
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Rüya Tabirleri Sözlüğü',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://www.ruyasozlugunuz.com/icon.svg'
+      }
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://www.ruyasozlugunuz.com/ruyada-${symbol.slug}-gormek`
     }
   };
 
@@ -94,7 +133,7 @@ export default function SymbolPage({ params }: Props) {
           allSymbolsLight={allSymbols.map(s => ({ title: s.title, slug: s.slug }))}
         />
 
-        <AdSlot type="yandex" yandexId="R-A-XXXXXX-2" className="my-10" />
+        <AdSlot type="yandex" yandexId="" className="my-10" />
 
         <h2 className="text-2xl font-serif font-bold text-mystic-100 mt-12 mb-6 border-b border-night-700 pb-2">Merak Edilen Diğer Detaylar</h2>
         <div className="space-y-6">

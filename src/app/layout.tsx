@@ -55,6 +55,34 @@ export default function RootLayout({
   return (
     <html lang="tr">
       <head>
+        {/* Google Search Console Verification Placeholder */}
+        {/* TODO: Kendi kodunuzu aşağıya ekleyip yorum satırından çıkarın */}
+        {/* <meta name="google-site-verification" content="SİZİN_KODUNUZ" /> */}
+        
+        {/* Google Analytics 4 Placeholder */}
+        {/* TODO: G-XXXXXXXXXX kısımlarını kendi GA4 Measurement ID'niz ile değiştirip yorum satırından çıkarın */}
+        {/*
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX" strategy="afterInteractive" />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {\`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-XXXXXXXXXX');
+          \`}
+        </Script>
+        */}
+        
+        {/* Google Funding Choices Snippet */}
+        <script
+          async
+          src="https://fundingchoicesmessages.google.com/i/pub-3922046877246889?ers=1"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function() {function signalGooglefcPresent() {if (!window.googletag) {window.googletag = {cmd: []};} if (googletag.apiReady) {googletag.cmd.push(function() {googletag.pubads().setPrivacySettings({restrictDataProcessing: false});});} else {window.googletag.cmd.push(function() {googletag.pubads().setPrivacySettings({restrictDataProcessing: false});});}}window.googletag = window.googletag || {cmd: []};googletag.cmd.push(function() {googletag.pubads().addEventListener('privacySettingsReady', function() {signalGooglefcPresent();});});})()`
+          }}
+        />
         {/* Google AdSense Script */}
         <Script
           async

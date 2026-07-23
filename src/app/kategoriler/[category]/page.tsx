@@ -13,11 +13,36 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!categories.includes(params.category)) return { title: 'Kategori Bulunamadı' };
 
   const categoryName = params.category.replace('-', ' ');
+  const url = `https://www.ruyasozlugunuz.com/kategoriler/${params.category}`;
+  const title = `${categoryName} Kategorisindeki Rüya Tabirleri | Rüya Tabirleri Sözlüğü`;
+  const description = `${categoryName} ile ilgili tüm rüya sembolleri ve detaylı yorumları.`;
+
   return {
     title: `${categoryName} Kategorisindeki Rüya Tabirleri`,
-    description: `${categoryName} ile ilgili tüm rüya sembolleri ve detaylı yorumları.`,
+    description,
     alternates: {
       canonical: `/kategoriler/${params.category}`,
+    },
+    openGraph: {
+      title,
+      description,
+      url,
+      type: 'website',
+      siteName: 'Rüya Tabirleri Sözlüğü',
+      images: [
+        {
+          url: 'https://www.ruyasozlugunuz.com/og-image.jpg',
+          width: 1200,
+          height: 630,
+          alt: title,
+        }
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ['https://www.ruyasozlugunuz.com/og-image.jpg'],
     }
   };
 }

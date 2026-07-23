@@ -38,6 +38,8 @@ export default function AdSlot({ type, slotId, yandexId, className = '', format 
     }
   }, [type, slotId, yandexId]);
 
+  if (type === 'yandex' && !yandexId) return null;
+
   if (process.env.NODE_ENV !== 'production') {
     return (
       <div className={`w-full h-[90px] bg-night-800/50 rounded-xl border border-night-700/50 flex flex-col items-center justify-center text-night-500 text-sm ${className}`}>
