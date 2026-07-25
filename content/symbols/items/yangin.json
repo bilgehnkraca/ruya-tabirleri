@@ -1,69 +1,71 @@
-{
-  "slug": "yangin",
-  "title": "Rüyada Yangın Görmek",
-  "category": "doga",
-  "shortDescription": "Rüyada yangın görmek; ani değişimlere, yıkıma, sonrasında gelecek büyük bir arınmaya (veya yeniden doğuşa), iflasa veya şiddetli bir kavgaya işaret eder.",
-  "relatedSymbols": [
-    "ates",
-    "ev",
-    "cehennem"
-  ],
-  "content": {
-    "introduction": "Ateş ve yangın, insanlık tarihinin en büyük korkusu olduğu kadar, en büyük arındırıcısı ve medeniyet kurucusudur (mitolojide Anka Kuşu'nun küllerinden doğması gibi). Rüyalarda kontrol edilemeyen bir yangın görmek, rüya sahibinin hayatında meydana gelecek şiddetli ve ani bir değişimi, bir şeylerin \"kül olmasını\" ve genellikle önlenemez bir krizi (öfkeyi) sembolize eder. Yangın, rüyanın nasıl bittiğine bağlı olarak yıkım veya yeniden doğuş anlamına gelir.",
-    "generalMeaning": "Yangın Görmek rüyada görüldüğünde genel olarak ani değişimlere, yıkıma, sonrasında gelecek büyük bir arınmaya (veya yeniden doğuşa), iflasa veya şiddetli bir kavgaya işaret eder. şeklinde yorumlanır. Rüya tabircilerine göre rüyada alev alev, dumanı tüten bir yangın görmek, çoğunlukla büyük bir fitneye, musibete, hastalığa veya hane (ya da ülke) içinde çıkacak çok büyük bir kargaşaya (savaşa) delalet eder. Rüyasında evinin yandığını gören kişinin hanesine büyük bir nifak girer, eşler arasında şiddetli bir geçimsizlik veya ani bir iflas (mal kaybı) yaşanır. Ancak alevsiz, sadece ışık saçan bir yangın görmek (veya o ateşte ısınmak), rüya sahibinin korktuğu bir şeyden emin (güvende) olacağına, büyük bir müjde alacağına işarettir. Rüyada bir yangını söndürmek ise, rüya sahibinin bilgeliği ve soğukkanlılığı sayesinde çok büyük bir belanın veya dedikodunun önüne geçileceğine yorulur.\n\nBu rüyanın günlük yaşama ve sosyal ilişkilere yansıması incelendiğinde, rüya sahibinin hayatında yepyeni bir farkındalık döneminin başladığı görülür. Kişinin ailevi, mesleki veya sosyal çevresinde uzun süredir devam eden belirsizliklerin netlik kazanacağı, alınacak stratejik kararların geleceğe yön vereceği bir evreye girilmektedir. Uzmanlar, bu rüyayı gören kişilerin yakın çevresindeki insanlarla olan iletişiminde daha açık, empatik ve sabırlı olmasını önerir. Özellikle iş veya kariyer yaşamında karşılaşılabilecek ani değişimlere karşı esnek bir tutum sergilemek, olası krizleri fırsata çevirmek adına büyük bir avantaj sağlayacaktır. Yaşamın doğal akışı içerisinde karşılaşılan engellerin aşılabilir olduğunu hatırlatan bu sembol, kişinin kendine olan özgüvenini tazelemesi ve hedeflerine doğru kararlı adımlarla ilerlemesi gerektiğini vurgulayan güçlü bir zihinsel rehberdir.",
-    "variations": [
-      {
-        "title": "Rüyada Orman Yangını Görmek",
-        "content": "Toplumu veya kalabalık bir aileyi ilgilendiren büyük bir kriz, kıtlık, ekonomik dalgalanma veya bir hastalığın (salgının) hızla yayılmasına işarettir."
-      },
-      {
-        "title": "Rüyada Yangından Kaçmak (Kurtulmak)",
-        "content": "Çok tehlikeli, zarar verici bir ilişkiden veya iflas etmek üzere olan bir işten son anda paçayı sıyırarak büyük bir felaketi atlatacağınıza delalet eder."
-      },
-      {
-        "title": "Rüyada Üstünün (Kıyafetinin) Yanması",
-        "content": "Kişinin itibarına, şerefine veya işine (kıyafete) çok büyük bir leke sürüleceğine, dedikodular yüzünden canının çok yanacağına yorulur."
-      },
-      {
-        "title": "Rüyada Yangın Çıkarmak (Bilerek)",
-        "content": "Kendi öfkeniz, hırsınız veya kibiriniz yüzünden kendi hayatınızı (veya başkalarının hayatını) mahvedeceğinize, etrafınıza bilerek zarar verdiğinize işarettir."
-      },
-      {
-        "title": "Rüyada Yangından Birini Kurtarmak",
-        "content": "Çok büyük bir sevaba gireceğinize, hayatı darmadağın olmuş bir insanın elinden tutarak onu küllerinden yeniden var edeceğinize (kahramanlığa) delalet eder."
-      },
-      {
-        "title": "Rüyada Beklenmedik Bir Anda Yangın İle Karşılaşmak",
-        "content": "Rüyada hiç umulmadık bir anda ve şaşırtıcı bir mekanda yangın ile karşılaşmak, gerçek yaşamda rüya sahibinin karşısına çıkacak ani, sürpriz gelişmelere ve dönüm noktalarına işaret eder. Bu durum, ilk etapta kişide tatlı bir heyecan veya şaşkınlık yaratsa da, zamanla hayatın akışını olumlu yönde değiştirecek yeni imkanların kapısını aralayacaktır. İslami ve psikolojik tefsirlerin ortak kesişim noktasına göre, bu tür sürpriz semboller kişinin esnekliğini, yeniliklere uyum sağlama potansiyelini ve kadim şansını simgeler."
-      }
+[
+  {
+    "slug": "yangin",
+    "title": "Rüyada Yangın Görmek",
+    "category": "doga",
+    "shortDescription": "Rüyada yangın görmek; ani değişimlere, yıkıma, sonrasında gelecek büyük bir arınmaya (veya yeniden doğuşa), iflasa veya şiddetli bir kavgaya işaret eder.",
+    "relatedSymbols": [
+      "ates",
+      "ev",
+      "cehennem"
     ],
-    "religiousMeaning": "İslami tabirlerde (İbn Şirin) yangın, Allah'ın azabı, devlet adamlarının zulmü veya insanlar arasına düşecek büyük bir fitne (kavga) olarak tabir edilir. Kur'an'da ateş genellikle cehennemle bağdaştırıldığı için rüyada ateşte yanmak, büyük günahlara (özellikle yetim malı yemeye veya faize) işarettir. Gökyüzünden ateş (yangın) yağdığını görmek, o bölgeye isabet edecek bir musibettir. Ancak Hz. İbrahim'in ateşe atılıp yanmaması kıssasına dayanarak, rüyada ateşin ortasında kalıp yanmadığını (serin olduğunu) gören kişi, iftiralardan ve düşmanlarından ilahi bir yardımla (mucizeyle) kurtulur.\n\nKadim İslami rüya tabiri kaynaklarına (özellikle İmam Nablusi, İbn-i Sirin ve İmam Cafer-i Sadık tefsirlerine) göre, rüyada yangın ile karşılaşmak, rüya sahibinin manevi durumuna, niyetine ve rüyanın görüldüğü esnadaki duygu durumuna göre katmanlı bir şekilde yorumlanır. Diyanet rüya tabirleri yaklaşımlarında da belirtildiği üzere, bu sembol kişiye hem bir müjde hem de içsel bir uyarı niteliği taşıyabilir. Eğer rüya sahibi hak yolunda dürüst ve erdemli bir yaşam sürmeye gayret ediyorsa, bu rüya helal rızka, manevi bir arınmaya ve yakın zamanda alınacak hayırlı haberlere delalet eder. Ancak rüya esnasında huzursuzluk veya korku hissedildiyse, İslami alimler bunu kişinin dünya işlerine aşırı kapılarak ahiret bilincini veya insani sorumluluklarını ihmal ettiği şeklinde tefsir ederler. Bu durum, kişinin niyetlerini gözden geçirmesi, sadaka vermesi ve iç huzuru bulmak adına manevi dünyasına daha fazla özen göstermesi gerektiğine dair ilahi bir fıtrat uyarısı olarak kabul edilir.",
-    "psychologicalMeaning": "Psikolojide yangın, kontrol edilemeyen, yıkıcı \"Öfke\" ve \"İhtiras\" (Tutku) duygularını temsil eder. Rüyasında yangın gören kişi, uyanık hayatta tükenmişlik sendromu yaşıyor (Burn-out), öfkeden patlamak üzere hissediyor veya hayatındaki her şeyi yakıp yıkıp sıfırdan başlama (Radikal Değişim) arzusu taşıyor olabilir. Yangın, bastırılmış duyguların şiddetli bir şekilde yüzeye çıkmasıdır.\n\nAnalitik psikoloji perspektifinden (özellikle Carl Jung ve Sigmund Freud ekolleri göz önüne alındığında), rüyada yangın imgesi, bilinçdışının derinliklerinden bilince taşınmak istenen çok önemli simgesel mesajlar barındırır. Jung, bu tür sembolleri bireyin \"bireyleşme (individuation)\" sürecinde karşılaştığı arketipsel yansımalar ve gölge (shadow) bütünleşmesi olarak ele alır. Günlük yaşamda bastırılmış kaygılar, ifade edilememiş duygular veya çözümsüz kalmış ikili ilişki çatışmaları, uykunun REM evresinde zihnin savunma mekanizmalarının gevşemesiyle bu sembol üzerinden dramatik bir şekilde açığa çıkar. Rüya sahibinin güncel hayatında yaşadığı kontrol kaybı endişesi, gelecek kaygısı veya yeni bir karar alma aşamasındaki içsel gerilimi, bilinçaltı tarafından bu imgeye dönüştürülerek yeniden işlenir. Bu rüya, zihinsel bir rehabilitasyon süreci olup, bireyin kendi içsel gücünü fark etmesi, duygusal yüklerinden arınması ve zihinsel bütünlüğünü sağlaması için bilinçaltının sunduğu şifayı işaret eder.",
-    "faqs": [
-      {
-        "question": "Rüyada yangın görmek ne anlama gelir?",
-        "answer": "Rüyada yangın görmek; ani değişimlere, yıkıma, sonrasında gelecek büyük bir arınmaya (veya yeniden doğuşa), iflasa veya şiddetli bir kavgaya işaret eder."
-      },
-      {
-        "question": "Rüyada dumansız yangın görmek ne anlama gelir?",
-        "answer": "Kimsenin ruhu duymadan, gizliden gizliye yaşanacak bir tehlikeye veya sadece ruhunuzu yakan ama dışarıdan belli olmayan (gizli) bir aşka/derde yorulur."
-      },
-      {
-        "question": "Kendi evinin yandığını ve ağladığını görmek nedir?",
-        "answer": "Maddi bir kayıp yaşanacağına, ancak dökülen gözyaşlarının ardından ailenin birbirine daha sıkı sarılarak bu zorluğu atlatacağına işarettir."
-      },
-      {
-        "question": "Rüyada gökten yangın düşmesi ne demek?",
-        "answer": "İlahi bir uyarıdır; toplum olarak işlenen günahların (veya adaletsizliğin) sonucunda başa gelecek kaçınılmaz (ilahi) bir krizi temsil eder."
-      },
-      {
-        "question": "Rüyada yangın görmek psikolojik ve zihinsel olarak nasıl değerlendirilmelidir?",
-        "answer": "Bu rüya, bilinçaltınızın günlük yaşamdaki stres, beklenti ve duygusal yoğunlukları işleyerek zihinsel dengeyi kurma çabasıdır. Analitik psikolojiye göre, rüya sahibinin içsel dünyasında yüzleşmesi gereken bir duyguya, çözmesi gereken bir soruna veya özümsemesi gereken yeni bir yaşam tecrübesine dikkat çeker. Zihnin ruhsal bir şifa ve arınma süreci olarak değerlendirilmeli, günlük hayattaki kararlarda iç sesin uyarıları dikkate alınmalıdır."
-      },
-      {
-        "question": "Rüyada yangın gördükten sonra günlük hayatta nelere dikkat edilmelidir?",
-        "answer": "Bu rüyayı deneyimledikten sonra özellikle sosyal ilişkilerinizde, mesleki kararlarınızda ve ailevi konularda daha sakin, gözlemlere dayalı ve sağduyulu bir yaklaşım benimsemeniz önerilir. Karşılaşacağınız yeni fırsatları aceleci davranmadan, tüm detaylarıyla değerlendirmeli, manevi huzurunuzu bozabilecek gereksiz tartışmalardan ve stres kaynaklarından uzak durmaya özen göstermelisiniz."
-      }
-    ]
+    "content": {
+      "introduction": "Ateş ve yangın, insanlık tarihinin en büyük korkusu olduğu kadar, en büyük arındırıcısı ve medeniyet kurucusudur (mitolojide Anka Kuşu'nun küllerinden doğması gibi). Rüyalarda kontrol edilemeyen bir yangın görmek, rüya sahibinin hayatında meydana gelecek şiddetli ve ani bir değişimi, bir şeylerin \"kül olmasını\" ve genellikle önlenemez bir krizi (öfkeyi) sembolize eder. Yangın, rüyanın nasıl bittiğine bağlı olarak yıkım veya yeniden doğuş anlamına gelir.",
+      "generalMeaning": "Yangın Görmek rüyada görüldüğünde genel olarak ani değişimlere, yıkıma, sonrasında gelecek büyük bir arınmaya (veya yeniden doğuşa), iflasa veya şiddetli bir kavgaya işaret eder. şeklinde yorumlanır. Rüya tabircilerine göre rüyada alev alev, dumanı tüten bir yangın görmek, çoğunlukla büyük bir fitneye, musibete, hastalığa veya hane (ya da ülke) içinde çıkacak çok büyük bir kargaşaya (savaşa) delalet eder. Rüyasında evinin yandığını gören kişinin hanesine büyük bir nifak girer, eşler arasında şiddetli bir geçimsizlik veya ani bir iflas (mal kaybı) yaşanır. Ancak alevsiz, sadece ışık saçan bir yangın görmek (veya o ateşte ısınmak), rüya sahibinin korktuğu bir şeyden emin (güvende) olacağına, büyük bir müjde alacağına işarettir. Rüyada bir yangını söndürmek ise, rüya sahibinin bilgeliği ve soğukkanlılığı sayesinde çok büyük bir belanın veya dedikodunun önüne geçileceğine yorulur.\n\nBu rüyanın günlük yaşama ve sosyal ilişkilere yansıması incelendiğinde, rüya sahibinin hayatında yepyeni bir farkındalık döneminin başladığı görülür. Kişinin ailevi, mesleki veya sosyal çevresinde uzun süredir devam eden belirsizliklerin netlik kazanacağı, alınacak stratejik kararların geleceğe yön vereceği bir evreye girilmektedir. Uzmanlar, bu rüyayı gören kişilerin yakın çevresindeki insanlarla olan iletişiminde daha açık, empatik ve sabırlı olmasını önerir. Özellikle iş veya kariyer yaşamında karşılaşılabilecek ani değişimlere karşı esnek bir tutum sergilemek, olası krizleri fırsata çevirmek adına büyük bir avantaj sağlayacaktır. Yaşamın doğal akışı içerisinde karşılaşılan engellerin aşılabilir olduğunu hatırlatan bu sembol, kişinin kendine olan özgüvenini tazelemesi ve hedeflerine doğru kararlı adımlarla ilerlemesi gerektiğini vurgulayan güçlü bir zihinsel rehberdir. Ayrıca günlük yaşantınızdaki planlamalarda, zaman ve bütçe yönetiminde [Türkiye Hesaplama Çözüm Platformu](https://www.turkiyehesaplama.com) üzerinden destek alarak adımlarınızı somut verilere dayandırabilirsiniz.",
+      "variations": [
+        {
+          "title": "Rüyada Orman Yangını Görmek",
+          "content": "Toplumu veya kalabalık bir aileyi ilgilendiren büyük bir kriz, kıtlık, ekonomik dalgalanma veya bir hastalığın (salgının) hızla yayılmasına işarettir."
+        },
+        {
+          "title": "Rüyada Yangından Kaçmak (Kurtulmak)",
+          "content": "Çok tehlikeli, zarar verici bir ilişkiden veya iflas etmek üzere olan bir işten son anda paçayı sıyırarak büyük bir felaketi atlatacağınıza delalet eder."
+        },
+        {
+          "title": "Rüyada Üstünün (Kıyafetinin) Yanması",
+          "content": "Kişinin itibarına, şerefine veya işine (kıyafete) çok büyük bir leke sürüleceğine, dedikodular yüzünden canının çok yanacağına yorulur."
+        },
+        {
+          "title": "Rüyada Yangın Çıkarmak (Bilerek)",
+          "content": "Kendi öfkeniz, hırsınız veya kibiriniz yüzünden kendi hayatınızı (veya başkalarının hayatını) mahvedeceğinize, etrafınıza bilerek zarar verdiğinize işarettir."
+        },
+        {
+          "title": "Rüyada Yangından Birini Kurtarmak",
+          "content": "Çok büyük bir sevaba gireceğinize, hayatı darmadağın olmuş bir insanın elinden tutarak onu küllerinden yeniden var edeceğinize (kahramanlığa) delalet eder."
+        },
+        {
+          "title": "Rüyada Beklenmedik Bir Anda Yangın İle Karşılaşmak",
+          "content": "Rüyada hiç umulmadık bir anda ve şaşırtıcı bir mekanda yangın ile karşılaşmak, gerçek yaşamda rüya sahibinin karşısına çıkacak ani, sürpriz gelişmelere ve dönüm noktalarına işaret eder. Bu durum, ilk etapta kişide tatlı bir heyecan veya şaşkınlık yaratsa da, zamanla hayatın akışını olumlu yönde değiştirecek yeni imkanların kapısını aralayacaktır. İslami ve psikolojik tefsirlerin ortak kesişim noktasına göre, bu tür sürpriz semboller kişinin esnekliğini, yeniliklere uyum sağlama potansiyelini ve kadim şansını simgeler."
+        }
+      ],
+      "religiousMeaning": "İslami tabirlerde (İbn Şirin) yangın, Allah'ın azabı, devlet adamlarının zulmü veya insanlar arasına düşecek büyük bir fitne (kavga) olarak tabir edilir. Kur'an'da ateş genellikle cehennemle bağdaştırıldığı için rüyada ateşte yanmak, büyük günahlara (özellikle yetim malı yemeye veya faize) işarettir. Gökyüzünden ateş (yangın) yağdığını görmek, o bölgeye isabet edecek bir musibettir. Ancak Hz. İbrahim'in ateşe atılıp yanmaması kıssasına dayanarak, rüyada ateşin ortasında kalıp yanmadığını (serin olduğunu) gören kişi, iftiralardan ve düşmanlarından ilahi bir yardımla (mucizeyle) kurtulur.\n\nKadim İslami rüya tabiri kaynaklarına (özellikle İmam Nablusi, İbn-i Sirin ve İmam Cafer-i Sadık tefsirlerine) göre, rüyada yangın ile karşılaşmak, rüya sahibinin manevi durumuna, niyetine ve rüyanın görüldüğü esnadaki duygu durumuna göre katmanlı bir şekilde yorumlanır. Diyanet rüya tabirleri yaklaşımlarında da belirtildiği üzere, bu sembol kişiye hem bir müjde hem de içsel bir uyarı niteliği taşıyabilir. Eğer rüya sahibi hak yolunda dürüst ve erdemli bir yaşam sürmeye gayret ediyorsa, bu rüya helal rızka, manevi bir arınmaya ve yakın zamanda alınacak hayırlı haberlere delalet eder. Ancak rüya esnasında huzursuzluk veya korku hissedildiyse, İslami alimler bunu kişinin dünya işlerine aşırı kapılarak ahiret bilincini veya insani sorumluluklarını ihmal ettiği şeklinde tefsir ederler. Bu durum, kişinin niyetlerini gözden geçirmesi, sadaka vermesi ve iç huzuru bulmak adına manevi dünyasına daha fazla özen göstermesi gerektiğine dair ilahi bir fıtrat uyarısı olarak kabul edilir.",
+      "psychologicalMeaning": "Psikolojide yangın, kontrol edilemeyen, yıkıcı \"Öfke\" ve \"İhtiras\" (Tutku) duygularını temsil eder. Rüyasında yangın gören kişi, uyanık hayatta tükenmişlik sendromu yaşıyor (Burn-out), öfkeden patlamak üzere hissediyor veya hayatındaki her şeyi yakıp yıkıp sıfırdan başlama (Radikal Değişim) arzusu taşıyor olabilir. Yangın, bastırılmış duyguların şiddetli bir şekilde yüzeye çıkmasıdır.\n\nAnalitik psikoloji perspektifinden (özellikle Carl Jung ve Sigmund Freud ekolleri göz önüne alındığında), rüyada yangın imgesi, bilinçdışının derinliklerinden bilince taşınmak istenen çok önemli simgesel mesajlar barındırır. Jung, bu tür sembolleri bireyin \"bireyleşme (individuation)\" sürecinde karşılaştığı arketipsel yansımalar ve gölge (shadow) bütünleşmesi olarak ele alır. Günlük yaşamda bastırılmış kaygılar, ifade edilememiş duygular veya çözümsüz kalmış ikili ilişki çatışmaları, uykunun REM evresinde zihnin savunma mekanizmalarının gevşemesiyle bu sembol üzerinden dramatik bir şekilde açığa çıkar. Rüya sahibinin güncel hayatında yaşadığı kontrol kaybı endişesi, gelecek kaygısı veya yeni bir karar alma aşamasındaki içsel gerilimi, bilinçaltı tarafından bu imgeye dönüştürülerek yeniden işlenir. Bu rüya, zihinsel bir rehabilitasyon süreci olup, bireyin kendi içsel gücünü fark etmesi, duygusal yüklerinden arınması ve zihinsel bütünlüğünü sağlaması için bilinçaltının sunduğu şifayı işaret eder.",
+      "faqs": [
+        {
+          "question": "Rüyada yangın görmek ne anlama gelir?",
+          "answer": "Rüyada yangın görmek; ani değişimlere, yıkıma, sonrasında gelecek büyük bir arınmaya (veya yeniden doğuşa), iflasa veya şiddetli bir kavgaya işaret eder."
+        },
+        {
+          "question": "Rüyada dumansız yangın görmek ne anlama gelir?",
+          "answer": "Kimsenin ruhu duymadan, gizliden gizliye yaşanacak bir tehlikeye veya sadece ruhunuzu yakan ama dışarıdan belli olmayan (gizli) bir aşka/derde yorulur."
+        },
+        {
+          "question": "Kendi evinin yandığını ve ağladığını görmek nedir?",
+          "answer": "Maddi bir kayıp yaşanacağına, ancak dökülen gözyaşlarının ardından ailenin birbirine daha sıkı sarılarak bu zorluğu atlatacağına işarettir."
+        },
+        {
+          "question": "Rüyada gökten yangın düşmesi ne demek?",
+          "answer": "İlahi bir uyarıdır; toplum olarak işlenen günahların (veya adaletsizliğin) sonucunda başa gelecek kaçınılmaz (ilahi) bir krizi temsil eder."
+        },
+        {
+          "question": "Rüyada yangın görmek psikolojik ve zihinsel olarak nasıl değerlendirilmelidir?",
+          "answer": "Bu rüya, bilinçaltınızın günlük yaşamdaki stres, beklenti ve duygusal yoğunlukları işleyerek zihinsel dengeyi kurma çabasıdır. Analitik psikolojiye göre, rüya sahibinin içsel dünyasında yüzleşmesi gereken bir duyguya, çözmesi gereken bir soruna veya özümsemesi gereken yeni bir yaşam tecrübesine dikkat çeker. Zihnin ruhsal bir şifa ve arınma süreci olarak değerlendirilmeli, günlük hayattaki kararlarda iç sesin uyarıları dikkate alınmalıdır."
+        },
+        {
+          "question": "Rüyada yangın gördükten sonra günlük hayatta nelere dikkat edilmelidir?",
+          "answer": "Bu rüyayı deneyimledikten sonra özellikle sosyal ilişkilerinizde, mesleki kararlarınızda ve ailevi konularda daha sakin, gözlemlere dayalı ve sağduyulu bir yaklaşım benimsemeniz önerilir. Karşılaşacağınız yeni fırsatları aceleci davranmadan, tüm detaylarıyla değerlendirmeli, manevi huzurunuzu bozabilecek gereksiz tartışmalardan ve stres kaynaklarından uzak durmaya özen göstermelisiniz."
+        }
+      ]
+    }
   }
-}
+]

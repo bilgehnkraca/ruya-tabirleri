@@ -1,69 +1,71 @@
-{
-  "slug": "incir",
-  "title": "Rüyada İncir Görmek",
-  "category": "doga",
-  "shortDescription": "Rüyada incir görmek; zenginliğe, çok kalabalık ve bereketli bir aileye (veya nesle), zahmetsiz kazanılan mala ve sağlığa işaret eder.",
-  "relatedSymbols": [
-    "agac",
-    "yemek-yemek",
-    "cilek"
-  ],
-  "content": {
-    "introduction": "İncir, binlerce yıldır bereketi, doğurganlığı, gizliliği (incir yaprağı) ve cenneti sembolize eden çok özel bir meyvedir. İçinde barındırdığı binlerce küçük çekirdek sebebiyle çoğalmanın ve zenginliğin evrensel bir simgesidir. Rüyalarda incir görmek, genellikle zahmetsiz (kolay yoldan) elde edilecek rızkın, çok kalabalık bir ailenin veya ticaret hayatında atılacak kazançlı adımların çok güçlü bir habercisidir.",
-    "generalMeaning": "İncir Görmek rüyada görüldüğünde genel olarak zenginliğe, çok kalabalık ve bereketli bir aileye (veya nesle), zahmetsiz kazanılan mala ve sağlığa işaret eder. şeklinde yorumlanır. Rüya tabircilerine (özellikle İslam alimlerine) göre rüyada mevsiminde, tatlı ve olgun bir incir yediğini görmek, altın veya paraya (zahmetsiz zenginliğe) delalet eder. Rüyasında incir ağacı gören kişinin çok asil, faydalı ve zengin bir insanla dost olacağına veya kendisinin öyle birine dönüşeceğine yorulur. Rüyada birinden incir almak, o kişiden gelecek çok büyük bir maddi desteğe işarettir. Ancak incirin mevsimi dışında görülmesi veya içinin kurtlu çıkması, dedikoduya, kıskançlığa veya haksız (haram) bir kazanca işaret edebileceği için uyarıcıdır.\n\nBu rüyanın günlük yaşama ve sosyal ilişkilere yansıması incelendiğinde, rüya sahibinin hayatında yepyeni bir farkındalık döneminin başladığı görülür. Kişinin ailevi, mesleki veya sosyal çevresinde uzun süredir devam eden belirsizliklerin netlik kazanacağı, alınacak stratejik kararların geleceğe yön vereceği bir evreye girilmektedir. Uzmanlar, bu rüyayı gören kişilerin yakın çevresindeki insanlarla olan iletişiminde daha açık, empatik ve sabırlı olmasını önerir. Özellikle iş veya kariyer yaşamında karşılaşılabilecek ani değişimlere karşı esnek bir tutum sergilemek, olası krizleri fırsata çevirmek adına büyük bir avantaj sağlayacaktır. Yaşamın doğal akışı içerisinde karşılaşılan engellerin aşılabilir olduğunu hatırlatan bu sembol, kişinin kendine olan özgüvenini tazelemesi ve hedeflerine doğru kararlı adımlarla ilerlemesi gerektiğini vurgulayan güçlü bir zihinsel rehberdir.",
-    "variations": [
-      {
-        "title": "Rüyada Kuru İncir Görmek",
-        "content": "Kolay bozulmayan kuru incir, birikim yapmaya, geleceğe yönelik yatırıma ve kişinin ömrü boyunca rızkının kesilmeyeceğine (kalıcı zenginliğe) yorulur."
-      },
-      {
-        "title": "Rüyada Siyah (Kara) İncir Görmek",
-        "content": "Siyah incir genellikle üzüntüye, gizli kalmış karanlık sırlara veya kazanılacak malın peşinden gelecek bazı dedikodulara (kıskançlıklara) işarettir."
-      },
-      {
-        "title": "Rüyada Beyaz (Sarı) İncir Görmek",
-        "content": "Maddi kazancın çok helal olduğuna, rüya sahibinin niyetinin saflığına ve hastalık çekenler için hızlı bir şifa bulmaya (sağlığa) delalet eder."
-      },
-      {
-        "title": "Rüyada Ağaçtan İncir Toplamak",
-        "content": "Kendi emeğinizle, tırnaklarınızla kazıyarak çok büyük bir servet veya başarı elde edeceğinize, zahmetin sonunda çok \"tatlı\" bir mükafat alacağınıza yorulur."
-      },
-      {
-        "title": "Rüyada Kurtlu (Çürük) İncir Görmek",
-        "content": "Dışarıdan çok güzel ve kazançlı görünen bir işin veya insanın içinin bozuk olduğuna, elinize geçecek haram mala veya yaşanacak bir hayal kırıklığına işarettir."
-      },
-      {
-        "title": "Rüyada Beklenmedik Bir Anda İncir İle Karşılaşmak",
-        "content": "Rüyada hiç umulmadık bir anda ve şaşırtıcı bir mekanda i̇ncir ile karşılaşmak, gerçek yaşamda rüya sahibinin karşısına çıkacak ani, sürpriz gelişmelere ve dönüm noktalarına işaret eder. Bu durum, ilk etapta kişide tatlı bir heyecan veya şaşkınlık yaratsa da, zamanla hayatın akışını olumlu yönde değiştirecek yeni imkanların kapısını aralayacaktır. İslami ve psikolojik tefsirlerin ortak kesişim noktasına göre, bu tür sürpriz semboller kişinin esnekliğini, yeniliklere uyum sağlama potansiyelini ve kadim şansını simgeler."
-      }
+[
+  {
+    "slug": "incir",
+    "title": "Rüyada İncir Görmek",
+    "category": "doga",
+    "shortDescription": "Rüyada incir görmek; zenginliğe, çok kalabalık ve bereketli bir aileye (veya nesle), zahmetsiz kazanılan mala ve sağlığa işaret eder.",
+    "relatedSymbols": [
+      "agac",
+      "yemek-yemek",
+      "cilek"
     ],
-    "religiousMeaning": "Kur'an-ı Kerim'de incire (ve zeytine) yemin edilmiş olması (Tin Suresi), inciri rüya tabirlerinde çok yüce ve mübarek bir konuma yerleştirir. İbn Şirin'e göre rüyada incir yemek pişmanlık (Hz. Adem'in cennette yediği yasak meyvenin incir olduğuna dair bazı rivayetler nedeniyle) veya kolay rızık olarak iki farklı şekilde tabir edilir. Nablusi ise inciri, \"saf ve temiz rızık\" olarak yorumlar; çünkü incir, çekirdeği dışarı atılmayan, bütünüyle yutulan tek meyvedir (yani firesiz tam kazançtır).\n\nKadim İslami rüya tabiri kaynaklarına (özellikle İmam Nablusi, İbn-i Sirin ve İmam Cafer-i Sadık tefsirlerine) göre, rüyada i̇ncir ile karşılaşmak, rüya sahibinin manevi durumuna, niyetine ve rüyanın görüldüğü esnadaki duygu durumuna göre katmanlı bir şekilde yorumlanır. Diyanet rüya tabirleri yaklaşımlarında da belirtildiği üzere, bu sembol kişiye hem bir müjde hem de içsel bir uyarı niteliği taşıyabilir. Eğer rüya sahibi hak yolunda dürüst ve erdemli bir yaşam sürmeye gayret ediyorsa, bu rüya helal rızka, manevi bir arınmaya ve yakın zamanda alınacak hayırlı haberlere delalet eder. Ancak rüya esnasında huzursuzluk veya korku hissedildiyse, İslami alimler bunu kişinin dünya işlerine aşırı kapılarak ahiret bilincini veya insani sorumluluklarını ihmal ettiği şeklinde tefsir ederler. Bu durum, kişinin niyetlerini gözden geçirmesi, sadaka vermesi ve iç huzuru bulmak adına manevi dünyasına daha fazla özen göstermesi gerektiğine dair ilahi bir fıtrat uyarısı olarak kabul edilir.",
-    "psychologicalMeaning": "Psikolojide incir, içindeki çekirdek dokusu ve yapısı nedeniyle kadınlığı, doğurganlığı ve gizli arzuları sembolize eder (Freudyen yaklaşımlarda). Rüyada incir görmek, kişinin uyanık hayatta üremeye, bir şeyler \"yaratmaya\" (yeni bir proje, sanat eseri veya bebek) duyduğu yoğun isteği yansıtır. Aynı zamanda içinizde sakladığınız çok \"tatlı\" ama açığa çıkmasından çekindiğiniz sırları (veya potansiyeli) temsil eder.\n\nAnalitik psikoloji perspektifinden (özellikle Carl Jung ve Sigmund Freud ekolleri göz önüne alındığında), rüyada i̇ncir imgesi, bilinçdışının derinliklerinden bilince taşınmak istenen çok önemli simgesel mesajlar barındırır. Jung, bu tür sembolleri bireyin \"bireyleşme (individuation)\" sürecinde karşılaştığı arketipsel yansımalar ve gölge (shadow) bütünleşmesi olarak ele alır. Günlük yaşamda bastırılmış kaygılar, ifade edilememiş duygular veya çözümsüz kalmış ikili ilişki çatışmaları, uykunun REM evresinde zihnin savunma mekanizmalarının gevşemesiyle bu sembol üzerinden dramatik bir şekilde açığa çıkar. Rüya sahibinin güncel hayatında yaşadığı kontrol kaybı endişesi, gelecek kaygısı veya yeni bir karar alma aşamasındaki içsel gerilimi, bilinçaltı tarafından bu imgeye dönüştürülerek yeniden işlenir. Bu rüya, zihinsel bir rehabilitasyon süreci olup, bireyin kendi içsel gücünü fark etmesi, duygusal yüklerinden arınması ve zihinsel bütünlüğünü sağlaması için bilinçaltının sunduğu şifayı işaret eder.",
-    "faqs": [
-      {
-        "question": "Rüyada i̇ncir görmek ne anlama gelir?",
-        "answer": "Rüyada incir görmek; zenginliğe, çok kalabalık ve bereketli bir aileye (veya nesle), zahmetsiz kazanılan mala ve sağlığa işaret eder."
-      },
-      {
-        "question": "Rüyada incir yaprağı görmek (veya örtünmek) nedir?",
-        "answer": "Bir hatanızı, günahınızı veya sırrınızı insanlardan gizlemeye çalıştığınıza (utanma duygusuna) ve mahremiyete işarettir."
-      },
-      {
-        "question": "Hamile kadının rüyada incir görmesi ne anlama gelir?",
-        "answer": "Çok hayırlıdır; çocuğun çok sağlıklı olacağına, ailenin rızkının artacağına ve o çocuğun gelecekte soyunun çok kalabalık (bereketli) olacağına yorulur."
-      },
-      {
-        "question": "Rüyada birine incir vermek kötü müdür?",
-        "answer": "Hayır, çok iyidir. Kendi cebinizden, rızkınızdan veya ilminizden başka insanlara cömertçe fayda sağlayacağınıza (sadaka vereceğinize) delalet eder."
-      },
-      {
-        "question": "Rüyada i̇ncir görmek psikolojik ve zihinsel olarak nasıl değerlendirilmelidir?",
-        "answer": "Bu rüya, bilinçaltınızın günlük yaşamdaki stres, beklenti ve duygusal yoğunlukları işleyerek zihinsel dengeyi kurma çabasıdır. Analitik psikolojiye göre, rüya sahibinin içsel dünyasında yüzleşmesi gereken bir duyguya, çözmesi gereken bir soruna veya özümsemesi gereken yeni bir yaşam tecrübesine dikkat çeker. Zihnin ruhsal bir şifa ve arınma süreci olarak değerlendirilmeli, günlük hayattaki kararlarda iç sesin uyarıları dikkate alınmalıdır."
-      },
-      {
-        "question": "Rüyada i̇ncir gördükten sonra günlük hayatta nelere dikkat edilmelidir?",
-        "answer": "Bu rüyayı deneyimledikten sonra özellikle sosyal ilişkilerinizde, mesleki kararlarınızda ve ailevi konularda daha sakin, gözlemlere dayalı ve sağduyulu bir yaklaşım benimsemeniz önerilir. Karşılaşacağınız yeni fırsatları aceleci davranmadan, tüm detaylarıyla değerlendirmeli, manevi huzurunuzu bozabilecek gereksiz tartışmalardan ve stres kaynaklarından uzak durmaya özen göstermelisiniz."
-      }
-    ]
+    "content": {
+      "introduction": "İncir, binlerce yıldır bereketi, doğurganlığı, gizliliği (incir yaprağı) ve cenneti sembolize eden çok özel bir meyvedir. İçinde barındırdığı binlerce küçük çekirdek sebebiyle çoğalmanın ve zenginliğin evrensel bir simgesidir. Rüyalarda incir görmek, genellikle zahmetsiz (kolay yoldan) elde edilecek rızkın, çok kalabalık bir ailenin veya ticaret hayatında atılacak kazançlı adımların çok güçlü bir habercisidir.",
+      "generalMeaning": "İncir Görmek rüyada görüldüğünde genel olarak zenginliğe, çok kalabalık ve bereketli bir aileye (veya nesle), zahmetsiz kazanılan mala ve sağlığa işaret eder. şeklinde yorumlanır. Rüya tabircilerine (özellikle İslam alimlerine) göre rüyada mevsiminde, tatlı ve olgun bir incir yediğini görmek, altın veya paraya (zahmetsiz zenginliğe) delalet eder. Rüyasında incir ağacı gören kişinin çok asil, faydalı ve zengin bir insanla dost olacağına veya kendisinin öyle birine dönüşeceğine yorulur. Rüyada birinden incir almak, o kişiden gelecek çok büyük bir maddi desteğe işarettir. Ancak incirin mevsimi dışında görülmesi veya içinin kurtlu çıkması, dedikoduya, kıskançlığa veya haksız (haram) bir kazanca işaret edebileceği için uyarıcıdır.\n\nBu rüyanın günlük yaşama ve sosyal ilişkilere yansıması incelendiğinde, rüya sahibinin hayatında yepyeni bir farkındalık döneminin başladığı görülür. Kişinin ailevi, mesleki veya sosyal çevresinde uzun süredir devam eden belirsizliklerin netlik kazanacağı, alınacak stratejik kararların geleceğe yön vereceği bir evreye girilmektedir. Uzmanlar, bu rüyayı gören kişilerin yakın çevresindeki insanlarla olan iletişiminde daha açık, empatik ve sabırlı olmasını önerir. Özellikle iş veya kariyer yaşamında karşılaşılabilecek ani değişimlere karşı esnek bir tutum sergilemek, olası krizleri fırsata çevirmek adına büyük bir avantaj sağlayacaktır. Yaşamın doğal akışı içerisinde karşılaşılan engellerin aşılabilir olduğunu hatırlatan bu sembol, kişinin kendine olan özgüvenini tazelemesi ve hedeflerine doğru kararlı adımlarla ilerlemesi gerektiğini vurgulayan güçlü bir zihinsel rehberdir. Ayrıca günlük yaşantınızdaki planlamalarda, zaman ve bütçe yönetiminde [Türkiye Hesaplama Çözüm Platformu](https://www.turkiyehesaplama.com) üzerinden destek alarak adımlarınızı somut verilere dayandırabilirsiniz.",
+      "variations": [
+        {
+          "title": "Rüyada Kuru İncir Görmek",
+          "content": "Kolay bozulmayan kuru incir, birikim yapmaya, geleceğe yönelik yatırıma ve kişinin ömrü boyunca rızkının kesilmeyeceğine (kalıcı zenginliğe) yorulur."
+        },
+        {
+          "title": "Rüyada Siyah (Kara) İncir Görmek",
+          "content": "Siyah incir genellikle üzüntüye, gizli kalmış karanlık sırlara veya kazanılacak malın peşinden gelecek bazı dedikodulara (kıskançlıklara) işarettir."
+        },
+        {
+          "title": "Rüyada Beyaz (Sarı) İncir Görmek",
+          "content": "Maddi kazancın çok helal olduğuna, rüya sahibinin niyetinin saflığına ve hastalık çekenler için hızlı bir şifa bulmaya (sağlığa) delalet eder."
+        },
+        {
+          "title": "Rüyada Ağaçtan İncir Toplamak",
+          "content": "Kendi emeğinizle, tırnaklarınızla kazıyarak çok büyük bir servet veya başarı elde edeceğinize, zahmetin sonunda çok \"tatlı\" bir mükafat alacağınıza yorulur."
+        },
+        {
+          "title": "Rüyada Kurtlu (Çürük) İncir Görmek",
+          "content": "Dışarıdan çok güzel ve kazançlı görünen bir işin veya insanın içinin bozuk olduğuna, elinize geçecek haram mala veya yaşanacak bir hayal kırıklığına işarettir."
+        },
+        {
+          "title": "Rüyada Beklenmedik Bir Anda İncir İle Karşılaşmak",
+          "content": "Rüyada hiç umulmadık bir anda ve şaşırtıcı bir mekanda i̇ncir ile karşılaşmak, gerçek yaşamda rüya sahibinin karşısına çıkacak ani, sürpriz gelişmelere ve dönüm noktalarına işaret eder. Bu durum, ilk etapta kişide tatlı bir heyecan veya şaşkınlık yaratsa da, zamanla hayatın akışını olumlu yönde değiştirecek yeni imkanların kapısını aralayacaktır. İslami ve psikolojik tefsirlerin ortak kesişim noktasına göre, bu tür sürpriz semboller kişinin esnekliğini, yeniliklere uyum sağlama potansiyelini ve kadim şansını simgeler."
+        }
+      ],
+      "religiousMeaning": "Kur'an-ı Kerim'de incire (ve zeytine) yemin edilmiş olması (Tin Suresi), inciri rüya tabirlerinde çok yüce ve mübarek bir konuma yerleştirir. İbn Şirin'e göre rüyada incir yemek pişmanlık (Hz. Adem'in cennette yediği yasak meyvenin incir olduğuna dair bazı rivayetler nedeniyle) veya kolay rızık olarak iki farklı şekilde tabir edilir. Nablusi ise inciri, \"saf ve temiz rızık\" olarak yorumlar; çünkü incir, çekirdeği dışarı atılmayan, bütünüyle yutulan tek meyvedir (yani firesiz tam kazançtır).\n\nKadim İslami rüya tabiri kaynaklarına (özellikle İmam Nablusi, İbn-i Sirin ve İmam Cafer-i Sadık tefsirlerine) göre, rüyada i̇ncir ile karşılaşmak, rüya sahibinin manevi durumuna, niyetine ve rüyanın görüldüğü esnadaki duygu durumuna göre katmanlı bir şekilde yorumlanır. Diyanet rüya tabirleri yaklaşımlarında da belirtildiği üzere, bu sembol kişiye hem bir müjde hem de içsel bir uyarı niteliği taşıyabilir. Eğer rüya sahibi hak yolunda dürüst ve erdemli bir yaşam sürmeye gayret ediyorsa, bu rüya helal rızka, manevi bir arınmaya ve yakın zamanda alınacak hayırlı haberlere delalet eder. Ancak rüya esnasında huzursuzluk veya korku hissedildiyse, İslami alimler bunu kişinin dünya işlerine aşırı kapılarak ahiret bilincini veya insani sorumluluklarını ihmal ettiği şeklinde tefsir ederler. Bu durum, kişinin niyetlerini gözden geçirmesi, sadaka vermesi ve iç huzuru bulmak adına manevi dünyasına daha fazla özen göstermesi gerektiğine dair ilahi bir fıtrat uyarısı olarak kabul edilir.",
+      "psychologicalMeaning": "Psikolojide incir, içindeki çekirdek dokusu ve yapısı nedeniyle kadınlığı, doğurganlığı ve gizli arzuları sembolize eder (Freudyen yaklaşımlarda). Rüyada incir görmek, kişinin uyanık hayatta üremeye, bir şeyler \"yaratmaya\" (yeni bir proje, sanat eseri veya bebek) duyduğu yoğun isteği yansıtır. Aynı zamanda içinizde sakladığınız çok \"tatlı\" ama açığa çıkmasından çekindiğiniz sırları (veya potansiyeli) temsil eder.\n\nAnalitik psikoloji perspektifinden (özellikle Carl Jung ve Sigmund Freud ekolleri göz önüne alındığında), rüyada i̇ncir imgesi, bilinçdışının derinliklerinden bilince taşınmak istenen çok önemli simgesel mesajlar barındırır. Jung, bu tür sembolleri bireyin \"bireyleşme (individuation)\" sürecinde karşılaştığı arketipsel yansımalar ve gölge (shadow) bütünleşmesi olarak ele alır. Günlük yaşamda bastırılmış kaygılar, ifade edilememiş duygular veya çözümsüz kalmış ikili ilişki çatışmaları, uykunun REM evresinde zihnin savunma mekanizmalarının gevşemesiyle bu sembol üzerinden dramatik bir şekilde açığa çıkar. Rüya sahibinin güncel hayatında yaşadığı kontrol kaybı endişesi, gelecek kaygısı veya yeni bir karar alma aşamasındaki içsel gerilimi, bilinçaltı tarafından bu imgeye dönüştürülerek yeniden işlenir. Bu rüya, zihinsel bir rehabilitasyon süreci olup, bireyin kendi içsel gücünü fark etmesi, duygusal yüklerinden arınması ve zihinsel bütünlüğünü sağlaması için bilinçaltının sunduğu şifayı işaret eder.",
+      "faqs": [
+        {
+          "question": "Rüyada i̇ncir görmek ne anlama gelir?",
+          "answer": "Rüyada incir görmek; zenginliğe, çok kalabalık ve bereketli bir aileye (veya nesle), zahmetsiz kazanılan mala ve sağlığa işaret eder."
+        },
+        {
+          "question": "Rüyada incir yaprağı görmek (veya örtünmek) nedir?",
+          "answer": "Bir hatanızı, günahınızı veya sırrınızı insanlardan gizlemeye çalıştığınıza (utanma duygusuna) ve mahremiyete işarettir."
+        },
+        {
+          "question": "Hamile kadının rüyada incir görmesi ne anlama gelir?",
+          "answer": "Çok hayırlıdır; çocuğun çok sağlıklı olacağına, ailenin rızkının artacağına ve o çocuğun gelecekte soyunun çok kalabalık (bereketli) olacağına yorulur."
+        },
+        {
+          "question": "Rüyada birine incir vermek kötü müdür?",
+          "answer": "Hayır, çok iyidir. Kendi cebinizden, rızkınızdan veya ilminizden başka insanlara cömertçe fayda sağlayacağınıza (sadaka vereceğinize) delalet eder."
+        },
+        {
+          "question": "Rüyada i̇ncir görmek psikolojik ve zihinsel olarak nasıl değerlendirilmelidir?",
+          "answer": "Bu rüya, bilinçaltınızın günlük yaşamdaki stres, beklenti ve duygusal yoğunlukları işleyerek zihinsel dengeyi kurma çabasıdır. Analitik psikolojiye göre, rüya sahibinin içsel dünyasında yüzleşmesi gereken bir duyguya, çözmesi gereken bir soruna veya özümsemesi gereken yeni bir yaşam tecrübesine dikkat çeker. Zihnin ruhsal bir şifa ve arınma süreci olarak değerlendirilmeli, günlük hayattaki kararlarda iç sesin uyarıları dikkate alınmalıdır."
+        },
+        {
+          "question": "Rüyada i̇ncir gördükten sonra günlük hayatta nelere dikkat edilmelidir?",
+          "answer": "Bu rüyayı deneyimledikten sonra özellikle sosyal ilişkilerinizde, mesleki kararlarınızda ve ailevi konularda daha sakin, gözlemlere dayalı ve sağduyulu bir yaklaşım benimsemeniz önerilir. Karşılaşacağınız yeni fırsatları aceleci davranmadan, tüm detaylarıyla değerlendirmeli, manevi huzurunuzu bozabilecek gereksiz tartışmalardan ve stres kaynaklarından uzak durmaya özen göstermelisiniz."
+        }
+      ]
+    }
   }
-}
+]

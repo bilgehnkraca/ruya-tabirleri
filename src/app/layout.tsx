@@ -115,9 +115,14 @@ export default function RootLayout({
             <a href="/" className="text-2xl font-serif font-bold text-mystic-300">
               Rüya<span className="text-mystic-500">Sözlüğü</span>
             </a>
-            <nav className="flex space-x-4 md:space-x-6 text-sm md:text-base items-center">
-              <a href="https://turkiyehesaplama.com" target="_blank" rel="noopener noreferrer" className="hover:text-mystic-200 text-mystic-400 font-medium transition-colors flex items-center gap-1.5 border border-mystic-500/30 px-3 py-1.5 rounded-full bg-mystic-900/30">
-                <span className="hidden sm:inline">🧮</span> Hesaplama
+            <nav className="flex space-x-3 md:space-x-5 text-sm md:text-base items-center">
+              <a 
+                href="https://www.turkiyehesaplama.com" 
+                target="_blank" 
+                rel="noopener noreferrer dofollow" 
+                className="hover:text-white text-mystic-200 font-extrabold transition-all duration-300 flex items-center gap-1.5 border-2 border-mystic-400/60 px-3.5 py-1.5 rounded-full bg-gradient-to-r from-mystic-900 via-purple-900 to-night-900 shadow-[0_0_15px_rgba(112,60,211,0.4)] hover:shadow-[0_0_20px_rgba(112,60,211,0.7)] hover:scale-105"
+              >
+                <span className="animate-bounce">🔥</span> <span className="hidden sm:inline">Hesaplama</span> Araçları
               </a>
               <a href="/diyanet-islami-ruya-tabirleri" className="hover:text-gold-300 text-gold-400 font-bold transition-colors flex items-center gap-1">📖 İslami Tabirler</a>
               <a href="/kategoriler" className="hover:text-mystic-400 transition-colors">Kategoriler</a>
@@ -129,37 +134,76 @@ export default function RootLayout({
             {children}
           </main>
 
-          <footer className="bg-night-900 border-t border-night-800 py-12 mt-12">
+          <footer className="bg-gradient-to-b from-night-900 to-night-950 border-t-2 border-mystic-500/30 py-14 mt-16 shadow-2xl">
             <div className="container mx-auto px-4">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm text-night-400 mb-8">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-sm text-night-300 mb-10">
                 <div>
-                  <h4 className="text-white font-serif font-bold mb-4 text-lg">Rüya Sözlüğü</h4>
-                  <p className="mb-4">Türkiye&apos;nin en kapsamlı, özgün ve güvenilir rüya tabirleri sözlüğü. Bilinçaltınızın size anlattıklarını keşfedin.</p>
-                  <p>Bir turtle arge projesidir.</p>
+                  <h4 className="text-white font-serif font-bold mb-4 text-lg border-b border-night-700 pb-2">Rüya Sözlüğü</h4>
+                  <p className="mb-4 leading-relaxed">Türkiye&apos;nin en kapsamlı, özgün ve güvenilir rüya tabirleri sözlüğü. Bilinçaltınızın size anlattıklarını ve ilahi işaretleri keşfedin.</p>
+                  <p className="text-xs text-night-400">Bir turtle arge projesidir.</p>
                 </div>
+
                 <div>
-                  <h4 className="text-white font-serif font-bold mb-4 text-lg">Hızlı Bağlantılar</h4>
-                  <ul className="space-y-2">
-                    <li><a href="/diyanet-islami-ruya-tabirleri" className="hover:text-gold-400 text-gold-500 font-medium transition-colors">İslami & Diyanet Tabirleri Kılavuzu</a></li>
+                  <h4 className="text-white font-serif font-bold mb-4 text-lg border-b border-night-700 pb-2">Hızlı Bağlantılar</h4>
+                  <ul className="space-y-2.5">
+                    <li><a href="/diyanet-islami-ruya-tabirleri" className="hover:text-gold-400 text-gold-500 font-bold transition-colors flex items-center gap-1.5"><span>📖</span> İslami & Diyanet Tabirleri</a></li>
                     <li><a href="/hakkimizda" className="hover:text-mystic-400 transition-colors">Hakkımızda</a></li>
                     <li><a href="/iletisim" className="hover:text-mystic-400 transition-colors">İletişim</a></li>
                     <li><a href="/gizlilik-politikasi" className="hover:text-mystic-400 transition-colors">Gizlilik Politikası</a></li>
                     <li><a href="/kvkk" className="hover:text-mystic-400 transition-colors">KVKK Aydınlatma Metni</a></li>
                   </ul>
                 </div>
-                <div>
-                  <h4 className="text-white font-serif font-bold mb-4 text-lg">Partner Ağımız</h4>
-                  <ul className="space-y-2">
-                    <li><a href="https://turkiyehesaplama.com" target="_blank" rel="noopener noreferrer" className="hover:text-mystic-400 transition-colors flex items-center gap-2"><span>🧮</span> Türkiye Hesaplama</a></li>
-                    <li><a href="https://turkiyehesaplama.com/gebelik-hesaplama" target="_blank" rel="noopener noreferrer" className="hover:text-mystic-400 transition-colors flex items-center gap-2"><span>👶</span> Gebelik Hesaplama</a></li>
-                    <li><a href="https://turkiyehesaplama.com/kredi-hesaplama" target="_blank" rel="noopener noreferrer" className="hover:text-mystic-400 transition-colors flex items-center gap-2"><span>💰</span> Kredi Hesaplama</a></li>
-                    <li><a href="https://turkiyehesaplama.com/yas-hesaplama" target="_blank" rel="noopener noreferrer" className="hover:text-mystic-400 transition-colors flex items-center gap-2"><span>🎂</span> Yaş Hesaplama</a></li>
-                  </ul>
+
+                <div className="lg:col-span-2 bg-night-800/40 border border-mystic-500/30 rounded-2xl p-6 shadow-lg">
+                  <div className="flex items-center justify-between mb-4 border-b border-night-700/80 pb-2.5">
+                    <h4 className="text-white font-serif font-bold text-lg flex items-center gap-2">
+                      <span className="text-xl">🔥</span> Önerilen Hesaplama Sistemleri (Partner Çözümlerimiz)
+                    </h4>
+                    <span className="bg-mystic-500/20 text-mystic-300 text-xs font-bold px-2.5 py-1 rounded-full border border-mystic-500/40 hidden sm:inline">Ücretsiz & Güvenilir</span>
+                  </div>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-3 gap-x-4 text-xs sm:text-sm">
+                    <a href="https://www.turkiyehesaplama.com" target="_blank" rel="noopener noreferrer dofollow" className="hover:text-mystic-300 text-night-200 font-semibold transition-colors flex items-center gap-2 truncate">
+                      <span>🧮</span> Türkiye Hesaplama Platformu
+                    </a>
+                    <a href="https://www.turkiyehesaplama.com/gebelik-hesaplama" target="_blank" rel="noopener noreferrer dofollow" className="hover:text-mystic-300 text-night-200 font-semibold transition-colors flex items-center gap-2 truncate">
+                      <span>👶</span> Gebelik & Doğum Tarihi
+                    </a>
+                    <a href="https://www.turkiyehesaplama.com/kredi-hesaplama" target="_blank" rel="noopener noreferrer dofollow" className="hover:text-mystic-300 text-night-200 font-semibold transition-colors flex items-center gap-2 truncate">
+                      <span>💰</span> Kredi, Maaş & Altın Hesaplama
+                    </a>
+                    <a href="https://www.turkiyehesaplama.com/yas-hesaplama" target="_blank" rel="noopener noreferrer dofollow" className="hover:text-mystic-300 text-night-200 font-semibold transition-colors flex items-center gap-2 truncate">
+                      <span>🎂</span> Yaş & Gün Farkı Hesaplama
+                    </a>
+                    <a href="https://www.turkiyehesaplama.com/dini-gunler-hesaplama" target="_blank" rel="noopener noreferrer dofollow" className="hover:text-mystic-300 text-night-200 font-semibold transition-colors flex items-center gap-2 truncate">
+                      <span>🕌</span> Dini Günler, Ramazan & Zekat
+                    </a>
+                    <a href="https://www.turkiyehesaplama.com/mesafe-hesaplama" target="_blank" rel="noopener noreferrer dofollow" className="hover:text-mystic-300 text-night-200 font-semibold transition-colors flex items-center gap-2 truncate">
+                      <span>🚗</span> Mesafe, Seyahat & Yakıt
+                    </a>
+                    <a href="https://www.turkiyehesaplama.com/tarih-hesaplama" target="_blank" rel="noopener noreferrer dofollow" className="hover:text-mystic-300 text-night-200 font-semibold transition-colors flex items-center gap-2 truncate">
+                      <span>⏳</span> Tarih & Saat Hesaplama
+                    </a>
+                    <a href="https://www.turkiyehesaplama.com" target="_blank" rel="noopener noreferrer dofollow" className="hover:text-mystic-300 text-night-200 font-semibold transition-colors flex items-center gap-2 truncate">
+                      <span>📊</span> KDV, Yüzde & İndirim
+                    </a>
+                    <a href="https://www.turkiyehesaplama.com" target="_blank" rel="noopener noreferrer dofollow" className="hover:text-mystic-300 text-night-200 font-semibold transition-colors flex items-center gap-2 truncate">
+                      <span>⚖️</span> Vücut Kitle İndeksi (VKİ)
+                    </a>
+                    <a href="https://www.turkiyehesaplama.com/kredi-hesaplama" target="_blank" rel="noopener noreferrer dofollow" className="hover:text-mystic-300 text-night-200 font-semibold transition-colors flex items-center gap-2 truncate">
+                      <span>🏡</span> Kira Artış Oranı & Konut
+                    </a>
+                    <a href="https://www.turkiyehesaplama.com" target="_blank" rel="noopener noreferrer dofollow" className="hover:text-mystic-300 text-night-200 font-semibold transition-colors flex items-center gap-2 truncate">
+                      <span>🇹🇷</span> Şafak Sayar & Askerlik
+                    </a>
+                    <a href="https://www.turkiyehesaplama.com" target="_blank" rel="noopener noreferrer dofollow" className="hover:text-mystic-300 text-night-200 font-semibold transition-colors flex items-center gap-2 truncate">
+                      <span>🎓</span> Not Ortalaması & Sınav
+                    </a>
+                  </div>
                 </div>
               </div>
-              <div className="text-center pt-8 border-t border-night-800">
+              <div className="text-center pt-8 border-t border-night-800/80 text-night-400">
                 <p>&copy; {new Date().getFullYear()} Rüya Sözlüğü. Tüm hakları saklıdır.</p>
-                <p className="mt-2 text-xs text-night-500">Bu sitedeki tabirler bilgilendirme amaçlıdır.</p>
+                <p className="mt-2 text-xs text-night-500">Bu sitedeki tabirler bilgilendirme amaçlıdır. Çapraz hesaplama çözümleri Türkiye Hesaplama partnerliği ile sağlanmaktadır.</p>
               </div>
             </div>
           </footer>

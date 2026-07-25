@@ -1,69 +1,71 @@
-{
-  "slug": "sogan",
-  "title": "Rüyada Soğan Görmek",
-  "category": "doga",
-  "shortDescription": "Rüyada soğan görmek; gözyaşına, gizli sırların kat kat açığa çıkmasına, haram (veya şüpheli) mala, bazen de çok sağlam bir sağlığa işaret eder.",
-  "relatedSymbols": [
-    "yemek-yemek",
-    "ekmek",
-    "et"
-  ],
-  "content": {
-    "introduction": "Soğan, acı tadı ve keskin kokusuyla yemeklerin vazgeçilmezi olsa da, soyuldukça insanı ağlatması ve katmanlı yapısı sebebiyle rüyalarda derin sırlar barındırır. Rüyalarda görülen soğan genellikle \"gözyaşı, dedikodu, ifşa olan sırlar ve can sıkıntısı\" ile sembolize edilir. Kat kat olan yapısı, bir yalanın veya sırrın altına gizlenmiş başka sırları temsil eder.",
-    "generalMeaning": "Soğan Görmek rüyada görüldüğünde genel olarak gözyaşına, gizli sırların kat kat açığa çıkmasına, haram (veya şüpheli) mala, bazen de çok sağlam bir sağlığa işaret eder. şeklinde yorumlanır. Rüya tabircilerine göre rüyada çiğ (kabuklu) soğan görmek, gizli kalmış kötü şeylerin ortaya çıkmasına, kişinin canını sıkacak (gözünü yaşartacak) ağır dedikodulara ve tartışmalara delalet eder. Rüyasında çiğ soğan yediğini gören kişi, haram bir işe karışır, çirkin sözler söyler veya hakkında çok ağır laflar edilir. Rüyada soğan soymak, bir insanın gizlediği yalanları, ikiyüzlülüğü kat kat ortaya çıkarmaya (onun maskesini düşürmeye), ancak bunu yaparken çok üzülmeye işarettir. Bunun tam aksine rüyada pişmiş soğan görmek veya yemek çok hayırlıdır; kişinin hatalarından tövbe etmesine, arınmasına, sağlığına (şifaya) ve işlerini yoluna koymasına yorulur.\n\nBu rüyanın günlük yaşama ve sosyal ilişkilere yansıması incelendiğinde, rüya sahibinin hayatında yepyeni bir farkındalık döneminin başladığı görülür. Kişinin ailevi, mesleki veya sosyal çevresinde uzun süredir devam eden belirsizliklerin netlik kazanacağı, alınacak stratejik kararların geleceğe yön vereceği bir evreye girilmektedir. Uzmanlar, bu rüyayı gören kişilerin yakın çevresindeki insanlarla olan iletişiminde daha açık, empatik ve sabırlı olmasını önerir. Özellikle iş veya kariyer yaşamında karşılaşılabilecek ani değişimlere karşı esnek bir tutum sergilemek, olası krizleri fırsata çevirmek adına büyük bir avantaj sağlayacaktır. Yaşamın doğal akışı içerisinde karşılaşılan engellerin aşılabilir olduğunu hatırlatan bu sembol, kişinin kendine olan özgüvenini tazelemesi ve hedeflerine doğru kararlı adımlarla ilerlemesi gerektiğini vurgulayan güçlü bir zihinsel rehberdir.",
-    "variations": [
-      {
-        "title": "Rüyada Yeşil (Taze) Soğan Görmek",
-        "content": "Zahmetle kazanılan paraya, çok çalışma gerektiren helal rızka ve sağlık problemlerinin bitip hastanın hızla ayağa kalkmasına işarettir."
-      },
-      {
-        "title": "Rüyada Soğan Doğramak",
-        "content": "Uyanık hayatta kendi ellerinizle (belki de boş yere) canınızı sıktığınıza, küçük bir sorunu büyüterek gözyaşı döktüğünüze delalet eder."
-      },
-      {
-        "title": "Rüyada Birinden Soğan Almak",
-        "content": "O kişiden (veya çevresinden) size gelecek kötü (acı) bir habere, bir nankörlüğe veya sizi çok üzecek bir kalp kırıklığına yorulur."
-      },
-      {
-        "title": "Rüyada Çürük Soğan Görmek",
-        "content": "Toplum (veya aile) içindeki ahlaki çöküntüye, dışarıdan sağlam görünen ama için için kokmuş (bozulmuş) ilişkilere ve riyakarlığa işarettir."
-      },
-      {
-        "title": "Rüyada Soğan Ekimi Yapmak (Tarlada)",
-        "content": "Gelecekte hem biraz gözyaşı ama sonunda da büyük bir bereket getirecek (acı tatlı) uzun vadeli bir işe yatırım yapmaya delalet eder."
-      },
-      {
-        "title": "Rüyada Beklenmedik Bir Anda Soğan İle Karşılaşmak",
-        "content": "Rüyada hiç umulmadık bir anda ve şaşırtıcı bir mekanda soğan ile karşılaşmak, gerçek yaşamda rüya sahibinin karşısına çıkacak ani, sürpriz gelişmelere ve dönüm noktalarına işaret eder. Bu durum, ilk etapta kişide tatlı bir heyecan veya şaşkınlık yaratsa da, zamanla hayatın akışını olumlu yönde değiştirecek yeni imkanların kapısını aralayacaktır. İslami ve psikolojik tefsirlerin ortak kesişim noktasına göre, bu tür sürpriz semboller kişinin esnekliğini, yeniliklere uyum sağlama potansiyelini ve kadim şansını simgeler."
-      }
+[
+  {
+    "slug": "sogan",
+    "title": "Rüyada Soğan Görmek",
+    "category": "doga",
+    "shortDescription": "Rüyada soğan görmek; gözyaşına, gizli sırların kat kat açığa çıkmasına, haram (veya şüpheli) mala, bazen de çok sağlam bir sağlığa işaret eder.",
+    "relatedSymbols": [
+      "yemek-yemek",
+      "ekmek",
+      "et"
     ],
-    "religiousMeaning": "İslami tabirlerde (İbn Şirin) soğan (ve sarımsak), kokuları nedeniyle meleklerin ve cemaatin hoşlanmadığı şeylerdir; dolayısıyla rüyada çiğ soğan görmek \"çirkin söz, günah ve haram mal\" olarak tabir edilir. Nablusi'ye göre rüyada soğan yiyen hasta bir kimse ölür; ancak yeşil soğan koparmak hastanın iyileşmesine delalet eder. Rüyada bol miktarda soğan görmek, kişinin hilekarların veya dedikoducuların arasına düşmesine yorulurken, pişmiş soğan yemek hakka dönmeye, tövbeye ve ilahi affa işarettir.\n\nKadim İslami rüya tabiri kaynaklarına (özellikle İmam Nablusi, İbn-i Sirin ve İmam Cafer-i Sadık tefsirlerine) göre, rüyada soğan ile karşılaşmak, rüya sahibinin manevi durumuna, niyetine ve rüyanın görüldüğü esnadaki duygu durumuna göre katmanlı bir şekilde yorumlanır. Diyanet rüya tabirleri yaklaşımlarında da belirtildiği üzere, bu sembol kişiye hem bir müjde hem de içsel bir uyarı niteliği taşıyabilir. Eğer rüya sahibi hak yolunda dürüst ve erdemli bir yaşam sürmeye gayret ediyorsa, bu rüya helal rızka, manevi bir arınmaya ve yakın zamanda alınacak hayırlı haberlere delalet eder. Ancak rüya esnasında huzursuzluk veya korku hissedildiyse, İslami alimler bunu kişinin dünya işlerine aşırı kapılarak ahiret bilincini veya insani sorumluluklarını ihmal ettiği şeklinde tefsir ederler. Bu durum, kişinin niyetlerini gözden geçirmesi, sadaka vermesi ve iç huzuru bulmak adına manevi dünyasına daha fazla özen göstermesi gerektiğine dair ilahi bir fıtrat uyarısı olarak kabul edilir.",
-    "psychologicalMeaning": "Psikolojide soğanın katmanları, insan ruhunun ve savunma mekanizmalarının katmanlarını temsil eder (Jung'un maskeleri/personaları gibi). Rüyada soğan soymak, kendi iç dünyanızın (veya bir başkasının) derinliklerine inme sürecini simgeler. Ortaya çıkan her katmanda bir acı (gözyaşı) vardır; çünkü gerçeklerle yüzleşmek, bastırılmış travmaları açığa çıkarmak her zaman zordur ve can yakar. Çiğ soğan, \"acı gerçekleri\" temsil eder.\n\nAnalitik psikoloji perspektifinden (özellikle Carl Jung ve Sigmund Freud ekolleri göz önüne alındığında), rüyada soğan imgesi, bilinçdışının derinliklerinden bilince taşınmak istenen çok önemli simgesel mesajlar barındırır. Jung, bu tür sembolleri bireyin \"bireyleşme (individuation)\" sürecinde karşılaştığı arketipsel yansımalar ve gölge (shadow) bütünleşmesi olarak ele alır. Günlük yaşamda bastırılmış kaygılar, ifade edilememiş duygular veya çözümsüz kalmış ikili ilişki çatışmaları, uykunun REM evresinde zihnin savunma mekanizmalarının gevşemesiyle bu sembol üzerinden dramatik bir şekilde açığa çıkar. Rüya sahibinin güncel hayatında yaşadığı kontrol kaybı endişesi, gelecek kaygısı veya yeni bir karar alma aşamasındaki içsel gerilimi, bilinçaltı tarafından bu imgeye dönüştürülerek yeniden işlenir. Bu rüya, zihinsel bir rehabilitasyon süreci olup, bireyin kendi içsel gücünü fark etmesi, duygusal yüklerinden arınması ve zihinsel bütünlüğünü sağlaması için bilinçaltının sunduğu şifayı işaret eder.",
-    "faqs": [
-      {
-        "question": "Rüyada soğan görmek ne anlama gelir?",
-        "answer": "Rüyada soğan görmek; gözyaşına, gizli sırların kat kat açığa çıkmasına, haram (veya şüpheli) mala, bazen de çok sağlam bir sağlığa işaret eder."
-      },
-      {
-        "question": "Rüyada soğan koktuğunu hissetmek ne anlama gelir?",
-        "answer": "Adınızın bir dedikoduya veya çirkin bir işe karıştığına, insanların arkanızdan konuştuğuna (kötü bir şöhrete) işarettir."
-      },
-      {
-        "question": "Rüyada soğan kızartmak (yemek yapmak) nedir?",
-        "answer": "Elinizdeki sıkıntılı, acı ve zor bir durumu kendi yeteneğinizle yumuşatarak, ondan çok hayırlı (lezzetli) bir kazanç elde edeceğinize yorulur."
-      },
-      {
-        "question": "Rüyada beyaz (tatlı) soğan görmek kötü müdür?",
-        "answer": "Diğer soğanlara göre daha iyidir. Üzüntünüzün çok hafif atlatılacağına, yaşayacağınız sıkıntının aslında sizin için çok hayırlı bir sonuca vesile olacağına delalet eder."
-      },
-      {
-        "question": "Rüyada soğan görmek psikolojik ve zihinsel olarak nasıl değerlendirilmelidir?",
-        "answer": "Bu rüya, bilinçaltınızın günlük yaşamdaki stres, beklenti ve duygusal yoğunlukları işleyerek zihinsel dengeyi kurma çabasıdır. Analitik psikolojiye göre, rüya sahibinin içsel dünyasında yüzleşmesi gereken bir duyguya, çözmesi gereken bir soruna veya özümsemesi gereken yeni bir yaşam tecrübesine dikkat çeker. Zihnin ruhsal bir şifa ve arınma süreci olarak değerlendirilmeli, günlük hayattaki kararlarda iç sesin uyarıları dikkate alınmalıdır."
-      },
-      {
-        "question": "Rüyada soğan gördükten sonra günlük hayatta nelere dikkat edilmelidir?",
-        "answer": "Bu rüyayı deneyimledikten sonra özellikle sosyal ilişkilerinizde, mesleki kararlarınızda ve ailevi konularda daha sakin, gözlemlere dayalı ve sağduyulu bir yaklaşım benimsemeniz önerilir. Karşılaşacağınız yeni fırsatları aceleci davranmadan, tüm detaylarıyla değerlendirmeli, manevi huzurunuzu bozabilecek gereksiz tartışmalardan ve stres kaynaklarından uzak durmaya özen göstermelisiniz."
-      }
-    ]
+    "content": {
+      "introduction": "Soğan, acı tadı ve keskin kokusuyla yemeklerin vazgeçilmezi olsa da, soyuldukça insanı ağlatması ve katmanlı yapısı sebebiyle rüyalarda derin sırlar barındırır. Rüyalarda görülen soğan genellikle \"gözyaşı, dedikodu, ifşa olan sırlar ve can sıkıntısı\" ile sembolize edilir. Kat kat olan yapısı, bir yalanın veya sırrın altına gizlenmiş başka sırları temsil eder.",
+      "generalMeaning": "Soğan Görmek rüyada görüldüğünde genel olarak gözyaşına, gizli sırların kat kat açığa çıkmasına, haram (veya şüpheli) mala, bazen de çok sağlam bir sağlığa işaret eder. şeklinde yorumlanır. Rüya tabircilerine göre rüyada çiğ (kabuklu) soğan görmek, gizli kalmış kötü şeylerin ortaya çıkmasına, kişinin canını sıkacak (gözünü yaşartacak) ağır dedikodulara ve tartışmalara delalet eder. Rüyasında çiğ soğan yediğini gören kişi, haram bir işe karışır, çirkin sözler söyler veya hakkında çok ağır laflar edilir. Rüyada soğan soymak, bir insanın gizlediği yalanları, ikiyüzlülüğü kat kat ortaya çıkarmaya (onun maskesini düşürmeye), ancak bunu yaparken çok üzülmeye işarettir. Bunun tam aksine rüyada pişmiş soğan görmek veya yemek çok hayırlıdır; kişinin hatalarından tövbe etmesine, arınmasına, sağlığına (şifaya) ve işlerini yoluna koymasına yorulur.\n\nBu rüyanın günlük yaşama ve sosyal ilişkilere yansıması incelendiğinde, rüya sahibinin hayatında yepyeni bir farkındalık döneminin başladığı görülür. Kişinin ailevi, mesleki veya sosyal çevresinde uzun süredir devam eden belirsizliklerin netlik kazanacağı, alınacak stratejik kararların geleceğe yön vereceği bir evreye girilmektedir. Uzmanlar, bu rüyayı gören kişilerin yakın çevresindeki insanlarla olan iletişiminde daha açık, empatik ve sabırlı olmasını önerir. Özellikle iş veya kariyer yaşamında karşılaşılabilecek ani değişimlere karşı esnek bir tutum sergilemek, olası krizleri fırsata çevirmek adına büyük bir avantaj sağlayacaktır. Yaşamın doğal akışı içerisinde karşılaşılan engellerin aşılabilir olduğunu hatırlatan bu sembol, kişinin kendine olan özgüvenini tazelemesi ve hedeflerine doğru kararlı adımlarla ilerlemesi gerektiğini vurgulayan güçlü bir zihinsel rehberdir. Ayrıca günlük yaşantınızdaki planlamalarda, zaman ve bütçe yönetiminde [Türkiye Hesaplama Çözüm Platformu](https://www.turkiyehesaplama.com) üzerinden destek alarak adımlarınızı somut verilere dayandırabilirsiniz.",
+      "variations": [
+        {
+          "title": "Rüyada Yeşil (Taze) Soğan Görmek",
+          "content": "Zahmetle kazanılan paraya, çok çalışma gerektiren helal rızka ve sağlık problemlerinin bitip hastanın hızla ayağa kalkmasına işarettir."
+        },
+        {
+          "title": "Rüyada Soğan Doğramak",
+          "content": "Uyanık hayatta kendi ellerinizle (belki de boş yere) canınızı sıktığınıza, küçük bir sorunu büyüterek gözyaşı döktüğünüze delalet eder."
+        },
+        {
+          "title": "Rüyada Birinden Soğan Almak",
+          "content": "O kişiden (veya çevresinden) size gelecek kötü (acı) bir habere, bir nankörlüğe veya sizi çok üzecek bir kalp kırıklığına yorulur."
+        },
+        {
+          "title": "Rüyada Çürük Soğan Görmek",
+          "content": "Toplum (veya aile) içindeki ahlaki çöküntüye, dışarıdan sağlam görünen ama için için kokmuş (bozulmuş) ilişkilere ve riyakarlığa işarettir."
+        },
+        {
+          "title": "Rüyada Soğan Ekimi Yapmak (Tarlada)",
+          "content": "Gelecekte hem biraz gözyaşı ama sonunda da büyük bir bereket getirecek (acı tatlı) uzun vadeli bir işe yatırım yapmaya delalet eder."
+        },
+        {
+          "title": "Rüyada Beklenmedik Bir Anda Soğan İle Karşılaşmak",
+          "content": "Rüyada hiç umulmadık bir anda ve şaşırtıcı bir mekanda soğan ile karşılaşmak, gerçek yaşamda rüya sahibinin karşısına çıkacak ani, sürpriz gelişmelere ve dönüm noktalarına işaret eder. Bu durum, ilk etapta kişide tatlı bir heyecan veya şaşkınlık yaratsa da, zamanla hayatın akışını olumlu yönde değiştirecek yeni imkanların kapısını aralayacaktır. İslami ve psikolojik tefsirlerin ortak kesişim noktasına göre, bu tür sürpriz semboller kişinin esnekliğini, yeniliklere uyum sağlama potansiyelini ve kadim şansını simgeler."
+        }
+      ],
+      "religiousMeaning": "İslami tabirlerde (İbn Şirin) soğan (ve sarımsak), kokuları nedeniyle meleklerin ve cemaatin hoşlanmadığı şeylerdir; dolayısıyla rüyada çiğ soğan görmek \"çirkin söz, günah ve haram mal\" olarak tabir edilir. Nablusi'ye göre rüyada soğan yiyen hasta bir kimse ölür; ancak yeşil soğan koparmak hastanın iyileşmesine delalet eder. Rüyada bol miktarda soğan görmek, kişinin hilekarların veya dedikoducuların arasına düşmesine yorulurken, pişmiş soğan yemek hakka dönmeye, tövbeye ve ilahi affa işarettir.\n\nKadim İslami rüya tabiri kaynaklarına (özellikle İmam Nablusi, İbn-i Sirin ve İmam Cafer-i Sadık tefsirlerine) göre, rüyada soğan ile karşılaşmak, rüya sahibinin manevi durumuna, niyetine ve rüyanın görüldüğü esnadaki duygu durumuna göre katmanlı bir şekilde yorumlanır. Diyanet rüya tabirleri yaklaşımlarında da belirtildiği üzere, bu sembol kişiye hem bir müjde hem de içsel bir uyarı niteliği taşıyabilir. Eğer rüya sahibi hak yolunda dürüst ve erdemli bir yaşam sürmeye gayret ediyorsa, bu rüya helal rızka, manevi bir arınmaya ve yakın zamanda alınacak hayırlı haberlere delalet eder. Ancak rüya esnasında huzursuzluk veya korku hissedildiyse, İslami alimler bunu kişinin dünya işlerine aşırı kapılarak ahiret bilincini veya insani sorumluluklarını ihmal ettiği şeklinde tefsir ederler. Bu durum, kişinin niyetlerini gözden geçirmesi, sadaka vermesi ve iç huzuru bulmak adına manevi dünyasına daha fazla özen göstermesi gerektiğine dair ilahi bir fıtrat uyarısı olarak kabul edilir.",
+      "psychologicalMeaning": "Psikolojide soğanın katmanları, insan ruhunun ve savunma mekanizmalarının katmanlarını temsil eder (Jung'un maskeleri/personaları gibi). Rüyada soğan soymak, kendi iç dünyanızın (veya bir başkasının) derinliklerine inme sürecini simgeler. Ortaya çıkan her katmanda bir acı (gözyaşı) vardır; çünkü gerçeklerle yüzleşmek, bastırılmış travmaları açığa çıkarmak her zaman zordur ve can yakar. Çiğ soğan, \"acı gerçekleri\" temsil eder.\n\nAnalitik psikoloji perspektifinden (özellikle Carl Jung ve Sigmund Freud ekolleri göz önüne alındığında), rüyada soğan imgesi, bilinçdışının derinliklerinden bilince taşınmak istenen çok önemli simgesel mesajlar barındırır. Jung, bu tür sembolleri bireyin \"bireyleşme (individuation)\" sürecinde karşılaştığı arketipsel yansımalar ve gölge (shadow) bütünleşmesi olarak ele alır. Günlük yaşamda bastırılmış kaygılar, ifade edilememiş duygular veya çözümsüz kalmış ikili ilişki çatışmaları, uykunun REM evresinde zihnin savunma mekanizmalarının gevşemesiyle bu sembol üzerinden dramatik bir şekilde açığa çıkar. Rüya sahibinin güncel hayatında yaşadığı kontrol kaybı endişesi, gelecek kaygısı veya yeni bir karar alma aşamasındaki içsel gerilimi, bilinçaltı tarafından bu imgeye dönüştürülerek yeniden işlenir. Bu rüya, zihinsel bir rehabilitasyon süreci olup, bireyin kendi içsel gücünü fark etmesi, duygusal yüklerinden arınması ve zihinsel bütünlüğünü sağlaması için bilinçaltının sunduğu şifayı işaret eder.",
+      "faqs": [
+        {
+          "question": "Rüyada soğan görmek ne anlama gelir?",
+          "answer": "Rüyada soğan görmek; gözyaşına, gizli sırların kat kat açığa çıkmasına, haram (veya şüpheli) mala, bazen de çok sağlam bir sağlığa işaret eder."
+        },
+        {
+          "question": "Rüyada soğan koktuğunu hissetmek ne anlama gelir?",
+          "answer": "Adınızın bir dedikoduya veya çirkin bir işe karıştığına, insanların arkanızdan konuştuğuna (kötü bir şöhrete) işarettir."
+        },
+        {
+          "question": "Rüyada soğan kızartmak (yemek yapmak) nedir?",
+          "answer": "Elinizdeki sıkıntılı, acı ve zor bir durumu kendi yeteneğinizle yumuşatarak, ondan çok hayırlı (lezzetli) bir kazanç elde edeceğinize yorulur."
+        },
+        {
+          "question": "Rüyada beyaz (tatlı) soğan görmek kötü müdür?",
+          "answer": "Diğer soğanlara göre daha iyidir. Üzüntünüzün çok hafif atlatılacağına, yaşayacağınız sıkıntının aslında sizin için çok hayırlı bir sonuca vesile olacağına delalet eder."
+        },
+        {
+          "question": "Rüyada soğan görmek psikolojik ve zihinsel olarak nasıl değerlendirilmelidir?",
+          "answer": "Bu rüya, bilinçaltınızın günlük yaşamdaki stres, beklenti ve duygusal yoğunlukları işleyerek zihinsel dengeyi kurma çabasıdır. Analitik psikolojiye göre, rüya sahibinin içsel dünyasında yüzleşmesi gereken bir duyguya, çözmesi gereken bir soruna veya özümsemesi gereken yeni bir yaşam tecrübesine dikkat çeker. Zihnin ruhsal bir şifa ve arınma süreci olarak değerlendirilmeli, günlük hayattaki kararlarda iç sesin uyarıları dikkate alınmalıdır."
+        },
+        {
+          "question": "Rüyada soğan gördükten sonra günlük hayatta nelere dikkat edilmelidir?",
+          "answer": "Bu rüyayı deneyimledikten sonra özellikle sosyal ilişkilerinizde, mesleki kararlarınızda ve ailevi konularda daha sakin, gözlemlere dayalı ve sağduyulu bir yaklaşım benimsemeniz önerilir. Karşılaşacağınız yeni fırsatları aceleci davranmadan, tüm detaylarıyla değerlendirmeli, manevi huzurunuzu bozabilecek gereksiz tartışmalardan ve stres kaynaklarından uzak durmaya özen göstermelisiniz."
+        }
+      ]
+    }
   }
-}
+]

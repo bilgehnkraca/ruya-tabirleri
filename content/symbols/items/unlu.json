@@ -1,68 +1,70 @@
-{
-  "slug": "unlu",
-  "title": "Rüyada Ünlü Birini Görmek",
-  "category": "insanlar",
-  "shortDescription": "Rüyada ünlü görmek; takdir edilme arzusuna, toplumda statü atlamaya, iddialı hedeflere, bazen de gerçekleşmeyecek boş hayallere (ve kibre) işaret eder.",
-  "relatedSymbols": [
-    "kalabalik",
-    "asker"
-  ],
-  "content": {
-    "introduction": "Ünlü insanlar (sanatçılar, aktörler, devlet adamları), modern toplumda \"başarının, zenginliğin, yeteneğin ve popülerliğin\" zirvesi olarak algılanır. Rüyalarda televizyondan veya ekrandan tanınan ünlü bir figürü görmek, rüya sahibinin kendi iç dünyasındaki \"başarı ihtiyacını\", toplumda öne çıkma arzusunu veya o ünlünün temsil ettiği karaktere bürünme isteğini yansıtır. Bu rüya, rüya sahibinin hırslarıyla doğrudan ilgilidir.",
-    "generalMeaning": "Ünlü Birini Görmek rüyada görüldüğünde genel olarak takdir edilme arzusuna, toplumda statü atlamaya, iddialı hedeflere, bazen de gerçekleşmeyecek boş hayallere (ve kibre) işaret eder. şeklinde yorumlanır. Rüya tabircilerine göre rüyada ünlü birini görmek, rüya sahibinin çevresinde itibarının (saygınlığının) artacağına, adından söz ettirecek büyük bir başarıya imza atacağına delalet eder. Rüyasında sevdiği, takdir ettiği bir ünlüyle sohbet ettiğini gören kişi, çok önemli ve nüfuzlu insanlardan destek alır, iş hayatında beklenmedik bir sıçrama (terfi) yaşar. Ünlü biriyle arkadaş olduğunu görmek, lüks ve konforlu bir hayata adım atmaya işarettir. Ancak sevilmeyen veya kötü şöhretli bir ünlü görmek, toplum içinde rüya sahibinin adının bir dedikoduya karışacağına, itibar kaybına veya kibirli (bencil) davranışları yüzünden yalnız kalacağına yorulur.\n\nBu rüyanın günlük yaşama ve sosyal ilişkilere yansıması incelendiğinde, rüya sahibinin hayatında yepyeni bir farkındalık döneminin başladığı görülür. Kişinin ailevi, mesleki veya sosyal çevresinde uzun süredir devam eden belirsizliklerin netlik kazanacağı, alınacak stratejik kararların geleceğe yön vereceği bir evreye girilmektedir. Uzmanlar, bu rüyayı gören kişilerin yakın çevresindeki insanlarla olan iletişiminde daha açık, empatik ve sabırlı olmasını önerir. Özellikle iş veya kariyer yaşamında karşılaşılabilecek ani değişimlere karşı esnek bir tutum sergilemek, olası krizleri fırsata çevirmek adına büyük bir avantaj sağlayacaktır. Yaşamın doğal akışı içerisinde karşılaşılan engellerin aşılabilir olduğunu hatırlatan bu sembol, kişinin kendine olan özgüvenini tazelemesi ve hedeflerine doğru kararlı adımlarla ilerlemesi gerektiğini vurgulayan güçlü bir zihinsel rehberdir.",
-    "variations": [
-      {
-        "title": "Rüyada Ünlü Bir Şarkıcı Görmek",
-        "content": "Hayatınıza girecek büyük bir neşeye, kutlamaya, ancak bazen de geçici (ve içi boş) eğlencelere kapılıp gerçekleri görmezden gelmeye işarettir."
-      },
-      {
-        "title": "Rüyada Ünlü Bir Oyuncuyla Öpüşmek",
-        "content": "Gerçekleşmesini çok istediğiniz büyük bir arzunuza kavuşacağınıza, ancak bu arzunun sonucunun beklediğiniz kadar tatmin edici olmayabileceğine yorulur."
-      },
-      {
-        "title": "Rüyada Ünlü Birinin Öldüğünü Görmek",
-        "content": "Gözünüzde çok büyüttüğünüz bir insanın (veya hedefin) aslında o kadar da önemli olmadığını fark edeceğinize, illüzyonların yıkılmasına delalet eder."
-      },
-      {
-        "title": "Rüyada Ünlü Bir Devlet Adamı Görmek",
-        "content": "Devlet kapısında işinizin çözüleceğine, mahkemede veya resmi bir kurumda çok güçlü bir destek bulacağınıza ve adaletin yerini bulacağına işarettir."
-      },
-      {
-        "title": "Rüyada Kendinin Ünlü Olduğunu Görmek",
-        "content": "Kibrinize, çevrenizdeki insanları küçümsediğinize veya tam tersine, hak ettiğiniz değeri göremediğiniz için içten içe çok büyük bir onaylanma ihtiyacı duyduğunuza yorulur."
-      },
-      {
-        "title": "Rüyada Beklenmedik Bir Anda Ünlü Birini İle Karşılaşmak",
-        "content": "Rüyada hiç umulmadık bir anda ve şaşırtıcı bir mekanda ünlü birini ile karşılaşmak, gerçek yaşamda rüya sahibinin karşısına çıkacak ani, sürpriz gelişmelere ve dönüm noktalarına işaret eder. Bu durum, ilk etapta kişide tatlı bir heyecan veya şaşkınlık yaratsa da, zamanla hayatın akışını olumlu yönde değiştirecek yeni imkanların kapısını aralayacaktır. İslami ve psikolojik tefsirlerin ortak kesişim noktasına göre, bu tür sürpriz semboller kişinin esnekliğini, yeniliklere uyum sağlama potansiyelini ve kadim şansını simgeler."
-      }
+[
+  {
+    "slug": "unlu",
+    "title": "Rüyada Ünlü Birini Görmek",
+    "category": "insanlar",
+    "shortDescription": "Rüyada ünlü görmek; takdir edilme arzusuna, toplumda statü atlamaya, iddialı hedeflere, bazen de gerçekleşmeyecek boş hayallere (ve kibre) işaret eder.",
+    "relatedSymbols": [
+      "kalabalik",
+      "asker"
     ],
-    "religiousMeaning": "Klasik İslami rüya tabirlerinde modern anlamda \"ünlü\" kavramı yoktur; ancak bu durum \"şöhret ve makam sahibi, vali veya sultan\" olarak yorumlanır. İbn Şirin'e göre rüyada bir devlet büyüğü veya herkesin tanıdığı sevilen bir alimi görmek, büyük bir devlete, ilme ve rızka işarettir. Rüyada halkın çok sevdiği bir kişiyle yürümek, o kişinin ahlakından nasibini almaya yorulur. Ancak dinde şöhret genellikle \"afet\" kabul edildiği için, kibirli ve gösterişli insanlarla beraber olmak, dini zayıflığa ve dünyaya fazlasıyla meyletmeye delalet eder.\n\nKadim İslami rüya tabiri kaynaklarına (özellikle İmam Nablusi, İbn-i Sirin ve İmam Cafer-i Sadık tefsirlerine) göre, rüyada ünlü birini ile karşılaşmak, rüya sahibinin manevi durumuna, niyetine ve rüyanın görüldüğü esnadaki duygu durumuna göre katmanlı bir şekilde yorumlanır. Diyanet rüya tabirleri yaklaşımlarında da belirtildiği üzere, bu sembol kişiye hem bir müjde hem de içsel bir uyarı niteliği taşıyabilir. Eğer rüya sahibi hak yolunda dürüst ve erdemli bir yaşam sürmeye gayret ediyorsa, bu rüya helal rızka, manevi bir arınmaya ve yakın zamanda alınacak hayırlı haberlere delalet eder. Ancak rüya esnasında huzursuzluk veya korku hissedildiyse, İslami alimler bunu kişinin dünya işlerine aşırı kapılarak ahiret bilincini veya insani sorumluluklarını ihmal ettiği şeklinde tefsir ederler. Bu durum, kişinin niyetlerini gözden geçirmesi, sadaka vermesi ve iç huzuru bulmak adına manevi dünyasına daha fazla özen göstermesi gerektiğine dair ilahi bir fıtrat uyarısı olarak kabul edilir.",
-    "psychologicalMeaning": "Psikolojide ünlü birini görmek, \"İdeal Benlik\" (Ideal Self) projeksiyonudur. Rüya sahibi uyanık hayatta o ünlünün sahip olduğu özellikleri (zenginlik, çekicilik, rahatlık, özgüven) kendine katmak istemektedir. Ünlü biriyle arkadaş olmak, bilinçaltının kişiye verdiği \"Sen de en az onlar kadar değerlisin\" tesellisidir. Aynı zamanda \"Gölge\" (Shadow) yönünüz de olabilir; sevmediğiniz bir ünlüyü görmek, kendinizde kabullenemediğiniz kötü özelliklerin o kişide vücut bulmuş halidir.\n\nAnalitik psikoloji perspektifinden (özellikle Carl Jung ve Sigmund Freud ekolleri göz önüne alındığında), rüyada ünlü birini imgesi, bilinçdışının derinliklerinden bilince taşınmak istenen çok önemli simgesel mesajlar barındırır. Jung, bu tür sembolleri bireyin \"bireyleşme (individuation)\" sürecinde karşılaştığı arketipsel yansımalar ve gölge (shadow) bütünleşmesi olarak ele alır. Günlük yaşamda bastırılmış kaygılar, ifade edilememiş duygular veya çözümsüz kalmış ikili ilişki çatışmaları, uykunun REM evresinde zihnin savunma mekanizmalarının gevşemesiyle bu sembol üzerinden dramatik bir şekilde açığa çıkar. Rüya sahibinin güncel hayatında yaşadığı kontrol kaybı endişesi, gelecek kaygısı veya yeni bir karar alma aşamasındaki içsel gerilimi, bilinçaltı tarafından bu imgeye dönüştürülerek yeniden işlenir. Bu rüya, zihinsel bir rehabilitasyon süreci olup, bireyin kendi içsel gücünü fark etmesi, duygusal yüklerinden arınması ve zihinsel bütünlüğünü sağlaması için bilinçaltının sunduğu şifayı işaret eder.",
-    "faqs": [
-      {
-        "question": "Rüyada ünlü birini görmek ne anlama gelir?",
-        "answer": "Rüyada ünlü görmek; takdir edilme arzusuna, toplumda statü atlamaya, iddialı hedeflere, bazen de gerçekleşmeyecek boş hayallere (ve kibre) işaret eder."
-      },
-      {
-        "question": "Rüyada ünlü biriyle yemek yemek ne anlama gelir?",
-        "answer": "Çok nüfuzlu, varlıklı ve geniş çevreye sahip insanlarla aynı masaya oturacağınıza (ortak bir iş yapıp büyük kâr elde edeceğinize) işarettir."
-      },
-      {
-        "question": "Ünlü birinin evime misafir geldiğini görmek nedir?",
-        "answer": "Hane içine girecek çok büyük bir kısmete, ailenizin itibarının (sosyal statüsünün) birdenbire yükseleceğine ve herkesin sizi konuşacağına yorulur."
-      },
-      {
-        "question": "Rüyada ünlü birinden imza veya hediye almak ne demek?",
-        "answer": "Kariyerinizde çok önemli bir onaya, takdir belgesine (veya terfiye) sahip olacağınıza, emeklerinizin başkaları tarafından \"onaylanacağına\" delalet eder."
-      },
-      {
-        "question": "Rüyada ünlü birini görmek psikolojik ve zihinsel olarak nasıl değerlendirilmelidir?",
-        "answer": "Bu rüya, bilinçaltınızın günlük yaşamdaki stres, beklenti ve duygusal yoğunlukları işleyerek zihinsel dengeyi kurma çabasıdır. Analitik psikolojiye göre, rüya sahibinin içsel dünyasında yüzleşmesi gereken bir duyguya, çözmesi gereken bir soruna veya özümsemesi gereken yeni bir yaşam tecrübesine dikkat çeker. Zihnin ruhsal bir şifa ve arınma süreci olarak değerlendirilmeli, günlük hayattaki kararlarda iç sesin uyarıları dikkate alınmalıdır."
-      },
-      {
-        "question": "Rüyada ünlü birini gördükten sonra günlük hayatta nelere dikkat edilmelidir?",
-        "answer": "Bu rüyayı deneyimledikten sonra özellikle sosyal ilişkilerinizde, mesleki kararlarınızda ve ailevi konularda daha sakin, gözlemlere dayalı ve sağduyulu bir yaklaşım benimsemeniz önerilir. Karşılaşacağınız yeni fırsatları aceleci davranmadan, tüm detaylarıyla değerlendirmeli, manevi huzurunuzu bozabilecek gereksiz tartışmalardan ve stres kaynaklarından uzak durmaya özen göstermelisiniz."
-      }
-    ]
+    "content": {
+      "introduction": "Ünlü insanlar (sanatçılar, aktörler, devlet adamları), modern toplumda \"başarının, zenginliğin, yeteneğin ve popülerliğin\" zirvesi olarak algılanır. Rüyalarda televizyondan veya ekrandan tanınan ünlü bir figürü görmek, rüya sahibinin kendi iç dünyasındaki \"başarı ihtiyacını\", toplumda öne çıkma arzusunu veya o ünlünün temsil ettiği karaktere bürünme isteğini yansıtır. Bu rüya, rüya sahibinin hırslarıyla doğrudan ilgilidir.",
+      "generalMeaning": "Ünlü Birini Görmek rüyada görüldüğünde genel olarak takdir edilme arzusuna, toplumda statü atlamaya, iddialı hedeflere, bazen de gerçekleşmeyecek boş hayallere (ve kibre) işaret eder. şeklinde yorumlanır. Rüya tabircilerine göre rüyada ünlü birini görmek, rüya sahibinin çevresinde itibarının (saygınlığının) artacağına, adından söz ettirecek büyük bir başarıya imza atacağına delalet eder. Rüyasında sevdiği, takdir ettiği bir ünlüyle sohbet ettiğini gören kişi, çok önemli ve nüfuzlu insanlardan destek alır, iş hayatında beklenmedik bir sıçrama (terfi) yaşar. Ünlü biriyle arkadaş olduğunu görmek, lüks ve konforlu bir hayata adım atmaya işarettir. Ancak sevilmeyen veya kötü şöhretli bir ünlü görmek, toplum içinde rüya sahibinin adının bir dedikoduya karışacağına, itibar kaybına veya kibirli (bencil) davranışları yüzünden yalnız kalacağına yorulur.\n\nBu rüyanın günlük yaşama ve sosyal ilişkilere yansıması incelendiğinde, rüya sahibinin hayatında yepyeni bir farkındalık döneminin başladığı görülür. Kişinin ailevi, mesleki veya sosyal çevresinde uzun süredir devam eden belirsizliklerin netlik kazanacağı, alınacak stratejik kararların geleceğe yön vereceği bir evreye girilmektedir. Uzmanlar, bu rüyayı gören kişilerin yakın çevresindeki insanlarla olan iletişiminde daha açık, empatik ve sabırlı olmasını önerir. Özellikle iş veya kariyer yaşamında karşılaşılabilecek ani değişimlere karşı esnek bir tutum sergilemek, olası krizleri fırsata çevirmek adına büyük bir avantaj sağlayacaktır. Yaşamın doğal akışı içerisinde karşılaşılan engellerin aşılabilir olduğunu hatırlatan bu sembol, kişinin kendine olan özgüvenini tazelemesi ve hedeflerine doğru kararlı adımlarla ilerlemesi gerektiğini vurgulayan güçlü bir zihinsel rehberdir. Ayrıca günlük yaşantınızdaki planlamalarda, zaman ve bütçe yönetiminde [Türkiye Hesaplama Çözüm Platformu](https://www.turkiyehesaplama.com) üzerinden destek alarak adımlarınızı somut verilere dayandırabilirsiniz.",
+      "variations": [
+        {
+          "title": "Rüyada Ünlü Bir Şarkıcı Görmek",
+          "content": "Hayatınıza girecek büyük bir neşeye, kutlamaya, ancak bazen de geçici (ve içi boş) eğlencelere kapılıp gerçekleri görmezden gelmeye işarettir."
+        },
+        {
+          "title": "Rüyada Ünlü Bir Oyuncuyla Öpüşmek",
+          "content": "Gerçekleşmesini çok istediğiniz büyük bir arzunuza kavuşacağınıza, ancak bu arzunun sonucunun beklediğiniz kadar tatmin edici olmayabileceğine yorulur."
+        },
+        {
+          "title": "Rüyada Ünlü Birinin Öldüğünü Görmek",
+          "content": "Gözünüzde çok büyüttüğünüz bir insanın (veya hedefin) aslında o kadar da önemli olmadığını fark edeceğinize, illüzyonların yıkılmasına delalet eder."
+        },
+        {
+          "title": "Rüyada Ünlü Bir Devlet Adamı Görmek",
+          "content": "Devlet kapısında işinizin çözüleceğine, mahkemede veya resmi bir kurumda çok güçlü bir destek bulacağınıza ve adaletin yerini bulacağına işarettir."
+        },
+        {
+          "title": "Rüyada Kendinin Ünlü Olduğunu Görmek",
+          "content": "Kibrinize, çevrenizdeki insanları küçümsediğinize veya tam tersine, hak ettiğiniz değeri göremediğiniz için içten içe çok büyük bir onaylanma ihtiyacı duyduğunuza yorulur."
+        },
+        {
+          "title": "Rüyada Beklenmedik Bir Anda Ünlü Birini İle Karşılaşmak",
+          "content": "Rüyada hiç umulmadık bir anda ve şaşırtıcı bir mekanda ünlü birini ile karşılaşmak, gerçek yaşamda rüya sahibinin karşısına çıkacak ani, sürpriz gelişmelere ve dönüm noktalarına işaret eder. Bu durum, ilk etapta kişide tatlı bir heyecan veya şaşkınlık yaratsa da, zamanla hayatın akışını olumlu yönde değiştirecek yeni imkanların kapısını aralayacaktır. İslami ve psikolojik tefsirlerin ortak kesişim noktasına göre, bu tür sürpriz semboller kişinin esnekliğini, yeniliklere uyum sağlama potansiyelini ve kadim şansını simgeler."
+        }
+      ],
+      "religiousMeaning": "Klasik İslami rüya tabirlerinde modern anlamda \"ünlü\" kavramı yoktur; ancak bu durum \"şöhret ve makam sahibi, vali veya sultan\" olarak yorumlanır. İbn Şirin'e göre rüyada bir devlet büyüğü veya herkesin tanıdığı sevilen bir alimi görmek, büyük bir devlete, ilme ve rızka işarettir. Rüyada halkın çok sevdiği bir kişiyle yürümek, o kişinin ahlakından nasibini almaya yorulur. Ancak dinde şöhret genellikle \"afet\" kabul edildiği için, kibirli ve gösterişli insanlarla beraber olmak, dini zayıflığa ve dünyaya fazlasıyla meyletmeye delalet eder.\n\nKadim İslami rüya tabiri kaynaklarına (özellikle İmam Nablusi, İbn-i Sirin ve İmam Cafer-i Sadık tefsirlerine) göre, rüyada ünlü birini ile karşılaşmak, rüya sahibinin manevi durumuna, niyetine ve rüyanın görüldüğü esnadaki duygu durumuna göre katmanlı bir şekilde yorumlanır. Diyanet rüya tabirleri yaklaşımlarında da belirtildiği üzere, bu sembol kişiye hem bir müjde hem de içsel bir uyarı niteliği taşıyabilir. Eğer rüya sahibi hak yolunda dürüst ve erdemli bir yaşam sürmeye gayret ediyorsa, bu rüya helal rızka, manevi bir arınmaya ve yakın zamanda alınacak hayırlı haberlere delalet eder. Ancak rüya esnasında huzursuzluk veya korku hissedildiyse, İslami alimler bunu kişinin dünya işlerine aşırı kapılarak ahiret bilincini veya insani sorumluluklarını ihmal ettiği şeklinde tefsir ederler. Bu durum, kişinin niyetlerini gözden geçirmesi, sadaka vermesi ve iç huzuru bulmak adına manevi dünyasına daha fazla özen göstermesi gerektiğine dair ilahi bir fıtrat uyarısı olarak kabul edilir.",
+      "psychologicalMeaning": "Psikolojide ünlü birini görmek, \"İdeal Benlik\" (Ideal Self) projeksiyonudur. Rüya sahibi uyanık hayatta o ünlünün sahip olduğu özellikleri (zenginlik, çekicilik, rahatlık, özgüven) kendine katmak istemektedir. Ünlü biriyle arkadaş olmak, bilinçaltının kişiye verdiği \"Sen de en az onlar kadar değerlisin\" tesellisidir. Aynı zamanda \"Gölge\" (Shadow) yönünüz de olabilir; sevmediğiniz bir ünlüyü görmek, kendinizde kabullenemediğiniz kötü özelliklerin o kişide vücut bulmuş halidir.\n\nAnalitik psikoloji perspektifinden (özellikle Carl Jung ve Sigmund Freud ekolleri göz önüne alındığında), rüyada ünlü birini imgesi, bilinçdışının derinliklerinden bilince taşınmak istenen çok önemli simgesel mesajlar barındırır. Jung, bu tür sembolleri bireyin \"bireyleşme (individuation)\" sürecinde karşılaştığı arketipsel yansımalar ve gölge (shadow) bütünleşmesi olarak ele alır. Günlük yaşamda bastırılmış kaygılar, ifade edilememiş duygular veya çözümsüz kalmış ikili ilişki çatışmaları, uykunun REM evresinde zihnin savunma mekanizmalarının gevşemesiyle bu sembol üzerinden dramatik bir şekilde açığa çıkar. Rüya sahibinin güncel hayatında yaşadığı kontrol kaybı endişesi, gelecek kaygısı veya yeni bir karar alma aşamasındaki içsel gerilimi, bilinçaltı tarafından bu imgeye dönüştürülerek yeniden işlenir. Bu rüya, zihinsel bir rehabilitasyon süreci olup, bireyin kendi içsel gücünü fark etmesi, duygusal yüklerinden arınması ve zihinsel bütünlüğünü sağlaması için bilinçaltının sunduğu şifayı işaret eder.",
+      "faqs": [
+        {
+          "question": "Rüyada ünlü birini görmek ne anlama gelir?",
+          "answer": "Rüyada ünlü görmek; takdir edilme arzusuna, toplumda statü atlamaya, iddialı hedeflere, bazen de gerçekleşmeyecek boş hayallere (ve kibre) işaret eder."
+        },
+        {
+          "question": "Rüyada ünlü biriyle yemek yemek ne anlama gelir?",
+          "answer": "Çok nüfuzlu, varlıklı ve geniş çevreye sahip insanlarla aynı masaya oturacağınıza (ortak bir iş yapıp büyük kâr elde edeceğinize) işarettir."
+        },
+        {
+          "question": "Ünlü birinin evime misafir geldiğini görmek nedir?",
+          "answer": "Hane içine girecek çok büyük bir kısmete, ailenizin itibarının (sosyal statüsünün) birdenbire yükseleceğine ve herkesin sizi konuşacağına yorulur."
+        },
+        {
+          "question": "Rüyada ünlü birinden imza veya hediye almak ne demek?",
+          "answer": "Kariyerinizde çok önemli bir onaya, takdir belgesine (veya terfiye) sahip olacağınıza, emeklerinizin başkaları tarafından \"onaylanacağına\" delalet eder."
+        },
+        {
+          "question": "Rüyada ünlü birini görmek psikolojik ve zihinsel olarak nasıl değerlendirilmelidir?",
+          "answer": "Bu rüya, bilinçaltınızın günlük yaşamdaki stres, beklenti ve duygusal yoğunlukları işleyerek zihinsel dengeyi kurma çabasıdır. Analitik psikolojiye göre, rüya sahibinin içsel dünyasında yüzleşmesi gereken bir duyguya, çözmesi gereken bir soruna veya özümsemesi gereken yeni bir yaşam tecrübesine dikkat çeker. Zihnin ruhsal bir şifa ve arınma süreci olarak değerlendirilmeli, günlük hayattaki kararlarda iç sesin uyarıları dikkate alınmalıdır."
+        },
+        {
+          "question": "Rüyada ünlü birini gördükten sonra günlük hayatta nelere dikkat edilmelidir?",
+          "answer": "Bu rüyayı deneyimledikten sonra özellikle sosyal ilişkilerinizde, mesleki kararlarınızda ve ailevi konularda daha sakin, gözlemlere dayalı ve sağduyulu bir yaklaşım benimsemeniz önerilir. Karşılaşacağınız yeni fırsatları aceleci davranmadan, tüm detaylarıyla değerlendirmeli, manevi huzurunuzu bozabilecek gereksiz tartışmalardan ve stres kaynaklarından uzak durmaya özen göstermelisiniz."
+        }
+      ]
+    }
   }
-}
+]

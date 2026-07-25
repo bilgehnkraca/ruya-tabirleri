@@ -1,63 +1,65 @@
-{
-  "slug": "ayna",
-  "title": "Rüyada Ayna Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
-  "category": "nesne",
-  "shortDescription": "Rüyada ayna görmek, kişinin içsel gerçeğiyle yüzleşmesine, kibre, hayal kırıklıklarına, ikiyüzlü dostlara, sırlara ve bazen de (hamileler için) çocuğa işaret eder.",
-  "content": {
-    "introduction": "Rüyada ayna görmek, rüya tabirleri tarihindeki (ve psikanaliz/mitolojideki Narkissos arketipi bağlamında) en derin 'Yüzleşme (Confrontation)', 'İçsel Gerçek (Self-Reflection)', 'Kibir (Vanity)', 'İllüzyon/Yalan' ve 'Ruhun Aynası' sembolüdür. Sadece dış görünüşü değil, bakan kişinin (Kendi vicdanını, günahlarını ve asıl karakterini) ona geri yansıtan o parlak cam; insanın hayatındaki o (Acımasız gerçeklerle, yaşlanma korkusuyla veya kendi ihtişamıyla) baş başa kaldığı o (Bilinçlenme) anını temsil eder. Rüyasında (Pırıl pırıl, temiz bir aynada kendine baktığını ve çok güzel/yakışıklı göründüğünü) gören kişi; uyanık hayatında o (Yaptığı işlerden, vicdanından ve karakterinden) çok emindir, toplum içinde o (Kusursuz İtibara ve Mutluluğa) ulaşır. Aynadaki güzellik, ruhun ve ahlakın güzelliğidir. Rüyada aynanın arkasına bakmak (Veya içinden geçmek), o görünen yüzeysel dünyanın (Arkasındaki derin sırlara, paralel gerçekliğe veya tasavvufi ilimlere) vakıf olmak demektir. Ancak rüyasında (Aynanın paramparça kırıldığını veya aynada çok çirkin, yaşlı, şeytani bir yüzle karşılaştığını) görmek; rüya sahibinin o (Kendi kurduğu kibrin, yalanın veya kusursuz imajının) çok büyük bir (Skandalla, boşanmayla veya günahla) yerle bir olacağına, o (Korkunç yüzleşmenin) onu depresyona sokacağına dair sarsıcı bir (Şok) uyarısıdır. Kırık ayna, parçalanan Egodur ve (Uğursuzluk/Ölüm) inancını taşır. Psikolojik olarak ayna (The Mirror / Persona and Shadow arketipi), insanın 'Kendilik İmajını (Self-Image)', 'Başkalarının onu nasıl gördüğü (Social Mirroring)' korkusunu ve o (Narsisizmi) yansıtır. Rüyasında (Sürekli aynaya bakan ama yüzünü göremeyen / silik gören) kişi, uyanık hayatta 'Kimlik Kaybı (Identity Crisis)' yaşıyordur; kim olduğunu ve bu hayatta ne aradığını (Tamamen unutmuştur). Geleneksel tabirlerde ayna; (Eğer erkek bakıyorsa ve karısı hamileyse) kendisine benzeyecek bir erkek çocuğa, (Eğer kadın bakıyorsa) kız çocuğuna, hayal kırıklığına, kibre, nifak sokan (ikiyüzlü) arkadaşa ve bazen de ayrılığa yorumlanır. Kısacası rüyada ayna görmek, 'O camın karşısına geçtiğinde (Yaratttığın o sahte maskeyle mi karşılaşıyorsun, yoksa o tertemiz ruhunla mı?)' sorusunu soran, çok (Sınayıcı ve Mistik) bir nesne rüyasıdır.",
-    "generalMeaning": "Genel rüya tabirlerine göre ayna; çok sevilen bir eş (karı/koca), ikiyüzlü ve arkanızdan kuyu kazan dostlar, yalanların ortaya çıkması, hamile kadın için doğacak bebek ve kibir demektir. Rüyasında (Gümüş veya altın işlemeli çok değerli bir ayna) gören kişinin hayatına (Dünyalar güzeli ama biraz kibirli) bir eş veya (Çok gösterişli ama içi boş) bir zenginlik girer. Rüyada aynayı (Sildiğini ve parlattığını) görmek; kişinin o (Üzerine atılan iftiralardan, lekelerden veya geçmiş günahlarından) (Tövbe ederek veya kendini aklayarak) o (Pırıl pırıl temiz itibarına) geri döneceğine yorulur. Ancak rüyada (Aynada kendini başkası olarak görmek); rüya sahibinin (Kendi özünden ve karakterinden tamamen uzaklaştığına), o (Girdiği ortamın veya patronun şeklini aldığına / Riyakarlığına) delalet eder. Genel anlamda ayna; (Gerçeklerin asla sonsuza dek saklanamayacağının şahididir).",
-    "religiousMeaning": "İslami rüya tabirleri açısından (Özellikle kalbin aynası olması, tasavvuftaki tecelli ve Hz. Ali'nin 'İnsan insanın aynasıdır' sözü bağlamında); ayna, 'Kalp Gözü (Basiret)', 'Amellerin Yansıması', 'Evlat' ve 'Tefekkür'dür. Rüyasında (Aynada nurlu bir yüz gördüğünü) gören mümin; o (Kıldığı namazların, ettiği tövbelerin ve güzel ahlakının) (Allah'ın rızasıyla) onun kalbinde (Güneş gibi bir nur) yarattığına şahit olur (Mir'at-ı Kalp). Rüyada (Aynanın paslandığını veya karardığını) görmek; o (İşlenen haramların, dedikodunun ve hasedin) o temiz (İslam fıtratını / Kalbi tamamen kararttığına) ve o kişinin (Hidayetten uzaklaştığına) dair o (Korkunç İlahi İkazdır). Nablusi'ye göre kırık ayna; eşin vefatına, çocuğun kaybına veya o (Kurulan o güzel hanenin) yıkılmasına işaret edebilir. Dini açıdan özetlemek gerekirse ayna; (Kıyamet günü karşınıza çıkacak olan o Amel Defterinizin dünyadaki küçük bir provasıdır).",
-    "psychologicalMeaning": "Psikolojik ve psikanalitik (Jungiyen/Lacanian) çerçevede rüyada ayna, 'Gölge Yüzleşmesi (Shadow Integration)', 'Narsisizm (Narcissistic Wound)' ve 'Ayna Evresi (Mirror Stage)' arketipidir. Kişi (hayatında o en kibirli, hep ben diyen veya kendini kusursuz sanan o (Narsistik) evresinde) rüyasında o (Kendini aynada dev/ilah gibi gördüğünü) görebilir. Bu (Ego Şişmesidir/Inflation). Ancak rüyasında (Aynaya baktığında arkasında duran korkunç bir gölge/yaratık) gören kişi; uyanık hayatta o 'Bilinçdışına ittiği o (Bastırılmış Nefret, Travma veya Hayvani Dürtülerin)' artık (Bilinç duvarını aşarak) onu ele geçirdiğini (Paranoya) yaşıyordur.",
-    "variations": [
-      {
-        "title": "Rüyada Aynanın (Çatlaması / Parçalanması)",
-        "content": "Kişi bakarken veya kendiliğinden (Aynanın ortadan ikiye çatlaması veya tuz buz olması); o (Kusursuz sanılan evliliğin, itibarın veya o büyük şirketin) çok şok edici bir (Yalanın veya Hatanın ortaya çıkmasıyla) (Geri döndürülemez bir şekilde yok olacağına) dair sarsıcı bir Enkaz uyarısıdır."
-      },
-      {
-        "title": "Rüyada Aynada (Ölü Birini Görmek)",
-        "content": "Aynaya baktığınızda (Kendi yüzünüz yerine, ölmüş annenizi, babanızı veya bir yabancıyı) görmek; o (Ölen kişinin sizin üzerinizdeki psikolojik baskısının / mirasının devam ettiğine), veya (Sizin de adım adım ölüme/o kadere yaklaştığınıza) dair çok ağır (Melankolik) bir uyarısıdır."
-      },
-      {
-        "title": "Rüyada (Sonsuz Ayna Odasında / Labirentte) Kalmak",
-        "content": "Karşılıklı aynalar yüzünden (Kendinizi sonsuz kere çoğalmış) gördüğünüz o odada kaybolmak; kişinin hayatında o (Yalanların, maskelerin ve entrikaların) o kadar birbirine girdiği ki, (Asıl gerçeğin / Kendi gerçek kimliğinin) o (Sonsuz İllüzyon Labirentinde tamamen kaybolduğuna) yorulur."
-      },
-      {
-        "title": "Rüyada (Kendisini Çirkin / Yaşlı Görmek)",
-        "content": "Genç ve güzelken aynada (Saçları dökülmüş, kırışmış ve iğrenç bir yüze) sahip olduğunu görmek; kişinin (İç dünyasındaki çürümeye, yaptığı bir kötülüğün ruhunu yaşlandırdığına veya uyanık hayattaki o Yaşlanma / Çirkinleşme anksiyetesine / Beden Algı Bozukluğuna) delalet eder."
-      },
-      {
-        "title": "Rüyada Aynanın (Göz Kırpması / Canlanması)",
-        "content": "Siz hareketsizken aynadaki yansımanızın (Gülümsemesi veya hareket etmesi); rüya tabirlerindeki en (Ürkütücü Şizofrenik / Gölge) uyanışıdır. Sizin (İçinizdeki o Bastırılmış, Asi ve Bağımsız Alt-Benliğin) artık (Kontrolü ele aldığına ve sizinle alay ettiğine) uyarır."
-      }
-    ],
-    "faqs": [
-      {
-        "question": "Rüyada aynayı (Birisinin sana hediye etmesi) ne anlama gelir?",
-        "answer": "Birinin size süslü bir ayna vermesi; o kişinin (Veya kaderin) size (Çok güzel bir evlat veya asil bir eş) nasip edeceğine, hayatınızın o ayna gibi (Parlak ve yeni baştan) şekilleneceğine dair o (Romantik Müjdedir)."
-      },
-      {
-        "question": "Rüyada (Bulanık / Sisli / Buğulu Ayna) görmek nedir?",
-        "answer": "Banyodan çıkmış gibi o (Buharlı, hiçbir şeyin net görünmediği) aynaya bakmak; kişinin o (Geleceğine, vereceği kararlara veya kimliğine) dair (Çok büyük bir Karışıklık, Beyin Sisi ve Kararsızlık) içinde (Yönünü bulamadığına) yorulur."
-      },
-      {
-        "question": "Rüyada aynayı (Duvardan indirmek / Yüzünü çevirmek) ne demek?",
-        "answer": "Aynayı bilerek ters çevirmek; o kişinin (Gerçeklerle yüzleşmeyi reddettiğine), o (Yaptığı hatanın sonuçlarını görmek istemediğine) ve (Bilinçli bir cehalet / Kaçış) psikolojisine girdiğine delalet eder."
-      },
-      {
-        "question": "Rüyada (Boy Aynasına) bakmak nedir?",
-        "answer": "Sadece yüzüne değil (Tüm vücuduna, kıyafetlerine ve endamına) o devasa aynada bakmak; o kişinin (Dünyevi kibrinin, makamının ve gösterişinin) zirvesinde olduğuna, herkesin ona (Hayran kalmasını / Onaylamasını) (Onay Bağımlılığı) beklediğine uyarır."
-      },
-      {
-        "question": "Rüyada (Kendini aynada hayvan olarak görmek) ne anlama gelir?",
-        "answer": "Yansımasının (Bir aslan, domuz, köpek veya kuş) olduğunu görmek; kişinin (Gerçek karakterindeki o baskın özelliğin / Yırtıcılığın, oburluğun veya özgürlüğün) o yansımada açığa çıktığına (Ruhsal Röntgene) işaret eder."
-      }
+[
+  {
+    "slug": "ayna",
+    "title": "Rüyada Ayna Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
+    "category": "nesne",
+    "shortDescription": "Rüyada ayna görmek, kişinin içsel gerçeğiyle yüzleşmesine, kibre, hayal kırıklıklarına, ikiyüzlü dostlara, sırlara ve bazen de (hamileler için) çocuğa işaret eder.",
+    "content": {
+      "introduction": "Rüyada ayna görmek, rüya tabirleri tarihindeki (ve psikanaliz/mitolojideki Narkissos arketipi bağlamında) en derin 'Yüzleşme (Confrontation)', 'İçsel Gerçek (Self-Reflection)', 'Kibir (Vanity)', 'İllüzyon/Yalan' ve 'Ruhun Aynası' sembolüdür. Sadece dış görünüşü değil, bakan kişinin (Kendi vicdanını, günahlarını ve asıl karakterini) ona geri yansıtan o parlak cam; insanın hayatındaki o (Acımasız gerçeklerle, yaşlanma korkusuyla veya kendi ihtişamıyla) baş başa kaldığı o (Bilinçlenme) anını temsil eder. Rüyasında (Pırıl pırıl, temiz bir aynada kendine baktığını ve çok güzel/yakışıklı göründüğünü) gören kişi; uyanık hayatında o (Yaptığı işlerden, vicdanından ve karakterinden) çok emindir, toplum içinde o (Kusursuz İtibara ve Mutluluğa) ulaşır. Aynadaki güzellik, ruhun ve ahlakın güzelliğidir. Rüyada aynanın arkasına bakmak (Veya içinden geçmek), o görünen yüzeysel dünyanın (Arkasındaki derin sırlara, paralel gerçekliğe veya tasavvufi ilimlere) vakıf olmak demektir. Ancak rüyasında (Aynanın paramparça kırıldığını veya aynada çok çirkin, yaşlı, şeytani bir yüzle karşılaştığını) görmek; rüya sahibinin o (Kendi kurduğu kibrin, yalanın veya kusursuz imajının) çok büyük bir (Skandalla, boşanmayla veya günahla) yerle bir olacağına, o (Korkunç yüzleşmenin) onu depresyona sokacağına dair sarsıcı bir (Şok) uyarısıdır. Kırık ayna, parçalanan Egodur ve (Uğursuzluk/Ölüm) inancını taşır. Psikolojik olarak ayna (The Mirror / Persona and Shadow arketipi), insanın 'Kendilik İmajını (Self-Image)', 'Başkalarının onu nasıl gördüğü (Social Mirroring)' korkusunu ve o (Narsisizmi) yansıtır. Rüyasında (Sürekli aynaya bakan ama yüzünü göremeyen / silik gören) kişi, uyanık hayatta 'Kimlik Kaybı (Identity Crisis)' yaşıyordur; kim olduğunu ve bu hayatta ne aradığını (Tamamen unutmuştur). Geleneksel tabirlerde ayna; (Eğer erkek bakıyorsa ve karısı hamileyse) kendisine benzeyecek bir erkek çocuğa, (Eğer kadın bakıyorsa) kız çocuğuna, hayal kırıklığına, kibre, nifak sokan (ikiyüzlü) arkadaşa ve bazen de ayrılığa yorumlanır. Kısacası rüyada ayna görmek, 'O camın karşısına geçtiğinde (Yaratttığın o sahte maskeyle mi karşılaşıyorsun, yoksa o tertemiz ruhunla mı?)' sorusunu soran, çok (Sınayıcı ve Mistik) bir nesne rüyasıdır.",
+      "generalMeaning": "Genel rüya tabirlerine göre ayna; çok sevilen bir eş (karı/koca), ikiyüzlü ve arkanızdan kuyu kazan dostlar, yalanların ortaya çıkması, hamile kadın için doğacak bebek ve kibir demektir. Rüyasında (Gümüş veya altın işlemeli çok değerli bir ayna) gören kişinin hayatına (Dünyalar güzeli ama biraz kibirli) bir eş veya (Çok gösterişli ama içi boş) bir zenginlik girer. Rüyada aynayı (Sildiğini ve parlattığını) görmek; kişinin o (Üzerine atılan iftiralardan, lekelerden veya geçmiş günahlarından) (Tövbe ederek veya kendini aklayarak) o (Pırıl pırıl temiz itibarına) geri döneceğine yorulur. Ancak rüyada (Aynada kendini başkası olarak görmek); rüya sahibinin (Kendi özünden ve karakterinden tamamen uzaklaştığına), o (Girdiği ortamın veya patronun şeklini aldığına / Riyakarlığına) delalet eder. Genel anlamda ayna; (Gerçeklerin asla sonsuza dek saklanamayacağının şahididir). Ayrıca günlük yaşantınızdaki planlamalarda, zaman ve bütçe yönetiminde [Türkiye Hesaplama Çözüm Platformu](https://www.turkiyehesaplama.com) üzerinden destek alarak adımlarınızı somut verilere dayandırabilirsiniz.",
+      "religiousMeaning": "İslami rüya tabirleri açısından (Özellikle kalbin aynası olması, tasavvuftaki tecelli ve Hz. Ali'nin 'İnsan insanın aynasıdır' sözü bağlamında); ayna, 'Kalp Gözü (Basiret)', 'Amellerin Yansıması', 'Evlat' ve 'Tefekkür'dür. Rüyasında (Aynada nurlu bir yüz gördüğünü) gören mümin; o (Kıldığı namazların, ettiği tövbelerin ve güzel ahlakının) (Allah'ın rızasıyla) onun kalbinde (Güneş gibi bir nur) yarattığına şahit olur (Mir'at-ı Kalp). Rüyada (Aynanın paslandığını veya karardığını) görmek; o (İşlenen haramların, dedikodunun ve hasedin) o temiz (İslam fıtratını / Kalbi tamamen kararttığına) ve o kişinin (Hidayetten uzaklaştığına) dair o (Korkunç İlahi İkazdır). Nablusi'ye göre kırık ayna; eşin vefatına, çocuğun kaybına veya o (Kurulan o güzel hanenin) yıkılmasına işaret edebilir. Dini açıdan özetlemek gerekirse ayna; (Kıyamet günü karşınıza çıkacak olan o Amel Defterinizin dünyadaki küçük bir provasıdır).",
+      "psychologicalMeaning": "Psikolojik ve psikanalitik (Jungiyen/Lacanian) çerçevede rüyada ayna, 'Gölge Yüzleşmesi (Shadow Integration)', 'Narsisizm (Narcissistic Wound)' ve 'Ayna Evresi (Mirror Stage)' arketipidir. Kişi (hayatında o en kibirli, hep ben diyen veya kendini kusursuz sanan o (Narsistik) evresinde) rüyasında o (Kendini aynada dev/ilah gibi gördüğünü) görebilir. Bu (Ego Şişmesidir/Inflation). Ancak rüyasında (Aynaya baktığında arkasında duran korkunç bir gölge/yaratık) gören kişi; uyanık hayatta o 'Bilinçdışına ittiği o (Bastırılmış Nefret, Travma veya Hayvani Dürtülerin)' artık (Bilinç duvarını aşarak) onu ele geçirdiğini (Paranoya) yaşıyordur.",
+      "variations": [
+        {
+          "title": "Rüyada Aynanın (Çatlaması / Parçalanması)",
+          "content": "Kişi bakarken veya kendiliğinden (Aynanın ortadan ikiye çatlaması veya tuz buz olması); o (Kusursuz sanılan evliliğin, itibarın veya o büyük şirketin) çok şok edici bir (Yalanın veya Hatanın ortaya çıkmasıyla) (Geri döndürülemez bir şekilde yok olacağına) dair sarsıcı bir Enkaz uyarısıdır."
+        },
+        {
+          "title": "Rüyada Aynada (Ölü Birini Görmek)",
+          "content": "Aynaya baktığınızda (Kendi yüzünüz yerine, ölmüş annenizi, babanızı veya bir yabancıyı) görmek; o (Ölen kişinin sizin üzerinizdeki psikolojik baskısının / mirasının devam ettiğine), veya (Sizin de adım adım ölüme/o kadere yaklaştığınıza) dair çok ağır (Melankolik) bir uyarısıdır."
+        },
+        {
+          "title": "Rüyada (Sonsuz Ayna Odasında / Labirentte) Kalmak",
+          "content": "Karşılıklı aynalar yüzünden (Kendinizi sonsuz kere çoğalmış) gördüğünüz o odada kaybolmak; kişinin hayatında o (Yalanların, maskelerin ve entrikaların) o kadar birbirine girdiği ki, (Asıl gerçeğin / Kendi gerçek kimliğinin) o (Sonsuz İllüzyon Labirentinde tamamen kaybolduğuna) yorulur."
+        },
+        {
+          "title": "Rüyada (Kendisini Çirkin / Yaşlı Görmek)",
+          "content": "Genç ve güzelken aynada (Saçları dökülmüş, kırışmış ve iğrenç bir yüze) sahip olduğunu görmek; kişinin (İç dünyasındaki çürümeye, yaptığı bir kötülüğün ruhunu yaşlandırdığına veya uyanık hayattaki o Yaşlanma / Çirkinleşme anksiyetesine / Beden Algı Bozukluğuna) delalet eder."
+        },
+        {
+          "title": "Rüyada Aynanın (Göz Kırpması / Canlanması)",
+          "content": "Siz hareketsizken aynadaki yansımanızın (Gülümsemesi veya hareket etmesi); rüya tabirlerindeki en (Ürkütücü Şizofrenik / Gölge) uyanışıdır. Sizin (İçinizdeki o Bastırılmış, Asi ve Bağımsız Alt-Benliğin) artık (Kontrolü ele aldığına ve sizinle alay ettiğine) uyarır."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Rüyada aynayı (Birisinin sana hediye etmesi) ne anlama gelir?",
+          "answer": "Birinin size süslü bir ayna vermesi; o kişinin (Veya kaderin) size (Çok güzel bir evlat veya asil bir eş) nasip edeceğine, hayatınızın o ayna gibi (Parlak ve yeni baştan) şekilleneceğine dair o (Romantik Müjdedir)."
+        },
+        {
+          "question": "Rüyada (Bulanık / Sisli / Buğulu Ayna) görmek nedir?",
+          "answer": "Banyodan çıkmış gibi o (Buharlı, hiçbir şeyin net görünmediği) aynaya bakmak; kişinin o (Geleceğine, vereceği kararlara veya kimliğine) dair (Çok büyük bir Karışıklık, Beyin Sisi ve Kararsızlık) içinde (Yönünü bulamadığına) yorulur."
+        },
+        {
+          "question": "Rüyada aynayı (Duvardan indirmek / Yüzünü çevirmek) ne demek?",
+          "answer": "Aynayı bilerek ters çevirmek; o kişinin (Gerçeklerle yüzleşmeyi reddettiğine), o (Yaptığı hatanın sonuçlarını görmek istemediğine) ve (Bilinçli bir cehalet / Kaçış) psikolojisine girdiğine delalet eder."
+        },
+        {
+          "question": "Rüyada (Boy Aynasına) bakmak nedir?",
+          "answer": "Sadece yüzüne değil (Tüm vücuduna, kıyafetlerine ve endamına) o devasa aynada bakmak; o kişinin (Dünyevi kibrinin, makamının ve gösterişinin) zirvesinde olduğuna, herkesin ona (Hayran kalmasını / Onaylamasını) (Onay Bağımlılığı) beklediğine uyarır."
+        },
+        {
+          "question": "Rüyada (Kendini aynada hayvan olarak görmek) ne anlama gelir?",
+          "answer": "Yansımasının (Bir aslan, domuz, köpek veya kuş) olduğunu görmek; kişinin (Gerçek karakterindeki o baskın özelliğin / Yırtıcılığın, oburluğun veya özgürlüğün) o yansımada açığa çıktığına (Ruhsal Röntgene) işaret eder."
+        }
+      ]
+    },
+    "relatedSymbols": [
+      "su",
+      "kapi",
+      "pencere",
+      "yuz",
+      "goz"
     ]
-  },
-  "relatedSymbols": [
-    "su",
-    "kapi",
-    "pencere",
-    "yuz",
-    "goz"
-  ]
-}
+  }
+]

@@ -111,11 +111,18 @@ export default function SymbolContentTabs({
               <RichTextWithLinks text={symbol.content.religiousMeaning} symbols={allSymbolsLight} currentSlug={symbol.slug} />
             </div>
             
-            <div className="mt-6 p-4 rounded-xl border border-night-700 bg-night-800/40 text-night-200 text-sm flex items-center gap-3">
-              <span className="text-xl">🧮</span> 
-              <p>
-                Günlük hayatınızdaki hesaplamalar için <a href="https://turkiyehesaplama.com" target="_blank" rel="noopener noreferrer" className="text-mystic-400 hover:text-mystic-300 font-semibold underline decoration-mystic-500/50 underline-offset-4">Türkiye Hesaplama</a> araçlarını ücretsiz kullanabilirsiniz.
-              </p>
+            <PartnerAd slug={symbol.slug} className="my-8" />
+
+            <div className="mt-4 p-5 rounded-2xl border border-gold-500/30 bg-gradient-to-r from-amber-950/40 to-night-900 text-night-200 text-sm flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 shadow-lg">
+              <div className="flex items-center gap-3">
+                <span className="text-2xl">📿</span> 
+                <div>
+                  <h4 className="font-bold text-gold-300 mb-0.5">Manevi Takvim ve Zekat Planlaması</h4>
+                  <p className="text-night-300 m-0 text-xs sm:text-sm">
+                    İbadet günlerinizi, zekat miktarınızı ve mübarek geceleri planlamak için <a href="https://www.turkiyehesaplama.com/dini-gunler-hesaplama" target="_blank" rel="noopener noreferrer dofollow" className="text-gold-400 hover:text-gold-300 font-bold underline decoration-gold-500/50 underline-offset-4">Türkiye Hesaplama Dini Günler ve Zekat Araçları</a> sisteminden ücretsiz yararlanabilirsiniz.
+                  </p>
+                </div>
+              </div>
             </div>
 
             <div className="mt-4 text-sm text-night-400 italic bg-night-800/20 p-4 rounded-xl">
@@ -135,11 +142,18 @@ export default function SymbolContentTabs({
               <RichTextWithLinks text={symbol.content.psychologicalMeaning} symbols={allSymbolsLight} currentSlug={symbol.slug} />
             </div>
             
-            <div className="mt-6 p-4 rounded-xl border border-night-700 bg-night-800/40 text-night-200 text-sm flex items-center gap-3">
-              <span className="text-xl">🧮</span> 
-              <p>
-                Rüya analizinden sonra zihninizi dağıtmak için <a href="https://turkiyehesaplama.com" target="_blank" rel="noopener noreferrer" className="text-mystic-400 hover:text-mystic-300 font-semibold underline decoration-mystic-500/50 underline-offset-4">Türkiye Hesaplama</a> üzerindeki yüzlerce aracı keşfedin.
-              </p>
+            <PartnerAd slug={symbol.slug} className="my-8" />
+
+            <div className="mt-4 p-5 rounded-2xl border border-blue-500/30 bg-gradient-to-r from-blue-950/40 to-night-900 text-night-200 text-sm flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 shadow-lg">
+              <div className="flex items-center gap-3">
+                <span className="text-2xl">🧠</span> 
+                <div>
+                  <h4 className="font-bold text-blue-300 mb-0.5">Analitik Yaşam ve Zaman Yönetimi</h4>
+                  <p className="text-night-300 m-0 text-xs sm:text-sm">
+                    Bilinçaltınızın mesajlarını çözdükten sonra yaş dönüm noktalarınızı, kariyer hedeflerinizi ve zaman çizelgenizi <a href="https://www.turkiyehesaplama.com" target="_blank" rel="noopener noreferrer dofollow" className="text-blue-400 hover:text-blue-300 font-bold underline decoration-blue-500/50 underline-offset-4">Türkiye Hesaplama Yaşam ve Planlama Sistemleri</a> ile organize edebilirsiniz.
+                  </p>
+                </div>
+              </div>
             </div>
 
             <div className="mt-4 text-sm text-night-400 italic bg-night-800/20 p-4 rounded-xl">

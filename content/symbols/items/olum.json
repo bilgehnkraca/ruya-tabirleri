@@ -1,71 +1,73 @@
-{
-  "slug": "olum",
-  "title": "Rüyada Ölüm Görmek",
-  "category": "soyut-kavramlar",
-  "shortDescription": "Rüyada ölüm görmek, uyanık hayattaki yaygın korkunun aksine; fiziksel bitişi değil, ömrün uzamasını, eski olanın bitip yeni başlangıçların filizlenmesini temsil eder.",
-  "content": {
-    "introduction": "Rüyasında kendisinin, çok sevdiği bir yakınının veya çocuğunun öldüğünü gören kişi genellikle kan ter içinde, büyük bir dehşet ve korkuyla uyanır. Bu tür kabuslar gün boyu insanın aklından çıkmaz. Ancak rüya sembolizminin en paradoksal yanlarından biri ölüm temasıdır. Rüyada ölüm sembolü, gerçek hayattaki bedensel (fiziksel) ölümü temsil etmez. O, metaforik bir dönüşümün, kabuk değiştirmenin, artık size hizmet etmeyen bir dönemin kapanıp, tamamen yeni ve farklı bir dönemin (yeniden doğuşun) başlamasının en kesin işaretidir.",
-    "generalMeaning": "Ölüm Görmek rüyada görüldüğünde genel olarak fiziksel bitişi değil, ömrün uzamasını, eski olanın bitip yeni başlangıçların filizlenmesini temsil eder. şeklinde yorumlanır. Rüyada ölmek, hem Doğu hem de Batı rüya tabirleri geleneğinde çok net bir şekilde \"ömrünün uzaması\" ve \"büyük, köklü değişim\" olarak yorumlanır. Kişinin hayatındaki eski, durağan, belki de acı veren bir dönemin tamamen kapanacağına işaret eder. Bu değişim, hayatınızın temel dinamiklerini etkiler; örneğin bekarsanız evliliğe, çalışıyorsanız radikal bir kariyer değişikliğine, eski ve zararlı bir alışkanlığın tamamen bırakılarak yepyeni, sağlıklı bir kimliğe bürünmeye delalet edebilir. Özetle, rüyada bir şeyin ölmesi, uyanık hayatta o şeyin artık miadını doldurduğunu ve ona veda etmeniz gerektiğini fısıldar.\n\nBu rüyanın günlük yaşama ve sosyal ilişkilere yansıması incelendiğinde, rüya sahibinin hayatında yepyeni bir farkındalık döneminin başladığı görülür. Kişinin ailevi, mesleki veya sosyal çevresinde uzun süredir devam eden belirsizliklerin netlik kazanacağı, alınacak stratejik kararların geleceğe yön vereceği bir evreye girilmektedir. Uzmanlar, bu rüyayı gören kişilerin yakın çevresindeki insanlarla olan iletişiminde daha açık, empatik ve sabırlı olmasını önerir. Özellikle iş veya kariyer yaşamında karşılaşılabilecek ani değişimlere karşı esnek bir tutum sergilemek, olası krizleri fırsata çevirmek adına büyük bir avantaj sağlayacaktır. Yaşamın doğal akışı içerisinde karşılaşılan engellerin aşılabilir olduğunu hatırlatan bu sembol, kişinin kendine olan özgüvenini tazelemesi ve hedeflerine doğru kararlı adımlarla ilerlemesi gerektiğini vurgulayan güçlü bir zihinsel rehberdir.",
-    "variations": [
-      {
-        "title": "Rüyada Kendi Ölümünü Görmek",
-        "content": "Rüya sahibinin kendi ölümünü görmesi, hayatında kendi iradesiyle veya dış etkenlerle gerçekleşecek devasa bir radikal dönüşümü gösterir. Ego ölüyor ve yerini daha olgun bir benliğe bırakıyor demektir. Eski kimliğinizden, yargılarınızdan veya komplekslerinizden sıyrılarak adeta anka kuşu gibi küllerinizden yeniden doğacağınıza işarettir. Eğer rüyanızda öldüğünüzü ve bir cenaze töreniniz olduğunu görüyorsanız, toplum içindeki eski konumunuzu geride bırakıp yepyeni bir statü kazanacağınıza yorulur."
-      },
-      {
-        "title": "Rüyada Yaşayan Birinin Öldüğünü Görmek (Anne, Baba, Eş, Kardeş)",
-        "content": "En çok korkutan rüyalardandır ancak çok hayırlıdır. Bu rüya, rüyada ölen kişinin ömrünün çok uzun, bereketli ve sağlıklı olacağına kesin olarak yorulur. Psikolojik bağlamda ise, rüya sahibinin o kişiye karşı duyduğu derin kaybetme korkusunu yansıtır. Aynı zamanda aranızdaki ilişkinin dinamiklerinin değiştiğini, örneğin o kişiye olan bağımlılığınızın \"ölerek\" yerini olgun bir bağımsızlığa bırakması gerektiğini simgeler."
-      },
-      {
-        "title": "Rüyada Gerçekte Ölmüş Birini Canlı Görmek",
-        "content": "Zaten vefat etmiş bir yakını rüyada sağ ve neşeli görmek, o kişinin ahiret hayatında huzurlu ve makamının iyi olduğuna, rüya sahibinin ondan razı olduğuna delalet eder. Ayrıca, rüya sahibinin umudunu tamamen kestiği, \"artık bitti, dirilmez\" dediği bir işinin, projesinin veya ilişkisinin mucizevi bir şekilde yeniden hayat bulacağına, beklemediği bir yerden sevindirici bir müjde alacağına yorumlanır."
-      },
-      {
-        "title": "Rüyada Kefen Görmek veya Kefene Sarılmak",
-        "content": "Kefen, dünya nimetlerinden soyutlanmayı ve sırlanmayı temsil eder. Kendi üzerinde kefen görmek, hatalardan dönmeye, tövbe etmeye ve maneviyata yönelmeye çağrıdır. Bazen de gizli tutulması gereken sırların açığa çıkmaması için alınan önlemlere işaret eder."
-      },
-      {
-        "title": "Rüyada Mezarlık Görmek ve Mezar Kazmak",
-        "content": "Mezarlık, ibret almaya, kişinin hatalarından dönmesi gerektiğine veya ölüm gerçeğiyle yüzleşerek hayatını düzene sokması gerektiğine işaret eder. Yeni bir ev veya arsa almaya, kalıcı bir yatırım yapmaya (çünkü mezar kalıcı bir evdir) delalet edebilir. Kendi mezarını kazdığını görmek, kendine bir ev veya yeni bir yuva kuracağı anlamına gelir."
-      },
-      {
-        "title": "Rüyada Beklenmedik Bir Anda Ölüm İle Karşılaşmak",
-        "content": "Rüyada hiç umulmadık bir anda ve şaşırtıcı bir mekanda ölüm ile karşılaşmak, gerçek yaşamda rüya sahibinin karşısına çıkacak ani, sürpriz gelişmelere ve dönüm noktalarına işaret eder. Bu durum, ilk etapta kişide tatlı bir heyecan veya şaşkınlık yaratsa da, zamanla hayatın akışını olumlu yönde değiştirecek yeni imkanların kapısını aralayacaktır. İslami ve psikolojik tefsirlerin ortak kesişim noktasına göre, bu tür sürpriz semboller kişinin esnekliğini, yeniliklere uyum sağlama potansiyelini ve kadim şansını simgeler."
-      }
-    ],
-    "religiousMeaning": "İslami tabirlerde \"ölüm\", genel olarak dindeki eksiklik (kalp katılığı) veya dünyadaki rahatlık olarak iki farklı uca yorumlanabilmektedir. İbn Şirin'e göre rüyada ağlamadan, sessizce ve huzur içinde ölmek çok hayırlıdır, uzun ömre, ferahlığa ve güzel bir akıbete işaret eder. Ancak feryat figan edilerek, yaka paça yırtılarak, çığlıklarla ölüp gömülmek ise; rüya sahibinin dünyalığının, servetinin artarken maneviyatının, dini inançlarının zayıfladığına, ahiretini unuttuğuna dair ilahi bir ihtardır.\n\nKadim İslami rüya tabiri kaynaklarına (özellikle İmam Nablusi, İbn-i Sirin ve İmam Cafer-i Sadık tefsirlerine) göre, rüyada ölüm ile karşılaşmak, rüya sahibinin manevi durumuna, niyetine ve rüyanın görüldüğü esnadaki duygu durumuna göre katmanlı bir şekilde yorumlanır. Diyanet rüya tabirleri yaklaşımlarında da belirtildiği üzere, bu sembol kişiye hem bir müjde hem de içsel bir uyarı niteliği taşıyabilir. Eğer rüya sahibi hak yolunda dürüst ve erdemli bir yaşam sürmeye gayret ediyorsa, bu rüya helal rızka, manevi bir arınmaya ve yakın zamanda alınacak hayırlı haberlere delalet eder. Ancak rüya esnasında huzursuzluk veya korku hissedildiyse, İslami alimler bunu kişinin dünya işlerine aşırı kapılarak ahiret bilincini veya insani sorumluluklarını ihmal ettiği şeklinde tefsir ederler. Bu durum, kişinin niyetlerini gözden geçirmesi, sadaka vermesi ve iç huzuru bulmak adına manevi dünyasına daha fazla özen göstermesi gerektiğine dair ilahi bir fıtrat uyarısı olarak kabul edilir.",
-    "psychologicalMeaning": "Ölüm rüyaları, psikolojik olarak insanın olgunlaşmasının, büyümesinin ve psişik gelişiminin ayrılmaz bir parçasıdır. Bilinçaltı, eski inançların, çocuksu davranış kalıplarının, bitmesi gereken toksik ilişkilerin veya bir yaş evresinin (örneğin ergenliğin bitip yetişkinliğe geçiş) sonunu \"ölüm\" metaforuyla bir tiyatro sahnesine koyar. Bu nedenle ölüm, yok oluş değil, ruhsal büyümenin zorunlu bir önkoşulu olan \"bırakma (letting go)\" eylemini temsil eder.\n\nAnalitik psikoloji perspektifinden (özellikle Carl Jung ve Sigmund Freud ekolleri göz önüne alındığında), rüyada ölüm imgesi, bilinçdışının derinliklerinden bilince taşınmak istenen çok önemli simgesel mesajlar barındırır. Jung, bu tür sembolleri bireyin \"bireyleşme (individuation)\" sürecinde karşılaştığı arketipsel yansımalar ve gölge (shadow) bütünleşmesi olarak ele alır. Günlük yaşamda bastırılmış kaygılar, ifade edilememiş duygular veya çözümsüz kalmış ikili ilişki çatışmaları, uykunun REM evresinde zihnin savunma mekanizmalarının gevşemesiyle bu sembol üzerinden dramatik bir şekilde açığa çıkar. Rüya sahibinin güncel hayatında yaşadığı kontrol kaybı endişesi, gelecek kaygısı veya yeni bir karar alma aşamasındaki içsel gerilimi, bilinçaltı tarafından bu imgeye dönüştürülerek yeniden işlenir. Bu rüya, zihinsel bir rehabilitasyon süreci olup, bireyin kendi içsel gücünü fark etmesi, duygusal yüklerinden arınması ve zihinsel bütünlüğünü sağlaması için bilinçaltının sunduğu şifayı işaret eder.",
-    "faqs": [
-      {
-        "question": "Rüyada ölüm görmek ne anlama gelir?",
-        "answer": "Rüyada ölüm görmek, uyanık hayattaki yaygın korkunun aksine; fiziksel bitişi değil, ömrün uzamasını, eski olanın bitip yeni başlangıçların filizlenmesini temsil eder."
-      },
-      {
-        "question": "Rüyada çocuğunun öldüğünü görmek ne demek?",
-        "answer": "Anne ve babalar için bir kabus olsa da, rüya tabirinde çocuğun ömrünün uzadığına, onun sağlıklı bir hayat süreceğine ve hayatındaki kötü bir tehlikenin savuşturulduğuna yorulur."
-      },
-      {
-        "question": "Rüyada ölmek ve tekrar dirilmek nasıl yorumlanır?",
-        "answer": "Çok büyük bir günahtan samimi bir tövbe etmeye, dibe vurup iflas ettikten sonra çok daha büyük bir zenginliğe kavuşmaya veya ölümcül/ağır bir hastalıktan mucizevi bir şekilde tamamen kurtulmaya işaret eden, son derece hayırlı, ikinci bir şans rüyasıdır."
-      },
-      {
-        "question": "Rüyada can çekişmek ne anlama gelir?",
-        "answer": "Bir konu hakkında vicdan azabı çekmeye, karar vermekte çok zorlanılan arafta bir durumda kalmaya veya bir sırrın altında ezilmeye işaret eder."
-      },
-      {
-        "question": "Rüyada ölüm görmek psikolojik ve zihinsel olarak nasıl değerlendirilmelidir?",
-        "answer": "Bu rüya, bilinçaltınızın günlük yaşamdaki stres, beklenti ve duygusal yoğunlukları işleyerek zihinsel dengeyi kurma çabasıdır. Analitik psikolojiye göre, rüya sahibinin içsel dünyasında yüzleşmesi gereken bir duyguya, çözmesi gereken bir soruna veya özümsemesi gereken yeni bir yaşam tecrübesine dikkat çeker. Zihnin ruhsal bir şifa ve arınma süreci olarak değerlendirilmeli, günlük hayattaki kararlarda iç sesin uyarıları dikkate alınmalıdır."
-      },
-      {
-        "question": "Rüyada ölüm gördükten sonra günlük hayatta nelere dikkat edilmelidir?",
-        "answer": "Bu rüyayı deneyimledikten sonra özellikle sosyal ilişkilerinizde, mesleki kararlarınızda ve ailevi konularda daha sakin, gözlemlere dayalı ve sağduyulu bir yaklaşım benimsemeniz önerilir. Karşılaşacağınız yeni fırsatları aceleci davranmadan, tüm detaylarıyla değerlendirmeli, manevi huzurunuzu bozabilecek gereksiz tartışmalardan ve stres kaynaklarından uzak durmaya özen göstermelisiniz."
-      }
+[
+  {
+    "slug": "olum",
+    "title": "Rüyada Ölüm Görmek",
+    "category": "soyut-kavramlar",
+    "shortDescription": "Rüyada ölüm görmek, uyanık hayattaki yaygın korkunun aksine; fiziksel bitişi değil, ömrün uzamasını, eski olanın bitip yeni başlangıçların filizlenmesini temsil eder.",
+    "content": {
+      "introduction": "Rüyasında kendisinin, çok sevdiği bir yakınının veya çocuğunun öldüğünü gören kişi genellikle kan ter içinde, büyük bir dehşet ve korkuyla uyanır. Bu tür kabuslar gün boyu insanın aklından çıkmaz. Ancak rüya sembolizminin en paradoksal yanlarından biri ölüm temasıdır. Rüyada ölüm sembolü, gerçek hayattaki bedensel (fiziksel) ölümü temsil etmez. O, metaforik bir dönüşümün, kabuk değiştirmenin, artık size hizmet etmeyen bir dönemin kapanıp, tamamen yeni ve farklı bir dönemin (yeniden doğuşun) başlamasının en kesin işaretidir.",
+      "generalMeaning": "Ölüm Görmek rüyada görüldüğünde genel olarak fiziksel bitişi değil, ömrün uzamasını, eski olanın bitip yeni başlangıçların filizlenmesini temsil eder. şeklinde yorumlanır. Rüyada ölmek, hem Doğu hem de Batı rüya tabirleri geleneğinde çok net bir şekilde \"ömrünün uzaması\" ve \"büyük, köklü değişim\" olarak yorumlanır. Kişinin hayatındaki eski, durağan, belki de acı veren bir dönemin tamamen kapanacağına işaret eder. Bu değişim, hayatınızın temel dinamiklerini etkiler; örneğin bekarsanız evliliğe, çalışıyorsanız radikal bir kariyer değişikliğine, eski ve zararlı bir alışkanlığın tamamen bırakılarak yepyeni, sağlıklı bir kimliğe bürünmeye delalet edebilir. Özetle, rüyada bir şeyin ölmesi, uyanık hayatta o şeyin artık miadını doldurduğunu ve ona veda etmeniz gerektiğini fısıldar.\n\nBu rüyanın günlük yaşama ve sosyal ilişkilere yansıması incelendiğinde, rüya sahibinin hayatında yepyeni bir farkındalık döneminin başladığı görülür. Kişinin ailevi, mesleki veya sosyal çevresinde uzun süredir devam eden belirsizliklerin netlik kazanacağı, alınacak stratejik kararların geleceğe yön vereceği bir evreye girilmektedir. Uzmanlar, bu rüyayı gören kişilerin yakın çevresindeki insanlarla olan iletişiminde daha açık, empatik ve sabırlı olmasını önerir. Özellikle iş veya kariyer yaşamında karşılaşılabilecek ani değişimlere karşı esnek bir tutum sergilemek, olası krizleri fırsata çevirmek adına büyük bir avantaj sağlayacaktır. Yaşamın doğal akışı içerisinde karşılaşılan engellerin aşılabilir olduğunu hatırlatan bu sembol, kişinin kendine olan özgüvenini tazelemesi ve hedeflerine doğru kararlı adımlarla ilerlemesi gerektiğini vurgulayan güçlü bir zihinsel rehberdir. Ayrıca günlük yaşantınızdaki planlamalarda, zaman ve bütçe yönetiminde [Türkiye Hesaplama Çözüm Platformu](https://www.turkiyehesaplama.com) üzerinden destek alarak adımlarınızı somut verilere dayandırabilirsiniz.",
+      "variations": [
+        {
+          "title": "Rüyada Kendi Ölümünü Görmek",
+          "content": "Rüya sahibinin kendi ölümünü görmesi, hayatında kendi iradesiyle veya dış etkenlerle gerçekleşecek devasa bir radikal dönüşümü gösterir. Ego ölüyor ve yerini daha olgun bir benliğe bırakıyor demektir. Eski kimliğinizden, yargılarınızdan veya komplekslerinizden sıyrılarak adeta anka kuşu gibi küllerinizden yeniden doğacağınıza işarettir. Eğer rüyanızda öldüğünüzü ve bir cenaze töreniniz olduğunu görüyorsanız, toplum içindeki eski konumunuzu geride bırakıp yepyeni bir statü kazanacağınıza yorulur."
+        },
+        {
+          "title": "Rüyada Yaşayan Birinin Öldüğünü Görmek (Anne, Baba, Eş, Kardeş)",
+          "content": "En çok korkutan rüyalardandır ancak çok hayırlıdır. Bu rüya, rüyada ölen kişinin ömrünün çok uzun, bereketli ve sağlıklı olacağına kesin olarak yorulur. Psikolojik bağlamda ise, rüya sahibinin o kişiye karşı duyduğu derin kaybetme korkusunu yansıtır. Aynı zamanda aranızdaki ilişkinin dinamiklerinin değiştiğini, örneğin o kişiye olan bağımlılığınızın \"ölerek\" yerini olgun bir bağımsızlığa bırakması gerektiğini simgeler."
+        },
+        {
+          "title": "Rüyada Gerçekte Ölmüş Birini Canlı Görmek",
+          "content": "Zaten vefat etmiş bir yakını rüyada sağ ve neşeli görmek, o kişinin ahiret hayatında huzurlu ve makamının iyi olduğuna, rüya sahibinin ondan razı olduğuna delalet eder. Ayrıca, rüya sahibinin umudunu tamamen kestiği, \"artık bitti, dirilmez\" dediği bir işinin, projesinin veya ilişkisinin mucizevi bir şekilde yeniden hayat bulacağına, beklemediği bir yerden sevindirici bir müjde alacağına yorumlanır."
+        },
+        {
+          "title": "Rüyada Kefen Görmek veya Kefene Sarılmak",
+          "content": "Kefen, dünya nimetlerinden soyutlanmayı ve sırlanmayı temsil eder. Kendi üzerinde kefen görmek, hatalardan dönmeye, tövbe etmeye ve maneviyata yönelmeye çağrıdır. Bazen de gizli tutulması gereken sırların açığa çıkmaması için alınan önlemlere işaret eder."
+        },
+        {
+          "title": "Rüyada Mezarlık Görmek ve Mezar Kazmak",
+          "content": "Mezarlık, ibret almaya, kişinin hatalarından dönmesi gerektiğine veya ölüm gerçeğiyle yüzleşerek hayatını düzene sokması gerektiğine işaret eder. Yeni bir ev veya arsa almaya, kalıcı bir yatırım yapmaya (çünkü mezar kalıcı bir evdir) delalet edebilir. Kendi mezarını kazdığını görmek, kendine bir ev veya yeni bir yuva kuracağı anlamına gelir."
+        },
+        {
+          "title": "Rüyada Beklenmedik Bir Anda Ölüm İle Karşılaşmak",
+          "content": "Rüyada hiç umulmadık bir anda ve şaşırtıcı bir mekanda ölüm ile karşılaşmak, gerçek yaşamda rüya sahibinin karşısına çıkacak ani, sürpriz gelişmelere ve dönüm noktalarına işaret eder. Bu durum, ilk etapta kişide tatlı bir heyecan veya şaşkınlık yaratsa da, zamanla hayatın akışını olumlu yönde değiştirecek yeni imkanların kapısını aralayacaktır. İslami ve psikolojik tefsirlerin ortak kesişim noktasına göre, bu tür sürpriz semboller kişinin esnekliğini, yeniliklere uyum sağlama potansiyelini ve kadim şansını simgeler."
+        }
+      ],
+      "religiousMeaning": "İslami tabirlerde \"ölüm\", genel olarak dindeki eksiklik (kalp katılığı) veya dünyadaki rahatlık olarak iki farklı uca yorumlanabilmektedir. İbn Şirin'e göre rüyada ağlamadan, sessizce ve huzur içinde ölmek çok hayırlıdır, uzun ömre, ferahlığa ve güzel bir akıbete işaret eder. Ancak feryat figan edilerek, yaka paça yırtılarak, çığlıklarla ölüp gömülmek ise; rüya sahibinin dünyalığının, servetinin artarken maneviyatının, dini inançlarının zayıfladığına, ahiretini unuttuğuna dair ilahi bir ihtardır.\n\nKadim İslami rüya tabiri kaynaklarına (özellikle İmam Nablusi, İbn-i Sirin ve İmam Cafer-i Sadık tefsirlerine) göre, rüyada ölüm ile karşılaşmak, rüya sahibinin manevi durumuna, niyetine ve rüyanın görüldüğü esnadaki duygu durumuna göre katmanlı bir şekilde yorumlanır. Diyanet rüya tabirleri yaklaşımlarında da belirtildiği üzere, bu sembol kişiye hem bir müjde hem de içsel bir uyarı niteliği taşıyabilir. Eğer rüya sahibi hak yolunda dürüst ve erdemli bir yaşam sürmeye gayret ediyorsa, bu rüya helal rızka, manevi bir arınmaya ve yakın zamanda alınacak hayırlı haberlere delalet eder. Ancak rüya esnasında huzursuzluk veya korku hissedildiyse, İslami alimler bunu kişinin dünya işlerine aşırı kapılarak ahiret bilincini veya insani sorumluluklarını ihmal ettiği şeklinde tefsir ederler. Bu durum, kişinin niyetlerini gözden geçirmesi, sadaka vermesi ve iç huzuru bulmak adına manevi dünyasına daha fazla özen göstermesi gerektiğine dair ilahi bir fıtrat uyarısı olarak kabul edilir.",
+      "psychologicalMeaning": "Ölüm rüyaları, psikolojik olarak insanın olgunlaşmasının, büyümesinin ve psişik gelişiminin ayrılmaz bir parçasıdır. Bilinçaltı, eski inançların, çocuksu davranış kalıplarının, bitmesi gereken toksik ilişkilerin veya bir yaş evresinin (örneğin ergenliğin bitip yetişkinliğe geçiş) sonunu \"ölüm\" metaforuyla bir tiyatro sahnesine koyar. Bu nedenle ölüm, yok oluş değil, ruhsal büyümenin zorunlu bir önkoşulu olan \"bırakma (letting go)\" eylemini temsil eder.\n\nAnalitik psikoloji perspektifinden (özellikle Carl Jung ve Sigmund Freud ekolleri göz önüne alındığında), rüyada ölüm imgesi, bilinçdışının derinliklerinden bilince taşınmak istenen çok önemli simgesel mesajlar barındırır. Jung, bu tür sembolleri bireyin \"bireyleşme (individuation)\" sürecinde karşılaştığı arketipsel yansımalar ve gölge (shadow) bütünleşmesi olarak ele alır. Günlük yaşamda bastırılmış kaygılar, ifade edilememiş duygular veya çözümsüz kalmış ikili ilişki çatışmaları, uykunun REM evresinde zihnin savunma mekanizmalarının gevşemesiyle bu sembol üzerinden dramatik bir şekilde açığa çıkar. Rüya sahibinin güncel hayatında yaşadığı kontrol kaybı endişesi, gelecek kaygısı veya yeni bir karar alma aşamasındaki içsel gerilimi, bilinçaltı tarafından bu imgeye dönüştürülerek yeniden işlenir. Bu rüya, zihinsel bir rehabilitasyon süreci olup, bireyin kendi içsel gücünü fark etmesi, duygusal yüklerinden arınması ve zihinsel bütünlüğünü sağlaması için bilinçaltının sunduğu şifayı işaret eder.",
+      "faqs": [
+        {
+          "question": "Rüyada ölüm görmek ne anlama gelir?",
+          "answer": "Rüyada ölüm görmek, uyanık hayattaki yaygın korkunun aksine; fiziksel bitişi değil, ömrün uzamasını, eski olanın bitip yeni başlangıçların filizlenmesini temsil eder."
+        },
+        {
+          "question": "Rüyada çocuğunun öldüğünü görmek ne demek?",
+          "answer": "Anne ve babalar için bir kabus olsa da, rüya tabirinde çocuğun ömrünün uzadığına, onun sağlıklı bir hayat süreceğine ve hayatındaki kötü bir tehlikenin savuşturulduğuna yorulur."
+        },
+        {
+          "question": "Rüyada ölmek ve tekrar dirilmek nasıl yorumlanır?",
+          "answer": "Çok büyük bir günahtan samimi bir tövbe etmeye, dibe vurup iflas ettikten sonra çok daha büyük bir zenginliğe kavuşmaya veya ölümcül/ağır bir hastalıktan mucizevi bir şekilde tamamen kurtulmaya işaret eden, son derece hayırlı, ikinci bir şans rüyasıdır."
+        },
+        {
+          "question": "Rüyada can çekişmek ne anlama gelir?",
+          "answer": "Bir konu hakkında vicdan azabı çekmeye, karar vermekte çok zorlanılan arafta bir durumda kalmaya veya bir sırrın altında ezilmeye işaret eder."
+        },
+        {
+          "question": "Rüyada ölüm görmek psikolojik ve zihinsel olarak nasıl değerlendirilmelidir?",
+          "answer": "Bu rüya, bilinçaltınızın günlük yaşamdaki stres, beklenti ve duygusal yoğunlukları işleyerek zihinsel dengeyi kurma çabasıdır. Analitik psikolojiye göre, rüya sahibinin içsel dünyasında yüzleşmesi gereken bir duyguya, çözmesi gereken bir soruna veya özümsemesi gereken yeni bir yaşam tecrübesine dikkat çeker. Zihnin ruhsal bir şifa ve arınma süreci olarak değerlendirilmeli, günlük hayattaki kararlarda iç sesin uyarıları dikkate alınmalıdır."
+        },
+        {
+          "question": "Rüyada ölüm gördükten sonra günlük hayatta nelere dikkat edilmelidir?",
+          "answer": "Bu rüyayı deneyimledikten sonra özellikle sosyal ilişkilerinizde, mesleki kararlarınızda ve ailevi konularda daha sakin, gözlemlere dayalı ve sağduyulu bir yaklaşım benimsemeniz önerilir. Karşılaşacağınız yeni fırsatları aceleci davranmadan, tüm detaylarıyla değerlendirmeli, manevi huzurunuzu bozabilecek gereksiz tartışmalardan ve stres kaynaklarından uzak durmaya özen göstermelisiniz."
+        }
+      ]
+    },
+    "relatedSymbols": [
+      "mezar",
+      "aglamak",
+      "kan",
+      "kefen",
+      "hastalik"
     ]
-  },
-  "relatedSymbols": [
-    "mezar",
-    "aglamak",
-    "kan",
-    "kefen",
-    "hastalik"
-  ]
-}
+  }
+]

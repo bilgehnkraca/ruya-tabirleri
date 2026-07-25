@@ -1,69 +1,71 @@
-{
-  "slug": "olmus-biri",
-  "title": "Rüyada Ölmüş Birini Görmek",
-  "category": "insanlar",
-  "shortDescription": "Rüyada ölmüş birini görmek; genellikle o kişinin sizden dua veya sadaka beklediğine, yarım kalan bir işe veya uzun bir ömre işaret eder.",
-  "relatedSymbols": [
-    "olum",
-    "mezarlik",
-    "anne"
-  ],
-  "content": {
-    "introduction": "Rüyalarda vefat etmiş bir yakını veya tanıdığı görmek, insan psikolojisinde çok derin ve sarsıcı bir etki bırakır. Hem İslami rüya tabirlerinde hem de psikolojik analizlerde ölü görmek, sanılanın aksine \"kötü\" bir anlama gelmez; tam tersine hayatı, uyanışı ve tamamlanmamış meseleleri temsil eder.",
-    "generalMeaning": "Ölmüş Birini Görmek rüyada görüldüğünde genel olarak genellikle o kişinin sizden dua veya sadaka beklediğine, yarım kalan bir işe veya uzun bir ömre işaret eder. şeklinde yorumlanır. Rüya tabircilerine göre rüyada ölmüş birini diri görmek, rüya sahibinin ömrünün uzun olacağına, hastaysa şifa bulacağına ve umudunu kestiği bir işin yeniden canlanacağına delalet eder. Rüyada ölünün size güzel bir şey (yemek, para, kıyafet) vermesi çok hayırlı bir rızka işarettir. Ancak ölünün sizden bir şey alıp götürmesi genellikle iyiye yorulmaz.\n\nBu rüyanın günlük yaşama ve sosyal ilişkilere yansıması incelendiğinde, rüya sahibinin hayatında yepyeni bir farkındalık döneminin başladığı görülür. Kişinin ailevi, mesleki veya sosyal çevresinde uzun süredir devam eden belirsizliklerin netlik kazanacağı, alınacak stratejik kararların geleceğe yön vereceği bir evreye girilmektedir. Uzmanlar, bu rüyayı gören kişilerin yakın çevresindeki insanlarla olan iletişiminde daha açık, empatik ve sabırlı olmasını önerir. Özellikle iş veya kariyer yaşamında karşılaşılabilecek ani değişimlere karşı esnek bir tutum sergilemek, olası krizleri fırsata çevirmek adına büyük bir avantaj sağlayacaktır. Yaşamın doğal akışı içerisinde karşılaşılan engellerin aşılabilir olduğunu hatırlatan bu sembol, kişinin kendine olan özgüvenini tazelemesi ve hedeflerine doğru kararlı adımlarla ilerlemesi gerektiğini vurgulayan güçlü bir zihinsel rehberdir.",
-    "variations": [
-      {
-        "title": "Rüyada Ölmüş Birinin Güldüğünü Görmek",
-        "content": "O kişinin ahiret hayatında rahat olduğuna ve rüya sahibinden razı olduğuna işarettir. Ayrıca rüya sahibinin iç huzurunu bulacağına yorulur."
-      },
-      {
-        "title": "Rüyada Ölmüş Biriyle Konuşmak",
-        "content": "Eğer ölü size bir tavsiye veriyorsa, bunu dikkate almanız gerektiğine; zira ölülerin aleminde yalan olmadığına (hakkı söylediklerine) inanılır."
-      },
-      {
-        "title": "Rüyada Ölmüş Birinin Ağlaması",
-        "content": "O kişinin dua, Kur'an veya sadaka beklediğine işarettir. Bazen de rüya sahibinin hayatında yapacağı bir hataya üzüldüğünü temsil eder."
-      },
-      {
-        "title": "Rüyada Ölüye Sarılmak",
-        "content": "Rüya sahibinin ömrünün çok uzun olacağına, sağlıklı yaşayacağına ve özlem duyduğu bir kişiye veya duruma kavuşacağına delalet eder."
-      },
-      {
-        "title": "Rüyada Ölmüş Birini Hasta Görmek",
-        "content": "Ölünün ahirette bir borcu olduğuna veya rüya sahibinin dini görevlerini (ibadetlerini) ihmal ettiğine (manevi hastalığa) yorulur."
-      },
-      {
-        "title": "Rüyada Beklenmedik Bir Anda Ölmüş Birini İle Karşılaşmak",
-        "content": "Rüyada hiç umulmadık bir anda ve şaşırtıcı bir mekanda ölmüş birini ile karşılaşmak, gerçek yaşamda rüya sahibinin karşısına çıkacak ani, sürpriz gelişmelere ve dönüm noktalarına işaret eder. Bu durum, ilk etapta kişide tatlı bir heyecan veya şaşkınlık yaratsa da, zamanla hayatın akışını olumlu yönde değiştirecek yeni imkanların kapısını aralayacaktır. İslami ve psikolojik tefsirlerin ortak kesişim noktasına göre, bu tür sürpriz semboller kişinin esnekliğini, yeniliklere uyum sağlama potansiyelini ve kadim şansını simgeler."
-      }
+[
+  {
+    "slug": "olmus-biri",
+    "title": "Rüyada Ölmüş Birini Görmek",
+    "category": "insanlar",
+    "shortDescription": "Rüyada ölmüş birini görmek; genellikle o kişinin sizden dua veya sadaka beklediğine, yarım kalan bir işe veya uzun bir ömre işaret eder.",
+    "relatedSymbols": [
+      "olum",
+      "mezarlik",
+      "anne"
     ],
-    "religiousMeaning": "İslam dininde ölüler alemi (berzah) hakikat yurdudur. İmam Nablusi'ye göre rüyada ölü görmek haktır ve ölünün rüyada söylediği sözler çoğunlukla doğrudur. Bir kimse rüyasında ölmüş babasını veya annesini görse, bu çok hayırlıdır. Ölüden alınan güzel ve temiz bir eşya helal rızka, ölüye verilen şeyler ise (kötü eşyalar hariç) zarara veya eksilmeye delalet eder.\n\nKadim İslami rüya tabiri kaynaklarına (özellikle İmam Nablusi, İbn-i Sirin ve İmam Cafer-i Sadık tefsirlerine) göre, rüyada ölmüş birini ile karşılaşmak, rüya sahibinin manevi durumuna, niyetine ve rüyanın görüldüğü esnadaki duygu durumuna göre katmanlı bir şekilde yorumlanır. Diyanet rüya tabirleri yaklaşımlarında da belirtildiği üzere, bu sembol kişiye hem bir müjde hem de içsel bir uyarı niteliği taşıyabilir. Eğer rüya sahibi hak yolunda dürüst ve erdemli bir yaşam sürmeye gayret ediyorsa, bu rüya helal rızka, manevi bir arınmaya ve yakın zamanda alınacak hayırlı haberlere delalet eder. Ancak rüya esnasında huzursuzluk veya korku hissedildiyse, İslami alimler bunu kişinin dünya işlerine aşırı kapılarak ahiret bilincini veya insani sorumluluklarını ihmal ettiği şeklinde tefsir ederler. Bu durum, kişinin niyetlerini gözden geçirmesi, sadaka vermesi ve iç huzuru bulmak adına manevi dünyasına daha fazla özen göstermesi gerektiğine dair ilahi bir fıtrat uyarısı olarak kabul edilir.",
-    "psychologicalMeaning": "Psikolojide rüyada ölmüş birini görmek, \"yas sürecinin\" bir parçasıdır. Bilinçaltınız o kişiyle olan bağınızı koparmakta zorlanıyor veya ona karşı söylenmemiş sözler, \"tamamlanmamış meseleler\" barındırıyor olabilir. Ayrıca ölü kişi, kendi karakterinizde ölmeye (veya yeniden doğmaya) yüz tutmuş bir özelliği de simgeliyor olabilir.\n\nAnalitik psikoloji perspektifinden (özellikle Carl Jung ve Sigmund Freud ekolleri göz önüne alındığında), rüyada ölmüş birini imgesi, bilinçdışının derinliklerinden bilince taşınmak istenen çok önemli simgesel mesajlar barındırır. Jung, bu tür sembolleri bireyin \"bireyleşme (individuation)\" sürecinde karşılaştığı arketipsel yansımalar ve gölge (shadow) bütünleşmesi olarak ele alır. Günlük yaşamda bastırılmış kaygılar, ifade edilememiş duygular veya çözümsüz kalmış ikili ilişki çatışmaları, uykunun REM evresinde zihnin savunma mekanizmalarının gevşemesiyle bu sembol üzerinden dramatik bir şekilde açığa çıkar. Rüya sahibinin güncel hayatında yaşadığı kontrol kaybı endişesi, gelecek kaygısı veya yeni bir karar alma aşamasındaki içsel gerilimi, bilinçaltı tarafından bu imgeye dönüştürülerek yeniden işlenir. Bu rüya, zihinsel bir rehabilitasyon süreci olup, bireyin kendi içsel gücünü fark etmesi, duygusal yüklerinden arınması ve zihinsel bütünlüğünü sağlaması için bilinçaltının sunduğu şifayı işaret eder.",
-    "faqs": [
-      {
-        "question": "Rüyada ölmüş birini görmek ne anlama gelir?",
-        "answer": "Rüyada ölmüş birini görmek; genellikle o kişinin sizden dua veya sadaka beklediğine, yarım kalan bir işe veya uzun bir ömre işaret eder."
-      },
-      {
-        "question": "Rüyada ölmüş birinin eve gelmesi ne anlama gelir?",
-        "answer": "Evinize büyük bir huzurun, bereketin ve çok güzel bir haberin geleceğine işarettir."
-      },
-      {
-        "question": "Ölmüş biriyle rüyada yemek yemek nedir?",
-        "answer": "Elinize beklemediğiniz, umudunuzu kestiğiniz bir yerden çok helal ve güzel bir kazanç (miras, iş) geçeceğine yorulur."
-      },
-      {
-        "question": "Rüyada ölünün dirilmesi ne demektir?",
-        "answer": "Biten, iflas eden veya imkansız gözüken bir işin mucizevi bir şekilde yeniden hayata döneceğine (başarıya) delalet eder."
-      },
-      {
-        "question": "Rüyada ölmüş birini görmek psikolojik ve zihinsel olarak nasıl değerlendirilmelidir?",
-        "answer": "Bu rüya, bilinçaltınızın günlük yaşamdaki stres, beklenti ve duygusal yoğunlukları işleyerek zihinsel dengeyi kurma çabasıdır. Analitik psikolojiye göre, rüya sahibinin içsel dünyasında yüzleşmesi gereken bir duyguya, çözmesi gereken bir soruna veya özümsemesi gereken yeni bir yaşam tecrübesine dikkat çeker. Zihnin ruhsal bir şifa ve arınma süreci olarak değerlendirilmeli, günlük hayattaki kararlarda iç sesin uyarıları dikkate alınmalıdır."
-      },
-      {
-        "question": "Rüyada ölmüş birini gördükten sonra günlük hayatta nelere dikkat edilmelidir?",
-        "answer": "Bu rüyayı deneyimledikten sonra özellikle sosyal ilişkilerinizde, mesleki kararlarınızda ve ailevi konularda daha sakin, gözlemlere dayalı ve sağduyulu bir yaklaşım benimsemeniz önerilir. Karşılaşacağınız yeni fırsatları aceleci davranmadan, tüm detaylarıyla değerlendirmeli, manevi huzurunuzu bozabilecek gereksiz tartışmalardan ve stres kaynaklarından uzak durmaya özen göstermelisiniz."
-      }
-    ]
+    "content": {
+      "introduction": "Rüyalarda vefat etmiş bir yakını veya tanıdığı görmek, insan psikolojisinde çok derin ve sarsıcı bir etki bırakır. Hem İslami rüya tabirlerinde hem de psikolojik analizlerde ölü görmek, sanılanın aksine \"kötü\" bir anlama gelmez; tam tersine hayatı, uyanışı ve tamamlanmamış meseleleri temsil eder.",
+      "generalMeaning": "Ölmüş Birini Görmek rüyada görüldüğünde genel olarak genellikle o kişinin sizden dua veya sadaka beklediğine, yarım kalan bir işe veya uzun bir ömre işaret eder. şeklinde yorumlanır. Rüya tabircilerine göre rüyada ölmüş birini diri görmek, rüya sahibinin ömrünün uzun olacağına, hastaysa şifa bulacağına ve umudunu kestiği bir işin yeniden canlanacağına delalet eder. Rüyada ölünün size güzel bir şey (yemek, para, kıyafet) vermesi çok hayırlı bir rızka işarettir. Ancak ölünün sizden bir şey alıp götürmesi genellikle iyiye yorulmaz.\n\nBu rüyanın günlük yaşama ve sosyal ilişkilere yansıması incelendiğinde, rüya sahibinin hayatında yepyeni bir farkındalık döneminin başladığı görülür. Kişinin ailevi, mesleki veya sosyal çevresinde uzun süredir devam eden belirsizliklerin netlik kazanacağı, alınacak stratejik kararların geleceğe yön vereceği bir evreye girilmektedir. Uzmanlar, bu rüyayı gören kişilerin yakın çevresindeki insanlarla olan iletişiminde daha açık, empatik ve sabırlı olmasını önerir. Özellikle iş veya kariyer yaşamında karşılaşılabilecek ani değişimlere karşı esnek bir tutum sergilemek, olası krizleri fırsata çevirmek adına büyük bir avantaj sağlayacaktır. Yaşamın doğal akışı içerisinde karşılaşılan engellerin aşılabilir olduğunu hatırlatan bu sembol, kişinin kendine olan özgüvenini tazelemesi ve hedeflerine doğru kararlı adımlarla ilerlemesi gerektiğini vurgulayan güçlü bir zihinsel rehberdir. Ayrıca günlük yaşantınızdaki planlamalarda, zaman ve bütçe yönetiminde [Türkiye Hesaplama Çözüm Platformu](https://www.turkiyehesaplama.com) üzerinden destek alarak adımlarınızı somut verilere dayandırabilirsiniz.",
+      "variations": [
+        {
+          "title": "Rüyada Ölmüş Birinin Güldüğünü Görmek",
+          "content": "O kişinin ahiret hayatında rahat olduğuna ve rüya sahibinden razı olduğuna işarettir. Ayrıca rüya sahibinin iç huzurunu bulacağına yorulur."
+        },
+        {
+          "title": "Rüyada Ölmüş Biriyle Konuşmak",
+          "content": "Eğer ölü size bir tavsiye veriyorsa, bunu dikkate almanız gerektiğine; zira ölülerin aleminde yalan olmadığına (hakkı söylediklerine) inanılır."
+        },
+        {
+          "title": "Rüyada Ölmüş Birinin Ağlaması",
+          "content": "O kişinin dua, Kur'an veya sadaka beklediğine işarettir. Bazen de rüya sahibinin hayatında yapacağı bir hataya üzüldüğünü temsil eder."
+        },
+        {
+          "title": "Rüyada Ölüye Sarılmak",
+          "content": "Rüya sahibinin ömrünün çok uzun olacağına, sağlıklı yaşayacağına ve özlem duyduğu bir kişiye veya duruma kavuşacağına delalet eder."
+        },
+        {
+          "title": "Rüyada Ölmüş Birini Hasta Görmek",
+          "content": "Ölünün ahirette bir borcu olduğuna veya rüya sahibinin dini görevlerini (ibadetlerini) ihmal ettiğine (manevi hastalığa) yorulur."
+        },
+        {
+          "title": "Rüyada Beklenmedik Bir Anda Ölmüş Birini İle Karşılaşmak",
+          "content": "Rüyada hiç umulmadık bir anda ve şaşırtıcı bir mekanda ölmüş birini ile karşılaşmak, gerçek yaşamda rüya sahibinin karşısına çıkacak ani, sürpriz gelişmelere ve dönüm noktalarına işaret eder. Bu durum, ilk etapta kişide tatlı bir heyecan veya şaşkınlık yaratsa da, zamanla hayatın akışını olumlu yönde değiştirecek yeni imkanların kapısını aralayacaktır. İslami ve psikolojik tefsirlerin ortak kesişim noktasına göre, bu tür sürpriz semboller kişinin esnekliğini, yeniliklere uyum sağlama potansiyelini ve kadim şansını simgeler."
+        }
+      ],
+      "religiousMeaning": "İslam dininde ölüler alemi (berzah) hakikat yurdudur. İmam Nablusi'ye göre rüyada ölü görmek haktır ve ölünün rüyada söylediği sözler çoğunlukla doğrudur. Bir kimse rüyasında ölmüş babasını veya annesini görse, bu çok hayırlıdır. Ölüden alınan güzel ve temiz bir eşya helal rızka, ölüye verilen şeyler ise (kötü eşyalar hariç) zarara veya eksilmeye delalet eder.\n\nKadim İslami rüya tabiri kaynaklarına (özellikle İmam Nablusi, İbn-i Sirin ve İmam Cafer-i Sadık tefsirlerine) göre, rüyada ölmüş birini ile karşılaşmak, rüya sahibinin manevi durumuna, niyetine ve rüyanın görüldüğü esnadaki duygu durumuna göre katmanlı bir şekilde yorumlanır. Diyanet rüya tabirleri yaklaşımlarında da belirtildiği üzere, bu sembol kişiye hem bir müjde hem de içsel bir uyarı niteliği taşıyabilir. Eğer rüya sahibi hak yolunda dürüst ve erdemli bir yaşam sürmeye gayret ediyorsa, bu rüya helal rızka, manevi bir arınmaya ve yakın zamanda alınacak hayırlı haberlere delalet eder. Ancak rüya esnasında huzursuzluk veya korku hissedildiyse, İslami alimler bunu kişinin dünya işlerine aşırı kapılarak ahiret bilincini veya insani sorumluluklarını ihmal ettiği şeklinde tefsir ederler. Bu durum, kişinin niyetlerini gözden geçirmesi, sadaka vermesi ve iç huzuru bulmak adına manevi dünyasına daha fazla özen göstermesi gerektiğine dair ilahi bir fıtrat uyarısı olarak kabul edilir.",
+      "psychologicalMeaning": "Psikolojide rüyada ölmüş birini görmek, \"yas sürecinin\" bir parçasıdır. Bilinçaltınız o kişiyle olan bağınızı koparmakta zorlanıyor veya ona karşı söylenmemiş sözler, \"tamamlanmamış meseleler\" barındırıyor olabilir. Ayrıca ölü kişi, kendi karakterinizde ölmeye (veya yeniden doğmaya) yüz tutmuş bir özelliği de simgeliyor olabilir.\n\nAnalitik psikoloji perspektifinden (özellikle Carl Jung ve Sigmund Freud ekolleri göz önüne alındığında), rüyada ölmüş birini imgesi, bilinçdışının derinliklerinden bilince taşınmak istenen çok önemli simgesel mesajlar barındırır. Jung, bu tür sembolleri bireyin \"bireyleşme (individuation)\" sürecinde karşılaştığı arketipsel yansımalar ve gölge (shadow) bütünleşmesi olarak ele alır. Günlük yaşamda bastırılmış kaygılar, ifade edilememiş duygular veya çözümsüz kalmış ikili ilişki çatışmaları, uykunun REM evresinde zihnin savunma mekanizmalarının gevşemesiyle bu sembol üzerinden dramatik bir şekilde açığa çıkar. Rüya sahibinin güncel hayatında yaşadığı kontrol kaybı endişesi, gelecek kaygısı veya yeni bir karar alma aşamasındaki içsel gerilimi, bilinçaltı tarafından bu imgeye dönüştürülerek yeniden işlenir. Bu rüya, zihinsel bir rehabilitasyon süreci olup, bireyin kendi içsel gücünü fark etmesi, duygusal yüklerinden arınması ve zihinsel bütünlüğünü sağlaması için bilinçaltının sunduğu şifayı işaret eder.",
+      "faqs": [
+        {
+          "question": "Rüyada ölmüş birini görmek ne anlama gelir?",
+          "answer": "Rüyada ölmüş birini görmek; genellikle o kişinin sizden dua veya sadaka beklediğine, yarım kalan bir işe veya uzun bir ömre işaret eder."
+        },
+        {
+          "question": "Rüyada ölmüş birinin eve gelmesi ne anlama gelir?",
+          "answer": "Evinize büyük bir huzurun, bereketin ve çok güzel bir haberin geleceğine işarettir."
+        },
+        {
+          "question": "Ölmüş biriyle rüyada yemek yemek nedir?",
+          "answer": "Elinize beklemediğiniz, umudunuzu kestiğiniz bir yerden çok helal ve güzel bir kazanç (miras, iş) geçeceğine yorulur."
+        },
+        {
+          "question": "Rüyada ölünün dirilmesi ne demektir?",
+          "answer": "Biten, iflas eden veya imkansız gözüken bir işin mucizevi bir şekilde yeniden hayata döneceğine (başarıya) delalet eder."
+        },
+        {
+          "question": "Rüyada ölmüş birini görmek psikolojik ve zihinsel olarak nasıl değerlendirilmelidir?",
+          "answer": "Bu rüya, bilinçaltınızın günlük yaşamdaki stres, beklenti ve duygusal yoğunlukları işleyerek zihinsel dengeyi kurma çabasıdır. Analitik psikolojiye göre, rüya sahibinin içsel dünyasında yüzleşmesi gereken bir duyguya, çözmesi gereken bir soruna veya özümsemesi gereken yeni bir yaşam tecrübesine dikkat çeker. Zihnin ruhsal bir şifa ve arınma süreci olarak değerlendirilmeli, günlük hayattaki kararlarda iç sesin uyarıları dikkate alınmalıdır."
+        },
+        {
+          "question": "Rüyada ölmüş birini gördükten sonra günlük hayatta nelere dikkat edilmelidir?",
+          "answer": "Bu rüyayı deneyimledikten sonra özellikle sosyal ilişkilerinizde, mesleki kararlarınızda ve ailevi konularda daha sakin, gözlemlere dayalı ve sağduyulu bir yaklaşım benimsemeniz önerilir. Karşılaşacağınız yeni fırsatları aceleci davranmadan, tüm detaylarıyla değerlendirmeli, manevi huzurunuzu bozabilecek gereksiz tartışmalardan ve stres kaynaklarından uzak durmaya özen göstermelisiniz."
+        }
+      ]
+    }
   }
-}
+]

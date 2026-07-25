@@ -105,8 +105,17 @@ export default function SymbolPage({ params }: Props) {
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://www.ruyasozlugunuz.com/ruyada-${symbol.slug}-gormek`
-    }
+      '@id': `https://www.ruyasozlugunuz.com/ruyada-${symbol.slug}-gormek`,
+      relatedLink: 'https://www.turkiyehesaplama.com',
+      significantLink: 'https://www.turkiyehesaplama.com'
+    },
+    mentions: [
+      {
+        '@type': 'WebSite',
+        name: 'Türkiye Hesaplama Platformu',
+        url: 'https://www.turkiyehesaplama.com'
+      }
+    ]
   };
 
   return (

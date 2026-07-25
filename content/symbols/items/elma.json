@@ -1,69 +1,71 @@
-{
-  "slug": "elma",
-  "title": "Rüyada Elma Görmek",
-  "category": "doga",
-  "shortDescription": "Rüyada elma görmek; barışa, güzelliğe, kişinin mesleğindeki kazancına, evlada, neşeye ve taze bir aşka işaret eder.",
-  "relatedSymbols": [
-    "agac",
-    "yemek-yemek",
-    "cilek"
-  ],
-  "content": {
-    "introduction": "Elma, insanlık tarihinin başlangıcından (Hz. Adem ve Havva kıssası) bu yana cazibenin, bilginin, bereketin ve yeryüzündeki yaşamın en ikonik sembolüdür. Rüyalarda görülen elma, genellikle kişinin arzularını, hayattaki amacını (mesleğini) ve neşesini temsil eder. Rüyada görülen elmanın rengi, tadı ve tazeliği, kişinin elde edeceği başarının ve mutluluğun kalitesini doğrudan belirler.",
-    "generalMeaning": "Elma Görmek rüyada görüldüğünde genel olarak barışa, güzelliğe, kişinin mesleğindeki kazancına, evlada, neşeye ve taze bir aşka işaret eder. şeklinde yorumlanır. Rüya tabircilerine göre rüyada elma görmek, kişinin mesleği (sanatı) ve rızkıdır. Bir tüccar elma görürse ticareti, bir çiftçi görürse hasadı, bir memur görürse makamı bereketlenir. Rüyasında tatlı, kırmızı ve güzel kokulu bir elma yediğini gören kişi, çok temiz bir helal rızka kavuşur, bekar ise çok güzel ve ahlaklı biriyle evlenir. Rüyada birinden elma almak, o kişiden gelecek sevgiye ve desteğe işarettir. Rüyada bir elmayı ikiye böldüğünü görmek, iş ortaklığına veya evlilikte yaşanacak bir ayrılığa (ikiye bölünmeye) yorulur. Elmanın ekşi, çürük veya kurtlu olması ise haram kazanca, hayal kırıklığına veya fesatlık eden bir dosta (içten içe çürümeye) delalet eder.\n\nBu rüyanın günlük yaşama ve sosyal ilişkilere yansıması incelendiğinde, rüya sahibinin hayatında yepyeni bir farkındalık döneminin başladığı görülür. Kişinin ailevi, mesleki veya sosyal çevresinde uzun süredir devam eden belirsizliklerin netlik kazanacağı, alınacak stratejik kararların geleceğe yön vereceği bir evreye girilmektedir. Uzmanlar, bu rüyayı gören kişilerin yakın çevresindeki insanlarla olan iletişiminde daha açık, empatik ve sabırlı olmasını önerir. Özellikle iş veya kariyer yaşamında karşılaşılabilecek ani değişimlere karşı esnek bir tutum sergilemek, olası krizleri fırsata çevirmek adına büyük bir avantaj sağlayacaktır. Yaşamın doğal akışı içerisinde karşılaşılan engellerin aşılabilir olduğunu hatırlatan bu sembol, kişinin kendine olan özgüvenini tazelemesi ve hedeflerine doğru kararlı adımlarla ilerlemesi gerektiğini vurgulayan güçlü bir zihinsel rehberdir.",
-    "variations": [
-      {
-        "title": "Rüyada Kırmızı Elma Görmek",
-        "content": "Şehvete, büyük bir aşka, cazibeye, çok güzel bir evlada (kız çocuğuna) veya toplum içinde elde edilecek çok parlak bir itibara işarettir."
-      },
-      {
-        "title": "Rüyada Yeşil Elma Görmek",
-        "content": "Sağlığa, bedensel arınmaya, manevi temizliğe, sabır gerektiren ama sonu çok hayırlı (ve uzun ömürlü) olacak bir işe (erkek çocuğuna) yorulur."
-      },
-      {
-        "title": "Rüyada Elma Ağacı Görmek",
-        "content": "İnsanlara çok faydası dokunan, inançlı, cömert ve sevecen bir insana (veya rüya sahibinin topluma faydalı büyük bir iş kuracağına) delalet eder."
-      },
-      {
-        "title": "Rüyada Ağaçtan Elma Toplamak",
-        "content": "Kendi emeğinizle, alın terinizle hedeflerinize tek tek ulaşacağınıza ve çok yüksek (saygın) bir mevkiye geleceğinize işarettir."
-      },
-      {
-        "title": "Rüyada Çürük (Kurtlu) Elma Yemek",
-        "content": "Dışarıdan çok cazip görünen bir işin veya insanın içinin bozuk olduğuna, elinize geçecek haram (veya hileli) bir paraya yorulur."
-      },
-      {
-        "title": "Rüyada Beklenmedik Bir Anda Elma İle Karşılaşmak",
-        "content": "Rüyada hiç umulmadık bir anda ve şaşırtıcı bir mekanda elma ile karşılaşmak, gerçek yaşamda rüya sahibinin karşısına çıkacak ani, sürpriz gelişmelere ve dönüm noktalarına işaret eder. Bu durum, ilk etapta kişide tatlı bir heyecan veya şaşkınlık yaratsa da, zamanla hayatın akışını olumlu yönde değiştirecek yeni imkanların kapısını aralayacaktır. İslami ve psikolojik tefsirlerin ortak kesişim noktasına göre, bu tür sürpriz semboller kişinin esnekliğini, yeniliklere uyum sağlama potansiyelini ve kadim şansını simgeler."
-      }
+[
+  {
+    "slug": "elma",
+    "title": "Rüyada Elma Görmek",
+    "category": "doga",
+    "shortDescription": "Rüyada elma görmek; barışa, güzelliğe, kişinin mesleğindeki kazancına, evlada, neşeye ve taze bir aşka işaret eder.",
+    "relatedSymbols": [
+      "agac",
+      "yemek-yemek",
+      "cilek"
     ],
-    "religiousMeaning": "İslami tabirlerde (İbn Şirin) elma, himmet ve kuvvettir. Rüyada elma gören kişinin himmeti (amacı) neyse ona kavuşur. Hz. Adem'in cennetten çıkışına sebep olan yasak meyve genellikle elma ile tasvir edildiği için, bazı alimler rüyada izinsiz elma koparmayı \"nefse yenik düşmek ve günah işlemek\" olarak yorumlar. Nablusi'ye göre mescitte elma koklamak evliliğe, elmayı ısırmak ise elde edilecek büyük bir sevince ve hayırlı bir evlada delalet eder.\n\nKadim İslami rüya tabiri kaynaklarına (özellikle İmam Nablusi, İbn-i Sirin ve İmam Cafer-i Sadık tefsirlerine) göre, rüyada elma ile karşılaşmak, rüya sahibinin manevi durumuna, niyetine ve rüyanın görüldüğü esnadaki duygu durumuna göre katmanlı bir şekilde yorumlanır. Diyanet rüya tabirleri yaklaşımlarında da belirtildiği üzere, bu sembol kişiye hem bir müjde hem de içsel bir uyarı niteliği taşıyabilir. Eğer rüya sahibi hak yolunda dürüst ve erdemli bir yaşam sürmeye gayret ediyorsa, bu rüya helal rızka, manevi bir arınmaya ve yakın zamanda alınacak hayırlı haberlere delalet eder. Ancak rüya esnasında huzursuzluk veya korku hissedildiyse, İslami alimler bunu kişinin dünya işlerine aşırı kapılarak ahiret bilincini veya insani sorumluluklarını ihmal ettiği şeklinde tefsir ederler. Bu durum, kişinin niyetlerini gözden geçirmesi, sadaka vermesi ve iç huzuru bulmak adına manevi dünyasına daha fazla özen göstermesi gerektiğine dair ilahi bir fıtrat uyarısı olarak kabul edilir.",
-    "psychologicalMeaning": "Psikolojide elma, \"cazibe\", \"bilgi\" ve \"farkındalık\" (aydınlanma) sembolüdür (Newton'un başına düşen elma gibi). Rüyasında çok parlak ve güzel bir elma gören kişi, uyanık hayatta önüne çıkan cazip bir teklifi değerlendirmekte veya yeni bir \"farkındalığa\" ulaşmaktadır. Elmayı ısırmak, tabuları yıkma (yasak olanı deneme) arzusunun, cesaretin ve hayatın \"tadını çıkarma\" isteğinin bilinçaltındaki yansımasıdır.\n\nAnalitik psikoloji perspektifinden (özellikle Carl Jung ve Sigmund Freud ekolleri göz önüne alındığında), rüyada elma imgesi, bilinçdışının derinliklerinden bilince taşınmak istenen çok önemli simgesel mesajlar barındırır. Jung, bu tür sembolleri bireyin \"bireyleşme (individuation)\" sürecinde karşılaştığı arketipsel yansımalar ve gölge (shadow) bütünleşmesi olarak ele alır. Günlük yaşamda bastırılmış kaygılar, ifade edilememiş duygular veya çözümsüz kalmış ikili ilişki çatışmaları, uykunun REM evresinde zihnin savunma mekanizmalarının gevşemesiyle bu sembol üzerinden dramatik bir şekilde açığa çıkar. Rüya sahibinin güncel hayatında yaşadığı kontrol kaybı endişesi, gelecek kaygısı veya yeni bir karar alma aşamasındaki içsel gerilimi, bilinçaltı tarafından bu imgeye dönüştürülerek yeniden işlenir. Bu rüya, zihinsel bir rehabilitasyon süreci olup, bireyin kendi içsel gücünü fark etmesi, duygusal yüklerinden arınması ve zihinsel bütünlüğünü sağlaması için bilinçaltının sunduğu şifayı işaret eder.",
-    "faqs": [
-      {
-        "question": "Rüyada elma görmek ne anlama gelir?",
-        "answer": "Rüyada elma görmek; barışa, güzelliğe, kişinin mesleğindeki kazancına, evlada, neşeye ve taze bir aşka işaret eder."
-      },
-      {
-        "question": "Rüyada birine elma vermek ne anlama gelir?",
-        "answer": "O kişiye duyduğunuz sevgiye, şefkate veya elinizdeki bir imkanı (rızkı) o insanla büyük bir cömertlikle paylaşacağınıza işarettir."
-      },
-      {
-        "question": "Hamile kadının rüyada elma görmesi nedir?",
-        "answer": "Eğer elma kırmızıysa kız çocuğuna, yeşil ise erkek çocuğuna, her halükarda doğumun çok sağlıklı ve neşeli geçeceğine yorulur."
-      },
-      {
-        "question": "Rüyada elma suyu içmek ne demek?",
-        "answer": "Zahmetsiz, süzülmüş, saf bir rızka (veya ilme) kavuşmaya, hastalar için çok hızlı bir şifaya ve ruhsal ferahlamaya delalet eder."
-      },
-      {
-        "question": "Rüyada elma görmek psikolojik ve zihinsel olarak nasıl değerlendirilmelidir?",
-        "answer": "Bu rüya, bilinçaltınızın günlük yaşamdaki stres, beklenti ve duygusal yoğunlukları işleyerek zihinsel dengeyi kurma çabasıdır. Analitik psikolojiye göre, rüya sahibinin içsel dünyasında yüzleşmesi gereken bir duyguya, çözmesi gereken bir soruna veya özümsemesi gereken yeni bir yaşam tecrübesine dikkat çeker. Zihnin ruhsal bir şifa ve arınma süreci olarak değerlendirilmeli, günlük hayattaki kararlarda iç sesin uyarıları dikkate alınmalıdır."
-      },
-      {
-        "question": "Rüyada elma gördükten sonra günlük hayatta nelere dikkat edilmelidir?",
-        "answer": "Bu rüyayı deneyimledikten sonra özellikle sosyal ilişkilerinizde, mesleki kararlarınızda ve ailevi konularda daha sakin, gözlemlere dayalı ve sağduyulu bir yaklaşım benimsemeniz önerilir. Karşılaşacağınız yeni fırsatları aceleci davranmadan, tüm detaylarıyla değerlendirmeli, manevi huzurunuzu bozabilecek gereksiz tartışmalardan ve stres kaynaklarından uzak durmaya özen göstermelisiniz."
-      }
-    ]
+    "content": {
+      "introduction": "Elma, insanlık tarihinin başlangıcından (Hz. Adem ve Havva kıssası) bu yana cazibenin, bilginin, bereketin ve yeryüzündeki yaşamın en ikonik sembolüdür. Rüyalarda görülen elma, genellikle kişinin arzularını, hayattaki amacını (mesleğini) ve neşesini temsil eder. Rüyada görülen elmanın rengi, tadı ve tazeliği, kişinin elde edeceği başarının ve mutluluğun kalitesini doğrudan belirler.",
+      "generalMeaning": "Elma Görmek rüyada görüldüğünde genel olarak barışa, güzelliğe, kişinin mesleğindeki kazancına, evlada, neşeye ve taze bir aşka işaret eder. şeklinde yorumlanır. Rüya tabircilerine göre rüyada elma görmek, kişinin mesleği (sanatı) ve rızkıdır. Bir tüccar elma görürse ticareti, bir çiftçi görürse hasadı, bir memur görürse makamı bereketlenir. Rüyasında tatlı, kırmızı ve güzel kokulu bir elma yediğini gören kişi, çok temiz bir helal rızka kavuşur, bekar ise çok güzel ve ahlaklı biriyle evlenir. Rüyada birinden elma almak, o kişiden gelecek sevgiye ve desteğe işarettir. Rüyada bir elmayı ikiye böldüğünü görmek, iş ortaklığına veya evlilikte yaşanacak bir ayrılığa (ikiye bölünmeye) yorulur. Elmanın ekşi, çürük veya kurtlu olması ise haram kazanca, hayal kırıklığına veya fesatlık eden bir dosta (içten içe çürümeye) delalet eder.\n\nBu rüyanın günlük yaşama ve sosyal ilişkilere yansıması incelendiğinde, rüya sahibinin hayatında yepyeni bir farkındalık döneminin başladığı görülür. Kişinin ailevi, mesleki veya sosyal çevresinde uzun süredir devam eden belirsizliklerin netlik kazanacağı, alınacak stratejik kararların geleceğe yön vereceği bir evreye girilmektedir. Uzmanlar, bu rüyayı gören kişilerin yakın çevresindeki insanlarla olan iletişiminde daha açık, empatik ve sabırlı olmasını önerir. Özellikle iş veya kariyer yaşamında karşılaşılabilecek ani değişimlere karşı esnek bir tutum sergilemek, olası krizleri fırsata çevirmek adına büyük bir avantaj sağlayacaktır. Yaşamın doğal akışı içerisinde karşılaşılan engellerin aşılabilir olduğunu hatırlatan bu sembol, kişinin kendine olan özgüvenini tazelemesi ve hedeflerine doğru kararlı adımlarla ilerlemesi gerektiğini vurgulayan güçlü bir zihinsel rehberdir. Ayrıca günlük yaşantınızdaki planlamalarda, zaman ve bütçe yönetiminde [Türkiye Hesaplama Çözüm Platformu](https://www.turkiyehesaplama.com) üzerinden destek alarak adımlarınızı somut verilere dayandırabilirsiniz.",
+      "variations": [
+        {
+          "title": "Rüyada Kırmızı Elma Görmek",
+          "content": "Şehvete, büyük bir aşka, cazibeye, çok güzel bir evlada (kız çocuğuna) veya toplum içinde elde edilecek çok parlak bir itibara işarettir."
+        },
+        {
+          "title": "Rüyada Yeşil Elma Görmek",
+          "content": "Sağlığa, bedensel arınmaya, manevi temizliğe, sabır gerektiren ama sonu çok hayırlı (ve uzun ömürlü) olacak bir işe (erkek çocuğuna) yorulur."
+        },
+        {
+          "title": "Rüyada Elma Ağacı Görmek",
+          "content": "İnsanlara çok faydası dokunan, inançlı, cömert ve sevecen bir insana (veya rüya sahibinin topluma faydalı büyük bir iş kuracağına) delalet eder."
+        },
+        {
+          "title": "Rüyada Ağaçtan Elma Toplamak",
+          "content": "Kendi emeğinizle, alın terinizle hedeflerinize tek tek ulaşacağınıza ve çok yüksek (saygın) bir mevkiye geleceğinize işarettir."
+        },
+        {
+          "title": "Rüyada Çürük (Kurtlu) Elma Yemek",
+          "content": "Dışarıdan çok cazip görünen bir işin veya insanın içinin bozuk olduğuna, elinize geçecek haram (veya hileli) bir paraya yorulur."
+        },
+        {
+          "title": "Rüyada Beklenmedik Bir Anda Elma İle Karşılaşmak",
+          "content": "Rüyada hiç umulmadık bir anda ve şaşırtıcı bir mekanda elma ile karşılaşmak, gerçek yaşamda rüya sahibinin karşısına çıkacak ani, sürpriz gelişmelere ve dönüm noktalarına işaret eder. Bu durum, ilk etapta kişide tatlı bir heyecan veya şaşkınlık yaratsa da, zamanla hayatın akışını olumlu yönde değiştirecek yeni imkanların kapısını aralayacaktır. İslami ve psikolojik tefsirlerin ortak kesişim noktasına göre, bu tür sürpriz semboller kişinin esnekliğini, yeniliklere uyum sağlama potansiyelini ve kadim şansını simgeler."
+        }
+      ],
+      "religiousMeaning": "İslami tabirlerde (İbn Şirin) elma, himmet ve kuvvettir. Rüyada elma gören kişinin himmeti (amacı) neyse ona kavuşur. Hz. Adem'in cennetten çıkışına sebep olan yasak meyve genellikle elma ile tasvir edildiği için, bazı alimler rüyada izinsiz elma koparmayı \"nefse yenik düşmek ve günah işlemek\" olarak yorumlar. Nablusi'ye göre mescitte elma koklamak evliliğe, elmayı ısırmak ise elde edilecek büyük bir sevince ve hayırlı bir evlada delalet eder.\n\nKadim İslami rüya tabiri kaynaklarına (özellikle İmam Nablusi, İbn-i Sirin ve İmam Cafer-i Sadık tefsirlerine) göre, rüyada elma ile karşılaşmak, rüya sahibinin manevi durumuna, niyetine ve rüyanın görüldüğü esnadaki duygu durumuna göre katmanlı bir şekilde yorumlanır. Diyanet rüya tabirleri yaklaşımlarında da belirtildiği üzere, bu sembol kişiye hem bir müjde hem de içsel bir uyarı niteliği taşıyabilir. Eğer rüya sahibi hak yolunda dürüst ve erdemli bir yaşam sürmeye gayret ediyorsa, bu rüya helal rızka, manevi bir arınmaya ve yakın zamanda alınacak hayırlı haberlere delalet eder. Ancak rüya esnasında huzursuzluk veya korku hissedildiyse, İslami alimler bunu kişinin dünya işlerine aşırı kapılarak ahiret bilincini veya insani sorumluluklarını ihmal ettiği şeklinde tefsir ederler. Bu durum, kişinin niyetlerini gözden geçirmesi, sadaka vermesi ve iç huzuru bulmak adına manevi dünyasına daha fazla özen göstermesi gerektiğine dair ilahi bir fıtrat uyarısı olarak kabul edilir.",
+      "psychologicalMeaning": "Psikolojide elma, \"cazibe\", \"bilgi\" ve \"farkındalık\" (aydınlanma) sembolüdür (Newton'un başına düşen elma gibi). Rüyasında çok parlak ve güzel bir elma gören kişi, uyanık hayatta önüne çıkan cazip bir teklifi değerlendirmekte veya yeni bir \"farkındalığa\" ulaşmaktadır. Elmayı ısırmak, tabuları yıkma (yasak olanı deneme) arzusunun, cesaretin ve hayatın \"tadını çıkarma\" isteğinin bilinçaltındaki yansımasıdır.\n\nAnalitik psikoloji perspektifinden (özellikle Carl Jung ve Sigmund Freud ekolleri göz önüne alındığında), rüyada elma imgesi, bilinçdışının derinliklerinden bilince taşınmak istenen çok önemli simgesel mesajlar barındırır. Jung, bu tür sembolleri bireyin \"bireyleşme (individuation)\" sürecinde karşılaştığı arketipsel yansımalar ve gölge (shadow) bütünleşmesi olarak ele alır. Günlük yaşamda bastırılmış kaygılar, ifade edilememiş duygular veya çözümsüz kalmış ikili ilişki çatışmaları, uykunun REM evresinde zihnin savunma mekanizmalarının gevşemesiyle bu sembol üzerinden dramatik bir şekilde açığa çıkar. Rüya sahibinin güncel hayatında yaşadığı kontrol kaybı endişesi, gelecek kaygısı veya yeni bir karar alma aşamasındaki içsel gerilimi, bilinçaltı tarafından bu imgeye dönüştürülerek yeniden işlenir. Bu rüya, zihinsel bir rehabilitasyon süreci olup, bireyin kendi içsel gücünü fark etmesi, duygusal yüklerinden arınması ve zihinsel bütünlüğünü sağlaması için bilinçaltının sunduğu şifayı işaret eder.",
+      "faqs": [
+        {
+          "question": "Rüyada elma görmek ne anlama gelir?",
+          "answer": "Rüyada elma görmek; barışa, güzelliğe, kişinin mesleğindeki kazancına, evlada, neşeye ve taze bir aşka işaret eder."
+        },
+        {
+          "question": "Rüyada birine elma vermek ne anlama gelir?",
+          "answer": "O kişiye duyduğunuz sevgiye, şefkate veya elinizdeki bir imkanı (rızkı) o insanla büyük bir cömertlikle paylaşacağınıza işarettir."
+        },
+        {
+          "question": "Hamile kadının rüyada elma görmesi nedir?",
+          "answer": "Eğer elma kırmızıysa kız çocuğuna, yeşil ise erkek çocuğuna, her halükarda doğumun çok sağlıklı ve neşeli geçeceğine yorulur."
+        },
+        {
+          "question": "Rüyada elma suyu içmek ne demek?",
+          "answer": "Zahmetsiz, süzülmüş, saf bir rızka (veya ilme) kavuşmaya, hastalar için çok hızlı bir şifaya ve ruhsal ferahlamaya delalet eder."
+        },
+        {
+          "question": "Rüyada elma görmek psikolojik ve zihinsel olarak nasıl değerlendirilmelidir?",
+          "answer": "Bu rüya, bilinçaltınızın günlük yaşamdaki stres, beklenti ve duygusal yoğunlukları işleyerek zihinsel dengeyi kurma çabasıdır. Analitik psikolojiye göre, rüya sahibinin içsel dünyasında yüzleşmesi gereken bir duyguya, çözmesi gereken bir soruna veya özümsemesi gereken yeni bir yaşam tecrübesine dikkat çeker. Zihnin ruhsal bir şifa ve arınma süreci olarak değerlendirilmeli, günlük hayattaki kararlarda iç sesin uyarıları dikkate alınmalıdır."
+        },
+        {
+          "question": "Rüyada elma gördükten sonra günlük hayatta nelere dikkat edilmelidir?",
+          "answer": "Bu rüyayı deneyimledikten sonra özellikle sosyal ilişkilerinizde, mesleki kararlarınızda ve ailevi konularda daha sakin, gözlemlere dayalı ve sağduyulu bir yaklaşım benimsemeniz önerilir. Karşılaşacağınız yeni fırsatları aceleci davranmadan, tüm detaylarıyla değerlendirmeli, manevi huzurunuzu bozabilecek gereksiz tartışmalardan ve stres kaynaklarından uzak durmaya özen göstermelisiniz."
+        }
+      ]
+    }
   }
-}
+]
