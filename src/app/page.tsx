@@ -58,12 +58,14 @@ export default function Home() {
           </div>
         ) : (
           <div className="flex flex-col items-center">
-            <Moon className="text-mystic-400 w-16 h-16 mb-6 opacity-80" />
-            <h1 className="text-4xl md:text-6xl font-serif font-bold mb-6 tracking-tight text-white">
-              Rüyalarınızın <span className="text-transparent bg-clip-text bg-gradient-to-r from-mystic-400 to-accent-500">Gizli Dili</span>
+            <div className="inline-flex items-center gap-2 bg-gradient-to-r from-accent-500/20 via-mystic-500/20 to-accent-500/20 border border-accent-500/40 text-accent-300 px-5 py-2 rounded-full text-xs md:text-sm font-semibold mb-6 shadow-xl shadow-accent-500/10 animate-pulse">
+              ✨ Türkiye&apos;nin İlk Yapay Zeka Destekli Akıllı Rüya Çevirmeni
+            </div>
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold mb-6 tracking-tight text-white">
+              Rüyalarınızın <span className="text-transparent bg-clip-text bg-gradient-to-r from-mystic-400 via-accent-400 to-mystic-300">Gizli Dili</span>
             </h1>
-            <p className="text-lg md:text-xl text-night-300 max-w-2xl mb-12">
-              Türkiye&apos;nin en kapsamlı, özgün ve güvenilir rüya tabirleri sözlüğü. Bilinçaltınızın size anlattıklarını keşfedin.
+            <p className="text-lg md:text-xl text-night-300 max-w-2xl mb-10 leading-relaxed font-light">
+              Türkiye&apos;nin 1000+ kelimeli en kapsamlı rüya sözlüğü. İster tek bir kelime aratın, ister rüyanızın uzun cümlesini yazın; <strong className="text-mystic-200 font-medium">yapay zeka asistanımız</strong> sembolleri birleştirip anında tefsir etsin.
             </p>
           </div>
         )}
