@@ -24,6 +24,23 @@ const STOP_WORDS = new Set([
   'bana', 'biz', 'diye', 'gibi', 'yada', 'veya', 'ise', 'için', 'icin', 'olan', 'olarak'
 ]);
 
+// Sembol başlığından 'Rüyada' ve 'Görmek' eklerini temizler
+const cleanTitle = (title: string) => {
+  return title.trim().replace(/^rüyada\s+/i, '').replace(/\s+görmek$/i, '');
+};
+
+// Sözlük listesi için başlığı düzgün şekilde 'Rüyada X Görmek' formatına getirir (çift Rüyada önler)
+const formatSymbolTitle = (title: string) => {
+  let clean = title.trim();
+  if (!clean.toLowerCase().startsWith('rüyada')) {
+    clean = `Rüyada ${clean}`;
+  }
+  if (!/(mak|mek|görmek|görmesi|olmak|etmek|bulmak|çıkmak)$/i.test(clean)) {
+    clean = `${clean} Görmek`;
+  }
+  return clean;
+};
+
 export default function DetayliAramaClient({ symbols }: { symbols: DreamSymbol[] }) {
   const [inputValue, setInputValue] = useState('');
   const [tags, setTags] = useState<string[]>([]);
@@ -82,12 +99,12 @@ export default function DetayliAramaClient({ symbols }: { symbols: DreamSymbol[]
     if (matchedSymbols.length < 2 && activeTokens.length < 2) return null;
     if (matchedSymbols.length === 0) return null;
 
-    const titles = matchedSymbols.map(s => s.title).join(" + ");
+    const titles = matchedSymbols.map(s => cleanTitle(s.title)).join(" + ");
     const categories = Array.from(new Set(matchedSymbols.map(s => s.category.replace('-', ' '))));
     
     // Sembollerin genel anlamlarını birleştir
     const combinedGeneral = matchedSymbols
-      .map(s => `• **${s.title}:** ${s.shortDescription}`)
+      .map(s => `• **${cleanTitle(s.title)}:** ${s.shortDescription}`)
       .join("\n\n");
 
     // İslami ve Psikolojik derinliği sentezle
@@ -253,7 +270,7 @@ export default function DetayliAramaClient({ symbols }: { symbols: DreamSymbol[]
         )}
 
         <div className="relative">
-          <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-6 h-6 text-mystic-400" />
+          <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-6 h-6 text-mystic-400 z-10 pointer-events-none" />
           <input
             ref={inputRef}
             type="text"
@@ -263,12 +280,13 @@ export default function DetayliAramaClient({ symbols }: { symbols: DreamSymbol[]
             onBlur={() => setTimeout(() => setIsFocused(false), 200)}
             onKeyDown={handleKeyDown}
             placeholder={tags.length === 0 ? "Rüyanızı veya sembolleri yazın (Örn: Siyah yılan ısırması ve altın)..." : "Kombinasyona yeni sembol ekleyin..."}
-            className="w-full bg-night-950/80 border border-night-700/80 text-white rounded-2xl py-4 pl-14 pr-12 focus:outline-none focus:border-mystic-400 transition-all placeholder:text-night-500 text-base md:text-lg shadow-inner"
+            className="w-full bg-[#04060A] border-2 border-mystic-500/50 text-white rounded-2xl py-4 pl-14 pr-12 focus:outline-none focus:border-accent-400 transition-all placeholder:text-gray-400 text-base md:text-lg shadow-inner font-medium"
+            style={{ backgroundColor: '#04060A', color: '#FFFFFF' }}
           />
           {inputValue && (
             <button 
               onClick={() => setInputValue('')}
-              className="absolute right-4 top-1/2 -translate-y-1/2 text-night-400 hover:text-white bg-night-800/80 rounded-full p-1 transition-colors"
+              className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-300 hover:text-white bg-night-800 rounded-full p-1 transition-colors z-10"
             >
               <X className="w-4 h-4" />
             </button>
@@ -276,25 +294,25 @@ export default function DetayliAramaClient({ symbols }: { symbols: DreamSymbol[]
 
           {/* Live Autocomplete Dropdown */}
           {isFocused && autocompleteSuggestions.length > 0 && (
-            <div className="absolute top-full left-0 right-0 mt-3 bg-night-900/95 border border-mystic-500/30 rounded-2xl shadow-2xl overflow-hidden z-50 backdrop-blur-2xl animate-in fade-in slide-in-from-top-2 duration-200">
-              <div className="px-4 py-2 bg-night-950/80 border-b border-night-800 text-[11px] font-semibold tracking-wider text-mystic-400 uppercase flex items-center justify-between">
-                <span>Hızlı Sözlük Eşleşmeleri</span>
+            <div className="absolute top-full left-0 right-0 mt-3 bg-[#080B14] border-2 border-mystic-500/50 rounded-2xl shadow-2xl overflow-hidden z-50 animate-in fade-in slide-in-from-top-2 duration-200" style={{ backgroundColor: '#080B14' }}>
+              <div className="px-4 py-2.5 bg-[#04060A] border-b border-mystic-500/30 text-[11px] font-bold tracking-wider text-accent-400 uppercase flex items-center justify-between">
+                <span>⚡ Hızlı Sözlük Eşleşmeleri</span>
                 <span>Enter ile kombinasyona ekle</span>
               </div>
-              <ul className="divide-y divide-night-800/60">
+              <ul className="divide-y divide-night-800/80">
                 {autocompleteSuggestions.map((suggestion) => (
                   <li key={suggestion.slug}>
                     <button
                       onClick={() => router.push(`/ruyada-${suggestion.slug}-gormek`)}
-                      className="w-full text-left px-5 py-3.5 hover:bg-mystic-950/50 flex items-center justify-between group transition-colors"
+                      className="w-full text-left px-5 py-4 hover:bg-mystic-900/40 flex items-center justify-between group transition-colors"
                     >
                       <div className="flex items-center gap-3">
-                        <span className="w-2 h-2 rounded-full bg-accent-500 group-hover:scale-125 transition-transform" />
-                        <span className="text-night-100 font-medium group-hover:text-mystic-200 transition-colors">
-                          Rüyada {suggestion.title} Görmek
+                        <span className="w-2.5 h-2.5 rounded-full bg-accent-500 group-hover:scale-125 transition-transform shrink-0" />
+                        <span className="text-white font-semibold group-hover:text-accent-300 transition-colors text-base">
+                          {formatSymbolTitle(suggestion.title)}
                         </span>
                       </div>
-                      <span className="text-xs text-night-400 group-hover:text-mystic-400 flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-all font-mono">
+                      <span className="text-xs text-gray-400 group-hover:text-white flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-all font-mono shrink-0">
                         Doğrudan Git <CornerDownLeft className="w-3.5 h-3.5" />
                       </span>
                     </button>
