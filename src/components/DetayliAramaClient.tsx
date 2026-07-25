@@ -45,6 +45,8 @@ export default function DetayliAramaClient({ symbols }: { symbols: DreamSymbol[]
   const [inputValue, setInputValue] = useState('');
   const [tags, setTags] = useState<string[]>([]);
   const [isFocused, setIsFocused] = useState(false);
+  const [feedbackDream, setFeedbackDream] = useState('');
+  const [feedbackSubmitted, setFeedbackSubmitted] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
   const router = useRouter();
 
@@ -149,6 +151,25 @@ export default function DetayliAramaClient({ symbols }: { symbols: DreamSymbol[]
       count: matchedSymbols.length
     };
   }, [matchedSymbols, activeTokens]);
+
+  const handleFeedbackSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!feedbackDream.trim()) return;
+    try {
+      const existing = JSON.parse(localStorage.getItem('ruya_missing_feedback') || '[]');
+      existing.push({
+        dream: feedbackDream.trim(),
+        date: new Date().toISOString(),
+        query: inputValue || tags.join(' ')
+      });
+      localStorage.setItem('ruya_missing_feedback', JSON.stringify(existing));
+      setFeedbackSubmitted(true);
+      setFeedbackDream('');
+      setTimeout(() => setFeedbackSubmitted(false), 5000);
+    } catch (err) {
+      console.error(err);
+    }
+  };
 
   const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
     if (e.key === 'Enter') {
@@ -391,10 +412,38 @@ export default function DetayliAramaClient({ symbols }: { symbols: DreamSymbol[]
           </div>
           
           {results.length === 0 ? (
-            <div className="text-center py-16 bg-night-900/40 rounded-3xl border border-night-800/80 border-dashed">
-              <Zap className="w-12 h-12 text-night-600 mx-auto mb-4" />
+            <div className="text-center py-16 bg-night-900/40 rounded-3xl border border-night-800/80 border-dashed px-4">
+              <Zap className="w-12 h-12 text-night-600 mx-auto mb-4 animate-pulse" />
               <p className="text-night-200 text-lg font-medium mb-2">Bu kelimelere uygun doğrudan bir rüya başlığı bulamadık.</p>
-              <p className="text-night-400 text-sm max-w-md mx-auto">Farklı eş anlamlı kelimeler (Örn: &quot;köpek&quot; yerine &quot;hayvan&quot;, &quot;para&quot; yerine &quot;altın&quot;) denemeyi deneyin.</p>
+              <p className="text-night-400 text-sm max-w-md mx-auto mb-8">Farklı eş anlamlı kelimeler (Örn: &quot;köpek&quot; yerine &quot;hayvan&quot;, &quot;para&quot; yerine &quot;altın&quot;) denemeyi deneyin veya hemen aşağıdan talep edin.</p>
+              
+              {/* Eksik Rüya Talep Kutusu (Boş Sonuç) */}
+              <div className="max-w-lg mx-auto bg-[#04060A] border-2 border-mystic-500/50 rounded-2xl p-6 text-left shadow-2xl">
+                <div className="flex items-center gap-2 text-accent-400 font-bold text-sm mb-2">
+                  <Sparkles className="w-4 h-4" />
+                  <span>Aradığın Rüyayı Bulamadın mı? Hemen Talep Et!</span>
+                </div>
+                <p className="text-xs text-gray-300 mb-4">
+                  Sistemimize günlük 200 yeni sembol ekleme standartımızla, talep ettiğiniz rüyayı sıfır fluff ve en az 850 kelimelik İslami & Psikolojik derinlikle hazırlayalım.
+                </p>
+                {feedbackSubmitted ? (
+                  <div className="bg-emerald-950/80 border border-emerald-500 text-emerald-200 p-3 rounded-xl text-center text-sm font-semibold animate-in zoom-in-95">
+                    ✅ Talebiniz alındı! Yapay zeka tefsir motorumuz rüyanızı sıraya aldı.
+                  </div>
+                ) : (
+                  <form onSubmit={handleFeedbackSubmit} className="flex flex-col gap-3">
+                    <textarea 
+                      value={feedbackDream}
+                      onChange={(e) => setFeedbackDream(e.target.value)}
+                      placeholder="Gördüğünüz rüyayı kısaca yazın (Örn: Rüyada yeşil elma yemek ve denize girmek)..."
+                      className="w-full bg-[#080B14] border border-night-700 text-white placeholder-gray-400 text-sm rounded-xl p-3 focus:outline-none focus:border-accent-400 min-h-[80px]"
+                    />
+                    <button type="submit" className="bg-gradient-to-r from-accent-600 to-accent-500 hover:from-accent-500 hover:to-accent-400 text-black font-bold py-2.5 px-4 rounded-xl text-sm transition-all shadow-lg hover:scale-[1.02]">
+                      🚀 Tabirini Hazırla & Ekle (Ücretsiz Talep)
+                    </button>
+                  </form>
+                )}
+              </div>
             </div>
           ) : (
             <div className="grid grid-cols-1 gap-4 md:gap-6">
@@ -427,6 +476,44 @@ export default function DetayliAramaClient({ symbols }: { symbols: DreamSymbol[]
                   </Link>
                 </div>
               ))}
+            </div>
+          )}
+          
+          {/* Sonuç Listesi Altı Genel Feedback Kutusu */}
+          {results.length > 0 && (
+            <div className="mt-12 bg-gradient-to-r from-night-900/90 to-mystic-950/80 border border-mystic-500/40 rounded-3xl p-6 md:p-8 text-left shadow-2xl">
+              <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
+                <div className="flex-1">
+                  <div className="flex items-center gap-2 text-accent-400 font-bold text-sm md:text-base mb-1">
+                    <Sparkles className="w-5 h-5" />
+                    <span>Aradığınız Rüya Varyasyonunu Bulamadınız mı?</span>
+                  </div>
+                  <p className="text-xs md:text-sm text-gray-300">
+                    Gördüğünüz spesifik senaryoyu bize yazın. Günlük 200 sembol ekleme standartımızla, 850+ kelimelik İslami ve Psikolojik tabirini hemen sisteme ekleyelim!
+                  </p>
+                </div>
+                
+                <div className="w-full md:w-96 shrink-0">
+                  {feedbackSubmitted ? (
+                    <div className="bg-emerald-950/80 border border-emerald-500 text-emerald-200 p-3 rounded-xl text-center text-sm font-semibold">
+                      ✅ Talebiniz alındı! En kısa sürede eklenecektir.
+                    </div>
+                  ) : (
+                    <form onSubmit={handleFeedbackSubmit} className="flex gap-2">
+                      <input 
+                        type="text"
+                        value={feedbackDream}
+                        onChange={(e) => setFeedbackDream(e.target.value)}
+                        placeholder="Örn: Eski evde kedi beslemek..."
+                        className="flex-1 bg-[#04060A] border border-night-700 text-white placeholder-gray-400 text-xs md:text-sm rounded-xl px-3 py-2.5 focus:outline-none focus:border-accent-400"
+                      />
+                      <button type="submit" className="bg-accent-500 hover:bg-accent-400 text-black font-bold px-4 py-2.5 rounded-xl text-xs md:text-sm shrink-0 transition-transform hover:scale-105">
+                        Talep Et
+                      </button>
+                    </form>
+                  )}
+                </div>
+              </div>
             </div>
           )}
         </div>
