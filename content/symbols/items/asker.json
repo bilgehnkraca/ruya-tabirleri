@@ -1,6 +1,6 @@
 {
   "slug": "asker",
-  "title": "Asker",
+  "title": "Rüyada Asker Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "insanlar",
   "shortDescription": "Rüyada asker görmek, güvende olmaya, ilahi yardıma (zafere), disipline, devlet işlerinin hallolmasına ve kişinin girdiği mücadeleden onuruyla (şerefle) galip çıkmasına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["polis", "ataturk", "cumhurbaskani", "kavga-etmek", "silah"]
+  "relatedSymbols": [
+    "polis",
+    "ataturk",
+    "cumhurbaskani",
+    "kavga-etmek",
+    "silah"
+  ]
 }

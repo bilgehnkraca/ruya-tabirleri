@@ -1,6 +1,6 @@
 {
   "slug": "pense",
-  "title": "Pense",
+  "title": "Rüyada Pense Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "nesneler",
   "shortDescription": "Rüyada pense görmek, bir şeyi sıkıca kavramaya, koparmaya, inatçı sorunları zor kullanarak çekip çıkarmaya ve ipleri eline almaya işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["cekic", "tornavida", "demir", "civi", "el"]
+  "relatedSymbols": [
+    "cekic",
+    "tornavida",
+    "demir",
+    "civi",
+    "el"
+  ]
 }

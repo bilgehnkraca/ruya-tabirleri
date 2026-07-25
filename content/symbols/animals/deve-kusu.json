@@ -1,6 +1,6 @@
 {
-  "slug": "deve_kusu",
-  "title": "Deve Kuşu",
+  "slug": "deve-kusu",
+  "title": "Rüyada Deve Kuşu Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada deve kuşu görmek, gerçeklerden kaçmaya, başını kuma gömmeye, büyük bir servete, şaşkınlığa veya güçlü ama ürkek bir yapıya işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["deve", "col", "kum", "altin", "korku"]
+  "relatedSymbols": [
+    "deve",
+    "col",
+    "kum",
+    "altin",
+    "korku"
+  ]
 }

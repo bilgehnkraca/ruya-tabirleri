@@ -1,6 +1,6 @@
 {
   "slug": "liman",
-  "title": "Liman",
+  "title": "Rüyada Liman Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "mekan",
   "shortDescription": "Rüyada liman görmek, hayatın fırtınalarından sonra bulunan güvenli bir sığınağa, duygusal derinliğe, yeni başlangıçlara, bilinçaltı yolculuklarına ve beklenen kısmetlere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["deniz", "gemi", "havaalani", "ev", "su"]
+  "relatedSymbols": [
+    "deniz",
+    "gemi",
+    "havaalani",
+    "ev",
+    "su"
+  ]
 }

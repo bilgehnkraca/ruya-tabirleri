@@ -1,6 +1,6 @@
 {
   "slug": "pazar",
-  "title": "Pazar Yeri",
+  "title": "Rüyada Pazar Yeri Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "mekan",
   "shortDescription": "Rüyada pazar veya çarşı görmek, dünyevi telaşlara, ticarete, fırsatlara, insan ilişkilerinin karmaşıklığına, seçme özgürlüğüne ve rekabetçi hayat mücadelesine işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["sokak", "elma", "altin", "ekmek", "para"]
+  "relatedSymbols": [
+    "sokak",
+    "elma",
+    "altin",
+    "ekmek",
+    "para"
+  ]
 }

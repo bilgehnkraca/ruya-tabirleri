@@ -1,6 +1,6 @@
 {
   "slug": "kutuphane",
-  "title": "Kütüphane",
+  "title": "Rüyada Kütüphane Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "mekan",
   "shortDescription": "Rüyada kütüphane görmek, bilgelik arayışına, geçmişin kolektif hafızasına, zihnin derinliklerine, araştırma ve öğrenme isteğine, yalnızlığa ve sessiz bir aydınlanmaya işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["okul", "cami", "saray", "karanlik", "kapi"]
+  "relatedSymbols": [
+    "okul",
+    "cami",
+    "saray",
+    "karanlik",
+    "kapi"
+  ]
 }

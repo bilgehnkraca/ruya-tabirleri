@@ -1,6 +1,6 @@
 {
   "slug": "ucurum",
-  "title": "Uçurum",
+  "title": "Rüyada Uçurum Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada uçurum görmek, hayatın kıyısında (bıçak sırtında) alınan kararlara, çok büyük risklere, tehlikeye (düşüş korkusuna) ve geri dönüşü olmayan (keskin) sınırlara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["dag", "kuyu", "magara", "yol", "deniz"]
+  "relatedSymbols": [
+    "dag",
+    "kuyu",
+    "magara",
+    "yol",
+    "deniz"
+  ]
 }

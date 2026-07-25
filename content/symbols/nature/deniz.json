@@ -1,6 +1,6 @@
 {
   "slug": "deniz",
-  "title": "Deniz (Okyanus)",
+  "title": "Rüyada Deniz (Okyanus) Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada deniz görmek, bilinçaltının derinliklerine, uçsuz bucaksız hayallere, devlet veya ulu bir makama, ruhsal dalgalanmalara ve (durgunsa) büyük huzura işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["su", "dalga", "balik", "gemi", "nehir"]
+  "relatedSymbols": [
+    "su",
+    "dalga",
+    "balik",
+    "gemi",
+    "nehir"
+  ]
 }

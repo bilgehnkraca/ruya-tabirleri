@@ -1,6 +1,6 @@
 {
   "slug": "sac",
-  "title": "Saç",
+  "title": "Rüyada Saç Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "beden",
   "shortDescription": "Rüyada saç görmek, mal ve ömür uzunluğuna, kadının (veya erkeğin) zinetine (güzelliğine), kedere (veya sevince), itibara ve düşüncelerin dışa vurumuna işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["bas", "yuz", "kadin", "ayna", "tarak"]
+  "relatedSymbols": [
+    "bas",
+    "yuz",
+    "kadin",
+    "ayna",
+    "tarak"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "mermer",
-  "title": "Mermer",
+  "title": "Rüyada Mermer Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada mermer görmek, zenginliğe (ihtişama), sağlamlığa (ve soğukluğa), yüksek makama, şerefe ve bazen de (soğuk) insanlara veya mezara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kaya", "tas", "saray", "mezar", "altin"]
+  "relatedSymbols": [
+    "kaya",
+    "tas",
+    "saray",
+    "mezar",
+    "altin"
+  ]
 }

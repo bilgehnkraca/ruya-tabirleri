@@ -1,6 +1,6 @@
 {
   "slug": "emniyet-kemeri",
-  "title": "Emniyet Kemeri",
+  "title": "Rüyada Emniyet Kemeri Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada emniyet kemeri görmek, hayata güvenle bağlanmaya, risklere karşı tedbir almaya, kendini garantiye alma ihtiyacına ve bazen de kısıtlanmışlık hissine işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["araba", "kask", "fren", "kilit", "polis"]
+  "relatedSymbols": [
+    "araba",
+    "kask",
+    "fren",
+    "kilit",
+    "polis"
+  ]
 }

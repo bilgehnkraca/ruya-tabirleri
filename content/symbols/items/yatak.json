@@ -1,6 +1,6 @@
 {
   "slug": "yatak",
-  "title": "Yatak",
+  "title": "Rüyada Yatak Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "nesne",
   "shortDescription": "Rüyada yatak görmek, eşe (evliliğe), dinlenme ve huzur arayışına, mahremiyete, yorgunluğun bitişine ve bazen de (eğer rahatsızsa) gizli hastalıklara/streslere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["oda", "ev", "gece", "ayna", "kapi"]
+  "relatedSymbols": [
+    "oda",
+    "ev",
+    "gece",
+    "ayna",
+    "kapi"
+  ]
 }

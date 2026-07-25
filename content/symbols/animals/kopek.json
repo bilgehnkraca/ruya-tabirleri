@@ -1,6 +1,6 @@
 {
   "slug": "kopek",
-  "title": "Köpek",
+  "title": "Rüyada Köpek Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada köpek görmek, sadakate, dostluğa, koruyuculuğa, düşmana (eğer saldırgansa) ve bilinçaltının içgüdüsel bekçisine işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kedi", "kurt", "aslan", "ev", "dis"]
+  "relatedSymbols": [
+    "kedi",
+    "kurt",
+    "aslan",
+    "ev",
+    "dis"
+  ]
 }

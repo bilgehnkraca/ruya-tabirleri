@@ -1,6 +1,6 @@
 {
   "slug": "havuz",
-  "title": "Havuz",
+  "title": "Rüyada Havuz Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada havuz görmek, biriktirilmiş zenginliğe, kişinin iç dünyasındaki huzura (veya durgunluğa), cömert bir insana ve bazen de sınırlı/kapalı duygulara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["su", "deniz", "nehir", "yuzmek", "banyo"]
+  "relatedSymbols": [
+    "su",
+    "deniz",
+    "nehir",
+    "yuzmek",
+    "banyo"
+  ]
 }

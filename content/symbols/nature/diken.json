@@ -1,6 +1,6 @@
 {
   "slug": "diken",
-  "title": "Diken",
+  "title": "Rüyada Diken Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "doga",
   "shortDescription": "Rüyada diken görmek, acı veren engellere, küçük ama can sıkan düşmanlıklara, güzelliğin bedeline, günahlara ve korunma mekanizmalarına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["gul", "cicek", "orman", "agac", "kan"]
+  "relatedSymbols": [
+    "gul",
+    "cicek",
+    "orman",
+    "agac",
+    "kan"
+  ]
 }

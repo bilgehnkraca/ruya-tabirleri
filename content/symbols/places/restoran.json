@@ -1,6 +1,6 @@
 {
   "slug": "restoran",
-  "title": "Restoran",
+  "title": "Rüyada Restoran Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "mekan",
   "shortDescription": "Rüyada restoran veya lokanta görmek, duygusal ve ruhsal beslenmeye, sosyal ilişkilere, tüketime, ödüllendirilme arzusuna veya yalnızlık hissine işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["ev", "otel", "hastane", "kan", "su"]
+  "relatedSymbols": [
+    "ev",
+    "otel",
+    "hastane",
+    "kan",
+    "su"
+  ]
 }

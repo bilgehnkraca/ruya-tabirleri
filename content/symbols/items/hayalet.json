@@ -1,6 +1,6 @@
 {
   "slug": "hayalet",
-  "title": "Hayalet",
+  "title": "Rüyada Hayalet Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "mitolojik",
   "shortDescription": "Rüyada hayalet görmek, geçmişin (çözülmemiş) meselelerine, bastırılmış anılara, vicdan azabına, görünmez tehlikelere (veya korumalara) işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["vampir", "zombi", "seytan", "melek", "cin"]
+  "relatedSymbols": [
+    "vampir",
+    "zombi",
+    "seytan",
+    "melek",
+    "cin"
+  ]
 }

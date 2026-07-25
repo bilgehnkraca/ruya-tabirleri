@@ -1,6 +1,6 @@
 {
   "slug": "kestane",
-  "title": "Kestane",
+  "title": "Rüyada Kestane Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "yiyecek",
   "shortDescription": "Rüyada kestane görmek, (dışındaki dikenlerden dolayı) çok tehlikeli/zor kazanılan ama (içi) son derece tatlı ve bereketli olan bir mala, kış huzuruna, saklanan büyük bir sırra işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["findik", "ceviz", "agac", "ates", "kis"]
+  "relatedSymbols": [
+    "findik",
+    "ceviz",
+    "agac",
+    "ates",
+    "kis"
+  ]
 }

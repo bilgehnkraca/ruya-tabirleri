@@ -1,6 +1,6 @@
 {
   "slug": "duvar",
-  "title": "Duvar",
+  "title": "Rüyada Duvar Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "nesneler",
   "shortDescription": "Rüyada duvar görmek, kişinin hayatındaki aşılamaz (veya koruyucu) sınırlara, devlet otoritesine, güvenliğe, sığınılacak dosta (babaya) ve bazen de (önüne çıkan) çok büyük engellere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kapi", "ev", "pencere", "kale", "dag"]
+  "relatedSymbols": [
+    "kapi",
+    "ev",
+    "pencere",
+    "kale",
+    "dag"
+  ]
 }

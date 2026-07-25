@@ -1,6 +1,6 @@
 {
   "slug": "polis",
-  "title": "Polis",
+  "title": "Rüyada Polis Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "insanlar",
   "shortDescription": "Rüyada polis görmek, güvenliğe, devletin adaletine, asayişin (düzenin) sağlanmasına, gizli sırların açığa çıkmasına ve bazen de (suçluluk duygusundan) yaşanacak resmi korkulara (cezaya) işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["asker", "ataturk", "cumhurbaskani", "kavga-etmek", "silah"]
+  "relatedSymbols": [
+    "asker",
+    "ataturk",
+    "cumhurbaskani",
+    "kavga-etmek",
+    "silah"
+  ]
 }

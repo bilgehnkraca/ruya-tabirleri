@@ -1,6 +1,6 @@
 {
   "slug": "badem",
-  "title": "Badem",
+  "title": "Rüyada Badem Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "yiyecek",
   "shortDescription": "Rüyada badem görmek, çok ince/zarif bir zevke, lüks ve tatlı bir zenginliğe, sağlıklı/uzun bir hayata, (acı ise) üzücü bir gerçeğe veya gizli bir ilme işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["findik", "ceviz", "agac", "tatli", "su"]
+  "relatedSymbols": [
+    "findik",
+    "ceviz",
+    "agac",
+    "tatli",
+    "su"
+  ]
 }

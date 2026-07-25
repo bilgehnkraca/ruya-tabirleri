@@ -1,6 +1,6 @@
 {
   "slug": "pirinc",
-  "title": "Pirinç",
+  "title": "Rüyada Pirinç Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "yiyecek",
   "shortDescription": "Rüyada pirinç görmek, çok zor ve meşakkatli bir çalışmayla kazanılan helal mala, büyük bir berekete (çoğalmaya), zenginliğe ve sayısız nimetlere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["bulgur", "mercimek", "su", "ates", "altin"]
+  "relatedSymbols": [
+    "bulgur",
+    "mercimek",
+    "su",
+    "ates",
+    "altin"
+  ]
 }

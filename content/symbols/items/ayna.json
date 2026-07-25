@@ -1,6 +1,6 @@
 {
   "slug": "ayna",
-  "title": "Ayna",
+  "title": "Rüyada Ayna Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "nesne",
   "shortDescription": "Rüyada ayna görmek, kişinin içsel gerçeğiyle yüzleşmesine, kibre, hayal kırıklıklarına, ikiyüzlü dostlara, sırlara ve bazen de (hamileler için) çocuğa işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["su", "kapi", "pencere", "yuz", "goz"]
+  "relatedSymbols": [
+    "su",
+    "kapi",
+    "pencere",
+    "yuz",
+    "goz"
+  ]
 }

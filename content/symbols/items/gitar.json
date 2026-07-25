@@ -1,6 +1,6 @@
 {
   "slug": "gitar",
-  "title": "Gitar",
+  "title": "Rüyada Gitar Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "nesneler",
   "shortDescription": "Rüyada gitar görmek, gençlik enerjisine, sosyal uyuma (arkadaşlığa), kişisel ifade özgürlüğüne, tutkuya ve bazen de geçici heveslere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["piyano", "sarki", "muzik", "ses", "keman"]
+  "relatedSymbols": [
+    "piyano",
+    "sarki",
+    "muzik",
+    "ses",
+    "keman"
+  ]
 }

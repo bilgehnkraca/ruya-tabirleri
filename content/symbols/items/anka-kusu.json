@@ -1,6 +1,6 @@
 {
-  "slug": "anka_kusu",
-  "title": "Anka Kuşu",
+  "slug": "anka-kusu",
+  "title": "Rüyada Anka Kuşu Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "mitolojik",
   "shortDescription": "Rüyada anka kuşu görmek, küllerinden yeniden doğmaya (büyük bir çöküşün ardından gelen mucizevi yükselişe), ölümsüzlüğe, bilgeliğe ve mutlak umuda işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["ejderha", "ates", "melek", "guvercin", "kus"]
+  "relatedSymbols": [
+    "ejderha",
+    "ates",
+    "melek",
+    "guvercin",
+    "kus"
+  ]
 }

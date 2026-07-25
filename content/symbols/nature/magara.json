@@ -1,6 +1,6 @@
 {
   "slug": "magara",
-  "title": "Mağara",
+  "title": "Rüyada Mağara Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "doga",
   "shortDescription": "Rüyada mağara görmek, anne rahmine, gizli sırlara, korkulardan saklanmaya, manevi uzlete, bilinçaltının en karanlık odalarına ve ölüm/yeniden doğuş döngüsüne işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["dag", "karanlik", "hazine", "orman", "tas"]
+  "relatedSymbols": [
+    "dag",
+    "karanlik",
+    "hazine",
+    "orman",
+    "tas"
+  ]
 }

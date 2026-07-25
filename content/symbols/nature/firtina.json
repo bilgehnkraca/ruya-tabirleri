@@ -1,6 +1,6 @@
 {
   "slug": "firtina",
-  "title": "Fırtına",
+  "title": "Rüyada Fırtına Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada fırtına görmek, hayattaki büyük krizlere, yıkıcı öfke patlamalarına, kontrol edilemeyen kaosa, radikal değişimlere ve ilahi uyarılara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["ruzgar", "yagmur", "hortum", "yildirim", "bulut"]
+  "relatedSymbols": [
+    "ruzgar",
+    "yagmur",
+    "hortum",
+    "yildirim",
+    "bulut"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "egzoz",
-  "title": "Egzoz (Egzoz Borusu)",
+  "title": "Rüyada Egzoz (Egzoz Borusu) Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada egzoz görmek, içsel stresi/kirliliği dışarı atmaya, rahatlamaya, geçmişin yüklerinden kurtulmaya ve bazen de (kara duman atıyorsa) çevreyi zehirlemeye işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["araba", "motor", "fren", "ates", "agiz"]
+  "relatedSymbols": [
+    "araba",
+    "motor",
+    "fren",
+    "ates",
+    "agiz"
+  ]
 }

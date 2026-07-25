@@ -1,6 +1,6 @@
 {
   "slug": "priz",
-  "title": "Priz",
+  "title": "Rüyada Priz Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada priz görmek, ana enerji kaynağına bağlanmaya, güç veya destek aramaya, tehlikeli bir bağlantıya (çarpılma riski) ve potansiyel enerjiyi kullanmaya işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["elektrik", "ampul", "televizyon", "kablo", "telefon"]
+  "relatedSymbols": [
+    "elektrik",
+    "ampul",
+    "televizyon",
+    "kablo",
+    "telefon"
+  ]
 }

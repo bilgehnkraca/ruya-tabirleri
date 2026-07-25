@@ -1,6 +1,6 @@
 {
   "slug": "kedi",
-  "title": "Kedi",
+  "title": "Rüyada Kedi Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada kedi görmek, bağımsızlığa, dişil enerjiye, gizemli güçlere, sezgilere, nankörlüğe veya ev içindeki hırsız/dedikoducu bir düşmana işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kopek", "yilan", "fare", "kadin", "ev"]
+  "relatedSymbols": [
+    "kopek",
+    "yilan",
+    "fare",
+    "kadin",
+    "ev"
+  ]
 }

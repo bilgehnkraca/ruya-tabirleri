@@ -1,6 +1,6 @@
 {
   "slug": "salyangoz",
-  "title": "Salyangoz",
+  "title": "Rüyada Salyangoz Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada salyangoz görmek, çok yavaş ama emin adımlarla ilerleyen bir işe, hassas ve içe dönük bir yapıya, ev veya mülk sahibi olmaya, zorlu ama kalıcı bir yola işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kaplumbaga", "ev", "yilan", "bocek", "yagmur"]
+  "relatedSymbols": [
+    "kaplumbaga",
+    "ev",
+    "yilan",
+    "bocek",
+    "yagmur"
+  ]
 }

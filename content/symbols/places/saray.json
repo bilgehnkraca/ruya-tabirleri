@@ -1,6 +1,6 @@
 {
   "slug": "saray",
-  "title": "Saray",
+  "title": "Rüyada Saray Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "mekan",
   "shortDescription": "Rüyada saray görmek, kişinin güç, otorite, zenginlik, ihtişam arzusuna, potansiyelinin zirvesine ulaşmasına veya kibir ve yalnızlık dolu bir hapishaneye düşmesine işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["ev", "otel", "altin", "tac", "kapi"]
+  "relatedSymbols": [
+    "ev",
+    "otel",
+    "altin",
+    "tac",
+    "kapi"
+  ]
 }

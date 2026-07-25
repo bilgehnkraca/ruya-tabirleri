@@ -1,6 +1,6 @@
 {
   "slug": "kamera",
-  "title": "Kamera",
+  "title": "Rüyada Kamera Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "nesneler",
   "shortDescription": "Rüyada kamera görmek, geçmişi kaydetmeye (anı biriktirme), izlendiğini düşünmeye (paranoya), olaylara dışarıdan / objektif bakabilmeye ve sırların kaydedilmesine işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["fotograf", "televizyon", "bilgisayar", "goz", "ayna"]
+  "relatedSymbols": [
+    "fotograf",
+    "televizyon",
+    "bilgisayar",
+    "goz",
+    "ayna"
+  ]
 }

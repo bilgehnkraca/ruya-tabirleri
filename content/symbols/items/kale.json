@@ -1,6 +1,6 @@
 {
   "slug": "kale",
-  "title": "Kale",
+  "title": "Rüyada Kale Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "mekanlar",
   "shortDescription": "Rüyada kale görmek, din ve dünya işlerinde güvenliğe (sağlamlığa), düşmanlardan korunmaya, büyük bir güce (iktidara), inada (katılığa) ve aşılması zor engellere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["saray", "bina", "sehir", "koy", "duvar"]
+  "relatedSymbols": [
+    "saray",
+    "bina",
+    "sehir",
+    "koy",
+    "duvar"
+  ]
 }

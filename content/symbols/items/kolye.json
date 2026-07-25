@@ -1,6 +1,6 @@
 {
   "slug": "kolye",
-  "title": "Kolye",
+  "title": "Rüyada Kolye Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "nesne",
   "shortDescription": "Rüyada kolye görmek, boyna takılan bir süs ve yük olarak; kişinin üstlendiği büyük emanetlere, evliliğe, sevgi bağına ve (bazen de) boğucu bir sorumluluğa işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["altin", "yuzuk", "kupe", "evlilik", "dugun"]
+  "relatedSymbols": [
+    "altin",
+    "yuzuk",
+    "kupe",
+    "evlilik",
+    "dugun"
+  ]
 }

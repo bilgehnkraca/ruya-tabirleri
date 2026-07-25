@@ -1,6 +1,6 @@
 {
   "slug": "kask",
-  "title": "Kask",
+  "title": "Rüyada Kask Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "nesneler",
   "shortDescription": "Rüyada kask görmek, zihni (fikirleri) korumaya, yaklaşan tehlikelere karşı önlem almaya, hız/macera tutkusuna ve dış etkenlere kendini kapatmaya işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["bas", "motor", "fren", "sapka", "bere"]
+  "relatedSymbols": [
+    "bas",
+    "motor",
+    "fren",
+    "sapka",
+    "bere"
+  ]
 }

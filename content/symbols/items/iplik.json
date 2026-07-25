@@ -1,6 +1,6 @@
 {
   "slug": "iplik",
-  "title": "İplik",
+  "title": "Rüyada İplik Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "nesne",
   "shortDescription": "Rüyada iplik görmek, ömrün uzunluğuna, insanların birbirine olan bağlarına (ilişkilere), sabırla dokunan işlere, karmaşık sorunlara (düğümlere) ve hayat yolculuğuna işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["igne", "makas", "elbise", "yol", "orman"]
+  "relatedSymbols": [
+    "igne",
+    "makas",
+    "elbise",
+    "yol",
+    "orman"
+  ]
 }

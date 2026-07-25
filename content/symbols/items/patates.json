@@ -1,6 +1,6 @@
 {
   "slug": "patates",
-  "title": "Patates",
+  "title": "Rüyada Patates Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "yiyecek",
   "shortDescription": "Rüyada patates görmek, toprağın altında gizlenmiş çok sağlam bir mala, ucuz ve kolay rızka, tembelliğe (couch potato), gizli yeteneklere ve sarsılmaz bir dayanıklılığa işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["toprak", "sogan", "havuc", "ev", "altin"]
+  "relatedSymbols": [
+    "toprak",
+    "sogan",
+    "havuc",
+    "ev",
+    "altin"
+  ]
 }

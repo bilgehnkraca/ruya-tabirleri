@@ -1,6 +1,6 @@
 {
   "slug": "dag",
-  "title": "Dağ",
+  "title": "Rüyada Dağ Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "doga",
   "shortDescription": "Rüyada dağ görmek, ulaşılamaz yüce hedeflere, sarsılmaz bir güce/lidere, zorlu engellere, manevi yükselişe ve yalnızlık ihtiyacına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["magara", "orman", "vadi", "kar", "tas"]
+  "relatedSymbols": [
+    "magara",
+    "orman",
+    "vadi",
+    "kar",
+    "tas"
+  ]
 }

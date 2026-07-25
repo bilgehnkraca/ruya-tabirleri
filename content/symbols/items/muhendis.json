@@ -1,6 +1,6 @@
 {
   "slug": "muhendis",
-  "title": "Mühendis",
+  "title": "Rüyada Mühendis Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "meslek",
   "shortDescription": "Rüyada mühendis görmek, hayatı (mantıkla) yeniden inşa etmeye, planlı (projeli) bir değişime, yaratıcılığa, sorunların (teknik) çözümüne ve temel sağlamlaştırmaya işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["doktor", "hakim", "avukat", "isci", "ogretmen"]
+  "relatedSymbols": [
+    "doktor",
+    "hakim",
+    "avukat",
+    "isci",
+    "ogretmen"
+  ]
 }

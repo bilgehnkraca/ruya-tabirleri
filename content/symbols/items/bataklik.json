@@ -1,6 +1,6 @@
 {
   "slug": "bataklik",
-  "title": "Bataklık",
+  "title": "Rüyada Bataklık Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada bataklık görmek, içinden çıkılması zor sorunlara (borca/günaha), tuzaklara, karanlık düşüncelere, iflasa ve tehlikeli (güvensiz) bir ortama işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["su", "havuz", "yilan", "camur", "nehir"]
+  "relatedSymbols": [
+    "su",
+    "havuz",
+    "yilan",
+    "camur",
+    "nehir"
+  ]
 }

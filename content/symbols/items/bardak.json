@@ -1,6 +1,6 @@
 {
   "slug": "bardak",
-  "title": "Bardak",
+  "title": "Rüyada Bardak Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada bardak görmek, kişisel (sınırları belli) bir rızka, duygusal kapasiteye, su gibi aziz bir kısmete ve bazen de (kırılırsa) kalp kırıklığına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["su", "cay", "tabak", "cam", "kirik"]
+  "relatedSymbols": [
+    "su",
+    "cay",
+    "tabak",
+    "cam",
+    "kirik"
+  ]
 }

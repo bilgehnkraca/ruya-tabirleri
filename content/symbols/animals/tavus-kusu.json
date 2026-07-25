@@ -1,6 +1,6 @@
 {
-  "slug": "tavus_kusu",
-  "title": "Tavus Kuşu",
+  "slug": "tavus-kusu",
+  "title": "Rüyada Tavus Kuşu Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada tavus kuşu görmek, gösterişe, kibre, olağanüstü bir güzelliğe, zenginliğe, kibirli bir düşmana veya sanatın ihtişamına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kus", "guzellik", "zenginlik", "kral", "seytan"]
+  "relatedSymbols": [
+    "kus",
+    "guzellik",
+    "zenginlik",
+    "kral",
+    "seytan"
+  ]
 }

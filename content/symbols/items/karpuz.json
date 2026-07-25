@@ -1,6 +1,6 @@
 {
   "slug": "karpuz",
-  "title": "Karpuz",
+  "title": "Rüyada Karpuz Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "yiyecek",
   "shortDescription": "Rüyada karpuz görmek, dışı sert içi tatlı olan sürprizlere, gizli sırlara (içi kesilmeden bilinmez), berekete, yazın getirdiği ferahlığa ve bazen de (hastalar için) şifaya işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kavun", "su", "toprak", "bicak", "kan"]
+  "relatedSymbols": [
+    "kavun",
+    "su",
+    "toprak",
+    "bicak",
+    "kan"
+  ]
 }

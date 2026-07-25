@@ -1,6 +1,6 @@
 {
   "slug": "kardes",
-  "title": "Kardeş",
+  "title": "Rüyada Kardeş Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "insan",
   "shortDescription": "Rüyada kardeş görmek, güvene (dayanışmaya), ortak mirasa (bölünmeye), rekabete, kan bağına, omuz omuza verilecek mücadeleye ve sırdaşlığa işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["baba", "anne", "ev", "arkadas", "cocuk"]
+  "relatedSymbols": [
+    "baba",
+    "anne",
+    "ev",
+    "arkadas",
+    "cocuk"
+  ]
 }

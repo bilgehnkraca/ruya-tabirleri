@@ -1,6 +1,6 @@
 {
   "slug": "penguen",
-  "title": "Penguen",
+  "title": "Rüyada Penguen Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "hayvanlar",
   "shortDescription": "Rüyada penguen görmek, zor şartlara uyum sağlamaya, komik ama asil bir duruşa, soğukkanlılığa, dayanıklılığa veya duygusal soğukluğa işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kurt", "buz", "kar", "deniz", "kus"]
+  "relatedSymbols": [
+    "kurt",
+    "buz",
+    "kar",
+    "deniz",
+    "kus"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "ataturk",
-  "title": "Atatürk",
+  "title": "Rüyada Atatürk Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "insanlar",
   "shortDescription": "Rüyada Atatürk'ü görmek, rüya sahibinin hayatında yaşayacağı eşsiz bir aydınlanmaya, liderliğe, milli gurura, çok büyük bir devlet işine ve bağımsızlık (kurtuluş) mücadelesindeki mutlak zafere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["cumhurbaskani", "asker", "polis", "ogretmen", "bayrak"]
+  "relatedSymbols": [
+    "cumhurbaskani",
+    "asker",
+    "polis",
+    "ogretmen",
+    "bayrak"
+  ]
 }

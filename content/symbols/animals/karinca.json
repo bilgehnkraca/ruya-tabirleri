@@ -1,6 +1,6 @@
 {
   "slug": "karinca",
-  "title": "Karınca",
+  "title": "Rüyada Karınca Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada karınca görmek, berekete, çok ve azimli çalışmaya, kalabalık bir aileye veya topluluğa, sabra, bazen de uzun süren yorucu bir mücadeleye işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["ari", "orumcek", "toprak", "tohum", "fare"]
+  "relatedSymbols": [
+    "ari",
+    "orumcek",
+    "toprak",
+    "tohum",
+    "fare"
+  ]
 }

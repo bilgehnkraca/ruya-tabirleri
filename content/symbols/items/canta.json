@@ -1,6 +1,6 @@
 {
   "slug": "canta",
-  "title": "Çanta",
+  "title": "Rüyada Çanta Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "nesne",
   "shortDescription": "Rüyada çanta görmek, kişinin biriktirdiği sırlara, taşıdığı yük/sorumluluklara, biriktirdiği paraya (veya günahlara), yolculuğa ve saklanan kadınsı/eril kimliğe işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["elbise", "ayakkabi", "yol", "araba", "ev"]
+  "relatedSymbols": [
+    "elbise",
+    "ayakkabi",
+    "yol",
+    "araba",
+    "ev"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "leylek",
-  "title": "Leylek",
+  "title": "Rüyada Leylek Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "hayvanlar",
   "shortDescription": "Rüyada leylek görmek, uzun bir yolculuğa, beklenen hayırlı bir habere, bebek müjdesine, aile bağlarına, göç etmeye ve uzak ufuklara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kus", "bahar", "bebek", "yolculuk", "gokyuzu"]
+  "relatedSymbols": [
+    "kus",
+    "bahar",
+    "bebek",
+    "yolculuk",
+    "gokyuzu"
+  ]
 }

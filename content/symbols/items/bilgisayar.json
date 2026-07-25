@@ -1,6 +1,6 @@
 {
   "slug": "bilgisayar",
-  "title": "Bilgisayar",
+  "title": "Rüyada Bilgisayar Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "nesne",
   "shortDescription": "Rüyada bilgisayar görmek, zihinsel güce (mantığa), karmaşık hesaplara, iş hayatına, kişinin sakladığı verilere (hafıza) ve teknolojik uyanışa işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["telefon", "televizyon", "kalem", "kitap", "masa"]
+  "relatedSymbols": [
+    "telefon",
+    "televizyon",
+    "kalem",
+    "kitap",
+    "masa"
+  ]
 }

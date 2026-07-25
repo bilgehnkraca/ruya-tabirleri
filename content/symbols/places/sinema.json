@@ -1,6 +1,6 @@
 {
   "slug": "sinema",
-  "title": "Sinema",
+  "title": "Rüyada Sinema Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "mekan",
   "shortDescription": "Rüyada sinema görmek, hayatın illüzyonuna, başkalarının hikayelerini izlemeye, pasif gözlemciliğe, hayal dünyasına kaçışa ve kendi bilinçaltının perdedeki yansımasına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["tiyatro", "televizyon", "fotograf", "karanlik", "ayna"]
+  "relatedSymbols": [
+    "tiyatro",
+    "televizyon",
+    "fotograf",
+    "karanlik",
+    "ayna"
+  ]
 }

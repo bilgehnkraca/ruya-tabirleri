@@ -1,6 +1,6 @@
 {
   "slug": "findik",
-  "title": "Fındık",
+  "title": "Rüyada Fındık Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "yiyecek",
   "shortDescription": "Rüyada fındık görmek, çetin bir ceviz gibi (zor kazanılan) ancak içi çok tatlı ve değerli (altın/para) olan bir zenginliğe, sağlıklı yaşama, bereketli aşka ve bazen inatçı bir kişiliğe işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["ceviz", "fistik", "badem", "altin", "agac"]
+  "relatedSymbols": [
+    "ceviz",
+    "fistik",
+    "badem",
+    "altin",
+    "agac"
+  ]
 }

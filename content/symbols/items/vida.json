@@ -1,6 +1,6 @@
 {
   "slug": "vida",
-  "title": "Vida",
+  "title": "Rüyada Vida Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada vida görmek, sabırla ve döne döne çözülen işlere, sinsi bir şekilde yerleşen düşüncelere, ince hesaplara ve bazen de (yalama olursa) boşa çıkan çabalara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["tornavida", "civi", "matkap", "demir", "tahta"]
+  "relatedSymbols": [
+    "tornavida",
+    "civi",
+    "matkap",
+    "demir",
+    "tahta"
+  ]
 }

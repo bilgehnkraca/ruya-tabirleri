@@ -1,6 +1,6 @@
 {
   "slug": "doktor",
-  "title": "Doktor",
+  "title": "Rüyada Doktor Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "meslek",
   "shortDescription": "Rüyada doktor görmek, ruhsal veya bedensel bir şifaya, bilge bir uzmandan alınacak yardıma, hataların onarılmasına ve sağlığa (hayata) kavuşmaya işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["hemsire", "avukat", "hakim", "ogretmen", "muhendis"]
+  "relatedSymbols": [
+    "hemsire",
+    "avukat",
+    "hakim",
+    "ogretmen",
+    "muhendis"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "utu",
-  "title": "Ütü",
+  "title": "Rüyada Ütü Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "nesne",
   "shortDescription": "Rüyada ütü görmek, hayatı düzene sokmaya, pürüzleri gidermeye, imajı düzeltmeye, yoğun baskıya (strese), zorlu görevlere ve hataları örtbas etmeye işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["elbise", "masa", "yatak", "firin", "ayakkabi"]
+  "relatedSymbols": [
+    "elbise",
+    "masa",
+    "yatak",
+    "firin",
+    "ayakkabi"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "mercimek",
-  "title": "Mercimek",
+  "title": "Rüyada Mercimek Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "yiyecek",
   "shortDescription": "Rüyada mercimek görmek, çok hızlı ele geçen küçük ama bereketli paraya, (rengine göre) bazen şifalı bir çorbaya, bazen hüzne ve (ufak tefek) bitmek bilmeyen sorunlara/dedikodulara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["nohut", "fasulye", "pirinc", "su", "ates"]
+  "relatedSymbols": [
+    "nohut",
+    "fasulye",
+    "pirinc",
+    "su",
+    "ates"
+  ]
 }

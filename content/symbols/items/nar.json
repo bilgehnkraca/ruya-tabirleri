@@ -1,6 +1,6 @@
 {
   "slug": "nar",
-  "title": "Nar",
+  "title": "Rüyada Nar Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "yiyecek",
   "shortDescription": "Rüyada nar görmek, berekete, evliliğe, (tek bir kabuk altında gizlenen) yüzlerce nimete, sırlara, kadın zarafetine ve çoğalan zürriyete işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["elma", "uzum", "agac", "kan", "altin"]
+  "relatedSymbols": [
+    "elma",
+    "uzum",
+    "agac",
+    "kan",
+    "altin"
+  ]
 }

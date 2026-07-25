@@ -1,6 +1,6 @@
 {
   "slug": "biber",
-  "title": "Biber",
+  "title": "Rüyada Biber Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "yiyecek",
   "shortDescription": "Rüyada biber görmek, acı sözlere, kalp kırıcı tartışmalara, (tatlı ise) güzel başlangıçlara, ani parlayan öfkeye ve bazen de (hastalara) şifa olan bir gözyaşına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["ates", "su", "goz", "domates", "toprak"]
+  "relatedSymbols": [
+    "ates",
+    "su",
+    "goz",
+    "domates",
+    "toprak"
+  ]
 }

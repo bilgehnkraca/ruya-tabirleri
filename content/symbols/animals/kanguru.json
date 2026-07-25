@@ -1,6 +1,6 @@
 {
   "slug": "kanguru",
-  "title": "Kanguru",
+  "title": "Rüyada Kanguru Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada kanguru görmek, annelik içgüdülerine, korumaya, büyük sıçramalara, ani gelişmelere, uzun mesafeleri hızla kat etmeye ve evlat sevgisine işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["hayvan", "col", "anne", "hiz", "bebek"]
+  "relatedSymbols": [
+    "hayvan",
+    "col",
+    "anne",
+    "hiz",
+    "bebek"
+  ]
 }

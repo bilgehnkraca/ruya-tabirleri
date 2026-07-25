@@ -1,6 +1,6 @@
 {
   "slug": "vapur",
-  "title": "Vapur",
+  "title": "Rüyada Vapur Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "tasitlar",
   "shortDescription": "Rüyada vapur görmek, deniz (duygular) üzerinden yapılan huzurlu bir geçişe (kısa yolculuğa), nostaljiye, toplumsal birlikteliğe ve iki yaka (durum) arasında köprü kurmaya işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["gemi", "deniz", "dalga", "su", "marti"]
+  "relatedSymbols": [
+    "gemi",
+    "deniz",
+    "dalga",
+    "su",
+    "marti"
+  ]
 }

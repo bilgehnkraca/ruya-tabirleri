@@ -1,6 +1,6 @@
 {
   "slug": "seytan",
-  "title": "Şeytan",
+  "title": "Rüyada Şeytan Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "mistik",
   "shortDescription": "Rüyada şeytan görmek, insanın içindeki o muazzam (ve kışkırtıcı) kibre, yalanlara, hilekar bir düşmana (münafığa) ve imanın en büyük (sınav) testine işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["cin", "karanlik", "yilan", "ates", "kan"]
+  "relatedSymbols": [
+    "cin",
+    "karanlik",
+    "yilan",
+    "ates",
+    "kan"
+  ]
 }

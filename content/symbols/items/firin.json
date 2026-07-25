@@ -1,6 +1,6 @@
 {
   "slug": "firin",
-  "title": "Fırın",
+  "title": "Rüyada Fırın Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "mekan",
   "shortDescription": "Rüyada fırın görmek, rızkın pişmesine (olgunlaşmasına), evliliğe (aile ocağına), yoğun strese, sıkıntıların bitişine, işlerin bereketlenmesine ve dönüştürücü ateşin gücüne işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["buzdolabi", "masa", "yatak", "kapi", "orman"]
+  "relatedSymbols": [
+    "buzdolabi",
+    "masa",
+    "yatak",
+    "kapi",
+    "orman"
+  ]
 }

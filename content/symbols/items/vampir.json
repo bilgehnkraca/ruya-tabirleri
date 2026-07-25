@@ -1,6 +1,6 @@
 {
   "slug": "vampir",
-  "title": "Vampir",
+  "title": "Rüyada Vampir Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "mitolojik",
   "shortDescription": "Rüyada vampir görmek, enerjinizi emen (toksik) insanlara, sinsi sömürüye, tükenmişliğe, bağımlılıklara ve cazibeli ama tehlikeli (yasak) ilişkilere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["seytan", "zombi", "hayalet", "cin", "kurtadam"]
+  "relatedSymbols": [
+    "seytan",
+    "zombi",
+    "hayalet",
+    "cin",
+    "kurtadam"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "pinar",
-  "title": "Pınar",
+  "title": "Rüyada Pınar Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada pınar (kaynak suyu) görmek, bitmez tükenmez bir rızka (ilme), hayata yeni bir başlangıca, doğal (saf) duygulara ve içsel şifaya işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["su", "cesme", "havuz", "dag", "deniz"]
+  "relatedSymbols": [
+    "su",
+    "cesme",
+    "havuz",
+    "dag",
+    "deniz"
+  ]
 }

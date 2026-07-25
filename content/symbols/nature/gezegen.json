@@ -1,6 +1,6 @@
 {
   "slug": "gezegen",
-  "title": "Gezegen",
+  "title": "Rüyada Gezegen Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "doga",
   "shortDescription": "Rüyada gezegen görmek, büyük sistemlere, hayatınızdaki farklı dönemlerin yöneticilerine, evrensel düzenin parçası olmaya ve kişinin içsel dünyalarındaki uyuma işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["yildiz", "gunes", "ay", "karanlik", "dunya"]
+  "relatedSymbols": [
+    "yildiz",
+    "gunes",
+    "ay",
+    "karanlik",
+    "dunya"
+  ]
 }

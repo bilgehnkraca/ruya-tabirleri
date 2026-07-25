@@ -1,6 +1,6 @@
 {
   "slug": "bulgur",
-  "title": "Bulgur",
+  "title": "Rüyada Bulgur Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "yiyecek",
   "shortDescription": "Rüyada bulgur görmek, alın teriyle kazanılan (en temel/halk tipi) helal rızka, sağlığa, mütevazı (gösterişsiz) bir yaşama ve bereketli (çokluk) bir kalabalığa işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["pirinc", "su", "ates", "toprak", "bugday"]
+  "relatedSymbols": [
+    "pirinc",
+    "su",
+    "ates",
+    "toprak",
+    "bugday"
+  ]
 }

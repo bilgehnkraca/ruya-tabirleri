@@ -1,6 +1,6 @@
 {
   "slug": "patlican",
-  "title": "Patlıcan",
+  "title": "Rüyada Patlıcan Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "yiyecek",
   "shortDescription": "Rüyada patlıcan görmek, bazen (mevsimsizse) hüzne, iç karartıcı bir habere, bazen de çok zor şartlarda kazanılan şerefli bir makama ve bereketli bir yemeğe işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["toprak", "ates", "su", "domates", "biber"]
+  "relatedSymbols": [
+    "toprak",
+    "ates",
+    "su",
+    "domates",
+    "biber"
+  ]
 }

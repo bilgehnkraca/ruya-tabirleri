@@ -1,6 +1,6 @@
 {
   "slug": "fasulye",
-  "title": "Fasulye",
+  "title": "Rüyada Fasulye Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "yiyecek",
   "shortDescription": "Rüyada fasulye görmek, (yeşil ise) anında ele geçen berekete ve gençliğe, (kuru ise) uzun süreli çabaya, zor elde edilen mala ve bazen de hane içindeki bolluğa işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["nohut", "mercimek", "toprak", "su", "altin"]
+  "relatedSymbols": [
+    "nohut",
+    "mercimek",
+    "toprak",
+    "su",
+    "altin"
+  ]
 }

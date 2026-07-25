@@ -1,6 +1,6 @@
 {
   "slug": "baraj",
-  "title": "Baraj",
+  "title": "Rüyada Baraj Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "doga",
   "shortDescription": "Rüyada baraj görmek, birikmiş büyük bir potansiyele (veya öfkeye), kontrol altındaki zenginliğe, önemli devlet işlerine ve bazen de patlamaya hazır bir tehlikeye işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["su", "gol", "sel", "nehir", "duvar"]
+  "relatedSymbols": [
+    "su",
+    "gol",
+    "sel",
+    "nehir",
+    "duvar"
+  ]
 }

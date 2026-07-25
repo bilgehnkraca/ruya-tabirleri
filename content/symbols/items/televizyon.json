@@ -1,6 +1,6 @@
 {
   "slug": "televizyon",
-  "title": "Televizyon",
+  "title": "Rüyada Televizyon Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "nesne",
   "shortDescription": "Rüyada televizyon görmek, toplumsal haberlere, dış dünyaya açılan pencereye, kitlesel algılara (illüzyonlara), boş zamanlara ve kişinin olayları pasif izleyici olarak görmesine işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["bilgisayar", "telefon", "ayna", "kapi", "masa"]
+  "relatedSymbols": [
+    "bilgisayar",
+    "telefon",
+    "ayna",
+    "kapi",
+    "masa"
+  ]
 }

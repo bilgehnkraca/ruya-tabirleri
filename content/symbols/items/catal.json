@@ -1,6 +1,6 @@
 {
   "slug": "catal",
-  "title": "Çatal",
+  "title": "Rüyada Çatal Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "nesneler",
   "shortDescription": "Rüyada çatal görmek, ayrılıklara (yol ayrımına), seçici olmaya, batıcı/kırıcı sözlere, ikilemlere ve kısmetten (zorla) pay almaya işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kasik", "bicak", "yemek", "tabak", "yol"]
+  "relatedSymbols": [
+    "kasik",
+    "bicak",
+    "yemek",
+    "tabak",
+    "yol"
+  ]
 }

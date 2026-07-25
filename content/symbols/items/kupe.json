@@ -1,6 +1,6 @@
 {
   "slug": "kupe",
-  "title": "Küpe",
+  "title": "Rüyada Küpe Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "nesne",
   "shortDescription": "Rüyada küpe görmek, kişinin duyduğu veya duyacağı önemli nasihatlere (kulağa küpe olması), söylentilere, zenginliğe, evlilik/aşk hayatına ve müziğe/ritme işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["altin", "kolye", "yuzuk", "evlilik", "kadin"]
+  "relatedSymbols": [
+    "altin",
+    "kolye",
+    "yuzuk",
+    "evlilik",
+    "kadin"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "aslan",
-  "title": "Aslan",
+  "title": "Rüyada Aslan Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada aslan görmek, güce, otoriteye, liderliğe, devlet makamına, cesarete veya korkutucu bir düşmana (veya babaya) işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kopek", "kral", "altin", "baba", "at"]
+  "relatedSymbols": [
+    "kopek",
+    "kral",
+    "altin",
+    "baba",
+    "at"
+  ]
 }

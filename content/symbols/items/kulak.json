@@ -1,6 +1,6 @@
 {
   "slug": "kulak",
-  "title": "Kulak",
+  "title": "Rüyada Kulak Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "beden",
   "shortDescription": "Rüyada kulak görmek, gizli sırlara (dedikodulara), nasihat ve itaate, eşe (veya kız çocuğuna) ve toplum içindeki (işitilen) itibarınıza işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["goz", "burun", "agiz", "yuz", "ses"]
+  "relatedSymbols": [
+    "goz",
+    "burun",
+    "agiz",
+    "yuz",
+    "ses"
+  ]
 }

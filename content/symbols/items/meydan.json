@@ -1,6 +1,6 @@
 {
   "slug": "meydan",
-  "title": "Meydan",
+  "title": "Rüyada Meydan Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "mekanlar",
   "shortDescription": "Rüyada meydan görmek, özgürlüğe (açıklığa), büyük (toplumsal) bir olaya, kalabalıkların şahitliğine, adalete ve bazen de büyük bir hesaplaşmaya işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["sehir", "sokak", "cadde", "kalabalik", "mahalle"]
+  "relatedSymbols": [
+    "sehir",
+    "sokak",
+    "cadde",
+    "kalabalik",
+    "mahalle"
+  ]
 }

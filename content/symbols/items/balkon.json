@@ -1,6 +1,6 @@
 {
   "slug": "balkon",
-  "title": "Balkon",
+  "title": "Rüyada Balkon Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "mekan",
   "shortDescription": "Rüyada balkon görmek, hayata karşı yeni bir perspektife (geniş bir vizyona), sosyal ilişkilere, özgürlük arayışına, rahatlamaya ve dış dünyayla kurulan güvenli bağlantıya işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["pencere", "merdiven", "kapi", "cati", "duvar"]
+  "relatedSymbols": [
+    "pencere",
+    "merdiven",
+    "kapi",
+    "cati",
+    "duvar"
+  ]
 }

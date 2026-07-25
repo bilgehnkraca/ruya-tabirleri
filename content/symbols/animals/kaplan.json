@@ -1,6 +1,6 @@
 {
   "slug": "kaplan",
-  "title": "Kaplan",
+  "title": "Rüyada Kaplan Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "hayvanlar",
   "shortDescription": "Rüyada kaplan görmek, vahşi bir güce, hırslı ve tehlikeli bir düşmana, cesarete, içsel öfkenin patlamasına veya kontrol edilmesi zor bir tutkuya işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["aslan", "kurt", "yilan", "kedi", "orman"]
+  "relatedSymbols": [
+    "aslan",
+    "kurt",
+    "yilan",
+    "kedi",
+    "orman"
+  ]
 }

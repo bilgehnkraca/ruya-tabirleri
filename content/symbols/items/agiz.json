@@ -1,6 +1,6 @@
 {
   "slug": "agiz",
-  "title": "Ağız",
+  "title": "Rüyada Ağız Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "beden",
   "shortDescription": "Rüyada ağız görmek, kişinin sözüne (kelamına), rızkına (geçim kaynağına), sır saklamaya (veya ifşa etmeye), ifade gücüne ve hanedeki (maddi) güce işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["dudak", "dis", "burun", "dil", "goz"]
+  "relatedSymbols": [
+    "dudak",
+    "dis",
+    "burun",
+    "dil",
+    "goz"
+  ]
 }

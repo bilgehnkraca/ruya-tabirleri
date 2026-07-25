@@ -1,6 +1,6 @@
 {
   "slug": "sis",
-  "title": "Sis (Pus)",
+  "title": "Rüyada Sis (Pus) Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada sis görmek, zihinsel bulanıklığa, belirsizliğe, gizlenen sırlara, yön kaybına ve (sis dağılıyorsa) gerçeğin ortaya çıkmasına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["bulut", "karanlik", "orman", "gece", "ruzgar"]
+  "relatedSymbols": [
+    "bulut",
+    "karanlik",
+    "orman",
+    "gece",
+    "ruzgar"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "akbaba",
-  "title": "Akbaba",
+  "title": "Rüyada Akbaba Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada akbaba görmek, başkasının felaketinden beslenen tehlikeli bir düşmana, leş kargasına, miras beklentisine, ölüm korkusuna veya leş yiyici bir fırsatçıya işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["karga", "baykus", "olum", "mezar", "yilan"]
+  "relatedSymbols": [
+    "karga",
+    "baykus",
+    "olum",
+    "mezar",
+    "yilan"
+  ]
 }

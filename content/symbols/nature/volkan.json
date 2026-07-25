@@ -1,6 +1,6 @@
 {
   "slug": "volkan",
-  "title": "Volkan (Yanardağ)",
+  "title": "Rüyada Volkan (Yanardağ) Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada volkan görmek, içsel dünyada birikmiş büyük öfkeye, bastırılmış duyguların şiddetli patlamasına, yıkıcı ama dönüştürücü krizlere ve yaratıcı enerjinin açığa çıkmasına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["dag", "ates", "karanlik", "deprem", "meteor"]
+  "relatedSymbols": [
+    "dag",
+    "ates",
+    "karanlik",
+    "deprem",
+    "meteor"
+  ]
 }

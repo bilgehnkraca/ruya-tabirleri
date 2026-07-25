@@ -1,6 +1,6 @@
 {
   "slug": "daktilo",
-  "title": "Daktilo",
+  "title": "Rüyada Daktilo Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada daktilo görmek, geri alınamaz kararlar almaya, düşünceleri yüksek sesle ve kalıcı bir şekilde dile getirmeye, eski usul (geleneksel) yöntemlere ve resmiyete işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["murekkep", "defter", "kagit", "zarf", "kalem"]
+  "relatedSymbols": [
+    "murekkep",
+    "defter",
+    "kagit",
+    "zarf",
+    "kalem"
+  ]
 }

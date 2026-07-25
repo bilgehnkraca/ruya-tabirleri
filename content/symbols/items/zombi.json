@@ -1,6 +1,6 @@
 {
   "slug": "zombi",
-  "title": "Zombi",
+  "title": "Rüyada Zombi Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "mitolojik",
   "shortDescription": "Rüyada zombi (yaşayan ölü) görmek, hissizleşmeye (otomatikliğe), tükenmişliğe, sizi aşağı (dibe) çeken ruhsuz insanlara ve bitmeyen (tekrar eden) sorunlara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["vampir", "hayalet", "seytan", "canavar", "kurtadam"]
+  "relatedSymbols": [
+    "vampir",
+    "hayalet",
+    "seytan",
+    "canavar",
+    "kurtadam"
+  ]
 }

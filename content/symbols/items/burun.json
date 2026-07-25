@@ -1,6 +1,6 @@
 {
   "slug": "burun",
-  "title": "Burun",
+  "title": "Rüyada Burun Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "beden",
   "shortDescription": "Rüyada burun görmek, kibre (gurura), itibar ve onura, ailenin (veya kişinin) önde gelenine, sezgilere (kokuyu almaya) ve öfkeye işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["goz", "kulak", "agiz", "yuz", "nefes"]
+  "relatedSymbols": [
+    "goz",
+    "kulak",
+    "agiz",
+    "yuz",
+    "nefes"
+  ]
 }

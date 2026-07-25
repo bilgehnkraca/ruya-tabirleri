@@ -1,6 +1,6 @@
 {
   "slug": "gokkusagi",
-  "title": "Gökkuşağı",
+  "title": "Rüyada Gökkuşağı Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "doga",
   "shortDescription": "Rüyada gökkuşağı görmek, kriz sonrası gelen büyük umuda, barışa, ilahi affa, renkli ve neşeli bir döneme, mucizevi kurtuluşa işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["yagmur", "firtina", "gunes", "renkler", "bulut"]
+  "relatedSymbols": [
+    "yagmur",
+    "firtina",
+    "gunes",
+    "renkler",
+    "bulut"
+  ]
 }

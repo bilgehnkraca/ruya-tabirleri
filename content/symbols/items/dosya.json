@@ -1,6 +1,6 @@
 {
   "slug": "dosya",
-  "title": "Dosya (Klasör)",
+  "title": "Rüyada Dosya (Klasör) Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "nesneler",
   "shortDescription": "Rüyada dosya görmek, karmakarışık işleri düzenlemeye, bürokratik engellere, kapanmış bir meseleyi arşive kaldırmaya veya yeni bir dava açmaya işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kagit", "zarf", "kalem", "masa", "mahkeme"]
+  "relatedSymbols": [
+    "kagit",
+    "zarf",
+    "kalem",
+    "masa",
+    "mahkeme"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "ay",
-  "title": "Ay",
+  "title": "Rüyada Ay Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "doga",
   "shortDescription": "Rüyada ay görmek, anneye/dişil enerjiye, güzelliğe, duyguların gizemine, değişken ruh hallerine ve karanlıkta yol gösteren ışığa işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["gunes", "yildiz", "gece", "anne", "kadin"]
+  "relatedSymbols": [
+    "gunes",
+    "yildiz",
+    "gece",
+    "anne",
+    "kadin"
+  ]
 }

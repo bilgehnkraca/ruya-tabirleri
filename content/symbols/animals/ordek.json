@@ -1,6 +1,6 @@
 {
   "slug": "ordek",
-  "title": "Ördek",
+  "title": "Rüyada Ördek Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "hayvanlar",
   "shortDescription": "Rüyada ördek görmek, zengin ve asil bir kadına, suya, güzelliğe, dedikoducu bir topluluğa, sevinçli bir habere veya yüzeysel duygulara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["tavuk", "su", "kugu", "kadin", "deniz"]
+  "relatedSymbols": [
+    "tavuk",
+    "su",
+    "kugu",
+    "kadin",
+    "deniz"
+  ]
 }

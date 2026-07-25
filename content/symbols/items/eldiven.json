@@ -1,6 +1,6 @@
 {
   "slug": "eldiven",
-  "title": "Eldiven",
+  "title": "Rüyada Eldiven Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada eldiven görmek, sırları saklamaya, işlere/olaylara doğrudan temas etmekten kaçınmaya, kirlenmekten korkmaya ve soyluluğa işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["eller", "kis", "kumas", "kapi", "ayna"]
+  "relatedSymbols": [
+    "eller",
+    "kis",
+    "kumas",
+    "kapi",
+    "ayna"
+  ]
 }

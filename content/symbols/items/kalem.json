@@ -1,6 +1,6 @@
 {
   "slug": "kalem",
-  "title": "Kalem",
+  "title": "Rüyada Kalem Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "nesne",
   "shortDescription": "Rüyada kalem görmek, yaratıcılığa, alınan resmi kararlara, imza yetkisine, adalete, bilgeliğe, yeni başlangıçlara ve kişinin kendi kaderini (kısmen) yazma iradesine işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kitap", "masa", "okul", "ayna", "kapi"]
+  "relatedSymbols": [
+    "kitap",
+    "masa",
+    "okul",
+    "ayna",
+    "kapi"
+  ]
 }

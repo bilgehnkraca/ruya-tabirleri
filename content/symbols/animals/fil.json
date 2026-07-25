@@ -1,6 +1,6 @@
 {
   "slug": "fil",
-  "title": "Fil",
+  "title": "Rüyada Fil Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "hayvanlar",
   "shortDescription": "Rüyada fil görmek, büyük bir güce, makama, devlete, bilgeliğe, heybetli bir düşmana veya kişinin aşamayacağını düşündüğü büyük bir engele işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["ayi", "aslan", "orman", "kral", "dunya"]
+  "relatedSymbols": [
+    "ayi",
+    "aslan",
+    "orman",
+    "kral",
+    "dunya"
+  ]
 }

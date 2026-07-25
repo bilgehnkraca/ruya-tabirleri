@@ -1,6 +1,6 @@
 {
   "slug": "cesme",
-  "title": "Çeşme",
+  "title": "Rüyada Çeşme Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada çeşme görmek, hayat kaynağına (rızka), cömert bir insana, hayır işlemeye (sadakaya), ferahlığa ve sürekli akan bir iyiliğe işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["su", "havuz", "pinar", "nehir", "yuzmek"]
+  "relatedSymbols": [
+    "su",
+    "havuz",
+    "pinar",
+    "nehir",
+    "yuzmek"
+  ]
 }

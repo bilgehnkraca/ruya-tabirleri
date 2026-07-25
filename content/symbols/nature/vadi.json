@@ -1,6 +1,6 @@
 {
   "slug": "vadi",
-  "title": "Vadi (Kanyon)",
+  "title": "Rüyada Vadi (Kanyon) Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada vadi görmek, dağların (zorlukların) arasındaki korunaklı sığınağa, gizli tehlikelere, geçiş dönemlerine, doğurganlığa ve derin ruhsal arayışlara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["dag", "magara", "nehir", "orman", "karanlik"]
+  "relatedSymbols": [
+    "dag",
+    "magara",
+    "nehir",
+    "orman",
+    "karanlik"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "hortum",
-  "title": "Hortum (Kasırga)",
+  "title": "Rüyada Hortum (Kasırga) Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada hortum görmek, hayatı kökünden söken büyük değişimlere, yıkıcı ve döngüsel krizlere, psikolojik çöküşlere ve zorunlu sıfırlanmalara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["ruzgar", "firtina", "bulut", "karanlik", "kaza"]
+  "relatedSymbols": [
+    "ruzgar",
+    "firtina",
+    "bulut",
+    "karanlik",
+    "kaza"
+  ]
 }

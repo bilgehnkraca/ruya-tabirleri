@@ -1,6 +1,6 @@
 {
   "slug": "ayva",
-  "title": "Ayva",
+  "title": "Rüyada Ayva Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "yiyecek",
   "shortDescription": "Rüyada ayva görmek, çok sarı/altın renkli (kalıcı) bir mala, bilgeliğe, asalete, (bazen sarı renginden dolayı) geçici bir hastalığa, boğazda düğümlenen hüzne (veya zorlu bir yolculuğa) işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["elma", "armut", "altin", "agac", "tatli"]
+  "relatedSymbols": [
+    "elma",
+    "armut",
+    "altin",
+    "agac",
+    "tatli"
+  ]
 }

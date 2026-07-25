@@ -1,6 +1,6 @@
 {
   "slug": "murekkep",
-  "title": "Mürekkep",
+  "title": "Rüyada Mürekkep Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada mürekkep görmek, bilime/ilime, kalıcı izler bırakmaya, yazgının (kaderin) yazılmasına ve bazen de (dökülürse) itibar kaybına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kalem", "defter", "zarf", "kitap", "su"]
+  "relatedSymbols": [
+    "kalem",
+    "defter",
+    "zarf",
+    "kitap",
+    "su"
+  ]
 }

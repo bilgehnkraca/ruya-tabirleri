@@ -1,6 +1,6 @@
 {
   "slug": "gumus",
-  "title": "Gümüş",
+  "title": "Rüyada Gümüş Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "nesne",
   "shortDescription": "Rüyada gümüş görmek, aydan gelen dişil enerjiye, dini temizliğe (sünnete), duygusal şifaya, dürüst ticarete, sadakate ve altından daha mütevazı ama daha ruhani bir bilgeliğe işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["altin", "para", "cuzdan", "yuzuk", "ayna"]
+  "relatedSymbols": [
+    "altin",
+    "para",
+    "cuzdan",
+    "yuzuk",
+    "ayna"
+  ]
 }

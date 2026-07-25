@@ -1,6 +1,6 @@
 {
   "slug": "merdiven",
-  "title": "Merdiven",
+  "title": "Rüyada Merdiven Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada merdiven görmek, hayattaki (kariyer/inanç) yükselişe, aşılması gereken kademeli zorluklara (basamaklara), statü değişimine ve kişinin sabırla ulaşacağı nihai (yüce) hedefine işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kapi", "ev", "yolculuk", "duvar", "pencere"]
+  "relatedSymbols": [
+    "kapi",
+    "ev",
+    "yolculuk",
+    "duvar",
+    "pencere"
+  ]
 }

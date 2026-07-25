@@ -1,6 +1,6 @@
 {
   "slug": "piyano",
-  "title": "Piyano",
+  "title": "Rüyada Piyano Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada piyano görmek, hayattaki uyuma (armoniye), zarafete, duyguların dışavurumuna, çok sesliliğe ve estetik başarılara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["muzik", "ses", "siyah", "beyaz", "konser"]
+  "relatedSymbols": [
+    "muzik",
+    "ses",
+    "siyah",
+    "beyaz",
+    "konser"
+  ]
 }

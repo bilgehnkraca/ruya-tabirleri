@@ -1,6 +1,6 @@
 {
   "slug": "kabak",
-  "title": "Kabak",
+  "title": "Rüyada Kabak Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "yiyecek",
   "shortDescription": "Rüyada kabak görmek, bazen (tadı olmadığı/hafif olduğu için) hastalıklara şifaya, bazen ifşa olan sırlara (kabak tadı vermek), çok hızlı büyüyen geçici heveslere ve bazen de (ihsan/lütuf) gibi durumlara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["toprak", "su", "ates", "havuc", "patlican"]
+  "relatedSymbols": [
+    "toprak",
+    "su",
+    "ates",
+    "havuc",
+    "patlican"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "lahana",
-  "title": "Lahana",
+  "title": "Rüyada Lahana Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "yiyecek",
   "shortDescription": "Rüyada lahana görmek, sırların kat kat gizlenmesine, kalın kafalılığa (inada), paranın birikmesine ve zahmetli (ama şifalı) bir sürece işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["ispanak", "sogan", "toprak", "su", "pirasa"]
+  "relatedSymbols": [
+    "ispanak",
+    "sogan",
+    "toprak",
+    "su",
+    "pirasa"
+  ]
 }

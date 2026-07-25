@@ -1,6 +1,6 @@
 {
   "slug": "cim",
-  "title": "Çim (Ot)",
+  "title": "Rüyada Çim (Ot) Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada çim veya ot görmek, hayattaki küçük ama sürekli bereketlere, tevazuya, sıradanlığın içindeki huzura, hızla yayılan haberlere ve doğayla bütünleşmeye işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["toprak", "agac", "yaprak", "bahar", "cicek"]
+  "relatedSymbols": [
+    "toprak",
+    "agac",
+    "yaprak",
+    "bahar",
+    "cicek"
+  ]
 }

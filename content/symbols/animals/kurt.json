@@ -1,6 +1,6 @@
 {
   "slug": "kurt",
-  "title": "Kurt",
+  "title": "Rüyada Kurt Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada kurt görmek, yalnızlığa, güçlü bir içgüdüye, tehlikeli bir düşmana, bağımsızlığa veya sadık bir lidere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kopek", "aslan", "orman", "koyun", "kan"]
+  "relatedSymbols": [
+    "kopek",
+    "aslan",
+    "orman",
+    "koyun",
+    "kan"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "gunduz",
-  "title": "Gündüz",
+  "title": "Rüyada Gündüz Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "zaman",
   "shortDescription": "Rüyada gündüz (aydınlık) görmek, sıkıntıların bitip feraha çıkmaya, gizli işlerin açığa çıkmasına, adaletin sağlanmasına, güvene ve yeni bir hayatın başlangıcına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["gece", "gunes", "ay", "yildiz", "sabah"]
+  "relatedSymbols": [
+    "gece",
+    "gunes",
+    "ay",
+    "yildiz",
+    "sabah"
+  ]
 }

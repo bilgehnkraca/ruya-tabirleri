@@ -1,6 +1,6 @@
 {
   "slug": "kelebek",
-  "title": "Kelebek",
+  "title": "Rüyada Kelebek Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada kelebek görmek, kısa ömürlü güzelliklere, dönüşüme, ruhsal aydınlanmaya, aşka, zarafete veya dikkat dağıtan geçici zevklere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["cicek", "guzellik", "ates", "bocek", "ask"]
+  "relatedSymbols": [
+    "cicek",
+    "guzellik",
+    "ates",
+    "bocek",
+    "ask"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "altin",
-  "title": "Altın",
+  "title": "Rüyada Altın Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "nesne",
   "shortDescription": "Rüyada altın görmek, manevi aydınlanmaya, çok saf ve kalıcı değerlere, bilgeliğe, (bazen aşırı hırsa) ve sıkıntıların ardından gelen o muazzam ilahi mükafata işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["para", "cuzdan", "gumus", "yuzuk", "kapi"]
+  "relatedSymbols": [
+    "para",
+    "cuzdan",
+    "gumus",
+    "yuzuk",
+    "kapi"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "ada",
-  "title": "Ada",
+  "title": "Rüyada Ada Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada ada görmek, toplumdan soyutlanmaya, bağımsızlığa, içsel sığınağa, yalnızlığa ve denizin ortasında bulunan eşsiz bir hazineye/fırsata işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["deniz", "gemi", "yalnizlik", "su", "gunes"]
+  "relatedSymbols": [
+    "deniz",
+    "gemi",
+    "yalnizlik",
+    "su",
+    "gunes"
+  ]
 }

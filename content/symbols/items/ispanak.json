@@ -1,6 +1,6 @@
 {
   "slug": "ispanak",
-  "title": "Ispanak",
+  "title": "Rüyada Ispanak Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "yiyecek",
   "shortDescription": "Rüyada ıspanak görmek, bedensel ve ruhsal (demir gibi) bir güçlenmeye, hastalıklara şifaya, dertlerden/kirlerden arınmaya (çok yıkanması gerektiği için zahmete) işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["toprak", "su", "ates", "kabak", "patates"]
+  "relatedSymbols": [
+    "toprak",
+    "su",
+    "ates",
+    "kabak",
+    "patates"
+  ]
 }

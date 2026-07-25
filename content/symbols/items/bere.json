@@ -1,6 +1,6 @@
 {
   "slug": "bere",
-  "title": "Bere (Kışlık Şapka)",
+  "title": "Rüyada Bere (Kışlık Şapka) Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada bere görmek, zihni/düşünceleri dış dünyanın soğukluğundan korumaya, düşünceleri saklamaya, samimi (ve mütevazı) ilişkilere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["sapka", "atki", "kis", "bas", "kumas"]
+  "relatedSymbols": [
+    "sapka",
+    "atki",
+    "kis",
+    "bas",
+    "kumas"
+  ]
 }

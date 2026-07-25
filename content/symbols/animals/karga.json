@@ -1,6 +1,6 @@
 {
   "slug": "karga",
-  "title": "Karga",
+  "title": "Rüyada Karga Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada karga görmek, uzun ömre, bazen uğursuzluğa, geveze ve faydasız bir insana, ayrılığa veya şaşırtıcı ve gizemli bir habere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kus", "kartal", "baykus", "guvercin", "tilki"]
+  "relatedSymbols": [
+    "kus",
+    "kartal",
+    "baykus",
+    "guvercin",
+    "tilki"
+  ]
 }

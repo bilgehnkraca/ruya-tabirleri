@@ -1,6 +1,6 @@
 {
   "slug": "cati",
-  "title": "Çatı",
+  "title": "Rüyada Çatı Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "mekan",
   "shortDescription": "Rüyada çatı görmek, zihinsel kapasiteye (düşünce sistemine), ailenin direğine (koruyucusuna), güvende hissetme ihtiyacına ve çok yüksek (zirve) hedeflere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["balkon", "merdiven", "pencere", "duvar", "kapi"]
+  "relatedSymbols": [
+    "balkon",
+    "merdiven",
+    "pencere",
+    "duvar",
+    "kapi"
+  ]
 }

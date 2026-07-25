@@ -1,6 +1,6 @@
 {
   "slug": "motor",
-  "title": "Motor (Makine / Motor Gücü)",
+  "title": "Rüyada Motor (Makine / Motor Gücü) Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "nesneler",
   "shortDescription": "Rüyada motor görmek, hayat enerjisine, kalbe, içsel motivasyona, işlerin yürümesini sağlayan ana güce ve bazen de (bozuksa) tükenmişliğe işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["araba", "direksiyon", "tekerlek", "fren", "ates"]
+  "relatedSymbols": [
+    "araba",
+    "direksiyon",
+    "tekerlek",
+    "fren",
+    "ates"
+  ]
 }

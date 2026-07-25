@@ -1,6 +1,6 @@
 {
   "slug": "yol",
-  "title": "Yol",
+  "title": "Rüyada Yol Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada yol görmek, kişinin hayat yolculuğuna (kader çizgisine), inancına (istikametine), alacağı önemli kararlara ve sabırla yürümesi gereken (uzun/kısa) sürece işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["araba-kullanmak", "yolculuk", "orman", "kapi", "ayakkabi"]
+  "relatedSymbols": [
+    "araba-kullanmak",
+    "yolculuk",
+    "orman",
+    "kapi",
+    "ayakkabi"
+  ]
 }

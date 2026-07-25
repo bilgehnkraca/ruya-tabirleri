@@ -1,6 +1,6 @@
 {
   "slug": "pusula",
-  "title": "Pusula",
+  "title": "Rüyada Pusula Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada pusula görmek, içgüdülere güvenmeye, ahlaki / doğru yönü bulmaya, karanlıkta rehberlik edecek bir güce (veya kişiye) işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["harita", "yol", "yildiz", "deniz", "gemi"]
+  "relatedSymbols": [
+    "harita",
+    "yol",
+    "yildiz",
+    "deniz",
+    "gemi"
+  ]
 }

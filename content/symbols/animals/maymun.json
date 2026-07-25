@@ -1,6 +1,6 @@
 {
   "slug": "maymun",
-  "title": "Maymun",
+  "title": "Rüyada Maymun Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada maymun görmek, hilekara, düzenbaza, taklitçiliğe, eğlenceye, kıvrak zekaya, oyunbazlığa veya düşmanlara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["hayvan", "orman", "oyun", "hirsiz", "zeka"]
+  "relatedSymbols": [
+    "hayvan",
+    "orman",
+    "oyun",
+    "hirsiz",
+    "zeka"
+  ]
 }

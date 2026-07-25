@@ -1,6 +1,6 @@
 {
   "slug": "kaya",
-  "title": "Kaya",
+  "title": "Rüyada Kaya Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada kaya görmek, sabırlı ve sert bir insana, aşılması zor engellere, sağlam bir temele (dayanağa), kalıcı bir makama ve kalbin katılaşmasına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["dag", "tas", "toprak", "mermer", "su"]
+  "relatedSymbols": [
+    "dag",
+    "tas",
+    "toprak",
+    "mermer",
+    "su"
+  ]
 }

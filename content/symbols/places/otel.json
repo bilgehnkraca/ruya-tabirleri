@@ -1,6 +1,6 @@
 {
   "slug": "otel",
-  "title": "Otel",
+  "title": "Rüyada Otel Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "mekan",
   "shortDescription": "Rüyada otel görmek, hayatınızdaki geçici durumlara, aidiyetsizliğe, yolculuklara, gizli sırlara, lüks arzusuna ve yabancılaşma hissine işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["ev", "yabanci", "hastane", "ayna", "kapi"]
+  "relatedSymbols": [
+    "ev",
+    "yabanci",
+    "hastane",
+    "ayna",
+    "kapi"
+  ]
 }

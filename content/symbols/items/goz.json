@@ -1,6 +1,6 @@
 {
   "slug": "goz",
-  "title": "Göz",
+  "title": "Rüyada Göz Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "beden",
   "shortDescription": "Rüyada göz görmek, basirete (gerçeği görmeye), nazar ve hasede, çocuklara (sevilen kimselere), ilahi korumaya ve insanın (kendi içini) yansıtan pencerelere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kulak", "burun", "agiz", "yuz", "isik"]
+  "relatedSymbols": [
+    "kulak",
+    "burun",
+    "agiz",
+    "yuz",
+    "isik"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "el",
-  "title": "El",
+  "title": "Rüyada El Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "beden",
   "shortDescription": "Rüyada el görmek, kişinin gücüne (kudretine), kardeşine (yardımcılarına), zanaatına (emeğine), cömertliğe ve dünya işlerindeki başarısına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["ayak", "parmak", "kol", "yuz", "kardes"]
+  "relatedSymbols": [
+    "ayak",
+    "parmak",
+    "kol",
+    "yuz",
+    "kardes"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "cadde",
-  "title": "Cadde",
+  "title": "Rüyada Cadde Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "mekanlar",
   "shortDescription": "Rüyada cadde görmek, hayatın hızlı (ve yoğun) akışına, ticarete, fırsatlara, kalabalıklara, kariyer yolculuğuna ve bazen de tehlikelere (kazalara) işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["sokak", "sehir", "araba", "mahalle", "kaza"]
+  "relatedSymbols": [
+    "sokak",
+    "sehir",
+    "araba",
+    "mahalle",
+    "kaza"
+  ]
 }

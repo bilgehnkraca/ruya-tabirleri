@@ -1,6 +1,6 @@
 {
   "slug": "sapka",
-  "title": "Şapka",
+  "title": "Rüyada Şapka Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "nesne",
   "shortDescription": "Rüyada şapka görmek, liderliğe, zihinsel otoriteye (fikirlere), kişinin toplumdaki saygınlığına, saklanmak istenen düşüncelere, terfiye ve yeni bir role bürünmeye işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["elbise", "ayakkabi", "yuzuk", "kapi", "ayna"]
+  "relatedSymbols": [
+    "elbise",
+    "ayakkabi",
+    "yuzuk",
+    "kapi",
+    "ayna"
+  ]
 }

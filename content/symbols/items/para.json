@@ -1,6 +1,6 @@
 {
   "slug": "para",
-  "title": "Para",
+  "title": "Rüyada Para Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "nesne",
   "shortDescription": "Rüyada para görmek, söylenecek sözlere (dedikoduya), dünyevi hırslara, enerji/güç alışverişine, değer hissine ve hem refaha hem de strese işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["cuzdan", "altin", "gumus", "kitap", "kapi"]
+  "relatedSymbols": [
+    "cuzdan",
+    "altin",
+    "gumus",
+    "kitap",
+    "kapi"
+  ]
 }

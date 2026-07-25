@@ -1,6 +1,6 @@
 {
   "slug": "kugu",
-  "title": "Kuğu",
+  "title": "Rüyada Kuğu Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "hayvanlar",
   "shortDescription": "Rüyada kuğu görmek, zarafete, asil bir aşka, güzelliğe, masumiyete, ruhsal saflığa veya içsel bir dönüşüme (çirkin ördek yavrusu) işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kus", "gol", "guzellik", "ask", "melek"]
+  "relatedSymbols": [
+    "kus",
+    "gol",
+    "guzellik",
+    "ask",
+    "melek"
+  ]
 }

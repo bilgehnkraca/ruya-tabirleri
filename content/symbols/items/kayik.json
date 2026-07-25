@@ -1,6 +1,6 @@
 {
   "slug": "kayik",
-  "title": "Kayık",
+  "title": "Rüyada Kayık Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "tasitlar",
   "shortDescription": "Rüyada kayık görmek, kişisel (ve duygusal) bir içsel yolculuğa, küçük ama güvende hissettiren fırsatlara, fırtınalara (krizlere) karşı verilen bireysel mücadeleye işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["gemi", "deniz", "su", "dalga", "balik"]
+  "relatedSymbols": [
+    "gemi",
+    "deniz",
+    "su",
+    "dalga",
+    "balik"
+  ]
 }

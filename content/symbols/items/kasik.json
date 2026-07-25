@@ -1,6 +1,6 @@
 {
   "slug": "kasik",
-  "title": "Kaşık",
+  "title": "Rüyada Kaşık Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "nesneler",
   "shortDescription": "Rüyada kaşık görmek, rızka (kısmeta), nasibini almaya, aile içindeki paylaşıma, bereketin toplanmasına ve bazen de (boş kaşık) hayal kırıklığına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["catal", "tabak", "yemek", "tencere", "agiz"]
+  "relatedSymbols": [
+    "catal",
+    "tabak",
+    "yemek",
+    "tencere",
+    "agiz"
+  ]
 }

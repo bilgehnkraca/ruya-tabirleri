@@ -1,6 +1,6 @@
 {
   "slug": "serce",
-  "title": "Serçe",
+  "title": "Rüyada Serçe Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada serçe görmek, küçük sevinçlere, alçakgönüllülüğe, neşeli ve hareketli bir hayata, bereketli ufak kazançlara, masumiyete veya savunmasızlığa işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kus", "kedi", "cocuk", "bahar", "agac"]
+  "relatedSymbols": [
+    "kus",
+    "kedi",
+    "cocuk",
+    "bahar",
+    "agac"
+  ]
 }

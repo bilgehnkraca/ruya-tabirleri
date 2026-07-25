@@ -1,6 +1,6 @@
 {
   "slug": "demir",
-  "title": "Demir",
+  "title": "Rüyada Demir Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada demir görmek, güce (kudrete), uzun ömre, faydalı bir mala (sermayeye), devlet makamlarına ve düşmana karşı sağlanan zafere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["altin", "gumus", "kilic", "bakir", "ates"]
+  "relatedSymbols": [
+    "altin",
+    "gumus",
+    "kilic",
+    "bakir",
+    "ates"
+  ]
 }

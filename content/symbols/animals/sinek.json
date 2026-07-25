@@ -1,6 +1,6 @@
 {
   "slug": "sinek",
-  "title": "Sinek",
+  "title": "Rüyada Sinek Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "hayvanlar",
   "shortDescription": "Rüyada sinek görmek, zayıf ve aciz ama can sıkan bir düşmana, dedikoduya, rahatsız edici olaylara, mide bulandıran durumlara veya ısrarcı sorunlara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["ari", "orumcek", "karinca", "fare", "domuz"]
+  "relatedSymbols": [
+    "ari",
+    "orumcek",
+    "karinca",
+    "fare",
+    "domuz"
+  ]
 }

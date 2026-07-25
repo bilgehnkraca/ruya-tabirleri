@@ -1,6 +1,6 @@
 {
   "slug": "yildirim",
-  "title": "Yıldırım",
+  "title": "Rüyada Yıldırım Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "doga",
   "shortDescription": "Rüyada yıldırım düştüğünü görmek, ani gelişen şok edici haberlere, beklenmedik yıkımlara, ilahi uyarılara ve uyanışa (aydınlanmaya) işaret eder. Korkutucu ama bir o kadar da vizyoner bir semboldür.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["yagmur", "kar-yagmasi", "ates", "orman", "yangin"]
+  "relatedSymbols": [
+    "yagmur",
+    "kar-yagmasi",
+    "ates",
+    "orman",
+    "yangin"
+  ]
 }

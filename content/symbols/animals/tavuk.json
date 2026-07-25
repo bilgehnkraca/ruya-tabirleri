@@ -1,6 +1,6 @@
 {
   "slug": "tavuk",
-  "title": "Tavuk",
+  "title": "Rüyada Tavuk Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada tavuk görmek, genellikle hafifmeşrep bir kadına, dedikoduya, kolay kazanılan rızka, ev işleriyle uğraşan bir yardımcıya veya basit meselelere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["horoz", "yumurta", "kus", "kedi", "kopek"]
+  "relatedSymbols": [
+    "horoz",
+    "yumurta",
+    "kus",
+    "kedi",
+    "kopek"
+  ]
 }

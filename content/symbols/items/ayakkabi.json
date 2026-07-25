@@ -1,6 +1,6 @@
 {
   "slug": "ayakkabi",
-  "title": "Ayakkabı",
+  "title": "Rüyada Ayakkabı Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "nesne",
   "shortDescription": "Rüyada ayakkabı görmek, eşe (evliliğe), yolculuğa, makam/mevkiye, rızık kazanmak için girilen zorluklara, korumaya ve insanın dünyadaki adımlarına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["elbise", "yol", "araba", "ev", "sandalye"]
+  "relatedSymbols": [
+    "elbise",
+    "yol",
+    "araba",
+    "ev",
+    "sandalye"
+  ]
 }

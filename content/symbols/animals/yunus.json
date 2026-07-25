@@ -1,6 +1,6 @@
 {
   "slug": "yunus",
-  "title": "Yunus",
+  "title": "Rüyada Yunus Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "hayvanlar",
   "shortDescription": "Rüyada yunus görmek, kurtuluşa, sadık bir dosta, zekaya, denizin derinliklerindeki manevi rehberliğe, neşeye ve ilahi bir yardıma işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["balik", "deniz", "gemi", "su", "melek"]
+  "relatedSymbols": [
+    "balik",
+    "deniz",
+    "gemi",
+    "su",
+    "melek"
+  ]
 }

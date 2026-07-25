@@ -1,6 +1,6 @@
 {
   "slug": "silgi",
-  "title": "Silgi",
+  "title": "Rüyada Silgi Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "nesneler",
   "shortDescription": "Rüyada silgi görmek, hataları düzeltmeye, geçmişi unutma çabasına, izleri yok etmeye ve affedilmeyi arzulamaya işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kalem", "defter", "okul", "zarf", "murekkep"]
+  "relatedSymbols": [
+    "kalem",
+    "defter",
+    "okul",
+    "zarf",
+    "murekkep"
+  ]
 }

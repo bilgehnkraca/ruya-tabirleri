@@ -1,6 +1,6 @@
 {
   "slug": "asci",
-  "title": "Aşçı",
+  "title": "Rüyada Aşçı Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "meslek",
   "shortDescription": "Rüyada aşçı görmek, hanedeki berekete (rızka), yaratıcılığa, duygusal tatmine (veya zehirlenmeye), misafire ve emekle (sabırla) pişen işlere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["doktor", "muhendis", "ogretmen", "anne", "ekmek"]
+  "relatedSymbols": [
+    "doktor",
+    "muhendis",
+    "ogretmen",
+    "anne",
+    "ekmek"
+  ]
 }

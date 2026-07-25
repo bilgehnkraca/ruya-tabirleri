@@ -1,6 +1,6 @@
 {
   "slug": "akrep",
-  "title": "Akrep",
+  "title": "Rüyada Akrep Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "hayvanlar",
   "shortDescription": "Rüyada akrep görmek, gizli ve sinsi bir düşmana, zehirli sözlere, tehlikeye, ihanete veya kişinin kendi içindeki zarar verici kin ve öfkeye işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["yilan", "orumcek", "tilki", "fare", "domuz"]
+  "relatedSymbols": [
+    "yilan",
+    "orumcek",
+    "tilki",
+    "fare",
+    "domuz"
+  ]
 }

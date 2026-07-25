@@ -1,6 +1,6 @@
 {
   "slug": "koy",
-  "title": "Köy",
+  "title": "Rüyada Köy Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "mekanlar",
   "shortDescription": "Rüyada köy görmek, sadeliğe (doğallığa), huzurlu bir hayata, geçmişe (köklere) duyulan özleme, dayanışmaya ve bazen de dar (dedikodulu) bir çevreye işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["sehir", "orman", "bahce", "cimen", "mahalle"]
+  "relatedSymbols": [
+    "sehir",
+    "orman",
+    "bahce",
+    "cimen",
+    "mahalle"
+  ]
 }

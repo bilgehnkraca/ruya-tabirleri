@@ -1,6 +1,6 @@
 {
   "slug": "flut",
-  "title": "Flüt",
+  "title": "Rüyada Flüt Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada flüt görmek, doğal bir huzura, nefes ve hayata (canlılığa), zarif bir iletişime, nostaljiye ve bazen de geçici heveslere (ıslık gibi uçup giden sözlere) işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["muzik", "ses", "nefes", "ney", "kus"]
+  "relatedSymbols": [
+    "muzik",
+    "ses",
+    "nefes",
+    "ney",
+    "kus"
+  ]
 }

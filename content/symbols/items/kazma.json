@@ -1,6 +1,6 @@
 {
   "slug": "kazma",
-  "title": "Kazma",
+  "title": "Rüyada Kazma Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada kazma görmek, derinlere (geçmişe/bilinçaltına) inmeyi, kökünden söküp atmayı, zorlu ve bedensel efor gerektiren işleri ve inatçı sırları ortaya çıkarmayı ifade eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["cekic", "kurek", "toprak", "define", "mezar"]
+  "relatedSymbols": [
+    "cekic",
+    "kurek",
+    "toprak",
+    "define",
+    "mezar"
+  ]
 }

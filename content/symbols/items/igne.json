@@ -1,6 +1,6 @@
 {
   "slug": "igne",
-  "title": "İğne",
+  "title": "Rüyada İğne Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "nesne",
   "shortDescription": "Rüyada iğne görmek, ince detaylara, dikkate, birleştirici güce (terziliğe), küçük ama acıtan laflara/iftiralara, şifaya (enjektör) ve evliliğe işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["iplik", "makas", "elbise", "yatak", "bicak"]
+  "relatedSymbols": [
+    "iplik",
+    "makas",
+    "elbise",
+    "yatak",
+    "bicak"
+  ]
 }

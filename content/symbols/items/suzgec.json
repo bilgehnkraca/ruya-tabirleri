@@ -1,6 +1,6 @@
 {
   "slug": "suzgec",
-  "title": "Süzgeç",
+  "title": "Rüyada Süzgeç Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada süzgeç görmek, iyiyi kötüden ayırmaya, seçiciliğe, dedikoduları filtrelemeye (akıl süzgecinden geçirmeye) ve bazen de (deliklerinden dolayı) hafıza / para kaybına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["su", "cay", "tencere", "temizlik", "goz"]
+  "relatedSymbols": [
+    "su",
+    "cay",
+    "tencere",
+    "temizlik",
+    "goz"
+  ]
 }

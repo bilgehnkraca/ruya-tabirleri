@@ -1,6 +1,6 @@
 {
   "slug": "muze",
-  "title": "Müze",
+  "title": "Rüyada Müze Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "mekan",
   "shortDescription": "Rüyada müze görmek, geçmişe duyulan özleme, anıların dondurulmuş haline, tarihten ders çıkarmaya, entelektüel arayışlara ve ruhun kendi koleksiyonuna işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["stadyum", "saray", "hastane", "altin", "mezar"]
+  "relatedSymbols": [
+    "stadyum",
+    "saray",
+    "hastane",
+    "altin",
+    "mezar"
+  ]
 }

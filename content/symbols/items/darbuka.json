@@ -1,6 +1,6 @@
 {
   "slug": "darbuka",
-  "title": "Darbuka",
+  "title": "Rüyada Darbuka Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada darbuka görmek, günlük ve kıvrak bir neşeye, eğlenceli ortamlara, geçici heveslere (oynaklığa) ve bazen de dedikoducu (geveze) bir çevreye işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["davul", "muzik", "ses", "dugun", "dans"]
+  "relatedSymbols": [
+    "davul",
+    "muzik",
+    "ses",
+    "dugun",
+    "dans"
+  ]
 }

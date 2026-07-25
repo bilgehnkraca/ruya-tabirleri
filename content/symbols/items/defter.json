@@ -1,6 +1,6 @@
 {
   "slug": "defter",
-  "title": "Defter",
+  "title": "Rüyada Defter Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "nesneler",
   "shortDescription": "Rüyada defter görmek, hayatınızda açılan yeni sayfalara, kaydedilen amellere/hatıralara, hesaba çekilmeye ve geleceği planlamaya işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kalem", "kitap", "okul", "zarf", "murekkep"]
+  "relatedSymbols": [
+    "kalem",
+    "kitap",
+    "okul",
+    "zarf",
+    "murekkep"
+  ]
 }

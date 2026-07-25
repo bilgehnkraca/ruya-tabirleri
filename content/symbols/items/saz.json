@@ -1,6 +1,6 @@
 {
   "slug": "saz",
-  "title": "Saz",
+  "title": "Rüyada Saz Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "nesneler",
   "shortDescription": "Rüyada saz (bağlama) görmek, köklere (geleneğe) bağlılığa, içten gelen yanık türkülere (dertleşmeye), samimiyete ve memleket hasretine işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["gitar", "keman", "muzik", "ses", "duvar"]
+  "relatedSymbols": [
+    "gitar",
+    "keman",
+    "muzik",
+    "ses",
+    "duvar"
+  ]
 }

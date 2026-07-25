@@ -1,6 +1,6 @@
 {
   "slug": "esek",
-  "title": "Eşek",
+  "title": "Rüyada Eşek Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada eşek görmek, kişinin dünyevi nasibine, çabasına, bahtına, hizmetçisine veya yorucu ama bereketli bir yola işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["at", "kopek", "koyun", "toprak", "bugday"]
+  "relatedSymbols": [
+    "at",
+    "kopek",
+    "koyun",
+    "toprak",
+    "bugday"
+  ]
 }

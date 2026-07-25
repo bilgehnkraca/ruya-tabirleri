@@ -1,6 +1,6 @@
 {
   "slug": "at",
-  "title": "At",
+  "title": "Rüyada At Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada at görmek, asalete, güce, murada ermeye, cinsel enerjiye, özgürlüğe, kahramanlığa ve yaşam enerjisinin dizginlenmesine işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kopek", "araba", "yol", "dag", "aslan"]
+  "relatedSymbols": [
+    "kopek",
+    "araba",
+    "yol",
+    "dag",
+    "aslan"
+  ]
 }

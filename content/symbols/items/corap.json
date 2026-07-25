@@ -1,6 +1,6 @@
 {
   "slug": "corap",
-  "title": "Çorap",
+  "title": "Rüyada Çorap Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada çorap görmek, yolculuğa, maddi/manevi adımları korumaya, gizli saklı işlere (veya sırlara) ve bazen de (delikse) maddi kayıplara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["ayakkabi", "ayak", "yol", "pantolon", "gomlek"]
+  "relatedSymbols": [
+    "ayakkabi",
+    "ayak",
+    "yol",
+    "pantolon",
+    "gomlek"
+  ]
 }

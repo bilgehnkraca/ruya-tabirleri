@@ -1,6 +1,6 @@
 {
   "slug": "matkap",
-  "title": "Matkap",
+  "title": "Rüyada Matkap Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada matkap görmek, sorunların derinine inmeye, engelleri delip geçmeye, zorlayıcı (ve gürültülü) bir araştırmaya ve kalıcı bir yer açmaya işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["cekic", "civi", "vida", "demir", "duvar"]
+  "relatedSymbols": [
+    "cekic",
+    "civi",
+    "vida",
+    "demir",
+    "duvar"
+  ]
 }

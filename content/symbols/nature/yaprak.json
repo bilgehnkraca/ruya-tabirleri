@@ -1,6 +1,6 @@
 {
   "slug": "yaprak",
-  "title": "Yaprak",
+  "title": "Rüyada Yaprak Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "doga",
   "shortDescription": "Rüyada yaprak görmek, hayatın döngülerine, zamanın geçişine, umutlara (yeşil) veya hüzün ve ayrılığa (sarı/dökülen), aynı zamanda kişinin toplumdaki rolüne işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["agac", "cicek", "sonbahar", "ruzgar", "toprak"]
+  "relatedSymbols": [
+    "agac",
+    "cicek",
+    "sonbahar",
+    "ruzgar",
+    "toprak"
+  ]
 }

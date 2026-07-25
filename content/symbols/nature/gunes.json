@@ -1,6 +1,6 @@
 {
   "slug": "gunes",
-  "title": "Güneş",
+  "title": "Rüyada Güneş Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "doga",
   "shortDescription": "Rüyada güneş görmek, devlet başkanına/babaya, yüksek makama, gizli şeylerin aydınlanmasına, yaşam enerjisine ve bilinçaltının mutlak uyanışına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["ay", "yildiz", "gunduz", "ates", "kral"]
+  "relatedSymbols": [
+    "ay",
+    "yildiz",
+    "gunduz",
+    "ates",
+    "kral"
+  ]
 }

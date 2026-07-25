@@ -1,6 +1,6 @@
 {
   "slug": "fabrika",
-  "title": "Fabrika",
+  "title": "Rüyada Fabrika Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "mekan",
   "shortDescription": "Rüyada fabrika görmek, büyük ve sürekli bir emeğe, mekanikleşmiş hayata, seri üretime, kolektif çalışmaya, maddi kazanca ve makineleşmiş bir ruh haline işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["pazar", "demir", "altin", "para", "bina"]
+  "relatedSymbols": [
+    "pazar",
+    "demir",
+    "altin",
+    "para",
+    "bina"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "taksi",
-  "title": "Taksi",
+  "title": "Rüyada Taksi Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "tasitlar",
   "shortDescription": "Rüyada taksi görmek, kişisel (özel) ama ücretli bir yardıma, hızlı ve geçici çözümlere, yönlendirilmeye (şoföre güvenmeye) ve bazen de lükse işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["araba", "otobus", "yol", "para", "kalabalik"]
+  "relatedSymbols": [
+    "araba",
+    "otobus",
+    "yol",
+    "para",
+    "kalabalik"
+  ]
 }

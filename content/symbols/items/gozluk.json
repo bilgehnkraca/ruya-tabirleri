@@ -1,6 +1,6 @@
 {
   "slug": "gozluk",
-  "title": "Gözlük",
+  "title": "Rüyada Gözlük Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "nesne",
   "shortDescription": "Rüyada gözlük görmek, basirete (gerçekleri görme yetisine), gizlenen niyetlere, zihinsel aydınlanmaya, entelektüel kibre, araştırmaya ve yanılsamalardan (illüzyon) kurtulmaya işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["ayna", "kitap", "kalem", "goz", "elbise"]
+  "relatedSymbols": [
+    "ayna",
+    "kitap",
+    "kalem",
+    "goz",
+    "elbise"
+  ]
 }

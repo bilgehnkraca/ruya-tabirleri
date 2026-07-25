@@ -1,6 +1,6 @@
 {
   "slug": "arkadas",
-  "title": "Arkadaş",
+  "title": "Rüyada Arkadaş Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "insan",
   "shortDescription": "Rüyada arkadaş (dost) görmek, sadakata, sırdaşlığa, aynalanmaya (kişinin kendi yansımasına), bazen gizli ihanete ve sosyal (kolektif) desteğe işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kardes", "baba", "kavga-etmek", "ev", "anne"]
+  "relatedSymbols": [
+    "kardes",
+    "baba",
+    "kavga-etmek",
+    "ev",
+    "anne"
+  ]
 }

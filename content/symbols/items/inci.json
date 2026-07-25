@@ -1,6 +1,6 @@
 {
   "slug": "inci",
-  "title": "İnci",
+  "title": "Rüyada İnci Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada inci görmek, Kur'an ilmine (hikmete), saf bir aşka (veya evlada), gözyaşına (veya sevince), güzelliğe ve paha biçilmez bir değere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["elmas", "yuzuk", "deniz", "altin", "aglamak"]
+  "relatedSymbols": [
+    "elmas",
+    "yuzuk",
+    "deniz",
+    "altin",
+    "aglamak"
+  ]
 }

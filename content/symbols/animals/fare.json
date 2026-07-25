@@ -1,6 +1,6 @@
 {
   "slug": "fare",
-  "title": "Fare",
+  "title": "Rüyada Fare Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "hayvanlar",
   "shortDescription": "Rüyada fare görmek, gizli düşmana, hırsıza, maddi kayba, sinsi hastalıklara veya bilinçaltındaki küçük ama kemirici korkulara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kedi", "yilan", "ev", "para", "karanlik"]
+  "relatedSymbols": [
+    "kedi",
+    "yilan",
+    "ev",
+    "para",
+    "karanlik"
+  ]
 }

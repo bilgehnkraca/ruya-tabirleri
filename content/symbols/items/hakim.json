@@ -1,6 +1,6 @@
 {
   "slug": "hakim",
-  "title": "Hakim",
+  "title": "Rüyada Hakim Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "meslek",
   "shortDescription": "Rüyada hakim görmek, mutlak adalete, verilecek kritik bir karara, vicdan muhasebesine, haksızlıkların düzeltilmesine ve (otoriteden gelecek) kesin hükme işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["avukat", "doktor", "polis", "asker", "ogretmen"]
+  "relatedSymbols": [
+    "avukat",
+    "doktor",
+    "polis",
+    "asker",
+    "ogretmen"
+  ]
 }

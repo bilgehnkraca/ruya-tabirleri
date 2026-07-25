@@ -1,6 +1,6 @@
 {
   "slug": "stadyum",
-  "title": "Stadyum",
+  "title": "Rüyada Stadyum Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "mekan",
   "shortDescription": "Rüyada stadyum veya arena görmek, toplumsal mücadeleye, kalabalıkların yargısına, rekabete, büyük gösterişlere, takım ruhuna ve hayatın sahnesindeki performansınıza işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["pazar", "kan", "altin", "para", "sokak"]
+  "relatedSymbols": [
+    "pazar",
+    "kan",
+    "altin",
+    "para",
+    "sokak"
+  ]
 }

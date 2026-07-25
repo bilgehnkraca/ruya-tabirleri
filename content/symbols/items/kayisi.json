@@ -1,6 +1,6 @@
 {
   "slug": "kayisi",
-  "title": "Kayısı",
+  "title": "Rüyada Kayısı Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "yiyecek",
   "shortDescription": "Rüyada kayısı görmek, çok saf (altın sarısı/turuncu) bir sevince, kalıcı (kurutulabilen) bir servete, hastalıklardan şifaya, bereketli topraklara ve müjdeli (tatlı) haberlere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["seftali", "erik", "elma", "gunes", "altin"]
+  "relatedSymbols": [
+    "seftali",
+    "erik",
+    "elma",
+    "gunes",
+    "altin"
+  ]
 }

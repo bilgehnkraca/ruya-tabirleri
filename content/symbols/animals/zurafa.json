@@ -1,6 +1,6 @@
 {
   "slug": "zurafa",
-  "title": "Zürafa",
+  "title": "Rüyada Zürafa Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada zürafa görmek, uzun bir ömre, yüksek mertebeye, uzak görüşlülüğe, kibirli bir kişiye veya beklenen bir haberin gecikmesine işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["deve", "agac", "dag", "kral", "yilan"]
+  "relatedSymbols": [
+    "deve",
+    "agac",
+    "dag",
+    "kral",
+    "yilan"
+  ]
 }

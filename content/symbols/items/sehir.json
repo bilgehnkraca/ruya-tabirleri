@@ -1,6 +1,6 @@
 {
   "slug": "sehir",
-  "title": "Şehir",
+  "title": "Rüyada Şehir Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "mekanlar",
   "shortDescription": "Rüyada şehir görmek, büyük ideallere (hedeflere), kalabalığa, medeniyete (bilgiye), dünya işlerindeki hırsa ve bazen de karmaşaya işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["koy", "mahalle", "cadde", "bina", "kalabalik"]
+  "relatedSymbols": [
+    "koy",
+    "mahalle",
+    "cadde",
+    "bina",
+    "kalabalik"
+  ]
 }

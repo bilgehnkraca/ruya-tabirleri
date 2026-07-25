@@ -1,6 +1,6 @@
 {
   "slug": "tren",
-  "title": "Tren",
+  "title": "Rüyada Tren Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "tasitlar",
   "shortDescription": "Rüyada tren görmek, uzun (ve rayından çıkmayan) bir yolculuğa, belirlenmiş bir kadere (rotaya), zamanın geçişine ve kaçırılan fırsatlara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["istasyon", "otobus", "araba", "kamyon", "yolculuk"]
+  "relatedSymbols": [
+    "istasyon",
+    "otobus",
+    "araba",
+    "kamyon",
+    "yolculuk"
+  ]
 }

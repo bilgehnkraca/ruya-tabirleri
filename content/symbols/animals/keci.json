@@ -1,6 +1,6 @@
 {
   "slug": "keci",
-  "title": "Keçi",
+  "title": "Rüyada Keçi Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "hayvanlar",
   "shortDescription": "Rüyada keçi görmek, inatçılığa, hırsa, zorlu yolları aşma gücüne, bağımsızlığa, berekete veya kişinin içindeki asi ruha işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["koyun", "inek", "dag", "kurt", "domuz"]
+  "relatedSymbols": [
+    "koyun",
+    "inek",
+    "dag",
+    "kurt",
+    "domuz"
+  ]
 }

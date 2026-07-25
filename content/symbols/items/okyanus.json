@@ -1,6 +1,6 @@
 {
   "slug": "okyanus",
-  "title": "Okyanus",
+  "title": "Rüyada Okyanus Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada okyanus görmek, denizin çok ötesinde sınırsız bir ufka, küresel başarılara, muazzam ve kontrol edilemez bir güce, derin ruhsal keşiflere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["deniz", "su", "nehir", "sel", "gemi"]
+  "relatedSymbols": [
+    "deniz",
+    "su",
+    "nehir",
+    "sel",
+    "gemi"
+  ]
 }

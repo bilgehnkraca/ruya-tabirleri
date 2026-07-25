@@ -1,6 +1,6 @@
 {
   "slug": "ney",
-  "title": "Ney",
+  "title": "Rüyada Ney Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada ney görmek, tasavvufi bir arayışa, ilahi aşka, ruhsal olgunluğa (pişmeye), derin bir teslimiyete ve dünyanın fani (geçici) olduğunun idrakine işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["flut", "muzik", "ses", "su", "ates"]
+  "relatedSymbols": [
+    "flut",
+    "muzik",
+    "ses",
+    "su",
+    "ates"
+  ]
 }

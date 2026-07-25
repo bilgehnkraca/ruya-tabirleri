@@ -1,6 +1,6 @@
 {
   "slug": "gunes-tutulmasi",
-  "title": "Güneş Tutulması",
+  "title": "Rüyada Güneş Tutulması Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada güneş tutulması görmek, büyük bir liderin kaybına, aydınlığın geçici olarak kararmasına, ilahi ikazlara, ruhsal karanlığa ve büyük toplumsal dönüşümlere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["gunes", "ay", "karanlik", "gece", "kiyamet"]
+  "relatedSymbols": [
+    "gunes",
+    "ay",
+    "karanlik",
+    "gece",
+    "kiyamet"
+  ]
 }

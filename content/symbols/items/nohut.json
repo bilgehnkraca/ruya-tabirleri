@@ -1,6 +1,6 @@
 {
   "slug": "nohut",
-  "title": "Nohut",
+  "title": "Rüyada Nohut Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "yiyecek",
   "shortDescription": "Rüyada nohut görmek, zor kazanılan ancak çok bereketli ve kalıcı olan (altın gibi) bir rızka, zorlukla aşılan engellere, sabra ve sağlam (sert) dostluklara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["altin", "su", "ates", "fasulye", "mercimek"]
+  "relatedSymbols": [
+    "altin",
+    "su",
+    "ates",
+    "fasulye",
+    "mercimek"
+  ]
 }

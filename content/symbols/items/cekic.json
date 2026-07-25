@@ -1,6 +1,6 @@
 {
   "slug": "cekic",
-  "title": "Çekiç",
+  "title": "Rüyada Çekiç Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "nesneler",
   "shortDescription": "Rüyada çekiç görmek, inşaa etmeye (veya yıkmaya), kararlı ve sert adımlar atmaya, sorunları güç kullanarak çözmeye ve otoriteye işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["civi", "balta", "kazma", "testere", "demir"]
+  "relatedSymbols": [
+    "civi",
+    "balta",
+    "kazma",
+    "testere",
+    "demir"
+  ]
 }

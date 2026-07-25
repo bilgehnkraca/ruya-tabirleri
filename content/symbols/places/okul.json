@@ -1,6 +1,6 @@
 {
   "slug": "okul",
-  "title": "Okul",
+  "title": "Rüyada Okul Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "mekan",
   "shortDescription": "Rüyada okul görmek, hayat boyu süren öğrenme sürecine, çocukluk travmalarına, toplumun kurallarına, sınav stresine, olgunlaşmaya ve yeni bir döneme hazırlığa işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["ev", "hastane", "cami", "kalem", "kitap"]
+  "relatedSymbols": [
+    "ev",
+    "hastane",
+    "cami",
+    "kalem",
+    "kitap"
+  ]
 }

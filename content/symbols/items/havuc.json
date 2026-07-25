@@ -1,6 +1,6 @@
 {
   "slug": "havuc",
-  "title": "Havuç",
+  "title": "Rüyada Havuç Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "yiyecek",
   "shortDescription": "Rüyada havuç görmek, (özellikle hedefe giden yolda sallanan bir 'ödül' olarak) motivasyona, cinsel/fallik güce, keskin (göz/vizyon) görüşe ve uzun süreli çabaya işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["toprak", "patates", "goz", "ates", "kan"]
+  "relatedSymbols": [
+    "toprak",
+    "patates",
+    "goz",
+    "ates",
+    "kan"
+  ]
 }

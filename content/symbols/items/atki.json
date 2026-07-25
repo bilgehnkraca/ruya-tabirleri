@@ -1,6 +1,6 @@
 {
   "slug": "atki",
-  "title": "Atkı (Boyunluk)",
+  "title": "Rüyada Atkı (Boyunluk) Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "nesneler",
   "shortDescription": "Rüyada atkı görmek, şefkate, korunma ihtiyacına, duygusal bağlara/düğümlere, dış dünyanın soğukluğundan kaçmaya ve bazen de boğucu bir sevgiye işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["corap", "kis", "kravat", "kumas", "boyun"]
+  "relatedSymbols": [
+    "corap",
+    "kis",
+    "kravat",
+    "kumas",
+    "boyun"
+  ]
 }

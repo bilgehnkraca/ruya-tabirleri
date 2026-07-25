@@ -1,6 +1,6 @@
 {
   "slug": "buzdolabi",
-  "title": "Buzdolabı",
+  "title": "Rüyada Buzdolabı Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "nesne",
   "shortDescription": "Rüyada buzdolabı görmek, malın (rızkın) korunmasına, duygusal soğukluğa, ertelenen konulara (dondurulan projelere), evliliğin bereketine ve aile içindeki sinsi sırlara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["firin", "masa", "ev", "yatak", "kapi"]
+  "relatedSymbols": [
+    "firin",
+    "masa",
+    "ev",
+    "yatak",
+    "kapi"
+  ]
 }

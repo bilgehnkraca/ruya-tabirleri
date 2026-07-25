@@ -1,6 +1,6 @@
 {
   "slug": "baba",
-  "title": "Baba",
+  "title": "Rüyada Baba Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "insan",
   "shortDescription": "Rüyada baba görmek, kişinin hayatındaki mutlak güce (otoriteye), ilahi korumaya, sarsılmaz bir güvenceye, vicdana ve içsel kurallara (Superego) işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["anne", "kardes", "ev", "dag", "olum"]
+  "relatedSymbols": [
+    "anne",
+    "kardes",
+    "ev",
+    "dag",
+    "olum"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "avukat",
-  "title": "Avukat",
+  "title": "Rüyada Avukat Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "meslek",
   "shortDescription": "Rüyada avukat görmek, hakkınızı savunacak (veya sizi manipüle edecek) kurnaz (zeki) bir dosta, tartışmalı (hukuki) bir sürece, ikna kabiliyetine ve hak arayışına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["hakim", "polis", "doktor", "muhendis", "ogretmen"]
+  "relatedSymbols": [
+    "hakim",
+    "polis",
+    "doktor",
+    "muhendis",
+    "ogretmen"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "elbise",
-  "title": "Elbise",
+  "title": "Rüyada Elbise Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "nesne",
   "shortDescription": "Rüyada elbise görmek, kişinin toplumsal itibarına (maskesine), evliliğe, sevince, zenginliğe, gizlenen sırlara ve insanın ahlaki örtüsüne işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["ayakkabi", "ayna", "kapi", "yuzuk", "kadin"]
+  "relatedSymbols": [
+    "ayakkabi",
+    "ayna",
+    "kapi",
+    "yuzuk",
+    "kadin"
+  ]
 }

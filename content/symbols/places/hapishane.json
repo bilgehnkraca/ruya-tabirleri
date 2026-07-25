@@ -1,6 +1,6 @@
 {
   "slug": "hapishane",
-  "title": "Hapishane",
+  "title": "Rüyada Hapishane Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "mekan",
   "shortDescription": "Rüyada hapishane görmek, ruhsal veya fiziksel kısıtlanmaya, suçluluk duygusuna, cezalandırılma korkusuna, toksik ilişkilere ve çaresiz bir esarete işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["okul", "hastane", "otel", "karanlik", "kapi"]
+  "relatedSymbols": [
+    "okul",
+    "hastane",
+    "otel",
+    "karanlik",
+    "kapi"
+  ]
 }

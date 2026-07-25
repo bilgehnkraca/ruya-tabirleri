@@ -1,6 +1,6 @@
 {
   "slug": "yolculuk",
-  "title": "Yolculuk",
+  "title": "Rüyada Yolculuk Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "eylemler",
   "shortDescription": "Rüyada yolculuk yapmak, hayatınızda yeni bir dönemin başladığına, kişisel gelişime, taşınmaya veya alınacak köklü kararlara işaret eder. Rüyanın tabiri, yolun nasıl olduğuna ve neyle seyahat edildiğine göre değişir.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["araba-kullanmak", "ucak", "gemi", "deniz", "bavul"]
+  "relatedSymbols": [
+    "araba-kullanmak",
+    "ucak",
+    "gemi",
+    "deniz",
+    "bavul"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "timsah",
-  "title": "Timsah",
+  "title": "Rüyada Timsah Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada timsah görmek, sinsi bir düşmana, hırsıza, zalim bir yöneticiye, korkuya, gizli bir tehlikeye veya yalan gözyaşlarına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["yilan", "su", "ejderha", "kurbaga", "kurt"]
+  "relatedSymbols": [
+    "yilan",
+    "su",
+    "ejderha",
+    "kurbaga",
+    "kurt"
+  ]
 }

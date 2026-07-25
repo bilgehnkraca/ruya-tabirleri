@@ -1,6 +1,6 @@
 {
   "slug": "marti",
-  "title": "Martı",
+  "title": "Rüyada Martı Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada martı görmek, özgürlüğe, deniz yolculuklarına, neşeli haberlere, fırsatçılığa, sahil hayatına veya geçmişten gelen güzel anılara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kus", "deniz", "gemi", "balik", "gokyuzu"]
+  "relatedSymbols": [
+    "kus",
+    "deniz",
+    "gemi",
+    "balik",
+    "gokyuzu"
+  ]
 }

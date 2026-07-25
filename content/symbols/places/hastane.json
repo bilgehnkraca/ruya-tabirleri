@@ -1,6 +1,6 @@
 {
   "slug": "hastane",
-  "title": "Hastane",
+  "title": "Rüyada Hastane Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "mekan",
   "shortDescription": "Rüyada hastane görmek, iyileşme sürecine, fiziksel veya ruhsal yaralanmalara, çaresizliğe, uzman bir yardıma ihtiyaç duymaya ve ölüm korkusuyla yüzleşmeye işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["ev", "okul", "cami", "kan", "yara"]
+  "relatedSymbols": [
+    "ev",
+    "okul",
+    "cami",
+    "kan",
+    "yara"
+  ]
 }

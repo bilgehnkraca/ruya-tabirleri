@@ -1,6 +1,6 @@
 {
   "slug": "ayi",
-  "title": "Ayı",
+  "title": "Rüyada Ayı Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "hayvanlar",
   "shortDescription": "Rüyada ayı görmek, kaba ve güçlü bir düşmana, yalnızlığa, anne figürüne (koruyuculuğa), büyük maddi kazanca veya bilinçaltındaki bastırılmış ilkel güce işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kurt", "aslan", "orman", "kadin", "kopek"]
+  "relatedSymbols": [
+    "kurt",
+    "aslan",
+    "orman",
+    "kadin",
+    "kopek"
+  ]
 }

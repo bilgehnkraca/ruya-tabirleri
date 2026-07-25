@@ -1,6 +1,6 @@
 {
   "slug": "tava",
-  "title": "Tava",
+  "title": "Rüyada Tava Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada tava görmek, hızlı sonuç veren işlere, kızgınlıklara (anlık öfkelere), cızırtılı (dedikodulu) ortamlara ve pratik çözümlere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["tencere", "ates", "yemek", "ocak", "bicak"]
+  "relatedSymbols": [
+    "tencere",
+    "ates",
+    "yemek",
+    "ocak",
+    "bicak"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "agac",
-  "title": "Ağaç",
+  "title": "Rüyada Ağaç Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "doga",
   "shortDescription": "Rüyada ağaç görmek, kişinin soyuna, ömrüne, karakterinin köklerine, rızkına, büyüme potansiyeline ve hayat ağacı (Tree of Life) sembolizmine işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["orman", "meyve", "yaprak", "toprak", "cicek"]
+  "relatedSymbols": [
+    "orman",
+    "meyve",
+    "yaprak",
+    "toprak",
+    "cicek"
+  ]
 }

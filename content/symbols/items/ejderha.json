@@ -1,6 +1,6 @@
 {
   "slug": "ejderha",
-  "title": "Ejderha",
+  "title": "Rüyada Ejderha Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "mitolojik",
   "shortDescription": "Rüyada ejderha görmek, çok büyük (ve tehlikeli) bir güce, kontrol edilmesi zor bir öfkeye (veya düşmana), büyük bir zenginliğe (hazineye) ve mutlak (korkutucu) bir otoriteye işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["seytan", "yilan", "ates", "anka_kusu", "canavar"]
+  "relatedSymbols": [
+    "seytan",
+    "yilan",
+    "ates",
+    "anka_kusu",
+    "canavar"
+  ]
 }

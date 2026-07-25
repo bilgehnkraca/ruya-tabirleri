@@ -1,6 +1,6 @@
 {
   "slug": "meteor",
-  "title": "Meteor (Göktaşı)",
+  "title": "Rüyada Meteor (Göktaşı) Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada meteor görmek, beklenmedik, şok edici ve aniden hayatınıza düşen devasa krizlere, ilahi müdahalelere, dışarıdan gelen ani zenginliğe ve radikal yıkımlara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["yildiz", "gezegen", "deprem", "volkan", "kiyamet"]
+  "relatedSymbols": [
+    "yildiz",
+    "gezegen",
+    "deprem",
+    "volkan",
+    "kiyamet"
+  ]
 }

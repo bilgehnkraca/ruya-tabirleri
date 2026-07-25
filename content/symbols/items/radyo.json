@@ -1,6 +1,6 @@
 {
   "slug": "radyo",
-  "title": "Radyo",
+  "title": "Rüyada Radyo Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "nesneler",
   "shortDescription": "Rüyada radyo görmek, uzaktan gelecek haberlere, görünmeyen seslere (dedikodu veya ilham), frekans uyumuna (iletişim) ve bazen de (parazitli ses) kafa karışıklığına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["televizyon", "telefon", "bilgisayar", "ses", "muzik"]
+  "relatedSymbols": [
+    "televizyon",
+    "telefon",
+    "bilgisayar",
+    "ses",
+    "muzik"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "telefon",
-  "title": "Telefon",
+  "title": "Rüyada Telefon Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "nesne",
   "shortDescription": "Rüyada telefon görmek, uzaklardan gelecek önemli bir habere, insanlarla kurulan iletişimin kalitesine, acil bir uyarıya, iç sese ve bazen de kopan bağlara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["bilgisayar", "televizyon", "kapi", "ayna", "kitap"]
+  "relatedSymbols": [
+    "bilgisayar",
+    "televizyon",
+    "kapi",
+    "ayna",
+    "kitap"
+  ]
 }

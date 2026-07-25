@@ -1,6 +1,6 @@
 {
   "slug": "ogretmen",
-  "title": "Öğretmen",
+  "title": "Rüyada Öğretmen Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "insanlar",
   "shortDescription": "Rüyada öğretmen görmek, ilim, irfan, yol gösterici bir lider (rehber), kişinin cehaletten (karanlıktan) kurtuluşu ve hayatındaki (zorlu) sınavlardan edineceği tecrübeye işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["okul", "kitap", "ataturk", "cumhurbaskani", "kalem"]
+  "relatedSymbols": [
+    "okul",
+    "kitap",
+    "ataturk",
+    "cumhurbaskani",
+    "kalem"
+  ]
 }

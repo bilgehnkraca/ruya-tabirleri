@@ -1,6 +1,6 @@
 {
   "slug": "okuz",
-  "title": "Öküz",
+  "title": "Rüyada Öküz Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "hayvanlar",
   "shortDescription": "Rüyada öküz görmek, güce, kuvvete, zor işlerin üstesinden gelmeye, sabırlı bir lidere, toprağa veya büyük bir ticari başarıya işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["inek", "koc", "at", "toprak", "bugday"]
+  "relatedSymbols": [
+    "inek",
+    "koc",
+    "at",
+    "toprak",
+    "bugday"
+  ]
 }

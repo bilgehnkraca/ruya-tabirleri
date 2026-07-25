@@ -1,6 +1,6 @@
 {
   "slug": "gol",
-  "title": "Göl",
+  "title": "Rüyada Göl Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada göl görmek, içsel huzura, derin düşüncelere, birikmiş duygulara (sırlara), sınırlı ama bereketli bir rızka ve aynalanmaya işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["su", "deniz", "nehir", "ayna", "orman"]
+  "relatedSymbols": [
+    "su",
+    "deniz",
+    "nehir",
+    "ayna",
+    "orman"
+  ]
 }

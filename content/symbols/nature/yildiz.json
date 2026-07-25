@@ -1,6 +1,6 @@
 {
   "slug": "yildiz",
-  "title": "Yıldız",
+  "title": "Rüyada Yıldız Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada yıldız görmek, büyük umutlara, ulaşılmaz ideallere, toplumda parlayan liderlere/alimlere, rehberliğe ve kaderin çizdiği uzak hedeflere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["gunes", "ay", "gece", "karanlik", "deniz"]
+  "relatedSymbols": [
+    "gunes",
+    "ay",
+    "gece",
+    "karanlik",
+    "deniz"
+  ]
 }

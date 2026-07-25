@@ -1,6 +1,6 @@
 {
   "slug": "bahce",
-  "title": "Bahçe",
+  "title": "Rüyada Bahçe Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada bahçe görmek, kişinin kendi emeğiyle kurduğu dünyaya (ailesine/işine), dünya (ve ahiret) nimetlerine, manevi ferahlığa ve korunmuş (huzurlu) özel alana işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["cicek", "agac", "toprak", "ev", "orman"]
+  "relatedSymbols": [
+    "cicek",
+    "agac",
+    "toprak",
+    "ev",
+    "orman"
+  ]
 }

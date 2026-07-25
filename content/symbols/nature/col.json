@@ -1,6 +1,6 @@
 {
   "slug": "col",
-  "title": "Çöl",
+  "title": "Rüyada Çöl Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "doga",
   "shortDescription": "Rüyada çöl görmek, büyük bir yalnızlığa, duygusal/maddi kuraklığa, meşakkatli bir imtihana, ruhsal izolasyona ve (eğer vaha bulunursa) kurtuluşa işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kum", "gunes", "yilan", "ates", "okyanus"]
+  "relatedSymbols": [
+    "kum",
+    "gunes",
+    "yilan",
+    "ates",
+    "okyanus"
+  ]
 }

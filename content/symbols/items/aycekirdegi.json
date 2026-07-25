@@ -1,6 +1,6 @@
 {
   "slug": "aycekirdegi",
-  "title": "Ayçekirdeği",
+  "title": "Rüyada Ayçekirdeği Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "yiyecek",
   "shortDescription": "Rüyada ayçekirdeği görmek, boşa harcanan zamana (çene çalmaya), bol dedikoduya, ufak tefek ama bitmek bilmeyen (eğlenceli) paralara ve sosyal (gamsız) ortamlara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["findik", "badem", "fistik", "gunes", "kus"]
+  "relatedSymbols": [
+    "findik",
+    "badem",
+    "fistik",
+    "gunes",
+    "kus"
+  ]
 }

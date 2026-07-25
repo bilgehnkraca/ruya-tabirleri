@@ -1,6 +1,6 @@
 {
   "slug": "klima",
-  "title": "Klima",
+  "title": "Rüyada Klima Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada klima görmek, atmosferi (ruh halini) değiştirmeye, öfkeleri soğutmaya, yapay bir huzura (veya soğukluğa) ve ortama uyum sağlama çabasına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["vantilator", "buzdolabi", "su", "ates", "ev"]
+  "relatedSymbols": [
+    "vantilator",
+    "buzdolabi",
+    "su",
+    "ates",
+    "ev"
+  ]
 }

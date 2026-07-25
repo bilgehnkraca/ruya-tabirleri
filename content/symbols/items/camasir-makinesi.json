@@ -1,6 +1,6 @@
 {
   "slug": "camasir-makinesi",
-  "title": "Çamaşır Makinesi",
+  "title": "Rüyada Çamaşır Makinesi Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada çamaşır makinesi görmek, geçmişin günahlarından veya hatalarından arınmaya, içsel bir temizliğe, sorunların çalkalanarak çözülmesine ve yenilenmeye işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["su", "sabun", "giysi", "temizlik", "banyo"]
+  "relatedSymbols": [
+    "su",
+    "sabun",
+    "giysi",
+    "temizlik",
+    "banyo"
+  ]
 }

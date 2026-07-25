@@ -1,6 +1,6 @@
 {
   "slug": "tavsan",
-  "title": "Tavşan",
+  "title": "Rüyada Tavşan Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada tavşan görmek, hıza, doğurganlığa, masumiyete, ürkekliğe, kaçışa, hileye veya gizli bir yeteneğin açığa çıkmasına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kedi", "kopek", "kus", "kadin", "orman"]
+  "relatedSymbols": [
+    "kedi",
+    "kopek",
+    "kus",
+    "kadin",
+    "orman"
+  ]
 }

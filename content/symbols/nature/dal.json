@@ -1,6 +1,6 @@
 {
   "slug": "dal",
-  "title": "Dal",
+  "title": "Rüyada Dal Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada dal görmek, ailenin kollarına/çocuklara, yeni fırsatlara, kırılgan ilişkilere, büyümenin yönüne ve hayata uzanma çabasına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["agac", "yaprak", "kok", "cicek", "orman"]
+  "relatedSymbols": [
+    "agac",
+    "yaprak",
+    "kok",
+    "cicek",
+    "orman"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "kapi",
-  "title": "Kapı",
+  "title": "Rüyada Kapı Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "nesne",
   "shortDescription": "Rüyada kapı görmek, evliliğe (veya eşe), yeni fırsatlara, sırların korunmasına, evin yöneticisine, geçiş (eşik) dönemlerine ve hayatın sunduğu büyük seçeneklere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["anahtar", "ev", "oda", "duvar", "pencere"]
+  "relatedSymbols": [
+    "anahtar",
+    "ev",
+    "oda",
+    "duvar",
+    "pencere"
+  ]
 }

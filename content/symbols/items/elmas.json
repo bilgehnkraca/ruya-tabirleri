@@ -1,6 +1,6 @@
 {
   "slug": "elmas",
-  "title": "Elmas",
+  "title": "Rüyada Elmas Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "nesneler",
   "shortDescription": "Rüyada elmas görmek, eşsiz bir başarıya (zenginliğe), sağlam (kırılmaz) bir aşka, çok kıymetli (ve nadir) bir bilgiye, asalet ve kalıcı şerefe işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["altin", "yakut", "zumrut", "tas", "yuzuk"]
+  "relatedSymbols": [
+    "altin",
+    "yakut",
+    "zumrut",
+    "tas",
+    "yuzuk"
+  ]
 }

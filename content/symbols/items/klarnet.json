@@ -1,6 +1,6 @@
 {
   "slug": "klarnet",
-  "title": "Klarnet",
+  "title": "Rüyada Klarnet Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "nesneler",
   "shortDescription": "Rüyada klarnet görmek, derin duygusallığa (hüzne ve neşeye aynı anda), düğün/eğlence kalabalığına, dertli ama tatlı bir iletişime işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["muzik", "ses", "dugun", "sarki", "flut"]
+  "relatedSymbols": [
+    "muzik",
+    "ses",
+    "dugun",
+    "sarki",
+    "flut"
+  ]
 }

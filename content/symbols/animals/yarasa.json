@@ -1,6 +1,6 @@
 {
   "slug": "yarasa",
-  "title": "Yarasa",
+  "title": "Rüyada Yarasa Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada yarasa görmek, karanlık işlere, gizli düşmanlara, körlüğe, gece hayatına veya içsel korkularla yüzleşmeye işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["karga", "baykus", "karanlik", "gece", "seytan"]
+  "relatedSymbols": [
+    "karga",
+    "baykus",
+    "karanlik",
+    "gece",
+    "seytan"
+  ]
 }

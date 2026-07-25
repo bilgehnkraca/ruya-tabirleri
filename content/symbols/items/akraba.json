@@ -1,6 +1,6 @@
 {
   "slug": "akraba",
-  "title": "Akraba",
+  "title": "Rüyada Akraba Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "insan",
   "shortDescription": "Rüyada akraba görmek, kişinin köklerine (geçmişine), aile içi dayanışmaya (veya gizli dedikodulara), zorunlu bağlara, miras beklentilerine ve aidiyet duygusuna işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["arkadas", "baba", "anne", "kardes", "dugun"]
+  "relatedSymbols": [
+    "arkadas",
+    "baba",
+    "anne",
+    "kardes",
+    "dugun"
+  ]
 }

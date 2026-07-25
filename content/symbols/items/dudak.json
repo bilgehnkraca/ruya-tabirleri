@@ -1,6 +1,6 @@
 {
   "slug": "dudak",
-  "title": "Dudak",
+  "title": "Rüyada Dudak Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "beden",
   "shortDescription": "Rüyada dudak görmek, sevgiye (şefkate), dostça (veya düşmanca) söylenen sözlere, çekiciliğe (cazibeye), yardıma ve iletişimin estetiğine işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["agiz", "yuz", "dis", "dil", "goz"]
+  "relatedSymbols": [
+    "agiz",
+    "yuz",
+    "dis",
+    "dil",
+    "goz"
+  ]
 }

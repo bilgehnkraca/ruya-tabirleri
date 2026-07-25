@@ -1,6 +1,6 @@
 {
   "slug": "horoz",
-  "title": "Horoz",
+  "title": "Rüyada Horoz Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "hayvanlar",
   "shortDescription": "Rüyada horoz görmek, müjdeleyici bir sese, gururlu ve cesur bir erkeğe, sabahın habercisine, ezan sesine veya güçlü bir liderliğe işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["tavuk", "yumurta", "kus", "kedi", "sabah"]
+  "relatedSymbols": [
+    "tavuk",
+    "yumurta",
+    "kus",
+    "kedi",
+    "sabah"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "havaalani",
-  "title": "Havaalanı",
+  "title": "Rüyada Havaalanı Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "mekan",
   "shortDescription": "Rüyada havaalanı görmek, büyük yaşam değişimlerine, bekleyişe, yeni ufuklara, hedeflere ulaşma arzusuna, vedalara ve köklerden kopma heyecanına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["otel", "sokak", "kus", "bulut", "kapi"]
+  "relatedSymbols": [
+    "otel",
+    "sokak",
+    "kus",
+    "bulut",
+    "kapi"
+  ]
 }

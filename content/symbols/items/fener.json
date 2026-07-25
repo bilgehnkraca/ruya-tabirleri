@@ -1,6 +1,6 @@
 {
   "slug": "fener",
-  "title": "Fener (El Feneri/Deniz Feneri)",
+  "title": "Rüyada Fener (El Feneri/Deniz Feneri) Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada fener görmek, karanlıkta yol gösteren bir rehbere, kişisel (sınırlı) bir aydınlanmaya, umut ışığına ve sırları açığa çıkaran odaklanmış bir dikkate işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["isik", "karanlik", "ampul", "ates", "goz"]
+  "relatedSymbols": [
+    "isik",
+    "karanlik",
+    "ampul",
+    "ates",
+    "goz"
+  ]
 }

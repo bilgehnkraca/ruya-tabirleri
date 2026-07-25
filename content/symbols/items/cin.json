@@ -1,6 +1,6 @@
 {
   "slug": "cin",
-  "title": "Cin (Harfliler)",
+  "title": "Rüyada Cin (Harfliler) Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "mistik",
   "shortDescription": "Rüyada cin görmek, gizli düşmanlara, hilekar insanlara, bilinçaltındaki bastırılmış (karanlık) korkulara ve dünyevi (ruhsal) vesveselere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["seytan", "karanlik", "kedi", "yilan", "kopek"]
+  "relatedSymbols": [
+    "seytan",
+    "karanlik",
+    "kedi",
+    "yilan",
+    "kopek"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "sokak",
-  "title": "Sokak",
+  "title": "Rüyada Sokak Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "mekan",
   "shortDescription": "Rüyada sokak görmek, kişinin hayat yolculuğuna, yön bulma çabasına, kamusal hayattaki durumuna, bilinmezliğe ve karşısına çıkacak yeni fırsatlara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["ev", "otel", "karanlik", "araba", "kapi"]
+  "relatedSymbols": [
+    "ev",
+    "otel",
+    "karanlik",
+    "araba",
+    "kapi"
+  ]
 }

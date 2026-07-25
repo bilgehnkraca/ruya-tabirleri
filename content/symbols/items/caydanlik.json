@@ -1,6 +1,6 @@
 {
   "slug": "caydanlik",
-  "title": "Çaydanlık",
+  "title": "Rüyada Çaydanlık Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada çaydanlık görmek, uzun ve demli sohbetlere, içsel bir kaynamaya (öfke veya olgunlaşma), sabır gerektiren bekleyişlere ve hane içindeki sıcaklığa işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["cay", "bardak", "su", "ates", "ocak"]
+  "relatedSymbols": [
+    "cay",
+    "bardak",
+    "su",
+    "ates",
+    "ocak"
+  ]
 }

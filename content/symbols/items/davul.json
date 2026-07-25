@@ -1,6 +1,6 @@
 {
   "slug": "davul",
-  "title": "Davul",
+  "title": "Rüyada Davul Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "nesneler",
   "shortDescription": "Rüyada davul görmek, uzaktan gelen büyük (ve gösterişli) bir habere, ilana (duyuruya), boş (fakat gürültülü) sözlere ve toplumsal bir uyanışa işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["muzik", "ses", "dugun", "bateri", "darbuka"]
+  "relatedSymbols": [
+    "muzik",
+    "ses",
+    "dugun",
+    "bateri",
+    "darbuka"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "zebra",
-  "title": "Zebra",
+  "title": "Rüyada Zebra Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada zebra görmek, kararsızlığa, zıtlıklara, siyah ve beyazın uyumuna, farklılıklara, belirsiz durumlara veya dikkat çeken bir kişiliğe işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["hayvan", "at", "siyah", "beyaz", "ikilem"]
+  "relatedSymbols": [
+    "hayvan",
+    "at",
+    "siyah",
+    "beyaz",
+    "ikilem"
+  ]
 }

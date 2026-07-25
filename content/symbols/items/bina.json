@@ -1,6 +1,6 @@
 {
   "slug": "bina",
-  "title": "Bina",
+  "title": "Rüyada Bina Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "mekanlar",
   "shortDescription": "Rüyada bina görmek, kişinin kendi emeğiyle kurduğu hayata (kariyerine), vücuduna, dünyevi işlerdeki (başarı) yapısına ve hedeflerinin büyüklüğüne işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["saray", "kale", "sehir", "ev", "sokak"]
+  "relatedSymbols": [
+    "saray",
+    "kale",
+    "sehir",
+    "ev",
+    "sokak"
+  ]
 }

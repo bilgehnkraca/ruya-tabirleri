@@ -1,6 +1,6 @@
 {
   "slug": "orumcek",
-  "title": "Örümcek",
+  "title": "Rüyada Örümcek Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada örümcek görmek, sabra, ince işçiliğe, ibadete, tuzağa, sinsi bir düşmana veya kişinin karmaşık ilişkiler ağına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["yilan", "bocek", "ev", "anne", "karanlik"]
+  "relatedSymbols": [
+    "yilan",
+    "bocek",
+    "ev",
+    "anne",
+    "karanlik"
+  ]
 }

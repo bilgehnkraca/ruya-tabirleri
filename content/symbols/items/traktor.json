@@ -1,6 +1,6 @@
 {
   "slug": "traktor",
-  "title": "Traktör",
+  "title": "Rüyada Traktör Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "tasitlar",
   "shortDescription": "Rüyada traktör görmek, ağır ve bereketli bir emeğe, toprağa (üretime) dönük çalışmalara, sabra, yavaş ama sağlam ilerleyen bir işe işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kamyon", "tarla", "araba", "koy", "toprak"]
+  "relatedSymbols": [
+    "kamyon",
+    "tarla",
+    "araba",
+    "koy",
+    "toprak"
+  ]
 }

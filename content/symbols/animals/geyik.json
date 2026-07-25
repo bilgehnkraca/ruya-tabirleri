@@ -1,6 +1,6 @@
 {
   "slug": "geyik",
-  "title": "Geyik",
+  "title": "Rüyada Geyik Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada geyik görmek, asalete, zarafete, güzel bir kadına veya erkeğe, özgürlüğe, masumiyete veya kaçıp giden bir fırsata işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kurt", "orman", "agac", "aslan", "guzellik"]
+  "relatedSymbols": [
+    "kurt",
+    "orman",
+    "agac",
+    "aslan",
+    "guzellik"
+  ]
 }

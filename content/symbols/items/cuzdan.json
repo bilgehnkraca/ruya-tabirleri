@@ -1,6 +1,6 @@
 {
   "slug": "cuzdan",
-  "title": "Cüzdan",
+  "title": "Rüyada Cüzdan Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "nesne",
   "shortDescription": "Rüyada cüzdan görmek, kişinin sırlarına, mahremiyetine, maddi/manevi birikimlerine (değerlerine), kimliğine ve iç dünyasında sakladığı kıymetli duygulara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["para", "altin", "gumus", "kapi", "yatak"]
+  "relatedSymbols": [
+    "para",
+    "altin",
+    "gumus",
+    "kapi",
+    "yatak"
+  ]
 }

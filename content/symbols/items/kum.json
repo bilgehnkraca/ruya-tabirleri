@@ -1,6 +1,6 @@
 {
   "slug": "kum",
-  "title": "Kum",
+  "title": "Rüyada Kum Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada kum görmek, sayısız mala (dünya nimetlerine), geçici heveslere (kalıcı olmayan işlere), zamanın akışına, kalabalık topluluklara ve bazen de zorluğa (çöle) işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kaya", "toprak", "su", "deniz", "col"]
+  "relatedSymbols": [
+    "kaya",
+    "toprak",
+    "su",
+    "deniz",
+    "col"
+  ]
 }

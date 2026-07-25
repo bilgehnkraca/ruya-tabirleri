@@ -1,6 +1,6 @@
 {
   "slug": "anahtar",
-  "title": "Anahtar",
+  "title": "Rüyada Anahtar Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "nesne",
   "shortDescription": "Rüyada anahtar görmek, sırların çözülmesine, kitli kapıların (fırsatların) açılmasına, evliliğe, ilim öğrenmeye, makam/güç sahibi olmaya ve duaların kabulüne işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kapi", "ev", "zindan", "kutu", "demir"]
+  "relatedSymbols": [
+    "kapi",
+    "ev",
+    "zindan",
+    "kutu",
+    "demir"
+  ]
 }

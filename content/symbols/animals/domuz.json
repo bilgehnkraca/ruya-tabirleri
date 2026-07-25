@@ -1,6 +1,6 @@
 {
   "slug": "domuz",
-  "title": "Domuz",
+  "title": "Rüyada Domuz Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada domuz görmek, genellikle haram mala, kirli bir düşmana, ahlaksızlığa, nefsin kötü arzularına veya iğrenç ve tehlikeli bir duruma işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kopek", "yilan", "yirtici", "fare", "kurt"]
+  "relatedSymbols": [
+    "kopek",
+    "yilan",
+    "yirtici",
+    "fare",
+    "kurt"
+  ]
 }

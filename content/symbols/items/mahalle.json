@@ -1,6 +1,6 @@
 {
   "slug": "mahalle",
-  "title": "Mahalle",
+  "title": "Rüyada Mahalle Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "mekanlar",
   "shortDescription": "Rüyada mahalle görmek, komşuluk ilişkilerine, günlük (sıradan) olaylara, dedikoduya, yardımlaşmaya ve kişinin sosyal çevresindeki itibarına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["sehir", "koy", "sokak", "cadde", "komsu"]
+  "relatedSymbols": [
+    "sehir",
+    "koy",
+    "sokak",
+    "cadde",
+    "komsu"
+  ]
 }

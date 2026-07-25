@@ -1,6 +1,6 @@
 {
   "slug": "tornavida",
-  "title": "Tornavida",
+  "title": "Rüyada Tornavida Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada tornavida görmek, sorunları ince ince çözmeye (sökmeye), detaylı bir onarım sürecine, bazen zihni kurcalayan takıntılara ve sabır gerektiren işlere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["vida", "pense", "cekic", "demir", "el"]
+  "relatedSymbols": [
+    "vida",
+    "pense",
+    "cekic",
+    "demir",
+    "el"
+  ]
 }

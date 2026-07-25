@@ -1,6 +1,6 @@
 {
-  "slug": "su_aygiri",
-  "title": "Su Aygırı",
+  "slug": "su-aygiri",
+  "title": "Rüyada Su Aygırı Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada su aygırı görmek, gizli tehlikelere, duygusal derinliğe, tembelliğe, büyük cüsseye, ani öfke patlamalarına ve suya saklanan sinsi düşmanlara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["hayvan", "su", "ofke", "dusman", "nehir"]
+  "relatedSymbols": [
+    "hayvan",
+    "su",
+    "ofke",
+    "dusman",
+    "nehir"
+  ]
 }

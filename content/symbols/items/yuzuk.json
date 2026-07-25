@@ -1,6 +1,6 @@
 {
   "slug": "yuzuk",
-  "title": "Yüzük",
+  "title": "Rüyada Yüzük Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "nesne",
   "shortDescription": "Rüyada yüzük görmek, evliliğe (sadakate), otoriteye (mühür/güç), sonsuz döngülere, yeminlere, yeni alınacak bir eve/arabaya ve çok değerli anlaşmalara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["anahtar", "kapi", "el", "dugun", "altin"]
+  "relatedSymbols": [
+    "anahtar",
+    "kapi",
+    "el",
+    "dugun",
+    "altin"
+  ]
 }

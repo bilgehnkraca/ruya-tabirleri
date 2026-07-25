@@ -1,6 +1,6 @@
 {
   "slug": "yuz",
-  "title": "Yüz",
+  "title": "Rüyada Yüz Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "beden",
   "shortDescription": "Rüyada yüz görmek, kişinin onuruna (şerefine), niyetlerine (gizli duygularına), toplum içindeki maskesine (imajına) ve gerçeklerle yüzleşmeye işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["goz", "sac", "agiz", "burun", "ayna"]
+  "relatedSymbols": [
+    "goz",
+    "sac",
+    "agiz",
+    "burun",
+    "ayna"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "testere",
-  "title": "Testere",
+  "title": "Rüyada Testere Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "nesneler",
   "shortDescription": "Rüyada testere görmek, kesip ayırmaya, bir ilişkiyi veya ortaklığı bölmeye, acılı bir ayrılığa ve kararlı/sert bir bölüşüme işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["balta", "kiliç", "bicak", "kan", "agac"]
+  "relatedSymbols": [
+    "balta",
+    "kiliç",
+    "bicak",
+    "kan",
+    "agac"
+  ]
 }

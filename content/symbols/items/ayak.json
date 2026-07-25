@@ -1,6 +1,6 @@
 {
   "slug": "ayak",
-  "title": "Ayak",
+  "title": "Rüyada Ayak Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "beden",
   "shortDescription": "Rüyada ayak görmek, kişinin ömrüne (ve dayanıklılığına), malına mülküne (sermayesine), seyahatlere, sebat etmeye (veya yoldan çıkmaya) işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["el", "ayakkabi", "yol", "toprak", "parmak"]
+  "relatedSymbols": [
+    "el",
+    "ayakkabi",
+    "yol",
+    "toprak",
+    "parmak"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "ev",
-  "title": "Ev",
+  "title": "Rüyada Ev Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "mekan",
   "shortDescription": "Rüyada ev görmek, doğrudan kişinin kendi ruhsal yapısına, bedenine, iç dünyasının sınırlarına, mahremiyetine ve aile hayatındaki huzur veya kaosa işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kapi", "duvar", "anahtar", "hastane", "okul"]
+  "relatedSymbols": [
+    "kapi",
+    "duvar",
+    "anahtar",
+    "hastane",
+    "okul"
+  ]
 }

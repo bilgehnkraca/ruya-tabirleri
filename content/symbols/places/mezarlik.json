@@ -1,6 +1,6 @@
 {
   "slug": "mezarlik",
-  "title": "Mezarlık",
+  "title": "Rüyada Mezarlık Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "mekan",
   "shortDescription": "Rüyada mezarlık görmek, geçmişle yüzleşmeye, ölüm korkusuna, bitişlere, yasa, korkutucu ama dönüştürücü bir ruhsal arınmaya ve dünya hayatının geçiciliğini hatırlamaya işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["ev", "toprak", "hastane", "kan", "yara"]
+  "relatedSymbols": [
+    "ev",
+    "toprak",
+    "hastane",
+    "kan",
+    "yara"
+  ]
 }

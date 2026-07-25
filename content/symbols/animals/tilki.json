@@ -1,6 +1,6 @@
 {
   "slug": "tilki",
-  "title": "Tilki",
+  "title": "Rüyada Tilki Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "hayvanlar",
   "shortDescription": "Rüyada tilki görmek, kurnaz ve sinsi bir düşmana, hileye, zekaya, aldatılma tehlikesine veya kişinin kendi içindeki kurnazlık eğilimine işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kurt", "yilan", "kedi", "kopek", "orman"]
+  "relatedSymbols": [
+    "kurt",
+    "yilan",
+    "kedi",
+    "kopek",
+    "orman"
+  ]
 }

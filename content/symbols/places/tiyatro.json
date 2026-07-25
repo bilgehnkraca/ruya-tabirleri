@@ -1,6 +1,6 @@
 {
   "slug": "tiyatro",
-  "title": "Tiyatro",
+  "title": "Rüyada Tiyatro Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "mekan",
   "shortDescription": "Rüyada tiyatro görmek, hayattaki rollere, maskelere, yapay ilişkilere, kendi dramanı dışarıdan izlemeye, toplumsal sahneye ve bastırılmış duyguların sanatsal dışavurumuna işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["sinema", "stadyum", "saray", "maske", "oyun"]
+  "relatedSymbols": [
+    "sinema",
+    "stadyum",
+    "saray",
+    "maske",
+    "oyun"
+  ]
 }

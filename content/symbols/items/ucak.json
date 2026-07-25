@@ -1,6 +1,6 @@
 {
   "slug": "ucak",
-  "title": "Uçak",
+  "title": "Rüyada Uçak Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "nesneler",
   "shortDescription": "Rüyada uçak görmek, kişinin hayatında çok hızlı ve büyük bir yükselişe geçeceğine, hedeflerine sandığından daha kısa sürede ulaşacağına ve özgürlüğe kavuşacağına işaret eder. Bazen de kontrolü kaybetme korkusunu simgeler.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["gemi", "araba", "tren", "olum", "ucmak"]
+  "relatedSymbols": [
+    "gemi",
+    "araba",
+    "tren",
+    "olum",
+    "ucmak"
+  ]
 }

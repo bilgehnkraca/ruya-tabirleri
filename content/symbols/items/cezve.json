@@ -1,6 +1,6 @@
 {
   "slug": "cezve",
-  "title": "Cezve",
+  "title": "Rüyada Cezve Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada cezve görmek, kısa süreli (köpüklü) bir neşeye, keyifli bir sohbete, bazen küçük bir dedikoduya ve sabır gerektiren ufak işlere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kahve", "cay", "ocak", "misafir", "ates"]
+  "relatedSymbols": [
+    "kahve",
+    "cay",
+    "ocak",
+    "misafir",
+    "ates"
+  ]
 }

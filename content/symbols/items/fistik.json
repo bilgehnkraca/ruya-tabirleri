@@ -1,6 +1,6 @@
 {
   "slug": "fistik",
-  "title": "Fıstık",
+  "title": "Rüyada Fıstık Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "yiyecek",
   "shortDescription": "Rüyada fıstık (Antep veya Yer fıstığı) görmek, neşe ve keyif dolu günlere, eğlenceli ve bereketli toplantılara, lüks yaşama (Antep fıstığı ise) veya meşakkatli ama doyurucu (Yer fıstığı ise) helal rızka işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["badem", "findik", "ceviz", "tatli", "toprak"]
+  "relatedSymbols": [
+    "badem",
+    "findik",
+    "ceviz",
+    "tatli",
+    "toprak"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "bicak",
-  "title": "Bıçak",
+  "title": "Rüyada Bıçak Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "nesne",
   "shortDescription": "Rüyada bıçak görmek, keskin kararlara (ayrılıklara), güç ve kudrete, savunmaya, tehlikeli sözlere, ameliyatlara ve kişinin hayatındaki bağları koparma iradesine işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["makas", "kalem", "yuzuk", "kapi", "orman"]
+  "relatedSymbols": [
+    "makas",
+    "kalem",
+    "yuzuk",
+    "kapi",
+    "orman"
+  ]
 }

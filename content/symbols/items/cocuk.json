@@ -1,6 +1,6 @@
 {
   "slug": "cocuk",
-  "title": "Çocuk",
+  "title": "Rüyada Çocuk Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "insan",
   "shortDescription": "Rüyada çocuk görmek, kişinin hayatındaki o çok saf (masum) umutlara, masumiyete, yeni başlangıçlara (projelere), bazen de acemiliğe ve duygusal (İçsel) savunmasızlığa işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["baba", "anne", "kardes", "bebek", "arkadas"]
+  "relatedSymbols": [
+    "baba",
+    "anne",
+    "kardes",
+    "bebek",
+    "arkadas"
+  ]
 }

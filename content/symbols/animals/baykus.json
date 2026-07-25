@@ -1,6 +1,6 @@
 {
   "slug": "baykus",
-  "title": "Baykuş",
+  "title": "Rüyada Baykuş Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada baykuş görmek, bilgeliğe, derin bir sezgiye, bazen uğursuzluğa, yalnızlığa, sırlar öğrenmeye veya tehlikeli bir düşmana işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["karga", "kartal", "kus", "yilan", "gece"]
+  "relatedSymbols": [
+    "karga",
+    "kartal",
+    "kus",
+    "yilan",
+    "gece"
+  ]
 }

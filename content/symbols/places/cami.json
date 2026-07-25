@@ -1,6 +1,6 @@
 {
   "slug": "cami",
-  "title": "Cami",
+  "title": "Rüyada Cami Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "mekan",
   "shortDescription": "Rüyada cami görmek, kişinin inanç dünyasına, vicdanına, toplumsal huzur arayışına, ilahi korunmaya, tövbeye ve ruhsal arınma ihtiyacına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["okul", "ev", "kalp", "karanlik", "su"]
+  "relatedSymbols": [
+    "okul",
+    "ev",
+    "kalp",
+    "karanlik",
+    "su"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "gomlek",
-  "title": "Gömlek",
+  "title": "Rüyada Gömlek Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "nesneler",
   "shortDescription": "Rüyada gömlek görmek, kişinin toplumsal itibarına, sakladığı sırlara, mesleki duruşuna ve kaderin kendisine giydirdiği yeni rollere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["ceket", "pantolon", "kumas", "ayna", "kapi"]
+  "relatedSymbols": [
+    "ceket",
+    "pantolon",
+    "kumas",
+    "ayna",
+    "kapi"
+  ]
 }

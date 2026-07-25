@@ -1,6 +1,6 @@
 {
   "slug": "pelikan",
-  "title": "Pelikan",
+  "title": "Rüyada Pelikan Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "hayvanlar",
   "shortDescription": "Rüyada pelikan görmek, fedakarlığa, anne şefkatine, bolluğa, büyük kısmetlere, başkaları için kendi canını vermeye ve denizden gelen rızka işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kus", "deniz", "balik", "anne", "zenginlik"]
+  "relatedSymbols": [
+    "kus",
+    "deniz",
+    "balik",
+    "anne",
+    "zenginlik"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "dikiz-aynasi",
-  "title": "Dikiz Aynası",
+  "title": "Rüyada Dikiz Aynası Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada dikiz aynası görmek, geçmişe bakmaya, arkanızda bıraktıklarınızı kontrol etmeye, geçmişten ders almaya veya sürekli geçmişe takılıp kalmaya işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["araba", "ayna", "kaza", "goz", "yuz"]
+  "relatedSymbols": [
+    "araba",
+    "ayna",
+    "kaza",
+    "goz",
+    "yuz"
+  ]
 }

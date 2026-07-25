@@ -1,6 +1,6 @@
 {
   "slug": "tencere",
-  "title": "Tencere",
+  "title": "Rüyada Tencere Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada tencere görmek, ailenin genel rızkına, sırların (kapalı kapak) saklanmasına, işlerin pişmesi için gereken zamana (sabra) ve hane içindeki düzene işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["yemek", "ocak", "tabak", "ates", "kasik"]
+  "relatedSymbols": [
+    "yemek",
+    "ocak",
+    "tabak",
+    "ates",
+    "kasik"
+  ]
 }

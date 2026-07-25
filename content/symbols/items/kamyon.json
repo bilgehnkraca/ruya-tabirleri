@@ -1,6 +1,6 @@
 {
   "slug": "kamyon",
-  "title": "Kamyon",
+  "title": "Rüyada Kamyon Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "tasitlar",
   "shortDescription": "Rüyada kamyon görmek, ağır sorumluluklara, büyük (ve zorlu) bir kazanca, taşınan yüklere (dertlere) ve meşakkatli bir hayat mücadelesine işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["araba", "otobus", "tren", "traktor", "yuk"]
+  "relatedSymbols": [
+    "araba",
+    "otobus",
+    "tren",
+    "traktor",
+    "yuk"
+  ]
 }

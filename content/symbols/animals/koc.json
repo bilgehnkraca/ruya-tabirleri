@@ -1,6 +1,6 @@
 {
   "slug": "koc",
-  "title": "Koç",
+  "title": "Rüyada Koç Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "hayvanlar",
   "shortDescription": "Rüyada koç görmek, asalete, güce, büyük bir liderliğe, inada, cesur bir insana veya büyük bir başarının elde edilmesine işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["koyun", "okuz", "inek", "kurt", "dag"]
+  "relatedSymbols": [
+    "koyun",
+    "okuz",
+    "inek",
+    "kurt",
+    "dag"
+  ]
 }

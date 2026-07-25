@@ -1,6 +1,6 @@
 {
   "slug": "ari",
-  "title": "Arı",
+  "title": "Rüyada Arı Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "hayvanlar",
   "shortDescription": "Rüyada arı görmek, çalışkanlığa, berekete, helal kazanca, toplumsal uyuma, tatlı sözlere veya bazen küçük ama can sıkan dedikodulara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["karinca", "cicek", "koyun", "kus", "yilan"]
+  "relatedSymbols": [
+    "karinca",
+    "cicek",
+    "koyun",
+    "kus",
+    "yilan"
+  ]
 }

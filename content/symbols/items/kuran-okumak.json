@@ -1,6 +1,6 @@
 {
   "slug": "kuran-okumak",
-  "title": "Kuran Okumak",
+  "title": "Rüyada Kuran Okumak Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "eylemler",
   "shortDescription": "Rüyada Kur'an-ı Kerim okumak, manevi huzura, günahlardan arınmaya, ilim öğrenmeye ve adalete işaret eder. En hayırlı rüyalardan biri olup, kişiye dünya ve ahiret saadeti müjdeler.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["namaz-kilmak", "kabe", "camii", "aglamak", "olmus-biri"]
+  "relatedSymbols": [
+    "namaz-kilmak",
+    "kabe",
+    "camii",
+    "aglamak",
+    "olmus-biri"
+  ]
 }

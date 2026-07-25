@@ -1,6 +1,6 @@
 {
   "slug": "kursun",
-  "title": "Kurşun",
+  "title": "Rüyada Kurşun Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "nesneler",
   "shortDescription": "Rüyada kurşun (maden) görmek, ağırlığa (keder/sıkıntı), sırlara (gizliliğe), dalkavukluğa, (silah kurşunu ise) acı söze, habere ve düşmanlığa işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["demir", "silah", "ates", "kan", "altin"]
+  "relatedSymbols": [
+    "demir",
+    "silah",
+    "ates",
+    "kan",
+    "altin"
+  ]
 }

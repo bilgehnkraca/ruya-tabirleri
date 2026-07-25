@@ -1,6 +1,6 @@
 {
   "slug": "dis",
-  "title": "Diş",
+  "title": "Rüyada Diş Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "beden",
   "shortDescription": "Rüyada diş görmek, aile bireylerine (akrabalara), ömür uzunluğuna (veya kayıplara), güç (savunma) mekanizmalarına, maddi kazanca ve insanın dış görünüşündeki itibara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["agiz", "yuz", "dil", "dudak", "kan"]
+  "relatedSymbols": [
+    "agiz",
+    "yuz",
+    "dil",
+    "dudak",
+    "kan"
+  ]
 }

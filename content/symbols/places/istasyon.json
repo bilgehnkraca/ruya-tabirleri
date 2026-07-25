@@ -1,6 +1,6 @@
 {
   "slug": "istasyon",
-  "title": "İstasyon",
+  "title": "Rüyada İstasyon Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "mekan",
   "shortDescription": "Rüyada istasyon görmek, hayatın kesişme noktalarına, bekleyişe, kaçırılmış fırsatlara, veda hüznüne, zamanın akışına ve yeni bir yöne doğru yola çıkma kararlılığına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["havaalani", "sokak", "kapi", "tren", "saat"]
+  "relatedSymbols": [
+    "havaalani",
+    "sokak",
+    "kapi",
+    "tren",
+    "saat"
+  ]
 }

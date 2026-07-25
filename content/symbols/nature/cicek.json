@@ -1,6 +1,6 @@
 {
   "slug": "cicek",
-  "title": "Çiçek",
+  "title": "Rüyada Çiçek Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada çiçek görmek, hayattaki güzelliklere, aşka, umuda, gençliğe, narin duygulara ve (eğer solmuşsa) geçici mutluluklara veya hayal kırıklığına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["agac", "yaprak", "bahar", "gul", "papatya"]
+  "relatedSymbols": [
+    "agac",
+    "yaprak",
+    "bahar",
+    "gul",
+    "papatya"
+  ]
 }

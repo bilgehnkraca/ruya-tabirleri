@@ -1,6 +1,6 @@
 {
   "slug": "tohum",
-  "title": "Tohum",
+  "title": "Rüyada Tohum Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada tohum görmek, yeni bir başlangıcın potansiyeline, sabır gerektiren yatırımlara, genetik mirasa, gizli fikirlere ve gelecekte büyüyecek umutlara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["agac", "toprak", "cicek", "meyve", "yaprak"]
+  "relatedSymbols": [
+    "agac",
+    "toprak",
+    "cicek",
+    "meyve",
+    "yaprak"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "bakir",
-  "title": "Bakır",
+  "title": "Rüyada Bakır Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada bakır görmek, hizmetkarlara (veya faydalı eşyalara), dedikoduya (ve boş söze), kazanılacak mala ve küçük çaplı rızka işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["demir", "altin", "gumus", "su", "ates"]
+  "relatedSymbols": [
+    "demir",
+    "altin",
+    "gumus",
+    "su",
+    "ates"
+  ]
 }

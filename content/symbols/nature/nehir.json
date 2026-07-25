@@ -1,6 +1,6 @@
 {
   "slug": "nehir",
-  "title": "Nehir (Irmak / Dere)",
+  "title": "Rüyada Nehir (Irmak / Dere) Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada nehir görmek, hayatın ve zamanın akışına, sürekli gelen rızka, uzun ve bereketli bir ömre, arınmaya ve bitmeyen bir mücadeleye işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["su", "deniz", "gol", "selale", "balik"]
+  "relatedSymbols": [
+    "su",
+    "deniz",
+    "gol",
+    "selale",
+    "balik"
+  ]
 }

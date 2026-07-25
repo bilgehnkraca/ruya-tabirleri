@@ -1,6 +1,6 @@
 {
   "slug": "bukalemun",
-  "title": "Bukalemun",
+  "title": "Rüyada Bukalemun Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada bukalemun görmek, ikiyüzlü bir kişiye, renkten renge giren bir dosta, sürekli değişen şartlara, sihirli bir dönüşüme veya kararsızlığa işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["yilan", "kertenkele", "timsah", "renkler", "ayna"]
+  "relatedSymbols": [
+    "yilan",
+    "kertenkele",
+    "timsah",
+    "renkler",
+    "ayna"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "portakal",
-  "title": "Portakal",
+  "title": "Rüyada Portakal Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "yiyecek",
   "shortDescription": "Rüyada portakal görmek, güneşin sıcak enerjisine, sağlığa (vitamine), neşeye, kış ortasında gelen sürpriz umutlara ve bazen de geçici heveslere (kabuğu çabuk soyulan aşklara) işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["elma", "agac", "gunes", "altin", "su"]
+  "relatedSymbols": [
+    "elma",
+    "agac",
+    "gunes",
+    "altin",
+    "su"
+  ]
 }

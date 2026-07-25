@@ -1,6 +1,6 @@
 {
   "slug": "kus",
-  "title": "Kuş",
+  "title": "Rüyada Kuş Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada kuş görmek, haberciye, ruhsal özgürlüğe, hayallere, yolculuğa, kısmete ve yüce ruhsal durumlara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["gokyuzu", "ucmak", "melek", "olum", "kafes"]
+  "relatedSymbols": [
+    "gokyuzu",
+    "ucmak",
+    "melek",
+    "olum",
+    "kafes"
+  ]
 }

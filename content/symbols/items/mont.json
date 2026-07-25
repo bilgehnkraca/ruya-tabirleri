@@ -1,6 +1,6 @@
 {
   "slug": "mont",
-  "title": "Mont / Kaban",
+  "title": "Rüyada Mont / Kaban Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada mont veya kaban görmek, ağır şartlara karşı korunmaya, zorlu (kış) dönemlerine, güvence arayışına, izolasyona ve sırları kalın bir zırhla gizlemeye işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["ceket", "kis", "sapka", "atki", "eldiven"]
+  "relatedSymbols": [
+    "ceket",
+    "kis",
+    "sapka",
+    "atki",
+    "eldiven"
+  ]
 }

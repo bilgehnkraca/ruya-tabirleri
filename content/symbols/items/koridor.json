@@ -1,6 +1,6 @@
 {
   "slug": "koridor",
-  "title": "Koridor",
+  "title": "Rüyada Koridor Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "mekan",
   "shortDescription": "Rüyada koridor görmek, hayattaki geçiş dönemlerine (bekleme evrelerine), belirsizliğe, farklı seçenekler arasında kalmaya ve bir kararın eşiğinde olmaya işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["balkon", "merdiven", "kapi", "duvar", "pencere"]
+  "relatedSymbols": [
+    "balkon",
+    "merdiven",
+    "kapi",
+    "duvar",
+    "pencere"
+  ]
 }

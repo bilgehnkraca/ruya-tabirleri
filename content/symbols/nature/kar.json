@@ -1,6 +1,6 @@
 {
   "slug": "kar",
-  "title": "Kar (Kar Yağışı)",
+  "title": "Rüyada Kar (Kar Yağışı) Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada kar görmek, duygusal soğukluğa, saflığa, masumiyete, eski anıların örtülmesine ve (mevsiminde yağıyorsa) büyük bir bolluk ve huzura işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["yagmur", "su", "beyaz", "kis", "dag"]
+  "relatedSymbols": [
+    "yagmur",
+    "su",
+    "beyaz",
+    "kis",
+    "dag"
+  ]
 }

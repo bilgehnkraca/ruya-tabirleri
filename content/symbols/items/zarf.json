@@ -1,6 +1,6 @@
 {
   "slug": "zarf",
-  "title": "Zarf (Mektup Zarfı)",
+  "title": "Rüyada Zarf (Mektup Zarfı) Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "nesneler",
   "shortDescription": "Rüyada zarf görmek, beklenen önemli bir habere, saklanan sırlar veya sürprizlere, bürokratik bir yazışmaya ve kapalı/gizli meselelere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["mektup", "kagit", "posta", "kapi", "kitap"]
+  "relatedSymbols": [
+    "mektup",
+    "kagit",
+    "posta",
+    "kapi",
+    "kitap"
+  ]
 }

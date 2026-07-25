@@ -1,6 +1,6 @@
 {
   "slug": "kitap",
-  "title": "Kitap",
+  "title": "Rüyada Kitap Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "nesne",
   "shortDescription": "Rüyada kitap görmek, ilim ve bilgeliğe, yeni açılacak kapılara, ilahi sırlara, güçlü dostlara, sözleşmelere ve hayata yön verecek derin uyanışlara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kalem", "masa", "ayna", "kapi", "okul"]
+  "relatedSymbols": [
+    "kalem",
+    "masa",
+    "ayna",
+    "kapi",
+    "okul"
+  ]
 }

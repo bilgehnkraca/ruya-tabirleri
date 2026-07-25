@@ -1,6 +1,6 @@
 {
   "slug": "sarmasik",
-  "title": "Sarmaşık",
+  "title": "Rüyada Sarmaşık Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada sarmaşık görmek, bağımlı ilişkilere, inatçı aşka, binaları/hayatları ele geçiren alışkanlıklara, ölümsüzlüğe ve boğucu bir sahiplenmeye işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["agac", "yaprak", "yilan", "orman", "duvar"]
+  "relatedSymbols": [
+    "agac",
+    "yaprak",
+    "yilan",
+    "orman",
+    "duvar"
+  ]
 }

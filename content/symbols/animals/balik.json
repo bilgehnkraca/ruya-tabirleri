@@ -1,6 +1,6 @@
 {
   "slug": "balik",
-  "title": "Balık",
+  "title": "Rüyada Balık Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "hayvanlar",
   "shortDescription": "Rüyada balık görmek, berekete, kısmete, maddi kazanca, bilinçaltının derinliklerine, şifaya ve beklenmedik fırsatlara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["su", "deniz", "altin", "gemi", "yemek"]
+  "relatedSymbols": [
+    "su",
+    "deniz",
+    "altin",
+    "gemi",
+    "yemek"
+  ]
 }

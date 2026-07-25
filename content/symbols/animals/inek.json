@@ -1,6 +1,6 @@
 {
   "slug": "inek",
-  "title": "İnek",
+  "title": "Rüyada İnek Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada inek görmek, genellikle zenginliğe, berekete, helal kazanca, verimli yıllara, şefkatli bir kadına veya aile içindeki bolluğa işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["okuz", "koyun", "domuz", "at", "sut"]
+  "relatedSymbols": [
+    "okuz",
+    "koyun",
+    "domuz",
+    "at",
+    "sut"
+  ]
 }

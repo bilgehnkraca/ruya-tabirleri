@@ -1,6 +1,6 @@
 {
   "slug": "cimen",
-  "title": "Çimen",
+  "title": "Rüyada Çimen Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada çimen görmek, ferahlığa (huzura), berekete, dini ve dünyevi güzelliklere, kolay rızka ve ruhsal rahatlamaya işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["orman", "bahce", "toprak", "agac", "su"]
+  "relatedSymbols": [
+    "orman",
+    "bahce",
+    "toprak",
+    "agac",
+    "su"
+  ]
 }

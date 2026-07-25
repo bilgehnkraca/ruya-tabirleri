@@ -1,6 +1,6 @@
 {
   "slug": "papagan",
-  "title": "Papağan",
+  "title": "Rüyada Papağan Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada papağan görmek, gevezeliğe, dedikoduya, taklitçiliğe, egzotik ve renkli bir hayata, laf taşıyan bir dosta veya boş konuşmalara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kus", "karga", "yalan", "hirsiz", "ses"]
+  "relatedSymbols": [
+    "kus",
+    "karga",
+    "yalan",
+    "hirsiz",
+    "ses"
+  ]
 }

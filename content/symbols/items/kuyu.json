@@ -1,6 +1,6 @@
 {
   "slug": "kuyu",
-  "title": "Kuyu",
+  "title": "Rüyada Kuyu Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada kuyu görmek, gizli ilme (sırlara), hileye (tuzağa), kadına (eşe), Hz. Yusuf'un kıssasındaki gibi sabırla gelinecek (zindanlardan sonraki) muazzam makama ve kurtuluşa işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["su", "karanlik", "merdiven", "toprak", "ayna"]
+  "relatedSymbols": [
+    "su",
+    "karanlik",
+    "merdiven",
+    "toprak",
+    "ayna"
+  ]
 }

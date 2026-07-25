@@ -1,6 +1,6 @@
 {
   "slug": "plaka",
-  "title": "Plaka (Araç Plakası)",
+  "title": "Rüyada Plaka (Araç Plakası) Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada araç plakası görmek, resmi kimliğe, toplumsal sicile/kayda, damgalanmaya, kanun önündeki sorumluluğa ve bazen de (harflere/rakamlara göre) gizli mesajlara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["araba", "polis", "sayilar", "kapi", "ayna"]
+  "relatedSymbols": [
+    "araba",
+    "polis",
+    "sayilar",
+    "kapi",
+    "ayna"
+  ]
 }

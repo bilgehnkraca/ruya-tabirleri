@@ -1,6 +1,6 @@
 {
   "slug": "vantilator",
-  "title": "Vantilatör",
+  "title": "Rüyada Vantilatör Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "nesneler",
   "shortDescription": "Rüyada vantilatör görmek, geçici bir ferahlamaya, sorunları dağıtmaya (rüzgar estirmeye), aynı döngü etrafında dönen düşüncelere ve yüzeysel çözümlere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["klima", "ruzgar", "radyo", "toz", "hali"]
+  "relatedSymbols": [
+    "klima",
+    "ruzgar",
+    "radyo",
+    "toz",
+    "hali"
+  ]
 }

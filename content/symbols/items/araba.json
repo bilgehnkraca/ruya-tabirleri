@@ -1,6 +1,6 @@
 {
   "slug": "araba",
-  "title": "Araba",
+  "title": "Rüyada Araba Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "tasitlar",
   "shortDescription": "Rüyada araba görmek, kişinin hayatındaki (kariyer veya aile) ilerleyişine, kendi kaderini (direksiyonunu) kontrol etme isteğine, hıza, değişime ve maddi güce işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["otobus", "kamyon", "tren", "ucak", "yol"]
+  "relatedSymbols": [
+    "otobus",
+    "kamyon",
+    "tren",
+    "ucak",
+    "yol"
+  ]
 }

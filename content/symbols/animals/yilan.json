@@ -1,6 +1,6 @@
 {
   "slug": "yilan",
-  "title": "Yılan",
+  "title": "Rüyada Yılan Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "hayvanlar",
   "shortDescription": "Rüyada yılan görmek, gizli düşmana, tehlikeye, şifaya, bilgeliğe, dönüşüme veya kişinin korkularıyla yüzleşmesine işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kurbaga", "fare", "orman", "kadin", "su"]
+  "relatedSymbols": [
+    "kurbaga",
+    "fare",
+    "orman",
+    "kadin",
+    "su"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "erik",
-  "title": "Erik",
+  "title": "Rüyada Erik Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "yiyecek",
   "shortDescription": "Rüyada erik (yeşil/can eriği) görmek, tez zamanda alınacak (ama bazen ekşi/acıtan) çok hızlı bir habere, gençliğe, ani heyecanlara ve (kırmızı erik ise) olgun (kalıcı) bir mala işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["seftali", "kayisi", "elma", "agac", "tatli"]
+  "relatedSymbols": [
+    "seftali",
+    "kayisi",
+    "elma",
+    "agac",
+    "tatli"
+  ]
 }

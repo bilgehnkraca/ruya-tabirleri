@@ -1,6 +1,6 @@
 {
   "slug": "meyve",
-  "title": "Meyve",
+  "title": "Rüyada Meyve Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada meyve görmek, kişinin uzun süredir verdiği emeklerin hasadına, zenginliğe, dünya nimetlerine, üremeye (çocuk sahibi olmaya) ve beklenen tatlı müjdelere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["agac", "cicek", "bahce", "toprak", "su"]
+  "relatedSymbols": [
+    "agac",
+    "cicek",
+    "bahce",
+    "toprak",
+    "su"
+  ]
 }

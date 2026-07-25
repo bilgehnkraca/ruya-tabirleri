@@ -1,6 +1,6 @@
 {
   "slug": "orman",
-  "title": "Orman",
+  "title": "Rüyada Orman Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "doga",
   "shortDescription": "Rüyada orman görmek, bilinçaltının karanlık gizemlerine, karmaşık işlere, büyük topluluklara/halklara, kaybolma korkusuna ve ruhsal aydınlanma arayışına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["agac", "magara", "dag", "kurt", "karanlik"]
+  "relatedSymbols": [
+    "agac",
+    "magara",
+    "dag",
+    "kurt",
+    "karanlik"
+  ]
 }

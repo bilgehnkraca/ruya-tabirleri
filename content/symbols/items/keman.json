@@ -1,6 +1,6 @@
 {
   "slug": "keman",
-  "title": "Keman",
+  "title": "Rüyada Keman Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada keman görmek, derin romantizme (aşka), ince ve hassas duygulara, melankoliye (üzüntüye) ve zarafet gerektiren işlere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["piyano", "gitar", "ask", "muzik", "ses"]
+  "relatedSymbols": [
+    "piyano",
+    "gitar",
+    "ask",
+    "muzik",
+    "ses"
+  ]
 }

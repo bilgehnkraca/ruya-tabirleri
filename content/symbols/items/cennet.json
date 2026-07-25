@@ -1,6 +1,6 @@
 {
   "slug": "cennet",
-  "title": "Cennet",
+  "title": "Rüyada Cennet Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "mistik",
   "shortDescription": "Rüyada cennet görmek, rüya tabirlerindeki en büyük (ve mutlak) müjdeye, dünyada elde edilecek muazzam (helal) servete, ahiret selametine, ilme, adalete ve sonsuz (sarsılmaz) huzura işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["cehennem", "melek", "olum", "mezarlik", "kabe"]
+  "relatedSymbols": [
+    "cehennem",
+    "melek",
+    "olum",
+    "mezarlik",
+    "kabe"
+  ]
 }

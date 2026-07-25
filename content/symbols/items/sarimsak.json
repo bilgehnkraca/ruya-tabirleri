@@ -1,6 +1,6 @@
 {
   "slug": "sarimsak",
-  "title": "Sarımsak",
+  "title": "Rüyada Sarımsak Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "yiyecek",
   "shortDescription": "Rüyada sarımsak görmek, dışarıdan itici gelen acı bir gerçeğe (veya ağır bir söze), hastalıklara karşı bulunan güçlü şifaya, haram kazanca ve gizli dedikodulara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["sogan", "ates", "su", "toprak", "hastalik"]
+  "relatedSymbols": [
+    "sogan",
+    "ates",
+    "su",
+    "toprak",
+    "hastalik"
+  ]
 }

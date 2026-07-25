@@ -1,6 +1,6 @@
 {
   "slug": "koyun",
-  "title": "Koyun",
+  "title": "Rüyada Koyun Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada koyun görmek, itaatkarlığa, masumiyete, berekete, uysal bir dosta, kalabalığa veya kişinin sürü psikolojisine uymasına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["inek", "keci", "kurt", "kopek", "orman"]
+  "relatedSymbols": [
+    "inek",
+    "keci",
+    "kurt",
+    "kopek",
+    "orman"
+  ]
 }

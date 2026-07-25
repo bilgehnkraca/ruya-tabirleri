@@ -1,6 +1,6 @@
 {
   "slug": "kopru",
-  "title": "Köprü",
+  "title": "Rüyada Köprü Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "nesneler",
   "shortDescription": "Rüyada köprü görmek, hayattaki zorlukları aşmaya, iki farklı dönemi veya insanı birleştirmeye, kritik bir geçiş aşamasına (dönüm noktasına) ve tehlikelerden güvenle kurtulmaya işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["deniz", "su", "olum", "ucmak", "araba-kullanmak"]
+  "relatedSymbols": [
+    "deniz",
+    "su",
+    "olum",
+    "ucmak",
+    "araba-kullanmak"
+  ]
 }

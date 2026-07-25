@@ -1,6 +1,6 @@
 {
   "slug": "masa",
-  "title": "Masa",
+  "title": "Rüyada Masa Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "nesne",
   "shortDescription": "Rüyada masa görmek, rızka, davetlere, adil anlaşmalara, aile birliğine, devletin veya şirketin yönetim merkezine ve toplantılara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["sandalye", "kitap", "kalem", "oda", "yatak"]
+  "relatedSymbols": [
+    "sandalye",
+    "kitap",
+    "kalem",
+    "oda",
+    "yatak"
+  ]
 }

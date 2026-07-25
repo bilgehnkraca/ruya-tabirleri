@@ -1,6 +1,6 @@
 {
   "slug": "tsunami",
-  "title": "Tsunami (Dev Dalga)",
+  "title": "Rüyada Tsunami (Dev Dalga) Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "doga",
   "shortDescription": "Rüyada tsunami görmek, kontrol edilemez büyük duygusal krizlere, yıkıcı ve boğucu bilinçaltı patlamalarına, her şeyi yutan ani toplumsal felaketlere ve kaçınılmaz yenilgiliğe işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["deprem", "deniz", "karanlik", "su", "yagmur"]
+  "relatedSymbols": [
+    "deprem",
+    "deniz",
+    "karanlik",
+    "su",
+    "yagmur"
+  ]
 }

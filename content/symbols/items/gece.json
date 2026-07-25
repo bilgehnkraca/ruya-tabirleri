@@ -1,6 +1,6 @@
 {
   "slug": "gece",
-  "title": "Gece",
+  "title": "Rüyada Gece Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "zaman",
   "shortDescription": "Rüyada gece (karanlık) görmek, işsizliğe, gizlenen sırlara, depresyona, mahremiyete, zindan hayatına ve büyük belirsizliklere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["gunduz", "ay", "yildiz", "gunes", "karanlik"]
+  "relatedSymbols": [
+    "gunduz",
+    "ay",
+    "yildiz",
+    "gunes",
+    "karanlik"
+  ]
 }

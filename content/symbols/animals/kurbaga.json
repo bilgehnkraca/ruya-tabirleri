@@ -1,6 +1,6 @@
 {
   "slug": "kurbaga",
-  "title": "Kurbağa",
+  "title": "Rüyada Kurbağa Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "hayvanlar",
   "shortDescription": "Rüyada kurbağa görmek, genellikle ibadet eden bir insana, suya, dönüşüme, sihirli bir değişime, çok konuşan birine veya gizli düşmanlıklara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["su", "yilan", "bocek", "yagmur", "camur"]
+  "relatedSymbols": [
+    "su",
+    "yilan",
+    "bocek",
+    "yagmur",
+    "camur"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "armut",
-  "title": "Armut",
+  "title": "Rüyada Armut Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "yiyecek",
   "shortDescription": "Rüyada armut görmek, sabrın sonunda gelen (bekletilmiş) olgunluğa, hastalıklara, kadının zarafetine, (armut piş ağzıma düş) tembelliğine ve bazen de gizli fırsatlara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["elma", "agac", "su", "altin", "yilan"]
+  "relatedSymbols": [
+    "elma",
+    "agac",
+    "su",
+    "altin",
+    "yilan"
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "cehennem",
-  "title": "Cehennem",
+  "title": "Rüyada Cehennem Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "mistik",
   "shortDescription": "Rüyada cehennem görmek, işlenen büyük günahlara (faiz/zina), kul hakkına, dünya hayatındaki ağır musibetlere (krizlere), devletin azabına (hapse) ve kişinin kendi vicdan azabına işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["cennet", "seytan", "ates", "karanlik", "yilan"]
+  "relatedSymbols": [
+    "cennet",
+    "seytan",
+    "ates",
+    "karanlik",
+    "yilan"
+  ]
 }

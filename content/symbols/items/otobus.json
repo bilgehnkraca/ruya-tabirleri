@@ -1,6 +1,6 @@
 {
   "slug": "otobus",
-  "title": "Otobüs",
+  "title": "Rüyada Otobüs Görmek - İslami, Diyanet ve Psikolojik Tabiri",
   "category": "tasitlar",
   "shortDescription": "Rüyada otobüs görmek, kolektif (toplumsal) bir yolculuğa, uyum sağlamak zorunda kalınan kurallara, ortak hedeflere (kalabalıklara) ve başkasının yönlendirdiği bir sürece işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["araba", "tren", "kamyon", "kalabalik", "yol"]
+  "relatedSymbols": [
+    "araba",
+    "tren",
+    "kamyon",
+    "kalabalik",
+    "yol"
+  ]
 }

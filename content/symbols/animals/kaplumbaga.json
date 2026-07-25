@@ -1,6 +1,6 @@
 {
   "slug": "kaplumbaga",
-  "title": "Kaplumbağa",
+  "title": "Rüyada Kaplumbağa Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "hayvanlar",
   "shortDescription": "Rüyada kaplumbağa görmek, uzun bir ömre, sabıra, bilge bir kişiye, ağır ama emin adımlarla ilerlemeye, içe dönüklüğe veya geciken bir habere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["yilan", "deniz", "tas", "yasli_adam", "bocek"]
+  "relatedSymbols": [
+    "yilan",
+    "deniz",
+    "tas",
+    "yasli_adam",
+    "bocek"
+  ]
 }

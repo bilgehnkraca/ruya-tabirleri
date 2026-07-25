@@ -1,6 +1,6 @@
 {
   "slug": "bodrum",
-  "title": "Bodrum",
+  "title": "Rüyada Bodrum Görmek Ne Anlama Gelir? İslami ve Psikolojik Yorumu",
   "category": "mekan",
   "shortDescription": "Rüyada bodrum görmek, bilinçaltına (gizli sırlara), korkularla yüzleşmeye, bastırılmış duygulara ve çok derin, sağlam köklere işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["cati", "balkon", "merdiven", "kapi", "duvar"]
+  "relatedSymbols": [
+    "cati",
+    "balkon",
+    "merdiven",
+    "kapi",
+    "duvar"
+  ]
 }

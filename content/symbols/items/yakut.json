@@ -1,6 +1,6 @@
 {
   "slug": "yakut",
-  "title": "Yakut",
+  "title": "Rüyada Yakut Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "nesneler",
   "shortDescription": "Rüyada yakut görmek, ihtirasa (büyük bir aşka), kudrete (yüksek bir makama), neşeye (ve sevinç gözyaşlarına), nadir bir bilgiye ve asil (cesur) bir dosta işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["elmas", "zumrut", "altin", "kan", "ates"]
+  "relatedSymbols": [
+    "elmas",
+    "zumrut",
+    "altin",
+    "kan",
+    "ates"
+  ]
 }

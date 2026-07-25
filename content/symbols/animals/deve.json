@@ -1,6 +1,6 @@
 {
   "slug": "deve",
-  "title": "Deve",
+  "title": "Rüyada Deve Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "hayvanlar",
   "shortDescription": "Rüyada deve görmek, sabra, uzun bir yolculuğa, zorluklara dayanma gücüne, büyük bir yüke, berekete veya kişinin içine attığı ağır duygulara işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["at", "fil", "col", "su", "yol"]
+  "relatedSymbols": [
+    "at",
+    "fil",
+    "col",
+    "su",
+    "yol"
+  ]
 }

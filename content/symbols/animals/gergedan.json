@@ -1,6 +1,6 @@
 {
   "slug": "gergedan",
-  "title": "Gergedan",
+  "title": "Rüyada Gergedan Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "hayvanlar",
   "shortDescription": "Rüyada gergedan görmek, inatçılığa, dayanıklılığa, büyük bir güce, yıkıcı bir öfkeye, kalın kafalılığa veya yenilmez bir düşmana işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["hayvan", "guc", "orman", "kavga", "zirh"]
+  "relatedSymbols": [
+    "hayvan",
+    "guc",
+    "orman",
+    "kavga",
+    "zirh"
+  ]
 }

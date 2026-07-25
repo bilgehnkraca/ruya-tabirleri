@@ -1,6 +1,6 @@
 {
   "slug": "dolu",
-  "title": "Dolu (Dolu Yağışı)",
+  "title": "Rüyada Dolu (Dolu Yağışı) Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "doga",
   "shortDescription": "Rüyada dolu görmek, ani gelen krizlere, gökten yağan musibetlere, maddi zararlara, kırıcı sözlere ve (eğer toplanıyorsa) beklenmedik zenginliğe işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["kar", "yagmur", "firtina", "tas", "buz"]
+  "relatedSymbols": [
+    "kar",
+    "yagmur",
+    "firtina",
+    "tas",
+    "buz"
+  ]
 }

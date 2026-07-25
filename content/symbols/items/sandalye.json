@@ -1,6 +1,6 @@
 {
   "slug": "sandalye",
-  "title": "Sandalye",
+  "title": "Rüyada Sandalye Görmek - İslami, Psikolojik ve Genel Anlamı",
   "category": "nesne",
   "shortDescription": "Rüyada sandalye görmek, devlet makamına, kişinin toplumdaki yerine (statüsüne), dinlenmeye, kariyer rekabetine, kazanılacak zafere ve geçici otoriteye işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["masa", "kapi", "kitap", "oda", "kalem"]
+  "relatedSymbols": [
+    "masa",
+    "kapi",
+    "kitap",
+    "oda",
+    "kalem"
+  ]
 }

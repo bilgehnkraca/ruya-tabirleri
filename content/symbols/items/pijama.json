@@ -1,6 +1,6 @@
 {
   "slug": "pijama",
-  "title": "Pijama / Gecelik",
+  "title": "Rüyada Pijama / Gecelik Görmek - Diyanet, İslami ve Analitik Psikoloji Tabiri",
   "category": "nesneler",
   "shortDescription": "Rüyada pijama veya gecelik görmek, mahremiyete, sırların rahatlığına, dış dünyadan kopup içe dönmeye ve bazen de (toplum içinde giyiliyorsa) hazırlıksız/rezil yakalanmaya işaret eder.",
   "content": {
@@ -53,5 +53,11 @@
       }
     ]
   },
-  "relatedSymbols": ["yatak", "ev", "uyumak", "ceket", "gomlek"]
+  "relatedSymbols": [
+    "yatak",
+    "ev",
+    "uyumak",
+    "ceket",
+    "gomlek"
+  ]
 }
