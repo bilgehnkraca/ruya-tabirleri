@@ -4,6 +4,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import AdSlot from '@/components/AdSlot';
 import SymbolContentTabs from '@/components/SymbolContentTabs';
+import DreamCommentSection from '@/components/DreamCommentSection';
 
 interface Props {
   params: { slug: string };
@@ -14,6 +15,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!symbol) return { title: 'Bulunamadı' };
 
   const url = `https://www.ruyasozlugunuz.com/ruyada-${symbol.slug}-gormek`;
+  const illustratedSlugs = ['yilan', 'altin', 'bebek', 'su'];
+  const imageUrl = illustratedSlugs.includes(symbol.slug)
+    ? `https://www.ruyasozlugunuz.com/images/symbols/${symbol.slug}.png`
+    : 'https://www.ruyasozlugunuz.com/og-image.jpg';
 
   return {
     title: symbol.title,
@@ -27,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       siteName: 'Rüya Tabirleri Sözlüğü',
       images: [
         {
-          url: 'https://www.ruyasozlugunuz.com/og-image.jpg',
+          url: imageUrl,
           width: 1200,
           height: 630,
           alt: symbol.title,
@@ -38,7 +43,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: 'summary_large_image',
       title: `${symbol.title} | Rüya Tabirleri Sözlüğü`,
       description: symbol.shortDescription,
-      images: ['https://www.ruyasozlugunuz.com/og-image.jpg'],
+      images: [imageUrl],
     }
   };
 }
@@ -53,14 +58,14 @@ export default function SymbolPage({ params }: Props) {
   if (!symbol) notFound();
 
   const allSymbols = getAllSymbols();
-  const relatedSymbols = symbol.relatedSymbols
+  const relatedSymbols = (symbol.relatedSymbols || [])
     .map(slug => allSymbols.find(s => s.slug === slug))
     .filter(Boolean) as typeof allSymbols;
 
   const faqSchema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    mainEntity: symbol.content.faqs.map(faq => ({
+    mainEntity: (symbol.content?.faqs || []).map(faq => ({
       '@type': 'Question',
       name: faq.question,
       acceptedAnswer: { '@type': 'Answer', text: faq.answer }
@@ -125,6 +130,23 @@ export default function SymbolPage({ params }: Props) {
         <p className="text-xl text-night-300 leading-relaxed">{symbol.content.introduction}</p>
       </header>
 
+      {['yilan', 'altin', 'bebek', 'su'].includes(symbol.slug) && (
+        <div className="mb-10 relative rounded-3xl overflow-hidden border-2 border-mystic-500/30 shadow-2xl shadow-mystic-900/40 group">
+          <div className="absolute inset-0 bg-gradient-to-t from-night-950 via-transparent to-transparent z-10 opacity-60" />
+          <img 
+            src={`/images/symbols/${symbol.slug}.png`} 
+            alt={`Rüyada ${symbol.title} Görmek - Mistik ve Bilinçaltı İllüstrasyonu`}
+            className="w-full h-auto max-h-[480px] object-cover object-center group-hover:scale-105 transition-transform duration-700"
+          />
+          <div className="absolute bottom-4 left-4 right-4 z-20 flex items-center justify-between">
+            <span className="bg-night-900/90 text-mystic-300 text-xs font-semibold px-3 py-1.5 rounded-full border border-mystic-500/40 backdrop-blur-md">
+              🎨 Yapay Zeka Mistik Sembol Tasviri
+            </span>
+            <span className="text-xs text-night-400 hidden sm:inline bg-night-950/80 px-2.5 py-1 rounded-lg">Özel Koleksiyon</span>
+          </div>
+        </div>
+      )}
+
       <AdSlot type="adsense" slotId="CONTENT_TOP_SLOT_ID" className="mb-10" />
 
       <div className="prose prose-invert prose-night max-w-none">
@@ -137,7 +159,7 @@ export default function SymbolPage({ params }: Props) {
 
         <h2 className="text-2xl font-serif font-bold text-mystic-100 mt-12 mb-6 border-b border-night-700 pb-2">Merak Edilen Diğer Detaylar</h2>
         <div className="space-y-6">
-          {symbol.content.faqs.map((faq, index) => (
+          {(symbol.content?.faqs || []).map((faq, index) => (
             <div key={index}>
               <h3 className="text-lg font-semibold text-night-100 mb-2">{faq.question}</h3>
               <p className="text-night-300 m-0">{faq.answer}</p>
@@ -145,6 +167,8 @@ export default function SymbolPage({ params }: Props) {
           ))}
         </div>
       </div>
+
+      <DreamCommentSection symbolSlug={symbol.slug} symbolTitle={symbol.title} />
 
       {relatedSymbols.length > 0 && (
         <section className="mt-16 pt-10 border-t border-night-800">
