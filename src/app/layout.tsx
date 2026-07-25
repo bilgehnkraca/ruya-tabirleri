@@ -55,23 +55,16 @@ export default function RootLayout({
   return (
     <html lang="tr">
       <head>
-        {/* Google Search Console Verification Placeholder */}
-        {/* TODO: Kendi kodunuzu aşağıya ekleyip yorum satırından çıkarın */}
-        {/* <meta name="google-site-verification" content="SİZİN_KODUNUZ" /> */}
-        
-        {/* Google Analytics 4 Placeholder */}
-        {/* TODO: G-XXXXXXXXXX kısımlarını kendi GA4 Measurement ID'niz ile değiştirip yorum satırından çıkarın */}
-        {/*
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX" strategy="afterInteractive" />
+        {/* Google Analytics 4 (GA4) */}
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-HJVZQRSTPE" strategy="afterInteractive" />
         <Script id="google-analytics" strategy="afterInteractive">
-          {\`
+          {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-XXXXXXXXXX');
-          \`}
+            gtag('config', 'G-HJVZQRSTPE');
+          `}
         </Script>
-        */}
         
         {/* Google Funding Choices Snippet */}
         <script
