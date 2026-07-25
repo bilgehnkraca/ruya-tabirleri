@@ -56,15 +56,20 @@ export default function RootLayout({
     <html lang="tr">
       <head>
         {/* Google Analytics 4 (GA4) */}
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-HJVZQRSTPE" strategy="afterInteractive" />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-HJVZQRSTPE');
-          `}
-        </Script>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-HJVZQRSTPE"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-HJVZQRSTPE');
+            `
+          }}
+        />
         
         {/* Google Funding Choices Snippet */}
         <script
