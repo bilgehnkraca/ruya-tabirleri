@@ -109,6 +109,7 @@ export default function RootLayout({
               <a href="https://turkiyehesaplama.com" target="_blank" rel="noopener noreferrer" className="hover:text-mystic-200 text-mystic-400 font-medium transition-colors flex items-center gap-1.5 border border-mystic-500/30 px-3 py-1.5 rounded-full bg-mystic-900/30">
                 <span className="hidden sm:inline">🧮</span> Hesaplama
               </a>
+              <a href="/diyanet-islami-ruya-tabirleri" className="hover:text-gold-300 text-gold-400 font-bold transition-colors flex items-center gap-1">📖 İslami Tabirler</a>
               <a href="/kategoriler" className="hover:text-mystic-400 transition-colors">Kategoriler</a>
               <a href="/a-z" className="hover:text-mystic-400 transition-colors">A-Z İndeks</a>
             </nav>
@@ -129,6 +130,7 @@ export default function RootLayout({
                 <div>
                   <h4 className="text-white font-serif font-bold mb-4 text-lg">Hızlı Bağlantılar</h4>
                   <ul className="space-y-2">
+                    <li><a href="/diyanet-islami-ruya-tabirleri" className="hover:text-gold-400 text-gold-500 font-medium transition-colors">İslami & Diyanet Tabirleri Kılavuzu</a></li>
                     <li><a href="/hakkimizda" className="hover:text-mystic-400 transition-colors">Hakkımızda</a></li>
                     <li><a href="/iletisim" className="hover:text-mystic-400 transition-colors">İletişim</a></li>
                     <li><a href="/gizlilik-politikasi" className="hover:text-mystic-400 transition-colors">Gizlilik Politikası</a></li>
