@@ -3,6 +3,7 @@ import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
 import CookieConsent from '@/components/CookieConsent';
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
@@ -65,32 +66,15 @@ export default function RootLayout({
   return (
     <html lang="tr">
       <head>
-        {/* Google Analytics 4 (GA4) */}
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-HJVZQRSTPE"
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-HJVZQRSTPE');
-            `
-          }}
-        />
-        
         {/* Google Funding Choices Snippet */}
-        <script
-          async
+        <Script
+          id="google-fc-script"
           src="https://fundingchoicesmessages.google.com/i/pub-3922046877246889?ers=1"
+          strategy="afterInteractive"
         />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function() {function signalGooglefcPresent() {if (!window.googletag) {window.googletag = {cmd: []};} if (googletag.apiReady) {googletag.cmd.push(function() {googletag.pubads().setPrivacySettings({restrictDataProcessing: false});});} else {window.googletag.cmd.push(function() {googletag.pubads().setPrivacySettings({restrictDataProcessing: false});});}}window.googletag = window.googletag || {cmd: []};googletag.cmd.push(function() {googletag.pubads().addEventListener('privacySettingsReady', function() {signalGooglefcPresent();});});})()`
-          }}
-        />
+        <Script id="google-fc-init" strategy="afterInteractive">
+          {`(function() {function signalGooglefcPresent() {if (!window.googletag) {window.googletag = {cmd: []};} if (googletag.apiReady) {googletag.cmd.push(function() {googletag.pubads().setPrivacySettings({restrictDataProcessing: false});});} else {window.googletag.cmd.push(function() {googletag.pubads().setPrivacySettings({restrictDataProcessing: false});});}}window.googletag = window.googletag || {cmd: []};googletag.cmd.push(function() {googletag.pubads().addEventListener('privacySettingsReady', function() {signalGooglefcPresent();});});})()`}
+        </Script>
         {/* Google AdSense Script */}
         <Script
           async
@@ -210,6 +194,7 @@ export default function RootLayout({
         </div>
         <CookieConsent />
       </body>
+      <GoogleAnalytics gaId="G-HJVZQRSTPE" />
     </html>
   );
 }
