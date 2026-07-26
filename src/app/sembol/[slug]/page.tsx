@@ -1,4 +1,4 @@
-import { getSymbolBySlug, getAllSymbols } from '@/lib/data';
+import { getSymbolBySlug, getAllSymbols, getCachedSymbolsLight } from '@/lib/data';
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 import Link from 'next/link';
@@ -57,10 +57,9 @@ export default function SymbolPage({ params }: Props) {
   const symbol = getSymbolBySlug(params.slug);
   if (!symbol) notFound();
 
-  const allSymbols = getAllSymbols();
   const relatedSymbols = (symbol.relatedSymbols || [])
-    .map(slug => allSymbols.find(s => s.slug === slug))
-    .filter(Boolean) as typeof allSymbols;
+    .map(slug => getSymbolBySlug(slug))
+    .filter(Boolean) as NonNullable<ReturnType<typeof getSymbolBySlug>>[];
 
   const faqSchema = {
     '@context': 'https://schema.org',
@@ -161,7 +160,7 @@ export default function SymbolPage({ params }: Props) {
       <div className="prose prose-invert prose-night max-w-none">
         <SymbolContentTabs 
           symbol={symbol} 
-          allSymbolsLight={allSymbols.map(s => ({ title: s.title, slug: s.slug }))}
+          allSymbolsLight={getCachedSymbolsLight()}
         />
 
         <AdSlot type="yandex" yandexId="" className="my-10" />

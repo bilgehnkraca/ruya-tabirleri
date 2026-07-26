@@ -77,3 +77,18 @@ export function getAllCategories(): string[] {
   const categories = new Set(symbols.map(s => s.category));
   return Array.from(categories);
 }
+
+let cachedSymbolsLight: { title: string; slug: string }[] | null = null;
+
+export function getCachedSymbolsLight(): { title: string; slug: string }[] {
+  if (cachedSymbolsLight) {
+    return cachedSymbolsLight;
+  }
+  const symbols = getAllSymbols();
+  // Only link to concise symbols (length <= 35 chars) to prevent regex explosion and avoid linking whole long-tail sentences
+  cachedSymbolsLight = symbols
+    .map((s) => ({ title: s.title, slug: s.slug }))
+    .filter((s) => s.title.length >= 3 && s.title.length <= 35)
+    .sort((a, b) => b.title.length - a.title.length);
+  return cachedSymbolsLight;
+}

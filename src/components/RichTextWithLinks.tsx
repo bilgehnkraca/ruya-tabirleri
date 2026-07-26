@@ -7,38 +7,45 @@ interface RichTextWithLinksProps {
   currentSlug: string;
 }
 
+// Module-level cache for compiled regex and lookup map to prevent 6,000+ regex re-compilations during SSG build
+let lastSymbolsRef: { title: string; slug: string }[] | undefined = undefined;
+let cachedRegex: RegExp | null = null;
+let cachedSymbolMap: Map<string, { title: string; slug: string }> | null = null;
+
 export default function RichTextWithLinks({ text, symbols, currentSlug }: RichTextWithLinksProps) {
   if (!symbols || symbols.length === 0 || !text) {
     return <>{text}</>;
   }
 
-  // Filter out the current symbol and sort by length (longest first) to prevent partial matching issues
-  const validSymbols = symbols
-    .filter(s => s.slug !== currentSlug)
-    .sort((a, b) => b.title.length - a.title.length);
+  // Check if we need to build or rebuild the cache
+  if (symbols !== lastSymbolsRef || !cachedRegex || !cachedSymbolMap) {
+    lastSymbolsRef = symbols;
+    const map = new Map<string, { title: string; slug: string }>();
+    const validSymbols = symbols.slice().sort((a, b) => b.title.length - a.title.length);
+    
+    for (const s of validSymbols) {
+      map.set(s.title.toLocaleLowerCase('tr-TR'), s);
+    }
+    cachedSymbolMap = map;
 
-  if (validSymbols.length === 0) {
+    const escapeRegExp = (string: string) => string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const words = validSymbols.map(s => escapeRegExp(s.title)).join('|');
+    cachedRegex = new RegExp(`(?<=^|[\\s.,!?;:'"()])(${words})(?=[\\s.,!?;:'"()]|$)`, 'gi');
+  }
+
+  if (!cachedRegex || !cachedSymbolMap || cachedSymbolMap.size === 0) {
     return <>{text}</>;
   }
 
-  // Escape special characters just in case, though titles are mostly plain text
-  const escapeRegExp = (string: string) => string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  
-  const words = validSymbols.map(s => escapeRegExp(s.title)).join('|');
-  
-  // Use lookaround to match only whole words bounded by space, punctuation, or string start/end.
-  // Using \b doesn't work well with Turkish characters (ç, ğ, ı, vb) in JS RegExp.
-  const regex = new RegExp(`(?<=^|[\\s.,!?;:'"()])(${words})(?=[\\s.,!?;:'"()]|$)`, 'gi');
-
-  const parts = text.split(regex);
+  const parts = text.split(cachedRegex);
 
   return (
     <>
       {parts.map((part, i) => {
         const lowerPart = part.toLocaleLowerCase('tr-TR');
-        const matchedSymbol = validSymbols.find(s => s.title.toLocaleLowerCase('tr-TR') === lowerPart);
+        const matchedSymbol = cachedSymbolMap?.get(lowerPart);
         
-        if (matchedSymbol) {
+        if (matchedSymbol && matchedSymbol.slug !== currentSlug) {
           return (
             <Link 
               key={i} 
