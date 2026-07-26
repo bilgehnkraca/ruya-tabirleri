@@ -1,10 +1,18 @@
 import fs from 'fs';
 import path from 'path';
+import { cache } from 'react';
 import { DreamSymbol } from './types';
 
 const symbolsBaseDir = path.join(process.cwd(), 'content', 'symbols');
 
+// In-memory cache to prevent re-reading and re-parsing 65+ JSON files thousands of times during SSG build
+let cachedSymbols: DreamSymbol[] | null = null;
+
 export function getAllSymbols(): DreamSymbol[] {
+  if (cachedSymbols) {
+    return cachedSymbols;
+  }
+
   if (!fs.existsSync(symbolsBaseDir)) {
     return [];
   }
@@ -50,13 +58,14 @@ export function getAllSymbols(): DreamSymbol[] {
     }
   }
   
-  return Array.from(uniqueSymbolsMap.values());
+  cachedSymbols = Array.from(uniqueSymbolsMap.values());
+  return cachedSymbols;
 }
 
-export function getSymbolBySlug(slug: string): DreamSymbol | undefined {
+export const getSymbolBySlug = cache((slug: string): DreamSymbol | undefined => {
   const symbols = getAllSymbols();
   return symbols.find((s) => s.slug === slug);
-}
+});
 
 export function getSymbolsByCategory(category: string): DreamSymbol[] {
   const symbols = getAllSymbols();
