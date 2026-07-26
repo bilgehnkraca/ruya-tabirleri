@@ -1,4 +1,4 @@
-import { getAllSymbols, getAllCategories } from '@/lib/data';
+import { getAllSymbols, getAllCategories, getSearchableSymbols } from '@/lib/data';
 import DetayliAramaClient from '@/components/DetayliAramaClient';
 import Link from 'next/link';
 import { Book, Compass, Moon, Sparkles, Star } from 'lucide-react';
@@ -7,6 +7,7 @@ import { checkIsIslamicSpecialDay } from '@/lib/islamicDates';
 
 export default function Home() {
   const symbols = getAllSymbols();
+  const searchableSymbols = getSearchableSymbols();
   const categories = getAllCategories();
   
   const popularSymbols = symbols.slice(0, 12);
@@ -70,7 +71,7 @@ export default function Home() {
           </div>
         )}
         
-        <DetayliAramaClient symbols={symbols} />
+        <DetayliAramaClient symbols={searchableSymbols} />
       </section>
 
       <AdSlot type="adsense" slotId="HOMEPAGE_SLOT_ID" />

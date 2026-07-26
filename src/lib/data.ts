@@ -92,3 +92,33 @@ export function getCachedSymbolsLight(): { title: string; slug: string }[] {
     .sort((a, b) => b.title.length - a.title.length);
   return cachedSymbolsLight;
 }
+
+let cachedSearchableSymbols: DreamSymbol[] | null = null;
+
+export function getSearchableSymbols(): DreamSymbol[] {
+  if (cachedSearchableSymbols) {
+    return cachedSearchableSymbols;
+  }
+  const symbols = getAllSymbols();
+  // Strip out heavy paragraphs (introduction, faqs, relatedSymbols) and truncate body texts to what DetayliAramaClient actually uses (AI synthesis & search snippets)
+  // This reduces the serialized JSON payload size from 22.17 MB down to ~4 MB, totally preventing Vercel's 19.07 MB ISR page size limit error!
+  cachedSearchableSymbols = symbols.map((s) => ({
+    slug: s.slug,
+    title: s.title,
+    category: s.category,
+    shortDescription: s.shortDescription,
+    content: {
+      introduction: "",
+      generalMeaning: s.content?.generalMeaning ? s.content.generalMeaning.slice(0, 300) : "",
+      variations: (s.content?.variations || []).map((v) => ({
+        title: v.title,
+        content: v.content ? v.content.slice(0, 150) : ""
+      })),
+      religiousMeaning: s.content?.religiousMeaning ? s.content.religiousMeaning.slice(0, 450) : "",
+      psychologicalMeaning: s.content?.psychologicalMeaning ? s.content.psychologicalMeaning.slice(0, 450) : "",
+      faqs: []
+    },
+    relatedSymbols: []
+  }));
+  return cachedSearchableSymbols;
+}
