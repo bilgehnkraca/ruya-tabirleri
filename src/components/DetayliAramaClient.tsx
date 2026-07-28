@@ -87,7 +87,7 @@ const formatSymbolTitle = (title: string) => {
   return clean;
 };
 
-export default function DetayliAramaClient({ symbols }: { symbols: DreamSymbol[] }) {
+export default function DetayliAramaClient() {
   const [inputValue, setInputValue] = useState('');
   const [tags, setTags] = useState<string[]>([]);
   const [selectedCategory, setSelectedCategory] = useState('tumu');
@@ -97,6 +97,26 @@ export default function DetayliAramaClient({ symbols }: { symbols: DreamSymbol[]
   const [isListening, setIsListening] = useState(false);
   const [speechError, setSpeechError] = useState<string | null>(null);
   
+  // Lazy load: symbols are fetched from API on first interaction (not embedded in HTML)
+  const [symbols, setSymbols] = useState<DreamSymbol[]>([]);
+  const [symbolsLoaded, setSymbolsLoaded] = useState(false);
+  const symbolsLoadingRef = useRef(false);
+
+  const loadSymbols = useCallback(async () => {
+    if (symbolsLoaded || symbolsLoadingRef.current) return;
+    symbolsLoadingRef.current = true;
+    try {
+      const res = await fetch('/api/symbols');
+      if (res.ok) {
+        const data = await res.json();
+        setSymbols(data);
+        setSymbolsLoaded(true);
+      }
+    } catch (e) {
+      console.error('Symbol data fetch failed:', e);
+    }
+  }, [symbolsLoaded]);
+
   const inputRef = useRef<HTMLInputElement>(null);
   const router = useRouter();
 
@@ -501,7 +521,7 @@ export default function DetayliAramaClient({ symbols }: { symbols: DreamSymbol[]
             type="text"
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
-            onFocus={() => setIsFocused(true)}
+            onFocus={() => { setIsFocused(true); loadSymbols(); }}
             onBlur={() => setTimeout(() => setIsFocused(false), 200)}
             onKeyDown={handleKeyDown}
             placeholder={
