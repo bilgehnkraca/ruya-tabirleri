@@ -127,13 +127,13 @@ export default function Home() {
           </div>
         ) : (
           <div className="flex flex-col items-center">
-            <div className="inline-flex items-center gap-2 bg-night-800/50 border border-night-700/50 text-night-200 px-5 py-2 rounded-full text-xs md:text-sm font-medium mb-6 shadow-sm">
-              <Book className="w-4 h-4 text-mystic-400" /> Türkiye&apos;nin En Kapsamlı Rüya Tabirleri Sözlüğü
+            <div className="inline-flex items-center gap-2 bg-night-900/40 border border-white/5 text-night-300 px-5 py-2.5 rounded-full text-xs md:text-sm font-medium mb-8 shadow-sm backdrop-blur-md">
+              <Book className="w-4 h-4 text-mystic-400 opacity-80" /> Türkiye&apos;nin En Kapsamlı Rüya Tabirleri Sözlüğü
             </div>
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold mb-6 tracking-tight text-white">
-              Rüyalarınızın <span className="text-transparent bg-clip-text bg-gradient-to-r from-mystic-300 via-night-200 to-mystic-200">Gerçek Anlamını</span> Keşfedin
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold mb-8 tracking-tight text-white leading-tight">
+              Rüyalarınızın <span className="text-mystic-200 font-medium italic">Gerçek Anlamını</span> Keşfedin
             </h1>
-            <p className="text-lg md:text-xl text-night-300 max-w-2xl mb-10 leading-relaxed font-light">
+            <p className="text-lg md:text-xl text-night-300 max-w-2xl mb-12 leading-relaxed font-light">
               Binlerce rüya sembolünün <strong>İslami, Diyanet ve Psikolojik</strong> tefsirlerini bir arada sunan güvenilir rehberiniz. Sembolleri tek tek aratabilir veya rüyanızın tamamını yazarak detaylı analize ulaşabilirsiniz.
             </p>
           </div>
