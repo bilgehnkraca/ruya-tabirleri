@@ -176,20 +176,19 @@ export default function SymbolPage({ params }: Props) {
       </header>
 
       {['yilan', 'altin', 'bebek', 'su'].includes(symbol.slug) && (
-        <div className="mb-10 relative rounded-3xl overflow-hidden border-2 border-mystic-500/30 shadow-2xl shadow-mystic-900/40 group">
+        <div className="mb-10 relative rounded-3xl overflow-hidden border border-night-800 shadow-md group">
           <div className="absolute inset-0 bg-gradient-to-t from-night-950 via-transparent to-transparent z-10 opacity-60" />
           <Image 
             src={`/images/symbols/${symbol.slug}.png`} 
-            alt={`Rüyada ${symbol.title} Görmek - Mistik ve Bilinçaltı İllüstrasyonu`}
+            alt={`Rüyada ${symbol.title} Görmek`}
             width={800}
             height={480}
             className="w-full h-auto max-h-[480px] object-cover object-center group-hover:scale-105 transition-transform duration-700"
           />
           <div className="absolute bottom-4 left-4 right-4 z-20 flex items-center justify-between">
-            <span className="bg-night-900/90 text-mystic-300 text-xs font-semibold px-3 py-1.5 rounded-full border border-mystic-500/40 backdrop-blur-md">
-              🎨 Yapay Zeka Mistik Sembol Tasviri
+            <span className="bg-night-900/90 text-night-200 text-xs font-medium px-3 py-1.5 rounded-full border border-night-800 backdrop-blur-md">
+              Sembol Görseli
             </span>
-            <span className="text-xs text-night-400 hidden sm:inline bg-night-950/80 px-2.5 py-1 rounded-lg">Özel Koleksiyon</span>
           </div>
         </div>
       )}

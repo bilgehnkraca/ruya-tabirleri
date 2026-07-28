@@ -4,7 +4,7 @@ import { useState, useMemo, useEffect, useRef, useCallback, KeyboardEvent } from
 import { DreamSymbol } from '@/lib/types';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { Search, X, Sparkles, ChevronRight, CornerDownLeft, Brain, ShieldAlert, HeartHandshake, Zap, Command, Mic, MicOff, Volume2, Filter, Flame, Tag, Layers, Check } from 'lucide-react';
+import { Search, X, Sparkles, ChevronRight, CornerDownLeft, Brain, ShieldAlert, HeartHandshake, Zap, Command, Mic, MicOff, Volume2, Filter, Flame, Tag, Layers, Check, Book } from 'lucide-react';
 import AdSlot from '@/components/AdSlot';
 import TextToSpeech from '@/components/TextToSpeech';
 
@@ -453,18 +453,18 @@ export default function DetayliAramaClient() {
 
   return (
     <div className="w-full max-w-5xl mx-auto">
-      {/* Search Input Area with Glowing Glassmorphism Border */}
-      <div className="bg-gradient-to-b from-night-900/95 via-night-900/90 to-night-950/95 border-2 border-mystic-500/40 hover:border-mystic-400/80 focus-within:border-accent-400 focus-within:shadow-[0_0_40px_rgba(251,191,36,0.15)] rounded-3xl p-4 md:p-6 mb-6 shadow-2xl shadow-mystic-950/50 backdrop-blur-2xl relative z-30 transition-all duration-300">
+      {/* Search Input Area with Classic Encyclopedia Aesthetic */}
+      <div className="bg-[#080C14] border border-night-800 focus-within:border-night-600 rounded-3xl p-4 md:p-6 mb-6 shadow-xl relative z-30 transition-all duration-300">
         
         {/* Üst Bilgi Barı */}
         <div className="flex flex-wrap items-center justify-between gap-2 mb-4 pb-2 border-b border-night-800/80">
-          <div className="flex items-center gap-2 text-xs md:text-sm font-bold text-transparent bg-clip-text bg-gradient-to-r from-accent-400 via-mystic-200 to-accent-300">
-            <Brain className="w-4 h-4 text-accent-400 animate-pulse shrink-0" />
-            <span>Akıllı Rüya Çevirmeni v2.0 (Sesli & Eş Anlamlı NLP Motoru)</span>
+          <div className="flex items-center gap-2 text-xs md:text-sm font-medium text-night-200">
+            <Search className="w-4 h-4 text-mystic-400 shrink-0" />
+            <span>Gelişmiş Rüya Arama Motoru</span>
           </div>
           <div className="hidden md:flex items-center gap-2">
-            <div className="flex items-center gap-1.5 bg-night-800/80 border border-night-700 px-2.5 py-1 rounded-lg text-night-300 text-xs font-mono">
-              <Command className="w-3 h-3 text-mystic-400" />
+            <div className="flex items-center gap-1.5 bg-night-900 border border-night-800 px-2.5 py-1 rounded-lg text-night-400 text-xs font-mono">
+              <Command className="w-3 h-3 text-night-500" />
               <span>+ K ile anında ara</span>
             </div>
           </div>
@@ -479,14 +479,14 @@ export default function DetayliAramaClient() {
             <button
               key={cat.id}
               onClick={() => setSelectedCategory(cat.id)}
-              className={`px-3 py-1.5 rounded-xl text-xs font-semibold whitespace-nowrap transition-all duration-200 flex items-center gap-1 shrink-0 ${
+              className={`px-3 py-1.5 rounded-xl text-xs font-medium whitespace-nowrap transition-all duration-200 flex items-center gap-1 shrink-0 ${
                 selectedCategory === cat.id
-                  ? 'bg-gradient-to-r from-accent-500 to-accent-600 text-black font-bold shadow-lg shadow-accent-500/20 scale-105'
-                  : 'bg-night-800/80 hover:bg-night-700 text-night-200 border border-night-700/60'
+                  ? 'bg-night-700 text-white shadow-sm'
+                  : 'bg-night-900 hover:bg-night-800 text-night-300 border border-night-800'
               }`}
             >
               {cat.label}
-              {selectedCategory === cat.id && <Check className="w-3 h-3 ml-0.5" />}
+              {selectedCategory === cat.id && <Check className="w-3 h-3 ml-0.5 text-mystic-300" />}
             </button>
           ))}
         </div>
@@ -495,8 +495,8 @@ export default function DetayliAramaClient() {
         {tags.length > 0 && (
           <div className="flex flex-wrap gap-2 mb-4 pt-1">
             {tags.map(tag => (
-              <span key={tag} className="bg-gradient-to-r from-mystic-800/90 via-mystic-700 to-night-800 text-mystic-100 px-3.5 py-1.5 rounded-xl flex items-center gap-2 text-sm font-semibold border border-mystic-400/50 shadow-md animate-in zoom-in duration-200">
-                <Tag className="w-3.5 h-3.5 text-accent-400" />
+              <span key={tag} className="bg-night-800 text-mystic-100 px-3.5 py-1.5 rounded-xl flex items-center gap-2 text-sm font-medium border border-night-700 shadow-sm animate-in zoom-in duration-200">
+                <Tag className="w-3.5 h-3.5 text-mystic-400" />
                 <span>{tag}</span>
                 <button onClick={() => removeTag(tag)} className="hover:text-red-400 focus:outline-none bg-night-900/60 hover:bg-night-950 rounded-full p-1 transition-colors">
                   <X className="w-3.5 h-3.5" />
@@ -531,8 +531,8 @@ export default function DetayliAramaClient() {
                   ? "Rüyanızın tamamını yazın veya sesli anlatın (Örn: Vefat eden babamın elma vermesi)..." 
                   : "Kombinasyona yeni sembol ekleyin..."
             }
-            className={`w-full bg-[#04060A] border-2 text-white rounded-2xl py-4 pl-14 pr-24 focus:outline-none transition-all placeholder:text-gray-400 text-base md:text-lg shadow-inner font-medium ${
-              isListening ? 'border-red-500 bg-red-950/10 shadow-[0_0_20px_rgba(239,68,68,0.2)] animate-pulse' : 'border-mystic-500/50 focus:border-accent-400'
+            className={`w-full bg-night-950 border border-night-700 text-white rounded-2xl py-4 pl-14 pr-24 focus:outline-none transition-all placeholder:text-night-400 text-base md:text-lg font-medium focus:border-mystic-500/50 ${
+              isListening ? 'border-red-900/50 bg-red-950/5' : ''
             }`}
             style={{ backgroundColor: '#04060A', color: '#FFFFFF' }}
           />
@@ -553,14 +553,14 @@ export default function DetayliAramaClient() {
             <button
               onClick={toggleListening}
               type="button"
-              className={`p-2.5 rounded-xl flex items-center justify-center transition-all shadow-lg ${
+              className={`p-2.5 rounded-xl flex items-center justify-center transition-all ${
                 isListening
-                  ? 'bg-gradient-to-r from-red-600 to-red-500 text-white animate-bounce shadow-red-500/40'
-                  : 'bg-gradient-to-r from-mystic-700 to-night-800 hover:from-mystic-600 hover:to-mystic-700 text-mystic-200 border border-mystic-500/40 hover:scale-105'
+                  ? 'bg-red-900/50 text-red-200 border border-red-800'
+                  : 'bg-night-900 hover:bg-night-800 text-mystic-300 border border-night-800'
               }`}
               title={isListening ? "Dinlemeyi Durdur" : "Sesli Rüya Anlat (Mikrofona Bas)"}
             >
-              {isListening ? <MicOff className="w-5 h-5 animate-pulse" /> : <Mic className="w-5 h-5 text-accent-400" />}
+              {isListening ? <MicOff className="w-5 h-5 text-red-400" /> : <Mic className="w-5 h-5" />}
             </button>
           </div>
 
@@ -579,8 +579,8 @@ export default function DetayliAramaClient() {
                       className="w-full text-left px-5 py-4 hover:bg-mystic-900/40 flex items-center justify-between group transition-colors"
                     >
                       <div className="flex items-center gap-3">
-                        <span className="w-2.5 h-2.5 rounded-full bg-accent-500 group-hover:scale-125 transition-transform shrink-0" />
-                        <span className="text-white font-semibold group-hover:text-accent-300 transition-colors text-base">
+                        <span className="w-2 h-2 rounded-full bg-mystic-500 shrink-0" />
+                        <span className="text-white font-medium group-hover:text-mystic-200 transition-colors text-base">
                           {formatSymbolTitle(suggestion.title)}
                         </span>
                       </div>
@@ -603,11 +603,11 @@ export default function DetayliAramaClient() {
           </div>
         )}
 
-        {/* 🔥 Tek Tıkla Hazır Kombinasyon Hapları */}
+        {/* Hazır Kombinasyon Hapları */}
         <div className="mt-5 pt-4 border-t border-night-800/80">
-          <div className="flex items-center gap-1.5 text-xs font-bold text-mystic-300 mb-2">
-            <Flame className="w-4 h-4 text-amber-500 animate-bounce" />
-            <span>Popüler Yapay Zeka Rüya Kombinasyonlarını Deneyin (Tek Tıkla Ara):</span>
+          <div className="flex items-center gap-1.5 text-xs font-medium text-night-300 mb-2">
+            <Search className="w-3.5 h-3.5 text-night-400" />
+            <span>Popüler Aramalar:</span>
           </div>
           <div className="flex flex-wrap gap-2">
             {QUICK_COMBINATIONS.map((combo, idx) => (
@@ -615,7 +615,7 @@ export default function DetayliAramaClient() {
                 key={idx}
                 type="button"
                 onClick={() => applyQuickCombination(combo.tags)}
-                className="bg-night-800/90 hover:bg-gradient-to-r hover:from-mystic-800 hover:to-night-700 text-night-200 hover:text-white border border-night-700/80 hover:border-accent-400/50 px-3 py-1.5 rounded-xl text-xs font-medium transition-all duration-200 shadow-sm hover:scale-105 flex items-center gap-1"
+                className="bg-night-900 hover:bg-night-800 text-night-200 hover:text-white border border-night-800 px-3 py-1.5 rounded-xl text-xs font-medium transition-colors shadow-sm flex items-center gap-1"
               >
                 {combo.label}
               </button>
@@ -624,29 +624,27 @@ export default function DetayliAramaClient() {
         </div>
         
         {activeTokens.length === 0 && (
-          <div className="mt-4 text-xs md:text-sm text-night-300 flex items-center justify-center gap-2 font-light">
-            <Sparkles className="w-4 h-4 text-accent-400 shrink-0" />
-            <span><strong>Akıllı İpucu:</strong> Sözlüğümüz <span className="text-accent-300 font-semibold">eş anlamlı kelimeleri (baba = peder, ölüm = vefat, para = servet)</span> otomatik algılar ve tefsir eder!</span>
+          <div className="mt-4 text-xs md:text-sm text-night-400 flex items-center justify-center gap-2 font-light">
+            <Book className="w-4 h-4 text-night-500 shrink-0" />
+            <span>İpucu: Farklı sembolleri bir arada yazarak daha detaylı bir analize ulaşabilirsiniz.</span>
           </div>
         )}
       </div>
 
       <AdSlot type="yandex" yandexId="" className="mb-10" />
 
-      {/* Akıllı Rüya Kombinatörü (AI Synthesis Card) + TTS Sesli Dinleme */}
+      {/* Kombinasyon Analizi Card */}
       {aiSynthesis && (
-        <div className="mb-12 bg-gradient-to-br from-night-900/95 via-mystic-950/90 to-night-900/95 border-2 border-accent-500/50 rounded-3xl p-6 md:p-8 shadow-2xl shadow-accent-500/15 backdrop-blur-2xl animate-in fade-in zoom-in-95 duration-500 relative overflow-hidden text-left">
-          <div className="absolute -right-12 -top-12 w-56 h-56 bg-accent-500/10 rounded-full blur-3xl pointer-events-none" />
-          <div className="absolute -left-12 -bottom-12 w-56 h-56 bg-mystic-500/15 rounded-full blur-3xl pointer-events-none" />
+        <div className="mb-12 bg-night-900 border border-night-800 rounded-3xl p-6 md:p-8 shadow-xl relative overflow-hidden text-left">
           
-          <div className="flex flex-wrap items-center justify-between gap-4 mb-6 border-b border-night-800/80 pb-5">
+          <div className="flex flex-wrap items-center justify-between gap-4 mb-6 border-b border-night-800 pb-5">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-2xl bg-gradient-to-tr from-accent-600 via-accent-500 to-mystic-500 flex items-center justify-center text-black font-extrabold shadow-lg shadow-accent-500/25 shrink-0">
-                <Brain className="w-6 h-6 animate-pulse text-black" />
+              <div className="w-12 h-12 rounded-2xl bg-night-800 border border-night-700 flex items-center justify-center shrink-0">
+                <Book className="w-6 h-6 text-mystic-400" />
               </div>
               <div>
-                <span className="text-xs font-extrabold uppercase tracking-widest text-accent-400 flex items-center gap-1.5">
-                  <Sparkles className="w-3.5 h-3.5" /> Yapay Zeka Sentez ve Kombinasyon Raporu
+                <span className="text-xs font-semibold uppercase tracking-widest text-night-400 flex items-center gap-1.5">
+                  Detaylı Rüya Analizi
                 </span>
                 <h2 className="text-xl md:text-2xl font-serif font-bold text-white">
                   &quot;{aiSynthesis.title}&quot; Tefsiri
@@ -659,8 +657,8 @@ export default function DetayliAramaClient() {
               <div className="bg-night-950/80 border border-mystic-500/40 rounded-2xl px-3 py-1 shadow-inner">
                 <TextToSpeech text={aiSynthesis.text} />
               </div>
-              <span className="bg-gradient-to-r from-mystic-800 to-night-900 text-accent-300 border border-accent-500/30 px-3.5 py-1.5 rounded-full text-xs font-bold shadow-md">
-                ✨ {aiSynthesis.count} Sembol Birleştirildi
+              <span className="bg-night-800 text-mystic-200 border border-night-700 px-3.5 py-1.5 rounded-full text-xs font-medium shadow-sm">
+                {aiSynthesis.count} Sembol Birleştirildi
               </span>
             </div>
           </div>
@@ -669,16 +667,16 @@ export default function DetayliAramaClient() {
             {aiSynthesis.text.split('\n\n').map((paragraph, idx) => {
               if (paragraph.startsWith('### ')) {
                 return (
-                  <h3 key={idx} className="text-lg md:text-xl font-serif font-bold text-mystic-200 mt-6 mb-2 flex items-center gap-2 border-l-4 border-accent-500 pl-3 bg-mystic-950/40 py-1.5 rounded-r-xl">
+                  <h3 key={idx} className="text-lg md:text-xl font-serif font-medium text-white mt-6 mb-2 flex items-center gap-2 border-l-2 border-mystic-500 pl-3 py-1">
                     {paragraph.replace('### ', '')}
                   </h3>
                 );
               }
               if (paragraph.startsWith('💡 ')) {
                 return (
-                  <div key={idx} className="bg-gradient-to-r from-accent-950/60 via-night-900 to-accent-950/60 border-2 border-accent-500/40 rounded-2xl p-5 text-accent-200 mt-6 flex items-start gap-3.5 shadow-xl">
-                    <span className="text-2xl shrink-0">💡</span>
-                    <div className="font-medium">{paragraph.replace('💡 ', '')}</div>
+                  <div key={idx} className="bg-night-800 border border-night-700 rounded-2xl p-5 text-night-200 mt-6 flex items-start gap-3.5 shadow-md">
+                    <span className="text-xl shrink-0 opacity-70">💡</span>
+                    <div className="font-normal">{paragraph.replace('💡 ', '').replace('Yapay Zeka Asistan Tavsiyesi', 'Genel Yorum')}</div>
                   </div>
                 );
               }
@@ -697,9 +695,6 @@ export default function DetayliAramaClient() {
               <span className="text-sm font-sans font-normal text-night-400">({results.length} eşleşme)</span>
             </h2>
             <div className="flex items-center gap-2">
-              <span className="text-xs bg-mystic-950/80 text-mystic-300 border border-mystic-500/30 px-3 py-1 rounded-full font-mono">
-                ⚡ NLP Eş Anlamlı Algoritması Aktif
-              </span>
             </div>
           </div>
           
@@ -711,9 +706,9 @@ export default function DetayliAramaClient() {
               
               {/* Eksik Rüya Talep Kutusu (Boş Sonuç) */}
               <div className="max-w-lg mx-auto bg-[#04060A] border-2 border-mystic-500/50 rounded-2xl p-6 text-left shadow-2xl">
-                <div className="flex items-center gap-2 text-accent-400 font-bold text-sm mb-2">
-                  <Sparkles className="w-4 h-4" />
-                  <span>Aradığın Rüyayı Bulamadın mı? Hemen Talep Et!</span>
+                <div className="flex items-center gap-2 text-night-200 font-medium text-sm mb-2">
+                  <Search className="w-4 h-4 text-mystic-400" />
+                  <span>Aradığınız Rüyayı Bulamadınız mı?</span>
                 </div>
                 <p className="text-xs text-gray-300 mb-4">
                   Sistemimize günlük 200 yeni sembol ekleme standartımızla, talep ettiğiniz rüyayı sıfır fluff ve en az 850 kelimelik İslami & Psikolojik derinlikle hazırlayalım.
@@ -730,8 +725,8 @@ export default function DetayliAramaClient() {
                       placeholder="Gördüğünüz rüyayı kısaca yazın (Örn: Rüyada yeşil elma yemek ve denize girmek)..."
                       className="w-full bg-[#080B14] border border-night-700 text-white placeholder-gray-400 text-sm rounded-xl p-3 focus:outline-none focus:border-accent-400 min-h-[80px]"
                     />
-                    <button type="submit" className="bg-gradient-to-r from-accent-600 to-accent-500 hover:from-accent-500 hover:to-accent-400 text-black font-bold py-2.5 px-4 rounded-xl text-sm transition-all shadow-lg hover:scale-[1.02]">
-                      🚀 Tabirini Hazırla & Ekle (Ücretsiz Talep)
+                    <button type="submit" className="bg-night-800 hover:bg-night-700 text-white font-medium py-2.5 px-4 rounded-xl text-sm transition-colors border border-night-700 shadow-sm">
+                      Tabirini Hazırla & Ekle
                     </button>
                   </form>
                 )}
@@ -742,13 +737,10 @@ export default function DetayliAramaClient() {
               {results.map((item) => (
                 <div key={item.id} className="bg-night-900/60 border border-night-800 rounded-2xl p-6 md:p-8 hover:border-mystic-500/60 hover:bg-night-900/90 transition-all relative overflow-hidden group shadow-lg">
                   <div className="absolute top-4 right-4 flex items-center gap-2">
-                    <span className="bg-night-950/90 text-mystic-300 text-[11px] font-bold px-3 py-1 rounded-full border border-night-700/80 shadow-inner">
-                      Puan: {item.score}
-                    </span>
                   </div>
                   
-                  <div className="flex items-center gap-2 text-xs font-semibold text-accent-400 mb-2 uppercase tracking-wider">
-                    {item.type === 'symbol' ? '📌 Ana Rüya Sembolü' : '🔄 Özel Senaryo Varyasyonu'} • <span className="text-mystic-300 capitalize">{item.category}</span>
+                  <div className="flex items-center gap-2 text-xs font-medium text-night-400 mb-2 uppercase tracking-wider">
+                    {item.type === 'symbol' ? '📌 Ana Sembol' : '🔄 Senaryo Varyasyonu'} • <span className="text-mystic-400 capitalize">{item.category}</span>
                   </div>
 
                   <h3 className="text-xl md:text-2xl font-bold text-white mb-4 pr-24 group-hover:text-mystic-200 transition-colors">
@@ -776,9 +768,9 @@ export default function DetayliAramaClient() {
             <div className="mt-12 bg-gradient-to-r from-night-900/90 via-mystic-950/80 to-night-900/90 border border-mystic-500/40 rounded-3xl p-6 md:p-8 text-left shadow-2xl">
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-6">
                 <div className="flex-1">
-                  <div className="flex items-center gap-2 text-accent-400 font-bold text-sm md:text-base mb-1">
-                    <Sparkles className="w-5 h-5" />
-                    <span>Aradığınız Rüya Varyasyonunu Bulamadınız mı?</span>
+                  <div className="flex items-center gap-2 text-night-200 font-medium text-sm md:text-base mb-1">
+                    <Search className="w-4 h-4 text-mystic-400" />
+                    <span>Aradığınız Rüya Senaryosunu Bulamadınız mı?</span>
                   </div>
                   <p className="text-xs md:text-sm text-gray-300">
                     Gördüğünüz spesifik senaryoyu bize yazın. Günlük 200 sembol ekleme standartımızla, 850+ kelimelik İslami ve Psikolojik tabirini hemen sisteme ekleyelim!
