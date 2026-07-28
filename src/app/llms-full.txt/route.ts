@@ -70,9 +70,13 @@ export async function GET() {
         .replace(/\s*[-–—]\s*İslami.*$/i, '')
         .trim();
       
-      // Short desc truncated to ~120 chars for token efficiency
-      const desc = s.shortDescription
-        ? s.shortDescription.slice(0, 120).replace(/\s+\S*$/, '…')
+      // Use generalMeaning if shortDescription is missing or too short, truncated to ~150 chars
+      const baseDesc = (s.shortDescription && s.shortDescription.length > 20) 
+        ? s.shortDescription 
+        : (s.content?.generalMeaning || '');
+      
+      const desc = baseDesc
+        ? baseDesc.slice(0, 150).replace(/\s+\S*$/, '…')
         : '';
 
       lines.push(`- [${cleanTitle}](https://www.ruyasozlugunuz.com/ruyada-${s.slug}-gormek): ${desc}`);

@@ -33,3 +33,14 @@ Tüm geliştirmeler, "Rüya Tabirleri" anahtar kelimesinin 2004-2026 yılları a
 * **TypeScript & Tailwind:** Tüm yeni bileşenler katı TypeScript kurallarıyla yazılmalı ve Tailwind CSS dışında (zorunlu kalmadıkça) stil dosyası kullanılmamalıdır.
 
 > **ASİSTAN İÇİN NOT:** Bu projedeki herhangi bir istekte kod yazmaya başlamadan veya yeni bir özellik eklemeden önce bu anayasadaki SEO, Linkleme ve Tasarım kurallarına %100 uyumlu olunduğu teyit edilecektir.
+
+## 6. GEO / AEO (Generative Engine Optimization) Kuralları
+Yapay zeka tabanlı arama motorları (Google AI Overviews, Perplexity vb.) için optimizasyon yaparken Google'ın resmi yönergelerine uyulacaktır:
+* **Temel SEO Vazgeçilmezdir:** RAG (Retrieval-augmented generation) altyapısı doğrudan Google'ın arama indeksine dayandığı için sitenin teknik SEO'su, crawl (tarama) bütçesi ve semantik HTML yapısı kusursuz olmalıdır.
+* **Özgün (Non-Commodity) İçerik:** Yalnızca herkesin bildiği jenerik cümleler (commodity) değil; özgün, derinlikli, insan odaklı (people-first) ve katma değer sağlayan yorumlar üretilmelidir.
+* **GEO Mitlerinden Uzak Durulmalı:**
+  - Özel `llms.txt` dosyaları veya Markdown markup'ları Google için **GEREKSİZ**dir.
+  - Sırf yapay zeka anlasın diye içeriği yapay şekilde "parçalamaya (chunking)" veya eşanlamlı kelimelerle doldurmaya gerek yoktur (AI bunları zaten anlar).
+  - Yalan veya manipülatif (inauthentic) mention'lar üretmek spam politikası ihlalidir.
+* **Zengin Medya Entegrasyonu:** Konuyu destekleyen yüksek kaliteli, optimize edilmiş görsel (`next/image` ile) ve medya kullanımı, AI yanıtlarında (Generative AI search) sitenin çıkma olasılığını ciddi oranda artırır.
+* **AI İçerik Şeffaflığı:** Eğer metin veya görsel AI ile oluşturulduysa (örneğin mistik sembol görselleri), bunun doğruluğu (accuracy) kesinlikle teyit edilmeli ve uygun yapısal veri / meta etiketleri ile arama motorlarına/kullanıcıya bildirilmelidir.

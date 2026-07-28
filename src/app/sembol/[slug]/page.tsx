@@ -2,9 +2,9 @@ import { getSymbolBySlug, getAllSymbols, getCachedSymbolsLight } from '@/lib/dat
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import AdSlot from '@/components/AdSlot';
 import SymbolContentTabs from '@/components/SymbolContentTabs';
-import DreamCommentSection from '@/components/DreamCommentSection';
 
 interface Props {
   params: { slug: string };
@@ -98,8 +98,8 @@ export default function SymbolPage({ params }: Props) {
     headline: symbol.title,
     description: symbol.shortDescription,
     image: 'https://www.ruyasozlugunuz.com/og-image.jpg',
-    datePublished: '2024-01-01T08:00:00+03:00',
-    dateModified: new Date().toISOString(),
+    datePublished: '2026-06-01T08:00:00+03:00',
+    dateModified: '2026-06-01T08:00:00+03:00',
     inLanguage: 'tr',
     author: {
       '@type': 'Organization',
@@ -171,16 +171,18 @@ export default function SymbolPage({ params }: Props) {
       </nav>
 
       <header className="mb-10">
-        <h1 className="text-4xl md:text-5xl font-serif font-bold text-white mb-6">{symbol.title}</h1>
+        <h1 className="text-4xl md:text-5xl font-serif font-bold text-white mb-6">Rüyada {cleanSymbolName} Görmek</h1>
         <p className="text-xl text-night-300 leading-relaxed">{symbol.content.introduction}</p>
       </header>
 
       {['yilan', 'altin', 'bebek', 'su'].includes(symbol.slug) && (
         <div className="mb-10 relative rounded-3xl overflow-hidden border-2 border-mystic-500/30 shadow-2xl shadow-mystic-900/40 group">
           <div className="absolute inset-0 bg-gradient-to-t from-night-950 via-transparent to-transparent z-10 opacity-60" />
-          <img 
+          <Image 
             src={`/images/symbols/${symbol.slug}.png`} 
             alt={`Rüyada ${symbol.title} Görmek - Mistik ve Bilinçaltı İllüstrasyonu`}
+            width={800}
+            height={480}
             className="w-full h-auto max-h-[480px] object-cover object-center group-hover:scale-105 transition-transform duration-700"
           />
           <div className="absolute bottom-4 left-4 right-4 z-20 flex items-center justify-between">
@@ -194,26 +196,23 @@ export default function SymbolPage({ params }: Props) {
 
       <AdSlot type="adsense" slotId="CONTENT_TOP_SLOT_ID" className="mb-10" />
 
-      <div className="prose prose-invert prose-night max-w-none">
+      <section className="prose prose-invert prose-night max-w-none">
         <SymbolContentTabs 
           symbol={symbol} 
           allSymbolsLight={getCachedSymbolsLight()}
         />
 
-        <AdSlot type="yandex" yandexId="" className="my-10" />
-
         <h2 className="text-2xl font-serif font-bold text-mystic-100 mt-12 mb-6 border-b border-night-700 pb-2">Merak Edilen Diğer Detaylar</h2>
         <div className="space-y-6">
           {(symbol.content?.faqs || []).map((faq, index) => (
             <div key={index}>
-              <h3 className="text-lg font-semibold text-night-100 mb-2">{faq.question}</h3>
-              <p className="text-night-300 m-0">{faq.answer}</p>
+               <h3 className="text-lg font-semibold text-night-100 mb-2">{faq.question}</h3>
+               <p className="text-night-300 m-0">{faq.answer}</p>
             </div>
           ))}
         </div>
-      </div>
+      </section>
 
-      <DreamCommentSection symbolSlug={symbol.slug} symbolTitle={symbol.title} />
 
       {relatedSymbols.length > 0 && (
         <section className="mt-16 pt-10 border-t border-night-800">

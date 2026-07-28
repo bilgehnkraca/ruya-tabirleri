@@ -5,6 +5,14 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'A-Z Rüya Tabirleri Sözlüğü',
   description: 'Tüm rüya tabirlerini alfabetik olarak inceleyebileceğiniz A-Z rüya sözlüğü.',
+  alternates: {
+    canonical: 'https://www.ruyasozlugunuz.com/a-z',
+  },
+  openGraph: {
+    title: 'A-Z Rüya Tabirleri Sözlüğü',
+    description: 'Tüm rüya tabirlerini alfabetik olarak inceleyebileceğiniz A-Z rüya sözlüğü.',
+    url: 'https://www.ruyasozlugunuz.com/a-z',
+  },
 };
 
 export default function AZIndexPage() {

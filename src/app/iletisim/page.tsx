@@ -4,6 +4,14 @@ import { Mail, MapPin, MessageSquare } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'İletişim',
   description: 'Bizimle iletişime geçin. Soru, öneri ve işbirlikleri için Rüya Tabirleri Sözlüğü iletişim sayfası.',
+  alternates: {
+    canonical: 'https://www.ruyasozlugunuz.com/iletisim',
+  },
+  openGraph: {
+    title: 'İletişim',
+    description: 'Bizimle iletişime geçin. Soru, öneri ve işbirlikleri için Rüya Tabirleri Sözlüğü iletişim sayfası.',
+    url: 'https://www.ruyasozlugunuz.com/iletisim',
+  },
 };
 
 export default function ContactPage() {

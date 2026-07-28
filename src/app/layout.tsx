@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import Script from "next/script";
+import Link from "next/link";
 import CookieConsent from '@/components/CookieConsent';
 import { GoogleAnalytics } from '@next/third-parties/google';
 
@@ -96,9 +97,9 @@ export default function RootLayout({
       <body className={`${inter.variable} ${playfair.variable} font-sans bg-night-900 text-night-100 antialiased`}>
         <div className="flex flex-col min-h-screen">
           <header className="glass-header py-4 px-4 md:px-6 flex items-center justify-between flex-wrap gap-4">
-            <a href="/" className="text-2xl font-serif font-bold text-mystic-300">
+            <Link href="/" className="text-2xl font-serif font-bold text-mystic-300">
               Rüya<span className="text-mystic-500">Sözlüğü</span>
-            </a>
+            </Link>
             <nav className="flex space-x-3 md:space-x-5 text-sm md:text-base items-center">
               <a 
                 href="https://www.turkiyehesaplama.com" 
@@ -108,9 +109,9 @@ export default function RootLayout({
               >
                 <span className="animate-bounce">🔥</span> <span className="hidden sm:inline">Hesaplama</span> Araçları
               </a>
-              <a href="/diyanet-islami-ruya-tabirleri" className="hover:text-gold-300 text-gold-400 font-bold transition-colors flex items-center gap-1">📖 İslami Tabirler</a>
-              <a href="/kategoriler" className="hover:text-mystic-400 transition-colors">Kategoriler</a>
-              <a href="/a-z" className="hover:text-mystic-400 transition-colors">A-Z İndeks</a>
+              <Link href="/diyanet-islami-ruya-tabirleri" className="hover:text-gold-300 text-gold-400 font-bold transition-colors flex items-center gap-1">📖 İslami Tabirler</Link>
+              <Link href="/kategoriler" className="hover:text-mystic-400 transition-colors">Kategoriler</Link>
+              <Link href="/a-z" className="hover:text-mystic-400 transition-colors">A-Z İndeks</Link>
             </nav>
           </header>
           
@@ -130,11 +131,11 @@ export default function RootLayout({
                 <div>
                   <h4 className="text-white font-serif font-bold mb-4 text-lg border-b border-night-700 pb-2">Hızlı Bağlantılar</h4>
                   <ul className="space-y-2.5">
-                    <li><a href="/diyanet-islami-ruya-tabirleri" className="hover:text-gold-400 text-gold-500 font-bold transition-colors flex items-center gap-1.5"><span>📖</span> İslami & Diyanet Tabirleri</a></li>
-                    <li><a href="/hakkimizda" className="hover:text-mystic-400 transition-colors">Hakkımızda</a></li>
-                    <li><a href="/iletisim" className="hover:text-mystic-400 transition-colors">İletişim</a></li>
-                    <li><a href="/gizlilik-politikasi" className="hover:text-mystic-400 transition-colors">Gizlilik Politikası</a></li>
-                    <li><a href="/kvkk" className="hover:text-mystic-400 transition-colors">KVKK Aydınlatma Metni</a></li>
+                    <li><Link href="/diyanet-islami-ruya-tabirleri" className="hover:text-gold-400 text-gold-500 font-bold transition-colors flex items-center gap-1.5"><span>📖</span> İslami & Diyanet Tabirleri</Link></li>
+                    <li><Link href="/hakkimizda" className="hover:text-mystic-400 transition-colors">Hakkımızda</Link></li>
+                    <li><Link href="/iletisim" className="hover:text-mystic-400 transition-colors">İletişim</Link></li>
+                    <li><Link href="/gizlilik-politikasi" className="hover:text-mystic-400 transition-colors">Gizlilik Politikası</Link></li>
+                    <li><Link href="/kvkk" className="hover:text-mystic-400 transition-colors">KVKK Aydınlatma Metni</Link></li>
                   </ul>
                 </div>
 
@@ -166,21 +167,6 @@ export default function RootLayout({
                     </a>
                     <a href="https://www.turkiyehesaplama.com/tarih-hesaplama" target="_blank" rel="noopener noreferrer dofollow" className="hover:text-mystic-300 text-night-200 font-semibold transition-colors flex items-center gap-2 truncate">
                       <span>⏳</span> Tarih & Saat Hesaplama
-                    </a>
-                    <a href="https://www.turkiyehesaplama.com" target="_blank" rel="noopener noreferrer dofollow" className="hover:text-mystic-300 text-night-200 font-semibold transition-colors flex items-center gap-2 truncate">
-                      <span>📊</span> KDV, Yüzde & İndirim
-                    </a>
-                    <a href="https://www.turkiyehesaplama.com" target="_blank" rel="noopener noreferrer dofollow" className="hover:text-mystic-300 text-night-200 font-semibold transition-colors flex items-center gap-2 truncate">
-                      <span>⚖️</span> Vücut Kitle İndeksi (VKİ)
-                    </a>
-                    <a href="https://www.turkiyehesaplama.com/kredi-hesaplama" target="_blank" rel="noopener noreferrer dofollow" className="hover:text-mystic-300 text-night-200 font-semibold transition-colors flex items-center gap-2 truncate">
-                      <span>🏡</span> Kira Artış Oranı & Konut
-                    </a>
-                    <a href="https://www.turkiyehesaplama.com" target="_blank" rel="noopener noreferrer dofollow" className="hover:text-mystic-300 text-night-200 font-semibold transition-colors flex items-center gap-2 truncate">
-                      <span>🇹🇷</span> Şafak Sayar & Askerlik
-                    </a>
-                    <a href="https://www.turkiyehesaplama.com" target="_blank" rel="noopener noreferrer dofollow" className="hover:text-mystic-300 text-night-200 font-semibold transition-colors flex items-center gap-2 truncate">
-                      <span>🎓</span> Not Ortalaması & Sınav
                     </a>
                   </div>
                 </div>

@@ -4,6 +4,14 @@ import { Compass, BookOpen, Star } from 'lucide-react';
 export const metadata: Metadata = {
   title: 'Hakkımızda',
   description: 'Rüya Tabirleri Sözlüğü hakkında bilgiler, misyonumuz ve rüya tabiri yaklaşımımız.',
+  alternates: {
+    canonical: 'https://www.ruyasozlugunuz.com/hakkimizda',
+  },
+  openGraph: {
+    title: 'Hakkımızda',
+    description: 'Rüya Tabirleri Sözlüğü hakkında bilgiler, misyonumuz ve rüya tabiri yaklaşımımız.',
+    url: 'https://www.ruyasozlugunuz.com/hakkimizda',
+  },
 };
 
 export default function AboutPage() {
