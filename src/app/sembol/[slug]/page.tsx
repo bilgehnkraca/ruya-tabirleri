@@ -98,13 +98,14 @@ export default function SymbolPage({ params }: Props) {
     headline: symbol.title,
     description: symbol.shortDescription,
     image: 'https://www.ruyasozlugunuz.com/og-image.jpg',
-    datePublished: '2026-06-01T08:00:00+03:00',
-    dateModified: '2026-06-01T08:00:00+03:00',
+    datePublished: symbol.datePublished || '2026-01-01T08:00:00+03:00',
+    dateModified: symbol.dateModified || new Date().toISOString(),
     inLanguage: 'tr',
     author: {
-      '@type': 'Organization',
-      name: 'Rüya Tabirleri Sözlüğü',
-      url: 'https://www.ruyasozlugunuz.com'
+      '@type': 'Person',
+      name: 'Rüya Tabirleri Editör Ekibi',
+      description: 'İbn-i Sirin, İmam Nablusi ve Carl Jung kaynaklarına dayanan rüya tabiri uzmanları.',
+      url: 'https://www.ruyasozlugunuz.com/hakkimizda'
     },
     publisher: {
       '@type': 'Organization',

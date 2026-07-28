@@ -19,13 +19,10 @@ export default function SymbolContentTabs({
 }) {
   const [activeTab, setActiveTab] = useState<Tab>('general');
 
-  // Generate Answer-First summaries from shortDescription
-  const descParts = symbol.shortDescription?.split(';') || [''];
-  const generalSummary = descParts.length > 1 
-    ? descParts[1].trim().charAt(0).toUpperCase() + descParts[1].trim().slice(1)
-    : descParts[0].trim();
-  const religiousSummary = descParts[0].trim();
-  const psychologicalSummary = descParts.length > 1 ? descParts[1].trim() : descParts[0].trim();
+  // Generate Answer-First summaries from content to ensure uniqueness across tabs
+  const generalSummary = symbol.content.generalMeaning?.split(/[.!?]/)[0]?.trim() || symbol.shortDescription;
+  const religiousSummary = symbol.content.religiousMeaning?.split(/[.!?]/)[0]?.trim() || symbol.shortDescription;
+  const psychologicalSummary = symbol.content.psychologicalMeaning?.split(/[.!?]/)[0]?.trim() || symbol.shortDescription;
 
   return (
     <div className="mt-8 mb-12">
@@ -35,7 +32,7 @@ export default function SymbolContentTabs({
           onClick={() => setActiveTab('general')}
           className={`flex-1 flex items-center justify-center gap-2 py-3 px-4 rounded-xl font-medium transition-all duration-300 ${
             activeTab === 'general'
-              ? 'bg-mystic-600 text-white shadow-[0_0_15px_rgba(112,60,211,0.3)]'
+              ? 'bg-mystic-700 text-white shadow-sm'
               : 'bg-night-800/50 text-night-300 hover:bg-night-700 hover:text-night-100'
           }`}
         >
@@ -47,7 +44,7 @@ export default function SymbolContentTabs({
           onClick={() => setActiveTab('religious')}
           className={`flex-1 flex items-center justify-center gap-2 py-3 px-4 rounded-xl font-medium transition-all duration-300 ${
             activeTab === 'religious'
-              ? 'bg-gold-500 text-night-900 shadow-[0_0_15px_rgba(212,175,55,0.3)]'
+              ? 'bg-gold-500 text-night-900 shadow-sm'
               : 'bg-night-800/50 text-night-300 hover:bg-night-700 hover:text-night-100'
           }`}
         >
@@ -59,7 +56,7 @@ export default function SymbolContentTabs({
           onClick={() => setActiveTab('psychological')}
           className={`flex-1 flex items-center justify-center gap-2 py-3 px-4 rounded-xl font-medium transition-all duration-300 ${
             activeTab === 'psychological'
-              ? 'bg-blue-600 text-white shadow-[0_0_15px_rgba(37,99,235,0.3)]'
+              ? 'bg-blue-700 text-white shadow-sm'
               : 'bg-night-800/50 text-night-300 hover:bg-night-700 hover:text-night-100'
           }`}
         >

@@ -50,9 +50,23 @@ export default function AboutPage() {
     ]
   };
 
+  const personSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: 'Rüya Tabirleri Editör Ekibi',
+    description: 'İbn-i Sirin, İmam Nablusi ve Carl Jung kaynaklarına dayanan rüya tabiri uzmanları. Türkiye\'nin en güvenilir ve derinlikli rüya analiz platformunun arkasındaki editoryal güç.',
+    url: 'https://www.ruyasozlugunuz.com/hakkimizda',
+    jobTitle: 'Baş Editör & Araştırmacı',
+    worksFor: {
+      '@type': 'Organization',
+      name: 'Rüya Tabirleri Sözlüğü'
+    }
+  };
+
   return (
     <article className="max-w-4xl mx-auto pb-12">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }} />
       <header className="mb-12 text-center pt-8">
         <h1 className="text-4xl md:text-5xl font-serif font-bold text-white mb-6">Hakkımızda</h1>
         <p className="text-xl text-night-300 max-w-2xl mx-auto mb-4">
@@ -100,12 +114,18 @@ export default function AboutPage() {
           </div>
         </div>
 
-        <h2 className="text-2xl font-serif font-bold text-white mb-4">İçerik Kalitesi ve Güvenilirlik</h2>
+        <h2 className="text-2xl font-serif font-bold text-white mb-4">Editoryal Metodoloji ve Güvenilirlik (E-E-A-T)</h2>
         <p className="text-night-200 leading-relaxed mb-6">
-          Sitemizdeki tüm içerikler, kapsamlı araştırmalar sonucu özenle hazırlanır. Hiçbir yoruma &quot;kesin böyledir&quot; veya &quot;geleceği gösterir&quot; iddiasıyla yaklaşmıyoruz; çünkü rüyalar son derece kişiseldir ve ancak rüyayı gören kişinin mevcut yaşam bağlamı içinde gerçek anlamını bulur. Bizim sunduğumuz içerikler, rüyanızı kendi içsel yolculuğunuzda yorumlayabilmeniz için bir anahtar niteliği taşır.
+          Google&apos;ın E-E-A-T (Deneyim, Uzmanlık, Yetkinlik ve Güvenilirlik) standartlarına sıkı sıkıya bağlıyız. Sitemizdeki tüm içerikler, <strong>Rüya Tabirleri Editör Ekibi</strong> tarafından kapsamlı araştırmalar sonucu özenle hazırlanır. Hiçbir yoruma &quot;kesin böyledir&quot; veya &quot;geleceği gösterir&quot; iddiasıyla yaklaşmıyoruz; çünkü rüyalar son derece kişiseldir ve ancak rüyayı gören kişinin mevcut yaşam bağlamı içinde gerçek anlamını bulur. 
         </p>
-        <p className="text-night-200 leading-relaxed">
-          Rüya Sözlüğü&apos;nü tercih ettiğiniz için teşekkür ederiz. İyi uykular ve güzel rüyalar dileriz.
+
+        <h3 className="text-xl font-bold text-mystic-200 mb-3">Sıfır Fluff (Kelime Doldurma Yasağı) Politikası</h3>
+        <p className="text-night-200 leading-relaxed mb-6">
+          Okuyucunun vaktini alan, sırf arama motorlarında uzun görünmek için yazılmış tekrarlayan kelimelere (fluff) platformumuzda yer yoktur. Eklenen her bir kelimenin, İslami tefsirlere (İbn-i Sirin, Nablusi vb.) veya analitik psikoloji analizlerine %100 doğrudan fayda sağlaması, net ve derin bilgi barındırması zorunludur. Tüm rüya tabirlerimiz bu yüksek standart kalite kontrolünden geçmektedir.
+        </p>
+
+        <p className="text-night-200 leading-relaxed mt-10 p-6 bg-night-800/40 rounded-xl border border-mystic-500/20 italic">
+          Rüya Sözlüğü&apos;nü tercih ettiğiniz için teşekkür ederiz. İyi uykular ve kendi içinize doğru güzel bir yolculuk dileriz.
         </p>
       </div>
     </article>

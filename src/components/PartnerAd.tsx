@@ -29,7 +29,7 @@ export default function PartnerAd({ slug = '', className = '' }: PartnerAdProps)
 
   if (match(['bebek', 'hamile', 'dogum', 'cocuk', 'kiz', 'erkek', 'gelin', 'dugun', 'evlilik', 'nisan', 'anne'])) {
     config = {
-      badge: '👶 ANNE VE AİLE ADAYLARI İÇİN ÖNERİLEN ÇÖZÜM',
+      badge: 'Anne ve Aile Adayları İçin Önerilen Çözüm',
       badgeColor: 'text-pink-300 bg-pink-950/80 border-pink-500/40',
       title: 'Gebelik, Doğum Tarihi ve Evlilik Hesaplama',
       description: 'Rüyanızdaki yeni başlangıçların heyecanını yaşarken; tahmini doğum tarihinizi, gebelik haftanızı ve evlilik zamanlamanızı saniyeler içinde hesaplayın.',
@@ -43,7 +43,7 @@ export default function PartnerAd({ slug = '', className = '' }: PartnerAdProps)
     };
   } else if (match(['altin', 'para', 'maas', 'borc', 'cuzdan', 'zengin', 'bank', 'ticaret', 'dolar', 'euro', 'kredi', 'yatirim'])) {
     config = {
-      badge: '💰 FİNANSAL STRATEJİ VE YATIRIM REHBERİ',
+      badge: 'Finansal Strateji ve Yatırım Rehberi',
       badgeColor: 'text-emerald-300 bg-emerald-950/80 border-emerald-500/40',
       title: 'Kredi, Maaş, Altın ve Yatırım Hesaplama Sistemleri',
       description: 'Bolluk, bereket ve kazanç rüyalarınızı somut adımlara dönüştürün. Kredi taksitlerinizi, net-brüt maaşınızı ve altın yatırımlarınızı en güncel oranlarla planlayın.',
@@ -57,7 +57,7 @@ export default function PartnerAd({ slug = '', className = '' }: PartnerAdProps)
     };
   } else if (match(['vefat', 'olmus', 'baba', 'dede', 'babaanne', 'miras', 'akraba', 'yasli', 'mezuniyet', 'komsu', 'ogretmen'])) {
     config = {
-      badge: '⏳ YAŞAM DÖNGÜSÜ VE ZAMAN REHBERİ',
+      badge: 'Yaşam Döngüsü ve Zaman Rehberi',
       badgeColor: 'text-amber-300 bg-amber-950/80 border-amber-500/40',
       title: 'Yaş, Zaman ve Nesil Farkı Hesaplama Araçları',
       description: 'Geçmişle geleceği birbirine bağlayan rüyalarınızda zamanın kıymetini idrak edin. Tam yaşınızı, gün farklarını ve önemli tarihleri kolayca hesaplayın.',
@@ -71,7 +71,7 @@ export default function PartnerAd({ slug = '', className = '' }: PartnerAdProps)
     };
   } else if (match(['kabe', 'namaz', 'kuran', 'ramazan', 'oruc', 'zekat', 'cami', 'dua', 'hac', 'ezan', 'secde', 'ihram', 'kadir', 'iftar'])) {
     config = {
-      badge: '🕌 İSLAMİ GÜNLER VE İBADET TAKVİMİ',
+      badge: 'İslami Günler ve İbadet Takvimi',
       badgeColor: 'text-gold-300 bg-amber-950/80 border-gold-500/40',
       title: 'Dini Günler, Ramazan, Fitre ve Zekat Hesaplama',
       description: 'Manevi atmosferi yüksek rüyalarınızın ardından ibadetlerinizi, zekat miktarınızı ve mübarek dini günleri eksiksiz bir şekilde planlayın.',
@@ -85,7 +85,7 @@ export default function PartnerAd({ slug = '', className = '' }: PartnerAdProps)
     };
   } else if (match(['araba', 'yol', 'otobus', 'ucak', 'gemi', 'tren', 'yolculuk', 'bilet', 'mesafe', 'kopru', 'tunel'])) {
     config = {
-      badge: '🚗 SEYAHAT VE ROTA PLANLAMA ARAÇLARI',
+      badge: 'Seyahat ve Rota Planlama Araçları',
       badgeColor: 'text-cyan-300 bg-cyan-950/80 border-cyan-500/40',
       title: 'Mesafe, Seyahat ve Yakıt Tüketimi Hesaplama',
       description: 'Hayat yolculuğunuza veya yeni bir şehre doğru atılacak adımlarda mesafeleri, yakıt masraflarını ve seyahat rotalarınızı önceden hesaplayın.',
@@ -99,7 +99,7 @@ export default function PartnerAd({ slug = '', className = '' }: PartnerAdProps)
     };
   } else if (match(['saat', 'zaman', 'gece', 'gunduz', 'gun', 'takvim', 'randevu', 'yildiz', 'gunes', 'ayna', 'telefon'])) {
     config = {
-      badge: '⏱️ ZAMAN YÖNETİMİ VE TAKVİM REHBERİ',
+      badge: 'Zaman Yönetimi ve Takvim Rehberi',
       badgeColor: 'text-indigo-300 bg-indigo-950/80 border-indigo-500/40',
       title: 'Tarih, Gün Farkı, Saat ve Zaman Hesaplama',
       description: 'Zamanın akışına dair rüyalarınızdan ilham alarak iki tarih arasındaki gün farkını, iş günlerini ve zaman çizelgenizi kolayca yönetin.',
@@ -113,7 +113,7 @@ export default function PartnerAd({ slug = '', className = '' }: PartnerAdProps)
     };
   } else if (match(['alisveris', 'pazar', 'magaza', 'hediye', 'indirim', 'fatura', 'fiyat', 'kdv', 'yuzde'])) {
     config = {
-      badge: '🛍️ AKILLI ALIŞVERİŞ VE BÜTÇE DANIŞMANI',
+      badge: 'Akıllı Alışveriş ve Bütçe Danışmanı',
       badgeColor: 'text-rose-300 bg-rose-950/80 border-rose-500/40',
       title: 'KDV, Yüzde, İndirim ve Kar-Zarar Hesaplama',
       description: 'Alışveriş, pazar ve kazanç rüyalarınızın ardından ticari bütçenizi, indirim oranlarını, KDV dahil/hariç fiyatları pratikçe hesaplayın.',
@@ -127,7 +127,7 @@ export default function PartnerAd({ slug = '', className = '' }: PartnerAdProps)
     };
   } else if (match(['hastalik', 'doktor', 'hastane', 'kilo', 'yemek', 'tatli', 'su', 'icmek', 'meyve', 'sebze', 'sifa'])) {
     config = {
-      badge: '🥗 SAĞLIKLI YAŞAM VE VÜCUT ANALİZİ',
+      badge: 'Sağlıklı Yaşam ve Vücut Analizi',
       badgeColor: 'text-teal-300 bg-teal-950/80 border-teal-500/40',
       title: 'Vücut Kitle İndeksi (VKİ), Kalori ve Kilo Hesaplama',
       description: 'Şifa, yemek ve beden sağlığına dair rüyalarınızın gösterdiği yenilenme enerjisiyle ideal kilonuzu ve vücut kitle indeksinizi anında öğrenin.',
@@ -141,7 +141,7 @@ export default function PartnerAd({ slug = '', className = '' }: PartnerAdProps)
     };
   } else if (match(['asker', 'selam', 'nobet', 'safak', 'tezker', 'gurbet'])) {
     config = {
-      badge: '🇹🇷 ŞAFAK SAYAR VE ASKERLİK REHBERİ',
+      badge: 'Şafak Sayar ve Askerlik Rehberi',
       badgeColor: 'text-red-300 bg-red-950/80 border-red-500/40',
       title: 'Şafak Sayar ve Askerlik Süresi Hesaplama',
       description: 'Askerlik, gurbet ve hasret temalı rüyalarınızda sevdiklerinize kavuşacağınız tezkere gününü ve şafak sayınızı tam takvimle hesaplayın.',
@@ -155,7 +155,7 @@ export default function PartnerAd({ slug = '', className = '' }: PartnerAdProps)
     };
   } else if (match(['ev', 'apartman', 'cati', 'kapi', 'pencere', 'oda', 'duvar', 'mobilya', 'kiraci'])) {
     config = {
-      badge: '🏠 KONUT VE GAYRİMENKUL HESAPLAMALARI',
+      badge: 'Konut ve Gayrimenkul Hesaplamaları',
       badgeColor: 'text-blue-300 bg-blue-950/80 border-blue-500/40',
       title: 'Kira Artış Oranı ve Konut Kredisi Hesaplama',
       description: 'Huzurlu ev ve mekan rüyalarınızdan hareketle konut yatırımlarınızı, aylık kira artış oranlarınızı ve tapu masraflarınızı kolayca planlayın.',
@@ -170,7 +170,7 @@ export default function PartnerAd({ slug = '', className = '' }: PartnerAdProps)
   } else {
     // Default High-Impact Banner for All Other Symbols
     config = {
-      badge: '🔥 ÖNERİLEN PARTNER ÇÖZÜM PLATFORMU',
+      badge: 'Önerilen Partner Çözüm Platformu',
       badgeColor: 'text-mystic-300 bg-mystic-950/80 border-mystic-500/40',
       title: "Türkiye'nin En Kapsamlı Ücretsiz Hesaplama Platformu",
       description: "Rüya yorumunuzu incelerken günlük hayatınızı kolaylaştıracak yaş, gebelik, kredi, tarih, zekat ve yüzlerce hesaplama aracını ücretsiz keşfedin.",

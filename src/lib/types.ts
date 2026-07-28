@@ -2,6 +2,8 @@ export interface DreamSymbol {
   slug: string;
   title: string;
   category: string;
+  datePublished?: string;
+  dateModified?: string;
   shortDescription: string;
   content: {
     introduction: string;

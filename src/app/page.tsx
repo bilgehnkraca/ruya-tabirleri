@@ -23,7 +23,7 @@ export default function Home() {
     name: 'Rüya Tabirleri Sözlüğü',
     alternateName: 'Rüya Sözlüğü',
     url: 'https://www.ruyasozlugunuz.com',
-    description: "Türkiye'nin en kapsamlı rüya tabirleri sözlüğü. 2000+ rüya sembolünü İslami, psikolojik ve genel yorumlarla sunan yapay zeka destekli platform.",
+    description: "Türkiye'nin en kapsamlı, özgün ve güvenilir rüya tabirleri sözlüğü. 2000+ sembol; İslami, psikolojik ve genel yorumlarla sunulmaktadır.",
     inLanguage: 'tr',
     potentialAction: {
       '@type': 'SearchAction',
@@ -131,7 +131,7 @@ export default function Home() {
               <Book className="w-4 h-4 text-mystic-400 opacity-80" /> Türkiye&apos;nin En Kapsamlı Rüya Tabirleri Sözlüğü
             </div>
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold mb-8 tracking-tight text-white leading-tight">
-              Rüyalarınızın <span className="text-mystic-200 font-medium italic">Gerçek Anlamını</span> Keşfedin
+              Rüya Tabirleri Sözlüğü — <span className="text-mystic-200 font-medium italic">Gerçek Anlamı</span> Keşfedin
             </h1>
             <p className="text-lg md:text-xl text-night-300 max-w-2xl mb-12 leading-relaxed font-light">
               Binlerce rüya sembolünün <strong>İslami, Diyanet ve Psikolojik</strong> tefsirlerini bir arada sunan güvenilir rehberiniz. Sembolleri tek tek aratabilir veya rüyanızın tamamını yazarak detaylı analize ulaşabilirsiniz.
