@@ -20,27 +20,95 @@ export default function Home() {
   const websiteSchema = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'Rüya Tabirleri',
-    url: 'https://ruyatabirleri.com',
+    name: 'Rüya Tabirleri Sözlüğü',
+    alternateName: 'Rüya Sözlüğü',
+    url: 'https://www.ruyasozlugunuz.com',
+    description: "Türkiye'nin en kapsamlı rüya tabirleri sözlüğü. 2000+ rüya sembolünü İslami, psikolojik ve genel yorumlarla sunan yapay zeka destekli platform.",
+    inLanguage: 'tr',
     potentialAction: {
       '@type': 'SearchAction',
-      target: 'https://ruyatabirleri.com/ara?q={search_term_string}',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: 'https://www.ruyasozlugunuz.com/?q={search_term_string}'
+      },
       'query-input': 'required name=search_term_string'
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Rüya Tabirleri Sözlüğü'
     }
   };
 
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'Rüya Tabirleri',
-    url: 'https://ruyatabirleri.com',
-    description: "Türkiye'nin kapsamlı rüya tabirleri sözlüğü"
+    name: 'Rüya Tabirleri Sözlüğü',
+    alternateName: 'Rüya Sözlüğü',
+    url: 'https://www.ruyasozlugunuz.com',
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://www.ruyasozlugunuz.com/icon-512.png',
+      width: 512,
+      height: 512
+    },
+    description: "Türkiye'nin en kapsamlı rüya tabirleri sözlüğü. İbn-i Sirin, İmam Nablusi, Carl Jung ve Freud kaynaklarına dayanan 2000+ özgün rüya tabiri.",
+    foundingDate: '2024',
+    areaServed: {
+      '@type': 'Country',
+      name: 'Türkiye'
+    },
+    knowsAbout: [
+      'Rüya tabiri',
+      'İslami rüya yorumu',
+      'Diyanet rüya tabirleri',
+      'İbn-i Sirin rüya tabiri',
+      'İmam Nablusi rüya tabiri',
+      'Carl Jung rüya analizi',
+      'Sigmund Freud rüya yorumu',
+      'Bilinçaltı sembolizm',
+      'Arketipler ve kollektif bilinçdışı',
+      'Rüya psikolojisi'
+    ],
+    sameAs: [
+      'https://www.turkiyehesaplama.com'
+    ]
+  };
+
+  const collectionPageSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'Rüya Tabirleri Sözlüğü — Ana Sayfa',
+    description: `${symbols.length} rüya sembolünü İslami, psikolojik ve genel yorumlarla sunan Türkiye'nin en kapsamlı rüya tabiri koleksiyonu.`,
+    url: 'https://www.ruyasozlugunuz.com',
+    inLanguage: 'tr',
+    numberOfItems: symbols.length,
+    provider: {
+      '@type': 'Organization',
+      name: 'Rüya Tabirleri Sözlüğü',
+      url: 'https://www.ruyasozlugunuz.com'
+    },
+    about: [
+      { '@type': 'Thing', name: 'Rüya Tabiri' },
+      { '@type': 'Thing', name: 'İslami Rüya Yorumu' },
+      { '@type': 'Thing', name: 'Psikolojik Rüya Analizi' }
+    ],
+    mainEntity: {
+      '@type': 'ItemList',
+      numberOfItems: symbols.length,
+      itemListElement: popularSymbols.slice(0, 8).map((s, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        url: `https://www.ruyasozlugunuz.com/ruyada-${s.slug}-gormek`,
+        name: s.title
+      }))
+    }
   };
 
   return (
     <div className="flex flex-col gap-16 pb-12">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionPageSchema) }} />
       
       <section className="text-center pt-12 pb-8 px-4 flex flex-col items-center justify-center min-h-[50vh] relative">
         <div className={`absolute inset-0 rounded-3xl blur-3xl -z-10 ${specialDay.theme === 'ramadan' ? 'bg-amber-900/20' : 'bg-mystic-900/20'}`} />

@@ -20,13 +20,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     ? `https://www.ruyasozlugunuz.com/images/symbols/${symbol.slug}.png`
     : 'https://www.ruyasozlugunuz.com/og-image.jpg';
 
+  const metaDescription = symbol.shortDescription && symbol.shortDescription.length > 30
+    ? symbol.shortDescription
+    : `Rüyada ${symbol.title.replace(/^Rüyada\s+/i,'').replace(/\s*[-–—].*$/,'')} görmek ne anlama gelir? İslami, Diyanet ve psikolojik yorum.`;
+
   return {
     title: symbol.title,
-    description: symbol.shortDescription,
-    alternates: { canonical: `/ruyada-${symbol.slug}-gormek` },
+    description: metaDescription,
+    alternates: { canonical: `https://www.ruyasozlugunuz.com/ruyada-${symbol.slug}-gormek` },
     openGraph: {
       title: `${symbol.title} | Rüya Tabirleri Sözlüğü`,
-      description: symbol.shortDescription,
+      description: metaDescription,
       url,
       type: 'article',
       siteName: 'Rüya Tabirleri Sözlüğü',
@@ -42,7 +46,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     twitter: {
       card: 'summary_large_image',
       title: `${symbol.title} | Rüya Tabirleri Sözlüğü`,
-      description: symbol.shortDescription,
+      description: metaDescription,
       images: [imageUrl],
     }
   };
@@ -81,6 +85,13 @@ export default function SymbolPage({ params }: Props) {
     ]
   };
 
+  // Clean symbol name for schema use
+  const cleanSymbolName = symbol.title
+    .replace(/^Rüyada\s+/i, '')
+    .replace(/\s*[-–—]\s*İslami.*$/i, '')
+    .replace(/\s+Görmek.*$/i, '')
+    .trim();
+
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -89,6 +100,7 @@ export default function SymbolPage({ params }: Props) {
     image: 'https://www.ruyasozlugunuz.com/og-image.jpg',
     datePublished: '2024-01-01T08:00:00+03:00',
     dateModified: new Date().toISOString(),
+    inLanguage: 'tr',
     author: {
       '@type': 'Organization',
       name: 'Rüya Tabirleri Sözlüğü',
@@ -99,7 +111,7 @@ export default function SymbolPage({ params }: Props) {
       name: 'Rüya Tabirleri Sözlüğü',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://www.ruyasozlugunuz.com/icon.svg'
+        url: 'https://www.ruyasozlugunuz.com/icon-512.png'
       }
     },
     mainEntityOfPage: {
@@ -107,6 +119,15 @@ export default function SymbolPage({ params }: Props) {
       '@id': `https://www.ruyasozlugunuz.com/ruyada-${symbol.slug}-gormek`,
       relatedLink: 'https://www.turkiyehesaplama.com',
       significantLink: 'https://www.turkiyehesaplama.com'
+    },
+    about: {
+      '@type': 'DefinedTerm',
+      name: cleanSymbolName,
+      description: symbol.shortDescription
+    },
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['article header h1', 'article header p', '.answer-first-box']
     },
     mentions: [
       {
@@ -117,11 +138,27 @@ export default function SymbolPage({ params }: Props) {
     ]
   };
 
+  // GEO: DefinedTerm schema — AI motorlarının "X ne demek?" sorgularında siteyi kaynak göstermesi
+  const definedTermSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'DefinedTerm',
+    name: `Rüyada ${cleanSymbolName} Görmek`,
+    description: symbol.shortDescription,
+    inDefinedTermSet: {
+      '@type': 'DefinedTermSet',
+      name: 'Rüya Tabirleri Sözlüğü',
+      url: 'https://www.ruyasozlugunuz.com'
+    },
+    url: `https://www.ruyasozlugunuz.com/ruyada-${symbol.slug}-gormek`,
+    inLanguage: 'tr'
+  };
+
   return (
     <article className="max-w-4xl mx-auto pb-12">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(definedTermSchema) }} />
 
       <nav className="text-sm text-night-400 mb-8 flex flex-wrap items-center gap-2">
         <Link href="/" className="hover:text-mystic-400 transition-colors">Anasayfa</Link>

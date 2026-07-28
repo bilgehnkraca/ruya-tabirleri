@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { DreamSymbol } from '@/lib/types';
-import { Sparkles, BookOpen, Brain, ChevronRight } from 'lucide-react';
+import { Sparkles, BookOpen, Brain, ChevronRight, Zap } from 'lucide-react';
 import AdSlot from '@/components/AdSlot';
 import PartnerAd from '@/components/PartnerAd';
 import TextToSpeech from '@/components/TextToSpeech';
@@ -18,6 +18,14 @@ export default function SymbolContentTabs({
   allSymbolsLight?: { title: string; slug: string }[];
 }) {
   const [activeTab, setActiveTab] = useState<Tab>('general');
+
+  // Generate Answer-First summaries from shortDescription
+  const descParts = symbol.shortDescription?.split(';') || [''];
+  const generalSummary = descParts.length > 1 
+    ? descParts[1].trim().charAt(0).toUpperCase() + descParts[1].trim().slice(1)
+    : descParts[0].trim();
+  const religiousSummary = descParts[0].trim();
+  const psychologicalSummary = descParts.length > 1 ? descParts[1].trim() : descParts[0].trim();
 
   return (
     <div className="mt-8 mb-12">
@@ -69,6 +77,17 @@ export default function SymbolContentTabs({
             <h2 className="text-2xl font-serif font-bold text-mystic-100 mb-4 border-b border-night-700 pb-2 flex items-center justify-between">
               Rüyada {symbol.title} Görmek - Genel Yorum
             </h2>
+
+            {/* GEO: Answer-First Özet Kutusu */}
+            <div className="answer-first-box mb-6 p-4 rounded-xl bg-gradient-to-r from-mystic-900/40 via-night-800/60 to-mystic-900/40 border border-mystic-500/30 shadow-lg shadow-mystic-900/20">
+              <div className="flex items-start gap-3">
+                <Zap className="w-5 h-5 text-mystic-400 mt-0.5 flex-shrink-0" />
+                <p className="text-mystic-100 font-medium text-sm md:text-base leading-relaxed m-0">
+                  <strong>Özet:</strong> {generalSummary}
+                </p>
+              </div>
+            </div>
+
             <TextToSpeech text={symbol.content.generalMeaning} />
             <div className="text-night-200 leading-relaxed bg-night-800/30 p-6 rounded-2xl border-l-4 border-mystic-500 mb-8 whitespace-pre-wrap">
               <RichTextWithLinks text={symbol.content.generalMeaning} symbols={allSymbolsLight} currentSlug={symbol.slug} />
@@ -106,6 +125,17 @@ export default function SymbolContentTabs({
             <h2 className="text-2xl font-serif font-bold text-gold-400 mb-4 border-b border-night-700 pb-2 flex items-center gap-2">
               <BookOpen className="w-6 h-6" /> Rüyada {symbol.title} Görmek - İslami ve Diyanet Tabiri
             </h2>
+
+            {/* GEO: Answer-First Özet Kutusu — İslami */}
+            <div className="answer-first-box mb-6 p-4 rounded-xl bg-gradient-to-r from-amber-950/40 via-night-800/60 to-amber-950/40 border border-gold-500/30 shadow-lg shadow-amber-900/20">
+              <div className="flex items-start gap-3">
+                <span className="text-lg mt-0.5 flex-shrink-0">📖</span>
+                <p className="text-gold-100 font-medium text-sm md:text-base leading-relaxed m-0">
+                  <strong>İslami Özet:</strong> {religiousSummary}
+                </p>
+              </div>
+            </div>
+
             <TextToSpeech text={symbol.content.religiousMeaning} />
             <div className="text-night-200 leading-relaxed bg-night-800/30 p-6 rounded-2xl border-l-4 border-gold-500 text-lg whitespace-pre-wrap">
               <RichTextWithLinks text={symbol.content.religiousMeaning} symbols={allSymbolsLight} currentSlug={symbol.slug} />
@@ -137,6 +167,17 @@ export default function SymbolContentTabs({
             <h2 className="text-2xl font-serif font-bold text-blue-400 mb-4 border-b border-night-700 pb-2 flex items-center gap-2">
               <Brain className="w-6 h-6" /> Rüyada {symbol.title} Görmek - Psikolojik Analiz
             </h2>
+
+            {/* GEO: Answer-First Özet Kutusu — Psikolojik */}
+            <div className="answer-first-box mb-6 p-4 rounded-xl bg-gradient-to-r from-blue-950/40 via-night-800/60 to-blue-950/40 border border-blue-500/30 shadow-lg shadow-blue-900/20">
+              <div className="flex items-start gap-3">
+                <Brain className="w-5 h-5 text-blue-400 mt-0.5 flex-shrink-0" />
+                <p className="text-blue-100 font-medium text-sm md:text-base leading-relaxed m-0">
+                  <strong>Psikolojik Özet:</strong> {psychologicalSummary}
+                </p>
+              </div>
+            </div>
+
             <TextToSpeech text={symbol.content.psychologicalMeaning} />
             <div className="text-night-200 leading-relaxed bg-night-800/30 p-6 rounded-2xl border-l-4 border-blue-500 text-lg whitespace-pre-wrap">
               <RichTextWithLinks text={symbol.content.psychologicalMeaning} symbols={allSymbolsLight} currentSlug={symbol.slug} />

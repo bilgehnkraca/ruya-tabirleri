@@ -10,9 +10,36 @@ export default function AboutPage() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'Rüya Tabirleri',
-    url: 'https://ruyatabirleri.com',
-    description: "Türkiye'nin kapsamlı rüya tabirleri sözlüğü"
+    name: 'Rüya Tabirleri Sözlüğü',
+    alternateName: 'Rüya Sözlüğü',
+    url: 'https://www.ruyasozlugunuz.com',
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://www.ruyasozlugunuz.com/icon-512.png',
+      width: 512,
+      height: 512
+    },
+    description: "Türkiye'nin en kapsamlı rüya tabirleri sözlüğü. İbn-i Sirin, İmam Nablusi, Carl Jung ve Freud kaynaklarına dayanan 2000+ özgün rüya tabiri.",
+    foundingDate: '2024',
+    areaServed: {
+      '@type': 'Country',
+      name: 'Türkiye'
+    },
+    knowsAbout: [
+      'Rüya tabiri',
+      'İslami rüya yorumu',
+      'Diyanet rüya tabirleri',
+      'İbn-i Sirin rüya tabiri',
+      'İmam Nablusi rüya tabiri',
+      'Carl Jung rüya analizi',
+      'Sigmund Freud rüya yorumu',
+      'Bilinçaltı sembolizm',
+      'Arketipler ve kollektif bilinçdışı',
+      'Rüya psikolojisi'
+    ],
+    sameAs: [
+      'https://www.turkiyehesaplama.com'
+    ]
   };
 
   return (

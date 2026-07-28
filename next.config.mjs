@@ -16,6 +16,25 @@ const nextConfig = {
               style-src 'self' 'unsafe-inline';
               font-src 'self' data:;
             `.replace(/\s{2,}/g, ' ').trim()
+          },
+          {
+            // GEO: AI botlarına açık indeksleme izni
+            key: 'X-Robots-Tag',
+            value: 'index, follow, max-snippet:-1, max-image-preview:large'
+          }
+        ]
+      },
+      {
+        // GEO: llms.txt ve llms-full.txt için özel cache headers
+        source: '/llms:path*',
+        headers: [
+          {
+            key: 'Cache-Control',
+            value: 'public, max-age=86400, s-maxage=604800'
+          },
+          {
+            key: 'Content-Type',
+            value: 'text/plain; charset=utf-8'
           }
         ]
       }
