@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { DreamSymbol } from '@/lib/types';
-import { Sparkles, BookOpen, Brain, ChevronRight, Zap } from 'lucide-react';
+import { Sparkles, BookOpen, Brain, ChevronRight, Zap, Star } from 'lucide-react';
 import AdSlot from '@/components/AdSlot';
 import PartnerAd from '@/components/PartnerAd';
 import TextToSpeech from '@/components/TextToSpeech';
@@ -126,7 +126,7 @@ export default function SymbolContentTabs({
             {/* GEO: Answer-First Özet Kutusu — İslami */}
             <div className="answer-first-box mb-6 p-4 rounded-xl bg-gradient-to-r from-amber-950/40 via-night-800/60 to-amber-950/40 border border-gold-500/30 shadow-lg shadow-amber-900/20">
               <div className="flex items-start gap-3">
-                <span className="text-lg mt-0.5 flex-shrink-0">📖</span>
+                <BookOpen className="w-5 h-5 text-gold-400 mt-0.5 flex-shrink-0" />
                 <p className="text-gold-100 font-medium text-sm md:text-base leading-relaxed m-0">
                   <strong>İslami Özet:</strong> {religiousSummary}
                 </p>
@@ -142,7 +142,7 @@ export default function SymbolContentTabs({
 
             <div className="mt-4 p-5 rounded-2xl border border-gold-500/30 bg-gradient-to-r from-amber-950/40 to-night-900 text-night-200 text-sm flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 shadow-lg">
               <div className="flex items-center gap-3">
-                <span className="text-2xl">📿</span> 
+                <Star className="w-6 h-6 text-gold-400" /> 
                 <div>
                   <h4 className="font-bold text-gold-300 mb-0.5">Manevi Takvim ve Zekat Planlaması</h4>
                   <p className="text-night-300 m-0 text-xs sm:text-sm">
@@ -184,7 +184,7 @@ export default function SymbolContentTabs({
 
             <div className="mt-4 p-5 rounded-2xl border border-blue-500/30 bg-gradient-to-r from-blue-950/40 to-night-900 text-night-200 text-sm flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 shadow-lg">
               <div className="flex items-center gap-3">
-                <span className="text-2xl">🧠</span> 
+                <Brain className="w-6 h-6 text-blue-400" /> 
                 <div>
                   <h4 className="font-bold text-blue-300 mb-0.5">Analitik Yaşam ve Zaman Yönetimi</h4>
                   <p className="text-night-300 m-0 text-xs sm:text-sm">

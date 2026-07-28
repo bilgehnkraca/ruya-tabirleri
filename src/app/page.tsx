@@ -1,9 +1,31 @@
 import { getAllSymbols, getAllCategories } from '@/lib/data';
 import DetayliAramaClient from '@/components/DetayliAramaClient';
 import Link from 'next/link';
-import { Book, Compass, Moon, Sparkles, Star } from 'lucide-react';
+import { Compass, Moon, Sparkles, Star, Bird, Users, Trees, Map, Navigation, Box, Utensils, Heart, Activity, Shapes, Book } from 'lucide-react';
 import AdSlot from '@/components/AdSlot';
 import { checkIsIslamicSpecialDay } from '@/lib/islamicDates';
+import { Viewport } from 'next';
+
+export const viewport: Viewport = {
+  themeColor: "#080B14",
+  width: "device-width",
+  initialScale: 1,
+};
+
+const getCategoryIcon = (category: string) => {
+  const iconProps = { className: "text-mystic-300" };
+  if (['hayvanlar'].includes(category)) return <Bird {...iconProps} />;
+  if (['aile', 'insanlar', 'ailem'].includes(category)) return <Users {...iconProps} />;
+  if (['doga', 'tabiat'].includes(category)) return <Trees {...iconProps} />;
+  if (['mekanlar', 'yerler'].includes(category)) return <Map {...iconProps} />;
+  if (['yolculuk', 'hareket', 'eylemler'].includes(category)) return <Navigation {...iconProps} />;
+  if (['nesneler', 'esya'].includes(category)) return <Box {...iconProps} />;
+  if (['yiyecek', 'gida', 'mutfak'].includes(category)) return <Utensils {...iconProps} />;
+  if (['soyut-kavramlar', 'duygular'].includes(category)) return <Heart {...iconProps} />;
+  if (['beden', 'vucut', 'saglik'].includes(category)) return <Activity {...iconProps} />;
+  if (['olaylar', 'durumlar'].includes(category)) return <Shapes {...iconProps} />;
+  return <Book {...iconProps} />;
+};
 
 export default function Home() {
   const symbols = getAllSymbols();
@@ -205,7 +227,7 @@ export default function Home() {
               className="bg-night-800 border border-night-700 rounded-xl p-6 text-center hover:bg-mystic-900/50 hover:border-mystic-500/50 transition-all group"
             >
               <div className="w-12 h-12 rounded-full bg-night-700 mx-auto flex items-center justify-center mb-4 group-hover:bg-mystic-800 transition-colors">
-                <Book className="text-mystic-300" />
+                {getCategoryIcon(category)}
               </div>
               <h3 className="capitalize font-medium text-night-100">{category.replace('-', ' ')}</h3>
             </Link>

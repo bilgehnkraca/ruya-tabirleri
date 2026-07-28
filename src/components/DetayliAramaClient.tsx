@@ -50,24 +50,24 @@ const SYNONYM_MAP: Record<string, string[]> = {
 
 // Kategori filtre grupları
 const CATEGORY_FILTERS = [
-  { id: 'tumu', label: '🌟 Tüm Kategoriler' },
-  { id: 'hayvanlar', label: '🦁 Hayvanlar Alemi', match: ['hayvanlar', 'animals'] },
-  { id: 'aile-insan', label: '👨‍👩‍👧‍👦 Aile & İnsanlar', match: ['ailem', 'insanlar', 'family', 'people'] },
-  { id: 'doga-mekan', label: '🏔️ Doğa & Mekanlar', match: ['doga', 'mekanlar', 'nature', 'places'] },
-  { id: 'yol-eylem', label: '🚀 Yolculuk & Eylemler', match: ['yolculuk', 'eylemler', 'actions', 'travel'] },
-  { id: 'nesne-gida', label: '💎 Nesneler & Yiyecek', match: ['nesneler', 'yiyecek', 'items', 'food'] },
-  { id: 'manevi-beden', label: '🕌 Maneviyat & Beden', match: ['soyut-kavramlar', 'beden', 'spiritual', 'body'] },
+  { id: 'tumu', label: 'Tüm Kategoriler' },
+  { id: 'hayvanlar', label: 'Hayvanlar Alemi', match: ['hayvanlar', 'animals'] },
+  { id: 'aile-insan', label: 'Aile & İnsanlar', match: ['ailem', 'insanlar', 'family', 'people'] },
+  { id: 'doga-mekan', label: 'Doğa & Mekanlar', match: ['doga', 'mekanlar', 'nature', 'places'] },
+  { id: 'yol-eylem', label: 'Yolculuk & Eylemler', match: ['yolculuk', 'eylemler', 'actions', 'travel'] },
+  { id: 'nesne-gida', label: 'Nesneler & Yiyecek', match: ['nesneler', 'yiyecek', 'items', 'food'] },
+  { id: 'manevi-beden', label: 'Maneviyat & Beden', match: ['soyut-kavramlar', 'beden', 'spiritual', 'body'] },
 ];
 
 // Hızlı Kombinasyon Önerileri
 const QUICK_COMBINATIONS = [
-  { label: '🔥 Siyah Yılan + Altın', tags: ['siyah yılan', 'altın'] },
-  { label: '🌊 Denizde Yüzmek + Balık', tags: ['denizde yüzmek', 'balık'] },
-  { label: '⚡ Diş Kırılması + Kanama', tags: ['diş kırılması', 'kanama'] },
-  { label: '🕊️ Güvercin + Beyaz Ev', tags: ['güvercin', 'beyaz ev'] },
-  { label: '💰 Kağıt Para + Cüzdan', tags: ['kağıt para', 'cüzdan'] },
-  { label: '🌙 Kabe + Yağmur', tags: ['kabe', 'yağmur'] },
-  { label: '👨‍👩‍👧 Vefat Eden Anne + Sarılmak', tags: ['vefat eden anne', 'sarılmak'] },
+  { label: 'Siyah Yılan + Altın', tags: ['siyah yılan', 'altın'] },
+  { label: 'Denizde Yüzmek + Balık', tags: ['denizde yüzmek', 'balık'] },
+  { label: 'Diş Kırılması + Kanama', tags: ['diş kırılması', 'kanama'] },
+  { label: 'Güvercin + Beyaz Ev', tags: ['güvercin', 'beyaz ev'] },
+  { label: 'Kağıt Para + Cüzdan', tags: ['kağıt para', 'cüzdan'] },
+  { label: 'Kabe + Yağmur', tags: ['kabe', 'yağmur'] },
+  { label: 'Vefat Eden Anne + Sarılmak', tags: ['vefat eden anne', 'sarılmak'] },
 ];
 
 // Sembol başlığından 'Rüyada' ve 'Görmek' eklerini temizler
