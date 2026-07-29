@@ -1,5 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  experimental: {
+    outputFileTracingIncludes: {
+      '/sembol/[slug]': ['./content/symbols/**/*'],
+      '/sitemap/[__metadata_id__]': ['./content/symbols/**/*'],
+      '/kategoriler/[category]': ['./content/symbols/**/*'],
+      '/diyanet-islami-ruya-tabirleri': ['./content/symbols/**/*'],
+      '/a-z': ['./content/symbols/**/*'],
+      '/': ['./content/symbols/**/*']
+    },
+  },
   async headers() {
     return [
       {
