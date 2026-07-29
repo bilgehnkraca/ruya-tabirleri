@@ -60,11 +60,12 @@ export default function IslamicGuidePage() {
   // Sort symbols alphabetically and prepare light versions for the grid/search
   const lightSymbols = allSymbols
     .sort((a, b) => a.title.localeCompare(b.title, 'tr'))
+    .slice(0, 500)
     .map(sym => ({
       title: sym.title,
       slug: sym.slug,
       category: sym.category,
-      snippet: sym.shortDescription // VERY IMPORTANT: We use shortDescription to prevent Vercel oversized ISR page error (23.81 MB to <2 MB)
+      snippet: sym.shortDescription || ""
     }));
 
   const breadcrumbSchema = {
