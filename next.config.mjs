@@ -43,7 +43,15 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: '/ruyada-:slug-gormek',
+        // Regex ile slug içindeki tireleri de yakala:
+        // /ruyada-yilan-gormek → /sembol/yilan
+        // /ruyada-kara-yilan-gormek → /sembol/kara-yilan
+        source: '/ruyada-:slug([a-z0-9][a-z0-9-]*[a-z0-9])-gormek',
+        destination: '/sembol/:slug',
+      },
+      {
+        // Tek kelimeli slug'lar için (tire içermeyen)
+        source: '/ruyada-:slug([a-z0-9]+)-gormek',
         destination: '/sembol/:slug',
       },
     ];
