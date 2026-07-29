@@ -51,5 +51,10 @@
       }
     ]
   },
-  "relatedSymbols": ["aglamak", "kavga-etmek", "evlenmek", "aldatilmak"]
+  "relatedSymbols": [
+    "aglamak",
+    "kavga-etmek",
+    "evlenmek",
+    "aldatilmak"
+  ]
 }

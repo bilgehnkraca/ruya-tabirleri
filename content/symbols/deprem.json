@@ -51,5 +51,10 @@
       }
     ]
   },
-  "relatedSymbols": ["ev", "olum", "su", "yilan"]
+  "relatedSymbols": [
+    "ev",
+    "olum",
+    "su",
+    "yilan"
+  ]
 }
