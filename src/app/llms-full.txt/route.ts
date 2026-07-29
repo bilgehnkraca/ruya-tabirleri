@@ -79,7 +79,7 @@ export async function GET() {
         ? baseDesc.slice(0, 150).replace(/\s+\S*$/, '…')
         : '';
 
-      lines.push(`- [${cleanTitle}](https://www.ruyasozlugunuz.com/ruyada-${s.slug}-gormek): ${desc}`);
+      lines.push(`- [${cleanTitle}](https://www.ruyasozlugunuz.com/sembol/${s.slug}): ${desc}`);
     }
 
     lines.push('');

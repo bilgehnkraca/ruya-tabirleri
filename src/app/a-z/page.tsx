@@ -55,7 +55,7 @@ export default function AZIndexPage() {
             <h2 className="text-3xl font-serif font-bold text-mystic-500 mb-6 border-b border-night-700 pb-2">{letter}</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               {groupedSymbols[letter].map(symbol => (
-                <Link key={symbol.slug} href={`/ruyada-${symbol.slug}-gormek`} className="block p-4 rounded-xl bg-night-800/30 hover:bg-night-700 transition-colors border border-transparent hover:border-mystic-500/30">
+                <Link key={symbol.slug} href={`/sembol/${symbol.slug}`} className="block p-4 rounded-xl bg-night-800/30 hover:bg-night-700 transition-colors border border-transparent hover:border-mystic-500/30">
                   <div className="font-medium text-night-100">{symbol.title}</div>
                 </Link>
               ))}

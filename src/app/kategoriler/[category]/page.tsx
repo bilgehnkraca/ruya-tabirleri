@@ -78,7 +78,7 @@ export default function CategoryPage({ params }: Props) {
       itemListElement: symbols.map((symbol, index) => ({
         '@type': 'ListItem',
         position: index + 1,
-        url: `https://www.ruyasozlugunuz.com/ruyada-${symbol.slug}-gormek`,
+        url: `https://www.ruyasozlugunuz.com/sembol/${symbol.slug}`,
         name: symbol.title
       }))
     }
@@ -105,7 +105,7 @@ export default function CategoryPage({ params }: Props) {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {symbols.map(symbol => (
-          <Link key={symbol.slug} href={`/ruyada-${symbol.slug}-gormek`} className="symbol-card group flex flex-col h-full">
+          <Link key={symbol.slug} href={`/sembol/${symbol.slug}`} className="symbol-card group flex flex-col h-full">
             <h3 className="text-xl font-semibold text-mystic-100 mb-3 group-hover:text-mystic-400 transition-colors">{symbol.title}</h3>
             <p className="text-night-300 text-sm flex-grow line-clamp-3">{symbol.shortDescription}</p>
           </Link>

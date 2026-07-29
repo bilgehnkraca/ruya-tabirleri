@@ -575,7 +575,7 @@ export default function DetayliAramaClient() {
                 {autocompleteSuggestions.map((suggestion) => (
                   <li key={suggestion.slug}>
                     <button
-                      onClick={() => router.push(`/ruyada-${suggestion.slug}-gormek`)}
+                      onClick={() => router.push(`/sembol/${suggestion.slug}`)}
                       className="w-full text-left px-5 py-4 hover:bg-mystic-900/40 flex items-center justify-between group transition-colors"
                     >
                       <div className="flex items-center gap-3">
@@ -752,7 +752,7 @@ export default function DetayliAramaClient() {
                   </p>
                   
                   <Link 
-                    href={`/ruyada-${item.slug}-gormek`}
+                    href={`/sembol/${item.slug}`}
                     className="inline-flex items-center gap-2 bg-gradient-to-r from-mystic-700 to-mystic-600 hover:from-mystic-600 hover:to-mystic-500 text-white px-5 py-2.5 rounded-xl font-medium text-sm transition-all shadow-md hover:shadow-mystic-500/25 hover:scale-[1.01]"
                   >
                     <span>Kapsamlı Tabiri ve SSS Oku</span> 

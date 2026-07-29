@@ -120,7 +120,7 @@ export default function Home() {
       itemListElement: popularSymbols.slice(0, 8).map((s, i) => ({
         '@type': 'ListItem',
         position: i + 1,
-        url: `https://www.ruyasozlugunuz.com/ruyada-${s.slug}-gormek`,
+        url: `https://www.ruyasozlugunuz.com/sembol/${s.slug}`,
         name: s.title
       }))
     }
@@ -176,7 +176,7 @@ export default function Home() {
             {religiousSymbols.map(symbol => (
               <Link 
                 key={symbol.slug} 
-                href={`/ruyada-${symbol.slug}-gormek`}
+                href={`/sembol/${symbol.slug}`}
                 className="bg-gradient-to-br from-amber-900/20 to-night-800 border border-amber-900/30 rounded-2xl p-6 group hover:border-amber-500/50 transition-all"
               >
                 <h3 className="text-xl font-semibold text-amber-100 mb-3 group-hover:text-amber-400 transition-colors">
@@ -200,7 +200,7 @@ export default function Home() {
           {popularSymbols.map(symbol => (
             <Link 
               key={symbol.slug} 
-              href={`/ruyada-${symbol.slug}-gormek`}
+              href={`/sembol/${symbol.slug}`}
               className="symbol-card group flex flex-col h-full"
             >
               <h3 className="text-xl font-semibold text-mystic-100 mb-3 group-hover:text-mystic-400 transition-colors">

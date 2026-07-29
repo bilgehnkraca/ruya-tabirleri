@@ -122,7 +122,7 @@ export default function RichTextWithLinks({ text, symbols, currentSlug }: RichTe
     parts.push(
       <Link
         key={`${symbolData.slug}-${match.index}`}
-        href={`/ruyada-${symbolData.slug}-gormek`}
+        href={`/sembol/${symbolData.slug}`}
         className="text-mystic-400 hover:text-mystic-300 font-semibold underline decoration-mystic-500/30 underline-offset-4 transition-colors"
         title={`Rüyada ${symbolData.displayText} Görmek Tabiri`}
       >

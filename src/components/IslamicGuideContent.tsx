@@ -301,7 +301,7 @@ export default function IslamicGuideContent({ symbols }: Props) {
             {filteredSymbols.map((sym) => (
               <Link
                 key={sym.slug}
-                href={`/ruyada-${sym.slug}-gormek`}
+                href={`/sembol/${sym.slug}`}
                 className="group bg-night-800/40 border border-night-700/80 rounded-2xl p-6 hover:bg-night-800/80 hover:border-gold-500/50 transition-all duration-300 flex flex-col justify-between"
               >
                 <div>

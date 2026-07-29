@@ -14,7 +14,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const symbol = getSymbolBySlug(params.slug);
   if (!symbol) return { title: 'Bulunamadı' };
 
-  const url = `https://www.ruyasozlugunuz.com/ruyada-${symbol.slug}-gormek`;
+  const url = `https://www.ruyasozlugunuz.com/sembol/${symbol.slug}`;
   const illustratedSlugs = ['yilan', 'altin', 'bebek', 'su'];
   const imageUrl = illustratedSlugs.includes(symbol.slug)
     ? `https://www.ruyasozlugunuz.com/images/symbols/${symbol.slug}.png`
@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: symbol.title,
     description: metaDescription,
-    alternates: { canonical: `https://www.ruyasozlugunuz.com/ruyada-${symbol.slug}-gormek` },
+    alternates: { canonical: `https://www.ruyasozlugunuz.com/sembol/${symbol.slug}` },
     openGraph: {
       title: `${symbol.title} | Rüya Tabirleri Sözlüğü`,
       description: metaDescription,
@@ -81,7 +81,7 @@ export default function SymbolPage({ params }: Props) {
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Anasayfa', item: 'https://www.ruyasozlugunuz.com' },
       { '@type': 'ListItem', position: 2, name: 'Kategoriler', item: 'https://www.ruyasozlugunuz.com/kategoriler' },
-      { '@type': 'ListItem', position: 3, name: symbol.title, item: `https://www.ruyasozlugunuz.com/ruyada-${symbol.slug}-gormek` }
+      { '@type': 'ListItem', position: 3, name: symbol.title, item: `https://www.ruyasozlugunuz.com/sembol/${symbol.slug}` }
     ]
   };
 
@@ -117,7 +117,7 @@ export default function SymbolPage({ params }: Props) {
     },
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://www.ruyasozlugunuz.com/ruyada-${symbol.slug}-gormek`,
+      '@id': `https://www.ruyasozlugunuz.com/sembol/${symbol.slug}`,
       relatedLink: 'https://www.turkiyehesaplama.com',
       significantLink: 'https://www.turkiyehesaplama.com'
     },
@@ -150,7 +150,7 @@ export default function SymbolPage({ params }: Props) {
       name: 'Rüya Tabirleri Sözlüğü',
       url: 'https://www.ruyasozlugunuz.com'
     },
-    url: `https://www.ruyasozlugunuz.com/ruyada-${symbol.slug}-gormek`,
+    url: `https://www.ruyasozlugunuz.com/sembol/${symbol.slug}`,
     inLanguage: 'tr'
   };
 
@@ -219,7 +219,7 @@ export default function SymbolPage({ params }: Props) {
           <h2 className="text-2xl font-serif font-bold text-white mb-6">Bunlar da ilginizi çekebilir</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {relatedSymbols.map(rs => (
-              <Link key={rs.slug} href={`/ruyada-${rs.slug}-gormek`} className="bg-night-800/50 border border-night-700 p-4 rounded-xl hover:bg-night-700 hover:border-mystic-500/50 transition-all">
+              <Link key={rs.slug} href={`/sembol/${rs.slug}`} className="bg-night-800/50 border border-night-700 p-4 rounded-xl hover:bg-night-700 hover:border-mystic-500/50 transition-all">
                 <div className="font-semibold text-mystic-100 mb-1">{rs.title}</div>
                 <div className="text-sm text-night-400 truncate">{rs.shortDescription}</div>
               </Link>

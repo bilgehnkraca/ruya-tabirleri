@@ -126,7 +126,7 @@ export default function IslamicGuidePage() {
       itemListElement: lightSymbols.slice(0, 50).map((symbol, index) => ({
         '@type': 'ListItem',
         position: index + 1,
-        url: `https://www.ruyasozlugunuz.com/ruyada-${symbol.slug}-gormek`,
+        url: `https://www.ruyasozlugunuz.com/sembol/${symbol.slug}`,
         name: symbol.title
       }))
     }
