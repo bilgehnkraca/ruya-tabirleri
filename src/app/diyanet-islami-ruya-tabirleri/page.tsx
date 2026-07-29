@@ -64,7 +64,7 @@ export default function IslamicGuidePage() {
       title: sym.title,
       slug: sym.slug,
       category: sym.category,
-      snippet: sym.content.religiousMeaning || sym.shortDescription
+      snippet: sym.shortDescription // VERY IMPORTANT: We use shortDescription to prevent Vercel oversized ISR page error (23.81 MB to <2 MB)
     }));
 
   const breadcrumbSchema = {
