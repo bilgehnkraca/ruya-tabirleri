@@ -54,6 +54,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
       },
     ],
-    sitemap: 'https://www.ruyasozlugunuz.com/sitemap.xml',
+    sitemap: 'https://www.ruyasozlugunuz.com/sitemap-index.xml',
   };
 }
