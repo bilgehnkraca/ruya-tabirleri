@@ -8,6 +8,10 @@ export default function robots(): MetadataRoute.Robots {
         allow: '/',
         disallow: ['/api/', '/_next/'],
       },
+      {
+        userAgent: 'YandexBot',
+        allow: '/',
+      },
       // AI Search Engine Bots — Explicit Allow for GEO
       {
         userAgent: 'GPTBot',
