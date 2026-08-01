@@ -68,47 +68,6 @@ export default function ContactPage() {
           </div>
         </div>
 
-        <div className="bg-night-800/50 p-8 rounded-2xl border border-night-700/50">
-          <h3 className="text-xl font-bold text-white mb-6">İletişim Formu</h3>
-          <form className="space-y-4">
-            <div>
-              <label htmlFor="name" className="block text-sm font-medium text-night-300 mb-1">Adınız Soyadınız</label>
-              <input 
-                type="text" 
-                id="name" 
-                className="w-full bg-night-900 border border-night-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-mystic-500 focus:ring-1 focus:ring-mystic-500 transition-colors"
-                placeholder="Örn: Ahmet Yılmaz"
-              />
-            </div>
-            <div>
-              <label htmlFor="email" className="block text-sm font-medium text-night-300 mb-1">E-Posta Adresiniz</label>
-              <input 
-                type="email" 
-                id="email" 
-                className="w-full bg-night-900 border border-night-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-mystic-500 focus:ring-1 focus:ring-mystic-500 transition-colors"
-                placeholder="ornek@email.com"
-              />
-            </div>
-            <div>
-              <label htmlFor="message" className="block text-sm font-medium text-night-300 mb-1">Mesajınız</label>
-              <textarea 
-                id="message" 
-                rows={5}
-                className="w-full bg-night-900 border border-night-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-mystic-500 focus:ring-1 focus:ring-mystic-500 transition-colors resize-none"
-                placeholder="Mesajınızı buraya yazın..."
-              ></textarea>
-            </div>
-            <button 
-              type="button"
-              className="w-full bg-mystic-600 hover:bg-mystic-500 text-white font-semibold py-3 px-6 rounded-lg transition-colors"
-            >
-              Mesajı Gönder
-            </button>
-            <p className="text-xs text-night-400 text-center mt-4">
-              Bu form şimdilik gösterim amaçlıdır. Lütfen bize e-posta adresi üzerinden ulaşın.
-            </p>
-          </form>
-        </div>
       </div>
     </article>
   );
