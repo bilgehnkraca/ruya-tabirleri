@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node scripts/generate-slug-index.js && next dev",
+    "prebuild": "node scripts/generate-slug-index.js",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

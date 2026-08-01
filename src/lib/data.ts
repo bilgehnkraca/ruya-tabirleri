@@ -4,121 +4,81 @@ import { cache } from 'react';
 import { DreamSymbol } from './types';
 
 const symbolsBaseDir = path.join(process.cwd(), 'content', 'symbols');
+const indexFilePath = path.join(symbolsBaseDir, 'slug-index.json');
+const lightFilePath = path.join(symbolsBaseDir, 'symbols-light.json');
+const searchableFilePath = path.join(symbolsBaseDir, 'searchable-symbols.json');
 
-// In-memory cache to prevent re-reading and re-parsing 65+ JSON files thousands of times during SSG build
-let cachedSymbols: DreamSymbol[] | null = null;
-
-export function getAllSymbols(): DreamSymbol[] {
-  if (cachedSymbols) {
-    return cachedSymbols;
-  }
-
-  if (!fs.existsSync(symbolsBaseDir)) {
-    return [];
-  }
-  
-  const symbols: DreamSymbol[] = [];
-  
-  // 1. Root dizindeki .json dosyalarını taranması (örn: symbols-2.json, symbols-3.json, long-tail vs.)
-  const rootFiles = fs.readdirSync(symbolsBaseDir, { withFileTypes: true })
-    .filter(dirent => !dirent.isDirectory() && dirent.name.endsWith('.json'))
-    .map(dirent => path.join(symbolsBaseDir, dirent.name));
-
-  // 2. Kategori alt klasörlerindeki .json dosyalarının taranması
-  const subDirs = fs.readdirSync(symbolsBaseDir, { withFileTypes: true })
-    .filter(dirent => dirent.isDirectory())
-    .map(dirent => path.join(symbolsBaseDir, dirent.name));
-
-  const allJsonFiles = [...rootFiles];
-  for (const dir of subDirs) {
-    const files = fs.readdirSync(dir)
-      .filter(f => f.endsWith('.json'))
-      .map(f => path.join(dir, f));
-    allJsonFiles.push(...files);
-  }
-
-  for (const filePath of allJsonFiles) {
-    try {
-      const fileContent = fs.readFileSync(filePath, 'utf-8');
-      const parsed = JSON.parse(fileContent);
-      if (Array.isArray(parsed)) {
-        symbols.push(...(parsed as DreamSymbol[]));
-      } else if (parsed && typeof parsed === 'object' && parsed.slug) {
-        symbols.push(parsed as DreamSymbol);
-      }
-    } catch (e) {
-      console.error(`Error parsing JSON for file ${filePath}`, e);
-    }
-  }
-  
-  const uniqueSymbolsMap = new Map<string, DreamSymbol>();
-  for (const sym of symbols) {
-    if (sym && sym.slug && !uniqueSymbolsMap.has(sym.slug)) {
-      uniqueSymbolsMap.set(sym.slug, sym);
-    }
-  }
-  
-  cachedSymbols = Array.from(uniqueSymbolsMap.values());
-  return cachedSymbols;
-}
+let cachedSlugMap: Record<string, string> | null = null;
+let cachedLightSymbols: { title: string; slug: string }[] | null = null;
+let cachedSearchableSymbols: DreamSymbol[] | null = null;
 
 export const getSymbolBySlug = cache((slug: string): DreamSymbol | undefined => {
-  const symbols = getAllSymbols();
-  return symbols.find((s) => s.slug === slug);
+  if (!cachedSlugMap) {
+    if (fs.existsSync(indexFilePath)) {
+      cachedSlugMap = JSON.parse(fs.readFileSync(indexFilePath, 'utf-8'));
+    } else {
+      return undefined;
+    }
+  }
+
+  const relativePath = cachedSlugMap?.[slug];
+  if (!relativePath) return undefined;
+
+  const fullPath = path.join(symbolsBaseDir, relativePath);
+  try {
+    const fileContent = fs.readFileSync(fullPath, 'utf-8');
+    const parsed = JSON.parse(fileContent);
+    if (Array.isArray(parsed)) {
+      return parsed.find((s: DreamSymbol) => s.slug === slug);
+    }
+    if (parsed.slug === slug) return parsed;
+  } catch (e) {
+    console.error(`Error reading symbol ${slug} from ${fullPath}:`, e);
+  }
+  return undefined;
 });
 
+export function getAllSymbols(): DreamSymbol[] {
+  // Returns searchable symbols which contain title, slug, category, shortDescription, 
+  // and truncated content (generalMeaning, religiousMeaning, psychologicalMeaning).
+  // This is safe to use for listings, sitemaps, and search, but NOT for full page renders.
+  return getSearchableSymbols();
+}
+
 export function getSymbolsByCategory(category: string): DreamSymbol[] {
-  const symbols = getAllSymbols();
-  return symbols.filter((s) => s.category === category);
+  const allSearchable = getSearchableSymbols();
+  return allSearchable.filter((s) => s.category === category);
 }
 
 export function getAllCategories(): string[] {
-  const symbols = getAllSymbols();
-  const categories = new Set(symbols.map(s => s.category));
+  const allSearchable = getSearchableSymbols();
+  const categories = new Set(allSearchable.map(s => s.category));
   return Array.from(categories);
 }
 
-let cachedSymbolsLight: { title: string; slug: string }[] | null = null;
-
 export function getCachedSymbolsLight(): { title: string; slug: string }[] {
-  if (cachedSymbolsLight) {
-    return cachedSymbolsLight;
+  if (!cachedLightSymbols) {
+    if (fs.existsSync(lightFilePath)) {
+      const rawLight = JSON.parse(fs.readFileSync(lightFilePath, 'utf-8'));
+      // Only link to concise symbols (length <= 35 chars)
+      cachedLightSymbols = rawLight
+        .filter((s: any) => s.title && s.title.length >= 3 && s.title.length <= 35)
+        .map((s: any) => ({ title: s.title, slug: s.slug }))
+        .sort((a: any, b: any) => b.title.length - a.title.length);
+    } else {
+      return [];
+    }
   }
-  const symbols = getAllSymbols();
-  // Only link to concise symbols (length <= 35 chars) to prevent regex explosion and avoid linking whole long-tail sentences
-  cachedSymbolsLight = symbols
-    .map((s) => ({ title: s.title, slug: s.slug }))
-    .filter((s) => s.title.length >= 3 && s.title.length <= 35)
-    .sort((a, b) => b.title.length - a.title.length);
-  return cachedSymbolsLight;
+  return cachedLightSymbols!;
 }
 
-let cachedSearchableSymbols: DreamSymbol[] | null = null;
-
 export function getSearchableSymbols(): DreamSymbol[] {
-  if (cachedSearchableSymbols) {
-    return cachedSearchableSymbols;
+  if (!cachedSearchableSymbols) {
+    if (fs.existsSync(searchableFilePath)) {
+      cachedSearchableSymbols = JSON.parse(fs.readFileSync(searchableFilePath, 'utf-8'));
+    } else {
+      return [];
+    }
   }
-  const symbols = getAllSymbols();
-  // Strip out heavy paragraphs (introduction, faqs, relatedSymbols) and truncate body texts to what DetayliAramaClient actually uses (AI synthesis & search snippets)
-  // This reduces the serialized JSON payload size from 22.17 MB down to ~4 MB, totally preventing Vercel's 19.07 MB ISR page size limit error!
-  cachedSearchableSymbols = symbols.map((s) => ({
-    slug: s.slug,
-    title: s.title,
-    category: s.category,
-    shortDescription: s.shortDescription,
-    content: {
-      introduction: "",
-      generalMeaning: s.content?.generalMeaning ? s.content.generalMeaning.slice(0, 300) : "",
-      variations: (s.content?.variations || []).map((v) => ({
-        title: v.title,
-        content: v.content ? v.content.slice(0, 150) : ""
-      })),
-      religiousMeaning: s.content?.religiousMeaning ? s.content.religiousMeaning.slice(0, 450) : "",
-      psychologicalMeaning: s.content?.psychologicalMeaning ? s.content.psychologicalMeaning.slice(0, 450) : "",
-      faqs: []
-    },
-    relatedSymbols: []
-  }));
-  return cachedSearchableSymbols;
+  return cachedSearchableSymbols!;
 }
