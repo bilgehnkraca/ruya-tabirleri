@@ -39,3 +39,7 @@ next-env.d.ts
 content/symbols/slug-index.json
 content/symbols/symbols-light.json
 content/symbols/searchable-symbols.json
+
+# google indexing api
+service-account.json
+scripts/indexing-state.json
