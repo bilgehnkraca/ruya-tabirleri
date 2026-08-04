@@ -1,6 +1,7 @@
 import { getAllSymbols } from '@/lib/data';
 import { Metadata } from 'next';
 import Link from 'next/link';
+import { BookA } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: 'A-Z Rüya Tabirleri Sözlüğü',
@@ -17,16 +18,20 @@ export const metadata: Metadata = {
 
 export default function AZIndexPage() {
   const symbols = getAllSymbols();
-  const sortedSymbols = [...symbols].sort((a, b) => a.title.localeCompare(b.title, 'tr'));
-  const groupedSymbols: Record<string, typeof symbols> = {};
+  const letters = new Set<string>();
   
-  sortedSymbols.forEach(symbol => {
-    const firstLetter = symbol.title.replace('Rüyada ', '').charAt(0).toUpperCase();
-    if (!groupedSymbols[firstLetter]) groupedSymbols[firstLetter] = [];
-    groupedSymbols[firstLetter].push(symbol);
+  symbols.forEach(symbol => {
+    const titleWithoutPrefix = symbol.title.replace(/^Rüyada\s+/i, '').trim();
+    if (titleWithoutPrefix) {
+      const firstLetter = titleWithoutPrefix.charAt(0).toUpperCase();
+      // Yalnızca standart harfleri al
+      if (firstLetter.match(/[A-ZÇĞİÖŞÜ]/i)) {
+        letters.add(firstLetter);
+      }
+    }
   });
 
-  const alphabet = Object.keys(groupedSymbols).sort((a, b) => a.localeCompare(b, 'tr'));
+  const alphabet = Array.from(letters).sort((a, b) => a.localeCompare(b, 'tr'));
 
   return (
     <div className="max-w-5xl mx-auto pb-12">
@@ -36,31 +41,23 @@ export default function AZIndexPage() {
         <span className="text-night-200">A-Z İndeks</span>
       </nav>
 
-      <header className="mb-12 text-center">
+      <header className="mb-12 flex flex-col items-center text-center">
+        <div className="w-16 h-16 rounded-full bg-mystic-900/50 flex items-center justify-center mb-6">
+          <BookA className="text-mystic-400 w-8 h-8" />
+        </div>
         <h1 className="text-4xl font-serif font-bold text-white mb-4">A-Z Rüya İndeksi</h1>
-        <p className="text-night-300">Sözlüğümüzde yer alan tüm rüya sembollerini alfabetik olarak aşağıda bulabilirsiniz.</p>
+        <p className="text-night-300">Aramak istediğiniz rüyanın baş harfini seçerek sembollere ulaşabilirsiniz.</p>
       </header>
 
-      <div className="flex flex-wrap justify-center gap-2 mb-12">
+      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-4 mb-12">
         {alphabet.map(letter => (
-          <a key={letter} href={`#letter-${letter}`} className="w-10 h-10 rounded-lg bg-night-800 border border-night-700 flex items-center justify-center text-mystic-300 hover:bg-mystic-900 hover:text-white transition-colors">
+          <Link 
+            key={letter} 
+            href={`/a-z/${encodeURIComponent(letter.toLowerCase())}`} 
+            className="h-16 rounded-xl bg-night-800/50 border border-night-700 flex items-center justify-center text-2xl font-serif text-mystic-300 hover:bg-mystic-900 hover:border-mystic-500 hover:text-white hover:scale-105 transition-all shadow-lg"
+          >
             {letter}
-          </a>
-        ))}
-      </div>
-
-      <div className="space-y-12">
-        {alphabet.map(letter => (
-          <section key={letter} id={`letter-${letter}`} className="scroll-mt-24">
-            <h2 className="text-3xl font-serif font-bold text-mystic-500 mb-6 border-b border-night-700 pb-2">{letter}</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-              {groupedSymbols[letter].map(symbol => (
-                <Link key={symbol.slug} href={`/sembol/${symbol.slug}`} className="block p-4 rounded-xl bg-night-800/30 hover:bg-night-700 transition-colors border border-transparent hover:border-mystic-500/30">
-                  <div className="font-medium text-night-100">{symbol.title}</div>
-                </Link>
-              ))}
-            </div>
-          </section>
+          </Link>
         ))}
       </div>
     </div>

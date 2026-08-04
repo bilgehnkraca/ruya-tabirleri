@@ -64,11 +64,7 @@ const nextConfig = {
         source: '/ruyada-:slug([a-z0-9]+)-gormek',
         destination: '/sembol/:slug',
       },
-      {
-        // Standart sitemap.xml isteğini bizim oluşturduğumuz index'e yönlendir
-        source: '/sitemap.xml',
-        destination: '/sitemap-index.xml',
-      },
+
     ];
   }
 };

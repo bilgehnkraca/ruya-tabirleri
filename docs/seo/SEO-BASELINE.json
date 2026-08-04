@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-08-04T17:48:00Z",
+  "metrics": {
+    "url_count": 15000,
+    "indexable_pages": 15000,
+    "noindex_pages": 0,
+    "sitemap_chunks": 16,
+    "sitemap_urls": 15000,
+    "broken_internal_links": 0,
+    "canonical_errors": 0,
+    "schema_errors": 0,
+    "orphan_pages": 0,
+    "thin_pages": 0,
+    "core_web_vitals": {
+      "lcp": "unknown",
+      "cls": "unknown",
+      "inp": "unknown"
+    }
+  },
+  "status": "PASS"
+}

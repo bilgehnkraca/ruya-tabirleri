@@ -7,6 +7,8 @@ import AdSlot from '@/components/AdSlot';
 import PartnerAd from '@/components/PartnerAd';
 import TextToSpeech from '@/components/TextToSpeech';
 import RichTextWithLinks from '@/components/RichTextWithLinks';
+import { sanitizeBoilerplate } from '@/lib/contentSanitizer';
+import { sanitizeTitle } from '@/lib/titleSanitizer';
 
 type Tab = 'general' | 'religious' | 'psychological';
 
@@ -19,10 +21,16 @@ export default function SymbolContentTabs({
 }) {
   const [activeTab, setActiveTab] = useState<Tab>('general');
 
+  const cleanTitle = sanitizeTitle(symbol.title);
+
+  const cleanGeneral = sanitizeBoilerplate(symbol.content.generalMeaning);
+  const cleanReligious = sanitizeBoilerplate(symbol.content.religiousMeaning);
+  const cleanPsychological = sanitizeBoilerplate(symbol.content.psychologicalMeaning);
+
   // Generate Answer-First summaries from content to ensure uniqueness across tabs
-  const generalSummary = symbol.content.generalMeaning?.split(/[.!?]/)[0]?.trim() || symbol.shortDescription;
-  const religiousSummary = symbol.content.religiousMeaning?.split(/[.!?]/)[0]?.trim() || symbol.shortDescription;
-  const psychologicalSummary = symbol.content.psychologicalMeaning?.split(/[.!?]/)[0]?.trim() || symbol.shortDescription;
+  const generalSummary = cleanGeneral?.split(/[.!?]/)[0]?.trim() || symbol.shortDescription;
+  const religiousSummary = cleanReligious?.split(/[.!?]/)[0]?.trim() || symbol.shortDescription;
+  const psychologicalSummary = cleanPsychological?.split(/[.!?]/)[0]?.trim() || symbol.shortDescription;
 
   return (
     <div className="mt-8 mb-12">
@@ -72,7 +80,7 @@ export default function SymbolContentTabs({
         {activeTab === 'general' && (
           <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
             <h2 className="text-2xl font-serif font-bold text-mystic-100 mb-4 border-b border-night-700 pb-2 flex items-center justify-between">
-              Rüyada {symbol.title} Görmek - Genel Yorum
+              {cleanTitle} - Genel Yorum
             </h2>
 
             {/* GEO: Answer-First Özet Kutusu */}
@@ -85,9 +93,9 @@ export default function SymbolContentTabs({
               </div>
             </div>
 
-            <TextToSpeech text={symbol.content.generalMeaning} />
+            <TextToSpeech text={cleanGeneral} />
             <div className="text-night-200 leading-relaxed bg-night-800/30 p-6 rounded-2xl border-l-4 border-mystic-500 mb-8 whitespace-pre-wrap">
-              <RichTextWithLinks text={symbol.content.generalMeaning} symbols={allSymbolsLight} currentSlug={symbol.slug} />
+              <RichTextWithLinks text={cleanGeneral} symbols={allSymbolsLight} currentSlug={symbol.slug} />
             </div>
 
             <PartnerAd slug={symbol.slug} className="my-8" />
@@ -120,7 +128,7 @@ export default function SymbolContentTabs({
         {activeTab === 'religious' && (
           <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
             <h2 className="text-2xl font-serif font-bold text-gold-400 mb-4 border-b border-night-700 pb-2 flex items-center gap-2">
-              <BookOpen className="w-6 h-6" /> Rüyada {symbol.title} Görmek - İslami ve Diyanet Tabiri
+              <BookOpen className="w-6 h-6" /> {cleanTitle} - İslami ve Diyanet Tabiri
             </h2>
 
             {/* GEO: Answer-First Özet Kutusu — İslami */}
@@ -133,9 +141,9 @@ export default function SymbolContentTabs({
               </div>
             </div>
 
-            <TextToSpeech text={symbol.content.religiousMeaning} />
+            <TextToSpeech text={cleanReligious} />
             <div className="text-night-200 leading-relaxed bg-night-800/30 p-6 rounded-2xl border-l-4 border-gold-500 text-lg whitespace-pre-wrap">
-              <RichTextWithLinks text={symbol.content.religiousMeaning} symbols={allSymbolsLight} currentSlug={symbol.slug} />
+              <RichTextWithLinks text={cleanReligious} symbols={allSymbolsLight} currentSlug={symbol.slug} />
             </div>
             
             <PartnerAd slug={symbol.slug} className="my-8" />
@@ -146,7 +154,7 @@ export default function SymbolContentTabs({
                 <div>
                   <h4 className="font-bold text-gold-300 mb-0.5">Manevi Takvim ve Zekat Planlaması</h4>
                   <p className="text-night-300 m-0 text-xs sm:text-sm">
-                    İbadet günlerinizi, zekat miktarınızı ve mübarek geceleri planlamak için <a href="https://www.turkiyehesaplama.com/dini-gunler-hesaplama" target="_blank" rel="noopener noreferrer dofollow" className="text-gold-400 hover:text-gold-300 font-bold underline decoration-gold-500/50 underline-offset-4">Türkiye Hesaplama Dini Günler ve Zekat Araçları</a> sisteminden ücretsiz yararlanabilirsiniz.
+                    İbadet günlerinizi, zekat miktarınızı ve mübarek geceleri planlamak için <a href="https://www.turkiyehesaplama.com/dini-gunler-hesaplama" target="_blank" rel="noopener noreferrer" className="text-gold-400 hover:text-gold-300 font-bold underline decoration-gold-500/50 underline-offset-4">Türkiye Hesaplama Dini Günler ve Zekat Araçları</a> sisteminden ücretsiz yararlanabilirsiniz.
                   </p>
                 </div>
               </div>
@@ -162,7 +170,7 @@ export default function SymbolContentTabs({
         {activeTab === 'psychological' && (
           <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
             <h2 className="text-2xl font-serif font-bold text-blue-400 mb-4 border-b border-night-700 pb-2 flex items-center gap-2">
-              <Brain className="w-6 h-6" /> Rüyada {symbol.title} Görmek - Psikolojik Analiz
+              <Brain className="w-6 h-6" /> {cleanTitle} - Psikolojik Analiz
             </h2>
 
             {/* GEO: Answer-First Özet Kutusu — Psikolojik */}
@@ -175,9 +183,9 @@ export default function SymbolContentTabs({
               </div>
             </div>
 
-            <TextToSpeech text={symbol.content.psychologicalMeaning} />
+            <TextToSpeech text={cleanPsychological} />
             <div className="text-night-200 leading-relaxed bg-night-800/30 p-6 rounded-2xl border-l-4 border-blue-500 text-lg whitespace-pre-wrap">
-              <RichTextWithLinks text={symbol.content.psychologicalMeaning} symbols={allSymbolsLight} currentSlug={symbol.slug} />
+              <RichTextWithLinks text={cleanPsychological} symbols={allSymbolsLight} currentSlug={symbol.slug} />
             </div>
             
             <PartnerAd slug={symbol.slug} className="my-8" />
@@ -188,7 +196,7 @@ export default function SymbolContentTabs({
                 <div>
                   <h4 className="font-bold text-blue-300 mb-0.5">Analitik Yaşam ve Zaman Yönetimi</h4>
                   <p className="text-night-300 m-0 text-xs sm:text-sm">
-                    Bilinçaltınızın mesajlarını çözdükten sonra yaş dönüm noktalarınızı, kariyer hedeflerinizi ve zaman çizelgenizi <a href="https://www.turkiyehesaplama.com" target="_blank" rel="noopener noreferrer dofollow" className="text-blue-400 hover:text-blue-300 font-bold underline decoration-blue-500/50 underline-offset-4">Türkiye Hesaplama Yaşam ve Planlama Sistemleri</a> ile organize edebilirsiniz.
+                    Bilinçaltınızın mesajlarını çözdükten sonra yaş dönüm noktalarınızı, kariyer hedeflerinizi ve zaman çizelgenizi <a href="https://www.turkiyehesaplama.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 font-bold underline decoration-blue-500/50 underline-offset-4">Türkiye Hesaplama Yaşam ve Planlama Sistemleri</a> ile organize edebilirsiniz.
                   </p>
                 </div>
               </div>

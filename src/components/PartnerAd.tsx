@@ -208,7 +208,7 @@ export default function PartnerAd({ slug = '', className = '' }: PartnerAdProps)
           <a
             href={config.url}
             target="_blank"
-            rel="noopener noreferrer dofollow"
+            rel="noopener noreferrer"
             className={`relative z-10 inline-flex items-center justify-center gap-2 text-white bg-gradient-to-r ${config.buttonGradient} px-6 py-3.5 rounded-xl text-base font-extrabold shadow-lg transition-all duration-300 transform group-hover:scale-105 hover:shadow-xl text-center`}
           >
             <span>{config.buttonText}</span>

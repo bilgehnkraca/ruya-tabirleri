@@ -2,10 +2,12 @@ import { getSymbolsByCategory, getAllCategories } from '@/lib/data';
 import { notFound } from 'next/navigation';
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { Compass } from 'lucide-react';
+import { Compass, ChevronLeft, ChevronRight } from 'lucide-react';
+import { sanitizeTitle } from '@/lib/titleSanitizer';
 
 interface Props {
   params: { category: string };
+  searchParams: { page?: string };
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -52,10 +54,20 @@ export async function generateStaticParams() {
   return categories.map((category) => ({ category }));
 }
 
-export default function CategoryPage({ params }: Props) {
-  const symbols = getSymbolsByCategory(params.category);
-  if (symbols.length === 0) notFound();
+export default function CategoryPage({ params, searchParams }: Props) {
+  const allSymbols = getSymbolsByCategory(params.category);
+  if (allSymbols.length === 0) notFound();
   const categoryName = params.category.replace('-', ' ');
+
+  const page = Number(searchParams.page) || 1;
+  const ITEMS_PER_PAGE = 200;
+  const totalPages = Math.ceil(allSymbols.length / ITEMS_PER_PAGE);
+  
+  if (page < 1 || page > totalPages) {
+    notFound();
+  }
+
+  const symbols = allSymbols.slice((page - 1) * ITEMS_PER_PAGE, page * ITEMS_PER_PAGE);
 
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
@@ -103,14 +115,42 @@ export default function CategoryPage({ params }: Props) {
         <p className="text-night-300">Bu kategoride toplam {symbols.length} adet rüya tabiri bulunmaktadır.</p>
       </header>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
         {symbols.map(symbol => (
           <Link key={symbol.slug} href={`/sembol/${symbol.slug}`} className="symbol-card group flex flex-col h-full">
-            <h3 className="text-xl font-semibold text-mystic-100 mb-3 group-hover:text-mystic-400 transition-colors">{symbol.title}</h3>
+            <h3 className="text-xl font-semibold text-mystic-100 mb-3 group-hover:text-mystic-400 transition-colors">{sanitizeTitle(symbol.title)}</h3>
             <p className="text-night-300 text-sm flex-grow line-clamp-3">{symbol.shortDescription}</p>
           </Link>
         ))}
       </div>
+
+      {totalPages > 1 && (
+        <div className="flex items-center justify-center gap-4 border-t border-night-700 pt-8">
+          {page > 1 ? (
+            <Link href={`/kategoriler/${params.category}?page=${page - 1}`} className="flex items-center gap-2 px-4 py-2 bg-night-800 hover:bg-mystic-900 rounded-lg text-mystic-300 transition-colors">
+              <ChevronLeft className="w-5 h-5" /> Önceki
+            </Link>
+          ) : (
+            <span className="flex items-center gap-2 px-4 py-2 bg-night-900 text-night-500 rounded-lg cursor-not-allowed">
+              <ChevronLeft className="w-5 h-5" /> Önceki
+            </span>
+          )}
+          
+          <span className="text-night-300 font-medium">
+            Sayfa {page} / {totalPages}
+          </span>
+
+          {page < totalPages ? (
+            <Link href={`/kategoriler/${params.category}?page=${page + 1}`} className="flex items-center gap-2 px-4 py-2 bg-night-800 hover:bg-mystic-900 rounded-lg text-mystic-300 transition-colors">
+              Sonraki <ChevronRight className="w-5 h-5" />
+            </Link>
+          ) : (
+            <span className="flex items-center gap-2 px-4 py-2 bg-night-900 text-night-500 rounded-lg cursor-not-allowed">
+              Sonraki <ChevronRight className="w-5 h-5" />
+            </span>
+          )}
+        </div>
+      )}
     </div>
   );
 }

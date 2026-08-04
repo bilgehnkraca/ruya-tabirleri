@@ -105,7 +105,7 @@ export default function RootLayout({
               <a 
                 href="https://www.turkiyehesaplama.com" 
                 target="_blank" 
-                rel="noopener noreferrer dofollow" 
+                rel="noopener noreferrer" 
                 className="hover:text-white text-mystic-200 font-medium transition-all duration-500 flex items-center gap-2 border border-white/10 px-4 py-2 rounded-full bg-night-800/40 backdrop-blur-md hover:bg-night-700/60 hover:shadow-xl hover:-translate-y-0.5"
               >
                 <Calculator className="w-4 h-4 text-mystic-400" /> <span className="hidden sm:inline">Hesaplama</span> Araçları
@@ -148,25 +148,25 @@ export default function RootLayout({
                     <span className="bg-mystic-900/30 text-mystic-300 text-xs font-medium px-2.5 py-1 rounded-full border border-mystic-500/20 hidden sm:inline">Partner Çözümlerimiz</span>
                   </div>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-3 gap-x-4 text-xs sm:text-sm">
-                    <a href="https://www.turkiyehesaplama.com" target="_blank" rel="noopener noreferrer dofollow" className="hover:text-mystic-300 text-night-300 font-medium transition-colors flex items-center gap-2.5 truncate">
+                    <a href="https://www.turkiyehesaplama.com" target="_blank" rel="noopener noreferrer" className="hover:text-mystic-300 text-night-300 font-medium transition-colors flex items-center gap-2.5 truncate">
                       <Calculator className="w-4 h-4 text-night-500 shrink-0" /> Türkiye Hesaplama Platformu
                     </a>
-                    <a href="https://www.turkiyehesaplama.com/gebelik-hesaplama" target="_blank" rel="noopener noreferrer dofollow" className="hover:text-mystic-300 text-night-300 font-medium transition-colors flex items-center gap-2.5 truncate">
+                    <a href="https://www.turkiyehesaplama.com/gebelik-hesaplama" target="_blank" rel="noopener noreferrer" className="hover:text-mystic-300 text-night-300 font-medium transition-colors flex items-center gap-2.5 truncate">
                       <Baby className="w-4 h-4 text-night-500 shrink-0" /> Gebelik & Doğum Tarihi
                     </a>
-                    <a href="https://www.turkiyehesaplama.com/kredi-hesaplama" target="_blank" rel="noopener noreferrer dofollow" className="hover:text-mystic-300 text-night-300 font-medium transition-colors flex items-center gap-2.5 truncate">
+                    <a href="https://www.turkiyehesaplama.com/kredi-hesaplama" target="_blank" rel="noopener noreferrer" className="hover:text-mystic-300 text-night-300 font-medium transition-colors flex items-center gap-2.5 truncate">
                       <Coins className="w-4 h-4 text-night-500 shrink-0" /> Kredi, Maaş & Altın Hesaplama
                     </a>
-                    <a href="https://www.turkiyehesaplama.com/yas-hesaplama" target="_blank" rel="noopener noreferrer dofollow" className="hover:text-mystic-300 text-night-300 font-medium transition-colors flex items-center gap-2.5 truncate">
+                    <a href="https://www.turkiyehesaplama.com/yas-hesaplama" target="_blank" rel="noopener noreferrer" className="hover:text-mystic-300 text-night-300 font-medium transition-colors flex items-center gap-2.5 truncate">
                       <CalendarDays className="w-4 h-4 text-night-500 shrink-0" /> Yaş & Gün Farkı Hesaplama
                     </a>
-                    <a href="https://www.turkiyehesaplama.com/dini-gunler-hesaplama" target="_blank" rel="noopener noreferrer dofollow" className="hover:text-mystic-300 text-night-300 font-medium transition-colors flex items-center gap-2.5 truncate">
+                    <a href="https://www.turkiyehesaplama.com/dini-gunler-hesaplama" target="_blank" rel="noopener noreferrer" className="hover:text-mystic-300 text-night-300 font-medium transition-colors flex items-center gap-2.5 truncate">
                       <Moon className="w-4 h-4 text-night-500 shrink-0" /> Dini Günler, Ramazan & Zekat
                     </a>
-                    <a href="https://www.turkiyehesaplama.com/mesafe-hesaplama" target="_blank" rel="noopener noreferrer dofollow" className="hover:text-mystic-300 text-night-300 font-medium transition-colors flex items-center gap-2.5 truncate">
+                    <a href="https://www.turkiyehesaplama.com/mesafe-hesaplama" target="_blank" rel="noopener noreferrer" className="hover:text-mystic-300 text-night-300 font-medium transition-colors flex items-center gap-2.5 truncate">
                       <Car className="w-4 h-4 text-night-500 shrink-0" /> Mesafe, Seyahat & Yakıt
                     </a>
-                    <a href="https://www.turkiyehesaplama.com/tarih-hesaplama" target="_blank" rel="noopener noreferrer dofollow" className="hover:text-mystic-300 text-night-300 font-medium transition-colors flex items-center gap-2.5 truncate">
+                    <a href="https://www.turkiyehesaplama.com/tarih-hesaplama" target="_blank" rel="noopener noreferrer" className="hover:text-mystic-300 text-night-300 font-medium transition-colors flex items-center gap-2.5 truncate">
                       <Clock className="w-4 h-4 text-night-500 shrink-0" /> Tarih & Saat Hesaplama
                     </a>
                   </div>
