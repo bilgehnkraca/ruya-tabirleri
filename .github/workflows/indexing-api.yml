@@ -9,6 +9,8 @@ on:
 jobs:
   push-urls:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     
     steps:
       - name: Checkout Repository
