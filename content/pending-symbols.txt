@@ -41,21 +41,31 @@ rüyada arkadaş ile konuşmak
 rüyada armut almak
 rüyada armut görmek
 rüyada armut yemek
+rüyada asansör görmek
 rüyada asker görmek
 rüyada asker ile konuşmak
+rüyada asker olmak
+rüyada aslan beslemek
 rüyada aslan görmek
 rüyada aslan ısırması
 rüyada aslan öldürmek
 rüyada aslan saldırması
 rüyada aslan sevmek
+rüyada aslan sürüsü görmek
 rüyada aslan yavrusu görmek
+rüyada aşçı görmek
+rüyada aşçı olmak
+rüyada at beslemek
 rüyada at görmek
 rüyada at sevmek
+rüyada at sürüsü görmek
 rüyada at yavrusu görmek
 rüyada ateş görmek
 rüyada atkı almak
 rüyada atkı giymek
 rüyada atkı görmek
+rüyada avukat görmek
+rüyada avukat olmak
 rüyada ay görmek
 rüyada ayak görmek
 rüyada ayakkabı almak
@@ -73,10 +83,16 @@ rüyada ayna kırılması
 rüyada ayran almak
 rüyada ayran görmek
 rüyada ayran yemek
+rüyada ayva görmek
+rüyada ayva tarlası görmek
+rüyada ayva toplamak
+rüyada ayva yemek
+rüyada azrail görmek
 rüyada baba görmek
 rüyada baba ile kavga etmek
 rüyada baba ile konuşmak
 rüyada babaye sarılmak
+rüyada baca görmek
 rüyada bacak görmek
 rüyada bacak kırılması
 rüyada badem almak
@@ -84,8 +100,10 @@ rüyada badem görmek
 rüyada badem yemek
 rüyada bahçe gitmek
 rüyada bahçe görmek
+rüyada bahçe kapısı görmek
 rüyada bakkal gitmek
 rüyada bakkal görmek
+rüyada bakkal olmak
 rüyada baklava almak
 rüyada baklava görmek
 rüyada baklava yapmak
@@ -93,13 +111,16 @@ rüyada baklava yemek
 rüyada bal almak
 rüyada bal görmek
 rüyada bal yemek
+rüyada balık beslemek
 rüyada balık eti almak
 rüyada balık eti görmek
 rüyada balık eti yapmak
 rüyada balık eti yemek
 rüyada balık görmek
 rüyada balık sevmek
+rüyada balık sürüsü görmek
 rüyada balık yavrusu görmek
+rüyada balkon görmek
 rüyada banyo gitmek
 rüyada banyo görmek
 rüyada bardak almak
@@ -108,8 +129,21 @@ rüyada bardak kırılması
 rüyada baş görmek
 rüyada bebek görmek
 rüyada bebek ile konuşmak
+rüyada berber görmek
+rüyada berber olmak
+rüyada beyaz araba görmek
+rüyada beyaz elbise giymek
+rüyada beyaz renk görmek
+rüyada bezelye görmek
+rüyada bezelye tarlası görmek
+rüyada bezelye toplamak
+rüyada bezelye yemek
 rüyada bıçak almak
 rüyada bıçak görmek
+rüyada biber görmek
+rüyada biber tarlası görmek
+rüyada biber toplamak
+rüyada biber yemek
 rüyada bilezik almak
 rüyada bilezik bulmak
 rüyada bilezik görmek
@@ -130,9 +164,13 @@ rüyada cadde gitmek
 rüyada cadde görmek
 rüyada cami gitmek
 rüyada cami görmek
+rüyada camiye gitmek
+rüyada cebrail görmek
+rüyada cehennem görmek
 rüyada ceket almak
 rüyada ceket giymek
 rüyada ceket görmek
+rüyada cennet görmek
 rüyada ceviz almak
 rüyada ceviz görmek
 rüyada ceviz toplamak
@@ -157,6 +195,8 @@ rüyada çay görmek
 rüyada çay yapmak
 rüyada çay yemek
 rüyada çiçek görmek
+rüyada çiftçi görmek
+rüyada çiftçi olmak
 rüyada çikolata almak
 rüyada çikolata görmek
 rüyada çikolata yemek
@@ -202,10 +242,15 @@ rüyada diz görmek
 rüyada doğum yapmak
 rüyada doktor görmek
 rüyada doktor ile konuşmak
+rüyada doktor olmak
 rüyada dolap almak
 rüyada dolap görmek
 rüyada dolu görmek
 rüyada dolu yağması
+rüyada domates görmek
+rüyada domates tarlası görmek
+rüyada domates toplamak
+rüyada domates yemek
 rüyada domuz görmek
 rüyada domuz sevmek
 rüyada domuz yavrusu görmek
@@ -217,9 +262,12 @@ rüyada dost görmek
 rüyada dost ile konuşmak
 rüyada dua etmek
 rüyada dudak görmek
+rüyada duvar görmek
 rüyada düşman görmek
 rüyada düşman ile konuşmak
 rüyada düşmek
+rüyada ebe görmek
+rüyada ebe olmak
 rüyada ekmek almak
 rüyada ekmek görmek
 rüyada ekmek yemek
@@ -235,6 +283,10 @@ rüyada elma almak
 rüyada elma görmek
 rüyada elma toplamak
 rüyada elma yemek
+rüyada erik görmek
+rüyada erik tarlası görmek
+rüyada erik toplamak
+rüyada erik yemek
 rüyada eski sevgili görmek
 rüyada eski sevgili ile kavga etmek
 rüyada eski sevgili ile konuşmak
@@ -251,12 +303,17 @@ rüyada etek görmek
 rüyada ev gitmek
 rüyada ev görmek
 rüyada evlenmek
+rüyada evliya görmek
 rüyada fare görmek
 rüyada fare ısırması
 rüyada fare öldürmek
 rüyada fare saldırması
 rüyada fare sevmek
 rüyada fare yavrusu görmek
+rüyada fasulye görmek
+rüyada fasulye tarlası görmek
+rüyada fasulye toplamak
+rüyada fasulye yemek
 rüyada fındık almak
 rüyada fındık görmek
 rüyada fındık toplamak
@@ -284,6 +341,9 @@ rüyada gözlük giymek
 rüyada gözlük görmek
 rüyada gözyaşı akması
 rüyada gözyaşı görmek
+rüyada gri araba görmek
+rüyada gri elbise giymek
+rüyada gri renk görmek
 rüyada gül dikmek
 rüyada gül görmek
 rüyada gülmek
@@ -293,6 +353,8 @@ rüyada güneş görmek
 rüyada güvercin görmek
 rüyada güvercin sevmek
 rüyada güvercin yavrusu görmek
+rüyada hakim görmek
+rüyada hakim olmak
 rüyada hala görmek
 rüyada hala ile konuşmak
 rüyada halı almak
@@ -303,13 +365,27 @@ rüyada hapishane gitmek
 rüyada hapishane görmek
 rüyada hastane gitmek
 rüyada hastane görmek
+rüyada havra görmek
+rüyada havuç görmek
+rüyada havuç tarlası görmek
+rüyada havuç toplamak
+rüyada havuç yemek
 rüyada havuz gitmek
 rüyada havuz görmek
+rüyada hemşire görmek
+rüyada hemşire olmak
 rüyada hırsız görmek
 rüyada hırsız ile konuşmak
+rüyada hızır görmek
 rüyada horoz görmek
 rüyada horoz sevmek
 rüyada horoz yavrusu görmek
+rüyada ıspanak görmek
+rüyada ıspanak tarlası görmek
+rüyada ıspanak toplamak
+rüyada ıspanak yemek
+rüyada imam görmek
+rüyada imam olmak
 rüyada incir almak
 rüyada incir görmek
 rüyada incir toplamak
@@ -317,11 +393,17 @@ rüyada incir yemek
 rüyada inek görmek
 rüyada inek sevmek
 rüyada inek yavrusu görmek
+rüyada israfil görmek
+rüyada kabe görmek
+rüyada kabeye gitmek
 rüyada kaçmak
 rüyada kahve almak
 rüyada kahve görmek
 rüyada kahve yapmak
 rüyada kahve yemek
+rüyada kahverengi araba görmek
+rüyada kahverengi elbise giymek
+rüyada kahverengi renk görmek
 rüyada kale gitmek
 rüyada kale görmek
 rüyada kalem almak
@@ -329,8 +411,10 @@ rüyada kalem görmek
 rüyada kalp görmek
 rüyada kan akması
 rüyada kan görmek
+rüyada kapı açmak
 rüyada kapı almak
 rüyada kapı görmek
+rüyada kapı kapatmak
 rüyada kaplan görmek
 rüyada kaplan ısırması
 rüyada kaplan öldürmek
@@ -340,6 +424,8 @@ rüyada kaplan yavrusu görmek
 rüyada kaplumbağa görmek
 rüyada kaplumbağa sevmek
 rüyada kaplumbağa yavrusu görmek
+rüyada kaptan görmek
+rüyada kaptan olmak
 rüyada kar görmek
 rüyada kar yağması
 rüyada kardeş görmek
@@ -356,6 +442,8 @@ rüyada karpuz yemek
 rüyada kartal görmek
 rüyada kartal sevmek
 rüyada kartal yavrusu görmek
+rüyada kasap görmek
+rüyada kasap olmak
 rüyada kasırga görmek
 rüyada kaşık almak
 rüyada kaşık görmek
@@ -364,17 +452,23 @@ rüyada kavun almak
 rüyada kavun görmek
 rüyada kavun yemek
 rüyada kaybolmak
+rüyada kayısı görmek
+rüyada kayısı tarlası görmek
+rüyada kayısı toplamak
+rüyada kayısı yemek
 rüyada kazak almak
 rüyada kazak giymek
 rüyada kazak görmek
 rüyada keçi görmek
 rüyada keçi sevmek
 rüyada keçi yavrusu görmek
+rüyada kedi beslemek
 rüyada kedi görmek
 rüyada kedi ısırması
 rüyada kedi öldürmek
 rüyada kedi saldırması
 rüyada kedi sevmek
+rüyada kedi sürüsü görmek
 rüyada kedi yavrusu görmek
 rüyada kefen almak
 rüyada kefen dikmek
@@ -388,8 +482,16 @@ rüyada kemer giymek
 rüyada kemer görmek
 rüyada kılıç almak
 rüyada kılıç görmek
+rüyada kırmızı araba görmek
+rüyada kırmızı elbise giymek
+rüyada kırmızı renk görmek
+rüyada kıyamet görmek
 rüyada kilise gitmek
 rüyada kilise görmek
+rüyada kiraz görmek
+rüyada kiraz tarlası görmek
+rüyada kiraz toplamak
+rüyada kiraz yemek
 rüyada kitap almak
 rüyada kitap görmek
 rüyada kol görmek
@@ -404,19 +506,24 @@ rüyada koşmak
 rüyada koyun görmek
 rüyada koyun sevmek
 rüyada koyun yavrusu görmek
+rüyada köpek beslemek
 rüyada köpek görmek
 rüyada köpek ısırması
 rüyada köpek öldürmek
 rüyada köpek saldırması
 rüyada köpek sevmek
+rüyada köpek sürüsü görmek
 rüyada köpek yavrusu görmek
 rüyada köprü gitmek
 rüyada köprü görmek
 rüyada kravat almak
 rüyada kravat giymek
 rüyada kravat görmek
+rüyada kuaför görmek
+rüyada kuaför olmak
 rüyada kulak görmek
 rüyada kum görmek
+rüyada kur'an görmek
 rüyada kuran okumak
 rüyada kurbağa görmek
 rüyada kurbağa sevmek
@@ -427,39 +534,81 @@ rüyada kurt öldürmek
 rüyada kurt saldırması
 rüyada kurt sevmek
 rüyada kurt yavrusu görmek
+rüyada kuş beslemek
 rüyada kuş görmek
 rüyada kuş sevmek
+rüyada kuş sürüsü görmek
 rüyada kuş yavrusu görmek
+rüyada kuyu görmek
 rüyada kuzen görmek
 rüyada kuzen ile konuşmak
 rüyada küpe almak
 rüyada küpe bulmak
 rüyada küpe görmek
 rüyada küpe kaybetmek
+rüyada lacivert araba görmek
+rüyada lacivert elbise giymek
+rüyada lacivert renk görmek
+rüyada lahana görmek
+rüyada lahana tarlası görmek
+rüyada lahana toplamak
+rüyada lahana yemek
 rüyada lale dikmek
 rüyada lale görmek
+rüyada limon görmek
+rüyada limon tarlası görmek
+rüyada limon toplamak
+rüyada limon yemek
 rüyada lokanta gitmek
 rüyada lokanta görmek
 rüyada mağara görmek
+rüyada mandalina görmek
+rüyada mandalina tarlası görmek
+rüyada mandalina toplamak
+rüyada mandalina yemek
+rüyada marangoz görmek
+rüyada marangoz olmak
 rüyada market gitmek
 rüyada market görmek
+rüyada marul görmek
+rüyada marul tarlası görmek
+rüyada marul toplamak
+rüyada marul yemek
 rüyada masa almak
 rüyada masa görmek
+rüyada mavi araba görmek
+rüyada mavi elbise giymek
+rüyada mavi renk görmek
 rüyada maymun görmek
 rüyada maymun sevmek
 rüyada maymun yavrusu görmek
 rüyada melek görmek
 rüyada melek ile konuşmak
+rüyada mercimek görmek
+rüyada mercimek tarlası görmek
+rüyada mercimek toplamak
+rüyada mercimek yemek
+rüyada merdiven çıkmak
+rüyada merdiven görmek
+rüyada merdiven inmek
+rüyada mescit görmek
+rüyada mezar görmek
 rüyada mezarlık gitmek
 rüyada mezarlık görmek
+rüyada mikail görmek
 rüyada mont almak
 rüyada mont giymek
 rüyada mont görmek
+rüyada mor araba görmek
+rüyada mor elbise giymek
+rüyada mor renk görmek
 rüyada mutfak gitmek
 rüyada mutfak görmek
 rüyada muz almak
 rüyada muz görmek
 rüyada muz yemek
+rüyada mühendis görmek
+rüyada mühendis olmak
 rüyada namaz kılmak
 rüyada nar almak
 rüyada nar görmek
@@ -467,6 +616,10 @@ rüyada nar yemek
 rüyada nehir görmek
 rüyada nine görmek
 rüyada nine ile konuşmak
+rüyada nohut görmek
+rüyada nohut tarlası görmek
+rüyada nohut toplamak
+rüyada nohut yemek
 rüyada okul gitmek
 rüyada okul görmek
 rüyada omuz görmek
@@ -476,11 +629,19 @@ rüyada otel görmek
 rüyada oynamak
 rüyada öğretmen görmek
 rüyada öğretmen ile konuşmak
+rüyada öğretmen olmak
 rüyada öldürmek
 rüyada ölmek
+rüyada ölü aslan görmek
+rüyada ölü at görmek
+rüyada ölü balık görmek
 rüyada ölü görmek
 rüyada ölü ile kavga etmek
 rüyada ölü ile konuşmak
+rüyada ölü kedi görmek
+rüyada ölü köpek görmek
+rüyada ölü kuş görmek
+rüyada ölü yılan görmek
 rüyada ölüye sarılmak
 rüyada öpüşmek
 rüyada örümcek görmek
@@ -511,17 +672,34 @@ rüyada pasta almak
 rüyada pasta görmek
 rüyada pasta yapmak
 rüyada pasta yemek
+rüyada patates görmek
+rüyada patates tarlası görmek
+rüyada patates toplamak
+rüyada patates yemek
+rüyada patlıcan görmek
+rüyada patlıcan tarlası görmek
+rüyada patlıcan toplamak
+rüyada patlıcan yemek
 rüyada patron görmek
 rüyada patron ile konuşmak
 rüyada pazar gitmek
 rüyada pazar görmek
+rüyada pembe araba görmek
+rüyada pembe elbise giymek
+rüyada pembe renk görmek
+rüyada pencere açmak
 rüyada pencere almak
 rüyada pencere görmek
+rüyada pencere kapatmak
 rüyada peygamber görmek
 rüyada peygamber ile konuşmak
 rüyada peynir almak
 rüyada peynir görmek
 rüyada peynir yemek
+rüyada pırasa görmek
+rüyada pırasa tarlası görmek
+rüyada pırasa toplamak
+rüyada pırasa yemek
 rüyada pijama almak
 rüyada pijama giymek
 rüyada pijama görmek
@@ -529,8 +707,15 @@ rüyada pilav almak
 rüyada pilav görmek
 rüyada pilav yapmak
 rüyada pilav yemek
+rüyada pilot görmek
+rüyada pilot olmak
 rüyada polis görmek
 rüyada polis ile konuşmak
+rüyada polis olmak
+rüyada portakal görmek
+rüyada portakal tarlası görmek
+rüyada portakal toplamak
+rüyada portakal yemek
 rüyada reçel almak
 rüyada reçel görmek
 rüyada reçel yemek
@@ -541,21 +726,43 @@ rüyada saat kırılması
 rüyada saç dökülmesi
 rüyada saç görmek
 rüyada saklanmak
+rüyada salatalık görmek
+rüyada salatalık tarlası görmek
+rüyada salatalık toplamak
+rüyada salatalık yemek
 rüyada sandalye almak
 rüyada sandalye görmek
 rüyada saray gitmek
 rüyada saray görmek
+rüyada sarı araba görmek
+rüyada sarı elbise giymek
+rüyada sarı renk görmek
+rüyada sarımsak görmek
+rüyada sarımsak tarlası görmek
+rüyada sarımsak toplamak
+rüyada sarımsak yemek
+rüyada savcı görmek
+rüyada savcı olmak
+rüyada seccade görmek
 rüyada sel görmek
 rüyada sevgili görmek
 rüyada sevgili ile kavga etmek
 rüyada sevgili ile konuşmak
 rüyada sevgiliye sarılmak
+rüyada sırat köprüsü görmek
 rüyada sırt görmek
 rüyada silah almak
 rüyada silah görmek
 rüyada sinek görmek
 rüyada sinek sevmek
 rüyada sinek yavrusu görmek
+rüyada siyah araba görmek
+rüyada siyah elbise giymek
+rüyada siyah renk görmek
+rüyada soğan görmek
+rüyada soğan tarlası görmek
+rüyada soğan toplamak
+rüyada soğan yemek
 rüyada sokak gitmek
 rüyada sokak görmek
 rüyada su almak
@@ -574,6 +781,10 @@ rüyada şarap almak
 rüyada şarap görmek
 rüyada şarap yemek
 rüyada şarkı söylemek
+rüyada şeftali görmek
+rüyada şeftali tarlası görmek
+rüyada şeftali toplamak
+rüyada şeftali yemek
 rüyada şeker almak
 rüyada şeker görmek
 rüyada şeker yemek
@@ -583,11 +794,14 @@ rüyada şeytan ile konuşmak
 rüyada şişe almak
 rüyada şişe görmek
 rüyada şişe kırılması
+rüyada şoför görmek
+rüyada şoför olmak
 rüyada tabak almak
 rüyada tabak görmek
 rüyada tabak kırılması
 rüyada tabanca almak
 rüyada tabanca görmek
+rüyada tabut görmek
 rüyada taş görmek
 rüyada tavşan görmek
 rüyada tavşan sevmek
@@ -608,6 +822,9 @@ rüyada tencere almak
 rüyada tencere görmek
 rüyada tepe görmek
 rüyada ter görmek
+rüyada terzi görmek
+rüyada terzi olmak
+rüyada tesbih görmek
 rüyada teyze görmek
 rüyada teyze ile konuşmak
 rüyada tırnak görmek
@@ -618,6 +835,9 @@ rüyada timsah saldırması
 rüyada timsah sevmek
 rüyada timsah yavrusu görmek
 rüyada toprak görmek
+rüyada turuncu araba görmek
+rüyada turuncu elbise giymek
+rüyada turuncu renk görmek
 rüyada tuvalet gitmek
 rüyada tuvalet görmek
 rüyada tuz almak
@@ -626,6 +846,7 @@ rüyada tuz yemek
 rüyada tüfek almak
 rüyada tüfek görmek
 rüyada tükürük görmek
+rüyada türbe görmek
 rüyada uçmak
 rüyada un almak
 rüyada un görmek
@@ -637,6 +858,10 @@ rüyada üzüm almak
 rüyada üzüm görmek
 rüyada üzüm toplamak
 rüyada üzüm yemek
+rüyada Vişne görmek
+rüyada Vişne tarlası görmek
+rüyada Vişne toplamak
+rüyada Vişne yemek
 rüyada yağ almak
 rüyada yağ görmek
 rüyada yağ yemek
@@ -656,11 +881,16 @@ rüyada yatak görmek
 rüyada yengeç görmek
 rüyada yengeç sevmek
 rüyada yengeç yavrusu görmek
+rüyada yeşil araba görmek
+rüyada yeşil elbise giymek
+rüyada yeşil renk görmek
+rüyada yılan beslemek
 rüyada yılan görmek
 rüyada yılan ısırması
 rüyada yılan öldürmek
 rüyada yılan saldırması
 rüyada yılan sevmek
+rüyada yılan sürüsü görmek
 rüyada yılan yavrusu görmek
 rüyada yıldız görmek
 rüyada yorgan almak
