@@ -58,7 +58,7 @@ Görev: "${keyword}" konusu için aşağıdaki JSON şemasına birebir uyumlu, m
 KURALLAR (KESİNLİKLE UYULACAK):
 1. Toplam metin uzunluğu KESİNLİKLE en az 850 kelime olmalıdır! Her başlığın altını uzun, doyurucu ve derin paragraflarla doldur.
 2. Fluff (boş laf kalabalığı, kelime doldurma, tekrar) YASAKTIR. Sadece derin analizler, sembolik manalar ve ansiklopedik bilgiler verilecek.
-3. Çıktı sadece ve sadece geçerli bir JSON objesi olmalıdır. Asla Markdown (```json) kullanma.
+3. Çıktı sadece ve sadece geçerli bir JSON objesi olmalıdır. Asla Markdown (\`\`\`json) kullanma.
 
 JSON ŞEMASI:
 {
