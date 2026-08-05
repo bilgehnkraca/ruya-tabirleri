@@ -26,7 +26,7 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: 🤖 AI İçerik Üret (Gemini 2.0 Flash)
+      - name: 🤖 AI İçerik Üret (Gemini 3.6 Flash)
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: node scripts/generate-ai-content.js
