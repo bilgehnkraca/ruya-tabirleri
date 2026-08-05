@@ -122,4 +122,7 @@ ${summaryLines.join('\n')}
   }
 }
 
-run().catch(console.error);
+run().catch(error => {
+  console.error('Kritik bir hata oluştu:', error);
+  process.exit(1);
+});
