@@ -38,6 +38,9 @@ async function run() {
 
   if (state.lastPushedIndex >= symbols.length) {
     console.log('TÜM SEMBOLLER BAŞARIYLA GOOGLE\'A GÖNDERİLDİ! İŞLEM BİTTİ.');
+    if (process.env.GITHUB_STEP_SUMMARY) {
+      fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, `### 🚀 Google Indexing API: Tüm semboller başarıyla gönderilmiş. Yeni eklenecek içerik bulunmuyor.\n`);
+    }
     process.exit(0);
   }
 
@@ -62,6 +65,7 @@ async function run() {
 
   let successCount = 0;
   let failCount = 0;
+  let summaryLines = [];
 
   // 4. URL'leri Pushla
   for (let i = 0; i < symbolsToPush.length; i++) {
@@ -77,9 +81,11 @@ async function run() {
       });
       
       console.log(`[BAŞARILI] (${startIndex + i + 1}/${symbols.length}) - ${url}`);
+      summaryLines.push(`- ✅ ${url}`);
       successCount++;
     } catch (error) {
       console.error(`[HATA] (${startIndex + i + 1}/${symbols.length}) - ${url} : ${error.message}`);
+      summaryLines.push(`- ❌ ${url} (Hata: ${error.message})`);
       failCount++;
     }
 
@@ -97,6 +103,23 @@ async function run() {
   console.log(`Hatalı: ${failCount}`);
   console.log(`Yeni Kalınan İndex: ${endIndex}`);
   console.log(`Bir sonraki çalışma için "npm run index:push" yazabilirsiniz.`);
+
+  if (process.env.GITHUB_STEP_SUMMARY) {
+    const summaryContent = `
+### 🚀 Google Indexing İşlem Özeti
+- **Başarılı:** ${successCount}
+- **Hatalı:** ${failCount}
+- **Kalan Sembol Sayısı:** ${symbols.length - endIndex}
+
+<details>
+<summary>Gönderilen ${summaryLines.length} URL'yi gör</summary>
+
+${summaryLines.join('\n')}
+
+</details>
+`;
+    fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, summaryContent);
+  }
 }
 
 run().catch(console.error);
