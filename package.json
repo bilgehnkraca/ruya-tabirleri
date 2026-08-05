@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "index:push": "node scripts/push-to-google.js"
+    "index:push": "node scripts/generate-slug-index.js && node scripts/push-to-google.js"
   },
   "dependencies": {
     "@next/third-parties": "^14.2.5",
