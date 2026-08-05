@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { GoogleGenAI } = require('@google/genai');
 
-const BATCH_SIZE = 5;
+const BATCH_SIZE = 10;
 const PENDING_FILE = path.join(__dirname, '../content/pending-symbols.txt');
 const SYMBOLS_DIR = path.join(__dirname, '../content/symbols');
 
