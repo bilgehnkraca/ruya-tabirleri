@@ -1,0 +1,155 @@
+const fs = require('fs');
+const path = require('path');
+
+const symbolsDir = path.join(__dirname, '../content/symbols');
+const searchableSymbolsPath = path.join(symbolsDir, 'searchable-symbols.json');
+
+async function run() {
+  console.log('--- 🕷️ SEO Örümceği Başlıyor ---');
+
+  if (!fs.existsSync(searchableSymbolsPath)) {
+    console.error('[HATA] searchable-symbols.json bulunamadı!');
+    process.exit(1);
+  }
+
+  // 1. Load all known symbols
+  const allSymbols = JSON.parse(fs.readFileSync(searchableSymbolsPath, 'utf8'));
+  console.log(`[BİLGİ] Toplam ${allSymbols.length} rüya sembolü yüklendi.`);
+
+  const tokenMap = new Map();
+  const allSlugs = new Set();
+
+  function buildKeywords(s) {
+    const keywords = [];
+    const slugWord = s.slug
+      .replace(/-/g, ' ')
+      .replace(/\byi\b/g, 'yı')
+      .trim();
+    if (slugWord.length >= 3 && slugWord.length <= 40) {
+      keywords.push(slugWord);
+    }
+    const coreMatch = s.title.match(/^R\u00fcyada\s+(.+?)\s+G\u00f6rmek/i);
+    if (coreMatch) {
+      const core = coreMatch[1].trim();
+      if (core.length >= 3 && core.length <= 40 && !keywords.includes(core.toLowerCase())) {
+        keywords.push(core.toLowerCase());
+      }
+    }
+    return Array.from(new Set(keywords.filter(k => k.length >= 3)));
+  }
+
+  console.log('[BİLGİ] Çapraz linkleme haritası oluşturuluyor...');
+  const entries = [];
+  for (const s of allSymbols) {
+    allSlugs.add(s.slug);
+    const kws = buildKeywords(s);
+    for (const kw of kws) {
+      if (!tokenMap.has(kw.toLowerCase())) {
+        entries.push({ keyword: kw.toLowerCase(), slug: s.slug });
+      }
+    }
+  }
+
+  // Sort by length desc
+  entries.sort((a, b) => b.keyword.length - a.keyword.length);
+  for (const { keyword, slug } of entries) {
+    if (!tokenMap.has(keyword)) {
+      tokenMap.set(keyword, slug);
+    }
+  }
+
+  const escapeRegExp = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const pattern = Array.from(tokenMap.keys())
+    .map(escapeRegExp)
+    .join('|');
+  const cachedRegex = new RegExp(`(?<![\\w\\u00C0-\\u024F])(${pattern})(?![\\w\\u00C0-\\u024F])`, 'gi');
+
+  console.log(`[BİLGİ] ${tokenMap.size} anahtar kelime için Regex oluşturuldu.`);
+
+  // 2. Scan all content to find references
+  const referencedSlugs = new Set();
+
+  const files = fs.readdirSync(symbolsDir);
+  const jsonFiles = files.filter(f => f.endsWith('.json') && f !== 'searchable-symbols.json' && f !== 'slug-index.json' && f !== 'symbols-light.json');
+
+  console.log(`[BİLGİ] ${jsonFiles.length} içerik dosyası taranıyor...`);
+  
+  let processedCount = 0;
+  for (const file of jsonFiles) {
+    const filePath = path.join(symbolsDir, file);
+    try {
+      const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+      const items = Array.isArray(data) ? data : [data];
+      
+      for (const item of items) {
+        if (!item.content) continue;
+        
+        let fullText = [
+          item.content.introduction || '',
+          item.content.generalMeaning || '',
+          item.content.religiousMeaning || '',
+          item.content.psychologicalMeaning || '',
+        ].join(' ');
+
+        if (item.content.variations) {
+          fullText += ' ' + item.content.variations.map(v => v.content).join(' ');
+        }
+        if (item.content.faqs) {
+          fullText += ' ' + item.content.faqs.map(f => f.answer).join(' ');
+        }
+
+        let match;
+        cachedRegex.lastIndex = 0;
+        while ((match = cachedRegex.exec(fullText)) !== null) {
+          const matchedKeyword = match[0].toLowerCase();
+          const targetSlug = tokenMap.get(matchedKeyword);
+          // A symbol cannot cross-link to itself
+          if (targetSlug && targetSlug !== item.slug) {
+            referencedSlugs.add(targetSlug);
+          }
+        }
+        processedCount++;
+      }
+    } catch (e) {
+      console.error(`[HATA] ${file} okunamadı:`, e.message);
+    }
+  }
+
+  console.log(`[BİLGİ] ${processedCount} sembol tarandı.`);
+
+  // 3. Find Orphans
+  const orphanSlugs = [];
+  for (const slug of allSlugs) {
+    if (!referencedSlugs.has(slug)) {
+      orphanSlugs.push(slug);
+    }
+  }
+
+  console.log('\n--- 📊 SONUÇLAR ---');
+  console.log(`Toplam Sembol: ${allSlugs.size}`);
+  console.log(`İç Link Alanlar: ${referencedSlugs.size}`);
+  console.log(`YALNIZ SAYFALAR (Orphan): ${orphanSlugs.length}`);
+
+  if (orphanSlugs.length > 0) {
+    console.log(`\nÖrnek Yalnız Sayfalar (İlk 20):`);
+    console.log(orphanSlugs.slice(0, 20).map(s => `- ${s}`).join('\n'));
+  } else {
+    console.log('\nHarika! Sistemde hiç yalnız sayfa (Orphan Page) yok!');
+  }
+
+  // Write summary to GitHub Actions if available
+  if (process.env.GITHUB_STEP_SUMMARY) {
+    let summary = `### 🕷️ SEO Örümceği Raporu\n`;
+    summary += `- **Toplam Sembol:** ${allSlugs.size}\n`;
+    summary += `- **İç Link Alan:** ${referencedSlugs.size}\n`;
+    summary += `- **Yalnız Sayfalar (Orphan):** ${orphanSlugs.length}\n`;
+    
+    if (orphanSlugs.length > 0) {
+      summary += `\n**⚠️ Yalnız Sayfalara Örnekler (İlk 50)**\n`;
+      summary += orphanSlugs.slice(0, 50).map(s => `- \`/sembol/${s}\``).join('\n');
+    }
+    fs.appendFileSync(process.env.GITHUB_STEP_SUMMARY, summary);
+  }
+}
+
+run().catch(console.error);

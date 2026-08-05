@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "index:push": "node scripts/generate-slug-index.js && node scripts/push-to-google.js",
-    "indexnow:push": "node scripts/generate-slug-index.js && node scripts/push-to-indexnow.js"
+    "indexnow:push": "node scripts/generate-slug-index.js && node scripts/push-to-indexnow.js",
+    "seo:check": "node scripts/generate-slug-index.js && node scripts/seo-spider.js"
   },
   "dependencies": {
     "@next/third-parties": "^14.2.5",
