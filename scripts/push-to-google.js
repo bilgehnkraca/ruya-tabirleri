@@ -94,7 +94,7 @@ async function run() {
   }
 
   // 5. State'i Güncelle
-  state.lastPushedIndex = endIndex;
+  state.lastPushedIndex = startIndex + successCount;
   state.lastPushedDate = today;
   fs.writeFileSync(stateFilePath, JSON.stringify(state, null, 2));
 
