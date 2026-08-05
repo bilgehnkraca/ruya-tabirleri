@@ -26,9 +26,9 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: 🤖 AI İçerik Üret (GPT-4o-mini)
+      - name: 🤖 AI İçerik Üret (Gemini 1.5 Flash)
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: node scripts/generate-ai-content.js
 
       - name: 🔗 Benzer Rüyaları Eşleştir (İç Link Ağı)

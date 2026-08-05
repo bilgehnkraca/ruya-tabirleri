@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const OpenAI = require('openai');
+const { GoogleGenAI } = require('@google/genai');
 
 const BATCH_SIZE = 5;
 const PENDING_FILE = path.join(__dirname, '../content/pending-symbols.txt');
@@ -10,18 +10,18 @@ function slugify(text) {
   return text.toString().toLowerCase()
     .replace(/ğ/g, 'g').replace(/ü/g, 'u').replace(/ş/g, 's')
     .replace(/ı/g, 'i').replace(/ö/g, 'o').replace(/ç/g, 'c')
-    .replace(/\s+/g, '-')           // Replace spaces with -
-    .replace(/[^\w\-]+/g, '')       // Remove all non-word chars
-    .replace(/\-\-+/g, '-')         // Replace multiple - with single -
-    .replace(/^-+/, '')             // Trim - from start of text
-    .replace(/-+$/, '');            // Trim - from end of text
+    .replace(/\s+/g, '-')
+    .replace(/[^\w\-]+/g, '')
+    .replace(/\-\-+/g, '-')
+    .replace(/^-+/, '')
+    .replace(/-+$/, '');
 }
 
 async function run() {
-  console.log('--- 🤖 Otonom Yazar (AI) Başlıyor ---');
+  console.log('--- 🤖 Otonom Yazar (Gemini AI) Başlıyor ---');
 
-  if (!process.env.OPENAI_API_KEY) {
-    console.error('[HATA] OPENAI_API_KEY bulunamadı!');
+  if (!process.env.GEMINI_API_KEY) {
+    console.error('[HATA] GEMINI_API_KEY bulunamadı!');
     process.exit(1);
   }
 
@@ -42,8 +42,8 @@ async function run() {
 
   console.log(`[BİLGİ] Seçilen Kelimeler: ${toProcess.join(', ')}`);
 
-  const openai = new OpenAI({
-    apiKey: process.env.OPENAI_API_KEY
+  const ai = new GoogleGenAI({
+    apiKey: process.env.GEMINI_API_KEY
   });
 
   const generatedSymbols = [];
@@ -58,15 +58,14 @@ Görev: "${keyword}" konusu için aşağıdaki JSON şemasına birebir uyumlu, m
 KURALLAR (KESİNLİKLE UYULACAK):
 1. Toplam metin uzunluğu KESİNLİKLE en az 850 kelime olmalıdır! Her başlığın altını uzun, doyurucu ve derin paragraflarla doldur.
 2. Fluff (boş laf kalabalığı, kelime doldurma, tekrar) YASAKTIR. Sadece derin analizler, sembolik manalar ve ansiklopedik bilgiler verilecek.
-3. Çıktı sadece ve sadece geçerli bir JSON objesi olmalıdır.
-4. "slug" alanına uygun URL dostu formatı (örn: ruyada-mavi-kapi-gormek) yaz.
+3. Çıktı sadece ve sadece geçerli bir JSON objesi olmalıdır. Asla Markdown (```json) kullanma.
 
 JSON ŞEMASI:
 {
   "slug": "string",
   "title": "Rüyada {Sembol} Görmek - İslami, Diyanet ve Psikolojik Tabiri",
-  "category": "genel|hayvanlar|nesneler|doga|mekanlar (en uygununu seç)",
-  "shortDescription": "Arama motorları için 150-160 karakterlik etkileyici bir özet.",
+  "category": "genel|hayvanlar|nesneler|doga|mekanlar",
+  "shortDescription": "150-160 karakterlik özet.",
   "content": {
     "introduction": "Konuya çok detaylı ve felsefi bir giriş paragrafı (min 150 kelime).",
     "generalMeaning": "Gündelik hayata yansımaları, genel tabiri (min 200 kelime).",
@@ -80,7 +79,7 @@ JSON ŞEMASI:
         "content": "Bu varyasyonun tabiri."
       }
     ],
-    "religiousMeaning": "İslami, Diyanet, İbn-i Sirin yorumları ve manevi tefsiri (min 200 kelime).",
+    "religiousMeaning": "İslami, Diyanet, İbn-i Sirin yorumları (min 200 kelime).",
     "psychologicalMeaning": "Carl Jung, Freud analizleri, bilinçaltı yansıması (min 200 kelime).",
     "faqs": [
       {
@@ -98,23 +97,19 @@ JSON ŞEMASI:
 `;
 
     try {
-      const response = await openai.chat.completions.create({
-        model: "gpt-4o-mini",
-        messages: [
-          { role: "system", content: "Sen sadece JSON formatında yanıt veren bir robotsun. Asla markdown tagleri (```json) kullanma, direkt saf JSON stringi dön." },
-          { role: "user", content: prompt }
-        ],
-        response_format: { type: "json_object" },
-        temperature: 0.7,
+      const response = await ai.models.generateContent({
+        model: 'gemini-1.5-flash',
+        contents: prompt,
+        config: {
+          responseMimeType: "application/json",
+          temperature: 0.7
+        }
       });
 
-      const rawJson = response.choices[0].message.content;
+      const rawJson = response.text;
       const parsed = JSON.parse(rawJson);
       
-      // Force slug just in case AI messes up
       parsed.slug = slugify(keyword);
-      
-      // Default dates
       const today = new Date().toISOString();
       parsed.datePublished = today;
       parsed.dateModified = today;
@@ -135,12 +130,11 @@ JSON ŞEMASI:
     fs.writeFileSync(filePath, JSON.stringify(generatedSymbols, null, 2));
     console.log(`\n[BİLGİ] Üretilen ${generatedSymbols.length} sembol ${fileName} olarak kaydedildi.`);
 
-    // Update pending-symbols.txt
     fs.writeFileSync(PENDING_FILE, remaining.join('\n'));
     console.log(`[BİLGİ] Bekleyenler güncellendi. Kalan rüya sayısı: ${remaining.length}`);
     
     if (process.env.GITHUB_STEP_SUMMARY) {
-      let summary = `### 🤖 Yapay Zeka (AI) İçerik Üretimi Başarılı\n`;
+      let summary = `### 🤖 Gemini AI İçerik Üretimi Başarılı\n`;
       summary += `- **Üretilen Makale Sayısı:** ${generatedSymbols.length}\n`;
       summary += `- **Kalan Bekleyen Konu Sayısı:** ${remaining.length}\n\n`;
       summary += `**Üretilen Başlıklar:**\n`;
