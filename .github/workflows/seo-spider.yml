@@ -24,4 +24,4 @@ jobs:
         run: npm install
 
       - name: Run SEO Spider
-        run: node scripts/seo-spider.js
+        run: npm run seo:check
