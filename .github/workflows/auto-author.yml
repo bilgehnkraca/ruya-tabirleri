@@ -39,13 +39,21 @@ jobs:
       - name: 🕷️ SEO Örümceği Kalite Kontrolü
         run: npm run seo:check
 
+      - name: 🌍 Google Indexing API'ye Bildir
+        env:
+          GCP_SERVICE_ACCOUNT_JSON: ${{ secrets.GCP_SERVICE_ACCOUNT_JSON }}
+        run: |
+          echo "$GCP_SERVICE_ACCOUNT_JSON" > service-account.json
+          npm run index:push
+          rm service-account.json
+
       - name: 💾 Değişiklikleri GitHub'a Gönder (Canlıya Al)
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add content/
+          git add content/ scripts/indexing-state.json
           # Sadece değişiklik varsa commit at, yoksa hata verme
-          git diff --staged --quiet || git commit -m "feat: AI tarafindan uretilen 5 yeni ruya yayinlandi 🤖"
+          git diff --staged --quiet || git commit -m "feat: AI tarafindan uretilen yeni ruyalar yayinlandi 🤖"
           git push
 
       - name: 🌍 Arama Motorlarına Bildir (IndexNow)
