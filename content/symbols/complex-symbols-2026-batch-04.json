@@ -73,7 +73,14 @@
         "dugun",
         "dis"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "yeni-simsek-calmak",
+      "yeni-gokkusagi-yemek",
+      "yeni-ceket-calmak",
+      "yeni-pantolon-yurumek",
+      "yeni-deniz-aglamak"
+    ]
   },
   {
     "slug": "bozuk-asansorde-kalmak-ve-sonra-kapinin-acilmasi",
@@ -137,7 +144,14 @@
         "dugun",
         "dis"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "sabah-namazindan-sonra-ellerini-actiginda-dualarinin-kabul-oldugunu-bilmek",
+      "bahcedeki-kirmizi-gullerin-ve-ortancalarin-sulandiktan-sonra-parlamasi",
+      "halilari-balkona-cikarip-yikadiktan-sonra-guzelce-kurumaya-birakmak",
+      "cebinden-cikardigi-bozuk-paralari-cocuklara-dagitmak",
+      "okuldaki-eski-sira-arkadasinla-yillar-sonra-bir-kutuphanede-karsilasmak"
+    ]
   },
   {
     "slug": "kalabalik-caddede-yalinayak-yurumek",
@@ -213,7 +227,14 @@
         "dugun",
         "dis"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "yeni-kopek-yurumek",
+      "eski-koltuk-yurumek",
+      "eski-magara-yurumek",
+      "kucuk-patron-yurumek",
+      "buyuk-pencere-yurumek"
+    ]
   },
   {
     "slug": "eski-sevgilinin-evlenip-mutlu-oldugunu-gormek",
@@ -289,7 +310,14 @@
         "restoran",
         "dis"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "eski-elbise-yikmak",
+      "eski-elbise-bulmak",
+      "eski-pantolon-satmak",
+      "eski-kapi-okumak",
+      "eski-kupe-kirmak"
+    ]
   },
   {
     "slug": "kucuk-bir-bebegi-emzirmek-ve-sutunun-bol-olmasi",
@@ -365,7 +393,14 @@
         "kopek",
         "dis"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "yardima-muhtac-yasli-bir-kadinin-elinden-tutup-karsiya-guvenle-gecirmek",
+      "kucuk-kopru-saklamak",
+      "elindeki-buyutecle-nadir-bir-antika-paranin-uzerindeki-yazilari-okumak",
+      "siyah-yumurta-emzirmek",
+      "kucuk-orman-bulmak"
+    ]
   },
   {
     "slug": "yesil-ve-meyveli-agactan-elma-koparip-yemek",
@@ -441,6 +476,13 @@
         "dugun",
         "dis"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "eski-elma-tirmanmak",
+      "yesil-yapraklari-uzerinde-duran-taze-ve-sulu-iri-bursa-seftalisi",
+      "yeni-elma-temizlemek",
+      "eski-elma-kosmak",
+      "agactan-koparilan-sulu-ve-kirmizi-yanakli-taze-amasya-elmasi"
+    ]
   }
 ]

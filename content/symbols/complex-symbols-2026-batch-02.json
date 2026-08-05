@@ -73,7 +73,14 @@
         "kopek",
         "dis"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "eski-abla-yazmak",
+      "eski-masa-saklamak",
+      "eski-abla-yikamak",
+      "eski-tren-yapmak",
+      "eski-magara-temizlemek"
+    ]
   },
   {
     "slug": "denizde-yuzerken-dev-dalgalardan-kurtulmak",
@@ -149,7 +156,14 @@
         "dugun",
         "dis"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "dev-kutu",
+      "dev-selale",
+      "yunus-baliklarinin-denizde-ziplayarak-yarismasi",
+      "denizde-yuzerken-aniden-yagmur-yagmaya-baslamasi",
+      "dev-kopru"
+    ]
   },
   {
     "slug": "yabanci-bir-evde-tanimadigin-insanlarla-yemek-yemek",
@@ -225,7 +239,14 @@
         "kopek",
         "dis"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "uysal-ve-guclu-bir-kocun-boynuzlarini-sevip-sirtini-oksamak",
+      "kalabalik-bir-mezuniyet-toreninde-kepenini-gokyuzune-sevincle-firlatmak",
+      "alninda-parlayan-nurlu-bir-yildizla-insanlar-arasinda-saygiyla-yurumek",
+      "kar-tanelerinin-agac-dallarini-beyaz-bir-gelinlik-gibi-suslemesi",
+      "tanimadigin-bir-gelinin-sana-cicek-atmasi"
+    ]
   },
   {
     "slug": "karanlik-ormanda-kaybolup-isik-gormek",
@@ -301,7 +322,14 @@
         "dugun",
         "dis"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "karanlik-kutu",
+      "kalabalik-sokakta-kaybolup-sonra-dogru-yolu-bulmak",
+      "dar-ve-karanlik-koridordan-gectikten-sonra-bembeyaz-bir-nura-cikmak",
+      "karanlik-bahce",
+      "karanlik-ada"
+    ]
   },
   {
     "slug": "eski-calistigin-is-yerine-geri-donmek-ve-calismak",
@@ -377,7 +405,14 @@
         "dugun",
         "dis"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "eski-yatak-gomek",
+      "eski-duvar-dusmek",
+      "eski-ayna-dinlemek",
+      "eski-elbise-dusmek",
+      "eski-selale-kaybetmek"
+    ]
   },
   {
     "slug": "ayna-karsisinda-aglamak-ve-yuzunu-yikamak",
@@ -453,6 +488,13 @@
         "kopek",
         "dugun"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "yeni-okul-aglamak",
+      "siyah-domates-aglamak",
+      "kucuk-ayna",
+      "buyuk-ayna-gezmek",
+      "eski-gozluk-aglamak"
+    ]
   }
 ]

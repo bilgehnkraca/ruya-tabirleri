@@ -73,7 +73,14 @@
         "para",
         "ev"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "siyah-eski-sevgili-emzirmek",
+      "eski-koltuk-birakmak",
+      "eski-tren-dusurmek",
+      "eski-magara-korumak",
+      "eski-ucak-yapmak"
+    ]
   },
   {
     "slug": "vefat-eden-annenin-sarilip-yemek-vermesi",
@@ -149,7 +156,14 @@
         "ev",
         "restoran"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "agac-kovugundan-cikan-sevimli-sincabin-sana-ceviz-vermesi",
+      "vefat-eden-babaciginin-sana-parlak-ve-altin-sarisi-bugday-vermesi",
+      "yaya-gecidinde-durdugunda-tum-arabalarin-saygiyla-yol-vermesi",
+      "vefat-eden-dedenin-evinde-kalabalik-sofra-gormek",
+      "vefat-eden-dedenin-sana-altin-saat-vermesi"
+    ]
   },
   {
     "slug": "disinin-sallanip-eline-dusmesi-ama-kanamamasi",
@@ -225,7 +239,14 @@
         "yolculuk",
         "sevgilinin"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "beyaz-guvercin-gelip-eline-veya-omzuna-konmasi",
+      "araba-kullanirken-frenlerin-tutmamasi-ama-durmayi-basarmak",
+      "yabanci-kopegin-kovalamasi-ama-isirmamasi",
+      "ayna-karsisinda-sacin-dokuldugunu-gormek",
+      "ayna-karsisinda-aglamak-ve-yuzunu-yikamak"
+    ]
   },
   {
     "slug": "kalabalik-dugunde-beyaz-gelinlik-giymek-ve-oynamak",
@@ -301,7 +322,14 @@
         "dostluk",
         "sevgilinin"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "kalabalik-aile-fotografinda-kendini-gorememek",
+      "kalabalik-sokakta-kaybolup-sonra-dogru-yolu-bulmak",
+      "ramazan-ayinda-kalabalik-iftar-sofrasi-kurmak",
+      "siyah-at-giymek",
+      "karli-ormanda-sessizce-ilerleyen-bilge-ve-beyaz-kutup-baykusu"
+    ]
   },
   {
     "slug": "yabanci-kopegin-kovalamasi-ama-isirmamasi",
@@ -377,7 +405,14 @@
         "para",
         "dis"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "yabanci-ulkede-tanistigin-birinin-sana-kendi-kulturunden-hediye-vermesi",
+      "disinin-sallanip-eline-dusmesi-ama-kanamamasi",
+      "yabanci-bir-misafirin-evine-hediye-ve-bereketle-gelmesi",
+      "yabanci-bir-evde-tanimadigin-insanlarla-yemek-yemek",
+      "yabanci-ulkede-tarihi-metroya-binip-muzeler-meydaninda-inmek"
+    ]
   },
   {
     "slug": "eski-is-yerinde-patronla-kavga-etmek",
@@ -453,7 +488,14 @@
         "dostluk",
         "dis"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "eski-altin-gormek",
+      "eski-bebek-gomek",
+      "eski-deniz-temizlemek",
+      "eski-yasli-yemek",
+      "eski-kilic-kosmak"
+    ]
   },
   {
     "slug": "ucakta-turbulansa-girmek-ve-korkmak",
@@ -529,7 +571,14 @@
         "dugun",
         "dis"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "buyuk-okul-korkmak",
+      "kucuk-tren-korkmak",
+      "yeni-ayna-korkmak",
+      "buyuk-gunes-korkmak",
+      "yeni-asker-korkmak"
+    ]
   },
   {
     "slug": "karanlik-sokakta-kaybolup-birinin-yardim-etmesi",
@@ -605,7 +654,14 @@
         "dugun",
         "dis"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "karanlik-kutu",
+      "dayinin-sana-parlak-ve-yeni-bir-cuzdan-hediye-etmesi",
+      "gece-yolculugunda-yildizlarin-ve-ay-isiginin-arabana-eslik-etmesi",
+      "sokakta-tanimadigin-yasli-bir-bilgenin-sana-kutsal-tesbih-uzatmasi",
+      "karanlik-ejderha"
+    ]
   },
   {
     "slug": "ayna-karsisinda-sacin-dokuldugunu-gormek",
@@ -681,7 +737,14 @@
         "kopek",
         "dugun"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "eski-ayna-kacmak",
+      "yeni-ayna-ziplamak",
+      "ayna-karsisinda-yuzunun-nur-gibi-parladigini-ve-genclestigini-gormek",
+      "kabe-i-muazzama-karsisinda-gozyaslariyla-secdeye-kapanip-dua-etmek",
+      "yeni-ayna-ucmak"
+    ]
   },
   {
     "slug": "cuzdani-kaybetmek-ve-icinde-para-ile-bulmak",
@@ -757,6 +820,13 @@
         "dugun",
         "dis"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "buyuk-asker-bulmak",
+      "eski-yasli-bulmak",
+      "yeni-para-bulmak",
+      "yeni-su-bulmak",
+      "yeni-dost-kaybetmek"
+    ]
   }
 ]

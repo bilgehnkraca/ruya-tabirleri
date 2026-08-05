@@ -73,7 +73,14 @@
         "dugun",
         "dis"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "misafir-odasinda-serili-duran-ipek-iran-halisinin-uzerinde-yurumek",
+      "yeni-gozluk-yurumek",
+      "eski-sandalye-yurumek",
+      "yeni-mezar-yurumek",
+      "yeni-kilic-yurumek"
+    ]
   },
   {
     "slug": "yuksek-bir-balkondan-asagiya-bakip-korkmamak",
@@ -149,7 +156,14 @@
         "dugun",
         "dis"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "yeni-ve-hayirli-bir-isin-temelini-dualar-esliginde-kendi-ellerinle-atmak",
+      "beyaz-kanatli-nurani-bir-varligin-sana-korkma-diyerek-teselli-vermesi",
+      "kanyon-icinde-yapilan-heyecanli-bir-nehir-raftinginde-basariya-ulasmak",
+      "masadaki-beyaz-kagida-dolma-kalemle-guzel-bir-imza-atmak",
+      "helikopterle-yuksek-gokdelenlerin-ve-koprulerin-uzerinde-ucus-yapmak"
+    ]
   },
   {
     "slug": "kalabalik-otobus-veya-trende-tanidik-biriyle-karsilasmak",
@@ -225,7 +239,14 @@
         "dugun",
         "dis"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "kalabalik-bir-cami-cemaatiyle-birlikte-yagmur-duasina-cikmak",
+      "kalabalik-bir-konser-alaninda-binlerce-insanla-tek-yurek-sarki-soylemek",
+      "yeni-otobus-kirmak",
+      "siyah-kalabalik-kesmek",
+      "yeni-otobus-gormek"
+    ]
   },
   {
     "slug": "kendi-evinde-tanimadigin-misafirleri-agirlamak",
@@ -301,7 +322,14 @@
         "kopek",
         "dis"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "kendi-evinin-duvarlarini-beyaz-veyahut-maviye-boyamak",
+      "tanimadigin-sevecen-insanlarla-birlikte-senlik-atesi-etrafinda-durmak",
+      "sokakta-tanimadigin-yasli-bir-bilgenin-sana-kutsal-tesbih-uzatmasi",
+      "tanimadigin-sevimli-bir-cocugun-sana-cicek-vermesi",
+      "babanin-sana-kendi-cebinden-kagit-para-vermesi"
+    ]
   },
   {
     "slug": "eski-okul-sira-ve-ogretmenini-gormek",
@@ -377,7 +405,14 @@
         "dugun",
         "dis"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "eski-okul-ucmak",
+      "eski-patron-gezmek",
+      "eski-defter-yuzmek",
+      "eski-canta-yuzmek",
+      "eski-koy-gezmek"
+    ]
   },
   {
     "slug": "beyaz-guvercin-gelip-eline-veya-omzuna-konmasi",
@@ -453,6 +488,13 @@
         "kopek",
         "dis"
       ]
-    }
+    },
+    "relatedSymbols": [
+      "beyaz-kugu-ciftinin-golette-zarifce-yuzmesi",
+      "beyaz-gomlegin-uzerine-kahve-veya-cay-dokulmesi",
+      "yatak-odasinda-serili-duran-yumusak-tuylu-beyaz-koyun-postu-hali",
+      "otobusu-veya-ucagi-son-anda-kacirip-arkasindan-kosmak",
+      "melek-gorunumunde-beyaz-giysili-biriyle-konusmak"
+    ]
   }
 ]

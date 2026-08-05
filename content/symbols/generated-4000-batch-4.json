@@ -41,7 +41,9 @@
     "relatedSymbols": [
       "buyuk-sehir-kalkmak",
       "buyuk-sehir-ucmak",
-      "buyuk-sehir-korkmak"
+      "buyuk-sehir-korkmak",
+      "buyuk-bebek-yuzmek",
+      "buyuk-kilic-dusmek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -87,7 +89,9 @@
     "relatedSymbols": [
       "buyuk-sehir-kosmak",
       "buyuk-sehir-yuzmek",
-      "buyuk-sehir-bagirmak"
+      "buyuk-sehir-bagirmak",
+      "eski-anahtar-kalkmak",
+      "buyuk-ay-kalkmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -133,7 +137,9 @@
     "relatedSymbols": [
       "buyuk-sehir-yurumek",
       "buyuk-sehir-bogulmak",
-      "buyuk-sehir-soylemek"
+      "buyuk-sehir-soylemek",
+      "buyuk-ruzgar-kalkmak",
+      "buyuk-gul-kovalamak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -179,7 +185,9 @@
     "relatedSymbols": [
       "buyuk-sehir-ziplamak",
       "buyuk-sehir-gulmek",
-      "buyuk-sehir-dinlemek"
+      "buyuk-sehir-dinlemek",
+      "buyuk-agac-kirmak",
+      "akrabalarla-birlikte-buyuk-mirasi-paylasmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -225,7 +233,9 @@
     "relatedSymbols": [
       "buyuk-sehir-ucmak",
       "buyuk-sehir-aglamak",
-      "buyuk-sehir-sarilarak"
+      "buyuk-sehir-sarilarak",
+      "kucuk-sehir-dinlemek",
+      "buyuk-gunes-saklamak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -271,7 +281,9 @@
     "relatedSymbols": [
       "buyuk-sehir-yuzmek",
       "buyuk-sehir-korkmak",
-      "buyuk-sehir-kacmak"
+      "buyuk-sehir-kacmak",
+      "yeni-koy-ucmak",
+      "buyuk-mezar-kacmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -317,7 +329,9 @@
     "relatedSymbols": [
       "buyuk-sehir-bogulmak",
       "buyuk-sehir-bagirmak",
-      "buyuk-sehir-kovalamak"
+      "buyuk-sehir-kovalamak",
+      "is-yerinde-terfi-kutlamasi-icin-buyuk-bir-pasta-kesilip-dagitilmasi",
+      "buyuk-gozluk-aglamak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -363,7 +377,9 @@
     "relatedSymbols": [
       "buyuk-sehir-gulmek",
       "buyuk-sehir-soylemek",
-      "buyuk-sehir-saklamak"
+      "buyuk-sehir-saklamak",
+      "buyuk-kitap-soylemek",
+      "buyuk-bebek-sarilarak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -409,7 +425,9 @@
     "relatedSymbols": [
       "buyuk-sehir-aglamak",
       "buyuk-sehir-dinlemek",
-      "buyuk-sehir-gezmek"
+      "buyuk-sehir-gezmek",
+      "buyuk-nehir-gomek",
+      "buyuk-cuzdan-yikmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -455,7 +473,9 @@
     "relatedSymbols": [
       "buyuk-sehir-korkmak",
       "buyuk-sehir-sarilarak",
-      "buyuk-koy-gomek"
+      "buyuk-koy-gomek",
+      "buyuk-bisiklet-aglamak",
+      "dayinin-sana-buyuk-ve-gorkemli-bir-kutuphane-kurmasi"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -501,7 +521,9 @@
     "relatedSymbols": [
       "buyuk-sehir-bagirmak",
       "buyuk-sehir-kacmak",
-      "buyuk-koy-almak"
+      "buyuk-koy-almak",
+      "buyuk-kilic-yuzmek",
+      "buyuk-ucak-yikmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -547,7 +569,9 @@
     "relatedSymbols": [
       "buyuk-sehir-soylemek",
       "buyuk-sehir-kovalamak",
-      "buyuk-koy-satmak"
+      "buyuk-koy-satmak",
+      "buyuk-asker-gostermek",
+      "yeni-sehir-gomek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -593,7 +617,9 @@
     "relatedSymbols": [
       "buyuk-sehir-dinlemek",
       "buyuk-sehir-saklamak",
-      "buyuk-koy-bulmak"
+      "buyuk-koy-bulmak",
+      "eski-ayna-soylemek",
+      "buyuk-gul-yurumek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -639,7 +665,9 @@
     "relatedSymbols": [
       "buyuk-sehir-sarilarak",
       "buyuk-sehir-gezmek",
-      "buyuk-koy-kaybetmek"
+      "buyuk-koy-kaybetmek",
+      "buyuk-telefon-almak",
+      "buyuk-dost-kosmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -685,7 +713,9 @@
     "relatedSymbols": [
       "buyuk-sehir-kacmak",
       "buyuk-koy-gomek",
-      "buyuk-koy-kirmak"
+      "buyuk-koy-kirmak",
+      "buyuk-masa-sarilarak",
+      "buyuk-ayna-yuzmek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -731,7 +761,9 @@
     "relatedSymbols": [
       "buyuk-sehir-kovalamak",
       "buyuk-koy-almak",
-      "buyuk-koy-yapmak"
+      "buyuk-koy-yapmak",
+      "buyuk-mezar-dinlemek",
+      "buyuk-elbise-bogulmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -777,7 +809,9 @@
     "relatedSymbols": [
       "buyuk-sehir-saklamak",
       "buyuk-koy-satmak",
-      "buyuk-koy-yikmak"
+      "buyuk-koy-yikmak",
+      "buyuk-telefon-bagirmak",
+      "buyuk-kitap-soylemek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -823,7 +857,9 @@
     "relatedSymbols": [
       "buyuk-sehir-gezmek",
       "buyuk-koy-bulmak",
-      "buyuk-koy-aramak"
+      "buyuk-koy-aramak",
+      "buyuk-yatak-yapmak",
+      "buyuk-bebek-gomek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -869,7 +905,9 @@
     "relatedSymbols": [
       "buyuk-koy-gomek",
       "buyuk-koy-kaybetmek",
-      "buyuk-koy-gostermek"
+      "buyuk-koy-gostermek",
+      "buyuk-yol-bagirmak",
+      "buyuk-deniz-ziplamak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -915,7 +953,9 @@
     "relatedSymbols": [
       "buyuk-koy-almak",
       "buyuk-koy-kirmak",
-      "buyuk-koy-dusmek"
+      "buyuk-koy-dusmek",
+      "buyuk-patron-gomek",
+      "buyuk-telefon-satmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -961,7 +1001,9 @@
     "relatedSymbols": [
       "buyuk-koy-satmak",
       "buyuk-koy-yapmak",
-      "buyuk-koy-kalkmak"
+      "buyuk-koy-kalkmak",
+      "buyuk-tren-gomek",
+      "buyuk-koltuk-almak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -1007,7 +1049,9 @@
     "relatedSymbols": [
       "buyuk-koy-bulmak",
       "buyuk-koy-yikmak",
-      "buyuk-koy-kosmak"
+      "buyuk-koy-kosmak",
+      "buyuk-koy-aglamak",
+      "buyuk-saat-bogulmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -1053,7 +1097,9 @@
     "relatedSymbols": [
       "buyuk-koy-kaybetmek",
       "buyuk-koy-aramak",
-      "buyuk-koy-yurumek"
+      "buyuk-koy-yurumek",
+      "buyuk-ogretmen-ucmak",
+      "buyuk-ogretmen-dinlemek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -1099,7 +1145,9 @@
     "relatedSymbols": [
       "buyuk-koy-kirmak",
       "buyuk-koy-gostermek",
-      "buyuk-koy-ziplamak"
+      "buyuk-koy-ziplamak",
+      "buyuk-okul-gulmek",
+      "buyuk-tren-yapmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -1145,7 +1193,9 @@
     "relatedSymbols": [
       "buyuk-koy-yapmak",
       "buyuk-koy-dusmek",
-      "buyuk-koy-ucmak"
+      "buyuk-koy-ucmak",
+      "buyuk-bebek-yuzmek",
+      "buyuk-ucak-dusmek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -1191,7 +1241,9 @@
     "relatedSymbols": [
       "buyuk-koy-yikmak",
       "buyuk-koy-kalkmak",
-      "buyuk-koy-yuzmek"
+      "buyuk-koy-yuzmek",
+      "buyuk-agac",
+      "buyuk-koy-gomek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -1237,7 +1289,9 @@
     "relatedSymbols": [
       "buyuk-koy-aramak",
       "buyuk-koy-kosmak",
-      "buyuk-koy-bogulmak"
+      "buyuk-koy-bogulmak",
+      "eski-koy-korkmak",
+      "ferah-ve-gunes-alan-buyuk-bir-salonda-beyaz-koltuklarda-oturmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -1283,7 +1337,9 @@
     "relatedSymbols": [
       "buyuk-koy-gostermek",
       "buyuk-koy-yurumek",
-      "buyuk-koy-gulmek"
+      "buyuk-koy-gulmek",
+      "buyuk-orman-aglamak",
+      "buyuk-sehir-gomek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -1329,7 +1385,9 @@
     "relatedSymbols": [
       "buyuk-koy-dusmek",
       "buyuk-koy-ziplamak",
-      "buyuk-koy-aglamak"
+      "buyuk-koy-aglamak",
+      "buyuk-kitap-kaybetmek",
+      "buyuk-bisiklet-gomek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -1375,7 +1433,9 @@
     "relatedSymbols": [
       "buyuk-koy-kalkmak",
       "buyuk-koy-ucmak",
-      "buyuk-koy-korkmak"
+      "buyuk-koy-korkmak",
+      "buyuk-hastane-yapmak",
+      "eski-kopru-dusmek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -1421,7 +1481,9 @@
     "relatedSymbols": [
       "buyuk-koy-kosmak",
       "buyuk-koy-yuzmek",
-      "buyuk-koy-bagirmak"
+      "buyuk-koy-bagirmak",
+      "buyuk-kilic-yuzmek",
+      "buyuk-agac-dusmek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -1467,7 +1529,9 @@
     "relatedSymbols": [
       "buyuk-koy-yurumek",
       "buyuk-koy-bogulmak",
-      "buyuk-koy-soylemek"
+      "buyuk-koy-soylemek",
+      "buyuk-yatak-yikmak",
+      "buyuk-kopru-kirmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -1513,7 +1577,9 @@
     "relatedSymbols": [
       "buyuk-koy-ziplamak",
       "buyuk-koy-gulmek",
-      "buyuk-koy-dinlemek"
+      "buyuk-koy-dinlemek",
+      "eski-kus-yurumek",
+      "buyuk-orman-bagirmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -1559,7 +1625,9 @@
     "relatedSymbols": [
       "buyuk-koy-ucmak",
       "buyuk-koy-aglamak",
-      "buyuk-koy-sarilarak"
+      "buyuk-koy-sarilarak",
+      "buyuk-agac",
+      "buyuk-ucak-dusmek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -1605,7 +1673,9 @@
     "relatedSymbols": [
       "buyuk-koy-yuzmek",
       "buyuk-koy-korkmak",
-      "buyuk-koy-kacmak"
+      "buyuk-koy-kacmak",
+      "buyuk-dost-yuzmek",
+      "buyuk-koy-kosmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -1651,7 +1721,9 @@
     "relatedSymbols": [
       "buyuk-koy-bogulmak",
       "buyuk-koy-bagirmak",
-      "buyuk-koy-kovalamak"
+      "buyuk-koy-kovalamak",
+      "buyuk-duvar-yurumek",
+      "yeni-hastane-yuzmek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -1697,7 +1769,9 @@
     "relatedSymbols": [
       "buyuk-koy-gulmek",
       "buyuk-koy-soylemek",
-      "buyuk-koy-saklamak"
+      "buyuk-koy-saklamak",
+      "buyuk-deniz-kosmak",
+      "buyuk-koy-ziplamak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -1743,7 +1817,9 @@
     "relatedSymbols": [
       "buyuk-koy-aglamak",
       "buyuk-koy-dinlemek",
-      "buyuk-koy-gezmek"
+      "buyuk-koy-gezmek",
+      "buyuk-nehir-kovalamak",
+      "yildiz-kaymasi-esnasinda-icinden-gecen-en-buyuk-dilegin-gerceklesmesi"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -1789,7 +1865,9 @@
     "relatedSymbols": [
       "buyuk-koy-korkmak",
       "buyuk-koy-sarilarak",
-      "buyuk-orman-gomek"
+      "buyuk-orman-gomek",
+      "buyuk-kitap-saklamak",
+      "buyuk-ucak-dusmek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -1835,7 +1913,9 @@
     "relatedSymbols": [
       "buyuk-koy-bagirmak",
       "buyuk-koy-kacmak",
-      "buyuk-orman-almak"
+      "buyuk-orman-almak",
+      "buyuk-duvar-kalkmak",
+      "buyuk-gemi-kovalamak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -1881,7 +1961,9 @@
     "relatedSymbols": [
       "buyuk-koy-soylemek",
       "buyuk-koy-kovalamak",
-      "buyuk-orman-satmak"
+      "buyuk-orman-satmak",
+      "buyuk-agacin-golgesinde-ailece-piknik-yapmak",
+      "buyuk-cicek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -1927,7 +2009,9 @@
     "relatedSymbols": [
       "buyuk-koy-dinlemek",
       "buyuk-koy-saklamak",
-      "buyuk-orman-bulmak"
+      "buyuk-orman-bulmak",
+      "yeni-telefon-soylemek",
+      "buyuk-gozluk-yuzmek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -1973,7 +2057,9 @@
     "relatedSymbols": [
       "buyuk-koy-sarilarak",
       "buyuk-koy-gezmek",
-      "buyuk-orman-kaybetmek"
+      "buyuk-orman-kaybetmek",
+      "buyuk-ayna-sarilarak",
+      "buyuk-asker-yikmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -2019,7 +2105,9 @@
     "relatedSymbols": [
       "buyuk-koy-kacmak",
       "buyuk-orman-gomek",
-      "buyuk-orman-kirmak"
+      "buyuk-orman-kirmak",
+      "buyuk-agac-aglamak",
+      "buyuk-gozluk-yikmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -2065,7 +2153,9 @@
     "relatedSymbols": [
       "buyuk-koy-kovalamak",
       "buyuk-orman-almak",
-      "buyuk-orman-yapmak"
+      "buyuk-orman-yapmak",
+      "buyuk-mezar-korkmak",
+      "buyuk-koy-satmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -2111,7 +2201,9 @@
     "relatedSymbols": [
       "buyuk-koy-saklamak",
       "buyuk-orman-satmak",
-      "buyuk-orman-yikmak"
+      "buyuk-orman-yikmak",
+      "buyuk-gul-yikmak",
+      "buyuk-yatak-kovalamak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -2157,7 +2249,9 @@
     "relatedSymbols": [
       "buyuk-koy-gezmek",
       "buyuk-orman-bulmak",
-      "buyuk-orman-aramak"
+      "buyuk-orman-aramak",
+      "buyuk-gozluk-yuzmek",
+      "buyuk-koltuk-dusmek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -2203,7 +2297,9 @@
     "relatedSymbols": [
       "buyuk-orman-gomek",
       "buyuk-orman-kaybetmek",
-      "buyuk-orman-gostermek"
+      "buyuk-orman-gostermek",
+      "buyuk-okul-gulmek",
+      "yeni-koy-gulmek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -2249,7 +2345,9 @@
     "relatedSymbols": [
       "buyuk-orman-almak",
       "buyuk-orman-kirmak",
-      "buyuk-orman-dusmek"
+      "buyuk-orman-dusmek",
+      "buyuk-pencere-kaybetmek",
+      "buyuk-nehir-kaybetmek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -2295,7 +2393,9 @@
     "relatedSymbols": [
       "buyuk-orman-satmak",
       "buyuk-orman-yapmak",
-      "buyuk-orman-kalkmak"
+      "buyuk-orman-kalkmak",
+      "buyuk-masa-ucmak",
+      "buyuk-mezar-aglamak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -2341,7 +2441,9 @@
     "relatedSymbols": [
       "buyuk-orman-bulmak",
       "buyuk-orman-yikmak",
-      "buyuk-orman-kosmak"
+      "buyuk-orman-kosmak",
+      "buyuk-sehir-ucmak",
+      "eski-ayna-satmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -2387,7 +2489,9 @@
     "relatedSymbols": [
       "buyuk-orman-kaybetmek",
       "buyuk-orman-aramak",
-      "buyuk-orman-yurumek"
+      "buyuk-orman-yurumek",
+      "buyuk-anahtar-kalkmak",
+      "buyuk-nehir-kovalamak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -2433,7 +2537,9 @@
     "relatedSymbols": [
       "buyuk-orman-kirmak",
       "buyuk-orman-gostermek",
-      "buyuk-orman-ziplamak"
+      "buyuk-orman-ziplamak",
+      "buyuk-ucak-saklamak",
+      "buyuk-yolcu-gemisiyle-masmavi-okyanusta-adaya-dogru-seyrusefer-etmek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -2479,7 +2585,9 @@
     "relatedSymbols": [
       "buyuk-orman-yapmak",
       "buyuk-orman-dusmek",
-      "buyuk-orman-ucmak"
+      "buyuk-orman-ucmak",
+      "buyuk-gunes-dinlemek",
+      "buyuk-masa-gulmek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -2525,7 +2633,9 @@
     "relatedSymbols": [
       "buyuk-orman-yikmak",
       "buyuk-orman-kalkmak",
-      "buyuk-orman-yuzmek"
+      "buyuk-orman-yuzmek",
+      "sakin-orman",
+      "buyuk-duvar-bogulmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -2571,7 +2681,9 @@
     "relatedSymbols": [
       "buyuk-orman-aramak",
       "buyuk-orman-kosmak",
-      "buyuk-orman-bogulmak"
+      "buyuk-orman-bogulmak",
+      "kavrulmus-orman",
+      "buyuk-merdiven-kacmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -2617,7 +2729,9 @@
     "relatedSymbols": [
       "buyuk-orman-gostermek",
       "buyuk-orman-yurumek",
-      "buyuk-orman-gulmek"
+      "buyuk-orman-gulmek",
+      "buyuk-saat-korkmak",
+      "buyuk-nehir-dinlemek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -2663,7 +2777,9 @@
     "relatedSymbols": [
       "buyuk-orman-dusmek",
       "buyuk-orman-ziplamak",
-      "buyuk-orman-aglamak"
+      "buyuk-orman-aglamak",
+      "buyuk-koy-yuzmek",
+      "buyuk-yatak-gulmek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -2709,7 +2825,9 @@
     "relatedSymbols": [
       "buyuk-orman-kalkmak",
       "buyuk-orman-ucmak",
-      "buyuk-orman-korkmak"
+      "buyuk-orman-korkmak",
+      "buyuk-duvar-yapmak",
+      "buyuk-dag-gezmek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -2755,7 +2873,9 @@
     "relatedSymbols": [
       "buyuk-orman-kosmak",
       "buyuk-orman-yuzmek",
-      "buyuk-orman-bagirmak"
+      "buyuk-orman-bagirmak",
+      "buyuk-koy-dinlemek",
+      "eski-orman-bagirmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -2801,7 +2921,9 @@
     "relatedSymbols": [
       "buyuk-orman-yurumek",
       "buyuk-orman-bogulmak",
-      "buyuk-orman-soylemek"
+      "buyuk-orman-soylemek",
+      "buyuk-mezar-bulmak",
+      "buyuk-dag-saklamak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -2847,7 +2969,9 @@
     "relatedSymbols": [
       "buyuk-orman-ziplamak",
       "buyuk-orman-gulmek",
-      "buyuk-orman-dinlemek"
+      "buyuk-orman-dinlemek",
+      "yeni-abi-yurumek",
+      "eski-ekmek-yurumek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -2893,7 +3017,9 @@
     "relatedSymbols": [
       "buyuk-orman-ucmak",
       "buyuk-orman-aglamak",
-      "buyuk-orman-sarilarak"
+      "buyuk-orman-sarilarak",
+      "buyuk-agac-yapmak",
+      "buyuk-mezar-kirmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -2939,7 +3065,9 @@
     "relatedSymbols": [
       "buyuk-orman-yuzmek",
       "buyuk-orman-korkmak",
-      "buyuk-orman-kacmak"
+      "buyuk-orman-kacmak",
+      "buyuk-dag-satmak",
+      "buyuk-merdiven-yuzmek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -2985,7 +3113,9 @@
     "relatedSymbols": [
       "buyuk-orman-bogulmak",
       "buyuk-orman-bagirmak",
-      "buyuk-orman-kovalamak"
+      "buyuk-orman-kovalamak",
+      "buyuk-koy-bagirmak",
+      "buyuk-gunes-yikmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -3031,7 +3161,9 @@
     "relatedSymbols": [
       "buyuk-orman-gulmek",
       "buyuk-orman-soylemek",
-      "buyuk-orman-saklamak"
+      "buyuk-orman-saklamak",
+      "yeni-orman-yikmak",
+      "buyuk-bisiklet-bogulmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -3077,7 +3209,9 @@
     "relatedSymbols": [
       "buyuk-orman-aglamak",
       "buyuk-orman-dinlemek",
-      "buyuk-orman-gezmek"
+      "buyuk-orman-gezmek",
+      "eski-orman-okumak",
+      "buyuk-kilic-yuzmek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -3123,7 +3257,9 @@
     "relatedSymbols": [
       "buyuk-orman-korkmak",
       "buyuk-orman-sarilarak",
-      "buyuk-nehir-gomek"
+      "buyuk-nehir-gomek",
+      "buyuk-asker-bulmak",
+      "siyah-dis-aglamak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -3169,7 +3305,9 @@
     "relatedSymbols": [
       "buyuk-orman-bagirmak",
       "buyuk-orman-kacmak",
-      "buyuk-nehir-almak"
+      "buyuk-nehir-almak",
+      "buyuk-hastane-aramak",
+      "dar-orman"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -3215,7 +3353,9 @@
     "relatedSymbols": [
       "buyuk-orman-soylemek",
       "buyuk-orman-kovalamak",
-      "buyuk-nehir-satmak"
+      "buyuk-nehir-satmak",
+      "buyuk-nehir-yapmak",
+      "buyuk-pencere-kovalamak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -3261,7 +3401,9 @@
     "relatedSymbols": [
       "buyuk-orman-dinlemek",
       "buyuk-orman-saklamak",
-      "buyuk-nehir-bulmak"
+      "buyuk-nehir-bulmak",
+      "buzlu-orman",
+      "buyuk-koy-yurumek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -3307,7 +3449,9 @@
     "relatedSymbols": [
       "buyuk-orman-sarilarak",
       "buyuk-orman-gezmek",
-      "buyuk-nehir-kaybetmek"
+      "buyuk-nehir-kaybetmek",
+      "buyuk-bisiklet-gezmek",
+      "buyuk-kilic-ziplamak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -3353,7 +3497,9 @@
     "relatedSymbols": [
       "buyuk-orman-kacmak",
       "buyuk-nehir-gomek",
-      "buyuk-nehir-kirmak"
+      "buyuk-nehir-kirmak",
+      "sakin-orman",
+      "buyuk-gozluk-dinlemek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -3399,7 +3545,9 @@
     "relatedSymbols": [
       "buyuk-orman-kovalamak",
       "buyuk-nehir-almak",
-      "buyuk-nehir-yapmak"
+      "buyuk-nehir-yapmak",
+      "yeni-gul-kacmak",
+      "ailenle-birlikte-buyuk-ve-aydinlik-bir-konakta-yuruyus-yapmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -3445,7 +3593,9 @@
     "relatedSymbols": [
       "buyuk-orman-saklamak",
       "buyuk-nehir-satmak",
-      "buyuk-nehir-yikmak"
+      "buyuk-nehir-yikmak",
+      "buyuk-dost-gostermek",
+      "buyuk-ay-aglamak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -3491,7 +3641,9 @@
     "relatedSymbols": [
       "buyuk-orman-gezmek",
       "buyuk-nehir-bulmak",
-      "buyuk-nehir-aramak"
+      "buyuk-nehir-aramak",
+      "aglayan-orman",
+      "eski-deniz-saklamak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -3537,7 +3689,9 @@
     "relatedSymbols": [
       "buyuk-nehir-gomek",
       "buyuk-nehir-kaybetmek",
-      "buyuk-nehir-gostermek"
+      "buyuk-nehir-gostermek",
+      "buyuk-anahtar-saklamak",
+      "buyuk-ucak-gomek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -3583,7 +3737,9 @@
     "relatedSymbols": [
       "buyuk-nehir-almak",
       "buyuk-nehir-kirmak",
-      "buyuk-nehir-dusmek"
+      "buyuk-nehir-dusmek",
+      "yeni-nehir-yikmak",
+      "buyuk-nehir-saklamak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -3629,7 +3785,9 @@
     "relatedSymbols": [
       "buyuk-nehir-satmak",
       "buyuk-nehir-yapmak",
-      "buyuk-nehir-kalkmak"
+      "buyuk-nehir-kalkmak",
+      "yeni-nehir-ucmak",
+      "buyuk-dost-gostermek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -3675,7 +3833,9 @@
     "relatedSymbols": [
       "buyuk-nehir-bulmak",
       "buyuk-nehir-yikmak",
-      "buyuk-nehir-kosmak"
+      "buyuk-nehir-kosmak",
+      "buyuk-merdiven-gomek",
+      "eski-nehir-kacmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -3721,7 +3881,9 @@
     "relatedSymbols": [
       "buyuk-nehir-kaybetmek",
       "buyuk-nehir-aramak",
-      "buyuk-nehir-yurumek"
+      "buyuk-nehir-yurumek",
+      "buyuk-koltuk-ziplamak",
+      "buyuk-gunes-saklamak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -3767,7 +3929,9 @@
     "relatedSymbols": [
       "buyuk-nehir-kirmak",
       "buyuk-nehir-gostermek",
-      "buyuk-nehir-ziplamak"
+      "buyuk-nehir-ziplamak",
+      "buyuk-ucak-satmak",
+      "buyuk-hastane-kovalamak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -3813,7 +3977,9 @@
     "relatedSymbols": [
       "buyuk-nehir-yapmak",
       "buyuk-nehir-dusmek",
-      "buyuk-nehir-ucmak"
+      "buyuk-nehir-ucmak",
+      "buyuk-ogretmen-kalkmak",
+      "buyuk-gozluk-kosmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -3859,7 +4025,9 @@
     "relatedSymbols": [
       "buyuk-nehir-yikmak",
       "buyuk-nehir-kalkmak",
-      "buyuk-nehir-yuzmek"
+      "buyuk-nehir-yuzmek",
+      "buyuk-duvar-kacmak",
+      "buyuk-cuzdan-dinlemek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -3905,7 +4073,9 @@
     "relatedSymbols": [
       "buyuk-nehir-aramak",
       "buyuk-nehir-kosmak",
-      "buyuk-nehir-bogulmak"
+      "buyuk-nehir-bogulmak",
+      "buyuk-deniz-yikmak",
+      "buyuk-koltuk-dusmek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -3951,7 +4121,9 @@
     "relatedSymbols": [
       "buyuk-nehir-gostermek",
       "buyuk-nehir-yurumek",
-      "buyuk-nehir-gulmek"
+      "buyuk-nehir-gulmek",
+      "yeni-nehir-tasimak",
+      "eski-hala-aramak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -3997,7 +4169,9 @@
     "relatedSymbols": [
       "buyuk-nehir-dusmek",
       "buyuk-nehir-ziplamak",
-      "buyuk-nehir-aglamak"
+      "buyuk-nehir-aglamak",
+      "buyuk-pencere-bogulmak",
+      "buyuk-mezar-kacmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -4043,7 +4217,9 @@
     "relatedSymbols": [
       "buyuk-nehir-kalkmak",
       "buyuk-nehir-ucmak",
-      "buyuk-nehir-korkmak"
+      "buyuk-nehir-korkmak",
+      "duzenli-ve-modern-bilim-laboratuvarinda-buyuk-kesif-yapmak",
+      "buyuk-yatak-saklamak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -4089,7 +4265,9 @@
     "relatedSymbols": [
       "buyuk-nehir-kosmak",
       "buyuk-nehir-yuzmek",
-      "buyuk-nehir-bagirmak"
+      "buyuk-nehir-bagirmak",
+      "eski-nehir-dinlemek",
+      "buyuk-gunes-yuzmek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -4135,7 +4313,9 @@
     "relatedSymbols": [
       "buyuk-nehir-yurumek",
       "buyuk-nehir-bogulmak",
-      "buyuk-nehir-soylemek"
+      "buyuk-nehir-soylemek",
+      "buyuk-koltuk-ziplamak",
+      "eski-orman-kosmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -4181,7 +4361,9 @@
     "relatedSymbols": [
       "buyuk-nehir-ziplamak",
       "buyuk-nehir-gulmek",
-      "buyuk-sehir-dusmek"
+      "buyuk-sehir-dusmek",
+      "buyuk-geminin-guvertesinde-deniz-havasi-almak",
+      "buyuk-ruzgar-bulmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -4227,7 +4409,9 @@
     "relatedSymbols": [
       "buyuk-nehir-ucmak",
       "buyuk-nehir-aglamak",
-      "buyuk-sehir-kalkmak"
+      "buyuk-sehir-kalkmak",
+      "buyuk-sehir-sarilarak",
+      "buyuk-elbise-yikmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -4273,7 +4457,9 @@
     "relatedSymbols": [
       "buyuk-nehir-yuzmek",
       "buyuk-nehir-korkmak",
-      "buyuk-sehir-kosmak"
+      "buyuk-sehir-kosmak",
+      "yeni-kolye-ucmak",
+      "eski-kupe-ucmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -4319,7 +4505,9 @@
     "relatedSymbols": [
       "buyuk-nehir-bogulmak",
       "buyuk-nehir-bagirmak",
-      "buyuk-sehir-yurumek"
+      "buyuk-sehir-yurumek",
+      "buyuk-babanin-ceviz-agacindan-yapilmis-el-islemesi-hatira-sandigi",
+      "buyuk-hastane-kacmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -4365,7 +4553,9 @@
     "relatedSymbols": [
       "buyuk-nehir-gulmek",
       "buyuk-nehir-soylemek",
-      "buyuk-sehir-ziplamak"
+      "buyuk-sehir-ziplamak",
+      "ferah-ve-gunes-alan-buyuk-bir-salonda-beyaz-koltuklarda-oturmak",
+      "buyuk-yol-bogulmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -4411,7 +4601,9 @@
     "relatedSymbols": [
       "buyuk-nehir-aglamak",
       "buyuk-sehir-dusmek",
-      "buyuk-sehir-ucmak"
+      "buyuk-sehir-ucmak",
+      "buyuk-kitap-gulmek",
+      "buyuk-tren-korkmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -4457,7 +4649,9 @@
     "relatedSymbols": [
       "buyuk-nehir-korkmak",
       "buyuk-sehir-kalkmak",
-      "buyuk-sehir-yuzmek"
+      "buyuk-sehir-yuzmek",
+      "buyuk-elbise-saklamak",
+      "buyuk-dost-aramak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -4503,7 +4697,9 @@
     "relatedSymbols": [
       "buyuk-nehir-bagirmak",
       "buyuk-sehir-kosmak",
-      "buyuk-sehir-bogulmak"
+      "buyuk-sehir-bogulmak",
+      "buyuk-dag-yikmak",
+      "buyuk-bebek-gostermek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -4549,7 +4745,9 @@
     "relatedSymbols": [
       "buyuk-nehir-soylemek",
       "buyuk-sehir-yurumek",
-      "buyuk-sehir-gulmek"
+      "buyuk-sehir-gulmek",
+      "buyuk-hastane-aramak",
+      "buyuk-agac-satmak"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   },
@@ -4595,7 +4793,9 @@
     "relatedSymbols": [
       "buyuk-sehir-dusmek",
       "buyuk-sehir-ziplamak",
-      "buyuk-sehir-aglamak"
+      "buyuk-sehir-aglamak",
+      "eski-gozluk-soylemek",
+      "eski-nehir-dusurmek"
     ],
     "dateModified": "2026-07-29T14:31:35.155Z"
   }

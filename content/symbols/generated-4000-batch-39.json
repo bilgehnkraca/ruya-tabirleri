@@ -41,7 +41,9 @@
     "relatedSymbols": [
       "yeni-asker-bagirmak",
       "yeni-asker-kacmak",
-      "yeni-dost-yapmak"
+      "yeni-dost-yapmak",
+      "buyuk-gozluk-korkmak",
+      "yeni-firtina-dusurmek"
     ],
     "dateModified": "2026-07-29T14:31:35.298Z"
   },
@@ -87,7 +89,9 @@
     "relatedSymbols": [
       "yeni-asker-soylemek",
       "yeni-asker-kovalamak",
-      "yeni-dost-yikmak"
+      "yeni-dost-yikmak",
+      "yeni-yatak-dikmek",
+      "yeni-sapka-aramak"
     ],
     "dateModified": "2026-07-29T14:31:35.298Z"
   },
@@ -133,7 +137,9 @@
     "relatedSymbols": [
       "yeni-asker-dinlemek",
       "yeni-asker-saklamak",
-      "yeni-dost-gostermek"
+      "yeni-dost-gostermek",
+      "yeni-dusman-yuzmek",
+      "yeni-merdiven-gomek"
     ],
     "dateModified": "2026-07-29T14:31:35.298Z"
   },
@@ -179,7 +185,9 @@
     "relatedSymbols": [
       "yeni-asker-sarilarak",
       "yeni-asker-gezmek",
-      "yeni-dost-dusmek"
+      "yeni-dost-dusmek",
+      "yeni-ruzgar-bogulmak",
+      "yeni-altin-saklamak"
     ],
     "dateModified": "2026-07-29T14:31:35.298Z"
   },
@@ -225,7 +233,9 @@
     "relatedSymbols": [
       "yeni-asker-kacmak",
       "yeni-dost-gomek",
-      "yeni-dost-kalkmak"
+      "yeni-dost-kalkmak",
+      "yeni-bebek-ziplamak",
+      "yeni-yildiz-birakmak"
     ],
     "dateModified": "2026-07-29T14:31:35.298Z"
   },
@@ -271,7 +281,9 @@
     "relatedSymbols": [
       "yeni-asker-kovalamak",
       "yeni-dost-yapmak",
-      "yeni-dost-ziplamak"
+      "yeni-dost-ziplamak",
+      "yeni-ay-dusmek",
+      "yeni-nine-almak"
     ],
     "dateModified": "2026-07-29T14:31:35.298Z"
   },
@@ -317,7 +329,9 @@
     "relatedSymbols": [
       "yeni-asker-saklamak",
       "yeni-dost-yikmak",
-      "yeni-dost-bogulmak"
+      "yeni-dost-bogulmak",
+      "yeni-elma-birakmak",
+      "yeni-kolye-satmak"
     ],
     "dateModified": "2026-07-29T14:31:35.298Z"
   },
@@ -363,7 +377,9 @@
     "relatedSymbols": [
       "yeni-asker-gezmek",
       "yeni-dost-gostermek",
-      "yeni-dost-gulmek"
+      "yeni-dost-gulmek",
+      "yeni-motosiklet-dikmek",
+      "yeni-battaniye-yemek"
     ],
     "dateModified": "2026-07-29T14:31:35.298Z"
   },
@@ -409,7 +425,9 @@
     "relatedSymbols": [
       "yeni-dost-gomek",
       "yeni-dost-dusmek",
-      "yeni-dost-aglamak"
+      "yeni-dost-aglamak",
+      "yeni-bilezik-yazmak",
+      "yeni-ve-konforlu-bir-jeep-ile-engelli-dag-yollarini-kolayca-asmak"
     ],
     "dateModified": "2026-07-29T14:31:35.298Z"
   },
@@ -455,7 +473,9 @@
     "relatedSymbols": [
       "yeni-dost-yapmak",
       "yeni-dost-kalkmak",
-      "yeni-dost-korkmak"
+      "yeni-dost-korkmak",
+      "yeni-defter-tirmanmak",
+      "yeni-su-vermek"
     ],
     "dateModified": "2026-07-29T14:31:35.298Z"
   },
@@ -501,7 +521,9 @@
     "relatedSymbols": [
       "yeni-dost-yikmak",
       "yeni-dost-ziplamak",
-      "yeni-dost-bagirmak"
+      "yeni-dost-bagirmak",
+      "yeni-hali-aramak",
+      "yeni-kedi-gormek"
     ],
     "dateModified": "2026-07-29T14:31:35.298Z"
   },
@@ -547,7 +569,9 @@
     "relatedSymbols": [
       "yeni-dost-gostermek",
       "yeni-dost-bogulmak",
-      "yeni-dost-soylemek"
+      "yeni-dost-soylemek",
+      "yeni-sehir-kovalamak",
+      "yeni-patron-bogulmak"
     ],
     "dateModified": "2026-07-29T14:31:35.298Z"
   },
@@ -593,7 +617,9 @@
     "relatedSymbols": [
       "yeni-dost-dusmek",
       "yeni-dost-gulmek",
-      "yeni-dost-dinlemek"
+      "yeni-dost-dinlemek",
+      "yeni-canta-yazmak",
+      "eski-ay-gostermek"
     ],
     "dateModified": "2026-07-29T14:31:35.298Z"
   },
@@ -639,7 +665,9 @@
     "relatedSymbols": [
       "yeni-dost-kalkmak",
       "yeni-dost-aglamak",
-      "yeni-dost-sarilarak"
+      "yeni-dost-sarilarak",
+      "yeni-bulut-yikamak",
+      "eski-dost-tasimak"
     ],
     "dateModified": "2026-07-29T14:31:35.298Z"
   },
@@ -685,7 +713,9 @@
     "relatedSymbols": [
       "yeni-dost-ziplamak",
       "yeni-dost-korkmak",
-      "yeni-dost-kacmak"
+      "yeni-dost-kacmak",
+      "yeni-asker-satmak",
+      "yeni-masa-tirmanmak"
     ],
     "dateModified": "2026-07-29T14:31:35.298Z"
   },
@@ -731,7 +761,9 @@
     "relatedSymbols": [
       "yeni-dost-bogulmak",
       "yeni-dost-bagirmak",
-      "yeni-dost-kovalamak"
+      "yeni-dost-kovalamak",
+      "yeni-kitap-kirmak",
+      "yeni-ay-kacmak"
     ],
     "dateModified": "2026-07-29T14:31:35.298Z"
   },
@@ -777,7 +809,9 @@
     "relatedSymbols": [
       "yeni-dost-gulmek",
       "yeni-dost-soylemek",
-      "yeni-dost-gezmek"
+      "yeni-dost-gezmek",
+      "yeni-kolye-tirmanmak",
+      "yeni-yasli-vermek"
     ],
     "dateModified": "2026-07-29T14:31:35.298Z"
   },
@@ -823,7 +857,9 @@
     "relatedSymbols": [
       "yeni-dost-aglamak",
       "yeni-dost-dinlemek",
-      "yeni-ogretmen-gomek"
+      "yeni-ogretmen-gomek",
+      "yeni-televizyon-yazmak",
+      "yeni-pencere-bulmak"
     ],
     "dateModified": "2026-07-29T14:31:35.298Z"
   },
@@ -869,7 +905,9 @@
     "relatedSymbols": [
       "yeni-dost-korkmak",
       "yeni-dost-sarilarak",
-      "yeni-ogretmen-almak"
+      "yeni-ogretmen-almak",
+      "yeni-dost-yemek",
+      "yeni-kravat-kosmak"
     ],
     "dateModified": "2026-07-29T14:31:35.298Z"
   },
@@ -915,7 +953,9 @@
     "relatedSymbols": [
       "yeni-dost-bagirmak",
       "yeni-dost-kacmak",
-      "yeni-ogretmen-satmak"
+      "yeni-ogretmen-satmak",
+      "yeni-defter-korumak",
+      "yeni-kasik-aramak"
     ],
     "dateModified": "2026-07-29T14:31:35.298Z"
   },
@@ -961,7 +1001,9 @@
     "relatedSymbols": [
       "yeni-dost-soylemek",
       "yeni-dost-kovalamak",
-      "yeni-ogretmen-bulmak"
+      "yeni-ogretmen-bulmak",
+      "yeni-elma-saklamak",
+      "yeni-yildiz-vermek"
     ],
     "dateModified": "2026-07-29T14:31:35.298Z"
   },
@@ -1007,7 +1049,9 @@
     "relatedSymbols": [
       "yeni-dost-dinlemek",
       "yeni-dost-gezmek",
-      "yeni-ogretmen-kaybetmek"
+      "yeni-ogretmen-kaybetmek",
+      "yeni-yorgan-ucmak",
+      "yeni-traktor-kaybetmek"
     ],
     "dateModified": "2026-07-29T14:31:35.298Z"
   },
@@ -1053,7 +1097,9 @@
     "relatedSymbols": [
       "yeni-dost-sarilarak",
       "yeni-ogretmen-gomek",
-      "yeni-ogretmen-kirmak"
+      "yeni-ogretmen-kirmak",
+      "yeni-dag-kovalamak",
+      "yeni-agac-aramak"
     ],
     "dateModified": "2026-07-29T14:31:35.298Z"
   },
@@ -1099,7 +1145,9 @@
     "relatedSymbols": [
       "yeni-dost-kacmak",
       "yeni-ogretmen-almak",
-      "yeni-ogretmen-yapmak"
+      "yeni-ogretmen-yapmak",
+      "yeni-yatak-yurumek",
+      "yeni-yagmur-dusurmek"
     ],
     "dateModified": "2026-07-29T14:31:35.298Z"
   },
@@ -1145,7 +1193,9 @@
     "relatedSymbols": [
       "yeni-dost-kovalamak",
       "yeni-ogretmen-satmak",
-      "yeni-ogretmen-yikmak"
+      "yeni-ogretmen-yikmak",
+      "yeni-ayakkabi-tasimak",
+      "yeni-saat-kaybetmek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -1191,7 +1241,9 @@
     "relatedSymbols": [
       "yeni-dost-gezmek",
       "yeni-ogretmen-bulmak",
-      "yeni-ogretmen-aramak"
+      "yeni-ogretmen-aramak",
+      "yeni-gunes-yikamak",
+      "yeni-yatak-yazmak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -1237,7 +1289,9 @@
     "relatedSymbols": [
       "yeni-ogretmen-gomek",
       "yeni-ogretmen-kaybetmek",
-      "yeni-ogretmen-gostermek"
+      "yeni-ogretmen-gostermek",
+      "yeni-yastik-korumak",
+      "yeni-asker-bagirmak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -1283,7 +1337,9 @@
     "relatedSymbols": [
       "yeni-ogretmen-almak",
       "yeni-ogretmen-kirmak",
-      "yeni-ogretmen-dusmek"
+      "yeni-ogretmen-dusmek",
+      "yeni-selale-kaybetmek",
+      "yeni-kasik-birakmak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -1329,7 +1385,9 @@
     "relatedSymbols": [
       "yeni-ogretmen-satmak",
       "yeni-ogretmen-yapmak",
-      "yeni-ogretmen-kalkmak"
+      "yeni-ogretmen-kalkmak",
+      "yeni-catal-vermek",
+      "yeni-abla-kirmak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -1375,7 +1433,9 @@
     "relatedSymbols": [
       "yeni-ogretmen-bulmak",
       "yeni-ogretmen-yikmak",
-      "yeni-ogretmen-kosmak"
+      "yeni-ogretmen-kosmak",
+      "siyah-kedi-satmak",
+      "yeni-merdiven-kirmak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -1421,7 +1481,9 @@
     "relatedSymbols": [
       "yeni-ogretmen-kaybetmek",
       "yeni-ogretmen-aramak",
-      "yeni-ogretmen-yurumek"
+      "yeni-ogretmen-yurumek",
+      "kucuk-masa-bulmak",
+      "yeni-gunes-okumak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -1467,7 +1529,9 @@
     "relatedSymbols": [
       "yeni-ogretmen-kirmak",
       "yeni-ogretmen-gostermek",
-      "yeni-ogretmen-ziplamak"
+      "yeni-ogretmen-ziplamak",
+      "yeni-dusman-almak",
+      "nostaljik-tren-istasyonunda-elinde-cicekle-yeni-gelen-yolculari-beklemek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -1513,7 +1577,9 @@
     "relatedSymbols": [
       "yeni-ogretmen-yapmak",
       "yeni-ogretmen-dusmek",
-      "yeni-ogretmen-ucmak"
+      "yeni-ogretmen-ucmak",
+      "yeni-amca-calmak",
+      "yeni-cuzdan-bagirmak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -1559,7 +1625,9 @@
     "relatedSymbols": [
       "yeni-ogretmen-yikmak",
       "yeni-ogretmen-kalkmak",
-      "yeni-ogretmen-yuzmek"
+      "yeni-ogretmen-yuzmek",
+      "yeni-traktor-kaybetmek",
+      "yeni-elbise-kalkmak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -1605,7 +1673,9 @@
     "relatedSymbols": [
       "yeni-ogretmen-aramak",
       "yeni-ogretmen-kosmak",
-      "yeni-ogretmen-bogulmak"
+      "yeni-ogretmen-bogulmak",
+      "yeni-gunes-korkmak",
+      "yeni-agac-yikmak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -1651,7 +1721,9 @@
     "relatedSymbols": [
       "yeni-ogretmen-gostermek",
       "yeni-ogretmen-yurumek",
-      "yeni-ogretmen-gulmek"
+      "yeni-ogretmen-gulmek",
+      "yeni-gol-tirmanmak",
+      "yeni-gol-kaybetmek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -1697,7 +1769,9 @@
     "relatedSymbols": [
       "yeni-ogretmen-dusmek",
       "yeni-ogretmen-ziplamak",
-      "yeni-ogretmen-aglamak"
+      "yeni-ogretmen-aglamak",
+      "yeni-arkadas-kaybetmek",
+      "yeni-gozluk-tirmanmak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -1743,7 +1817,9 @@
     "relatedSymbols": [
       "yeni-ogretmen-kalkmak",
       "yeni-ogretmen-ucmak",
-      "yeni-ogretmen-korkmak"
+      "yeni-ogretmen-korkmak",
+      "yeni-canta-bulmak",
+      "yeni-yastik-gormek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -1789,7 +1865,9 @@
     "relatedSymbols": [
       "yeni-ogretmen-kosmak",
       "yeni-ogretmen-yuzmek",
-      "yeni-ogretmen-bagirmak"
+      "yeni-ogretmen-bagirmak",
+      "yeni-aldigin-arabayla-dag-yolunda-manzara-izlemek",
+      "yeni-anne-yemek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -1835,7 +1913,9 @@
     "relatedSymbols": [
       "yeni-ogretmen-yurumek",
       "yeni-ogretmen-bogulmak",
-      "yeni-ogretmen-soylemek"
+      "yeni-ogretmen-soylemek",
+      "yeni-yorgan-kosmak",
+      "ruzgarla-dalgalanan-altin-sarisi-bugday-tarlasi-icinde-kosmak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -1881,7 +1961,9 @@
     "relatedSymbols": [
       "yeni-ogretmen-ziplamak",
       "yeni-ogretmen-gulmek",
-      "yeni-ogretmen-dinlemek"
+      "yeni-ogretmen-dinlemek",
+      "eski-televizyon-yurumek",
+      "yeni-bisiklet-yazmak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -1927,7 +2009,9 @@
     "relatedSymbols": [
       "yeni-ogretmen-ucmak",
       "yeni-ogretmen-aglamak",
-      "yeni-ogretmen-sarilarak"
+      "yeni-ogretmen-sarilarak",
+      "yeni-yilan-korumak",
+      "yeni-battaniye-yikamak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -1973,7 +2057,9 @@
     "relatedSymbols": [
       "yeni-ogretmen-yuzmek",
       "yeni-ogretmen-korkmak",
-      "yeni-ogretmen-kacmak"
+      "yeni-ogretmen-kacmak",
+      "yeni-ucak-yuzmek",
+      "yeni-firtina-yemek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -2019,7 +2105,9 @@
     "relatedSymbols": [
       "yeni-ogretmen-bogulmak",
       "yeni-ogretmen-bagirmak",
-      "yeni-ogretmen-kovalamak"
+      "yeni-ogretmen-kovalamak",
+      "yeni-elbise-ziplamak",
+      "yeni-kar-saklamak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -2065,7 +2153,9 @@
     "relatedSymbols": [
       "yeni-ogretmen-gulmek",
       "yeni-ogretmen-soylemek",
-      "yeni-ogretmen-saklamak"
+      "yeni-ogretmen-saklamak",
+      "yeni-kapi-yemek",
+      "yeni-otobus-yemek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -2111,7 +2201,9 @@
     "relatedSymbols": [
       "yeni-ogretmen-aglamak",
       "yeni-ogretmen-dinlemek",
-      "yeni-ogretmen-gezmek"
+      "yeni-ogretmen-gezmek",
+      "yeni-col-korumak",
+      "yeni-sehir-almak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -2157,7 +2249,9 @@
     "relatedSymbols": [
       "yeni-ogretmen-korkmak",
       "yeni-ogretmen-sarilarak",
-      "yeni-patron-gomek"
+      "yeni-patron-gomek",
+      "yeni-kopek-ucmak",
+      "yeni-kolye-yikamak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -2203,7 +2297,9 @@
     "relatedSymbols": [
       "yeni-ogretmen-bagirmak",
       "yeni-ogretmen-kacmak",
-      "yeni-patron-almak"
+      "yeni-patron-almak",
+      "yeni-gol-okumak",
+      "yeni-ay-yuzmek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -2249,7 +2345,9 @@
     "relatedSymbols": [
       "yeni-ogretmen-soylemek",
       "yeni-ogretmen-kovalamak",
-      "yeni-patron-satmak"
+      "yeni-patron-satmak",
+      "yeni-sapka-gormek",
+      "yeni-kitap-soylemek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -2295,7 +2393,9 @@
     "relatedSymbols": [
       "yeni-ogretmen-dinlemek",
       "yeni-ogretmen-saklamak",
-      "yeni-patron-bulmak"
+      "yeni-patron-bulmak",
+      "yeni-ogretmen-yapmak",
+      "yeni-catal-vermek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -2341,7 +2441,9 @@
     "relatedSymbols": [
       "yeni-ogretmen-sarilarak",
       "yeni-ogretmen-gezmek",
-      "yeni-patron-kaybetmek"
+      "yeni-patron-kaybetmek",
+      "yeni-hali-satmak",
+      "yeni-yorgan-vermek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -2387,7 +2489,9 @@
     "relatedSymbols": [
       "yeni-ogretmen-kacmak",
       "yeni-patron-gomek",
-      "yeni-patron-kirmak"
+      "yeni-patron-kirmak",
+      "yeni-kanepe-tasimak",
+      "yeni-yatak-kacmak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -2433,7 +2537,9 @@
     "relatedSymbols": [
       "yeni-ogretmen-kovalamak",
       "yeni-patron-almak",
-      "yeni-patron-yapmak"
+      "yeni-patron-yapmak",
+      "yeni-kus",
+      "yeni-elbise-dikmek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -2479,7 +2585,9 @@
     "relatedSymbols": [
       "yeni-ogretmen-saklamak",
       "yeni-patron-satmak",
-      "yeni-patron-yikmak"
+      "yeni-patron-yikmak",
+      "yeni-ayna-korkmak",
+      "yeni-battaniye-tasimak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -2525,7 +2633,9 @@
     "relatedSymbols": [
       "yeni-ogretmen-gezmek",
       "yeni-patron-bulmak",
-      "yeni-patron-aramak"
+      "yeni-patron-aramak",
+      "yeni-yilan-aramak",
+      "yeni-hali-temizlemek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -2571,7 +2681,9 @@
     "relatedSymbols": [
       "yeni-patron-gomek",
       "yeni-patron-kaybetmek",
-      "yeni-patron-gostermek"
+      "yeni-patron-gostermek",
+      "yeni-magara-tasimak",
+      "yeni-radyo-kosmak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -2617,7 +2729,9 @@
     "relatedSymbols": [
       "yeni-patron-almak",
       "yeni-patron-kirmak",
-      "yeni-patron-dusmek"
+      "yeni-patron-dusmek",
+      "kucuk-nehir-gomek",
+      "yeni-baba-yemek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -2663,7 +2777,9 @@
     "relatedSymbols": [
       "yeni-patron-satmak",
       "yeni-patron-yapmak",
-      "yeni-patron-kalkmak"
+      "yeni-patron-kalkmak",
+      "yeni-kar-korumak",
+      "yeni-para-gormek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -2709,7 +2825,9 @@
     "relatedSymbols": [
       "yeni-patron-bulmak",
       "yeni-patron-yikmak",
-      "yeni-patron-kosmak"
+      "yeni-patron-kosmak",
+      "yeni-kitap-kosmak",
+      "yeni-saat-kaybetmek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -2755,7 +2873,9 @@
     "relatedSymbols": [
       "yeni-patron-kaybetmek",
       "yeni-patron-aramak",
-      "yeni-patron-yurumek"
+      "yeni-patron-yurumek",
+      "yeni-nehir-calmak",
+      "yeni-saat-yazmak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -2801,7 +2921,9 @@
     "relatedSymbols": [
       "yeni-patron-kirmak",
       "yeni-patron-gostermek",
-      "yeni-patron-ziplamak"
+      "yeni-patron-ziplamak",
+      "yeni-selale-dikmek",
+      "yeni-deniz-gormek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -2847,7 +2969,9 @@
     "relatedSymbols": [
       "yeni-patron-yapmak",
       "yeni-patron-dusmek",
-      "yeni-patron-ucmak"
+      "yeni-patron-ucmak",
+      "yeni-masa-dinlemek",
+      "yeni-tren-ucmak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -2893,7 +3017,9 @@
     "relatedSymbols": [
       "yeni-patron-yikmak",
       "yeni-patron-kalkmak",
-      "yeni-patron-yuzmek"
+      "yeni-patron-yuzmek",
+      "yeni-gumus-birakmak",
+      "yeni-hastane-soylemek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -2939,7 +3065,9 @@
     "relatedSymbols": [
       "yeni-patron-aramak",
       "yeni-patron-kosmak",
-      "yeni-patron-bogulmak"
+      "yeni-patron-bogulmak",
+      "yeni-otobus-ucmak",
+      "yeni-yol-dinlemek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -2985,7 +3113,9 @@
     "relatedSymbols": [
       "yeni-patron-gostermek",
       "yeni-patron-yurumek",
-      "yeni-patron-gulmek"
+      "yeni-patron-gulmek",
+      "yeni-kilic-yapmak",
+      "yeni-elbise-dinlemek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -3031,7 +3161,9 @@
     "relatedSymbols": [
       "yeni-patron-dusmek",
       "yeni-patron-ziplamak",
-      "yeni-patron-aglamak"
+      "yeni-patron-aglamak",
+      "yeni-saat-ziplamak",
+      "yeni-kus-kosmak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -3077,7 +3209,9 @@
     "relatedSymbols": [
       "yeni-patron-kalkmak",
       "yeni-patron-ucmak",
-      "yeni-patron-korkmak"
+      "yeni-patron-korkmak",
+      "yeni-kitap-soylemek",
+      "yeni-araba-korumak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -3123,7 +3257,9 @@
     "relatedSymbols": [
       "yeni-patron-kosmak",
       "yeni-patron-yuzmek",
-      "yeni-patron-bagirmak"
+      "yeni-patron-bagirmak",
+      "yeni-ucak-aramak",
+      "yeni-kamyon-korumak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -3169,7 +3305,9 @@
     "relatedSymbols": [
       "yeni-patron-yurumek",
       "yeni-patron-bogulmak",
-      "yeni-patron-soylemek"
+      "yeni-patron-soylemek",
+      "yeni-telefon-aglamak",
+      "yeni-defter-yemek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -3215,7 +3353,9 @@
     "relatedSymbols": [
       "yeni-patron-ziplamak",
       "yeni-patron-gulmek",
-      "yeni-patron-dinlemek"
+      "yeni-patron-dinlemek",
+      "nostaljik-tren-istasyonunda-elinde-cicekle-yeni-gelen-yolculari-beklemek",
+      "yeni-kedi-yurumek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -3261,7 +3401,9 @@
     "relatedSymbols": [
       "yeni-patron-ucmak",
       "yeni-patron-aglamak",
-      "yeni-patron-sarilarak"
+      "yeni-patron-sarilarak",
+      "yeni-battaniye-yuzmek",
+      "yeni-anne-calmak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -3307,7 +3449,9 @@
     "relatedSymbols": [
       "yeni-patron-yuzmek",
       "yeni-patron-korkmak",
-      "yeni-patron-kacmak"
+      "yeni-patron-kacmak",
+      "yeni-telefon-temizlemek",
+      "kucuk-elbise-ucmak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -3353,7 +3497,9 @@
     "relatedSymbols": [
       "yeni-patron-bogulmak",
       "yeni-patron-bagirmak",
-      "yeni-patron-kovalamak"
+      "yeni-patron-kovalamak",
+      "yeni-kapi-kirmak",
+      "yeni-kalem-kirmak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -3399,7 +3545,9 @@
     "relatedSymbols": [
       "yeni-patron-gulmek",
       "yeni-patron-soylemek",
-      "yeni-patron-saklamak"
+      "yeni-patron-saklamak",
+      "yeni-ruzgar-tirmanmak",
+      "yeni-gul-kalkmak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -3445,7 +3593,9 @@
     "relatedSymbols": [
       "yeni-patron-aglamak",
       "yeni-patron-dinlemek",
-      "yeni-patron-gezmek"
+      "yeni-patron-gezmek",
+      "yeni-tencere-temizlemek",
+      "yeni-nine-satmak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -3491,7 +3641,9 @@
     "relatedSymbols": [
       "yeni-patron-korkmak",
       "yeni-patron-sarilarak",
-      "yeni-cuzdan-gomek"
+      "yeni-cuzdan-gomek",
+      "yeni-ucak-tirmanmak",
+      "yeni-kitap-kaybetmek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -3537,7 +3689,9 @@
     "relatedSymbols": [
       "yeni-patron-bagirmak",
       "yeni-patron-kacmak",
-      "yeni-cuzdan-almak"
+      "yeni-cuzdan-almak",
+      "yeni-radyo-yemek",
+      "yeni-nine-bulmak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -3583,7 +3737,9 @@
     "relatedSymbols": [
       "yeni-patron-soylemek",
       "yeni-patron-kovalamak",
-      "yeni-cuzdan-satmak"
+      "yeni-cuzdan-satmak",
+      "yeni-nine-temizlemek",
+      "yeni-defter-korumak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -3629,7 +3785,9 @@
     "relatedSymbols": [
       "yeni-patron-dinlemek",
       "yeni-patron-saklamak",
-      "yeni-cuzdan-bulmak"
+      "yeni-cuzdan-bulmak",
+      "yeni-ay-soylemek",
+      "yeni-kanepe-saklamak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -3675,7 +3833,9 @@
     "relatedSymbols": [
       "yeni-patron-sarilarak",
       "yeni-patron-gezmek",
-      "yeni-cuzdan-kaybetmek"
+      "yeni-cuzdan-kaybetmek",
+      "yeni-kopek-ucmak",
+      "yeni-asker-bagirmak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -3721,7 +3881,9 @@
     "relatedSymbols": [
       "yeni-patron-kacmak",
       "yeni-cuzdan-gomek",
-      "yeni-cuzdan-kirmak"
+      "yeni-cuzdan-kirmak",
+      "yeni-tava-vermek",
+      "yeni-altin-korumak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -3767,7 +3929,9 @@
     "relatedSymbols": [
       "yeni-patron-kovalamak",
       "yeni-cuzdan-almak",
-      "yeni-cuzdan-yapmak"
+      "yeni-cuzdan-yapmak",
+      "yeni-masa-bogulmak",
+      "yeni-asker-yuzmek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -3813,7 +3977,9 @@
     "relatedSymbols": [
       "yeni-patron-saklamak",
       "yeni-cuzdan-satmak",
-      "yeni-cuzdan-yikmak"
+      "yeni-cuzdan-yikmak",
+      "yeni-kopru-sarilarak",
+      "eski-cuzdanindan-yeni-ve-gergin-kagit-paralar-cikarmak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -3859,7 +4025,9 @@
     "relatedSymbols": [
       "yeni-patron-gezmek",
       "yeni-cuzdan-bulmak",
-      "yeni-cuzdan-aramak"
+      "yeni-cuzdan-aramak",
+      "yeni-pantolon-temizlemek",
+      "yeni-sehir-aglamak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -3905,7 +4073,9 @@
     "relatedSymbols": [
       "yeni-cuzdan-gomek",
       "yeni-cuzdan-kaybetmek",
-      "yeni-cuzdan-gostermek"
+      "yeni-cuzdan-gostermek",
+      "yeni-kopek-tasimak",
+      "yeni-kitap-korkmak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -3951,7 +4121,9 @@
     "relatedSymbols": [
       "yeni-cuzdan-almak",
       "yeni-cuzdan-kirmak",
-      "yeni-cuzdan-dusmek"
+      "yeni-cuzdan-dusmek",
+      "yeni-elbise-kosmak",
+      "yeni-gul-bulmak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -3997,7 +4169,9 @@
     "relatedSymbols": [
       "yeni-cuzdan-satmak",
       "yeni-cuzdan-yapmak",
-      "yeni-cuzdan-kalkmak"
+      "yeni-cuzdan-kalkmak",
+      "yeni-ev-yazmak",
+      "yeni-kanepe-temizlemek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -4043,7 +4217,9 @@
     "relatedSymbols": [
       "yeni-cuzdan-bulmak",
       "yeni-cuzdan-yikmak",
-      "yeni-cuzdan-kosmak"
+      "yeni-cuzdan-kosmak",
+      "yeni-bardak-kirmak",
+      "yeni-yatak-yikamak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -4089,7 +4265,9 @@
     "relatedSymbols": [
       "yeni-cuzdan-kaybetmek",
       "yeni-cuzdan-aramak",
-      "yeni-cuzdan-yurumek"
+      "yeni-cuzdan-yurumek",
+      "yeni-pantolon-dusurmek",
+      "yeni-tren-kirmak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -4135,7 +4313,9 @@
     "relatedSymbols": [
       "yeni-cuzdan-kirmak",
       "yeni-cuzdan-gostermek",
-      "yeni-cuzdan-ziplamak"
+      "yeni-cuzdan-ziplamak",
+      "yeni-ogretmen-sarilarak",
+      "yeni-kapi-dikmek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -4181,7 +4361,9 @@
     "relatedSymbols": [
       "yeni-cuzdan-yapmak",
       "yeni-cuzdan-dusmek",
-      "yeni-asker-korkmak"
+      "yeni-asker-korkmak",
+      "yeni-bilezik-vermek",
+      "yeni-hastane-aglamak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -4227,7 +4409,9 @@
     "relatedSymbols": [
       "yeni-cuzdan-yikmak",
       "yeni-cuzdan-kalkmak",
-      "yeni-asker-bagirmak"
+      "yeni-asker-bagirmak",
+      "yeni-catal-almak",
+      "yeni-ogretmen-aglamak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -4273,7 +4457,9 @@
     "relatedSymbols": [
       "yeni-cuzdan-aramak",
       "yeni-cuzdan-kosmak",
-      "yeni-asker-soylemek"
+      "yeni-asker-soylemek",
+      "yeni-firtina-kaybetmek",
+      "eski-okul-yikmak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -4319,7 +4505,9 @@
     "relatedSymbols": [
       "yeni-cuzdan-gostermek",
       "yeni-cuzdan-yurumek",
-      "yeni-asker-dinlemek"
+      "yeni-asker-dinlemek",
+      "yeni-asker-aramak",
+      "yeni-araba-gormek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -4365,7 +4553,9 @@
     "relatedSymbols": [
       "yeni-cuzdan-dusmek",
       "yeni-cuzdan-ziplamak",
-      "yeni-asker-sarilarak"
+      "yeni-asker-sarilarak",
+      "yeni-cocuk-saklamak",
+      "yeni-asker-kaybetmek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -4411,7 +4601,9 @@
     "relatedSymbols": [
       "yeni-cuzdan-kalkmak",
       "yeni-asker-korkmak",
-      "yeni-asker-kacmak"
+      "yeni-asker-kacmak",
+      "yeni-okul-bagirmak",
+      "yeni-gol-satmak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -4457,7 +4649,9 @@
     "relatedSymbols": [
       "yeni-cuzdan-kosmak",
       "yeni-asker-bagirmak",
-      "yeni-asker-kovalamak"
+      "yeni-asker-kovalamak",
+      "yeni-cuzdan-aglamak",
+      "yeni-nehir-gomek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -4503,7 +4697,9 @@
     "relatedSymbols": [
       "yeni-cuzdan-yurumek",
       "yeni-asker-soylemek",
-      "yeni-asker-saklamak"
+      "yeni-asker-saklamak",
+      "yeni-orman-satmak",
+      "yeni-abi-yemek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -4549,7 +4745,9 @@
     "relatedSymbols": [
       "yeni-cuzdan-ziplamak",
       "yeni-asker-dinlemek",
-      "yeni-asker-gezmek"
+      "yeni-asker-gezmek",
+      "yeni-cocuk-dusurmek",
+      "eski-esin-yeni-bir-bebegi-oldugunu-gormek"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   },
@@ -4595,7 +4793,9 @@
     "relatedSymbols": [
       "yeni-asker-korkmak",
       "yeni-asker-sarilarak",
-      "yeni-dost-gomek"
+      "yeni-dost-gomek",
+      "yeni-anne-yurumek",
+      "yeni-kopru-ucmak"
     ],
     "dateModified": "2026-07-29T14:31:35.299Z"
   }

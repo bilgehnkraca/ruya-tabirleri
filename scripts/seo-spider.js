@@ -69,14 +69,25 @@ async function run() {
   // 2. Scan all content to find references
   const referencedSlugs = new Set();
 
-  const files = fs.readdirSync(symbolsDir);
-  const jsonFiles = files.filter(f => f.endsWith('.json') && f !== 'searchable-symbols.json' && f !== 'slug-index.json' && f !== 'symbols-light.json');
+  function getAllJsonFiles(dir, fileList = []) {
+    const files = fs.readdirSync(dir);
+    for (const file of files) {
+      const filePath = path.join(dir, file);
+      if (fs.statSync(filePath).isDirectory()) {
+        getAllJsonFiles(filePath, fileList);
+      } else if (filePath.endsWith('.json') && !filePath.includes('searchable-symbols.json') && !filePath.includes('slug-index.json') && !filePath.includes('symbols-light.json')) {
+        fileList.push(filePath);
+      }
+    }
+    return fileList;
+  }
 
-  console.log(`[BİLGİ] ${jsonFiles.length} içerik dosyası taranıyor...`);
+  const jsonFilesPaths = getAllJsonFiles(symbolsDir);
+
+  console.log(`[BİLGİ] ${jsonFilesPaths.length} içerik dosyası taranıyor...`);
   
   let processedCount = 0;
-  for (const file of jsonFiles) {
-    const filePath = path.join(symbolsDir, file);
+  for (const filePath of jsonFilesPaths) {
     try {
       const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
       const items = Array.isArray(data) ? data : [data];
@@ -108,6 +119,16 @@ async function run() {
             referencedSlugs.add(targetSlug);
           }
         }
+        
+        // Include relatedSymbols (Bunlar da ilginizi çekebilir)
+        if (item.relatedSymbols && Array.isArray(item.relatedSymbols)) {
+          for (const targetSlug of item.relatedSymbols) {
+            if (targetSlug !== item.slug) {
+              referencedSlugs.add(targetSlug);
+            }
+          }
+        }
+        
         processedCount++;
       }
     } catch (e) {

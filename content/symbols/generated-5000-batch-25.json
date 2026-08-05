@@ -41,7 +41,9 @@
     "relatedSymbols": [
       "eski-arkadas-yemek",
       "eski-arkadas-kaybetmek",
-      "eski-arkadas-okumak"
+      "eski-arkadas-okumak",
+      "eski-masa-okumak",
+      "eski-pencere-soylemek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -87,7 +89,9 @@
     "relatedSymbols": [
       "eski-arkadas-almak",
       "eski-arkadas-bulmak",
-      "eski-arkadas-yazmak"
+      "eski-arkadas-yazmak",
+      "eski-cuzdan-gezmek",
+      "eski-gozluk-temizlemek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -133,7 +137,9 @@
     "relatedSymbols": [
       "eski-arkadas-vermek",
       "eski-arkadas-dikmek",
-      "eski-arkadas-aramak"
+      "eski-arkadas-aramak",
+      "eski-gemi-dinlemek",
+      "eski-dost-kaybetmek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -179,7 +185,9 @@
     "relatedSymbols": [
       "eski-arkadas-kirmak",
       "eski-arkadas-yikamak",
-      "eski-arkadas-satmak"
+      "eski-arkadas-satmak",
+      "eski-pantolon-yikamak",
+      "eski-sapka-vermek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -225,7 +233,9 @@
     "relatedSymbols": [
       "eski-arkadas-kaybetmek",
       "eski-arkadas-temizlemek",
-      "eski-arkadas-saklamak"
+      "eski-arkadas-saklamak",
+      "eski-magara-almak",
+      "eski-anahtar-ucmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -271,7 +281,9 @@
     "relatedSymbols": [
       "eski-arkadas-bulmak",
       "eski-arkadas-okumak",
-      "eski-arkadas-korumak"
+      "eski-arkadas-korumak",
+      "eski-elma-ucmak",
+      "eski-kuzen-kaybetmek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -317,7 +329,9 @@
     "relatedSymbols": [
       "eski-arkadas-dikmek",
       "eski-arkadas-yazmak",
-      "eski-arkadas-tasimak"
+      "eski-arkadas-tasimak",
+      "eski-saat-temizlemek",
+      "eski-bilgisayar-almak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -363,7 +377,9 @@
     "relatedSymbols": [
       "eski-arkadas-yikamak",
       "eski-arkadas-aramak",
-      "eski-arkadas-birakmak"
+      "eski-arkadas-birakmak",
+      "eski-orman-aglamak",
+      "eski-yastik-yuzmek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -409,7 +425,9 @@
     "relatedSymbols": [
       "eski-arkadas-temizlemek",
       "eski-arkadas-satmak",
-      "eski-arkadas-dusurmek"
+      "eski-arkadas-dusurmek",
+      "eski-okul-bulmak",
+      "eski-pencere-almak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -455,7 +473,9 @@
     "relatedSymbols": [
       "eski-arkadas-okumak",
       "eski-arkadas-saklamak",
-      "eski-arkadas-calmak"
+      "eski-arkadas-calmak",
+      "evindeki-eski-mobilyalari-yenilerle-degistirmek",
+      "eski-altin-temizlemek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -501,7 +521,9 @@
     "relatedSymbols": [
       "eski-arkadas-yazmak",
       "eski-arkadas-korumak",
-      "eski-arkadas-ucmak"
+      "eski-arkadas-ucmak",
+      "yeni-otobus-okumak",
+      "eski-telefon-temizlemek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -547,7 +569,9 @@
     "relatedSymbols": [
       "eski-arkadas-aramak",
       "eski-arkadas-tasimak",
-      "eski-arkadas-kosmak"
+      "eski-arkadas-kosmak",
+      "eski-ayna-gezmek",
+      "eski-kamyon-gormek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -593,7 +617,9 @@
     "relatedSymbols": [
       "eski-arkadas-satmak",
       "eski-arkadas-birakmak",
-      "eski-arkadas-yurumek"
+      "eski-arkadas-yurumek",
+      "eski-kalem-dusurmek",
+      "eski-yildiz-yuzmek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -639,7 +665,9 @@
     "relatedSymbols": [
       "eski-arkadas-saklamak",
       "eski-arkadas-dusurmek",
-      "eski-arkadas-yuzmek"
+      "eski-arkadas-yuzmek",
+      "eski-komsu-dikmek",
+      "eski-kardes-tasimak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -685,7 +713,9 @@
     "relatedSymbols": [
       "eski-arkadas-korumak",
       "eski-arkadas-calmak",
-      "eski-arkadas-tirmanmak"
+      "eski-arkadas-tirmanmak",
+      "eski-firtina-saklamak",
+      "eski-gunes-dusurmek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -731,7 +761,9 @@
     "relatedSymbols": [
       "eski-arkadas-tasimak",
       "eski-arkadas-ucmak",
-      "eski-dost-gormek"
+      "eski-dost-gormek",
+      "eski-otobus-tirmanmak",
+      "eski-bisiklet-korumak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -777,7 +809,9 @@
     "relatedSymbols": [
       "eski-arkadas-birakmak",
       "eski-arkadas-kosmak",
-      "eski-dost-yemek"
+      "eski-dost-yemek",
+      "eski-ceket-yuzmek",
+      "yeni-kamyon-tasimak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -823,7 +857,9 @@
     "relatedSymbols": [
       "eski-arkadas-dusurmek",
       "eski-arkadas-yurumek",
-      "eski-dost-almak"
+      "eski-dost-almak",
+      "yeni-arkadas-satmak",
+      "eski-gemi-gomek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -869,7 +905,9 @@
     "relatedSymbols": [
       "eski-arkadas-calmak",
       "eski-arkadas-yuzmek",
-      "eski-dost-vermek"
+      "eski-dost-vermek",
+      "eski-dayi-satmak",
+      "eski-yilan-dusurmek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -915,7 +953,9 @@
     "relatedSymbols": [
       "eski-arkadas-ucmak",
       "eski-arkadas-tirmanmak",
-      "eski-dost-kirmak"
+      "eski-dost-kirmak",
+      "eski-pantolon-calmak",
+      "eski-yuzuk-yemek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -961,7 +1001,9 @@
     "relatedSymbols": [
       "eski-arkadas-kosmak",
       "eski-dost-gormek",
-      "eski-dost-kaybetmek"
+      "eski-dost-kaybetmek",
+      "eski-anne-korumak",
+      "eski-agac-yazmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -1007,7 +1049,9 @@
     "relatedSymbols": [
       "eski-arkadas-yurumek",
       "eski-dost-yemek",
-      "eski-dost-bulmak"
+      "eski-dost-bulmak",
+      "eski-kalem-ucmak",
+      "eski-ucak-yapmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -1053,7 +1097,9 @@
     "relatedSymbols": [
       "eski-arkadas-yuzmek",
       "eski-dost-almak",
-      "eski-dost-dikmek"
+      "eski-dost-dikmek",
+      "eski-selale-tasimak",
+      "eski-televizyon-yikamak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -1099,7 +1145,9 @@
     "relatedSymbols": [
       "eski-arkadas-tirmanmak",
       "eski-dost-vermek",
-      "eski-dost-yikamak"
+      "eski-dost-yikamak",
+      "eski-perde-birakmak",
+      "eski-nehir-vermek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -1145,7 +1193,9 @@
     "relatedSymbols": [
       "eski-dost-gormek",
       "eski-dost-kirmak",
-      "eski-dost-temizlemek"
+      "eski-dost-temizlemek",
+      "eski-mezar-kalkmak",
+      "yeni-para-tirmanmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -1191,7 +1241,9 @@
     "relatedSymbols": [
       "eski-dost-yemek",
       "eski-dost-kaybetmek",
-      "eski-dost-okumak"
+      "eski-dost-okumak",
+      "eski-yuzuk-yazmak",
+      "eski-motosiklet-aramak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -1237,7 +1289,9 @@
     "relatedSymbols": [
       "eski-dost-almak",
       "eski-dost-bulmak",
-      "eski-dost-yazmak"
+      "eski-dost-yazmak",
+      "eski-mezar-saklamak",
+      "eski-saat-gulmek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -1283,7 +1337,9 @@
     "relatedSymbols": [
       "eski-dost-vermek",
       "eski-dost-dikmek",
-      "eski-dost-aramak"
+      "eski-dost-aramak",
+      "eski-canta-ucmak",
+      "eski-is-yerinde-patronla-kavga-etmek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -1329,7 +1385,9 @@
     "relatedSymbols": [
       "eski-dost-kirmak",
       "eski-dost-yikamak",
-      "eski-dost-satmak"
+      "eski-dost-satmak",
+      "eski-sapka-kaybetmek",
+      "buyuk-dost-bogulmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -1375,7 +1433,9 @@
     "relatedSymbols": [
       "eski-dost-kaybetmek",
       "eski-dost-temizlemek",
-      "eski-dost-saklamak"
+      "eski-dost-saklamak",
+      "eski-yuzuk-yazmak",
+      "eski-yagmur-yurumek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -1421,7 +1481,9 @@
     "relatedSymbols": [
       "eski-dost-bulmak",
       "eski-dost-okumak",
-      "eski-dost-korumak"
+      "eski-dost-korumak",
+      "eski-ada-ucmak",
+      "eski-dag-saklamak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -1467,7 +1529,9 @@
     "relatedSymbols": [
       "eski-dost-dikmek",
       "eski-dost-yazmak",
-      "eski-dost-tasimak"
+      "eski-dost-tasimak",
+      "eski-kupe-kaybetmek",
+      "eski-saat-gulmek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -1513,7 +1577,9 @@
     "relatedSymbols": [
       "eski-dost-yikamak",
       "eski-dost-aramak",
-      "eski-dost-birakmak"
+      "eski-dost-birakmak",
+      "eski-araba-almak",
+      "eski-kapi-yikamak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -1559,7 +1625,9 @@
     "relatedSymbols": [
       "eski-dost-temizlemek",
       "eski-dost-satmak",
-      "eski-dost-dusurmek"
+      "eski-dost-dusurmek",
+      "eski-gemi-tasimak",
+      "yeni-dost-bulmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -1605,7 +1673,9 @@
     "relatedSymbols": [
       "eski-dost-okumak",
       "eski-dost-saklamak",
-      "eski-dost-calmak"
+      "eski-dost-calmak",
+      "eski-araba-korumak",
+      "eski-kardes-yazmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -1651,7 +1721,9 @@
     "relatedSymbols": [
       "eski-dost-yazmak",
       "eski-dost-korumak",
-      "eski-dost-ucmak"
+      "eski-dost-ucmak",
+      "eski-canta-yurumek",
+      "eski-dede-yikamak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -1697,7 +1769,9 @@
     "relatedSymbols": [
       "eski-dost-aramak",
       "eski-dost-tasimak",
-      "eski-dost-kosmak"
+      "eski-dost-kosmak",
+      "eski-defter-yazmak",
+      "eski-ekmek-tasimak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -1743,7 +1817,9 @@
     "relatedSymbols": [
       "eski-dost-satmak",
       "eski-dost-birakmak",
-      "eski-dost-yurumek"
+      "eski-dost-yurumek",
+      "eski-cuzdan-gomek",
+      "eski-yastik-dusurmek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -1789,7 +1865,9 @@
     "relatedSymbols": [
       "eski-dost-saklamak",
       "eski-dost-dusurmek",
-      "eski-dost-yuzmek"
+      "eski-dost-yuzmek",
+      "eski-bebek-temizlemek",
+      "eski-gomlek-yazmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -1835,7 +1913,9 @@
     "relatedSymbols": [
       "eski-dost-korumak",
       "eski-dost-calmak",
-      "eski-dost-tirmanmak"
+      "eski-dost-tirmanmak",
+      "eski-bulut-dusurmek",
+      "eski-catal-temizlemek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -1881,7 +1961,9 @@
     "relatedSymbols": [
       "eski-dost-tasimak",
       "eski-dost-ucmak",
-      "eski-dusman-gormek"
+      "eski-dusman-gormek",
+      "yeni-dost-dusurmek",
+      "eski-tabak-kosmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -1927,7 +2009,9 @@
     "relatedSymbols": [
       "eski-dost-birakmak",
       "eski-dost-kosmak",
-      "eski-dusman-yemek"
+      "eski-dusman-yemek",
+      "eski-cuzdan-soylemek",
+      "eski-ev-tasimak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -1973,7 +2057,9 @@
     "relatedSymbols": [
       "eski-dost-dusurmek",
       "eski-dost-yurumek",
-      "eski-dusman-almak"
+      "eski-dusman-almak",
+      "eski-kedi-gormek",
+      "eski-patronunun-seni-arayip-geri-donmen-icin-yuksek-maas-teklif-etmesi"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -2019,7 +2105,9 @@
     "relatedSymbols": [
       "eski-dost-calmak",
       "eski-dost-yuzmek",
-      "eski-dusman-vermek"
+      "eski-dusman-vermek",
+      "eski-ayakkabi-yuzmek",
+      "eski-anne-ucmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -2065,7 +2153,9 @@
     "relatedSymbols": [
       "eski-dost-ucmak",
       "eski-dost-tirmanmak",
-      "eski-dusman-kirmak"
+      "eski-dusman-kirmak",
+      "eski-masa-yikamak",
+      "eski-kus-kirmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -2111,7 +2201,9 @@
     "relatedSymbols": [
       "eski-dost-kosmak",
       "eski-dusman-gormek",
-      "eski-dusman-kaybetmek"
+      "eski-dusman-kaybetmek",
+      "eski-genc-tirmanmak",
+      "eski-telefon-almak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -2157,7 +2249,9 @@
     "relatedSymbols": [
       "eski-dost-yurumek",
       "eski-dusman-yemek",
-      "eski-dusman-bulmak"
+      "eski-dusman-bulmak",
+      "eski-pencere-dusmek",
+      "eski-hastane-korkmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -2203,7 +2297,9 @@
     "relatedSymbols": [
       "eski-dost-yuzmek",
       "eski-dusman-almak",
-      "eski-dusman-dikmek"
+      "eski-dusman-dikmek",
+      "eski-yatak-calmak",
+      "eski-yuzuk-bulmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -2249,7 +2345,9 @@
     "relatedSymbols": [
       "eski-dost-tirmanmak",
       "eski-dusman-vermek",
-      "eski-dusman-yikamak"
+      "eski-dusman-yikamak",
+      "eski-teyze-saklamak",
+      "eski-kedi-korumak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -2295,7 +2393,9 @@
     "relatedSymbols": [
       "eski-dusman-gormek",
       "eski-dusman-kirmak",
-      "eski-dusman-temizlemek"
+      "eski-dusman-temizlemek",
+      "eski-hala-yurumek",
+      "eski-abi-calmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -2341,7 +2441,9 @@
     "relatedSymbols": [
       "eski-dusman-yemek",
       "eski-dusman-kaybetmek",
-      "eski-dusman-okumak"
+      "eski-dusman-okumak",
+      "eski-hala-ucmak",
+      "eski-deniz-tirmanmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -2387,7 +2489,9 @@
     "relatedSymbols": [
       "eski-dusman-almak",
       "eski-dusman-bulmak",
-      "eski-dusman-yazmak"
+      "eski-dusman-yazmak",
+      "eski-gemi-sarilarak",
+      "eski-masa-kaybetmek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -2433,7 +2537,9 @@
     "relatedSymbols": [
       "eski-dusman-vermek",
       "eski-dusman-dikmek",
-      "eski-dusman-aramak"
+      "eski-dusman-aramak",
+      "eski-yatak-aglamak",
+      "eski-radyo-temizlemek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -2479,7 +2585,9 @@
     "relatedSymbols": [
       "eski-dusman-kirmak",
       "eski-dusman-yikamak",
-      "eski-dusman-satmak"
+      "eski-dusman-satmak",
+      "eski-merdiven-yapmak",
+      "eski-saat-gezmek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -2525,7 +2633,9 @@
     "relatedSymbols": [
       "eski-dusman-kaybetmek",
       "eski-dusman-temizlemek",
-      "eski-dusman-saklamak"
+      "eski-dusman-saklamak",
+      "eski-kopru-soylemek",
+      "eski-dost-kaybetmek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -2571,7 +2681,9 @@
     "relatedSymbols": [
       "eski-dusman-bulmak",
       "eski-dusman-okumak",
-      "eski-dusman-korumak"
+      "eski-dusman-korumak",
+      "eski-dostunun-kapina-gelip-seni-ne-kadar-ozledigini-soylemesi",
+      "eski-genc-tasimak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -2617,7 +2729,9 @@
     "relatedSymbols": [
       "eski-dusman-dikmek",
       "eski-dusman-yazmak",
-      "eski-dusman-tasimak"
+      "eski-dusman-tasimak",
+      "eski-yasli-yuzmek",
+      "eski-asker-ziplamak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -2663,7 +2777,9 @@
     "relatedSymbols": [
       "eski-dusman-yikamak",
       "eski-dusman-aramak",
-      "eski-dusman-birakmak"
+      "eski-dusman-birakmak",
+      "eski-kedi",
+      "eski-abla-korumak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -2709,7 +2825,9 @@
     "relatedSymbols": [
       "eski-dusman-temizlemek",
       "eski-dusman-satmak",
-      "eski-dusman-dusurmek"
+      "eski-dusman-dusurmek",
+      "eski-kamyon-gormek",
+      "eski-gul-gomek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -2755,7 +2873,9 @@
     "relatedSymbols": [
       "eski-dusman-okumak",
       "eski-dusman-saklamak",
-      "eski-dusman-calmak"
+      "eski-dusman-calmak",
+      "eski-bilgisayar-dusurmek",
+      "eski-sandalye-okumak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -2801,7 +2921,9 @@
     "relatedSymbols": [
       "eski-dusman-yazmak",
       "eski-dusman-korumak",
-      "eski-dusman-ucmak"
+      "eski-dusman-ucmak",
+      "eski-dag-yemek",
+      "eski-col-calmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -2847,7 +2969,9 @@
     "relatedSymbols": [
       "eski-dusman-aramak",
       "eski-dusman-tasimak",
-      "eski-dusman-kosmak"
+      "eski-dusman-kosmak",
+      "eski-traktor-vermek",
+      "eski-gumus-yemek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -2893,7 +3017,9 @@
     "relatedSymbols": [
       "eski-dusman-satmak",
       "eski-dusman-birakmak",
-      "eski-dusman-yurumek"
+      "eski-dusman-yurumek",
+      "eski-cuzdan-saklamak",
+      "eski-firtina-tirmanmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -2939,7 +3065,9 @@
     "relatedSymbols": [
       "eski-dusman-saklamak",
       "eski-dusman-dusurmek",
-      "eski-dusman-yuzmek"
+      "eski-dusman-yuzmek",
+      "yeni-dusman-birakmak",
+      "eski-genc-dikmek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -2985,7 +3113,9 @@
     "relatedSymbols": [
       "eski-dusman-korumak",
       "eski-dusman-calmak",
-      "eski-dusman-tirmanmak"
+      "eski-dusman-tirmanmak",
+      "eski-kanepe-aramak",
+      "eski-bebek-ziplamak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -3031,7 +3161,9 @@
     "relatedSymbols": [
       "eski-dusman-tasimak",
       "eski-dusman-ucmak",
-      "eski-komsu-gormek"
+      "eski-komsu-gormek",
+      "eski-ruzgar-bagirmak",
+      "eski-kolye-tirmanmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -3077,7 +3209,9 @@
     "relatedSymbols": [
       "eski-dusman-birakmak",
       "eski-dusman-kosmak",
-      "eski-komsu-yemek"
+      "eski-komsu-yemek",
+      "eski-bebek-tasimak",
+      "eski-col-calmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -3123,7 +3257,9 @@
     "relatedSymbols": [
       "eski-dusman-dusurmek",
       "eski-dusman-yurumek",
-      "eski-komsu-almak"
+      "eski-komsu-almak",
+      "eski-orman-satmak",
+      "eski-yorgan-almak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -3169,7 +3305,9 @@
     "relatedSymbols": [
       "eski-dusman-calmak",
       "eski-dusman-yuzmek",
-      "eski-komsu-vermek"
+      "eski-komsu-vermek",
+      "eski-dede-kaybetmek",
+      "eski-gul-gezmek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -3215,7 +3353,9 @@
     "relatedSymbols": [
       "eski-dusman-ucmak",
       "eski-dusman-tirmanmak",
-      "eski-komsu-kirmak"
+      "eski-komsu-kirmak",
+      "eski-bisiklet-aramak",
+      "eski-hala-korumak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -3261,7 +3401,9 @@
     "relatedSymbols": [
       "eski-dusman-kosmak",
       "eski-komsu-gormek",
-      "eski-komsu-kaybetmek"
+      "eski-komsu-kaybetmek",
+      "eski-dayi-dusurmek",
+      "eski-otobus-dikmek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -3307,7 +3449,9 @@
     "relatedSymbols": [
       "eski-dusman-yurumek",
       "eski-komsu-yemek",
-      "eski-komsu-bulmak"
+      "eski-komsu-bulmak",
+      "eski-altin-yazmak",
+      "eski-gozluk-vermek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -3353,7 +3497,9 @@
     "relatedSymbols": [
       "eski-dusman-yuzmek",
       "eski-komsu-almak",
-      "eski-komsu-dikmek"
+      "eski-komsu-dikmek",
+      "eski-tabak-yemek",
+      "eski-pencere-tasimak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -3399,7 +3545,9 @@
     "relatedSymbols": [
       "eski-dusman-tirmanmak",
       "eski-komsu-vermek",
-      "eski-komsu-yikamak"
+      "eski-komsu-yikamak",
+      "eski-firtina-korumak",
+      "eski-yol-korkmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -3445,7 +3593,9 @@
     "relatedSymbols": [
       "eski-komsu-gormek",
       "eski-komsu-kirmak",
-      "eski-komsu-temizlemek"
+      "eski-komsu-temizlemek",
+      "eski-sehir-kirmak",
+      "eski-yilan-vermek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -3491,7 +3641,9 @@
     "relatedSymbols": [
       "eski-komsu-yemek",
       "eski-komsu-kaybetmek",
-      "eski-komsu-okumak"
+      "eski-komsu-okumak",
+      "eski-ev-saklamak",
+      "eski-kus-ucmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -3537,7 +3689,9 @@
     "relatedSymbols": [
       "eski-komsu-almak",
       "eski-komsu-bulmak",
-      "eski-komsu-yazmak"
+      "eski-komsu-yazmak",
+      "eski-yatak-dusmek",
+      "eski-cocuk-vermek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -3583,7 +3737,9 @@
     "relatedSymbols": [
       "eski-komsu-vermek",
       "eski-komsu-dikmek",
-      "eski-komsu-aramak"
+      "eski-komsu-aramak",
+      "eski-pantolon-saklamak",
+      "eski-deniz-ucmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -3629,7 +3785,9 @@
     "relatedSymbols": [
       "eski-komsu-kirmak",
       "eski-komsu-yikamak",
-      "eski-komsu-satmak"
+      "eski-komsu-satmak",
+      "eski-kilic-bogulmak",
+      "eski-yol-bogulmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -3675,7 +3833,9 @@
     "relatedSymbols": [
       "eski-komsu-kaybetmek",
       "eski-komsu-temizlemek",
-      "eski-komsu-saklamak"
+      "eski-komsu-saklamak",
+      "uzaktan-gelen-eski-bir-yoldasin-sana-antika-bir-saat-getirmesi",
+      "eski-kravat-calmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -3721,7 +3881,9 @@
     "relatedSymbols": [
       "eski-komsu-bulmak",
       "eski-komsu-okumak",
-      "eski-komsu-korumak"
+      "eski-komsu-korumak",
+      "eski-defter-kaybetmek",
+      "eski-dag-tirmanmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -3767,7 +3929,9 @@
     "relatedSymbols": [
       "eski-komsu-dikmek",
       "eski-komsu-yazmak",
-      "eski-komsu-tasimak"
+      "eski-komsu-tasimak",
+      "eski-genc-yikamak",
+      "eski-yagmur-yazmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -3813,7 +3977,9 @@
     "relatedSymbols": [
       "eski-komsu-yikamak",
       "eski-komsu-aramak",
-      "eski-komsu-birakmak"
+      "eski-komsu-birakmak",
+      "eski-firtina-satmak",
+      "eski-pencere-yikmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -3859,7 +4025,9 @@
     "relatedSymbols": [
       "eski-komsu-temizlemek",
       "eski-komsu-satmak",
-      "eski-komsu-dusurmek"
+      "eski-komsu-dusurmek",
+      "eski-ada-yemek",
+      "eski-bicak-ucmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -3905,7 +4073,9 @@
     "relatedSymbols": [
       "eski-komsu-okumak",
       "eski-komsu-saklamak",
-      "eski-komsu-calmak"
+      "eski-komsu-calmak",
+      "eski-dost-yemek",
+      "eski-cocuk-korumak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -3951,7 +4121,9 @@
     "relatedSymbols": [
       "eski-komsu-yazmak",
       "eski-komsu-korumak",
-      "eski-komsu-ucmak"
+      "eski-komsu-ucmak",
+      "eski-kanepe-gormek",
+      "eski-ogretmen-bulmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -3997,7 +4169,9 @@
     "relatedSymbols": [
       "eski-komsu-aramak",
       "eski-komsu-tasimak",
-      "eski-komsu-kosmak"
+      "eski-komsu-kosmak",
+      "eski-bicak-okumak",
+      "eski-arkadas-birakmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -4043,7 +4217,9 @@
     "relatedSymbols": [
       "eski-komsu-satmak",
       "eski-komsu-birakmak",
-      "eski-komsu-yurumek"
+      "eski-komsu-yurumek",
+      "eski-saat-gostermek",
+      "eski-altin-tirmanmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -4089,7 +4265,9 @@
     "relatedSymbols": [
       "eski-komsu-saklamak",
       "eski-komsu-dusurmek",
-      "eski-komsu-yuzmek"
+      "eski-komsu-yuzmek",
+      "eski-dag-temizlemek",
+      "yeni-bilgisayar-satmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -4135,7 +4313,9 @@
     "relatedSymbols": [
       "eski-komsu-korumak",
       "eski-komsu-calmak",
-      "eski-komsu-tirmanmak"
+      "eski-komsu-tirmanmak",
+      "eski-tava-kaybetmek",
+      "eski-ev-yemek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -4181,7 +4361,9 @@
     "relatedSymbols": [
       "eski-komsu-tasimak",
       "eski-komsu-ucmak",
-      "eski-arkadas-gormek"
+      "eski-arkadas-gormek",
+      "eski-koltuk-kovalamak",
+      "eski-sandalye-calmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -4227,7 +4409,9 @@
     "relatedSymbols": [
       "eski-komsu-birakmak",
       "eski-komsu-kosmak",
-      "eski-arkadas-yemek"
+      "eski-arkadas-yemek",
+      "eski-kopru-yikmak",
+      "eski-kupe-aramak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -4273,7 +4457,9 @@
     "relatedSymbols": [
       "eski-komsu-dusurmek",
       "eski-komsu-yurumek",
-      "eski-arkadas-almak"
+      "eski-arkadas-almak",
+      "eski-kravat-kirmak",
+      "eski-ekmek-okumak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -4319,7 +4505,9 @@
     "relatedSymbols": [
       "eski-komsu-calmak",
       "eski-komsu-yuzmek",
-      "eski-arkadas-vermek"
+      "eski-arkadas-vermek",
+      "eski-gokkusagi-almak",
+      "eski-ayakkabi-tirmanmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -4365,7 +4553,9 @@
     "relatedSymbols": [
       "eski-komsu-ucmak",
       "eski-komsu-tirmanmak",
-      "eski-arkadas-kirmak"
+      "eski-arkadas-kirmak",
+      "eski-kamyon-calmak",
+      "eski-yastik-aramak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -4411,7 +4601,9 @@
     "relatedSymbols": [
       "eski-komsu-kosmak",
       "eski-arkadas-gormek",
-      "eski-arkadas-kaybetmek"
+      "eski-arkadas-kaybetmek",
+      "babanin-sana-kendi-kullandigi-eski-kemanini-miras-birakmasi",
+      "eski-sapka-bulmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -4457,7 +4649,9 @@
     "relatedSymbols": [
       "eski-komsu-yurumek",
       "eski-arkadas-yemek",
-      "eski-arkadas-bulmak"
+      "eski-arkadas-bulmak",
+      "eski-motosiklet-dusurmek",
+      "yeni-firtina-kosmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -4503,7 +4697,9 @@
     "relatedSymbols": [
       "eski-komsu-yuzmek",
       "eski-arkadas-almak",
-      "eski-arkadas-dikmek"
+      "eski-arkadas-dikmek",
+      "eski-gemi-temizlemek",
+      "eski-anahtar-saklamak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -4549,7 +4745,9 @@
     "relatedSymbols": [
       "eski-komsu-tirmanmak",
       "eski-arkadas-vermek",
-      "eski-arkadas-yikamak"
+      "eski-arkadas-yikamak",
+      "eski-koy-yikmak",
+      "eski-saat-bagirmak"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   },
@@ -4595,7 +4793,9 @@
     "relatedSymbols": [
       "eski-arkadas-gormek",
       "eski-arkadas-kirmak",
-      "eski-arkadas-temizlemek"
+      "eski-arkadas-temizlemek",
+      "eski-kilic-gezmek",
+      "eski-saat-temizlemek"
     ],
     "dateModified": "2026-07-29T11:19:24.136Z"
   }

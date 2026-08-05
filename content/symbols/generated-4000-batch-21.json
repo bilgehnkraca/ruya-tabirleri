@@ -41,7 +41,9 @@
     "relatedSymbols": [
       "kucuk-gozluk-gomek",
       "kucuk-gozluk-kaybetmek",
-      "kucuk-gozluk-gostermek"
+      "kucuk-gozluk-gostermek",
+      "kucuk-anahtar-bogulmak",
+      "kucuk-yol-korkmak"
     ],
     "dateModified": "2026-07-29T14:31:35.226Z"
   },
@@ -87,7 +89,9 @@
     "relatedSymbols": [
       "kucuk-gozluk-almak",
       "kucuk-gozluk-kirmak",
-      "kucuk-gozluk-dusmek"
+      "kucuk-gozluk-dusmek",
+      "eski-gozluk-yikamak",
+      "kucuk-kopru-gomek"
     ],
     "dateModified": "2026-07-29T14:31:35.226Z"
   },
@@ -133,7 +137,9 @@
     "relatedSymbols": [
       "kucuk-gozluk-satmak",
       "kucuk-gozluk-yapmak",
-      "kucuk-gozluk-kalkmak"
+      "kucuk-gozluk-kalkmak",
+      "kucuk-kilic-soylemek",
+      "kucuk-duvar-dinlemek"
     ],
     "dateModified": "2026-07-29T14:31:35.226Z"
   },
@@ -179,7 +185,9 @@
     "relatedSymbols": [
       "kucuk-gozluk-bulmak",
       "kucuk-gozluk-yikmak",
-      "kucuk-gozluk-kosmak"
+      "kucuk-gozluk-kosmak",
+      "kucuk-orman-satmak",
+      "kucuk-dag-gezmek"
     ],
     "dateModified": "2026-07-29T14:31:35.226Z"
   },
@@ -225,7 +233,9 @@
     "relatedSymbols": [
       "kucuk-gozluk-kaybetmek",
       "kucuk-gozluk-aramak",
-      "kucuk-gozluk-yurumek"
+      "kucuk-gozluk-yurumek",
+      "eski-gozluk-kacmak",
+      "kucuk-kilic-gostermek"
     ],
     "dateModified": "2026-07-29T14:31:35.226Z"
   },
@@ -271,7 +281,9 @@
     "relatedSymbols": [
       "kucuk-gozluk-kirmak",
       "kucuk-gozluk-gostermek",
-      "kucuk-gozluk-ziplamak"
+      "kucuk-gozluk-ziplamak",
+      "eski-kar-kaybetmek",
+      "kucuk-kilic-korkmak"
     ],
     "dateModified": "2026-07-29T14:31:35.226Z"
   },
@@ -317,7 +329,9 @@
     "relatedSymbols": [
       "kucuk-gozluk-yapmak",
       "kucuk-gozluk-dusmek",
-      "kucuk-gozluk-ucmak"
+      "kucuk-gozluk-ucmak",
+      "kucuk-mezar-kosmak",
+      "kucuk-ayna-saklamak"
     ],
     "dateModified": "2026-07-29T14:31:35.226Z"
   },
@@ -363,7 +377,9 @@
     "relatedSymbols": [
       "kucuk-gozluk-yikmak",
       "kucuk-gozluk-kalkmak",
-      "kucuk-gozluk-yuzmek"
+      "kucuk-gozluk-yuzmek",
+      "kucuk-saat-gulmek",
+      "kucuk-cuzdan-saklamak"
     ],
     "dateModified": "2026-07-29T14:31:35.226Z"
   },
@@ -409,7 +425,9 @@
     "relatedSymbols": [
       "kucuk-gozluk-aramak",
       "kucuk-gozluk-kosmak",
-      "kucuk-gozluk-bogulmak"
+      "kucuk-gozluk-bogulmak",
+      "kucuk-kilic-kalkmak",
+      "kucuk-ucak-aramak"
     ],
     "dateModified": "2026-07-29T14:31:35.226Z"
   },
@@ -455,7 +473,9 @@
     "relatedSymbols": [
       "kucuk-gozluk-gostermek",
       "kucuk-gozluk-yurumek",
-      "kucuk-gozluk-gulmek"
+      "kucuk-gozluk-gulmek",
+      "kucuk-kitap-satmak",
+      "kucuk-deniz"
     ],
     "dateModified": "2026-07-29T14:31:35.226Z"
   },
@@ -501,7 +521,9 @@
     "relatedSymbols": [
       "kucuk-gozluk-dusmek",
       "kucuk-gozluk-ziplamak",
-      "kucuk-gozluk-aglamak"
+      "kucuk-gozluk-aglamak",
+      "kucuk-dost-sarilarak",
+      "kucuk-hastane-korkmak"
     ],
     "dateModified": "2026-07-29T14:31:35.226Z"
   },
@@ -547,7 +569,9 @@
     "relatedSymbols": [
       "kucuk-gozluk-kalkmak",
       "kucuk-gozluk-ucmak",
-      "kucuk-gozluk-korkmak"
+      "kucuk-gozluk-korkmak",
+      "kucuk-ruzgar-gomek",
+      "kucuk-gul-gostermek"
     ],
     "dateModified": "2026-07-29T14:31:35.226Z"
   },
@@ -593,7 +617,9 @@
     "relatedSymbols": [
       "kucuk-gozluk-kosmak",
       "kucuk-gozluk-yuzmek",
-      "kucuk-gozluk-bagirmak"
+      "kucuk-gozluk-bagirmak",
+      "kucuk-kilic-yapmak",
+      "buyuk-bebek-kalkmak"
     ],
     "dateModified": "2026-07-29T14:31:35.226Z"
   },
@@ -639,7 +665,9 @@
     "relatedSymbols": [
       "kucuk-gozluk-yurumek",
       "kucuk-gozluk-bogulmak",
-      "kucuk-gozluk-soylemek"
+      "kucuk-gozluk-soylemek",
+      "kucuk-agac-yuzmek",
+      "kucuk-cicek"
     ],
     "dateModified": "2026-07-29T14:31:35.226Z"
   },
@@ -685,7 +713,9 @@
     "relatedSymbols": [
       "kucuk-gozluk-ziplamak",
       "kucuk-gozluk-gulmek",
-      "kucuk-gozluk-dinlemek"
+      "kucuk-gozluk-dinlemek",
+      "kucuk-gunes-ucmak",
+      "kucuk-kilic-kaybetmek"
     ],
     "dateModified": "2026-07-29T14:31:35.226Z"
   },
@@ -731,7 +761,9 @@
     "relatedSymbols": [
       "kucuk-gozluk-ucmak",
       "kucuk-gozluk-aglamak",
-      "kucuk-gozluk-sarilarak"
+      "kucuk-gozluk-sarilarak",
+      "kucuk-yatak-kosmak",
+      "kucuk-agac-ucmak"
     ],
     "dateModified": "2026-07-29T14:31:35.226Z"
   },
@@ -777,7 +809,9 @@
     "relatedSymbols": [
       "kucuk-gozluk-yuzmek",
       "kucuk-gozluk-korkmak",
-      "kucuk-gozluk-kacmak"
+      "kucuk-gozluk-kacmak",
+      "kucuk-anahtar-ziplamak",
+      "kucuk-yatak-bulmak"
     ],
     "dateModified": "2026-07-29T14:31:35.226Z"
   },
@@ -823,7 +857,9 @@
     "relatedSymbols": [
       "kucuk-gozluk-bogulmak",
       "kucuk-gozluk-bagirmak",
-      "kucuk-gozluk-kovalamak"
+      "kucuk-gozluk-kovalamak",
+      "kucuk-ucak-bogulmak",
+      "kucuk-kopru-kirmak"
     ],
     "dateModified": "2026-07-29T14:31:35.226Z"
   },
@@ -869,7 +905,9 @@
     "relatedSymbols": [
       "kucuk-gozluk-gulmek",
       "kucuk-gozluk-soylemek",
-      "kucuk-gozluk-saklamak"
+      "kucuk-gozluk-saklamak",
+      "yeni-anahtar-bogulmak",
+      "kucuk-tren-aglamak"
     ],
     "dateModified": "2026-07-29T14:31:35.226Z"
   },
@@ -915,7 +953,9 @@
     "relatedSymbols": [
       "kucuk-gozluk-aglamak",
       "kucuk-gozluk-dinlemek",
-      "kucuk-gozluk-gezmek"
+      "kucuk-gozluk-gezmek",
+      "yeni-saat-gulmek",
+      "yeni-kilic-gulmek"
     ],
     "dateModified": "2026-07-29T14:31:35.226Z"
   },
@@ -961,7 +1001,9 @@
     "relatedSymbols": [
       "kucuk-gozluk-korkmak",
       "kucuk-gozluk-sarilarak",
-      "kucuk-yatak-gomek"
+      "kucuk-yatak-gomek",
+      "kucuk-ogretmen-ucmak",
+      "kucuk-deniz-satmak"
     ],
     "dateModified": "2026-07-29T14:31:35.226Z"
   },
@@ -1007,7 +1049,9 @@
     "relatedSymbols": [
       "kucuk-gozluk-bagirmak",
       "kucuk-gozluk-kacmak",
-      "kucuk-yatak-almak"
+      "kucuk-yatak-almak",
+      "kucuk-gul-soylemek",
+      "kucuk-yol-bulmak"
     ],
     "dateModified": "2026-07-29T14:31:35.226Z"
   },
@@ -1053,7 +1097,9 @@
     "relatedSymbols": [
       "kucuk-gozluk-soylemek",
       "kucuk-gozluk-kovalamak",
-      "kucuk-yatak-satmak"
+      "kucuk-yatak-satmak",
+      "kucuk-cuzdan-saklamak",
+      "buyuk-yatak-bagirmak"
     ],
     "dateModified": "2026-07-29T14:31:35.226Z"
   },
@@ -1099,7 +1145,9 @@
     "relatedSymbols": [
       "kucuk-gozluk-dinlemek",
       "kucuk-gozluk-saklamak",
-      "kucuk-yatak-bulmak"
+      "kucuk-yatak-bulmak",
+      "yeni-asker-soylemek",
+      "kucuk-merdiven-aglamak"
     ],
     "dateModified": "2026-07-29T14:31:35.226Z"
   },
@@ -1145,7 +1193,9 @@
     "relatedSymbols": [
       "kucuk-gozluk-sarilarak",
       "kucuk-gozluk-gezmek",
-      "kucuk-yatak-kaybetmek"
+      "kucuk-yatak-kaybetmek",
+      "kucuk-tren-kirmak",
+      "kucuk-merdiven-gomek"
     ],
     "dateModified": "2026-07-29T14:31:35.226Z"
   },
@@ -1191,7 +1241,9 @@
     "relatedSymbols": [
       "kucuk-gozluk-kacmak",
       "kucuk-yatak-gomek",
-      "kucuk-yatak-kirmak"
+      "kucuk-yatak-kirmak",
+      "buyuk-gozluk-aramak",
+      "suyun-uzerinde-yuzen-kucuk-kagittan-gemi-gormek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -1237,7 +1289,9 @@
     "relatedSymbols": [
       "kucuk-gozluk-kovalamak",
       "kucuk-yatak-almak",
-      "kucuk-yatak-yapmak"
+      "kucuk-yatak-yapmak",
+      "kucuk-tren-bogulmak",
+      "kucuk-duvar-kalkmak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -1283,7 +1337,9 @@
     "relatedSymbols": [
       "kucuk-gozluk-saklamak",
       "kucuk-yatak-satmak",
-      "kucuk-yatak-yikmak"
+      "kucuk-yatak-yikmak",
+      "kucuk-pencere-gezmek",
+      "kucuk-hastane-kovalamak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -1329,7 +1385,9 @@
     "relatedSymbols": [
       "kucuk-gozluk-gezmek",
       "kucuk-yatak-bulmak",
-      "kucuk-yatak-aramak"
+      "kucuk-yatak-aramak",
+      "eski-yagmur-saklamak",
+      "kucuk-kilic-ziplamak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -1375,7 +1433,9 @@
     "relatedSymbols": [
       "kucuk-yatak-gomek",
       "kucuk-yatak-kaybetmek",
-      "kucuk-yatak-gostermek"
+      "kucuk-yatak-gostermek",
+      "kucuk-duvar-kaybetmek",
+      "kucuk-tren-gezmek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -1421,7 +1481,9 @@
     "relatedSymbols": [
       "kucuk-yatak-almak",
       "kucuk-yatak-kirmak",
-      "kucuk-yatak-dusmek"
+      "kucuk-yatak-dusmek",
+      "buyuk-yatak-kalkmak",
+      "kucuk-telefon-saklamak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -1467,7 +1529,9 @@
     "relatedSymbols": [
       "kucuk-yatak-satmak",
       "kucuk-yatak-yapmak",
-      "kucuk-yatak-kalkmak"
+      "kucuk-yatak-kalkmak",
+      "kucuk-hastane-bulmak",
+      "kucuk-pencere-korkmak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -1513,7 +1577,9 @@
     "relatedSymbols": [
       "kucuk-yatak-bulmak",
       "kucuk-yatak-yikmak",
-      "kucuk-yatak-kosmak"
+      "kucuk-yatak-kosmak",
+      "kucuk-bisiklet-korkmak",
+      "kucuk-pencere-kacmak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -1559,7 +1625,9 @@
     "relatedSymbols": [
       "kucuk-yatak-kaybetmek",
       "kucuk-yatak-aramak",
-      "kucuk-yatak-yurumek"
+      "kucuk-yatak-yurumek",
+      "buyuk-sehir-bulmak",
+      "kucuk-masa-yuzmek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -1605,7 +1673,9 @@
     "relatedSymbols": [
       "kucuk-yatak-kirmak",
       "kucuk-yatak-gostermek",
-      "kucuk-yatak-ziplamak"
+      "kucuk-yatak-ziplamak",
+      "kucuk-agac-kalkmak",
+      "kucuk-koy-aramak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -1651,7 +1721,9 @@
     "relatedSymbols": [
       "kucuk-yatak-yapmak",
       "kucuk-yatak-dusmek",
-      "kucuk-yatak-ucmak"
+      "kucuk-yatak-ucmak",
+      "eski-teyze-kirmak",
+      "kucuk-gunes-gostermek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -1697,7 +1769,9 @@
     "relatedSymbols": [
       "kucuk-yatak-yikmak",
       "kucuk-yatak-kalkmak",
-      "kucuk-yatak-yuzmek"
+      "kucuk-yatak-yuzmek",
+      "kucuk-cuzdan-kirmak",
+      "yeni-yatak-kacmak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -1743,7 +1817,9 @@
     "relatedSymbols": [
       "kucuk-yatak-aramak",
       "kucuk-yatak-kosmak",
-      "kucuk-yatak-bogulmak"
+      "kucuk-yatak-bogulmak",
+      "kucuk-deniz-aramak",
+      "kucuk-dag-gostermek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -1789,7 +1865,9 @@
     "relatedSymbols": [
       "kucuk-yatak-gostermek",
       "kucuk-yatak-yurumek",
-      "kucuk-yatak-gulmek"
+      "kucuk-yatak-gulmek",
+      "yeni-yatak-gezmek",
+      "kucuk-pencere-aramak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -1835,7 +1913,9 @@
     "relatedSymbols": [
       "kucuk-yatak-dusmek",
       "kucuk-yatak-ziplamak",
-      "kucuk-yatak-aglamak"
+      "kucuk-yatak-aglamak",
+      "kucuk-mezar-dusmek",
+      "kucuk-ruzgar-gostermek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -1881,7 +1961,9 @@
     "relatedSymbols": [
       "kucuk-yatak-kalkmak",
       "kucuk-yatak-ucmak",
-      "kucuk-yatak-korkmak"
+      "kucuk-yatak-korkmak",
+      "kucuk-merdiven-bagirmak",
+      "kucuk-gemi-soylemek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -1927,7 +2009,9 @@
     "relatedSymbols": [
       "kucuk-yatak-kosmak",
       "kucuk-yatak-yuzmek",
-      "kucuk-yatak-bagirmak"
+      "kucuk-yatak-bagirmak",
+      "yeni-yatak-satmak",
+      "kucuk-cuzdan-bagirmak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -1973,7 +2057,9 @@
     "relatedSymbols": [
       "kucuk-yatak-yurumek",
       "kucuk-yatak-bogulmak",
-      "kucuk-yatak-soylemek"
+      "kucuk-yatak-soylemek",
+      "kucuk-yol-kirmak",
+      "kucuk-ogretmen-bagirmak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -2019,7 +2105,9 @@
     "relatedSymbols": [
       "kucuk-yatak-ziplamak",
       "kucuk-yatak-gulmek",
-      "kucuk-yatak-dinlemek"
+      "kucuk-yatak-dinlemek",
+      "eski-gomlek-yurumek",
+      "kucuk-mezar-dinlemek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -2065,7 +2153,9 @@
     "relatedSymbols": [
       "kucuk-yatak-ucmak",
       "kucuk-yatak-aglamak",
-      "kucuk-yatak-sarilarak"
+      "kucuk-yatak-sarilarak",
+      "kucuk-agac-kovalamak",
+      "kucuk-anahtar-bogulmak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -2111,7 +2201,9 @@
     "relatedSymbols": [
       "kucuk-yatak-yuzmek",
       "kucuk-yatak-korkmak",
-      "kucuk-yatak-kacmak"
+      "kucuk-yatak-kacmak",
+      "eski-su-ucmak",
+      "buyuk-yatak-kirmak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -2157,7 +2249,9 @@
     "relatedSymbols": [
       "kucuk-yatak-bogulmak",
       "kucuk-yatak-bagirmak",
-      "kucuk-yatak-kovalamak"
+      "kucuk-yatak-kovalamak",
+      "kucuk-koltuk-dinlemek",
+      "kucuk-ay-soylemek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -2203,7 +2297,9 @@
     "relatedSymbols": [
       "kucuk-yatak-gulmek",
       "kucuk-yatak-soylemek",
-      "kucuk-yatak-saklamak"
+      "kucuk-yatak-saklamak",
+      "kucuk-ucak-kirmak",
+      "kucuk-nehir-kirmak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -2249,7 +2345,9 @@
     "relatedSymbols": [
       "kucuk-yatak-aglamak",
       "kucuk-yatak-dinlemek",
-      "kucuk-yatak-gezmek"
+      "kucuk-yatak-gezmek",
+      "kucuk-gemi-dinlemek",
+      "kucuk-bebek-gostermek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -2295,7 +2393,9 @@
     "relatedSymbols": [
       "kucuk-yatak-korkmak",
       "kucuk-yatak-sarilarak",
-      "kucuk-masa-gomek"
+      "kucuk-masa-gomek",
+      "yeni-yatak-bogulmak",
+      "kucuk-masa-almak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -2341,7 +2441,9 @@
     "relatedSymbols": [
       "kucuk-yatak-bagirmak",
       "kucuk-yatak-kacmak",
-      "kucuk-masa-almak"
+      "kucuk-masa-almak",
+      "kucuk-ogretmen-saklamak",
+      "kucuk-duvar-yapmak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -2387,7 +2489,9 @@
     "relatedSymbols": [
       "kucuk-yatak-soylemek",
       "kucuk-yatak-kovalamak",
-      "kucuk-masa-satmak"
+      "kucuk-masa-satmak",
+      "kucuk-gozluk-kacmak",
+      "kucuk-hastane-gezmek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -2433,7 +2537,9 @@
     "relatedSymbols": [
       "kucuk-yatak-dinlemek",
       "kucuk-yatak-saklamak",
-      "kucuk-masa-bulmak"
+      "kucuk-masa-bulmak",
+      "kucuk-elbise-aglamak",
+      "kucuk-gemi-gomek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -2479,7 +2585,9 @@
     "relatedSymbols": [
       "kucuk-yatak-sarilarak",
       "kucuk-yatak-gezmek",
-      "kucuk-masa-kaybetmek"
+      "kucuk-masa-kaybetmek",
+      "kucuk-dost-kovalamak",
+      "kucuk-tren-kovalamak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -2525,7 +2633,9 @@
     "relatedSymbols": [
       "kucuk-yatak-kacmak",
       "kucuk-masa-gomek",
-      "kucuk-masa-kirmak"
+      "kucuk-masa-kirmak",
+      "kucuk-duvar-korkmak",
+      "kucuk-kilic-aglamak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -2571,7 +2681,9 @@
     "relatedSymbols": [
       "kucuk-yatak-kovalamak",
       "kucuk-masa-almak",
-      "kucuk-masa-yapmak"
+      "kucuk-masa-yapmak",
+      "eski-ucak-kacmak",
+      "kucuk-yatak-yurumek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -2617,7 +2729,9 @@
     "relatedSymbols": [
       "kucuk-yatak-saklamak",
       "kucuk-masa-satmak",
-      "kucuk-masa-yikmak"
+      "kucuk-masa-yikmak",
+      "kucuk-deniz-gulmek",
+      "kucuk-kitap-kaybetmek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -2663,7 +2777,9 @@
     "relatedSymbols": [
       "kucuk-yatak-gezmek",
       "kucuk-masa-bulmak",
-      "kucuk-masa-aramak"
+      "kucuk-masa-aramak",
+      "kucuk-agac-saklamak",
+      "buyuk-dag-saklamak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -2709,7 +2825,9 @@
     "relatedSymbols": [
       "kucuk-masa-gomek",
       "kucuk-masa-kaybetmek",
-      "kucuk-masa-gostermek"
+      "kucuk-masa-gostermek",
+      "kucuk-gul-kovalamak",
+      "kucuk-hastane-kaybetmek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -2755,7 +2873,9 @@
     "relatedSymbols": [
       "kucuk-masa-almak",
       "kucuk-masa-kirmak",
-      "kucuk-masa-dusmek"
+      "kucuk-masa-dusmek",
+      "yeni-masa-almak",
+      "kucuk-bebek-kovalamak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -2801,7 +2921,9 @@
     "relatedSymbols": [
       "kucuk-masa-satmak",
       "kucuk-masa-yapmak",
-      "kucuk-masa-kalkmak"
+      "kucuk-masa-kalkmak",
+      "kucuk-kilic-kirmak",
+      "kucuk-bebek-kaybetmek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -2847,7 +2969,9 @@
     "relatedSymbols": [
       "kucuk-masa-bulmak",
       "kucuk-masa-yikmak",
-      "kucuk-masa-kosmak"
+      "kucuk-masa-kosmak",
+      "yeni-masa-gormek",
+      "yeni-masa-calmak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -2893,7 +3017,9 @@
     "relatedSymbols": [
       "kucuk-masa-kaybetmek",
       "kucuk-masa-aramak",
-      "kucuk-masa-yurumek"
+      "kucuk-masa-yurumek",
+      "kucuk-gul-gomek",
+      "kucuk-ruzgar-satmak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -2939,7 +3065,9 @@
     "relatedSymbols": [
       "kucuk-masa-kirmak",
       "kucuk-masa-gostermek",
-      "kucuk-masa-ziplamak"
+      "kucuk-masa-ziplamak",
+      "kucuk-kitap-bagirmak",
+      "yeni-masa-gormek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -2985,7 +3113,9 @@
     "relatedSymbols": [
       "kucuk-masa-yapmak",
       "kucuk-masa-dusmek",
-      "kucuk-masa-ucmak"
+      "kucuk-masa-ucmak",
+      "eski-masa-gomek",
+      "kucuk-gemi-dinlemek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -3031,7 +3161,9 @@
     "relatedSymbols": [
       "kucuk-masa-yikmak",
       "kucuk-masa-kalkmak",
-      "kucuk-masa-yuzmek"
+      "kucuk-masa-yuzmek",
+      "kucuk-pencere-soylemek",
+      "kucuk-koy-aramak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -3077,7 +3209,9 @@
     "relatedSymbols": [
       "kucuk-masa-aramak",
       "kucuk-masa-kosmak",
-      "kucuk-masa-bogulmak"
+      "kucuk-masa-bogulmak",
+      "kucuk-kilic-aramak",
+      "kucuk-dost-kirmak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -3123,7 +3257,9 @@
     "relatedSymbols": [
       "kucuk-masa-gostermek",
       "kucuk-masa-yurumek",
-      "kucuk-masa-gulmek"
+      "kucuk-masa-gulmek",
+      "kucuk-gul-gomek",
+      "kucuk-elbise-yapmak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -3169,7 +3305,9 @@
     "relatedSymbols": [
       "kucuk-masa-dusmek",
       "kucuk-masa-ziplamak",
-      "kucuk-masa-aglamak"
+      "kucuk-masa-aglamak",
+      "kucuk-cuzdan-gostermek",
+      "kucuk-patron-yikmak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -3215,7 +3353,9 @@
     "relatedSymbols": [
       "kucuk-masa-kalkmak",
       "kucuk-masa-ucmak",
-      "kucuk-masa-korkmak"
+      "kucuk-masa-korkmak",
+      "kucuk-ay-almak",
+      "buyuk-masa-yapmak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -3261,7 +3401,9 @@
     "relatedSymbols": [
       "kucuk-masa-kosmak",
       "kucuk-masa-yuzmek",
-      "kucuk-masa-bagirmak"
+      "kucuk-masa-bagirmak",
+      "kucuk-okul-kalkmak",
+      "kucuk-nehir-bagirmak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -3307,7 +3449,9 @@
     "relatedSymbols": [
       "kucuk-masa-yurumek",
       "kucuk-masa-bogulmak",
-      "kucuk-masa-soylemek"
+      "kucuk-masa-soylemek",
+      "kucuk-deniz",
+      "kucuk-duvar-saklamak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -3353,7 +3497,9 @@
     "relatedSymbols": [
       "kucuk-masa-ziplamak",
       "kucuk-masa-gulmek",
-      "kucuk-masa-dinlemek"
+      "kucuk-masa-dinlemek",
+      "kucuk-sehir-kacmak",
+      "kucuk-bisiklet-gostermek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -3399,7 +3545,9 @@
     "relatedSymbols": [
       "kucuk-masa-ucmak",
       "kucuk-masa-aglamak",
-      "kucuk-masa-sarilarak"
+      "kucuk-masa-sarilarak",
+      "kucuk-koy-yikmak",
+      "kucuk-ayna-yuzmek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -3445,7 +3593,9 @@
     "relatedSymbols": [
       "kucuk-masa-yuzmek",
       "kucuk-masa-korkmak",
-      "kucuk-masa-kacmak"
+      "kucuk-masa-kacmak",
+      "kucuk-agac-bagirmak",
+      "buyuk-masa-kirmak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -3491,7 +3641,9 @@
     "relatedSymbols": [
       "kucuk-masa-bogulmak",
       "kucuk-masa-bagirmak",
-      "kucuk-masa-kovalamak"
+      "kucuk-masa-kovalamak",
+      "yeni-koltuk-yuzmek",
+      "kucuk-nehir-kirmak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -3537,7 +3689,9 @@
     "relatedSymbols": [
       "kucuk-masa-gulmek",
       "kucuk-masa-soylemek",
-      "kucuk-masa-saklamak"
+      "kucuk-masa-saklamak",
+      "kucuk-bebek-dusmek",
+      "kucuk-dag-gostermek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -3583,7 +3737,9 @@
     "relatedSymbols": [
       "kucuk-masa-aglamak",
       "kucuk-masa-dinlemek",
-      "kucuk-masa-gezmek"
+      "kucuk-masa-gezmek",
+      "kucuk-kopru-korkmak",
+      "kucuk-gemi-gulmek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -3629,7 +3785,9 @@
     "relatedSymbols": [
       "kucuk-masa-korkmak",
       "kucuk-masa-sarilarak",
-      "kucuk-koltuk-gomek"
+      "kucuk-koltuk-gomek",
+      "kucuk-ayna-ziplamak",
+      "yeni-masa-korumak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -3675,7 +3833,9 @@
     "relatedSymbols": [
       "kucuk-masa-bagirmak",
       "kucuk-masa-kacmak",
-      "kucuk-koltuk-almak"
+      "kucuk-koltuk-almak",
+      "kucuk-ruzgar-ziplamak",
+      "kucuk-ayna-gezmek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -3721,7 +3881,9 @@
     "relatedSymbols": [
       "kucuk-masa-soylemek",
       "kucuk-masa-kovalamak",
-      "kucuk-koltuk-satmak"
+      "kucuk-koltuk-satmak",
+      "kucuk-merdiven-saklamak",
+      "kucuk-kitap-dinlemek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -3767,7 +3929,9 @@
     "relatedSymbols": [
       "kucuk-masa-dinlemek",
       "kucuk-masa-saklamak",
-      "kucuk-koltuk-bulmak"
+      "kucuk-koltuk-bulmak",
+      "eski-masa-korkmak",
+      "kucuk-masa-gostermek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -3813,7 +3977,9 @@
     "relatedSymbols": [
       "kucuk-masa-sarilarak",
       "kucuk-masa-gezmek",
-      "kucuk-koltuk-kaybetmek"
+      "kucuk-koltuk-kaybetmek",
+      "kucuk-yatak-aglamak",
+      "kucuk-pencere-kosmak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -3859,7 +4025,9 @@
     "relatedSymbols": [
       "kucuk-masa-kacmak",
       "kucuk-koltuk-gomek",
-      "kucuk-koltuk-kirmak"
+      "kucuk-koltuk-kirmak",
+      "eski-masa-calmak",
+      "buyuk-masa-ucmak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -3905,7 +4073,9 @@
     "relatedSymbols": [
       "kucuk-masa-kovalamak",
       "kucuk-koltuk-almak",
-      "kucuk-koltuk-yapmak"
+      "kucuk-koltuk-yapmak",
+      "kucuk-gozluk-gulmek",
+      "kucuk-yol-aglamak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -3951,7 +4121,9 @@
     "relatedSymbols": [
       "kucuk-masa-saklamak",
       "kucuk-koltuk-satmak",
-      "kucuk-koltuk-yikmak"
+      "kucuk-koltuk-yikmak",
+      "kucuk-masa-kosmak",
+      "kucuk-ucak-yuzmek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -3997,7 +4169,9 @@
     "relatedSymbols": [
       "kucuk-masa-gezmek",
       "kucuk-koltuk-bulmak",
-      "kucuk-koltuk-aramak"
+      "kucuk-koltuk-aramak",
+      "buyuk-kitap-saklamak",
+      "kucuk-masa-satmak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -4043,7 +4217,9 @@
     "relatedSymbols": [
       "kucuk-koltuk-gomek",
       "kucuk-koltuk-kaybetmek",
-      "kucuk-koltuk-gostermek"
+      "kucuk-koltuk-gostermek",
+      "kucuk-koltuk-kosmak",
+      "kucuk-masa-yikmak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -4089,7 +4265,9 @@
     "relatedSymbols": [
       "kucuk-koltuk-almak",
       "kucuk-koltuk-kirmak",
-      "kucuk-koltuk-dusmek"
+      "kucuk-koltuk-dusmek",
+      "kucuk-yol-yurumek",
+      "kucuk-gemi-soylemek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -4135,7 +4313,9 @@
     "relatedSymbols": [
       "kucuk-koltuk-satmak",
       "kucuk-koltuk-yapmak",
-      "kucuk-koltuk-kalkmak"
+      "kucuk-koltuk-kalkmak",
+      "kucuk-nehir-soylemek",
+      "kucuk-mezar-dusmek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -4181,7 +4361,9 @@
     "relatedSymbols": [
       "kucuk-koltuk-bulmak",
       "kucuk-koltuk-yikmak",
-      "kucuk-cuzdan-gezmek"
+      "kucuk-cuzdan-gezmek",
+      "kucuk-koy-korkmak",
+      "yeni-kus-satmak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -4227,7 +4409,9 @@
     "relatedSymbols": [
       "kucuk-koltuk-kaybetmek",
       "kucuk-koltuk-aramak",
-      "kucuk-gozluk-gomek"
+      "kucuk-gozluk-gomek",
+      "kucuk-asker-dinlemek",
+      "kucuk-gozluk-satmak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -4273,7 +4457,9 @@
     "relatedSymbols": [
       "kucuk-koltuk-kirmak",
       "kucuk-koltuk-gostermek",
-      "kucuk-gozluk-almak"
+      "kucuk-gozluk-almak",
+      "yeni-koltuk-aramak",
+      "kucuk-ruzgar-kovalamak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -4319,7 +4505,9 @@
     "relatedSymbols": [
       "kucuk-koltuk-yapmak",
       "kucuk-koltuk-dusmek",
-      "kucuk-gozluk-satmak"
+      "kucuk-gozluk-satmak",
+      "kucuk-kopru-gezmek",
+      "kucuk-anahtar-bagirmak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -4365,7 +4553,9 @@
     "relatedSymbols": [
       "kucuk-koltuk-yikmak",
       "kucuk-koltuk-kalkmak",
-      "kucuk-gozluk-bulmak"
+      "kucuk-gozluk-bulmak",
+      "kucuk-anahtar-kacmak",
+      "kucuk-yatak-gostermek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -4411,7 +4601,9 @@
     "relatedSymbols": [
       "kucuk-koltuk-aramak",
       "kucuk-cuzdan-gezmek",
-      "kucuk-gozluk-kaybetmek"
+      "kucuk-gozluk-kaybetmek",
+      "kucuk-gul-gostermek",
+      "kucuk-gemi-korkmak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -4457,7 +4649,9 @@
     "relatedSymbols": [
       "kucuk-koltuk-gostermek",
       "kucuk-gozluk-gomek",
-      "kucuk-gozluk-kirmak"
+      "kucuk-gozluk-kirmak",
+      "buyuk-cuzdan-aramak",
+      "kucuk-sehir-dinlemek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -4503,7 +4697,9 @@
     "relatedSymbols": [
       "kucuk-koltuk-dusmek",
       "kucuk-gozluk-almak",
-      "kucuk-gozluk-yapmak"
+      "kucuk-gozluk-yapmak",
+      "kucuk-sehir-sarilarak",
+      "kucuk-ruzgar-ziplamak"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -4549,7 +4745,9 @@
     "relatedSymbols": [
       "kucuk-koltuk-kalkmak",
       "kucuk-gozluk-satmak",
-      "kucuk-gozluk-yikmak"
+      "kucuk-gozluk-yikmak",
+      "kucuk-mezar-yapmak",
+      "kucuk-yatak-soylemek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   },
@@ -4595,7 +4793,9 @@
     "relatedSymbols": [
       "kucuk-cuzdan-gezmek",
       "kucuk-gozluk-bulmak",
-      "kucuk-gozluk-aramak"
+      "kucuk-gozluk-aramak",
+      "kucuk-yol-satmak",
+      "kucuk-gozluk-gulmek"
     ],
     "dateModified": "2026-07-29T14:31:35.227Z"
   }
