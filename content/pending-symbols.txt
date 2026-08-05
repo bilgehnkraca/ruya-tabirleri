@@ -1,15 +1,458 @@
-rüyada mavi kapı görmek
-rüyada uçan aslan görmek
-rüyada gökyüzünde tren görmek
-rüyada dev yengeç görmek
-rüyada konuşan bebek görmek
-rüyada mor kedi sevmek
-rüyada uzaya gitmek
-rüyada altın elma yemek
-rüyada zaman yolculuğu yapmak
-rüyada kristal kılıç bulmak
-rüyada deniz altında ev görmek
-rüyada bulutların üzerinde yürümek
-rüyada konuşan yılan görmek
-rüyada ateşten gömlek giymek
-rüyada dev dalgalardan kaçmak
+rüyada altın bilezik takmak
+rüyada siyah köpek ısırması
+rüyada eski sevgiliyle konuşmak
+rüyada yüksekten düşmek
+rüyada deniz dalgası görmek
+rüyada kırmızı gül almak
+rüyada bebek emzirmek
+rüyada diş kanaması görmek
+rüyada beyaz güvercin uçurmak
+rüyada yılan öldürmek
+rüyada kar yağdığını görmek
+rüyada saç dökülmesi
+rüyada ağlayarak uyanmak
+rüyada sınavı kazanamamak
+rüyada ölmüş babayı sağ görmek
+rüyada para bulmak
+rüyada cüzdan çaldırmak
+rüyada ev almak
+rüyada yeni araba sürmek
+rüyada hamile olduğunu öğrenmek
+rüyada ikiz bebek doğurmak
+rüyada yeşil elma yemek
+rüyada kedi tırmalaması
+rüyada at binmek
+rüyada balık tutmak
+rüyada hastaneye gitmek
+rüyada gelinlik giymek
+rüyada düğün görmek
+rüyada cenaze namazı kılmak
+rüyada yağmurda ıslanmak
+rüyada uçağa binmek
+rüyada tren kaçırmak
+rüyada cam kırılması
+rüyada ayna kırılması
+rüyada diş fırçalamak
+rüyada ekmek yapmak
+rüyada süt içmek
+rüyada ayakkabı kaybetmek
+rüyada yeni ayakkabı almak
+rüyada fare görmek
+rüyada aslan beslemek
+rüyada kurt sürüsü görmek
+rüyada denizde yüzmek
+rüyada boğulmaktan kurtulmak
+rüyada uçurumdan atlamak
+rüyada polis görmek
+rüyada askere gitmek
+rüyada hapishaneye düşmek
+rüyada altın yüzük takmak
+rüyada küpe bulmak
+rüyada kuyuya düşmek
+rüyada karanlıkta yürümek
+rüyada güneşin doğuşunu izlemek
+rüyada yıldız kayması görmek
+rüyada deprem olduğunu hissetmek
+rüyada sel baskını görmek
+rüyada yangın söndürmek
+rüyada orman yangını görmek
+rüyada karınca sürüsü görmek
+rüyada arı sokması
+rüyada böcek öldürmek
+rüyada saç kestirmek
+rüyada saç boyatmak
+rüyada tırnak kesmek
+rüyada banyo yapmak
+rüyada abdest almak
+rüyada namaz kılmak
+rüyada dua etmek
+rüyada kuran okumak
+rüyada camiye gitmek
+rüyada kilise görmek
+rüyada mezarlıkta dolaşmak
+rüyada ölüyle konuşmak
+rüyada ölünün dirilmesi
+rüyada cin görmek
+rüyada şeytan taşlamak
+rüyada melek görmek
+rüyada gökyüzüne uçmak
+rüyada bulutlara dokunmak
+rüyada gökkuşağı görmek
+rüyada yıldırım düşmesi
+rüyada kar topu oynamak
+rüyada kardan adam yapmak
+rüyada buz pateni yapmak
+rüyada dağa tırmanmak
+rüyada ağaç dikmek
+rüyada çiçek sulamak
+rüyada meyve toplamak
+rüyada çilek yemek
+rüyada karpuz kesmek
+rüyada et pişirmek
+rüyada balık yemek
+rüyada çay demlemek
+rüyada kahve içmek
+rüyada sigara içmek
+rüyada sarhoş olmak
+rüyada hastalanmak
+rüyada ilaç içmek
+rüyada ameliyat olmak
+rüyada kan görmek
+rüyada terlemek
+rüyada kusmak
+rüyada tuvalete gitmek
+rüyada temizlik yapmak
+rüyada bulaşık yıkamak
+rüyada çamaşır asmak
+rüyada ütü yapmak
+rüyada dikiş dikmek
+rüyada örgü örmek
+rüyada halı yıkamak
+rüyada cam silmek
+rüyada taşınmak
+rüyada ev boyamak
+rüyada kapı kilitlemek
+rüyada anahtar kaybetmek
+rüyada hırsız görmek
+rüyada kavga etmek
+rüyada birini dövmek
+rüyada dayak yemek
+rüyada bıçaklanmak
+rüyada silahla vurulmak
+rüyada adam öldürmek
+rüyada kan vermek
+rüyada şarkı söylemek
+rüyada dans etmek
+rüyada halay çekmek
+rüyada saz çalmak
+rüyada gitar çalmak
+rüyada piyano çalmak
+rüyada resim yapmak
+rüyada fotoğraf çekmek
+rüyada film izlemek
+rüyada kitap okumak
+rüyada mektup yazmak
+rüyada şiir okumak
+rüyada aşık olmak
+rüyada evlenme teklifi almak
+rüyada nişanlanmak
+rüyada boşanmak
+rüyada eşini aldatmak
+rüyada aldatılmak
+rüyada eski eşi görmek
+rüyada kaynana görmek
+rüyada görümce görmek
+rüyada komşuyla kavga etmek
+rüyada misafir ağırlamak
+rüyada hediye almak
+rüyada hediye vermek
+rüyada alışveriş yapmak
+rüyada pazara gitmek
+rüyada mağaza gezmek
+rüyada kredi çekmek
+rüyada borç ödemek
+rüyada iflas etmek
+rüyada zengin olmak
+rüyada fakirleşmek
+rüyada dilenci görmek
+rüyada sadaka vermek
+rüyada zekat vermek
+rüyada hacca gitmek
+rüyada umre yapmak
+rüyada zemzem içmek
+rüyada kabe'yi görmek
+rüyada peygamber efendimizi görmek
+rüyada evliya görmek
+rüyada türbe ziyaret etmek
+rüyada mezar kazmak
+rüyada cenaze yıkamak
+rüyada tabut taşımak
+rüyada kefen dikmek
+rüyada kıyametin koptuğunu görmek
+rüyada mahşer yerini görmek
+rüyada cenneti görmek
+rüyada cehennemi görmek
+rüyada sırat köprüsünden geçmek
+rüyada meleklerle uçmak
+rüyada cinlerle savaşmak
+rüyada büyü bozmak
+rüyada muska bulmak
+rüyada yılan sokması
+rüyada akrep sokması
+rüyada örümcek ağı görmek
+rüyada kelebek yakalamak
+rüyada kuş beslemek
+rüyada papağan görmek
+rüyada güvercin uçurmak
+rüyada karga sesi duymak
+rüyada baykuş görmek
+rüyada kartal uçması
+rüyada şahin yakalamak
+rüyada at arabası görmek
+rüyada traktör sürmek
+rüyada kamyon kullanmak
+rüyada otobüse binmek
+rüyada metroya binmek
+rüyada vapura binmek
+rüyada gemi yolculuğu yapmak
+rüyada uçak bileti almak
+rüyada bavul hazırlamak
+rüyada pasaport kaybetmek
+rüyada vize almak
+rüyada yurtdışına çıkmak
+rüyada kaybolmak
+rüyada yol sormak
+rüyada harita görmek
+rüyada pusula kullanmak
+rüyada çadır kurmak
+rüyada kamp yapmak
+rüyada ateş yakmak
+rüyada odun kırmak
+rüyada kömür taşımak
+rüyada soba yakmak
+rüyada şömine görmek
+rüyada kalorifer peteği görmek
+rüyada kar yağışı izlemek
+rüyada buz sarkıtı görmek
+rüyada çığ düşmesi
+rüyada fırtına çıkması
+rüyada kasırga görmek
+rüyada hortuma yakalanmak
+rüyada güneş tutulması görmek
+rüyada ay tutulması
+rüyada dolunay görmek
+rüyada yeni ay görmek
+rüyada takvim yaprağı koparmak
+rüyada saat kurmak
+rüyada geç kalmak
+rüyada erken uyanmak
+rüyada çalar saat sesi duymak
+rüyada cep telefonu kaybetmek
+rüyada telefon ekranı kırılması
+rüyada bilgisayar almak
+rüyada televizyon izlemek
+rüyada radyo dinlemek
+rüyada gazete okumak
+rüyada dergi karıştırmak
+rüyada mektup zarfı açmak
+rüyada pul biriktirmek
+rüyada imza atmak
+rüyada sözleşme imzalamak
+rüyada mahkemeye çıkmak
+rüyada hakim karşısına çıkmak
+rüyada avukatla görüşmek
+rüyada hapse girmek
+rüyada tahliye olmak
+rüyada cezaevi ziyareti yapmak
+rüyada kelepçe takılması
+rüyada parmaklık görmek
+rüyada kaçak olmak
+rüyada polis baskını görmek
+rüyada saklanmak
+rüyada kuyu kazmak
+rüyada tünel kazmak
+rüyada hazine bulmak
+rüyada define aramak
+rüyada harita çizmek
+rüyada heykel yapmak
+rüyada tablo boyamak
+rüyada sergi gezmek
+rüyada müzeye gitmek
+rüyada tarihi eser bulmak
+rüyada antik kente gitmek
+rüyada piramitleri görmek
+rüyada çin seddi'nde yürümek
+rüyada eyfel kulesi'ni görmek
+rüyada uzay gemisi görmek
+rüyada ufo görmek
+rüyada uzaylılarla konuşmak
+rüyada başka gezegene gitmek
+rüyada zaman makinesine binmek
+rüyada geçmişe gitmek
+rüyada geleceği görmek
+rüyada fal baktırmak
+rüyada kahve falı kapatmak
+rüyada sihir yapmak
+rüyada büyücü görmek
+rüyada ejderha ile savaşmak
+rüyada dinozor görmek
+rüyada fosil bulmak
+rüyada kılıç kuşanmak
+rüyada ok ve yay kullanmak
+rüyada mızrak atmak
+rüyada zırh giymek
+rüyada kalkan tutmak
+rüyada şövalye olmak
+rüyada padişah görmek
+rüyada sadrazam olmak
+rüyada vezir görmek
+rüyada tahta çıkmak
+rüyada taç takmak
+rüyada altın külçesi bulmak
+rüyada elmas yüzük bulmak
+rüyada zümrüt kolye takmak
+rüyada yakut küpe görmek
+rüyada inci dizmek
+rüyada hazine sandığı açmak
+rüyada şifre kırmak
+rüyada gizli geçit bulmak
+rüyada labirentten çıkmak
+rüyada çıkmaz sokağa girmek
+rüyada boş yolda yürümek
+rüyada kalabalıkta kaybolmak
+rüyada ıssız adaya düşmek
+rüyada ormanda kaybolmak
+rüyada kurt sürüsünden kaçmak
+rüyada ayı ile boğuşmak
+rüyada aslan terbiye etmek
+rüyada kaplan sevmek
+rüyada fil yavrusu görmek
+rüyada zürafa beslemek
+rüyada zebra sürüsü görmek
+rüyada timsah gözyaşı görmek
+rüyada yılan derisi yüzmek
+rüyada zehirli ok görmek
+rüyada panzehir içmek
+rüyada hastanede yatmak
+rüyada serum takılması
+rüyada iğne vurulmak
+rüyada kan tahlili vermek
+rüyada röntgen çektirmek
+rüyada ameliyathane görmek
+rüyada doktor önlüğü giymek
+rüyada hemşire görmek
+rüyada ilaç yazdırmak
+rüyada eczaneye gitmek
+rüyada diş çektirmek
+rüyada dolgu yaptırmak
+rüyada kanal tedavisi olmak
+rüyada takma diş görmek
+rüyada gözlük takmak
+rüyada lens takmak
+rüyada kör olmak
+rüyada sağır olmak
+rüyada dilsiz olmak
+rüyada topal olmak
+rüyada felç geçirmek
+rüyada baston kullanmak
+rüyada tekerlekli sandalye görmek
+rüyada koltuk değneği ile yürümek
+rüyada protez bacak görmek
+rüyada maske takmak
+rüyada kalp masajı yapmak
+rüyada suni teneffüs yapmak
+rüyada boğulanı kurtarmak
+rüyada itfaiye çağırmak
+rüyada yangın merdiveninden inmek
+rüyada acil çıkış kapısı aramak
+rüyada alarm zili duymak
+rüyada siren sesi duymak
+rüyada çan çalmak
+rüyada megafonla konuşmak
+rüyada mikrofonda şarkı söylemek
+rüyada sahneye çıkmak
+rüyada alkışlanmak
+rüyada yuhalanmak
+rüyada ödül almak
+rüyada madalya takmak
+rüyada kupa kaldırmak
+rüyada şampiyon olmak
+rüyada madenci görmek
+rüyada kömür madenine inmek
+rüyada elmas madeni görmek
+rüyada petrol kuyusu görmek
+rüyada altın madeninde çalışmak
+rüyada arkeolojik kazı yapmak
+rüyada eski para bulmak
+rüyada gömü bulmak
+rüyada define haritası okumak
+rüyada korsan gemisi görmek
+rüyada sihirli lamba bulmak
+rüyada lamba cini görmek
+rüyada dilek tutmak
+rüyada kayan yıldız görmek
+rüyada dört yapraklı yonca bulmak
+rüyada at nalı bulmak
+rüyada nazar boncuğu takmak
+rüyada kurşun döktürmek
+rüyada muska taktırmak
+rüyada şifalı suya girmek
+rüyada kaplıcaya gitmek
+rüyada hamama gitmek
+rüyada kese yaptırmak
+rüyada havluya sarınmak
+rüyada bornoz giymek
+rüyada saç kurutmak
+rüyada ayna karşısında süslenmek
+rüyada ruj sürmek
+rüyada oje sürmek
+rüyada parfüm sıkmak
+rüyada kravat bağlamak
+rüyada takım elbise giymek
+rüyada topuklu ayakkabı giymek
+rüyada çizme giymek
+rüyada çıplak ayakla yürümek
+rüyada çorap örmek
+rüyada eldiven takmak
+rüyada şapka takmak
+rüyada atkı örmek
+rüyada bere giymek
+rüyada şemsiye açmak
+rüyada yağmurluk giymek
+rüyada mont giymek
+rüyada kazak örmek
+rüyada düğme dikmek
+rüyada yama yapmak
+rüyada yırtık elbise giymek
+rüyada sökük dikmek
+rüyada makas kullanmak
+rüyada iğne iplik görmek
+rüyada dikiş makinesi kullanmak
+rüyada kumaş kesmek
+rüyada terzi görmek
+rüyada kıyafet denemek
+rüyada vitrin bakmak
+rüyada alışveriş sepeti doldurmak
+rüyada kasada ödeme yapmak
+rüyada bankamatikten para çekmek
+rüyada kredi kartı kullanmak
+rüyada kumbaraya para atmak
+rüyada altın biriktirmek
+rüyada döviz almak
+rüyada hisse senedi almak
+rüyada piyango bileti almak
+rüyada miras kalması
+rüyada noter belgesi onaylatmak
+rüyada tapu almak
+rüyada ehliyet sınavına girmek
+rüyada diploma almak
+rüyada mezuniyet törenine katılmak
+rüyada profesör görmek
+rüyada mikroskop kullanmak
+rüyada pusula ile yön bulmak
+rüyada tartıya çıkmak
+rüyada organ bağışlamak
+rüyada dua okumak
+rüyada ezan okumak
+rüyada imam olmak
+rüyada tövbe etmek
+rüyada helalleşmek
+rüyada beddua etmek
+rüyada affetmek
+rüyada merhamet etmek
+rüyada isyan etmek
+rüyada oy vermek
+rüyada vali görmek
+rüyada jandarma görmek
+rüyada zam almak
+rüyada borç batağına düşmek
+rüyada iftira atmak
+rüyada yalan söylemek
+rüyada kumpas kurmak
+rüyada vicdan azabı çekmek
+rüyada aşevi görmek
+rüyada zeytin toplamak
+rüyada ceviz kırmak
+rüyada dondurma yemek
+rüyada baklava yemek
+rüyada mum üflemek
