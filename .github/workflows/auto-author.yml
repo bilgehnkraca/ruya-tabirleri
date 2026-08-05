@@ -1,0 +1,52 @@
+name: Otonom Yazar (AI Auto-Author)
+
+on:
+  schedule:
+    # Her gün saat 04:00 UTC'de çalışır
+    - cron: '0 4 * * *'
+  workflow_dispatch: # Manuel tetiklemeye izin verir
+
+permissions:
+  contents: write
+
+jobs:
+  write-and-publish:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: 🤖 AI İçerik Üret (GPT-4o-mini)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: node scripts/generate-ai-content.js
+
+      - name: 🔗 Benzer Rüyaları Eşleştir (İç Link Ağı)
+        run: |
+          node scripts/generate-slug-index.js
+          node scripts/fix-orphans.js
+
+      - name: 🕷️ SEO Örümceği Kalite Kontrolü
+        run: npm run seo:check
+
+      - name: 💾 Değişiklikleri GitHub'a Gönder (Canlıya Al)
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/
+          # Sadece değişiklik varsa commit at, yoksa hata verme
+          git diff --staged --quiet || git commit -m "feat: AI tarafindan uretilen 5 yeni ruya yayinlandi 🤖"
+          git push
+
+      - name: 🌍 Arama Motorlarına Bildir (IndexNow)
+        run: npm run indexnow:push
