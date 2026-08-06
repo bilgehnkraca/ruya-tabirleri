@@ -106,11 +106,11 @@ export default function DreamCommentSection({ symbolSlug, symbolTitle }: Props) 
     <section className="mt-16 pt-12 border-t border-night-800" id="ruya-yorumlari">
       <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8">
         <div>
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-mystic-950/80 border border-mystic-500/30 text-mystic-300 text-xs font-semibold mb-3">
-            <span className="w-2 h-2 rounded-full bg-mystic-400 animate-ping" />
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/80 border border-white/10 text-neutral-300 text-xs font-semibold mb-3">
+            <span className="w-2 h-2 rounded-full bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] animate-ping" />
             Topluluk & AI Etkileşim Alanı
           </div>
-          <h2 className="text-2xl md:text-3xl font-serif font-bold text-white">
+          <h2 className="text-2xl md:text-3xl tracking-tight font-bold text-white">
             ✍️ Rüyanı Yaz, Topluluğa ve Yapay Zekaya Sor
           </h2>
         </div>
@@ -120,7 +120,7 @@ export default function DreamCommentSection({ symbolSlug, symbolTitle }: Props) 
       </div>
 
       <p className="text-night-300 mb-8 leading-relaxed">
-        Siz de rüyanızda <strong className="text-mystic-200">{symbolTitle}</strong> veya benzeri bir durum mu gördünüz? 
+        Siz de rüyanızda <strong className="text-neutral-200">{symbolTitle}</strong> veya benzeri bir durum mu gördünüz? 
         Detayları aşağıya yazın; hem diğer kullanıcılarla deneyimlerinizi karşılaştırın hem de yapay zeka asistanımızın anlık sembol analizinden faydalanın.
       </p>
 
@@ -136,9 +136,9 @@ export default function DreamCommentSection({ symbolSlug, symbolTitle }: Props) 
 
       {/* Comment Form */}
       <form onSubmit={handleSubmit} className="bg-night-900/40 border border-night-700/80 rounded-3xl p-6 md:p-8 mb-12 backdrop-blur-xl shadow-2xl relative overflow-hidden group">
-        <div className="absolute -top-24 -right-24 w-48 h-48 bg-mystic-600/10 rounded-full blur-3xl pointer-events-none group-hover:bg-mystic-600/20 transition-all duration-500" />
+        <div className="absolute -top-24 -right-24 w-48 h-48 bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/10 rounded-full blur-3xl pointer-events-none group-hover:bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/20 transition-all duration-500" />
         
-        <h3 className="text-lg font-semibold text-white mb-6 flex items-center gap-2">
+        <h3 className="tracking-tight text-lg font-semibold text-white mb-6 flex items-center gap-2">
           <span>✨</span> Kendi Rüya Deneyimini Paylaş
         </h3>
 
@@ -153,7 +153,7 @@ export default function DreamCommentSection({ symbolSlug, symbolTitle }: Props) 
               placeholder="Örn: Ayşe K. veya RüyaGezgini"
               value={authorName}
               onChange={(e) => setAuthorName(e.target.value)}
-              className="w-full bg-night-950/80 border border-night-700 rounded-xl px-4 py-3 text-white placeholder-night-500 focus:outline-none focus:border-mystic-500 focus:ring-1 focus:ring-mystic-500 transition-all"
+              className="w-full bg-night-950/80 border border-night-700 rounded-xl px-4 py-3 text-white placeholder-night-500 focus:outline-none focus:border-white/10 focus:ring-1 focus:ring-mystic-500 transition-all"
             />
           </div>
           <div className="flex items-end pb-2">
@@ -162,10 +162,10 @@ export default function DreamCommentSection({ symbolSlug, symbolTitle }: Props) 
                 type="checkbox"
                 checked={requestAiAnalysis}
                 onChange={(e) => setRequestAiAnalysis(e.target.checked)}
-                className="w-5 h-5 rounded border-night-700 text-mystic-600 focus:ring-mystic-500 focus:ring-offset-night-950 bg-night-900 cursor-pointer"
+                className="w-5 h-5 rounded border-night-700 text-gold-600 focus:ring-mystic-500 focus:ring-offset-night-950 bg-night-900 cursor-pointer"
               />
               <span>
-                🤖 <strong className="text-mystic-300">AI Sembolizm Motoru</strong> rüyamı analiz etsin
+                🤖 <strong className="text-neutral-300">AI Sembolizm Motoru</strong> rüyamı analiz etsin
               </span>
             </label>
           </div>
@@ -181,7 +181,7 @@ export default function DreamCommentSection({ symbolSlug, symbolTitle }: Props) 
             placeholder="Rüyanızda tam olarak ne oldu? Hangi renkler, duygular veya mekanlar öne çıkıyordu? Ne kadar detay yazarsanız analiz o kadar kesin olur..."
             value={commentText}
             onChange={(e) => setCommentText(e.target.value)}
-            className="w-full bg-night-950/80 border border-night-700 rounded-xl px-4 py-3 text-white placeholder-night-500 focus:outline-none focus:border-mystic-500 focus:ring-1 focus:ring-mystic-500 transition-all resize-none"
+            className="w-full bg-night-950/80 border border-night-700 rounded-xl px-4 py-3 text-white placeholder-night-500 focus:outline-none focus:border-white/10 focus:ring-1 focus:ring-mystic-500 transition-all resize-none"
           />
         </div>
 
@@ -210,7 +210,7 @@ export default function DreamCommentSection({ symbolSlug, symbolTitle }: Props) 
 
       {/* Comments List */}
       <div className="space-y-6">
-        <h3 className="text-xl font-serif font-bold text-white mb-6 flex items-center gap-2">
+        <h3 className="text-xl tracking-tight font-bold text-white mb-6 flex items-center gap-2">
           <span>👥</span> Topluluk Deneyimleri ve Yapay Zeka Yorumları ({comments.length})
         </h3>
 
@@ -235,7 +235,7 @@ export default function DreamCommentSection({ symbolSlug, symbolTitle }: Props) 
                 </div>
                 <button
                   onClick={() => handleLike(comment.id)}
-                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-night-800/80 hover:bg-night-700 text-night-300 hover:text-mystic-300 text-xs font-medium transition-all border border-night-700/50"
+                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/80 hover:bg-night-700 text-night-300 hover:text-neutral-300 text-xs font-medium transition-all border border-night-700/50"
                 >
                   <span>👍</span> Faydalı ({comment.likes})
                 </button>
@@ -246,10 +246,10 @@ export default function DreamCommentSection({ symbolSlug, symbolTitle }: Props) 
               </p>
 
               {comment.aiReply && (
-                <div className="mt-4 pt-4 border-t border-night-800/80 pl-4 md:pl-6 border-l-2 border-l-mystic-500 bg-mystic-950/30 p-4 rounded-r-xl">
-                  <div className="flex items-center gap-2 text-xs font-semibold text-mystic-300 mb-2">
+                <div className="mt-4 pt-4 border-t border-night-800/80 pl-4 md:pl-6 border-l-2 border-l-mystic-500 bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/30 p-4 rounded-r-xl">
+                  <div className="flex items-center gap-2 text-xs font-semibold text-neutral-300 mb-2">
                     <span className="text-sm">🤖</span> AI Rüya Sembolizm Asistanı
-                    <span className="bg-mystic-500/20 text-mystic-300 px-2 py-0.5 rounded text-[10px] border border-mystic-500/30">
+                    <span className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/20 text-neutral-300 px-2 py-0.5 rounded text-[10px] border border-white/10">
                       Ön Analiz
                     </span>
                   </div>

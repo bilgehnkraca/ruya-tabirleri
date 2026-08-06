@@ -34,13 +34,13 @@ export default function CookieConsent() {
       <div className="flex items-center gap-3 w-full md:w-auto">
         <button 
           onClick={reject}
-          className="flex-1 md:flex-none px-4 py-2 rounded-lg border border-night-600 text-night-200 hover:bg-night-800 transition-colors whitespace-nowrap text-sm font-medium"
+          className="flex-1 md:flex-none px-4 py-2 rounded-lg border border-night-600 text-night-200 hover:bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] transition-colors whitespace-nowrap text-sm font-medium"
         >
           Reddet
         </button>
         <button 
           onClick={accept}
-          className="flex-1 md:flex-none px-6 py-2 rounded-lg bg-mystic-600 hover:bg-mystic-500 text-white transition-colors whitespace-nowrap text-sm font-medium shadow-[0_0_15px_rgba(112,60,211,0.4)]"
+          className="flex-1 md:flex-none px-6 py-2 rounded-lg bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] hover:bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] text-white transition-colors whitespace-nowrap text-sm font-medium shadow-[0_0_15px_rgba(112,60,211,0.4)]"
         >
           Kabul Et
         </button>

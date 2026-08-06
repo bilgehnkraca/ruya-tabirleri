@@ -42,7 +42,7 @@ export default function AdSlot({ type, slotId, yandexId, className = '', format 
 
   if (process.env.NODE_ENV !== 'production') {
     return (
-      <div className={`w-full h-[90px] bg-night-800/50 rounded-xl border border-night-700/50 flex flex-col items-center justify-center text-night-500 text-sm ${className}`}>
+      <div className={`w-full h-[90px] bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/50 rounded-xl border border-night-700/50 flex flex-col items-center justify-center text-night-500 text-sm ${className}`}>
         <span>Reklam Alanı ({type === 'adsense' ? 'Google AdSense' : 'Yandex'})</span>
         <span className="text-xs text-night-600">ID: {slotId || yandexId || 'Belirtilmedi'}</span>
       </div>

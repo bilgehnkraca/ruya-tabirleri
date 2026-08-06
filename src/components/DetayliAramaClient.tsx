@@ -249,11 +249,11 @@ export default function DetayliAramaClient() {
               className={`px-3 py-1.5 rounded-xl text-xs font-medium whitespace-nowrap transition-all duration-200 flex items-center gap-1 shrink-0 ${
                 selectedCategory === cat.id
                   ? 'bg-night-700 text-white shadow-sm'
-                  : 'bg-night-900 hover:bg-night-800 text-night-300 border border-night-800'
+                  : 'bg-night-900 hover:bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] text-night-300 border border-night-800'
               }`}
             >
               {cat.label}
-              {selectedCategory === cat.id && <Check className="w-3 h-3 ml-0.5 text-mystic-300" />}
+              {selectedCategory === cat.id && <Check className="w-3 h-3 ml-0.5 text-neutral-300" />}
             </button>
           ))}
         </div>
@@ -261,7 +261,7 @@ export default function DetayliAramaClient() {
         {tags.length > 0 && (
           <div className="flex flex-wrap gap-2 mb-4 pt-1">
             {tags.map(tag => (
-              <span key={tag} className="bg-night-800 text-mystic-100 px-3.5 py-1.5 rounded-xl flex items-center gap-2 text-sm font-medium border border-night-700 shadow-sm animate-in zoom-in duration-200">
+              <span key={tag} className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] text-white px-3.5 py-1.5 rounded-xl flex items-center gap-2 text-sm font-medium border border-night-700 shadow-sm animate-in zoom-in duration-200">
                 <Tag className="w-3.5 h-3.5 text-mystic-400" />
                 <span>{tag}</span>
                 <button onClick={() => removeTag(tag)} className="hover:text-red-400 focus:outline-none bg-night-900/60 hover:bg-night-950 rounded-full p-1 transition-colors">
@@ -296,7 +296,7 @@ export default function DetayliAramaClient() {
                   ? "Rüyanızın tamamını yazın veya sesli anlatın (Örn: Vefat eden babamın elma vermesi)..." 
                   : "Kombinasyona yeni sembol ekleyin..."
             }
-            className={`w-full bg-[#04060A] border border-night-700 text-white rounded-2xl py-4 pl-14 pr-24 focus:outline-none transition-all placeholder:text-night-400 text-base md:text-lg font-medium focus:border-mystic-500/50 ${
+            className={`w-full bg-[#04060A] border border-night-700 text-white rounded-2xl py-4 pl-14 pr-24 focus:outline-none transition-all placeholder:text-night-400 text-base md:text-lg font-medium focus:border-white/10 ${
               isListening ? 'border-red-900/50 bg-red-950/5' : ''
             }`}
           />
@@ -305,7 +305,7 @@ export default function DetayliAramaClient() {
             {inputValue && (
               <button 
                 onClick={() => setInputValue('')}
-                className="text-gray-300 hover:text-white bg-night-800 hover:bg-night-700 rounded-full p-1.5 transition-colors"
+                className="text-gray-300 hover:text-white bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] hover:bg-night-700 rounded-full p-1.5 transition-colors"
                 title="Yazıyı Temizle"
               >
                 <X className="w-4 h-4" />
@@ -318,7 +318,7 @@ export default function DetayliAramaClient() {
               className={`p-2.5 rounded-xl flex items-center justify-center transition-all ${
                 isListening
                   ? 'bg-red-900/50 text-red-200 border border-red-800'
-                  : 'bg-night-900 hover:bg-night-800 text-mystic-300 border border-night-800'
+                  : 'bg-night-900 hover:bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] text-neutral-300 border border-night-800'
               }`}
               title={isListening ? "Dinlemeyi Durdur" : "Sesli Rüya Anlat (Mikrofona Bas)"}
             >
@@ -327,8 +327,8 @@ export default function DetayliAramaClient() {
           </div>
 
           {isFocused && autocompleteSuggestions.length > 0 && (
-            <div className="absolute top-full left-0 right-0 mt-3 bg-[#080B14] border-2 border-mystic-500/60 rounded-2xl shadow-2xl overflow-hidden z-50 animate-in fade-in slide-in-from-top-2 duration-200">
-              <div className="px-4 py-2.5 bg-[#04060A] border-b border-mystic-500/30 text-[11px] font-bold tracking-wider text-accent-400 uppercase flex items-center justify-between">
+            <div className="absolute top-full left-0 right-0 mt-3 bg-[#080B14] border-2 border-white/10 rounded-2xl shadow-2xl overflow-hidden z-50 animate-in fade-in slide-in-from-top-2 duration-200">
+              <div className="px-4 py-2.5 bg-[#04060A] border-b border-white/10 text-[11px] font-bold tracking-wider text-accent-400 uppercase flex items-center justify-between">
                 <span>⚡ Hızlı Sözlük Eşleşmeleri ({selectedCategory !== 'tumu' ? CATEGORY_FILTERS.find(c => c.id === selectedCategory)?.label : 'Tümü'})</span>
                 <span>Enter ile kombinasyona ekle</span>
               </div>
@@ -337,11 +337,11 @@ export default function DetayliAramaClient() {
                   <li key={suggestion.slug}>
                     <button
                       onClick={() => router.push(`/sembol/${suggestion.slug}`)}
-                      className="w-full text-left px-5 py-4 hover:bg-mystic-900/40 flex items-center justify-between group transition-colors"
+                      className="w-full text-left px-5 py-4 hover:bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/40 flex items-center justify-between group transition-colors"
                     >
                       <div className="flex items-center gap-3">
-                        <span className="w-2 h-2 rounded-full bg-mystic-500 shrink-0" />
-                        <span className="text-white font-medium group-hover:text-mystic-200 transition-colors text-base">
+                        <span className="w-2 h-2 rounded-full bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] shrink-0" />
+                        <span className="text-white font-medium group-hover:text-neutral-200 transition-colors text-base">
                           {formatSymbolTitle(suggestion.title)}
                         </span>
                       </div>
@@ -374,7 +374,7 @@ export default function DetayliAramaClient() {
                 key={idx}
                 type="button"
                 onClick={() => applyQuickCombination(combo.tags)}
-                className="bg-night-900 hover:bg-night-800 text-night-200 hover:text-white border border-night-800 px-3 py-1.5 rounded-xl text-xs font-medium transition-colors shadow-sm flex items-center gap-1"
+                className="bg-night-900 hover:bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] text-night-200 hover:text-white border border-night-800 px-3 py-1.5 rounded-xl text-xs font-medium transition-colors shadow-sm flex items-center gap-1"
               >
                 {combo.label}
               </button>
@@ -397,24 +397,24 @@ export default function DetayliAramaClient() {
           
           <div className="flex flex-wrap items-center justify-between gap-4 mb-6 border-b border-night-800 pb-5">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-2xl bg-night-800 border border-night-700 flex items-center justify-center shrink-0">
+              <div className="w-12 h-12 rounded-2xl bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] border border-night-700 flex items-center justify-center shrink-0">
                 <Book className="w-6 h-6 text-mystic-400" />
               </div>
               <div>
                 <span className="text-xs font-semibold uppercase tracking-widest text-night-400 flex items-center gap-1.5">
                   Detaylı Rüya Analizi
                 </span>
-                <h2 className="text-xl md:text-2xl font-serif font-bold text-white">
+                <h2 className="text-xl md:text-2xl tracking-tight font-bold text-white">
                   &quot;{aiSynthesis.title}&quot; Tefsiri
                 </h2>
               </div>
             </div>
 
             <div className="flex items-center gap-2 flex-wrap">
-              <div className="bg-night-950/80 border border-mystic-500/40 rounded-2xl px-3 py-1 shadow-inner">
+              <div className="bg-night-950/80 border border-white/10 rounded-2xl px-3 py-1 shadow-inner">
                 <TextToSpeech text={aiSynthesis.text} />
               </div>
-              <span className="bg-night-800 text-mystic-200 border border-night-700 px-3.5 py-1.5 rounded-full text-xs font-medium shadow-sm">
+              <span className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] text-neutral-200 border border-night-700 px-3.5 py-1.5 rounded-full text-xs font-medium shadow-sm">
                 {aiSynthesis.count} Sembol Birleştirildi
               </span>
             </div>
@@ -424,14 +424,14 @@ export default function DetayliAramaClient() {
             {aiSynthesis.text.split('\n\n').map((paragraph: string, idx: number) => {
               if (paragraph.startsWith('### ')) {
                 return (
-                  <h3 key={idx} className="text-lg md:text-xl font-serif font-medium text-white mt-6 mb-2 flex items-center gap-2 border-l-2 border-mystic-500 pl-3 py-1">
+                  <h3 key={idx} className="text-lg md:text-xl tracking-tight font-medium text-white mt-6 mb-2 flex items-center gap-2 border-l-2 border-white/10 pl-3 py-1">
                     {paragraph.replace('### ', '')}
                   </h3>
                 );
               }
               if (paragraph.startsWith('💡 ')) {
                 return (
-                  <div key={idx} className="bg-night-800 border border-night-700 rounded-2xl p-5 text-night-200 mt-6 flex items-start gap-3.5 shadow-md">
+                  <div key={idx} className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] border border-night-700 rounded-2xl p-5 text-night-200 mt-6 flex items-start gap-3.5 shadow-md">
                     <span className="text-xl shrink-0 opacity-70">💡</span>
                     <div className="font-normal">{paragraph.replace('💡 ', '').replace('Yapay Zeka Asistan Tavsiyesi', 'Genel Yorum')}</div>
                   </div>
@@ -453,7 +453,7 @@ export default function DetayliAramaClient() {
       {!isLoading && (tags.length > 0 || inputValue.length >= 2) && (
         <div className="space-y-6 animate-in fade-in slide-in-from-bottom-4 duration-500 text-left">
           <div className="flex items-center justify-between border-b border-night-700/80 pb-3">
-            <h2 className="text-xl md:text-2xl font-serif font-bold text-white flex items-center gap-2">
+            <h2 className="text-xl md:text-2xl tracking-tight font-bold text-white flex items-center gap-2">
               <span>🔍 Detaylı Sözlük Sonuçları</span>
               <span className="text-sm font-sans font-normal text-night-400">({results.length} eşleşme)</span>
             </h2>
@@ -464,7 +464,7 @@ export default function DetayliAramaClient() {
               <Zap className="w-12 h-12 text-night-500 mx-auto mb-4 animate-pulse" />
               <p className="text-night-200 text-lg font-medium mb-2">Bu kelimelere uygun doğrudan bir rüya başlığı bulamadık.</p>
               
-              <div className="max-w-lg mx-auto bg-[#04060A] border-2 border-mystic-500/50 rounded-2xl p-6 text-left shadow-2xl mt-6">
+              <div className="max-w-lg mx-auto bg-[#04060A] border-2 border-white/10 rounded-2xl p-6 text-left shadow-2xl mt-6">
                 <div className="flex items-center gap-2 text-night-200 font-medium text-sm mb-2">
                   <Search className="w-4 h-4 text-mystic-400" />
                   <span>Aradığınız Rüyayı Bulamadınız mı?</span>
@@ -484,7 +484,7 @@ export default function DetayliAramaClient() {
                       placeholder="Gördüğünüz rüyayı kısaca yazın (Örn: Rüyada yeşil elma yemek ve denize girmek)..."
                       className="w-full bg-[#080B14] border border-night-700 text-white placeholder-gray-400 text-sm rounded-xl p-3 focus:outline-none focus:border-accent-400 min-h-[80px]"
                     />
-                    <button type="submit" className="bg-night-800 hover:bg-night-700 text-white font-medium py-2.5 px-4 rounded-xl text-sm transition-colors border border-night-700 shadow-sm">
+                    <button type="submit" className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] hover:bg-night-700 text-white font-medium py-2.5 px-4 rounded-xl text-sm transition-colors border border-night-700 shadow-sm">
                       Tabirini Hazırla & Ekle
                     </button>
                   </form>
@@ -494,12 +494,12 @@ export default function DetayliAramaClient() {
           ) : (
             <div className="grid grid-cols-1 gap-4 md:gap-6">
               {results.map((item) => (
-                <div key={item.id} className="bg-night-900/60 border border-night-800 rounded-2xl p-6 md:p-8 hover:border-mystic-500/60 hover:bg-night-900/90 transition-all relative overflow-hidden group shadow-lg">
+                <div key={item.id} className="bg-night-900/60 border border-night-800 rounded-2xl p-6 md:p-8 hover:border-white/10 hover:bg-night-900/90 transition-all relative overflow-hidden group shadow-lg">
                   <div className="flex items-center gap-2 text-xs font-medium text-night-400 mb-2 uppercase tracking-wider">
                     {item.type === 'symbol' ? '📌 Ana Sembol' : '🔄 Senaryo Varyasyonu'} • <span className="text-mystic-400 capitalize">{item.category}</span>
                   </div>
 
-                  <h3 className="text-xl md:text-2xl font-bold text-white mb-4 pr-24 group-hover:text-mystic-200 transition-colors">
+                  <h3 className="tracking-tight text-xl md:text-2xl font-bold text-white mb-4 pr-24 group-hover:text-neutral-200 transition-colors">
                     {highlightText(item.title)}
                   </h3>
                   

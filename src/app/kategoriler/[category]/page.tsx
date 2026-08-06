@@ -108,17 +108,17 @@ export default function CategoryPage({ params, searchParams }: Props) {
       </nav>
 
       <header className="mb-12 flex flex-col items-center text-center">
-        <div className="w-16 h-16 rounded-full bg-mystic-900/50 flex items-center justify-center mb-6">
+        <div className="w-16 h-16 rounded-full bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/50 flex items-center justify-center mb-6">
           <Compass className="text-mystic-400 w-8 h-8" />
         </div>
-        <h1 className="text-4xl font-serif font-bold text-white mb-4 capitalize">{categoryName} Sembolleri</h1>
+        <h1 className="text-4xl tracking-tight font-bold text-white mb-4 capitalize">{categoryName} Sembolleri</h1>
         <p className="text-night-300">Bu kategoride toplam {symbols.length} adet rüya tabiri bulunmaktadır.</p>
       </header>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
         {symbols.map(symbol => (
           <Link key={symbol.slug} href={`/sembol/${symbol.slug}`} className="symbol-card group flex flex-col h-full">
-            <h3 className="text-xl font-semibold text-mystic-100 mb-3 group-hover:text-mystic-400 transition-colors">{sanitizeTitle(symbol.title)}</h3>
+            <h3 className="tracking-tight text-xl font-semibold text-white mb-3 group-hover:text-mystic-400 transition-colors">{sanitizeTitle(symbol.title)}</h3>
             <p className="text-night-300 text-sm flex-grow line-clamp-3">{symbol.shortDescription}</p>
           </Link>
         ))}
@@ -127,7 +127,7 @@ export default function CategoryPage({ params, searchParams }: Props) {
       {totalPages > 1 && (
         <div className="flex items-center justify-center gap-4 border-t border-night-700 pt-8">
           {page > 1 ? (
-            <Link href={`/kategoriler/${params.category}?page=${page - 1}`} className="flex items-center gap-2 px-4 py-2 bg-night-800 hover:bg-mystic-900 rounded-lg text-mystic-300 transition-colors">
+            <Link href={`/kategoriler/${params.category}?page=${page - 1}`} className="flex items-center gap-2 px-4 py-2 bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] hover:bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-lg text-neutral-300 transition-colors">
               <ChevronLeft className="w-5 h-5" /> Önceki
             </Link>
           ) : (
@@ -141,7 +141,7 @@ export default function CategoryPage({ params, searchParams }: Props) {
           </span>
 
           {page < totalPages ? (
-            <Link href={`/kategoriler/${params.category}?page=${page + 1}`} className="flex items-center gap-2 px-4 py-2 bg-night-800 hover:bg-mystic-900 rounded-lg text-mystic-300 transition-colors">
+            <Link href={`/kategoriler/${params.category}?page=${page + 1}`} className="flex items-center gap-2 px-4 py-2 bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] hover:bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] rounded-lg text-neutral-300 transition-colors">
               Sonraki <ChevronRight className="w-5 h-5" />
             </Link>
           ) : (

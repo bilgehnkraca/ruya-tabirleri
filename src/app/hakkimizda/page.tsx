@@ -68,7 +68,7 @@ export default function AboutPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }} />
       <header className="mb-12 text-center pt-8">
-        <h1 className="text-4xl md:text-5xl font-serif font-bold text-white mb-6">Hakkımızda</h1>
+        <h1 className="text-4xl md:text-5xl tracking-tight font-bold text-white mb-6">Hakkımızda</h1>
         <p className="text-xl text-night-300 max-w-2xl mx-auto mb-4">
           Bilinçaltınızın sembolik dilini çözmenize yardımcı olan rehberiniz.
         </p>
@@ -78,8 +78,8 @@ export default function AboutPage() {
       </header>
 
       <div className="prose prose-invert prose-night max-w-none">
-        <div className="bg-night-800/30 rounded-2xl p-8 border border-night-700/50 mb-10">
-          <h2 className="text-2xl font-serif font-bold text-mystic-100 mt-0 mb-4 flex items-center gap-3">
+        <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/30 rounded-2xl p-8 border border-night-700/50 mb-10">
+          <h2 className="text-2xl tracking-tight font-bold text-white mt-0 mb-4 flex items-center gap-3">
             <Compass className="text-mystic-500 w-6 h-6" />
             Misyonumuz
           </h2>
@@ -88,14 +88,14 @@ export default function AboutPage() {
           </p>
         </div>
 
-        <h2 className="text-3xl font-serif font-bold text-white mb-6">Yaklaşımımız</h2>
+        <h2 className="text-3xl tracking-tight font-bold text-white mb-6">Yaklaşımımız</h2>
         <p className="text-night-200 leading-relaxed mb-8">
           İnternet dünyasında dolaşan birbirinin kopyası, yüzeysel ve kaynağı belirsiz rüya tabirlerinin aksine, platformumuz çok katmanlı bir yaklaşım benimser. Her bir rüya sembolünü incelerken iki temel sütuna dayanırız:
         </p>
 
         <div className="grid md:grid-cols-2 gap-8 mb-12">
-          <div className="bg-night-800/20 p-6 rounded-xl border-t-4 border-mystic-500">
-            <h3 className="text-xl font-bold text-mystic-100 mb-3 mt-0 flex items-center gap-2">
+          <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/20 p-6 rounded-xl border-t-4 border-white/10">
+            <h3 className="tracking-tight text-xl font-bold text-white mb-3 mt-0 flex items-center gap-2">
               <BookOpen className="w-5 h-5" />
               Klasik ve İslami Gelenek
             </h3>
@@ -103,8 +103,8 @@ export default function AboutPage() {
               Yüzyıllardır aktarılan kültürel ve dini rüya tabiri mirası (İbn Şirin geleneği vb.), sembollerin toplumumuzdaki tarihsel ve inançsal karşılıklarını verir. Bu kadim bilgeliği süzgeçten geçirerek, günümüz insanının anlayacağı bir dille sunarız.
             </p>
           </div>
-          <div className="bg-night-800/20 p-6 rounded-xl border-t-4 border-accent-500">
-            <h3 className="text-xl font-bold text-accent-100 mb-3 mt-0 flex items-center gap-2">
+          <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/20 p-6 rounded-xl border-t-4 border-accent-500">
+            <h3 className="tracking-tight text-xl font-bold text-accent-100 mb-3 mt-0 flex items-center gap-2">
               <Star className="w-5 h-5" />
               Modern Psikoloji
             </h3>
@@ -114,17 +114,17 @@ export default function AboutPage() {
           </div>
         </div>
 
-        <h2 className="text-2xl font-serif font-bold text-white mb-4">Editoryal Metodoloji ve Güvenilirlik (E-E-A-T)</h2>
+        <h2 className="text-2xl tracking-tight font-bold text-white mb-4">Editoryal Metodoloji ve Güvenilirlik (E-E-A-T)</h2>
         <p className="text-night-200 leading-relaxed mb-6">
           Google&apos;ın E-E-A-T (Deneyim, Uzmanlık, Yetkinlik ve Güvenilirlik) standartlarına sıkı sıkıya bağlıyız. Sitemizdeki tüm içerikler, <strong>Rüya Tabirleri Editör Ekibi</strong> tarafından kapsamlı araştırmalar sonucu özenle hazırlanır. Hiçbir yoruma &quot;kesin böyledir&quot; veya &quot;geleceği gösterir&quot; iddiasıyla yaklaşmıyoruz; çünkü rüyalar son derece kişiseldir ve ancak rüyayı gören kişinin mevcut yaşam bağlamı içinde gerçek anlamını bulur. 
         </p>
 
-        <h3 className="text-xl font-bold text-mystic-200 mb-3">Sıfır Fluff (Kelime Doldurma Yasağı) Politikası</h3>
+        <h3 className="tracking-tight text-xl font-bold text-neutral-200 mb-3">Sıfır Fluff (Kelime Doldurma Yasağı) Politikası</h3>
         <p className="text-night-200 leading-relaxed mb-6">
           Okuyucunun vaktini alan, sırf arama motorlarında uzun görünmek için yazılmış tekrarlayan kelimelere (fluff) platformumuzda yer yoktur. Eklenen her bir kelimenin, İslami tefsirlere (İbn-i Sirin, Nablusi vb.) veya analitik psikoloji analizlerine %100 doğrudan fayda sağlaması, net ve derin bilgi barındırması zorunludur. Tüm rüya tabirlerimiz bu yüksek standart kalite kontrolünden geçmektedir.
         </p>
 
-        <p className="text-night-200 leading-relaxed mt-10 p-6 bg-night-800/40 rounded-xl border border-mystic-500/20 italic">
+        <p className="text-night-200 leading-relaxed mt-10 p-6 bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/40 rounded-xl border border-white/10 italic">
           Rüya Sözlüğü&apos;nü tercih ettiğiniz için teşekkür ederiz. İyi uykular ve kendi içinize doğru güzel bir yolculuk dileriz.
         </p>
       </div>

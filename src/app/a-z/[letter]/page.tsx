@@ -72,16 +72,16 @@ export default function AZLetterPage({ params }: Props) {
       </nav>
 
       <header className="mb-12 flex flex-col items-center text-center">
-        <div className="w-16 h-16 rounded-full bg-mystic-900/50 flex items-center justify-center mb-6">
+        <div className="w-16 h-16 rounded-full bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/50 flex items-center justify-center mb-6">
           <BookA className="text-mystic-400 w-8 h-8" />
         </div>
-        <h1 className="text-4xl font-serif font-bold text-white mb-4">{decodedLetter} Harfi İle Başlayan Rüyalar</h1>
+        <h1 className="text-4xl tracking-tight font-bold text-white mb-4">{decodedLetter} Harfi İle Başlayan Rüyalar</h1>
         <p className="text-night-300">Bu harfte toplam {letterSymbols.length} adet rüya tabiri bulunmaktadır.</p>
       </header>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {letterSymbols.map(symbol => (
-          <Link key={symbol.slug} href={`/sembol/${symbol.slug}`} className="block p-4 rounded-xl bg-night-800/30 hover:bg-night-700 transition-colors border border-transparent hover:border-mystic-500/30 shadow-sm">
+          <Link key={symbol.slug} href={`/sembol/${symbol.slug}`} className="block p-4 rounded-xl bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/30 hover:bg-night-700 transition-colors border border-transparent hover:border-white/10 shadow-sm">
             <div className="font-medium text-night-100 line-clamp-2">{sanitizeTitle(symbol.title)}</div>
           </Link>
         ))}

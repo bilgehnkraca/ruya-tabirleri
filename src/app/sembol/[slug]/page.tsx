@@ -178,7 +178,7 @@ export default function SymbolPage({ params }: Props) {
       </nav>
 
       <header className="mb-10">
-        <h1 className="text-4xl md:text-5xl font-serif font-bold text-white mb-6">Rüyada {cleanSymbolName} Görmek</h1>
+        <h1 className="text-4xl md:text-5xl tracking-tight font-bold text-white mb-6">Rüyada {cleanSymbolName} Görmek</h1>
         <p className="text-xl text-night-300 leading-relaxed">{symbol.content.introduction}</p>
       </header>
 
@@ -208,11 +208,11 @@ export default function SymbolPage({ params }: Props) {
           allSymbolsLight={getCachedSymbolsLight()}
         />
 
-        <h2 className="text-2xl font-serif font-bold text-mystic-100 mt-12 mb-6 border-b border-night-700 pb-2">Merak Edilen Diğer Detaylar</h2>
+        <h2 className="text-2xl tracking-tight font-bold text-white mt-12 mb-6 border-b border-night-700 pb-2">Merak Edilen Diğer Detaylar</h2>
         <div className="space-y-6">
           {(symbol.content?.faqs || []).map((faq, index) => (
             <div key={index}>
-               <h3 className="text-lg font-semibold text-night-100 mb-2">{faq.question}</h3>
+               <h3 className="tracking-tight text-lg font-semibold text-night-100 mb-2">{faq.question}</h3>
                <p className="text-night-300 m-0">{faq.answer}</p>
             </div>
           ))}
@@ -222,11 +222,11 @@ export default function SymbolPage({ params }: Props) {
 
       {relatedSymbols.length > 0 && (
         <section className="mt-16 pt-10 border-t border-night-800">
-          <h2 className="text-2xl font-serif font-bold text-white mb-6">Bunlar da ilginizi çekebilir</h2>
+          <h2 className="text-2xl tracking-tight font-bold text-white mb-6">Bunlar da ilginizi çekebilir</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {relatedSymbols.map(rs => (
-              <Link key={rs.slug} href={`/sembol/${rs.slug}`} className="bg-night-800/50 border border-night-700 p-4 rounded-xl hover:bg-night-700 hover:border-mystic-500/50 transition-all">
-                <div className="font-semibold text-mystic-100 mb-1">{sanitizeTitle(rs.title)}</div>
+              <Link key={rs.slug} href={`/sembol/${rs.slug}`} className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/50 border border-night-700 p-4 rounded-xl hover:bg-night-700 hover:border-white/10 transition-all">
+                <div className="font-semibold text-white mb-1">{sanitizeTitle(rs.title)}</div>
                 <div className="text-sm text-night-400 truncate">{rs.shortDescription}</div>
               </Link>
             ))}

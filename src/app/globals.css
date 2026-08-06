@@ -4,40 +4,57 @@
 
 @layer base {
   :root {
-    --foreground-rgb: 230, 235, 245;
-    --background-start-rgb: 8, 11, 20;
-    --background-end-rgb: 15, 20, 35;
+    --foreground-rgb: 245, 245, 247;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
   }
 
   body {
     color: rgb(var(--foreground-rgb));
-    background-color: #06090e; /* Deep rich dark */
-    background-image: 
-      radial-gradient(circle at top, rgba(15, 20, 35, 0.8) 0%, rgba(6, 9, 14, 1) 100%);
+    background-color: #000000;
     min-height: 100vh;
   }
 
   .bg-noise {
     position: relative;
+    overflow-x: hidden;
   }
   
   .bg-noise::before {
     content: "";
-    position: absolute;
-    inset: 0;
+    position: fixed;
+    top: -20%;
+    right: -10%;
+    width: 60vw;
+    height: 60vw;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(93, 49, 182, 0.15) 0%, rgba(0,0,0,0) 70%);
+    filter: blur(100px);
     pointer-events: none;
-    z-index: 1;
-    opacity: 0.035;
-    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    z-index: -1;
+  }
+  
+  .bg-noise::after {
+    content: "";
+    position: fixed;
+    bottom: -20%;
+    left: -10%;
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(112, 60, 211, 0.1) 0%, rgba(0,0,0,0) 70%);
+    filter: blur(100px);
+    pointer-events: none;
+    z-index: -1;
   }
 }
 
 @layer components {
   .symbol-card {
-    @apply bg-night-900/60 backdrop-blur-md border border-night-800 rounded-2xl p-6 transition-all duration-500 ease-out hover:-translate-y-1 hover:bg-night-800/80 hover:border-night-600 hover:shadow-xl hover:shadow-white/5;
+    @apply bg-white/[0.02] backdrop-blur-3xl border border-white/[0.08] rounded-2xl p-6 transition-all duration-500 ease-out hover:scale-[1.02] hover:bg-white/[0.04] hover:border-white/[0.12] hover:shadow-2xl hover:shadow-mystic-500/10;
   }
   
   .glass-header {
-    @apply bg-night-950/70 backdrop-blur-xl border-b border-white/[0.04] sticky top-0 z-50 transition-all duration-300;
+    @apply bg-black/50 backdrop-blur-3xl border-b border-white/[0.08] sticky top-0 z-50 transition-all duration-300;
   }
 }

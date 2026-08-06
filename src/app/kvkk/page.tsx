@@ -16,7 +16,7 @@ export default function KVKKPage() {
       </nav>
 
       <header className="mb-10">
-        <h1 className="text-4xl font-serif font-bold text-white mb-6">KVKK Aydınlatma Metni</h1>
+        <h1 className="text-4xl tracking-tight font-bold text-white mb-6">KVKK Aydınlatma Metni</h1>
         <p className="text-night-300">Son güncellenme tarihi: {new Date().toLocaleDateString('tr-TR')}</p>
       </header>
 
@@ -31,7 +31,7 @@ export default function KVKKPage() {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-xl font-bold text-mystic-400 mb-4">1. İşlenen Kişisel Veriler ve Toplanma Yöntemleri</h2>
+          <h2 className="tracking-tight text-xl font-bold text-mystic-400 mb-4">1. İşlenen Kişisel Veriler ve Toplanma Yöntemleri</h2>
           <p>
             Sitemizi ziyaret ettiğinizde aşağıdaki kişisel verileriniz otomatik veya kısmen otomatik yöntemlerle toplanabilir:
           </p>
@@ -42,7 +42,7 @@ export default function KVKKPage() {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-xl font-bold text-mystic-400 mb-4">2. Kişisel Verilerin İşlenme Amaçları</h2>
+          <h2 className="tracking-tight text-xl font-bold text-mystic-400 mb-4">2. Kişisel Verilerin İşlenme Amaçları</h2>
           <p>
             Toplanan kişisel verileriniz aşağıdaki amaçlar doğrultusunda KVKK&apos;nın 5. ve 6. maddelerinde belirtilen şartlara uygun olarak işlenmektedir:
           </p>
@@ -55,7 +55,7 @@ export default function KVKKPage() {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-xl font-bold text-mystic-400 mb-4">3. Kişisel Verilerin Aktarılması</h2>
+          <h2 className="tracking-tight text-xl font-bold text-mystic-400 mb-4">3. Kişisel Verilerin Aktarılması</h2>
           <p>
             Kişisel verileriniz; sunucu ve altyapı hizmeti aldığımız yurt içi veya yurt dışı firmalara (Vercel vb.), 
             analitik ve reklam hizmeti sağlayıcılarımıza (Google LLC, Yandex LLC) ve kanunen yetkili kamu kurum 
@@ -64,7 +64,7 @@ export default function KVKKPage() {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-xl font-bold text-mystic-400 mb-4">4. İlgili Kişinin (Veri Sahibinin) Hakları</h2>
+          <h2 className="tracking-tight text-xl font-bold text-mystic-400 mb-4">4. İlgili Kişinin (Veri Sahibinin) Hakları</h2>
           <p>
             KVKK&apos;nın 11. maddesi uyarınca veri sahibi olarak aşağıdaki haklara sahipsiniz:
           </p>
@@ -80,7 +80,7 @@ export default function KVKKPage() {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-xl font-bold text-mystic-400 mb-4">5. İletişim</h2>
+          <h2 className="tracking-tight text-xl font-bold text-mystic-400 mb-4">5. İletişim</h2>
           <p>
             Yukarıda belirtilen haklarınızı kullanmak veya KVKK süreçlerimizle ilgili sorularınızı iletmek için, 
             sitemizdeki iletişim sayfası üzerinden bizimle irtibata geçebilirsiniz.

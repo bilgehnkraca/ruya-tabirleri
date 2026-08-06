@@ -82,23 +82,23 @@ export default function IslamicGuideContent({ symbols }: Props) {
     <div className="space-y-16">
       
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-b from-night-800/80 to-night-900/50 border border-gold-500/30 rounded-3xl p-6 md:p-12 backdrop-blur-md shadow-[0_0_50px_rgba(212,175,55,0.15)] overflow-hidden">
+      <section className="relative bg-gradient-to-b from-night-800/80 to-night-900/50 border border-white/10 rounded-3xl p-6 md:p-12 backdrop-blur-md shadow-[0_0_50px_rgba(212,175,55,0.15)] overflow-hidden">
         <div className="absolute top-0 right-0 -mt-10 -mr-10 w-64 h-64 bg-gold-500/10 rounded-full blur-3xl pointer-events-none" />
-        <div className="absolute bottom-0 left-0 -mb-10 -ml-10 w-64 h-64 bg-mystic-500/10 rounded-full blur-3xl pointer-events-none" />
+        <div className="absolute bottom-0 left-0 -mb-10 -ml-10 w-64 h-64 bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/10 rounded-full blur-3xl pointer-events-none" />
 
         <div className="relative z-10 max-w-4xl">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-400 text-sm font-semibold mb-6">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-gold-500/10 border border-white/10 text-mystic-400 text-sm font-semibold mb-6">
             <BookOpen className="w-4 h-4" />
             <span>Kadim İslami Rüya Külliyatı</span>
           </div>
-          <h1 className="text-3xl md:text-5xl font-serif font-bold text-white tracking-tight leading-tight mb-6">
+          <h1 className="text-3xl md:text-5xl tracking-tight font-bold text-white tracking-tight leading-tight mb-6">
             İslami & Diyanet <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold-400 via-gold-300 to-yellow-500">Rüya Tabirleri Kılavuzu</span>
           </h1>
           <p className="text-lg md:text-xl text-night-200 leading-relaxed mb-8">
             İbn-i Şirin, İmam Nablusi, İmam Cafer-i Sadık ve Diyanet ekolü ışığında Kur&apos;an ve Sünnet temelli rüya yorumları. Rüyalarınızın dini, tasavvufi ve manevi sırlarını keşfedin.
           </p>
 
-          <div className="flex flex-wrap items-center gap-4 bg-night-900/60 p-4 rounded-2xl border border-gold-500/20">
+          <div className="flex flex-wrap items-center gap-4 bg-night-900/60 p-4 rounded-2xl border border-white/10">
             <TextToSpeech text={fullGuideTextToSpeech} />
             <span className="text-xs text-night-400 italic">
               🔊 Bu rehberin özetini ve İslami rüya adabını sesli dinleyebilirsiniz.
@@ -113,40 +113,40 @@ export default function IslamicGuideContent({ symbols }: Props) {
       {/* Kısım 1: İslami Rüya Kültürü ve 3 Temel Rüya Türü */}
       <section className="grid md:grid-cols-3 gap-6">
         <div className="md:col-span-3">
-          <h2 className="text-2xl md:text-3xl font-serif font-bold text-gold-400 mb-2 flex items-center gap-3">
-            <Sparkles className="w-7 h-7 text-gold-500" />
+          <h2 className="text-2xl md:text-3xl tracking-tight font-bold text-mystic-400 mb-2 flex items-center gap-3">
+            <Sparkles className="w-7 h-7 text-mystic-500" />
             İslam İnancında Rüyaların 3 Temel Kısım ve Sırrı
           </h2>
           <p className="text-night-300 mb-6 leading-relaxed">
-            Peygamber Efendimiz Hz. Muhammed (s.a.v.) bir hadis-i şeriflerinde şöyle buyurmuştur: <strong className="text-gold-300">&quot;Rüya üç kısımdır: Allah&apos;tan bir müjde olan salih rüya, şeytanın verdiği korku ve vesveseden ibaret olan rüya ve kişinin kendi nefsinin veya günlük meşguliyetlerinin zihnine yansıması olan rüya.&quot;</strong>
+            Peygamber Efendimiz Hz. Muhammed (s.a.v.) bir hadis-i şeriflerinde şöyle buyurmuştur: <strong className="text-neutral-300">&quot;Rüya üç kısımdır: Allah&apos;tan bir müjde olan salih rüya, şeytanın verdiği korku ve vesveseden ibaret olan rüya ve kişinin kendi nefsinin veya günlük meşguliyetlerinin zihnine yansıması olan rüya.&quot;</strong>
           </p>
         </div>
 
-        <div className="bg-night-800/40 border border-gold-500/30 rounded-2xl p-6 hover:bg-night-800/60 transition-all duration-300">
-          <div className="w-12 h-12 rounded-xl bg-gold-500/10 border border-gold-500/30 flex items-center justify-center text-gold-400 mb-4">
+        <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/40 border border-white/10 rounded-2xl p-6 hover:bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/60 transition-all duration-300">
+          <div className="w-12 h-12 rounded-xl bg-gold-500/10 border border-white/10 flex items-center justify-center text-mystic-400 mb-4">
             <Sun className="w-6 h-6" />
           </div>
-          <h3 className="text-xl font-serif font-bold text-white mb-3">1. Rahmani Rüyalar (Salih / Sadık)</h3>
+          <h3 className="text-xl tracking-tight font-bold text-white mb-3">1. Rahmani Rüyalar (Salih / Sadık)</h3>
           <p className="text-sm text-night-300 leading-relaxed">
             Allah Teala tarafından mümin kullarına bir müjde, ilham, uyarı veya yol gösterici olarak ihsan edilen rüyalardır. Genelde seher vaktinde (sabaha karşı) görülür. Uyandığınızda zihninizde net, berrak kalır ve kalbinize derin bir huzur, sekinet verir. Peygamberlik nurundan bir cüz sayılır.
           </p>
         </div>
 
-        <div className="bg-night-800/40 border border-night-700/60 rounded-2xl p-6 hover:bg-night-800/60 transition-all duration-300">
+        <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/40 border border-night-700/60 rounded-2xl p-6 hover:bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/60 transition-all duration-300">
           <div className="w-12 h-12 rounded-xl bg-red-500/10 border border-red-500/30 flex items-center justify-center text-red-400 mb-4">
             <Moon className="w-6 h-6" />
           </div>
-          <h3 className="text-xl font-serif font-bold text-white mb-3">2. Şeytani Rüyalar (Hulm / Kabus)</h3>
+          <h3 className="text-xl tracking-tight font-bold text-white mb-3">2. Şeytani Rüyalar (Hulm / Kabus)</h3>
           <p className="text-sm text-night-300 leading-relaxed">
             Şeytanın insanı korkutmak, üzmek, ümitsizliğe düşürmek veya aldatmak amacıyla zihne saldığı karanlık vesveselerdir. Yüksekten düşme, canavar görme veya nefesi kesilme gibi kabuslardır. Bu rüyaların hiçbir dini hükmü veya tabiri yoktur; kimseye anlatılmamalı ve Allah&apos;a sığınılmalıdır.
           </p>
         </div>
 
-        <div className="bg-night-800/40 border border-mystic-500/30 rounded-2xl p-6 hover:bg-night-800/60 transition-all duration-300">
-          <div className="w-12 h-12 rounded-xl bg-mystic-500/10 border border-mystic-500/30 flex items-center justify-center text-mystic-400 mb-4">
+        <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/40 border border-white/10 rounded-2xl p-6 hover:bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/60 transition-all duration-300">
+          <div className="w-12 h-12 rounded-xl bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/10 border border-white/10 flex items-center justify-center text-mystic-400 mb-4">
             <Compass className="w-6 h-6" />
           </div>
-          <h3 className="text-xl font-serif font-bold text-white mb-3">3. Nefsi / Bilinçaltı Rüyalar (Adgas)</h3>
+          <h3 className="text-xl tracking-tight font-bold text-white mb-3">3. Nefsi / Bilinçaltı Rüyalar (Adgas)</h3>
           <p className="text-sm text-night-300 leading-relaxed">
             Günlük hayattaki yoğun iş stresinin, ailevi tartışmaların, bedensel rahatsızlıkların veya açlık/susuzluk/yorgunluk gibi biyolojik ihtiyaçların uykuda zihne yansımasıdır. Örneğin gün boyu tuzlu yiyip uyuyan birinin rüyasında şelalelerden su içmesi bu türdendir; tabir edilmez.
           </p>
@@ -154,21 +154,21 @@ export default function IslamicGuideContent({ symbols }: Props) {
       </section>
 
       {/* Kısım 2: Kadim Alimler ve Diyanet Ekolü */}
-      <section className="bg-night-800/30 border border-night-700 rounded-3xl p-6 md:p-10">
-        <h2 className="text-2xl md:text-3xl font-serif font-bold text-white mb-6 flex items-center gap-3">
-          <Award className="w-7 h-7 text-gold-400" />
+      <section className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/30 border border-night-700 rounded-3xl p-6 md:p-10">
+        <h2 className="text-2xl md:text-3xl tracking-tight font-bold text-white mb-6 flex items-center gap-3">
+          <Award className="w-7 h-7 text-mystic-400" />
           Kadim Rüya Alimleri ve Tabir Ekolleri
         </h2>
         <div className="grid md:grid-cols-2 gap-8 text-night-200 leading-relaxed">
           <div className="space-y-4">
-            <div className="border-l-4 border-gold-500 pl-4">
-              <h3 className="text-lg font-bold text-gold-300">İbn-i Şirin (r.a.) - İslami Tabirin Kurucusu</h3>
+            <div className="border-l-4 border-white/10 pl-4">
+              <h3 className="tracking-tight text-lg font-bold text-neutral-300">İbn-i Şirin (r.a.) - İslami Tabirin Kurucusu</h3>
               <p className="text-sm mt-1 text-night-300">
                 Tabiin döneminin en büyük alimlerinden olan İbn-i Şirin, rüya tabirini rastgele bir tahmin değil, Kur&apos;an ayetlerinin sembolizmi, Peygamber Efendimiz&apos;in hadisleri ve Arap dilinin incelikleriyle harmanlanan bir &quot;ilim&quot; olarak kurmuştur. Rüyayı gören kişinin takvasına, mesleğine ve niyetine göre aynı sembolden tamamen farklı tabirler çıkarmış; adeta modern analitik psikolojinin asırlar önceki İslami öncüsü olmuştur.
               </p>
             </div>
-            <div className="border-l-4 border-mystic-500 pl-4">
-              <h3 className="text-lg font-bold text-mystic-300">İmam Nablusi - Osmanlı & İslam Külliyatı</h3>
+            <div className="border-l-4 border-white/10 pl-4">
+              <h3 className="tracking-tight text-lg font-bold text-neutral-300">İmam Nablusi - Osmanlı & İslam Külliyatı</h3>
               <p className="text-sm mt-1 text-night-300">
                 Osmanlı döneminde yaşamış olan Abdülgani en-Nablusi&apos;nin başyapıtı *Ta&apos;tirü&apos;l-Enam fi Ta&apos;biri&apos;l-Menam*, günümüzde de Diyanet dahil tüm İslam dünyasında en çok başvuru yapılan rüya sözlüğüdür. Nablusi, rüyalardaki sembolleri sosyal hayatın gerçekleriyle, esnaf kültürüyle ve insanın manevi gelişimiyle bütünleştirerek çok yönlü ve derin bir külliyat bırakmıştır.
               </p>
@@ -177,13 +177,13 @@ export default function IslamicGuideContent({ symbols }: Props) {
 
           <div className="space-y-4">
             <div className="border-l-4 border-blue-500 pl-4">
-              <h3 className="text-lg font-bold text-blue-300">İmam Cafer-i Sadık (a.s.) - Manevi ve Sayısal Sembolizm</h3>
+              <h3 className="tracking-tight text-lg font-bold text-blue-300">İmam Cafer-i Sadık (a.s.) - Manevi ve Sayısal Sembolizm</h3>
               <p className="text-sm mt-1 text-night-300">
                 Ehli Beyt&apos;in büyük imamlarından Cafer-i Sadık hazretleri, rüyalarda görülen sembollerin kaç farklı anlama gelebileceğini sayısal olarak kategorize etmiştir. Örneğin rüyada görülen suyun, ağacın veya yılanın hangi durumlarda nimete, hangi durumlarda belaya delalet ettiğini manevi makamlar üzerinden muazzam bir netlikle açıklamıştır.
               </p>
             </div>
             <div className="border-l-4 border-green-500 pl-4">
-              <h3 className="text-lg font-bold text-green-300">Diyanet İşleri Başkanlığı Yaklaşımı</h3>
+              <h3 className="tracking-tight text-lg font-bold text-green-300">Diyanet İşleri Başkanlığı Yaklaşımı</h3>
               <p className="text-sm mt-1 text-night-300">
                 Günümüz Diyanet İşleri Başkanlığı ve İslam alimleri, rüya tabirlerine kaderi belirleyen değişmez bir kehanet olarak bakılmaması konusunda müminleri uyarır. Diyanet ekolüne göre rüya bir ümit ve manevi muhasebe aracıdır. Rüyalar her zaman hayra yorulmalı, güzel ahlaka vesile kılınmalı ve kaderin mutlak sahibinin yalnızca Allah (c.c.) olduğu asla unutulmamalıdır.
               </p>
@@ -196,7 +196,7 @@ export default function IslamicGuideContent({ symbols }: Props) {
           <div className="flex items-center gap-3">
             <span className="text-2xl">🧮</span>
             <p className="text-sm text-night-200">
-              Rüyalarınızın zamanını hesaplamak veya günlük hayattaki zekat, kredi ve yaş hesaplamalarınız için <strong className="text-mystic-300">Türkiye Hesaplama</strong> araçlarını kullanabilirsiniz.
+              Rüyalarınızın zamanını hesaplamak veya günlük hayattaki zekat, kredi ve yaş hesaplamalarınız için <strong className="text-neutral-300">Türkiye Hesaplama</strong> araçlarını kullanabilirsiniz.
             </p>
           </div>
           <a
@@ -211,13 +211,13 @@ export default function IslamicGuideContent({ symbols }: Props) {
       </section>
 
       {/* Kısım 3: Mevsimsel Dalgalanmalar - Ramazan Zirvesi ve Mübarek Zamanlar */}
-      <section className="relative bg-gradient-to-r from-night-900 via-night-800 to-night-900 border border-gold-500/40 rounded-3xl p-8 md:p-12 overflow-hidden shadow-2xl">
+      <section className="relative bg-gradient-to-r from-night-900 via-night-800 to-night-900 border border-white/10 rounded-3xl p-8 md:p-12 overflow-hidden shadow-2xl">
         <div className="absolute top-0 right-0 w-80 h-80 bg-gold-500/5 rounded-full blur-3xl pointer-events-none" />
         <div className="relative z-10 max-w-3xl">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold-500/20 text-gold-300 text-xs font-bold uppercase tracking-wider mb-4">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold-500/20 text-neutral-300 text-xs font-bold uppercase tracking-wider mb-4">
             🌙 Ramazan & Kandiller Özel
           </div>
-          <h2 className="text-2xl md:text-4xl font-serif font-bold text-white mb-4">
+          <h2 className="text-2xl md:text-4xl tracking-tight font-bold text-white mb-4">
             Ramazan Ayında ve Mübarek Gecelerde Görülen Rüyaların Fazileti
           </h2>
           <p className="text-night-200 leading-relaxed mb-6">
@@ -226,8 +226,8 @@ export default function IslamicGuideContent({ symbols }: Props) {
           <p className="text-night-300 text-sm leading-relaxed mb-6">
             İslam alimlerine göre bunun hikmeti şudur: Ramazan ayında şeytanlar zincire vurulur, rahmet ve mağfiret kapıları sonuna kadar açılır. Oruç ibadetiyle bedeni hafifleyen, nefsini tezkiye eden ve maneviyata yönelen müminin kalbi berrak bir ayna haline gelir. Bu mübarek zaman dilimlerinde sabaha karşı görülen rüyaların **Rahmani (Rüya-yı Sadıka)** olma ihtimali diğer aylara kıyasla katbekat yüksektir. Bu rüyalardaki semboller çok daha net, uyarılar çok daha hikmetli ve müjdeler çok daha yakındır.
           </p>
-          <div className="p-4 rounded-xl bg-gold-500/10 border border-gold-500/30 text-gold-300 text-sm flex items-center gap-3">
-            <Sparkles className="w-6 h-6 flex-shrink-0 text-gold-400" />
+          <div className="p-4 rounded-xl bg-gold-500/10 border border-white/10 text-neutral-300 text-sm flex items-center gap-3">
+            <Sparkles className="w-6 h-6 flex-shrink-0 text-mystic-400" />
             <span>
               <strong>Kadim Kural:</strong> Ramazan ayında veya Cuma seherinde gördüğünüz güzel rüyaları hemen sadaka ile taçlandırın ve şükür namazı kılın.
             </span>
@@ -241,7 +241,7 @@ export default function IslamicGuideContent({ symbols }: Props) {
       {/* Kısım 4: İnteraktif İslami Sembol Sözlüğü & Arama Motoru */}
       <section className="space-y-8" id="islami-sozluk">
         <div className="text-center max-w-2xl mx-auto">
-          <h2 className="text-3xl font-serif font-bold text-white mb-3">
+          <h2 className="text-3xl tracking-tight font-bold text-white mb-3">
             İslami & Diyanet Rüya Sözlüğü Dizini
           </h2>
           <p className="text-night-300 text-sm">
@@ -250,7 +250,7 @@ export default function IslamicGuideContent({ symbols }: Props) {
         </div>
 
         {/* Search & Filter Control Bar */}
-        <div className="bg-night-800/60 border border-night-700 p-4 md:p-6 rounded-2xl flex flex-col md:flex-row items-center gap-4 backdrop-blur-md">
+        <div className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/60 border border-night-700 p-4 md:p-6 rounded-2xl flex flex-col md:flex-row items-center gap-4 backdrop-blur-md">
           <div className="relative flex-1 w-full">
             <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-night-400" />
             <input
@@ -258,12 +258,12 @@ export default function IslamicGuideContent({ symbols }: Props) {
               placeholder="İslami tabirlerde sembol veya kelime ara (Örn: yılan, altın, bebek, su)..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full bg-night-900/80 border border-night-700/80 rounded-xl pl-12 pr-4 py-3.5 text-white placeholder-night-400 focus:outline-none focus:border-gold-500 transition-colors text-sm md:text-base"
+              className="w-full bg-night-900/80 border border-night-700/80 rounded-xl pl-12 pr-4 py-3.5 text-white placeholder-night-400 focus:outline-none focus:border-white/10 transition-colors text-sm md:text-base"
             />
             {searchQuery && (
               <button 
                 onClick={() => setSearchQuery('')}
-                className="absolute right-4 top-1/2 -translate-y-1/2 text-xs text-night-400 hover:text-white bg-night-800 px-2 py-1 rounded"
+                className="absolute right-4 top-1/2 -translate-y-1/2 text-xs text-night-400 hover:text-white bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] px-2 py-1 rounded"
               >
                 Temizle
               </button>
@@ -291,7 +291,7 @@ export default function IslamicGuideContent({ symbols }: Props) {
         <div className="flex items-center justify-between text-xs text-night-400 px-2">
           <span>Toplam <strong>{filteredSymbols.length}</strong> İslami tabir listeleniyor</span>
           {selectedCategory !== 'all' && (
-            <span>Kategori: <strong className="text-gold-400">{categoryNames[selectedCategory]}</strong></span>
+            <span>Kategori: <strong className="text-mystic-400">{categoryNames[selectedCategory]}</strong></span>
           )}
         </div>
 
@@ -302,16 +302,16 @@ export default function IslamicGuideContent({ symbols }: Props) {
               <Link
                 key={sym.slug}
                 href={`/sembol/${sym.slug}`}
-                className="group bg-night-800/40 border border-night-700/80 rounded-2xl p-6 hover:bg-night-800/80 hover:border-gold-500/50 transition-all duration-300 flex flex-col justify-between"
+                className="group bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/40 border border-night-700/80 rounded-2xl p-6 hover:bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/80 hover:border-white/10 transition-all duration-300 flex flex-col justify-between"
               >
                 <div>
                   <div className="flex items-center justify-between mb-3">
-                    <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-gold-500/10 text-gold-400 border border-gold-500/20">
+                    <span className="text-xs font-semibold px-2.5 py-1 rounded-full bg-gold-500/10 text-mystic-400 border border-white/10">
                       {categoryNames[sym.category] || sym.category}
                     </span>
-                    <Bookmark className="w-4 h-4 text-night-500 group-hover:text-gold-400 transition-colors" />
+                    <Bookmark className="w-4 h-4 text-night-500 group-hover:text-mystic-400 transition-colors" />
                   </div>
-                  <h3 className="text-xl font-serif font-bold text-white group-hover:text-gold-300 transition-colors mb-2 flex items-center justify-between">
+                  <h3 className="text-xl tracking-tight font-bold text-white group-hover:text-neutral-300 transition-colors mb-2 flex items-center justify-between">
                     <span>Rüyada {sym.title} Görmek</span>
                     <ChevronRight className="w-5 h-5 text-night-400 group-hover:translate-x-1 transition-transform" />
                   </h3>
@@ -319,7 +319,7 @@ export default function IslamicGuideContent({ symbols }: Props) {
                     {sym.snippet}
                   </p>
                 </div>
-                <div className="mt-4 pt-3 border-t border-night-700/50 flex items-center justify-between text-xs text-gold-400 font-medium">
+                <div className="mt-4 pt-3 border-t border-night-700/50 flex items-center justify-between text-xs text-mystic-400 font-medium">
                   <span>İslami Tefsiri Oku &rarr;</span>
                   <span className="text-night-500">İbn Şirin & Nablusi</span>
                 </div>
@@ -327,9 +327,9 @@ export default function IslamicGuideContent({ symbols }: Props) {
             ))}
           </div>
         ) : (
-          <div className="text-center py-16 bg-night-800/20 rounded-2xl border border-night-700">
+          <div className="text-center py-16 bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/20 rounded-2xl border border-night-700">
             <HelpCircle className="w-12 h-12 text-night-500 mx-auto mb-4" />
-            <h3 className="text-lg font-bold text-white mb-2">Aradığınız kriterde İslami tabir bulunamadı</h3>
+            <h3 className="tracking-tight text-lg font-bold text-white mb-2">Aradığınız kriterde İslami tabir bulunamadı</h3>
             <p className="text-sm text-night-400 max-w-md mx-auto mb-6">
               Arama kelimenizi değiştirerek veya kategori filtresini &quot;Tüm İslami Tabirler&quot; olarak ayarlayarak tekrar deneyebilirsiniz.
             </p>
@@ -347,14 +347,14 @@ export default function IslamicGuideContent({ symbols }: Props) {
       <PartnerAd slug="diyanet-islami-rehber" className="my-10" />
 
       {/* Kısım 5: Adab-ı Müşarün-İleyh (Rüya Adabı ve İslami Kurallar) */}
-      <section className="bg-night-800/50 border border-night-700 rounded-3xl p-8 md:p-10">
-        <h2 className="text-2xl md:text-3xl font-serif font-bold text-white mb-6 flex items-center gap-3">
+      <section className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/50 border border-night-700 rounded-3xl p-8 md:p-10">
+        <h2 className="text-2xl md:text-3xl tracking-tight font-bold text-white mb-6 flex items-center gap-3">
           <ShieldCheck className="w-7 h-7 text-green-400" />
           Rüya Görüldüğünde Uyulması Gereken İslami Adab ve Edepler
         </h2>
         <div className="grid md:grid-cols-2 gap-6 text-sm text-night-200 leading-relaxed">
           <div className="bg-night-900/60 p-5 rounded-2xl border border-green-500/20 space-y-3">
-            <h3 className="text-base font-bold text-green-400 flex items-center gap-2">
+            <h3 className="tracking-tight text-base font-bold text-green-400 flex items-center gap-2">
               <span>✅</span> Güzel ve Hayırlı Rüya Görülünce Yapılacaklar
             </h3>
             <ul className="list-disc list-inside space-y-2 text-night-300">
@@ -366,7 +366,7 @@ export default function IslamicGuideContent({ symbols }: Props) {
           </div>
 
           <div className="bg-night-900/60 p-5 rounded-2xl border border-red-500/20 space-y-3">
-            <h3 className="text-base font-bold text-red-400 flex items-center gap-2">
+            <h3 className="tracking-tight text-base font-bold text-red-400 flex items-center gap-2">
               <span>❌</span> Kötü veya Korkutucu Rüya Görülünce Yapılacaklar
             </h3>
             <ul className="list-disc list-inside space-y-2 text-night-300">
@@ -382,7 +382,7 @@ export default function IslamicGuideContent({ symbols }: Props) {
       {/* Kısım 6: Sıkça Sorulan Sorular (SSS / FAQ Accordion) */}
       <section className="space-y-6" id="sss">
         <div className="text-center max-w-2xl mx-auto">
-          <h2 className="text-2xl md:text-3xl font-serif font-bold text-white mb-2">
+          <h2 className="text-2xl md:text-3xl tracking-tight font-bold text-white mb-2">
             İslami Rüya Tabirleri Hakkında Sıkça Sorulan Sorular (SSS)
           </h2>
           <p className="text-night-400 text-sm">
@@ -396,17 +396,17 @@ export default function IslamicGuideContent({ symbols }: Props) {
             return (
               <div
                 key={index}
-                className="bg-night-800/40 border border-night-700 rounded-2xl overflow-hidden transition-colors"
+                className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/40 border border-night-700 rounded-2xl overflow-hidden transition-colors"
               >
                 <button
                   onClick={() => setOpenFaqIndex(isOpen ? null : index)}
-                  className="w-full px-6 py-5 text-left font-serif font-bold text-lg text-white hover:text-gold-300 flex items-center justify-between gap-4 transition-colors"
+                  className="w-full px-6 py-5 text-left tracking-tight font-bold text-lg text-white hover:text-neutral-300 flex items-center justify-between gap-4 transition-colors"
                 >
                   <span className="flex items-center gap-3">
-                    <HelpCircle className="w-5 h-5 text-gold-400 flex-shrink-0" />
+                    <HelpCircle className="w-5 h-5 text-mystic-400 flex-shrink-0" />
                     {faq.question}
                   </span>
-                  <ChevronDown className={`w-5 h-5 text-night-400 flex-shrink-0 transition-transform duration-300 ${isOpen ? 'rotate-180 text-gold-400' : ''}`} />
+                  <ChevronDown className={`w-5 h-5 text-night-400 flex-shrink-0 transition-transform duration-300 ${isOpen ? 'rotate-180 text-mystic-400' : ''}`} />
                 </button>
                 {isOpen && (
                   <div className="px-6 pb-6 text-night-200 text-sm md:text-base leading-relaxed border-t border-night-700/50 pt-4 bg-night-900/30">
@@ -420,9 +420,9 @@ export default function IslamicGuideContent({ symbols }: Props) {
       </section>
 
       {/* Bottom Call to Action */}
-      <section className="bg-gradient-to-r from-gold-500/20 via-mystic-600/20 to-gold-500/20 border border-gold-500/30 rounded-3xl p-8 text-center max-w-4xl mx-auto">
-        <HeartHandshake className="w-12 h-12 text-gold-400 mx-auto mb-4" />
-        <h3 className="text-2xl font-serif font-bold text-white mb-3">
+      <section className="bg-gradient-to-r from-gold-500/20 via-mystic-600/20 to-gold-500/20 border border-white/10 rounded-3xl p-8 text-center max-w-4xl mx-auto">
+        <HeartHandshake className="w-12 h-12 text-mystic-400 mx-auto mb-4" />
+        <h3 className="text-2xl tracking-tight font-bold text-white mb-3">
           Aradığınız Rüya Sembolünü Henüz Bulamadınız mı?
         </h3>
         <p className="text-night-200 text-sm md:text-base max-w-xl mx-auto mb-6">
@@ -437,7 +437,7 @@ export default function IslamicGuideContent({ symbols }: Props) {
           </Link>
           <Link
             href="/kategoriler"
-            className="px-6 py-3 rounded-xl bg-night-800 hover:bg-night-700 text-white border border-night-600 font-medium text-sm transition-colors"
+            className="px-6 py-3 rounded-xl bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] hover:bg-night-700 text-white border border-night-600 font-medium text-sm transition-colors"
           >
             Kategorilere Göre Göz At
           </Link>

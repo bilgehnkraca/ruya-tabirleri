@@ -102,9 +102,9 @@ export default function TextToSpeech({ text }: TextToSpeechProps) {
   }
 
   return (
-    <div className="flex items-center gap-3 bg-night-800/80 border border-night-700 p-2 px-4 rounded-xl shadow-lg w-fit mb-4">
-      <div className="flex items-center justify-center w-8 h-8 rounded-full bg-mystic-900/50 text-mystic-400">
-        <Volume2 className={`w-4 h-4 ${isPlaying ? 'animate-pulse text-mystic-300' : ''}`} />
+    <div className="flex items-center gap-3 bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/80 border border-night-700 p-2 px-4 rounded-xl shadow-lg w-fit mb-4">
+      <div className="flex items-center justify-center w-8 h-8 rounded-full bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/50 text-mystic-400">
+        <Volume2 className={`w-4 h-4 ${isPlaying ? 'animate-pulse text-neutral-300' : ''}`} />
       </div>
       
       <div className="text-sm font-medium text-night-200 mr-2">
@@ -115,7 +115,7 @@ export default function TextToSpeech({ text }: TextToSpeechProps) {
         {!isPlaying ? (
           <button
             onClick={play}
-            className="flex items-center justify-center w-8 h-8 rounded-full bg-mystic-600 hover:bg-mystic-500 text-white transition-colors"
+            className="flex items-center justify-center w-8 h-8 rounded-full bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] hover:bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] text-white transition-colors"
             title="Oynat"
           >
             <Play className="w-4 h-4 ml-0.5" />

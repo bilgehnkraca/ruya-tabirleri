@@ -13,7 +13,7 @@ export const viewport: Viewport = {
 };
 
 const getCategoryIcon = (category: string) => {
-  const iconProps = { className: "text-mystic-300" };
+  const iconProps = { className: "text-neutral-300" };
   if (['hayvanlar'].includes(category)) return <Bird {...iconProps} />;
   if (['aile', 'insanlar', 'ailem'].includes(category)) return <Users {...iconProps} />;
   if (['doga', 'tabiat'].includes(category)) return <Trees {...iconProps} />;
@@ -133,14 +133,14 @@ export default function Home() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionPageSchema) }} />
       
       <section className="text-center pt-12 pb-8 px-4 flex flex-col items-center justify-center min-h-[50vh] relative">
-        <div className={`absolute inset-0 rounded-3xl blur-3xl -z-10 ${specialDay.theme === 'ramadan' ? 'bg-amber-900/20' : 'bg-mystic-900/20'}`} />
+        <div className={`absolute inset-0 rounded-3xl blur-3xl -z-10 ${specialDay.theme === 'ramadan' ? 'bg-amber-900/20' : 'bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/20'}`} />
         
         {specialDay.theme === 'ramadan' ? (
           <div className="flex flex-col items-center animate-in fade-in slide-in-from-top-4 duration-700">
             <div className="bg-amber-500/10 border border-amber-500/20 text-amber-200 px-4 py-2 rounded-full text-sm font-medium mb-6 flex items-center gap-2">
               🌙 {specialDay.eventName}
             </div>
-            <h1 className="text-4xl md:text-6xl font-serif font-bold mb-6 tracking-tight text-white">
+            <h1 className="text-4xl md:text-6xl tracking-tight font-bold mb-6 tracking-tight text-white">
               {specialDay.eventName} <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-yellow-600">Rüya Rehberi</span>
             </h1>
             <p className="text-lg md:text-xl text-amber-100/70 max-w-2xl mb-12">
@@ -152,8 +152,8 @@ export default function Home() {
             <div className="inline-flex items-center gap-2 bg-night-900/40 border border-white/5 text-night-300 px-5 py-2.5 rounded-full text-xs md:text-sm font-medium mb-8 shadow-sm backdrop-blur-md">
               <Book className="w-4 h-4 text-mystic-400 opacity-80" /> Türkiye&apos;nin En Kapsamlı Rüya Tabirleri Sözlüğü
             </div>
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold mb-8 tracking-tight text-white leading-tight">
-              Rüya Tabirleri Sözlüğü — <span className="text-mystic-200 font-medium italic">Gerçek Anlamı</span> Keşfedin
+            <h1 className="text-4xl md:text-6xl lg:text-7xl tracking-tight font-bold mb-8 tracking-tight text-white leading-tight">
+              Rüya Tabirleri Sözlüğü — <span className="text-neutral-200 font-medium italic">Gerçek Anlamı</span> Keşfedin
             </h1>
             <p className="text-lg md:text-xl text-night-300 max-w-2xl mb-12 leading-relaxed font-light">
               Binlerce rüya sembolünün <strong>İslami, Diyanet ve Psikolojik</strong> tefsirlerini bir arada sunan güvenilir rehberiniz. Sembolleri tek tek aratabilir veya rüyanızın tamamını yazarak detaylı analize ulaşabilirsiniz.
@@ -170,7 +170,7 @@ export default function Home() {
         <section className="animate-in fade-in slide-in-from-bottom-8 duration-700 delay-300">
           <div className="flex items-center gap-3 mb-8">
             <Star className="text-amber-500" />
-            <h2 className="text-2xl font-serif font-bold text-white">Maneviyatı Yüksek Rüyalar</h2>
+            <h2 className="text-2xl tracking-tight font-bold text-white">Maneviyatı Yüksek Rüyalar</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {religiousSymbols.map(symbol => (
@@ -179,7 +179,7 @@ export default function Home() {
                 href={`/sembol/${symbol.slug}`}
                 className="bg-gradient-to-br from-amber-900/20 to-night-800 border border-amber-900/30 rounded-2xl p-6 group hover:border-amber-500/50 transition-all"
               >
-                <h3 className="text-xl font-semibold text-amber-100 mb-3 group-hover:text-amber-400 transition-colors">
+                <h3 className="tracking-tight text-xl font-semibold text-amber-100 mb-3 group-hover:text-amber-400 transition-colors">
                   {symbol.title}
                 </h3>
                 <p className="text-night-300 text-sm line-clamp-3">
@@ -194,7 +194,7 @@ export default function Home() {
       <section>
         <div className="flex items-center gap-3 mb-8">
           <Sparkles className="text-mystic-500" />
-          <h2 className="text-2xl font-serif font-bold text-white">En Çok Aranan Semboller</h2>
+          <h2 className="text-2xl tracking-tight font-bold text-white">En Çok Aranan Semboller</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {popularSymbols.map(symbol => (
@@ -203,7 +203,7 @@ export default function Home() {
               href={`/sembol/${symbol.slug}`}
               className="symbol-card group flex flex-col h-full"
             >
-              <h3 className="text-xl font-semibold text-mystic-100 mb-3 group-hover:text-mystic-400 transition-colors">
+              <h3 className="tracking-tight text-xl font-semibold text-white mb-3 group-hover:text-mystic-400 transition-colors">
                 {symbol.title}
               </h3>
               <p className="text-night-300 text-sm flex-grow line-clamp-3">
@@ -217,19 +217,19 @@ export default function Home() {
       <section>
         <div className="flex items-center gap-3 mb-8">
           <Compass className="text-mystic-500" />
-          <h2 className="text-2xl font-serif font-bold text-white">Kategorilere Göre Keşfedin</h2>
+          <h2 className="text-2xl tracking-tight font-bold text-white">Kategorilere Göre Keşfedin</h2>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {categories.map(category => (
             <Link 
               key={category} 
               href={`/kategoriler/${category}`}
-              className="bg-night-800 border border-night-700 rounded-xl p-6 text-center hover:bg-mystic-900/50 hover:border-mystic-500/50 transition-all group"
+              className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] border border-night-700 rounded-xl p-6 text-center hover:bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/50 hover:border-white/10 transition-all group"
             >
-              <div className="w-12 h-12 rounded-full bg-night-700 mx-auto flex items-center justify-center mb-4 group-hover:bg-mystic-800 transition-colors">
+              <div className="w-12 h-12 rounded-full bg-night-700 mx-auto flex items-center justify-center mb-4 group-hover:bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] transition-colors">
                 {getCategoryIcon(category)}
               </div>
-              <h3 className="capitalize font-medium text-night-100">{category.replace('-', ' ')}</h3>
+              <h3 className="tracking-tight capitalize font-medium text-night-100">{category.replace('-', ' ')}</h3>
             </Link>
           ))}
         </div>

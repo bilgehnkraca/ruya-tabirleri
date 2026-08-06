@@ -72,13 +72,13 @@ export default function PartnerAd({ slug = '', className = '' }: PartnerAdProps)
   } else if (match(['kabe', 'namaz', 'kuran', 'ramazan', 'oruc', 'zekat', 'cami', 'dua', 'hac', 'ezan', 'secde', 'ihram', 'kadir', 'iftar'])) {
     config = {
       badge: 'İslami Günler ve İbadet Takvimi',
-      badgeColor: 'text-gold-300 bg-amber-950/80 border-gold-500/40',
+      badgeColor: 'text-neutral-300 bg-amber-950/80 border-white/10',
       title: 'Dini Günler, Ramazan, Fitre ve Zekat Hesaplama',
       description: 'Manevi atmosferi yüksek rüyalarınızın ardından ibadetlerinizi, zekat miktarınızı ve mübarek dini günleri eksiksiz bir şekilde planlayın.',
       url: 'https://www.turkiyehesaplama.com/dini-gunler-hesaplama',
       buttonText: 'Dini Günler ve Zekat Hesapla →',
       gradient: 'from-amber-950/80 via-night-900 to-yellow-950/70',
-      border: 'border-gold-500/60 hover:border-gold-400',
+      border: 'border-white/10 hover:border-white/10',
       shadow: 'shadow-[0_0_25px_rgba(212,175,55,0.25)]',
       buttonGradient: 'from-amber-600 to-yellow-600 hover:from-amber-500 hover:to-yellow-500',
       icon: '📿'
@@ -171,13 +171,13 @@ export default function PartnerAd({ slug = '', className = '' }: PartnerAdProps)
     // Default High-Impact Banner for All Other Symbols
     config = {
       badge: 'Önerilen Partner Çözüm Platformu',
-      badgeColor: 'text-mystic-300 bg-mystic-950/80 border-mystic-500/40',
+      badgeColor: 'text-neutral-300 bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/80 border-white/10',
       title: "Türkiye'nin En Kapsamlı Ücretsiz Hesaplama Platformu",
       description: "Rüya yorumunuzu incelerken günlük hayatınızı kolaylaştıracak yaş, gebelik, kredi, tarih, zekat ve yüzlerce hesaplama aracını ücretsiz keşfedin.",
       url: 'https://www.turkiyehesaplama.com',
       buttonText: 'Tüm Hesaplama Araçlarını Keşfet →',
       gradient: 'from-mystic-950/80 via-night-900 to-purple-950/80',
-      border: 'border-mystic-500/60 hover:border-mystic-400',
+      border: 'border-white/10 hover:border-white/10',
       shadow: 'shadow-[0_0_25px_rgba(112,60,211,0.25)]',
       buttonGradient: 'from-mystic-600 to-purple-600 hover:from-mystic-500 hover:to-purple-500',
       icon: '🧮'
@@ -188,7 +188,7 @@ export default function PartnerAd({ slug = '', className = '' }: PartnerAdProps)
     <div className={`relative overflow-hidden bg-gradient-to-r ${config.gradient} border-2 ${config.border} rounded-2xl p-6 md:p-7 my-8 shadow-2xl ${config.shadow} transition-all duration-300 group ${className}`}>
       {/* Background ambient glow effect */}
       <div className="absolute -top-10 -right-10 w-48 h-48 bg-white/5 rounded-full blur-3xl group-hover:bg-white/10 transition-all duration-500 pointer-events-none" />
-      <div className="absolute -bottom-10 -left-10 w-48 h-48 bg-mystic-500/10 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute -bottom-10 -left-10 w-48 h-48 bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/10 rounded-full blur-3xl pointer-events-none" />
       
       <div className="relative z-10 flex flex-col lg:flex-row lg:items-center justify-between gap-6">
         <div className="flex-1 space-y-2.5">
@@ -196,7 +196,7 @@ export default function PartnerAd({ slug = '', className = '' }: PartnerAdProps)
             <span>{config.icon}</span>
             <span>{config.badge}</span>
           </div>
-          <h3 className="text-xl md:text-2xl font-serif font-bold text-white tracking-tight flex items-center gap-2 group-hover:text-mystic-200 transition-colors">
+          <h3 className="text-xl md:text-2xl tracking-tight font-bold text-white tracking-tight flex items-center gap-2 group-hover:text-neutral-200 transition-colors">
             {config.title}
           </h3>
           <p className="text-night-200 text-sm md:text-base leading-relaxed max-w-2xl">

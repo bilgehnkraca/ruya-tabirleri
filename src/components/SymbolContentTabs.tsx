@@ -40,8 +40,8 @@ export default function SymbolContentTabs({
           onClick={() => setActiveTab('general')}
           className={`flex-1 flex items-center justify-center gap-2 py-3 px-4 rounded-xl font-medium transition-all duration-300 ${
             activeTab === 'general'
-              ? 'bg-mystic-700 text-white shadow-sm'
-              : 'bg-night-800/50 text-night-300 hover:bg-night-700 hover:text-night-100'
+              ? 'bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] text-white shadow-sm'
+              : 'bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/50 text-night-300 hover:bg-night-700 hover:text-night-100'
           }`}
         >
           <Sparkles className="w-5 h-5" />
@@ -53,7 +53,7 @@ export default function SymbolContentTabs({
           className={`flex-1 flex items-center justify-center gap-2 py-3 px-4 rounded-xl font-medium transition-all duration-300 ${
             activeTab === 'religious'
               ? 'bg-gold-500 text-night-900 shadow-sm'
-              : 'bg-night-800/50 text-night-300 hover:bg-night-700 hover:text-night-100'
+              : 'bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/50 text-night-300 hover:bg-night-700 hover:text-night-100'
           }`}
         >
           <BookOpen className="w-5 h-5" />
@@ -65,7 +65,7 @@ export default function SymbolContentTabs({
           className={`flex-1 flex items-center justify-center gap-2 py-3 px-4 rounded-xl font-medium transition-all duration-300 ${
             activeTab === 'psychological'
               ? 'bg-blue-700 text-white shadow-sm'
-              : 'bg-night-800/50 text-night-300 hover:bg-night-700 hover:text-night-100'
+              : 'bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/50 text-night-300 hover:bg-night-700 hover:text-night-100'
           }`}
         >
           <Brain className="w-5 h-5" />
@@ -79,22 +79,22 @@ export default function SymbolContentTabs({
         {/* General Tab */}
         {activeTab === 'general' && (
           <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
-            <h2 className="text-2xl font-serif font-bold text-mystic-100 mb-4 border-b border-night-700 pb-2 flex items-center justify-between">
+            <h2 className="text-2xl tracking-tight font-bold text-white mb-4 border-b border-night-700 pb-2 flex items-center justify-between">
               {cleanTitle} - Genel Yorum
             </h2>
 
             {/* GEO: Answer-First Özet Kutusu */}
-            <div className="answer-first-box mb-6 p-4 rounded-xl bg-gradient-to-r from-mystic-900/40 via-night-800/60 to-mystic-900/40 border border-mystic-500/30 shadow-lg shadow-mystic-900/20">
+            <div className="answer-first-box mb-6 p-4 rounded-xl bg-gradient-to-r from-mystic-900/40 via-night-800/60 to-mystic-900/40 border border-white/10 shadow-lg shadow-mystic-900/20">
               <div className="flex items-start gap-3">
                 <Zap className="w-5 h-5 text-mystic-400 mt-0.5 flex-shrink-0" />
-                <p className="text-mystic-100 font-medium text-sm md:text-base leading-relaxed m-0">
+                <p className="text-white font-medium text-sm md:text-base leading-relaxed m-0">
                   <strong>Özet:</strong> {generalSummary}
                 </p>
               </div>
             </div>
 
             <TextToSpeech text={cleanGeneral} />
-            <div className="text-night-200 leading-relaxed bg-night-800/30 p-6 rounded-2xl border-l-4 border-mystic-500 mb-8 whitespace-pre-wrap">
+            <div className="text-night-200 leading-relaxed bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/30 p-6 rounded-2xl border-l-4 border-white/10 mb-8 whitespace-pre-wrap">
               <RichTextWithLinks text={cleanGeneral} symbols={allSymbolsLight} currentSlug={symbol.slug} />
             </div>
 
@@ -102,11 +102,11 @@ export default function SymbolContentTabs({
 
             {symbol.content.variations && symbol.content.variations.length > 0 && (
               <div className="mt-8">
-                <h2 className="text-2xl font-serif font-bold text-mystic-100 mb-6 border-b border-night-700 pb-2">Sık Görülen Senaryolar</h2>
+                <h2 className="text-2xl tracking-tight font-bold text-white mb-6 border-b border-night-700 pb-2">Sık Görülen Senaryolar</h2>
                 <div className="grid gap-6">
                   {symbol.content.variations.map((variation, index) => (
-                    <div key={index} className="bg-night-800/50 backdrop-blur-sm border border-night-700 rounded-xl p-5 hover:border-mystic-500/50 transition-colors">
-                      <h3 className="text-lg font-bold text-mystic-300 mb-3 flex items-start gap-2">
+                    <div key={index} className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/50 backdrop-blur-sm border border-night-700 rounded-xl p-5 hover:border-white/10 transition-colors">
+                      <h3 className="tracking-tight text-lg font-bold text-neutral-300 mb-3 flex items-start gap-2">
                         <ChevronRight className="w-5 h-5 mt-0.5 flex-shrink-0 text-mystic-500" />
                         {variation.title}
                       </h3>
@@ -127,40 +127,40 @@ export default function SymbolContentTabs({
         {/* Religious Tab */}
         {activeTab === 'religious' && (
           <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
-            <h2 className="text-2xl font-serif font-bold text-gold-400 mb-4 border-b border-night-700 pb-2 flex items-center gap-2">
+            <h2 className="text-2xl tracking-tight font-bold text-mystic-400 mb-4 border-b border-night-700 pb-2 flex items-center gap-2">
               <BookOpen className="w-6 h-6" /> {cleanTitle} - İslami ve Diyanet Tabiri
             </h2>
 
             {/* GEO: Answer-First Özet Kutusu — İslami */}
-            <div className="answer-first-box mb-6 p-4 rounded-xl bg-gradient-to-r from-amber-950/40 via-night-800/60 to-amber-950/40 border border-gold-500/30 shadow-lg shadow-amber-900/20">
+            <div className="answer-first-box mb-6 p-4 rounded-xl bg-gradient-to-r from-amber-950/40 via-night-800/60 to-amber-950/40 border border-white/10 shadow-lg shadow-amber-900/20">
               <div className="flex items-start gap-3">
-                <BookOpen className="w-5 h-5 text-gold-400 mt-0.5 flex-shrink-0" />
-                <p className="text-gold-100 font-medium text-sm md:text-base leading-relaxed m-0">
+                <BookOpen className="w-5 h-5 text-mystic-400 mt-0.5 flex-shrink-0" />
+                <p className="text-white font-medium text-sm md:text-base leading-relaxed m-0">
                   <strong>İslami Özet:</strong> {religiousSummary}
                 </p>
               </div>
             </div>
 
             <TextToSpeech text={cleanReligious} />
-            <div className="text-night-200 leading-relaxed bg-night-800/30 p-6 rounded-2xl border-l-4 border-gold-500 text-lg whitespace-pre-wrap">
+            <div className="text-night-200 leading-relaxed bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/30 p-6 rounded-2xl border-l-4 border-white/10 text-lg whitespace-pre-wrap">
               <RichTextWithLinks text={cleanReligious} symbols={allSymbolsLight} currentSlug={symbol.slug} />
             </div>
             
             <PartnerAd slug={symbol.slug} className="my-8" />
 
-            <div className="mt-4 p-5 rounded-2xl border border-gold-500/30 bg-gradient-to-r from-amber-950/40 to-night-900 text-night-200 text-sm flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 shadow-lg">
+            <div className="mt-4 p-5 rounded-2xl border border-white/10 bg-gradient-to-r from-amber-950/40 to-night-900 text-night-200 text-sm flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 shadow-lg">
               <div className="flex items-center gap-3">
-                <Star className="w-6 h-6 text-gold-400" /> 
+                <Star className="w-6 h-6 text-mystic-400" /> 
                 <div>
-                  <h4 className="font-bold text-gold-300 mb-0.5">Manevi Takvim ve Zekat Planlaması</h4>
+                  <h4 className="font-bold text-neutral-300 mb-0.5">Manevi Takvim ve Zekat Planlaması</h4>
                   <p className="text-night-300 m-0 text-xs sm:text-sm">
-                    İbadet günlerinizi, zekat miktarınızı ve mübarek geceleri planlamak için <a href="https://www.turkiyehesaplama.com/dini-gunler-hesaplama" target="_blank" rel="noopener noreferrer" className="text-gold-400 hover:text-gold-300 font-bold underline decoration-gold-500/50 underline-offset-4">Türkiye Hesaplama Dini Günler ve Zekat Araçları</a> sisteminden ücretsiz yararlanabilirsiniz.
+                    İbadet günlerinizi, zekat miktarınızı ve mübarek geceleri planlamak için <a href="https://www.turkiyehesaplama.com/dini-gunler-hesaplama" target="_blank" rel="noopener noreferrer" className="text-mystic-400 hover:text-neutral-300 font-bold underline decoration-gold-500/50 underline-offset-4">Türkiye Hesaplama Dini Günler ve Zekat Araçları</a> sisteminden ücretsiz yararlanabilirsiniz.
                   </p>
                 </div>
               </div>
             </div>
 
-            <div className="mt-4 text-sm text-night-400 italic bg-night-800/20 p-4 rounded-xl">
+            <div className="mt-4 text-sm text-night-400 italic bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/20 p-4 rounded-xl">
               Not: İslami rüya tabirleri İbn Şirin, Nablusi, İmam Cafer-i Sadık gibi kadim alimlerin yorumlarına dayanmaktadır. Rüyaların kesin bir hükmü yoktur, her rüya kişinin kendi yaşantısına göre şekillenir.
             </div>
           </div>
@@ -169,7 +169,7 @@ export default function SymbolContentTabs({
         {/* Psychological Tab */}
         {activeTab === 'psychological' && (
           <div className="animate-in fade-in slide-in-from-bottom-4 duration-500">
-            <h2 className="text-2xl font-serif font-bold text-blue-400 mb-4 border-b border-night-700 pb-2 flex items-center gap-2">
+            <h2 className="text-2xl tracking-tight font-bold text-blue-400 mb-4 border-b border-night-700 pb-2 flex items-center gap-2">
               <Brain className="w-6 h-6" /> {cleanTitle} - Psikolojik Analiz
             </h2>
 
@@ -184,7 +184,7 @@ export default function SymbolContentTabs({
             </div>
 
             <TextToSpeech text={cleanPsychological} />
-            <div className="text-night-200 leading-relaxed bg-night-800/30 p-6 rounded-2xl border-l-4 border-blue-500 text-lg whitespace-pre-wrap">
+            <div className="text-night-200 leading-relaxed bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/30 p-6 rounded-2xl border-l-4 border-blue-500 text-lg whitespace-pre-wrap">
               <RichTextWithLinks text={cleanPsychological} symbols={allSymbolsLight} currentSlug={symbol.slug} />
             </div>
             
@@ -202,7 +202,7 @@ export default function SymbolContentTabs({
               </div>
             </div>
 
-            <div className="mt-4 text-sm text-night-400 italic bg-night-800/20 p-4 rounded-xl">
+            <div className="mt-4 text-sm text-night-400 italic bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/20 p-4 rounded-xl">
               Not: Psikolojik analizler, rüyaların bilinçaltı yansımaları olduğunu savunan Jung ve Freud gibi analitik psikologların genel yaklaşımları baz alınarak derlenmiştir.
             </div>
           </div>

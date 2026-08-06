@@ -98,7 +98,7 @@ export default function RootLayout({
       <body className={`${inter.variable} ${playfair.variable} font-sans bg-noise text-night-100 antialiased`}>
         <div className="flex flex-col min-h-screen relative z-10">
           <header className="glass-header py-4 px-4 md:px-6 flex items-center justify-between flex-wrap gap-4">
-            <Link href="/" className="text-2xl font-serif font-bold text-mystic-300">
+            <Link href="/" className="text-2xl tracking-tight font-bold text-neutral-300">
               Rüya<span className="text-mystic-500">Sözlüğü</span>
             </Link>
             <nav className="flex space-x-3 md:space-x-5 text-sm md:text-base items-center">
@@ -106,11 +106,11 @@ export default function RootLayout({
                 href="https://www.turkiyehesaplama.com" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="hover:text-white text-mystic-200 font-medium transition-all duration-500 flex items-center gap-2 border border-white/10 px-4 py-2 rounded-full bg-night-800/40 backdrop-blur-md hover:bg-night-700/60 hover:shadow-xl hover:-translate-y-0.5"
+                className="hover:text-white text-neutral-200 font-medium transition-all duration-500 flex items-center gap-2 border border-white/10 px-4 py-2 rounded-full bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/40 backdrop-blur-md hover:bg-night-700/60 hover:shadow-xl hover:-translate-y-0.5"
               >
                 <Calculator className="w-4 h-4 text-mystic-400" /> <span className="hidden sm:inline">Hesaplama</span> Araçları
               </a>
-              <Link href="/diyanet-islami-ruya-tabirleri" className="hover:text-gold-300 text-gold-400 font-medium transition-colors flex items-center gap-1.5"><BookOpen className="w-4 h-4" /> İslami Tabirler</Link>
+              <Link href="/diyanet-islami-ruya-tabirleri" className="hover:text-neutral-300 text-mystic-400 font-medium transition-colors flex items-center gap-1.5"><BookOpen className="w-4 h-4" /> İslami Tabirler</Link>
               <Link href="/kategoriler" className="hover:text-mystic-400 transition-colors">Kategoriler</Link>
               <Link href="/a-z" className="hover:text-mystic-400 transition-colors">A-Z İndeks</Link>
             </nav>
@@ -120,19 +120,19 @@ export default function RootLayout({
             {children}
           </main>
 
-          <footer className="bg-gradient-to-b from-night-900 to-night-950 border-t-2 border-mystic-500/30 py-14 mt-16 shadow-2xl">
+          <footer className="bg-gradient-to-b from-night-900 to-night-950 border-t-2 border-white/10 py-14 mt-16 shadow-2xl">
             <div className="container mx-auto px-4">
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-sm text-night-300 mb-10">
                 <div>
-                  <h4 className="text-white font-serif font-bold mb-4 text-lg border-b border-night-700 pb-2">Rüya Sözlüğü</h4>
+                  <h4 className="text-white tracking-tight font-bold mb-4 text-lg border-b border-night-700 pb-2">Rüya Sözlüğü</h4>
                   <p className="mb-4 leading-relaxed">Türkiye&apos;nin en kapsamlı, özgün ve güvenilir rüya tabirleri sözlüğü. Bilinçaltınızın size anlattıklarını ve ilahi işaretleri keşfedin.</p>
                   <p className="text-xs text-night-400">Bir turtle arge projesidir.</p>
                 </div>
 
                 <div>
-                  <h4 className="text-white font-serif font-bold mb-4 text-lg border-b border-night-700 pb-2">Hızlı Bağlantılar</h4>
+                  <h4 className="text-white tracking-tight font-bold mb-4 text-lg border-b border-night-700 pb-2">Hızlı Bağlantılar</h4>
                   <ul className="space-y-2.5">
-                    <li><Link href="/diyanet-islami-ruya-tabirleri" className="hover:text-gold-400 text-gold-500 font-medium transition-colors flex items-center gap-2"><BookOpen className="w-4 h-4" /> İslami & Diyanet Tabirleri</Link></li>
+                    <li><Link href="/diyanet-islami-ruya-tabirleri" className="hover:text-mystic-400 text-mystic-500 font-medium transition-colors flex items-center gap-2"><BookOpen className="w-4 h-4" /> İslami & Diyanet Tabirleri</Link></li>
                     <li><Link href="/hakkimizda" className="hover:text-mystic-400 transition-colors">Hakkımızda</Link></li>
                     <li><Link href="/iletisim" className="hover:text-mystic-400 transition-colors">İletişim</Link></li>
                     <li><Link href="/gizlilik-politikasi" className="hover:text-mystic-400 transition-colors">Gizlilik Politikası</Link></li>
@@ -140,33 +140,33 @@ export default function RootLayout({
                   </ul>
                 </div>
 
-                <div className="lg:col-span-2 bg-night-800/40 border border-mystic-500/30 rounded-2xl p-6 shadow-lg">
+                <div className="lg:col-span-2 bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/40 border border-white/10 rounded-2xl p-6 shadow-lg">
                   <div className="flex items-center justify-between mb-4 border-b border-night-700/80 pb-3">
-                    <h4 className="text-white font-serif font-bold text-lg flex items-center gap-2">
+                    <h4 className="text-white tracking-tight font-bold text-lg flex items-center gap-2">
                       <Link2 className="w-5 h-5 text-mystic-400" /> Önerilen Hesaplama Sistemleri
                     </h4>
-                    <span className="bg-mystic-900/30 text-mystic-300 text-xs font-medium px-2.5 py-1 rounded-full border border-mystic-500/20 hidden sm:inline">Partner Çözümlerimiz</span>
+                    <span className="bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/30 text-neutral-300 text-xs font-medium px-2.5 py-1 rounded-full border border-white/10 hidden sm:inline">Partner Çözümlerimiz</span>
                   </div>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-y-3 gap-x-4 text-xs sm:text-sm">
-                    <a href="https://www.turkiyehesaplama.com" target="_blank" rel="noopener noreferrer" className="hover:text-mystic-300 text-night-300 font-medium transition-colors flex items-center gap-2.5 truncate">
+                    <a href="https://www.turkiyehesaplama.com" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-300 text-night-300 font-medium transition-colors flex items-center gap-2.5 truncate">
                       <Calculator className="w-4 h-4 text-night-500 shrink-0" /> Türkiye Hesaplama Platformu
                     </a>
-                    <a href="https://www.turkiyehesaplama.com/gebelik-hesaplama" target="_blank" rel="noopener noreferrer" className="hover:text-mystic-300 text-night-300 font-medium transition-colors flex items-center gap-2.5 truncate">
+                    <a href="https://www.turkiyehesaplama.com/gebelik-hesaplama" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-300 text-night-300 font-medium transition-colors flex items-center gap-2.5 truncate">
                       <Baby className="w-4 h-4 text-night-500 shrink-0" /> Gebelik & Doğum Tarihi
                     </a>
-                    <a href="https://www.turkiyehesaplama.com/kredi-hesaplama" target="_blank" rel="noopener noreferrer" className="hover:text-mystic-300 text-night-300 font-medium transition-colors flex items-center gap-2.5 truncate">
+                    <a href="https://www.turkiyehesaplama.com/kredi-hesaplama" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-300 text-night-300 font-medium transition-colors flex items-center gap-2.5 truncate">
                       <Coins className="w-4 h-4 text-night-500 shrink-0" /> Kredi, Maaş & Altın Hesaplama
                     </a>
-                    <a href="https://www.turkiyehesaplama.com/yas-hesaplama" target="_blank" rel="noopener noreferrer" className="hover:text-mystic-300 text-night-300 font-medium transition-colors flex items-center gap-2.5 truncate">
+                    <a href="https://www.turkiyehesaplama.com/yas-hesaplama" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-300 text-night-300 font-medium transition-colors flex items-center gap-2.5 truncate">
                       <CalendarDays className="w-4 h-4 text-night-500 shrink-0" /> Yaş & Gün Farkı Hesaplama
                     </a>
-                    <a href="https://www.turkiyehesaplama.com/dini-gunler-hesaplama" target="_blank" rel="noopener noreferrer" className="hover:text-mystic-300 text-night-300 font-medium transition-colors flex items-center gap-2.5 truncate">
+                    <a href="https://www.turkiyehesaplama.com/dini-gunler-hesaplama" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-300 text-night-300 font-medium transition-colors flex items-center gap-2.5 truncate">
                       <Moon className="w-4 h-4 text-night-500 shrink-0" /> Dini Günler, Ramazan & Zekat
                     </a>
-                    <a href="https://www.turkiyehesaplama.com/mesafe-hesaplama" target="_blank" rel="noopener noreferrer" className="hover:text-mystic-300 text-night-300 font-medium transition-colors flex items-center gap-2.5 truncate">
+                    <a href="https://www.turkiyehesaplama.com/mesafe-hesaplama" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-300 text-night-300 font-medium transition-colors flex items-center gap-2.5 truncate">
                       <Car className="w-4 h-4 text-night-500 shrink-0" /> Mesafe, Seyahat & Yakıt
                     </a>
-                    <a href="https://www.turkiyehesaplama.com/tarih-hesaplama" target="_blank" rel="noopener noreferrer" className="hover:text-mystic-300 text-night-300 font-medium transition-colors flex items-center gap-2.5 truncate">
+                    <a href="https://www.turkiyehesaplama.com/tarih-hesaplama" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-300 text-night-300 font-medium transition-colors flex items-center gap-2.5 truncate">
                       <Clock className="w-4 h-4 text-night-500 shrink-0" /> Tarih & Saat Hesaplama
                     </a>
                   </div>
