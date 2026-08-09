@@ -3,6 +3,7 @@ import { StyleSheet, View, Text, TextInput, TouchableOpacity, FlatList, Keyboard
 import { useRouter } from 'expo-router';
 import { FontAwesome5 } from '@expo/vector-icons';
 import { RewardedAd, RewardedAdEventType, AdEventType, TestIds } from 'react-native-google-mobile-ads';
+import { GoogleGenerativeAI } from '@google/generative-ai';
 
 const { width, height } = Dimensions.get('window');
 
@@ -11,12 +12,19 @@ const GOLD = '#fbbf24';
 const BLACK = '#000000';
 const DARK_GRAY = '#111111';
 
-// Test ID
-const adUnitId = __DEV__ ? TestIds.REWARDED : 'ca-app-pub-xxxxxxxxxxxxx/yyyyyyyyyyyy';
+// AdMob ID Configuration
+const adUnitId = process.env.EXPO_PUBLIC_ADMOB_REWARDED_ID || (__DEV__ ? TestIds.REWARDED : 'ca-app-pub-xxxxxxxxxxxxx/yyyyyyyyyyyy');
 
 const rewarded = RewardedAd.createForAdRequest(adUnitId, {
   requestNonPersonalizedAdsOnly: true,
 });
+
+// Gemini AI Configuration
+const GEMINI_API_KEY = process.env.EXPO_PUBLIC_GEMINI_API_KEY || '';
+const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
+const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+
+const SYSTEM_PROMPT = `Sen manevi bir sırdaş, İslami ve psikolojik analiz yapabilen şefkatli bir rüya tabircisisin. Kullanıcının rüyalarını İbn-i Sirin, İmam Nablusi gibi kaynaklara dayanarak yorumla. Eğer bir dert anlatırsa, Kur'an ve sünnet ışığında teselli ver. Çok uzun konuşma, samimi ve saygılı ol. Her cümlen 'Maşaallah', 'İnşallah' gibi manevi bir üslupla desteklensin. Seni 'Sırdaş' olarak bilsinler.`;
 
 interface Message {
   id: string;
@@ -40,7 +48,85 @@ export default function AIAssistantScreen() {
   const [messageCount, setMessageCount] = useState(0);
   const flatListRef = useRef<FlatList>(null);
 
-  // AdMob Rewarded Video Setup
+  const handleBurnAndClose = () => {
+    // Sohbeti tamamen yak (RAM'den sil) ve çık
+    setMessages([]);
+    router.back();
+  };
+
+  const fetchAIResponse = async (userText: string) => {
+    setIsTyping(true);
+    
+    try {
+      if (!GEMINI_API_KEY) {
+        // Fallback for missing API Key
+        setTimeout(() => {
+          const aiResponse: Message = {
+            id: (Date.now() + 1).toString(),
+            text: "Kardeşim, şu an manevi bağlantımda bir kesinti var (API Anahtarı eksik). Lütfen ayarları kontrol et.",
+            isUser: false,
+          };
+          setMessages(prev => [...prev, aiResponse]);
+          setIsTyping(false);
+        }, 1500);
+        return;
+      }
+
+      // Build chat history for context
+      const chatContext = messages.map(m => m.isUser ? `Kullanıcı: ${m.text}` : `Sırdaş: ${m.text}`).join('\\n');
+      
+      const result = await model.generateContent(`${SYSTEM_PROMPT}\\n\\nGeçmiş Sohbet:\\n${chatContext}\\n\\nKullanıcı Yeni Mesaj: ${userText}\\nSırdaş:`);
+      const response = result.response;
+      const text = response.text();
+
+      const aiResponse: Message = {
+        id: (Date.now() + 1).toString(),
+        text: text,
+        isUser: false,
+      };
+      
+      setMessages(prev => [...prev, aiResponse]);
+    } catch (error) {
+      console.error('Gemini API Error:', error);
+      const aiResponse: Message = {
+        id: (Date.now() + 1).toString(),
+        text: "Tövbe estağfurullah... Bir hata oluştu kardeşim. Lütfen tekrar dener misin?",
+        isUser: false,
+      };
+      setMessages(prev => [...prev, aiResponse]);
+    } finally {
+      setIsTyping(false);
+    }
+  };
+
+  const handleSend = () => {
+    if (!inputText.trim()) return;
+
+    const userMessage: Message = {
+      id: Date.now().toString(),
+      text: inputText.trim(),
+      isUser: true,
+    };
+
+    setMessages(prev => [...prev, userMessage]);
+    setInputText('');
+
+    if (messageCount === 0) {
+      setMessageCount(1);
+      fetchAIResponse(userMessage.text);
+    } else if (messageCount === 1) {
+      setMessageCount(2);
+      if (adLoaded) {
+        rewarded.show().catch(e => {
+          console.log("Reklam gösterilemedi", e);
+          fetchAIResponse(userMessage.text);
+        });
+      } else {
+        fetchAIResponse(userMessage.text);
+      }
+    }
+  };
+
   useEffect(() => {
     const unsubscribeLoaded = rewarded.addAdEventListener(RewardedAdEventType.LOADED, () => {
       setAdLoaded(true);
@@ -49,9 +135,13 @@ export default function AIAssistantScreen() {
     const unsubscribeEarned = rewarded.addAdEventListener(
       RewardedAdEventType.EARNED_REWARD,
       reward => {
-        // Kullanıcı reklamı sonuna kadar izledi, ödülü ver (AI cevabı)
-        simulateAIResponse();
-        // Bir sonraki kullanım için reklamı tekrar yükle
+        // Find the last user message to respond to
+        const lastMsg = messages[messages.length - 1];
+        if (lastMsg && lastMsg.isUser) {
+           fetchAIResponse(lastMsg.text);
+        } else {
+           fetchAIResponse("Teşekkür ederim, devam edelim.");
+        }
         rewarded.load();
       },
     );
@@ -70,55 +160,6 @@ export default function AIAssistantScreen() {
       unsubscribeClosed();
     };
   }, []);
-
-  const handleBurnAndClose = () => {
-    // Sohbeti tamamen yak (RAM'den sil) ve çık
-    setMessages([]);
-    router.back();
-  };
-
-  const handleSend = () => {
-    if (!inputText.trim()) return;
-
-    const userMessage: Message = {
-      id: Date.now().toString(),
-      text: inputText.trim(),
-      isUser: true,
-    };
-
-    setMessages(prev => [...prev, userMessage]);
-    setInputText('');
-
-    if (messageCount === 0) {
-      setMessageCount(1);
-      simulateAIResponse();
-    } else if (messageCount === 1) {
-      setMessageCount(2);
-      if (adLoaded) {
-        rewarded.show().catch(e => {
-          console.log("Reklam gösterilemedi", e);
-          simulateAIResponse();
-        });
-      } else {
-        simulateAIResponse();
-      }
-    }
-  };
-
-  const simulateAIResponse = () => {
-    setIsTyping(true);
-    
-    // 3 saniye AI Düşünme Simülasyonu
-    setTimeout(() => {
-      const aiResponse: Message = {
-        id: (Date.now() + 1).toString(),
-        text: "Maşaallah. Bu anlattıklarının psikolojik kökeninde bilinçaltındaki yoğun düşünme yatıyor olabilir. Ancak İslami ve manevi açıdan baktığımızda, kalbinin bir ferahlık aradığı açıkça belli oluyor. Diyanet kaynaklarına göre bu durum, senin içsel bir arınma döneminde olduğuna işarettir. \n\nTavsiyem: Bugün yatsı namazından sonra 33 defa 'Ya Fettah' ismini zikretmen, sana inşallah yeni kapılar açacaktır.",
-        isUser: false,
-      };
-      setIsTyping(false);
-      setMessages(prev => [...prev, aiResponse]);
-    }, 3000);
-  };
 
   const renderMessage = ({ item }: { item: Message }) => (
     <View style={[styles.messageBubble, item.isUser ? styles.userBubble : styles.aiBubble]}>

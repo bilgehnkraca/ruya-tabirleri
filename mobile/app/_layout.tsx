@@ -43,9 +43,8 @@ export default function RootLayout() {
 
   // RevenueCat (Ödeme Sistemi) Başlatıcı (Initializer)
   useEffect(() => {
-    // TODO: Kullanıcı RevenueCat'ten aldığı gerçek Key'leri buraya girecek.
-    const API_KEY_APPLE = "apple_api_key_buraya_yazilacak";
-    const API_KEY_GOOGLE = "google_api_key_buraya_yazilacak";
+    const API_KEY_APPLE = process.env.EXPO_PUBLIC_REVENUECAT_APPLE || "apple_api_key_buraya_yazilacak";
+    const API_KEY_GOOGLE = process.env.EXPO_PUBLIC_REVENUECAT_GOOGLE || "google_api_key_buraya_yazilacak";
 
     try {
       if (Platform.OS === 'ios') {

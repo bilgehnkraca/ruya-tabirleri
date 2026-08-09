@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "mobile",
-    "slug": "mobile",
+    "name": "Rüya Tabirleri",
+    "slug": "ruyatabirleri",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "mobile",
+    "scheme": "ruyatabirleri",
     "userInterfaceStyle": "automatic",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.mobile",
+      "bundleIdentifier": "com.turtlearge.ruyatabirleri",
       "infoPlist": {
         "UIBackgroundModes": [
           "audio"
@@ -17,6 +17,7 @@
       }
     },
     "android": {
+      "package": "com.turtlearge.ruyatabirleri",
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
