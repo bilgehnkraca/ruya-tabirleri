@@ -7,6 +7,11 @@ interface RichTextWithLinksProps {
   currentSlug: string;
 }
 
+// Global cache to prevent thousands of regex compilations during SSG build.
+let globalSymbolsRef: { title: string; slug: string }[] | undefined = undefined;
+let globalPattern: string | null = null;
+let globalTokenMap: Map<string, { slug: string; displayText: string }> | null = null;
+
 /**
  * Extracts a short, linkable keyword from a symbol's slug or title.
  * e.g. "yilan" → "yılan", "dis-dusmesi" → "diş düşmesi"
@@ -39,54 +44,50 @@ function buildKeywords(s: { title: string; slug: string }): string[] {
 }
 
 export default function RichTextWithLinks({ text, symbols, currentSlug }: RichTextWithLinksProps) {
-  // Build or reuse cache securely for this request/component instance
-  const { regex, tokenMap } = useMemo(() => {
-    const map = new Map<string, { slug: string; displayText: string }>();
+  // Build or reuse global cache FIRST so useMemo has access to globalPattern
+  if (symbols && symbols.length > 0 && (symbols !== globalSymbolsRef || !globalPattern || !globalTokenMap)) {
+    globalSymbolsRef = symbols;
+    const tokenMap = new Map<string, { slug: string; displayText: string }>();
 
-    if (!symbols || symbols.length === 0 || !text) {
-      return { regex: null, tokenMap: map };
-    }
-
-    // Process symbols sorted by keyword length desc (longer matches first = more specific)
     const entries: { keyword: string; slug: string }[] = [];
     for (const s of symbols) {
-      if (s.slug === currentSlug) continue;
       const kws = buildKeywords(s);
       for (const kw of kws) {
-        if (!map.has(kw)) {
+        if (!tokenMap.has(kw)) {
           entries.push({ keyword: kw, slug: s.slug });
         }
       }
     }
 
-    // Sort by length descending to match longer phrases first
     entries.sort((a, b) => b.keyword.length - a.keyword.length);
 
     for (const { keyword, slug } of entries) {
-      // Store lowercase key → { slug, displayText }
-      if (!map.has(keyword.toLowerCase())) {
-        map.set(keyword.toLowerCase(), { slug, displayText: keyword });
+      if (!tokenMap.has(keyword.toLowerCase())) {
+        tokenMap.set(keyword.toLowerCase(), { slug, displayText: keyword });
       }
     }
 
-    // Build regex from all keywords
+    globalTokenMap = tokenMap;
+
     const escapeRegExp = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    const pattern = Array.from(map.keys())
-      .sort((a, b) => b.length - a.length) // longer first for greedy match
+    globalPattern = Array.from(tokenMap.keys())
+      .sort((a, b) => b.length - a.length)
       .map(escapeRegExp)
       .join('|');
+  }
 
-    let reg: RegExp | null = null;
-    if (pattern) {
-      reg = new RegExp(`(?<![\\w\\u00C0-\\u024F])(${pattern})(?![\\w\\u00C0-\\u024F])`, 'gi');
-    }
+  // To prevent the concurrent SSG race condition on regex.lastIndex, we create a fresh RegExp instance per component.
+  // Creating a new RegExp from a cached string is very fast.
+  const regex = useMemo(() => {
+    if (!globalPattern) return null;
+    return new RegExp(`(?<![\\w\\u00C0-\\u024F])(${globalPattern})(?![\\w\\u00C0-\\u024F])`, 'gi');
+  }, [symbols]); // depends on symbols so if symbols change, globalPattern changed, we re-create regex.
 
-    return { regex: reg, tokenMap: map };
-  }, [symbols, currentSlug]);
-
-  if (!regex || !tokenMap || tokenMap.size === 0) {
+  if (!symbols || symbols.length === 0 || !text || !regex || !globalPattern || !globalTokenMap || globalTokenMap.size === 0) {
     return <>{text}</>;
   }
+
+  const tokenMap = globalTokenMap;
 
   const linkedSlugsInText = new Set<string>(); // max 1 link per symbol per text block
   const parts: React.ReactNode[] = [];
