@@ -60,9 +60,9 @@ export function getCachedSymbolsLight(): { title: string; slug: string }[] {
   if (!cachedLightSymbols) {
     if (fs.existsSync(lightFilePath)) {
       const rawLight = JSON.parse(fs.readFileSync(lightFilePath, 'utf-8'));
-      // Only link to concise symbols (length <= 35 chars)
+      // Link to all symbols. Title length doesn't matter since RichTextWithLinks extracts the core keyword.
       cachedLightSymbols = rawLight
-        .filter((s: any) => s.title && s.title.length >= 3 && s.title.length <= 35)
+        .filter((s: any) => s.title && s.title.length >= 3)
         .map((s: any) => ({ title: s.title, slug: s.slug }))
         .sort((a: any, b: any) => b.title.length - a.title.length);
     } else {

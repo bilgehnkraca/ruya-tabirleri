@@ -7,17 +7,23 @@ const searchableSymbolsPath = path.join(symbolsDir, 'searchable-symbols.json');
 async function run() {
   console.log('--- 🕷️ SEO Örümceği Başlıyor ---');
 
-  if (!fs.existsSync(searchableSymbolsPath)) {
-    console.error('[HATA] searchable-symbols.json bulunamadı!');
+  const lightFilePath = path.join(symbolsDir, 'symbols-light.json');
+  if (!fs.existsSync(lightFilePath)) {
+    console.error('[HATA] symbols-light.json bulunamadı!');
     process.exit(1);
   }
 
-  // 1. Load all known symbols
-  const allSymbols = JSON.parse(fs.readFileSync(searchableSymbolsPath, 'utf8'));
-  console.log(`[BİLGİ] Toplam ${allSymbols.length} rüya sembolü yüklendi.`);
+  // 1. Load all known symbols EXACTLY as the app does via getCachedSymbolsLight()
+  const rawLight = JSON.parse(fs.readFileSync(lightFilePath, 'utf8'));
+  const allSymbols = rawLight
+    .filter((s) => s.title && s.title.length >= 3)
+    .map((s) => ({ title: s.title, slug: s.slug }))
+    .sort((a, b) => b.title.length - a.title.length);
+
+  console.log(`[BİLGİ] Uygulama mantığıyla (symbols-light) toplam ${allSymbols.length} rüya sembolü iç linkleme havuzuna yüklendi.`);
 
   const tokenMap = new Map();
-  const allSlugs = new Set();
+  const allSlugs = new Set(rawLight.map(s => s.slug)); // Track ALL original slugs for orphan detection
 
   function buildKeywords(s) {
     const keywords = [];
@@ -41,7 +47,6 @@ async function run() {
   console.log('[BİLGİ] Çapraz linkleme haritası oluşturuluyor...');
   const entries = [];
   for (const s of allSymbols) {
-    allSlugs.add(s.slug);
     const kws = buildKeywords(s);
     for (const kw of kws) {
       if (!tokenMap.has(kw.toLowerCase())) {
