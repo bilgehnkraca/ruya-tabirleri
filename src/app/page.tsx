@@ -32,12 +32,12 @@ export default function Home() {
   const categories = getAllCategories();
 
   
-  const popularSymbols = symbols.slice(0, 12);
+  const popularSymbols = symbols.slice(0, 24);
   const specialDay = checkIsIslamicSpecialDay();
   
-  // Dummy religious slugs for demonstration
-  const religiousSlugs = ['su', 'kabe', 'namaz', 'oruc', 'yilan'];
-  const religiousSymbols = symbols.filter(s => religiousSlugs.includes(s.slug)).slice(0, 3);
+  // Dynamic religious slugs for demonstration
+  const religiousSlugs = ['su', 'kabe', 'namaz', 'oruc', 'yilan', 'dua', 'kuran', 'cami', 'hac'];
+  const religiousSymbols = symbols.filter(s => religiousSlugs.includes(s.slug)).slice(0, 9);
 
   const websiteSchema = {
     '@context': 'https://schema.org',

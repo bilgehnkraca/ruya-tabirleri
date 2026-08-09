@@ -10,20 +10,25 @@ interface Props {
   searchParams: { page?: string };
 }
 
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
+export async function generateMetadata({ params, searchParams }: Props): Promise<Metadata> {
   const categories = getAllCategories();
   if (!categories.includes(params.category)) return { title: 'Kategori Bulunamadı' };
 
   const categoryName = params.category.replace('-', ' ');
-  const url = `https://www.ruyasozlugunuz.com/kategoriler/${params.category}`;
-  const title = `${categoryName} Kategorisindeki Rüya Tabirleri | Rüya Tabirleri Sözlüğü`;
-  const description = `${categoryName} ile ilgili tüm rüya sembolleri ve detaylı yorumları.`;
+  const pageStr = searchParams?.page;
+  const page = pageStr ? parseInt(pageStr, 10) : 1;
+  const pageSuffix = page > 1 ? ` - Sayfa ${page}` : '';
+  const pageParam = page > 1 ? `?page=${page}` : '';
+  
+  const url = `https://www.ruyasozlugunuz.com/kategoriler/${params.category}${pageParam}`;
+  const title = `${categoryName} Kategorisindeki Rüya Tabirleri${pageSuffix} | Rüya Tabirleri Sözlüğü`;
+  const description = `${categoryName} ile ilgili tüm rüya sembolleri ve detaylı yorumları.${pageSuffix}`;
 
   return {
-    title: `${categoryName} Kategorisindeki Rüya Tabirleri`,
+    title: `${categoryName} Kategorisindeki Rüya Tabirleri${pageSuffix}`,
     description,
     alternates: {
-      canonical: `/kategoriler/${params.category}`,
+      canonical: url,
     },
     openGraph: {
       title,

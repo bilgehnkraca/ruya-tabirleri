@@ -49,16 +49,40 @@ export default function AZIndexPage() {
         <p className="text-night-300">Aramak istediğiniz rüyanın baş harfini seçerek sembollere ulaşabilirsiniz.</p>
       </header>
 
-      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 gap-4 mb-12">
-        {alphabet.map(letter => (
-          <Link 
-            key={letter} 
-            href={`/a-z/${encodeURIComponent(letter.toLowerCase())}`} 
-            className="h-16 rounded-xl bg-white/[0.03] backdrop-blur-xl border border-white/[0.08]/50 border border-night-700 flex items-center justify-center text-2xl tracking-tight text-neutral-300 hover:bg-white/[0.03] backdrop-blur-xl border border-white/[0.08] hover:border-white/10 hover:text-white hover:scale-105 transition-all shadow-lg"
-          >
-            {letter}
-          </Link>
-        ))}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+        {alphabet.map(letter => {
+          const letterSymbols = symbols.filter(s => {
+            const titleWithoutPrefix = s.title.replace(/^Rüyada\s+/i, '').trim();
+            return titleWithoutPrefix.charAt(0).toUpperCase() === letter;
+          }).slice(0, 5);
+
+          return (
+            <div key={letter} className="bg-white/[0.02] backdrop-blur-md border border-white/[0.05] rounded-2xl p-6">
+              <div className="flex items-center justify-between mb-4 pb-4 border-b border-white/[0.05]">
+                <h2 className="text-3xl font-bold text-white">{letter}</h2>
+                <Link 
+                  href={`/a-z/${encodeURIComponent(letter.toLowerCase())}`} 
+                  className="text-sm text-mystic-400 hover:text-mystic-300 transition-colors"
+                >
+                  Tümünü Gör &rarr;
+                </Link>
+              </div>
+              <ul className="space-y-3">
+                {letterSymbols.map(sym => (
+                  <li key={sym.slug}>
+                    <Link 
+                      href={`/sembol/${sym.slug}`} 
+                      className="text-neutral-300 hover:text-white transition-colors line-clamp-1"
+                      title={sym.title}
+                    >
+                      {sym.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

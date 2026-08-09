@@ -62,9 +62,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export async function generateStaticParams() {
   const symbols = getAllSymbols();
-  // Vercel build (OOM/Timeout) hatasını önlemek için sadece ilk 50 sembol statik olarak build edilir.
-  // Geriye kalan binlerce sayfa kullanıcı ilk kez girdiğinde (On-Demand / ISR) üretilir ve önbelleğe (Cache) alınır.
-  return symbols.slice(0, 50).map((symbol) => ({ slug: symbol.slug }));
+  // İlk 500 sembol build anında statik olarak üretilir (Vercel timeout güvenli).
+  // Kalan sayfalar ISR (On-Demand) ile üretilip cache'lenir.
+  return symbols.slice(0, 500).map((symbol) => ({ slug: symbol.slug }));
 }
 
 export default function SymbolPage({ params }: Props) {

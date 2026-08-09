@@ -80,7 +80,7 @@ export default function RootLayout({
         {/* Google AdSense Script */}
         <Script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3922046877246889"
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_ADSENSE_PUB_ID || 'ca-pub-3922046877246889'}`}
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />

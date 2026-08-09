@@ -2,7 +2,7 @@
   {
     "slug": "altin-yuzuk-bulmak",
     "title": "Rüyada Altın Yüzük Bulmak",
-    "category": "items",
+    "category": "nesneler",
     "shortDescription": "Beklenmedik büyük bir kısmete, kalıcı bir ortaklığa, evliliğe, makam yükselişine ve ruhsal bütünlüğe işaret eden evrensel bir müjde sembolüdür.",
     "relatedSymbols": [
       "altin",
@@ -61,7 +61,7 @@
   {
     "slug": "yesil-yilan-isirmasi",
     "title": "Rüyada Yeşil Yılan Isırması",
-    "category": "animals",
+    "category": "hayvanlar",
     "shortDescription": "Yakın çevreden veya dindar görünen kimselerden gelecek kıskançlığa, içsel şifaya, dönüşüme ve beklenmedik bir uyanışa delalet eden derin bir semboldür.",
     "relatedSymbols": [
       "yilan",
@@ -120,7 +120,7 @@
   {
     "slug": "kuyuya-dusmek-ve-cikmak",
     "title": "Rüyada Kuyuya Düşmek ve Çıkmak",
-    "category": "places",
+    "category": "mekanlar",
     "shortDescription": "Derin bir krizden, manevi bir sınavdan veya umutsuzluktan kendi iradeniz ve ilahi yardımla aydınlığa çıkmayı müjdeleyen bir kurtuluş sembolüdür.",
     "relatedSymbols": [
       "su",
@@ -175,7 +175,7 @@
   {
     "slug": "beyaz-at-binmek",
     "title": "Rüyada Beyaz Ata Binmek",
-    "category": "animals",
+    "category": "hayvanlar",
     "shortDescription": "İzzet, şeref, asaletin zirvesi, helal mal, şan-şöhret, murada ermek ve manevi yükselişe delalet eden en kutlu müjde sembollerinden biridir.",
     "relatedSymbols": [
       "altin",
@@ -230,7 +230,7 @@
   {
     "slug": "kirmizi-elma-toplamak",
     "title": "Rüyada Kırmızı Elma Toplamak",
-    "category": "nature",
+    "category": "doga",
     "shortDescription": "Helal rızka, sağlıklı ve uzun bir ömre, neşeli haberlere, ilim öğrenmeye, aşka, bereketli bir işe ve hayırlı evlada delalet eden evrensel bir bereket sembolüdür.",
     "relatedSymbols": [
       "su",

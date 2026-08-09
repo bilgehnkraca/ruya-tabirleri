@@ -41,7 +41,35 @@ const CATEGORY_FILTERS = [
 
 const cleanTitle = (title: string) => title.trim().replace(/^rüyada\s+/i, '').replace(/\s+görmek$/i, '');
 
+// Basic in-memory rate limiting (Note: resets on serverless cold starts, but provides basic protection)
+const rateLimitMap = new Map<string, { count: number; resetTime: number }>();
+const RATE_LIMIT_MAX = 30; // 30 requests
+const RATE_LIMIT_WINDOW = 60 * 1000; // per 1 minute
+
 export async function GET(request: Request) {
+  // Rate limiting check
+  const ip = request.headers.get('x-forwarded-for') || request.headers.get('x-real-ip') || 'unknown';
+  const now = Date.now();
+  
+  if (ip !== 'unknown') {
+    const userRateData = rateLimitMap.get(ip);
+    if (userRateData) {
+      if (now > userRateData.resetTime) {
+        rateLimitMap.set(ip, { count: 1, resetTime: now + RATE_LIMIT_WINDOW });
+      } else {
+        userRateData.count++;
+        if (userRateData.count > RATE_LIMIT_MAX) {
+          return new NextResponse(JSON.stringify({ error: 'Too Many Requests' }), {
+            status: 429,
+            headers: { 'Content-Type': 'application/json' },
+          });
+        }
+      }
+    } else {
+      rateLimitMap.set(ip, { count: 1, resetTime: now + RATE_LIMIT_WINDOW });
+    }
+  }
+
   const { searchParams } = new URL(request.url);
   const q = searchParams.get('q') || '';
   const tagsParam = searchParams.get('tags') || '';

@@ -1,16 +1,11 @@
 import Link from 'next/link';
-import React from 'react';
+import React, { useMemo } from 'react';
 
 interface RichTextWithLinksProps {
   text: string;
   symbols?: { title: string; slug: string }[];
   currentSlug: string;
 }
-
-// Module-level cache to prevent thousands of regex re-compilations during SSG build
-let lastSymbolsRef: { title: string; slug: string }[] | undefined = undefined;
-let cachedRegex: RegExp | null = null;
-let cachedTokenMap: Map<string, { slug: string; displayText: string }> | null = null;
 
 /**
  * Extracts a short, linkable keyword from a symbol's slug or title.
@@ -44,14 +39,13 @@ function buildKeywords(s: { title: string; slug: string }): string[] {
 }
 
 export default function RichTextWithLinks({ text, symbols, currentSlug }: RichTextWithLinksProps) {
-  if (!symbols || symbols.length === 0 || !text) {
-    return <>{text}</>;
-  }
+  // Build or reuse cache securely for this request/component instance
+  const { regex, tokenMap } = useMemo(() => {
+    const map = new Map<string, { slug: string; displayText: string }>();
 
-  // Build or reuse cache
-  if (symbols !== lastSymbolsRef || !cachedRegex || !cachedTokenMap) {
-    lastSymbolsRef = symbols;
-    const tokenMap = new Map<string, { slug: string; displayText: string }>();
+    if (!symbols || symbols.length === 0 || !text) {
+      return { regex: null, tokenMap: map };
+    }
 
     // Process symbols sorted by keyword length desc (longer matches first = more specific)
     const entries: { keyword: string; slug: string }[] = [];
@@ -59,7 +53,7 @@ export default function RichTextWithLinks({ text, symbols, currentSlug }: RichTe
       if (s.slug === currentSlug) continue;
       const kws = buildKeywords(s);
       for (const kw of kws) {
-        if (!tokenMap.has(kw)) {
+        if (!map.has(kw)) {
           entries.push({ keyword: kw, slug: s.slug });
         }
       }
@@ -70,28 +64,27 @@ export default function RichTextWithLinks({ text, symbols, currentSlug }: RichTe
 
     for (const { keyword, slug } of entries) {
       // Store lowercase key → { slug, displayText }
-      if (!tokenMap.has(keyword.toLowerCase())) {
-        tokenMap.set(keyword.toLowerCase(), { slug, displayText: keyword });
+      if (!map.has(keyword.toLowerCase())) {
+        map.set(keyword.toLowerCase(), { slug, displayText: keyword });
       }
     }
 
-    cachedTokenMap = tokenMap;
-
     // Build regex from all keywords
     const escapeRegExp = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    const pattern = Array.from(tokenMap.keys())
+    const pattern = Array.from(map.keys())
       .sort((a, b) => b.length - a.length) // longer first for greedy match
       .map(escapeRegExp)
       .join('|');
 
+    let reg: RegExp | null = null;
     if (pattern) {
-      cachedRegex = new RegExp(`(?<![\\w\\u00C0-\\u024F])(${pattern})(?![\\w\\u00C0-\\u024F])`, 'gi');
-    } else {
-      cachedRegex = null;
+      reg = new RegExp(`(?<![\\w\\u00C0-\\u024F])(${pattern})(?![\\w\\u00C0-\\u024F])`, 'gi');
     }
-  }
 
-  if (!cachedRegex || !cachedTokenMap || cachedTokenMap.size === 0) {
+    return { regex: reg, tokenMap: map };
+  }, [symbols, currentSlug]);
+
+  if (!regex || !tokenMap || tokenMap.size === 0) {
     return <>{text}</>;
   }
 
@@ -101,12 +94,12 @@ export default function RichTextWithLinks({ text, symbols, currentSlug }: RichTe
   let match: RegExpExecArray | null;
 
   // Reset lastIndex for global regex
-  cachedRegex.lastIndex = 0;
+  regex.lastIndex = 0;
 
-  while ((match = cachedRegex.exec(text)) !== null) {
+  while ((match = regex.exec(text)) !== null) {
     const matchedText = match[0];
     const key = matchedText.toLowerCase();
-    const symbolData = cachedTokenMap.get(key);
+    const symbolData = tokenMap.get(key);
 
     if (!symbolData || symbolData.slug === currentSlug || linkedSlugsInText.has(symbolData.slug)) {
       continue;

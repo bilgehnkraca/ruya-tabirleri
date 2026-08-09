@@ -1,0 +1,794 @@
+[
+  {
+    "id": "1",
+    "name": "Allah",
+    "arabic": "الرَّحْمَنُ",
+    "meaning": "Bütün eksikliklerden münezzeh, eşi ve benzeri olmayan, tek ve mutlak yaratıcı olan Yüce İlah.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "2",
+    "name": "Er-Rahmân",
+    "arabic": "الرَّحِيمُ",
+    "meaning": "Dünyada bütün mahlûkata, mümin-kâfir ayrımı yapmaksızın merhamet eden, şefkat gösteren ve nimet veren.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "3",
+    "name": "Er-Rahîm",
+    "arabic": "الْمَلِكُ",
+    "meaning": "Ahirette sadece müminlere merhamet eden, onlara özel lütuflarda bulunan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "4",
+    "name": "El-Melik",
+    "arabic": "الْقُدُّوسُ",
+    "meaning": "Mülkün gerçek sahibi, kâinatın mutlak hükümdarı ve idarecisi.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "5",
+    "name": "El-Kuddûs",
+    "arabic": "السَّلاَمُ",
+    "meaning": "Her türlü noksanlıktan, kusurdan ve hatadan mutlak surette temiz ve yüce olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "6",
+    "name": "Es-Selâm",
+    "arabic": "الْمُؤْمِنُ",
+    "meaning": "Her türlü tehlikeden, eksiklikten selâmette olan; kullarına güven ve esenlik veren.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "7",
+    "name": "El-Mü'min",
+    "arabic": "الْمُهَيْمِنُ",
+    "meaning": "Gönüllere iman nuru veren, kullarına güven bahşeden ve vaadinde sadık olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "8",
+    "name": "El-Müheymin",
+    "arabic": "الْعَزِيزُ",
+    "meaning": "Bütün varlıkları gözetip koruyan, her şeyi hakkıyla denetleyen ve idare eden.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "9",
+    "name": "El-Azîz",
+    "arabic": "الْجَبَّارُ",
+    "meaning": "İzzet ve şeref sahibi, mutlak galip olan, hiçbir zaman mağlup edilemeyen.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "10",
+    "name": "El-Cebbâr",
+    "arabic": "الْمُتَكَبِّرُ",
+    "meaning": "İradesini her durumda yürüten, dilediğini yapmaya muktedir olan ve eksikleri tamamlayan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "11",
+    "name": "El-Mütekebbir",
+    "arabic": "الْخَالِقُ",
+    "meaning": "Büyüklükte eşi benzeri olmayan, zatının ve sıfatlarının mahiyeti bilinemeyecek kadar ulu olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "12",
+    "name": "El-Hâlık",
+    "arabic": "الْبَارِئُ",
+    "meaning": "Her şeyi yoktan yaratan, varlıkların geçireceği halleri takdir eden.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "13",
+    "name": "El-Bâri",
+    "arabic": "الْمُصَوِّرُ",
+    "meaning": "Eşyayı ve her şeyin aza ve cihazlarını birbirine uygun, kusursuz ve mütenasip yaratan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "14",
+    "name": "El-Musavvir",
+    "arabic": "الْغَفَّارُ",
+    "meaning": "Varlıklara şekil ve suret veren, her birini kendine has özelliklerle tasvir eden.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "15",
+    "name": "El-Gaffâr",
+    "arabic": "الْقَهَّارُ",
+    "meaning": "Kullarının günahlarını tekrar tekrar affeden, kusurlarını örten.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "16",
+    "name": "El-Kahhâr",
+    "arabic": "الْوَهَّابُ",
+    "meaning": "Her şeye, her dilediğini yapacak surette galip ve hâkim olan, yenilmeyen.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "17",
+    "name": "El-Vehhâb",
+    "arabic": "الرَّزَّاقُ",
+    "meaning": "Karşılıksız bol nimet veren, bağışı çok olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "18",
+    "name": "Er-Rezzâk",
+    "arabic": "الْفَتَّاحُ",
+    "meaning": "Bütün rızka muhtaç olanların rızkını veren, ihtiyaçlarını karşılayan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "19",
+    "name": "El-Fettâh",
+    "arabic": "اَلْعَلِيْمُ",
+    "meaning": "Her türlü zorluk ve sıkıntıları açan ve kolaylaştıran, hak ile batılı ayıran.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "20",
+    "name": "El-Alîm",
+    "arabic": "الْقَابِضُ",
+    "meaning": "Her şeyi hakkıyla bilen, ilmi ezelî ve ebedî olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "21",
+    "name": "El-Kâbıd",
+    "arabic": "الْبَاسِطُ",
+    "meaning": "Dilediğinin rızkını daraltan, ruhları kabzeden.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "22",
+    "name": "El-Bâsıt",
+    "arabic": "الْخَافِضُ",
+    "meaning": "Dilediğinin rızkını genişleten, ruhlara genişlik veren.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "23",
+    "name": "El-Hâfıd",
+    "arabic": "الرَّافِعُ",
+    "meaning": "Kâfirleri, isyankârları ve zalimleri alçaltan, değersiz kılan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "24",
+    "name": "Er-Râfi",
+    "arabic": "الْمُعِزُّ",
+    "meaning": "Müminleri, dostlarını ve itaatkârları yücelten, derecelerini yükselten.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "25",
+    "name": "El-Muizz",
+    "arabic": "المُذِلُّ",
+    "meaning": "Dilediğini aziz kılan, şeref ve itibar veren.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "26",
+    "name": "El-Müzill",
+    "arabic": "السَّمِيعُ",
+    "meaning": "Dilediğini zillete düşüren, hor ve hakir kılan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "27",
+    "name": "Es-Semî",
+    "arabic": "الْبَصِيرُ",
+    "meaning": "Her şeyi, bütün sesleri gizli ve açık hakkıyla işiten.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "28",
+    "name": "El-Basîr",
+    "arabic": "الْحَكَمُ",
+    "meaning": "Her şeyi, karanlıkta ve aydınlıkta hakkıyla gören.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "29",
+    "name": "El-Hakem",
+    "arabic": "الْعَدْلُ",
+    "meaning": "Mutlak hüküm sahibi olan, hak ile batılı kesin olarak ayıran.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "30",
+    "name": "El-Adl",
+    "arabic": "اللَّطِيفُ",
+    "meaning": "Mutlak adalet sahibi olan, zulmetmeyen ve her şeyi yerli yerince yapan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "31",
+    "name": "El-Latîf",
+    "arabic": "الْخَبِيرُ",
+    "meaning": "En ince işlerin bütün detaylarını bilen, kullarına sezilmez yollardan iyilik ulaştıran.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "32",
+    "name": "El-Habîr",
+    "arabic": "الْحَلِيمُ",
+    "meaning": "Her şeyin iç yüzünden, gizli tarafından haberdar olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "33",
+    "name": "El-Halîm",
+    "arabic": "الْعَظِيمُ",
+    "meaning": "Cezalandırmaya gücü yettiği halde acele etmeyen, kullarına müsamaha gösteren.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "34",
+    "name": "El-Azîm",
+    "arabic": "الْغَفُورُ",
+    "meaning": "Büyüklüğünün sınırlarına akıl erdirilemeyen, mutlak azamet sahibi.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "35",
+    "name": "El-Gafûr",
+    "arabic": "الشَّكُورُ",
+    "meaning": "Günahları çokça bağışlayan, mağfireti bol olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "36",
+    "name": "Eş-Şekûr",
+    "arabic": "الْعَلِيُّ",
+    "meaning": "Az amele karşılık çok sevap veren, rızası için yapılan işleri karşılıksız bırakmayan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "37",
+    "name": "El-Aliyy",
+    "arabic": "الْكَبِيرُ",
+    "meaning": "Her bakımdan yüce olan, şeref ve makamda en üstün olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "38",
+    "name": "El-Kebîr",
+    "arabic": "الْحَفِيظُ",
+    "meaning": "Zatı ve sıfatları anlaşılamayacak kadar büyük olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "39",
+    "name": "El-Hafîz",
+    "arabic": "المُقيِت",
+    "meaning": "Her şeyi koruyan, muhafaza eden ve ayakta tutan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "40",
+    "name": "El-Mukît",
+    "arabic": "الْحسِيبُ",
+    "meaning": "Yaratılmışların rızkını veren, her şeye gücü yeten ve koruyan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "41",
+    "name": "El-Hasîb",
+    "arabic": "الْجَلِيلُ",
+    "meaning": "Kullarının hesaplarını en iyi gören, herkese ameli kadar karşılık veren.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "42",
+    "name": "El-Celîl",
+    "arabic": "الْكَرِيمُ",
+    "meaning": "Ululuk ve celalet sahibi, azametiyle her şeyden yüce olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "43",
+    "name": "El-Kerîm",
+    "arabic": "الرَّقِيبُ",
+    "meaning": "Lütfu ve keremi bol olan, karşılıksız ve cömertçe veren.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "44",
+    "name": "Er-Rakîb",
+    "arabic": "الْمُجِيبُ",
+    "meaning": "Bütün varlıkları her an gözeten ve kontrolü altında tutan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "45",
+    "name": "El-Mücîb",
+    "arabic": "الْوَاسِعُ",
+    "meaning": "Kullarının dualarına ve isteklerine icabet eden, karşılık veren.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "46",
+    "name": "El-Vâsi",
+    "arabic": "الْحَكِيمُ",
+    "meaning": "İlmi, rahmeti ve kudreti her şeyi kuşatan, geniş olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "47",
+    "name": "El-Hakîm",
+    "arabic": "الْوَدُودُ",
+    "meaning": "Her işi hikmetli olan, her şeyi yerli yerince yaratan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "48",
+    "name": "El-Vedûd",
+    "arabic": "الْمَجِيدُ",
+    "meaning": "Kullarını çok seven ve sevilmeye en layık olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "49",
+    "name": "El-Mecîd",
+    "arabic": "الْبَاعِثُ",
+    "meaning": "Şanı yüce olan, kadri ve itibarı çok yüksek olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "50",
+    "name": "El-Bâis",
+    "arabic": "الشَّهِيدُ",
+    "meaning": "Ölüleri dirilten, peygamberler gönderen.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "51",
+    "name": "Eş-Şehîd",
+    "arabic": "الْحَقُّ",
+    "meaning": "Her yerde hazır ve nazır olan, her şeye şahit olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "52",
+    "name": "El-Hakk",
+    "arabic": "الْوَكِيلُ",
+    "meaning": "Varlığı hiç değişmeyen, daima sabit olan ve hakikatin bizzat kendisi.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "53",
+    "name": "El-Vekîl",
+    "arabic": "الْقَوِيُّ",
+    "meaning": "Kendisine tevekkül edenlerin işlerini en iyi şekilde idare eden.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "54",
+    "name": "El-Kaviyy",
+    "arabic": "الْمَتِينُ",
+    "meaning": "Mutlak güç ve kuvvet sahibi olan, yenilmeyen.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "55",
+    "name": "El-Metîn",
+    "arabic": "الْوَلِيُّ",
+    "meaning": "Son derece sağlam ve dayanıklı olan, hiçbir şekilde sarsılmayan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "56",
+    "name": "El-Veliyy",
+    "arabic": "الْحَمِيدُ",
+    "meaning": "İnanan kullarına dost ve yardımcı olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "57",
+    "name": "El-Hamîd",
+    "arabic": "الْمُحْصِي",
+    "meaning": "Her türlü övgüye ve hamde layık olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "58",
+    "name": "El-Muhsî",
+    "arabic": "الْمُبْدِئُ",
+    "meaning": "Yaratılmış her şeyin sayısını ve miktarını hakkıyla bilen.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "59",
+    "name": "El-Mübdi",
+    "arabic": "الْمُعِيدُ",
+    "meaning": "Varlıkları örneksiz ve yoktan ilk defa yaratan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "60",
+    "name": "El-Muîd",
+    "arabic": "الْمُحْيِي",
+    "meaning": "Yaratılmışları öldükten sonra tekrar dirilten.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "61",
+    "name": "El-Muhyî",
+    "arabic": "اَلْمُمِيتُ",
+    "meaning": "Ölüleri dirilten, hayat ve can veren.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "62",
+    "name": "El-Mümît",
+    "arabic": "الْحَيُّ",
+    "meaning": "Canlılara ölümü tattıran, hayatı sona erdiren.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "63",
+    "name": "El-Hayy",
+    "arabic": "الْقَيُّومُ",
+    "meaning": "Ezelî ve ebedî hayat sahibi olan, daima diri olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "64",
+    "name": "El-Kayyûm",
+    "arabic": "الْوَاجِدُ",
+    "meaning": "Gökleri, yeri ve her şeyi ayakta tutan, varlığı kendinden olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "65",
+    "name": "El-Vâcid",
+    "arabic": "الْمَاجِدُ",
+    "meaning": "İstediği her şeyi anında bulan, hiçbir şeye muhtaç olmayan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "66",
+    "name": "El-Mâcid",
+    "arabic": "الْواحِدُ",
+    "meaning": "Kadri ve şanı büyük, keremi bol olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "67",
+    "name": "El-Vâhid",
+    "arabic": "اَلاَحَدُ",
+    "meaning": "Zatında, sıfatlarında ve fiillerinde tek olan, eşi benzeri olmayan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "68",
+    "name": "Es-Samed",
+    "arabic": "الصَّمَدُ",
+    "meaning": "Her şeyin kendisine muhtaç olduğu, kendisi ise hiçbir şeye muhtaç olmayan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "69",
+    "name": "El-Kâdir",
+    "arabic": "الْقَادِرُ",
+    "meaning": "İstediğini istediği gibi yapmaya gücü yeten.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "70",
+    "name": "El-Muktedir",
+    "arabic": "الْمُقْتَدِرُ",
+    "meaning": "Her şeye gücü yeten, kudreti her şeyi kuşatan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "71",
+    "name": "El-Mukaddim",
+    "arabic": "الْمُقَدِّمُ",
+    "meaning": "Dilediğini öne alan, makam ve derecesini yükselten.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "72",
+    "name": "El-Muahhir",
+    "arabic": "الْمُؤَخِّرُ",
+    "meaning": "Dilediğini arkaya bırakan, geri plana atan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "73",
+    "name": "El-Evvel",
+    "arabic": "الأوَّلُ",
+    "meaning": "Varlığının bir başlangıcı olmayan, ilk olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "74",
+    "name": "El-Âhir",
+    "arabic": "الآخِرُ",
+    "meaning": "Varlığının bir sonu olmayan, ebedî olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "75",
+    "name": "Ez-Zâhir",
+    "arabic": "الظَّاهِرُ",
+    "meaning": "Varlığı sayısız delillerle açık ve net olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "76",
+    "name": "El-Bâtın",
+    "arabic": "الْبَاطِنُ",
+    "meaning": "Mahiyeti ve zatı akıllardan gizli olan, gözle görülemeyen.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "77",
+    "name": "El-Vâlî",
+    "arabic": "الْوَالِي",
+    "meaning": "Kâinatı ve bütün varlıkları idare eden, tek otorite sahibi olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "78",
+    "name": "El-Müteâlî",
+    "arabic": "الْمُتَعَالِي",
+    "meaning": "Yaratılmışların özelliklerinden ve her türlü eksiklikten son derece yüce olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "79",
+    "name": "El-Berr",
+    "arabic": "الْبَرُّ",
+    "meaning": "Kullarına karşı çok iyilik yapan, lütuf ve ihsanı bol olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "80",
+    "name": "Et-Tevvâb",
+    "arabic": "التَّوَابُ",
+    "meaning": "Tövbeleri çokça kabul eden, kullarına bağışlanma fırsatı veren.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "81",
+    "name": "El-Müntakim",
+    "arabic": "الْمُنْتَقِمُ",
+    "meaning": "Zalimleri adaletiyle cezalandıran, intikam alan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "82",
+    "name": "El-Afüvv",
+    "arabic": "العَفُوُّ",
+    "meaning": "Günahları kökünden silip affeden, merhameti bol olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "83",
+    "name": "Er-Raûf",
+    "arabic": "الرَّؤُوفُ",
+    "meaning": "Kullarına karşı çok şefkatli ve merhametli olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "84",
+    "name": "Mâlikü'l-Mülk",
+    "arabic": "مَالِكُ الْمُلْكِ",
+    "meaning": "Mülkün gerçek ve ebedî sahibi olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "85",
+    "name": "Zü'l-Celâli ve'l-İkrâm",
+    "arabic": "ذُوالْجَلاَلِ وَالإكْرَامِ",
+    "meaning": "Hem büyüklük ve azamet, hem de sonsuz lütuf ve ikram sahibi olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "86",
+    "name": "El-Muksit",
+    "arabic": "الْمُقْسِطُ",
+    "meaning": "Bütün işlerini dengeli, adaletli ve yerli yerince yapan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "87",
+    "name": "El-Câmi",
+    "arabic": "الْجَامِعُ",
+    "meaning": "Zıtlıkları bir araya getiren, kıyamet gününde insanları toplayacak olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "88",
+    "name": "El-Ganiyy",
+    "arabic": "الْغَنِيُّ",
+    "meaning": "Hiçbir şeye muhtaç olmayan, mutlak zenginlik sahibi olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "89",
+    "name": "El-Muğnî",
+    "arabic": "الْمُغْنِي",
+    "meaning": "Dilediğine zenginlik veren ve ihtiyaçlarını gideren.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "90",
+    "name": "El-Mâni",
+    "arabic": "اَلْمَانِعُ",
+    "meaning": "Kötü şeylerin olmasına engel olan, koruyan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "91",
+    "name": "Ed-Dârr",
+    "arabic": "الضَّارَّ",
+    "meaning": "Dilediğine elem ve zarar verici şeyler yaratan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "92",
+    "name": "En-Nâfi",
+    "arabic": "النَّافِعُ",
+    "meaning": "Dilediğine faydalı ve iyi şeyler yaratan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "93",
+    "name": "En-Nûr",
+    "arabic": "النُّورُ",
+    "meaning": "Kâinatı nurlandıran, kalplere iman nuru veren.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "94",
+    "name": "El-Hâdî",
+    "arabic": "الْهَادِي",
+    "meaning": "Kullarına hidayet veren, doğru yolu gösteren.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "95",
+    "name": "El-Bedî",
+    "arabic": "الْبَدِيعُ",
+    "meaning": "Örneksiz, emsalsiz ve sanatkârane bir şekilde yoktan yaratan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "96",
+    "name": "El-Bâkî",
+    "arabic": "اَلْبَاقِي",
+    "meaning": "Varlığının sonu olmayan, ebedî ve kalıcı olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "97",
+    "name": "El-Vâris",
+    "arabic": "الْوَارِثُ",
+    "meaning": "Her şeyin asıl sahibi olan, bütün mülk kendisine kalacak olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "98",
+    "name": "Er-Reşîd",
+    "arabic": "الرَّشِيدُ",
+    "meaning": "Bütün işleri isabetli olan, kullarını doğru yola irşad eden.",
+    "detailedMeaning": "",
+    "virtue": ""
+  },
+  {
+    "id": "99",
+    "name": "Es-Sabûr",
+    "arabic": "الصَّبُورُ",
+    "meaning": "İsyankârları cezalandırmada acele etmeyen, sabırlı olan.",
+    "detailedMeaning": "",
+    "virtue": ""
+  }
+]

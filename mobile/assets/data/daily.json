@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "ayah": {
+      "text": "Şüphesiz Allah, adaleti, iyilik yapmayı, yakınlara yardım etmeyi emreder...",
+      "ref": "Nahl Suresi, 90. Ayet"
+    },
+    "hadith": {
+      "text": "Sizin en hayırlınız, Kur'an'ı öğrenen ve öğretendir.",
+      "ref": "Buhari, Fezailü'l-Kur'an, 21"
+    },
+    "dua": {
+      "text": "Allah'ım! Bana öğrettiğin ilim ile beni faydalandır, bana fayda verecek ilmi bana öğret ve ilmimi artır.",
+      "ref": "Tirmizi, Daavat, 128"
+    }
+  },
+  {
+    "id": 2,
+    "ayah": {
+      "text": "Biz insanı en güzel biçimde yarattık.",
+      "ref": "Tin Suresi, 4. Ayet"
+    },
+    "hadith": {
+      "text": "Kolaylaştırınız, zorlaştırmayınız. Müjdeleyiniz, nefret ettirmeyiniz.",
+      "ref": "Buhari, İlim, 11"
+    },
+    "dua": {
+      "text": "Ey kalpleri çeviren Allah'ım! Kalbimi dinin üzerine sabit kıl.",
+      "ref": "Tirmizi, Kader, 7"
+    }
+  },
+  {
+    "id": 3,
+    "ayah": {
+      "text": "Kim zerre miktarı hayır yapmışsa onu görür. Kim de zerre miktarı şer işlemişse onu görür.",
+      "ref": "Zilzal Suresi, 7-8. Ayetler"
+    },
+    "hadith": {
+      "text": "Müslüman, dilinden ve elinden müslümanların güvende olduğu kimsedir.",
+      "ref": "Buhari, İman, 4"
+    },
+    "dua": {
+      "text": "Allah'ım! Fayda vermeyen ilimden, ürpermeyen kalpten, doymayan nefisten ve kabul olunmayan duadan sana sığınırım.",
+      "ref": "Müslim, Zikir, 73"
+    }
+  },
+  {
+    "id": 4,
+    "ayah": {
+      "text": "Sabredin, şüphesiz Allah sabredenlerle beraberdir.",
+      "ref": "Enfal Suresi, 46. Ayet"
+    },
+    "hadith": {
+      "text": "İşçiye ücretini teri kurumadan veriniz.",
+      "ref": "İbn Mace, Ruhun, 4"
+    },
+    "dua": {
+      "text": "Rabbimiz! Bize dünyada da iyilik ver, ahirette de iyilik ver ve bizi ateş azabından koru.",
+      "ref": "Bakara Suresi, 201. Ayet"
+    }
+  },
+  {
+    "id": 5,
+    "ayah": {
+      "text": "Eğer şükrederseniz, size olan nimetimi kesinlikle artırırım.",
+      "ref": "İbrahim Suresi, 7. Ayet"
+    },
+    "hadith": {
+      "text": "Zenginlik, mal çokluğuyla değil, göz tokluğuyladır.",
+      "ref": "Buhari, Rikak, 15"
+    },
+    "dua": {
+      "text": "Rabbim! Gönlüme ferahlık ver, işimi bana kolaylaştır.",
+      "ref": "Taha Suresi, 25-26. Ayetler"
+    }
+  }
+]
