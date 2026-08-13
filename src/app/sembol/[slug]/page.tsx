@@ -60,10 +60,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+export const dynamicParams = true;
+
 export async function generateStaticParams() {
   const symbols = getAllSymbols();
-  // İlk 500 sembol build anında statik olarak üretilir (Vercel timeout güvenli).
-  // Kalan sayfalar ISR (On-Demand) ile üretilip cache'lenir.
+  // İlk 500 sembol build anında statik olarak üretilir (Vercel limitlerini aşmamak için).
+  // Kalan sayfalar ISR (On-Demand) ile üretilip cache'lenir. Kötü niyetli URL'ler Middleware tarafından engellenir.
   return symbols.slice(0, 500).map((symbol) => ({ slug: symbol.slug }));
 }
 
