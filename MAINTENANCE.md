@@ -12,3 +12,20 @@
 - Vercel deploy hatası → GitHub Actions / Vercel loguna bak
 - Trafik %50+ düştü → Search Console'da "Manuel İşlem" cezası var mı kontrol et
 - AdSense devre dışı bırakıldı → AdSense panelinde uyarıyı oku, içerik politikası ihlali olabilir
+
+## 🆕 Yeni Sembol Ekleme Akışı (ZORUNLU)
+
+Yeni rüya tabiri içerikleri eklendikten sonra aşağıdaki 3 adım **sırasıyla** çalıştırılmalıdır.
+`valid-slugs.ts` güncellenmezse yeni sembol sayfaları Middleware tarafından 404 ile engellenebilir!
+
+```bash
+# 1. İçerikler eklendikten sonra slug index'i yenile
+node scripts/generate-slug-index.js
+
+# 2. Middleware listesini otomatik güncelle (ISR saldırı koruması)
+node scripts/update-valid-slugs.js
+
+# 3. GitHub'a gönder (Vercel otomatik deploy başlatır)
+git add . && git commit -m "feat: yeni semboller eklendi" && git push
+```
+
