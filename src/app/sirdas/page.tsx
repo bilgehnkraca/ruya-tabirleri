@@ -305,6 +305,17 @@ export default function SirdasPage() {
           </p>
         </section>
 
+        {/* İLETİŞİM */}
+        <section className="mb-12 border border-white/8 rounded-3xl p-8 text-center bg-white/[0.01]">
+          <h2 className="text-xl font-bold text-white mb-3">Bize Ulaşın</h2>
+          <p className="text-neutral-400 text-sm mb-6 max-w-md mx-auto leading-relaxed">
+            Sırdaş uygulaması veya Rüya Sözlüğünüz ile ilgili her türlü soru, görüş, öneri ve teknik destek talepleriniz için bizimle iletişime geçebilirsiniz.
+          </p>
+          <a href="mailto:destek@ruyasozlugunuz.com" className="inline-flex items-center gap-2 bg-white/5 hover:bg-white/10 border border-white/10 text-white font-medium px-6 py-3 rounded-xl transition-colors">
+            <span className="text-lg">✉️</span> destek@ruyasozlugunuz.com
+          </a>
+        </section>
+
         {/* İÇ LİNKLER */}
         <div className="text-center pb-12">
           <p className="text-neutral-600 text-xs mb-3">Web üzerinden rüya tabirlerine ulaşın</p>
