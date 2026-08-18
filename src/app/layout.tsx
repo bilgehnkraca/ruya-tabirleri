@@ -111,6 +111,7 @@ export default function RootLayout({
                 <Calculator className="w-4 h-4 text-mystic-400" /> <span className="hidden sm:inline">Hesaplama</span> Araçları
               </a>
               <Link href="/diyanet-islami-ruya-tabirleri" className="hover:text-neutral-300 text-mystic-400 font-medium transition-colors flex items-center gap-1.5"><BookOpen className="w-4 h-4" /> İslami Tabirler</Link>
+              <Link href="/sirdas" className="hover:text-neutral-300 text-amber-400 font-medium transition-colors flex items-center gap-1.5"><Moon className="w-4 h-4" /> Sırdaş App</Link>
               <Link href="/kategoriler" className="hover:text-mystic-400 transition-colors">Kategoriler</Link>
               <Link href="/a-z" className="hover:text-mystic-400 transition-colors">A-Z İndeks</Link>
             </nav>
