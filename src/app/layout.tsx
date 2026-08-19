@@ -4,7 +4,7 @@ import "./globals.css";
 import Script from "next/script";
 import Link from "next/link";
 import CookieConsent from '@/components/CookieConsent';
-import { GoogleAnalytics } from '@next/third-parties/google';
+import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google';
 import { Calculator, Baby, Coins, CalendarDays, Moon, Car, Clock, BookOpen, Link2 } from 'lucide-react';
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
@@ -183,6 +183,7 @@ export default function RootLayout({
         <CookieConsent />
       </body>
       <GoogleAnalytics gaId="G-HJVZQRSTPE" />
+      <GoogleTagManager gtmId="GTM-5424VZ9R" />
     </html>
   );
 }
