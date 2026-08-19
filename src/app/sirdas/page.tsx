@@ -36,7 +36,7 @@ export default function SirdasPage() {
     ],
   };
 
-  const APPLE_URL = "https://apps.apple.com/tr/app/sirdas-ruya-namaz-ve-kuran/id6747971146";
+  const APPLE_URL = "https://apps.apple.com/tr/app/sirdas-ruya-namaz-ve-kuran/id6801462760";
 
   return (
     <>
