@@ -1,10 +1,10 @@
 name: Otonom Yazar (AI Auto-Author)
 
 on:
-  schedule:
-    # Her gün saat 04:00 UTC'de çalışır
-    - cron: '0 4 * * *'
-  workflow_dispatch: # Manuel tetiklemeye izin verir
+  # schedule:
+  #   # Her gün saat 04:00 UTC'de çalışır
+  #   - cron: '0 4 * * *'
+  workflow_dispatch: # Sadece manuel tetiklemeye izin verir
 
 permissions:
   contents: write
