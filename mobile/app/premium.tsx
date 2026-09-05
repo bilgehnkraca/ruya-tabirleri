@@ -41,29 +41,39 @@ export default function PremiumScreen() {
 
   const handlePurchase = async () => {
     try {
-      console.log(`${selectedPlan === 'yearly' ? 'Yıllık' : 'Aylık'} paket satın alınıyor...`);
+      // FIX #11: Gerçek RevenueCat satın alma akışı aktif edildi
+      // .env.local'da EXPO_PUBLIC_REVENUECAT_APPLE/GOOGLE key'leri tanımlı olmalıdır
+      const productId = selectedPlan === 'yearly' ? 'pro_annual' : 'pro_monthly';
       
-      // RevenueCat Satın Alma Tetikleyicisi
-      // Not: API Key'ler _layout.tsx içinde tanımlandığında bu kod gerçek Apple/Google FaceID ekranını açar.
+      const offerings = await Purchases.getOfferings();
+      const currentOffering = offerings.current;
       
-      /* GERÇEK KOD (Şu an yoruma alındı çünkü API Key eksik)
-      const productId = selectedPlan === 'yearly' ? 'pro_annual_id' : 'pro_monthly_id';
-      const { customerInfo } = await Purchases.purchaseProduct(productId);
+      if (!currentOffering) {
+        Alert.alert(
+          'Ürün Bulunamadı',
+          'Satın alma paketleri yüklenemedi. Lütfen internet bağlantınızı kontrol edip tekrar deneyin.'
+        );
+        return;
+      }
+
+      const package_ = selectedPlan === 'yearly'
+        ? currentOffering.annual
+        : currentOffering.monthly;
+
+      if (!package_) {
+        Alert.alert('Hata', 'Seçilen paket mevcut değil.');
+        return;
+      }
+
+      const { customerInfo } = await Purchases.purchasePackage(package_);
       
-      if (typeof customerInfo.entitlements.active['pro_entitlement'] !== "undefined") {
-        Alert.alert("Başarılı!", "Tebrikler, artık sınırsız PRO kullanıcısısınız.");
+      if (typeof customerInfo.entitlements.active['pro'] !== 'undefined') {
+        Alert.alert('🎉 Hoş Geldiniz!', 'PRO üyeliğiniz aktif edildi. Artık tüm özellikleri sınırsız kullanabilirsiniz.');
         router.back();
       }
-      */
-      
-      Alert.alert(
-        "Ödeme Sistemi Hazır",
-        "RevenueCat entegrasyonu tamamlandı. _layout.tsx dosyasına API Key girdiğinizde burada gerçek Apple/Google ödeme ekranı çıkacak."
-      );
-      
     } catch (e: any) {
       if (!e.userCancelled) {
-        Alert.alert("Hata", "Ödeme işlemi sırasında bir hata oluştu: " + e.message);
+        Alert.alert('Hata', 'Ödeme işlemi sırasında bir hata oluştu: ' + e.message);
       }
     }
   };

@@ -45,6 +45,24 @@ export default function DashboardScreen() {
     checkOnboarding();
 
     const initPrayerTimes = async () => {
+      // FIX #8: AsyncStorage cache — aynı gün tekrar API çağrısı yapılmasın
+      const today = new Date().toDateString();
+      const CACHE_KEY = '@prayer_times_cache';
+      try {
+        const cached = await AsyncStorage.getItem(CACHE_KEY);
+        if (cached) {
+          const parsed = JSON.parse(cached);
+          if (parsed.date === today) {
+            // Cache geçerli — API'ye gitme
+            setLocationName(parsed.city || 'İstanbul');
+            const { timingsToday, timingsTomorrow, lat, lon } = parsed;
+            processTimings(timingsToday, timingsTomorrow);
+            return;
+          }
+        }
+      } catch (e) {
+        console.warn('Cache okuma hatası:', e);
+      }
       let lat = 41.0082;
       let lon = 28.9784;
       let city = 'İstanbul';
@@ -66,6 +84,8 @@ export default function DashboardScreen() {
       setLocationName(city);
 
       try {
+        const today = new Date().toDateString();
+        const CACHE_KEY = '@prayer_times_cache';
         const todayStr = `${new Date().getDate()}-${new Date().getMonth() + 1}-${new Date().getFullYear()}`;
         const tomorrow = new Date();
         tomorrow.setDate(tomorrow.getDate() + 1);
@@ -82,40 +102,55 @@ export default function DashboardScreen() {
         const timingsToday = dataToday.data.timings;
         const timingsTomorrow = dataTomorrow.data.timings;
 
-        const now = new Date();
-        let nextPName = '';
-        let nextPTime = new Date();
+        // Cache'e kaydet
+        await AsyncStorage.setItem(CACHE_KEY, JSON.stringify({
+          date: today,
+          city,
+          timingsToday,
+          timingsTomorrow,
+          lat,
+          lon,
+        }));
 
-        let found = false;
-        for (const prayer of prayerOrder) {
-          const timeStr = timingsToday[prayer.key];
-          const [h, m] = timeStr.split(':').map(Number);
-          const pDate = new Date();
-          pDate.setHours(h, m, 0, 0);
-
-          if (pDate.getTime() > now.getTime()) {
-            nextPName = prayer.name;
-            nextPTime = pDate;
-            found = true;
-            break;
-          }
-        }
-
-        if (!found) {
-          const fajrStr = timingsTomorrow['Fajr'];
-          const [h, m] = fajrStr.split(':').map(Number);
-          nextPTime = new Date();
-          nextPTime.setDate(nextPTime.getDate() + 1);
-          nextPTime.setHours(h, m, 0, 0);
-          nextPName = 'İMSAK';
-        }
-
-        setNextPrayerName(nextPName);
-        setTargetDate(nextPTime);
+        processTimings(timingsToday, timingsTomorrow);
 
       } catch (error) {
         console.error("Vakitler çekilemedi:", error);
       }
+    };
+
+    // FIX #8: Vaktleri işle (hem cache hem canlı API için ortak fonksiyon)
+    const processTimings = (timingsToday: Record<string, string>, timingsTomorrow: Record<string, string>) => {
+      const now = new Date();
+      let nextPName = '';
+      let nextPTime = new Date();
+      let found = false;
+
+      for (const prayer of prayerOrder) {
+        const timeStr = timingsToday[prayer.key];
+        const [h, m] = timeStr.split(':').map(Number);
+        const pDate = new Date();
+        pDate.setHours(h, m, 0, 0);
+
+        if (pDate.getTime() > now.getTime()) {
+          nextPName = prayer.name;
+          nextPTime = pDate;
+          found = true;
+          break;
+        }
+      }
+
+      if (!found) {
+        const fajrStr = timingsTomorrow['Fajr'];
+        const [h, m] = fajrStr.split(':').map(Number);
+        nextPTime = new Date();
+        nextPTime.setDate(nextPTime.getDate() + 1);
+        nextPTime.setHours(h, m, 0, 0);
+        nextPName = 'İMSAK';
+      }
+
+      setNextPrayerName(nextPName);
+      setTargetDate(nextPTime);
     };
 
     initPrayerTimes();

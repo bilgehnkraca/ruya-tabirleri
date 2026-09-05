@@ -3,6 +3,7 @@ import { DarkTheme, DefaultTheme, Stack, ThemeProvider } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
 import { Platform } from 'react-native';
+import { requestTrackingPermissionsAsync } from 'expo-tracking-transparency';
 import Purchases from 'react-native-purchases';
 import 'react-native-reanimated';
 import TrackPlayer, { Capability, AppKilledPlaybackBehavior } from 'react-native-track-player';
@@ -37,23 +38,43 @@ export default function RootLayout() {
 
   useEffect(() => {
     if (loaded) {
-      SplashScreen.hideAsync();
+      (async () => {
+        if (Platform.OS === 'ios') {
+          try {
+            await requestTrackingPermissionsAsync();
+          } catch (e) {
+            console.log("Error requesting tracking permissions:", e);
+          }
+        }
+        SplashScreen.hideAsync();
+      })();
     }
   }, [loaded]);
 
   // RevenueCat (Ödeme Sistemi) Başlatıcı (Initializer)
+  // FIX #2: Placeholder fallback kaldırıldı — key yoksa configure edilmez
   useEffect(() => {
-    const API_KEY_APPLE = process.env.EXPO_PUBLIC_REVENUECAT_APPLE || "apple_api_key_buraya_yazilacak";
-    const API_KEY_GOOGLE = process.env.EXPO_PUBLIC_REVENUECAT_GOOGLE || "google_api_key_buraya_yazilacak";
+    const API_KEY_APPLE = process.env.EXPO_PUBLIC_REVENUECAT_APPLE;
+    const API_KEY_GOOGLE = process.env.EXPO_PUBLIC_REVENUECAT_GOOGLE;
+
+    // Key yoksa sessizce atla (development ortamı)
+    if (Platform.OS === 'ios' && !API_KEY_APPLE) {
+      console.warn('RevenueCat Apple Key eksik. .env.local dosyasına EXPO_PUBLIC_REVENUECAT_APPLE ekleyin.');
+      return;
+    }
+    if (Platform.OS === 'android' && !API_KEY_GOOGLE) {
+      console.warn('RevenueCat Google Key eksik. .env.local dosyasına EXPO_PUBLIC_REVENUECAT_GOOGLE ekleyin.');
+      return;
+    }
 
     try {
-      if (Platform.OS === 'ios') {
+      if (Platform.OS === 'ios' && API_KEY_APPLE) {
         Purchases.configure({ apiKey: API_KEY_APPLE });
-      } else if (Platform.OS === 'android') {
+      } else if (Platform.OS === 'android' && API_KEY_GOOGLE) {
         Purchases.configure({ apiKey: API_KEY_GOOGLE });
       }
     } catch (error) {
-      console.warn("RevenueCat Native Modülü bulunamadı. Muhtemelen Expo Go kullanıyorsunuz. Ödeme testleri için 'npx expo run:ios' ile Native Build almanız gerekir.");
+      console.warn("RevenueCat Native Modülü bulunamadı. Ödeme testleri için 'npx expo run:ios' ile Native Build almanız gerekir.");
     }
   }, []);
 

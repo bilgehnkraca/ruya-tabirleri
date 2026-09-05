@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { StyleSheet, View, Text, ActivityIndicator, ScrollView, Alert } from 'react-native';
 import * as Location from 'expo-location';
 import { FontAwesome5 } from '@expo/vector-icons';
-import { registerForPushNotificationsAsync, schedulePrayerNotifications } from '../../utils/notifications';
+import { registerForPushNotificationsAsync, schedulePrayerNotifications, setupDailyNotificationRefresh } from '../../utils/notifications';
 import AdBanner from '../../components/AdBanner';
 import { useTabInterstitialAd } from '../../hooks/useTabInterstitialAd';
 
@@ -28,70 +28,79 @@ export default function ImsakiyeScreen() {
   const [times, setTimes] = useState<PrayerTimes | null>(null);
   const [city, setCity] = useState<string>('Konum Aranıyor...');
 
-  useEffect(() => {
-    (async () => {
-      let { status } = await Location.requestForegroundPermissionsAsync();
-      if (status !== 'granted') {
-        setLocationError('Namaz vakitleri için konum izni gereklidir.');
-        setLoading(false);
-        return;
-      }
+  const fetchAndSchedule = useCallback(async () => {
+    setLoading(true);
+    let { status } = await Location.requestForegroundPermissionsAsync();
+    if (status !== 'granted') {
+      setLocationError('Namaz vakitleri için konum izni gereklidir.');
+      setLoading(false);
+      return;
+    }
 
+    try {
+      let latitude = 41.0082; // Default Istanbul
+      let longitude = 28.9784; // Default Istanbul
+      // FIX #9: Local değişken kullan — stale state closure önlemi
+      let cityName = 'Konum Aranıyor...';
+      
       try {
-        let latitude = 41.0082; // Default Istanbul
-        let longitude = 28.9784; // Default Istanbul
-        
-        try {
-          let location = await Location.getCurrentPositionAsync({ accuracy: Location.Accuracy.Balanced });
-          latitude = location.coords.latitude;
-          longitude = location.coords.longitude;
-        } catch (locErr) {
-          console.warn("Location fetch failed, using default (Istanbul):", locErr);
-          setCity('İstanbul (Varsayılan)');
-        }
-        
-        // Reverse geocoding for city name if not already set
-        if (city === 'Konum Aranıyor...') {
-          try {
-            let address = await Location.reverseGeocodeAsync({ latitude, longitude });
-            if (address.length > 0) {
-              setCity(address[0].city || address[0].subregion || 'Bulunduğunuz Konum');
-            }
-          } catch (geoErr) {
-            console.warn("Reverse geocode failed:", geoErr);
-            setCity('Konum Bulunamadı');
-          }
-        }
-
-        // Fetch prayer times from Aladhan API (removed timestamp to avoid 302 redirect)
-        const res = await fetch(`https://api.aladhan.com/v1/timings?latitude=${latitude}&longitude=${longitude}&method=13`); 
-        const data = await res.json();
-        
-        if (data.code === 200) {
-          setTimes(data.data.timings);
-          
-          // Bildirim iznini iste ve vakitleri zamanla
-          const hasPushPermission = await registerForPushNotificationsAsync();
-          if (hasPushPermission) {
-            const prayerArray = [
-              { name: 'İmsak', time: data.data.timings.Fajr },
-              { name: 'Güneş', time: data.data.timings.Sunrise },
-              { name: 'Öğle', time: data.data.timings.Dhuhr },
-              { name: 'İkindi', time: data.data.timings.Asr },
-              { name: 'Akşam', time: data.data.timings.Maghrib },
-              { name: 'Yatsı', time: data.data.timings.Isha },
-            ];
-            await schedulePrayerNotifications(prayerArray);
-          }
-        }
-      } catch (error: any) {
-        console.error("Imsakiye Error:", error);
-        setLocationError(`Hata: ${error.message || 'Bilinmeyen hata'}`);
-      } finally {
-        setLoading(false);
+        let location = await Location.getCurrentPositionAsync({ accuracy: Location.Accuracy.Balanced });
+        latitude = location.coords.latitude;
+        longitude = location.coords.longitude;
+      } catch (locErr) {
+        console.warn("Location fetch failed, using default (Istanbul):", locErr);
+        cityName = 'İstanbul (Varsayılan)';
       }
-    })();
+      
+      // FIX #9: city state yerine local değişken üzerinden koşul yap
+      if (cityName === 'Konum Aranıyor...') {
+        try {
+          let address = await Location.reverseGeocodeAsync({ latitude, longitude });
+          if (address.length > 0) {
+            cityName = address[0].city || address[0].subregion || 'Bulunduğunuz Konum';
+          }
+        } catch (geoErr) {
+          console.warn("Reverse geocode failed:", geoErr);
+          cityName = 'Konum Bulunamadı';
+        }
+      }
+      setCity(cityName);
+
+      // Fetch prayer times from Aladhan API
+      const res = await fetch(`https://api.aladhan.com/v1/timings?latitude=${latitude}&longitude=${longitude}&method=13`); 
+      const data = await res.json();
+      
+      if (data.code === 200) {
+        setTimes(data.data.timings);
+        
+        // Bildirim iznini iste ve vakitleri zamanla
+        const hasPushPermission = await registerForPushNotificationsAsync();
+        if (hasPushPermission) {
+          const prayerArray = [
+            { name: 'İmsak', time: data.data.timings.Fajr },
+            { name: 'Güneş', time: data.data.timings.Sunrise },
+            { name: 'Öğle', time: data.data.timings.Dhuhr },
+            { name: 'İkindi', time: data.data.timings.Asr },
+            { name: 'Akşam', time: data.data.timings.Maghrib },
+            { name: 'Yatsı', time: data.data.timings.Isha },
+          ];
+          await schedulePrayerNotifications(prayerArray);
+        }
+      }
+    } catch (error: any) {
+      console.error("Imsakiye Error:", error);
+      setLocationError(`Hata: ${error.message || 'Bilinmeyen hata'}`);
+    } finally {
+      setLoading(false);
+    }
   }, []);
+
+  useEffect(() => {
+    fetchAndSchedule();
+    // FIX #6: AppState ile her gün bildirimleri yenile
+    const cleanup = setupDailyNotificationRefresh(fetchAndSchedule);
+    return cleanup;
+  }, [fetchAndSchedule]);
 
   if (loading) {
     return (

@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { StyleSheet, View, Text, TextInput, TouchableOpacity, FlatList, KeyboardAvoidingView, Platform, Dimensions, ActivityIndicator, Modal } from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { useRouter } from 'expo-router';
 import { FontAwesome5 } from '@expo/vector-icons';
 import { RewardedAd, RewardedAdEventType, AdEventType, TestIds } from 'react-native-google-mobile-ads';
-import { GoogleGenerativeAI } from '@google/generative-ai';
 
 const { width, height } = Dimensions.get('window');
 
@@ -12,19 +12,20 @@ const GOLD = '#fbbf24';
 const BLACK = '#000000';
 const DARK_GRAY = '#111111';
 
-// AdMob ID Configuration
-const adUnitId = process.env.EXPO_PUBLIC_ADMOB_REWARDED_ID || (__DEV__ ? TestIds.REWARDED : 'ca-app-pub-xxxxxxxxxxxxx/yyyyyyyyyyyy');
+// --- GÜVENLİK: API Key artık burada değil, Next.js backend'inde ---
+// Mobil uygulama sadece bu URL'e istek atar, key hiç bundle'a girmez.
+const API_BASE_URL = process.env.EXPO_PUBLIC_API_BASE_URL || 'https://www.ruyasozlugunuz.com';
+const AI_ENDPOINT = `${API_BASE_URL}/api/ai`;
+
+// AdMob ID (env'den okunur, fallback sadece dev için)
+const adUnitId = process.env.EXPO_PUBLIC_ADMOB_REWARDED_ID || (__DEV__ ? TestIds.REWARDED : '');
 
 const rewarded = RewardedAd.createForAdRequest(adUnitId, {
   requestNonPersonalizedAdsOnly: true,
 });
 
-// Gemini AI Configuration
-const GEMINI_API_KEY = process.env.EXPO_PUBLIC_GEMINI_API_KEY || '';
-const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
-const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
-
-const SYSTEM_PROMPT = `Sen manevi bir sırdaş, İslami ve psikolojik analiz yapabilen şefkatli bir rüya tabircisisin. Kullanıcının rüyalarını İbn-i Sirin, İmam Nablusi gibi kaynaklara dayanarak yorumla. Eğer bir dert anlatırsa, Kur'an ve sünnet ışığında teselli ver. Çok uzun konuşma, samimi ve saygılı ol. Her cümlen 'Maşaallah', 'İnşallah' gibi manevi bir üslupla desteklensin. Seni 'Sırdaş' olarak bilsinler.`;
+// AsyncStorage key for message count (bypass önlemi)
+const MESSAGE_COUNT_KEY = '@ai_message_count';
 
 interface Message {
   id: string;
@@ -47,6 +48,41 @@ export default function AIAssistantScreen() {
   const [showPrivacyPledge, setShowPrivacyPledge] = useState(true);
   const [messageCount, setMessageCount] = useState(0);
   const flatListRef = useRef<FlatList>(null);
+  // FIX #5: useRef ile mesajları tut — stale closure önlemi
+  const messagesRef = useRef<Message[]>(messages);
+  useEffect(() => { messagesRef.current = messages; }, [messages]);
+
+  // FIX #4: Mesaj sayısını AsyncStorage'dan yükle (bypass önlemi)
+  useEffect(() => {
+    const loadMessageCount = async () => {
+      try {
+        const stored = await AsyncStorage.getItem(MESSAGE_COUNT_KEY);
+        if (stored !== null) {
+          // Gün kontrolü: Aynı gün mü?
+          const parsed = JSON.parse(stored);
+          const today = new Date().toDateString();
+          if (parsed.date === today) {
+            setMessageCount(parsed.count);
+          } else {
+            // Yeni gün — sayacı sıfırla
+            await AsyncStorage.setItem(MESSAGE_COUNT_KEY, JSON.stringify({ count: 0, date: today }));
+          }
+        }
+      } catch (e) {
+        console.error('Message count load error:', e);
+      }
+    };
+    loadMessageCount();
+  }, []);
+
+  const saveMessageCount = async (count: number) => {
+    try {
+      const today = new Date().toDateString();
+      await AsyncStorage.setItem(MESSAGE_COUNT_KEY, JSON.stringify({ count, date: today }));
+    } catch (e) {
+      console.error('Message count save error:', e);
+    }
+  };
 
   const handleBurnAndClose = () => {
     // Sohbeti tamamen yak (RAM'den sil) ve çık
@@ -54,40 +90,40 @@ export default function AIAssistantScreen() {
     router.back();
   };
 
+  // FIX #1: Gemini API çağrısı artık backend proxy üzerinden yapılıyor
+  // API Key mobil bundle'da YOK — sadece sunucuda
   const fetchAIResponse = async (userText: string) => {
     setIsTyping(true);
     
     try {
-      if (!GEMINI_API_KEY) {
-        // Fallback for missing API Key
-        setTimeout(() => {
-          const aiResponse: Message = {
-            id: (Date.now() + 1).toString(),
-            text: "Kardeşim, şu an manevi bağlantımda bir kesinti var (API Anahtarı eksik). Lütfen ayarları kontrol et.",
-            isUser: false,
-          };
-          setMessages(prev => [...prev, aiResponse]);
-          setIsTyping(false);
-        }, 1500);
-        return;
+      // FIX #5: messagesRef kullanarak stale closure'dan kaçın
+      const currentMessages = messagesRef.current;
+      
+      const response = await fetch(AI_ENDPOINT, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          userMessage: userText,
+          chatHistory: currentMessages.slice(-10), // Son 10 mesaj
+        }),
+      });
+
+      if (!response.ok) {
+        throw new Error(`Sunucu hatası: ${response.status}`);
       }
 
-      // Build chat history for context
-      const chatContext = messages.map(m => m.isUser ? `Kullanıcı: ${m.text}` : `Sırdaş: ${m.text}`).join('\\n');
-      
-      const result = await model.generateContent(`${SYSTEM_PROMPT}\\n\\nGeçmiş Sohbet:\\n${chatContext}\\n\\nKullanıcı Yeni Mesaj: ${userText}\\nSırdaş:`);
-      const response = result.response;
-      const text = response.text();
+      const data = await response.json();
+      const text = data.reply || 'Bir yanıt alınamadı.';
 
       const aiResponse: Message = {
         id: (Date.now() + 1).toString(),
-        text: text,
+        text,
         isUser: false,
       };
       
       setMessages(prev => [...prev, aiResponse]);
     } catch (error) {
-      console.error('Gemini API Error:', error);
+      console.error('AI Proxy Error:', error);
       const aiResponse: Message = {
         id: (Date.now() + 1).toString(),
         text: "Tövbe estağfurullah... Bir hata oluştu kardeşim. Lütfen tekrar dener misin?",
@@ -111,11 +147,16 @@ export default function AIAssistantScreen() {
     setMessages(prev => [...prev, userMessage]);
     setInputText('');
 
+    // FIX #4: Sayacı AsyncStorage'a kaydet
     if (messageCount === 0) {
-      setMessageCount(1);
+      const newCount = 1;
+      setMessageCount(newCount);
+      saveMessageCount(newCount);
       fetchAIResponse(userMessage.text);
     } else if (messageCount === 1) {
-      setMessageCount(2);
+      const newCount = 2;
+      setMessageCount(newCount);
+      saveMessageCount(newCount);
       if (adLoaded) {
         rewarded.show().catch(e => {
           console.log("Reklam gösterilemedi", e);
@@ -134,13 +175,14 @@ export default function AIAssistantScreen() {
     
     const unsubscribeEarned = rewarded.addAdEventListener(
       RewardedAdEventType.EARNED_REWARD,
-      reward => {
-        // Find the last user message to respond to
-        const lastMsg = messages[messages.length - 1];
+      () => {
+        // FIX #5: messagesRef kullanarak stale closure'dan kaçın
+        const currentMessages = messagesRef.current;
+        const lastMsg = currentMessages[currentMessages.length - 1];
         if (lastMsg && lastMsg.isUser) {
-           fetchAIResponse(lastMsg.text);
+          fetchAIResponse(lastMsg.text);
         } else {
-           fetchAIResponse("Teşekkür ederim, devam edelim.");
+          fetchAIResponse('Teşekkür ederim, devam edelim.');
         }
         rewarded.load();
       },
@@ -276,15 +318,16 @@ const styles = StyleSheet.create({
     backgroundColor: BLACK,
   },
   glowTop: {
+    // FIX #12: filter:'blur' React Native'de çalışmaz (web-only CSS)
+    // Blur efekti için expo-blur paketi kullanılmalı; şimdilik opacity ile sağlanıyor
     position: 'absolute',
     top: -150,
     left: width / 4,
     width: width / 2,
     height: width / 2,
-    backgroundColor: '#7c3aed', // Mystic Purple
-    opacity: 0.15,
+    backgroundColor: '#7c3aed',
+    opacity: 0.12,
     borderRadius: width,
-    filter: 'blur(50px)',
   },
   header: {
     flexDirection: 'row',
@@ -401,7 +444,7 @@ const styles = StyleSheet.create({
   inputContainer: {
     flexDirection: 'row',
     padding: 16,
-    paddingBottom: Platform.OS === 'ios' ? 32 : 16,
+    paddingBottom: Platform.OS === 'ios' ? 48 : 24, // FIX: Butonun yazısının aşağıda kesilmemesi için padding artırıldı
     backgroundColor: DARK_GRAY,
     borderTopWidth: 1,
     borderTopColor: '#333',

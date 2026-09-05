@@ -2,7 +2,7 @@ import { useEffect, useState, useCallback } from 'react';
 import { InterstitialAd, AdEventType, TestIds } from 'react-native-google-mobile-ads';
 import { useFocusEffect } from 'expo-router';
 
-const adUnitId = __DEV__ ? TestIds.INTERSTITIAL : 'ca-app-pub-xxxxxxxxxxxxx/yyyyyyyyyyyy';
+const adUnitId = __DEV__ ? TestIds.INTERSTITIAL : (process.env.EXPO_PUBLIC_ADMOB_INTERSTITIAL_ID || '');
 
 // Create a singleton ad instance to avoid reloading issues across tabs
 const interstitial = InterstitialAd.createForAdRequest(adUnitId, {

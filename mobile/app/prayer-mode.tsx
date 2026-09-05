@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { StyleSheet, View, Text, TouchableOpacity, Switch, Dimensions, Animated } from 'react-native';
-import { Audio } from 'expo-av';
 import { useRouter } from 'expo-router';
 import { FontAwesome5 } from '@expo/vector-icons';
 import { LinearGradient } from 'expo-linear-gradient';
@@ -16,7 +15,7 @@ export default function PrayerModeScreen() {
   const [isManualActive, setIsManualActive] = useState(false);
   const [timeLeft, setTimeLeft] = useState(45 * 60); // 45 minutes in seconds
   const [pulseAnim] = useState(new Animated.Value(1));
-  const audioRef = useRef<Audio.Sound | null>(null);
+  const audioRef = useRef<any>(null);
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {

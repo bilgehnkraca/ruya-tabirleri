@@ -18,8 +18,10 @@ export default function QiblaScreen() {
 
   useEffect(() => {
     // 1. Get Location & Calculate Qibla Bearing
+    let isMounted = true;
     (async () => {
       const { status } = await Location.requestForegroundPermissionsAsync();
+      if (!isMounted) return;
       if (status !== 'granted') {
         setError('Pusula için konum izni gerekli.');
         return;
@@ -27,21 +29,24 @@ export default function QiblaScreen() {
       
       try {
         const location = await Location.getCurrentPositionAsync({});
+        if (!isMounted) return;
         const { latitude, longitude } = location.coords;
         const bearing = calculateQibla(latitude, longitude);
         setQiblaBearing(bearing);
       } catch (err) {
-        setError('Konum alınamadı.');
+        if (isMounted) setError('Konum alınamadı.');
       }
     })();
 
-    // 2. Listen to Magnetometer
-    let subscription: any;
-    const startSensors = async () => {
+    // FIX #7: useRef ile subscription sakla — race condition ve bellek sızıntısı önlemi
+    // FIX #13: EmitterSubscription tipi (any yerine)
+    const subscriptionRef: { current: ReturnType<typeof Magnetometer.addListener> | null } = { current: null };
+
+    const startSensors = () => {
       Magnetometer.setUpdateInterval(100);
-      subscription = Magnetometer.addListener(result => {
+      subscriptionRef.current = Magnetometer.addListener(result => {
+        if (!isMounted) return;
         let angle = Math.atan2(result.y, result.x) * (180 / Math.PI);
-        // Correcting for screen orientation (assuming portrait)
         angle = angle - 90;
         if (angle < 0) {
           angle = angle + 360;
@@ -51,9 +56,13 @@ export default function QiblaScreen() {
     };
     
     startSensors();
+
     return () => {
-      if (subscription) {
-        subscription.remove();
+      isMounted = false;
+      // Güvenli cleanup: subscription ne zaman atanmış olursa olsun kaldırılır
+      if (subscriptionRef.current) {
+        subscriptionRef.current.remove();
+        subscriptionRef.current = null;
       }
     };
   }, []);
