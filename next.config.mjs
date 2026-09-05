@@ -53,7 +53,7 @@ const nextConfig = {
       },
       {
         // GEO: llms.txt ve llms-full.txt için özel cache headers
-        source: '/llms:path*',
+        source: '/llms(.*)',
         headers: [
           {
             key: 'Cache-Control',
