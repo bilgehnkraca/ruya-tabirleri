@@ -1,6 +1,9 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
 import { NextRequest, NextResponse } from 'next/server';
 
+export const runtime = 'edge';
+
+
 // API Key sadece sunucu tarafında, güvenli
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY || '';
 
